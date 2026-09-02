@@ -1,0 +1,68 @@
+{
+  "experiment": "V836",
+  "historical_status": "PASS",
+  "research_question": "Can held-out development coverage/regret be used to admit a compact portfolio of complete primitive/search libraries so that unseen-task coverage is retained while portfolio regret is reduced relative to protecting all 12 libraries equally?",
+  "hypothesis": "A greedy library-level admission rule using disjoint development tasks can select a small portfolio that preserves coverage and reduces portfolio regret on unseen tasks.",
+  "independent_variable": "library portfolio selected by greedy development-set admission, evaluated at K=2,3,4,5",
+  "dependent_variables": [
+    "development mean regret",
+    "development unsolved task count",
+    "unseen-test mean regret",
+    "unseen-test median regret",
+    "unseen-test max regret",
+    "unseen-test unsolved task count"
+  ],
+  "baselines": [
+    {"name": "all12_equal_portfolio", "historical_mean_regret": 12.0},
+    {"name": "hand_small3_portfolio", "historical_mean_regret": 4.969338178511565}
+  ],
+  "task_families": [
+    "not explicitly enumerated inside the preserved V836 result artifact; the immediately preceding V835 benchmark includes NAND_NATIVE, XOR_NATIVE, OR_IMPL_NATIVE, and MIXED_NATIVE"
+  ],
+  "train_distribution": "No model-training distribution is explicitly preserved for V836; the experiment performs library-level meta-selection.",
+  "validation_distribution": "48 disjoint development tasks used by greedy meta-selection, according to the preserved V828-V836 log.",
+  "test_distribution": "Unseen test tasks evaluated for K=2..5; exact generator and seed range are not preserved in the migrated evidence.",
+  "fresh_audit_distribution": "No separate pristine fresh-audit distribution is preserved. The result JSON reports unseen-test diagnostics for multiple K values and records best_K_on_unseen_test_for_diagnostic=3.",
+  "seed_policy": {
+    "status": "NOT_PRESERVED",
+    "development_seeds": null,
+    "validation_seeds": null,
+    "test_seeds": null,
+    "fresh_audit_seeds": null
+  },
+  "search_budget": {
+    "status": "NOT_PRESERVED",
+    "candidate_libraries": 12,
+    "development_tasks": 48
+  },
+  "compute_budget": {
+    "status": "NOT_PRESERVED"
+  },
+  "original_pass_gate": {
+    "status": "BOOLEAN_OUTCOME_PRESERVED_EXACT_LOGIC_MISSING",
+    "preserved_boolean": "V836_PASS=true",
+    "explicit_pre_run_threshold": null,
+    "warning": "Do not infer a stronger exact threshold than the archive preserves."
+  },
+  "observed_result": {
+    "K2": {"selected": ["L9_ORXN", "L10_IMPLX"], "test_mean_regret": 5.113903941074989, "test_unsolved": 0},
+    "K3": {"selected": ["L9_ORXN", "L10_IMPLX", "L2_OR"], "dev_mean_regret": 4.780343649759554, "dev_unsolved": 0, "test_mean_regret": 4.713419328623934, "test_median_regret": 4.4375, "test_max_regret": 9.471503698319722, "test_unsolved": 0},
+    "K4": {"test_mean_regret": 5.631034471708222, "test_unsolved": 0},
+    "K5": {"test_mean_regret": 5.133657994668689, "test_unsolved": 0},
+    "all12_reference_mean_regret": 12.0,
+    "hand_small3_reference_mean_regret": 4.969338178511565
+  },
+  "failure_classification": [],
+  "suspected_root_causes": [],
+  "recovery_blockers": [
+    "CANNOT_REPRODUCE_MISSING_SOURCE",
+    "ORIGINAL_PASS_GATE_EXACT_LOGIC_NOT_PRESERVED",
+    "SEED_POLICY_NOT_PRESERVED",
+    "NO_SEPARATE_PRISTINE_FRESH_AUDIT_PRESERVED"
+  ],
+  "historical_artifacts": [
+    {"path": "archive/preserved_artifacts/TRANSMUTOR_V828_V836_LOG.md", "sha256": "2a930efea649aef8d76bab9215889f48514ff801fb73e8673c68465018db2b49"},
+    {"path": "archive/preserved_artifacts/transmutor_experiments_v836plus/v836_results.json", "sha256": "0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d"},
+    {"missing_path": "transmutor_v828_v836_experiments.zip", "sha256": "dcb0bfc2e4927ee89511ae7f87701ba465f6a7193a838cdb1b2dc0e1c122f953", "size_bytes": 23579}
+  ]
+}

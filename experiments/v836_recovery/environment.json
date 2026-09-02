@@ -1,0 +1,14 @@
+{
+  "capture_scope": "active recovery environment; historical V836 environment was not preserved",
+  "python": "3.13.5",
+  "numpy": "2.3.1",
+  "scipy": "1.16.0",
+  "pytorch": "2.7.1+cpu",
+  "scikit_learn": "1.7.1",
+  "os": "Windows 10.0.19045 AMD64",
+  "cpu": "AMD64",
+  "gpu": {"cuda_available": false, "device_count": 0},
+  "blas_backend": "SciPy OpenBLAS 0.3.29, USE64BITINT, DYNAMIC_ARCH",
+  "historical_random_seed_mechanism": "NOT_PRESERVED",
+  "active_random_seed_policy": "All newly executable recovery/audit utilities must accept or record explicit seeds; no global untracked randomness."
+}

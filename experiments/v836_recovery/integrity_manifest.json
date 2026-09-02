@@ -1,0 +1,22 @@
+{
+  "algorithm": "sha256",
+  "preserved_files": {
+    "archive/preserved_artifacts/TRANSMUTOR_V828_V836_LOG.md": "2a930efea649aef8d76bab9215889f48514ff801fb73e8673c68465018db2b49",
+    "archive/preserved_artifacts/transmutor_experiments_v833plus/v833_results.json": "e83a8bb15535aaa5126a755197e9db7515983833e296b49fef800b72e8e22010",
+    "archive/preserved_artifacts/transmutor_experiments_v833bplus/v833b_results.json": "7a43491a172bee30e939fb26516c8e53e42113100e819e8774d7e646aa6a24c7",
+    "archive/preserved_artifacts/transmutor_experiments_v834plus/v834_results.json": "513e5d9f0e50cc2bbb69cc02969a6c70642e774602f7b3a52c6897a75827d671",
+    "archive/preserved_artifacts/transmutor_experiments_v834bplus/v834b_results.json": "863846930d6c57177973930ea84af8ea9885d19640b48163db834b2c80b1530d",
+    "archive/preserved_artifacts/transmutor_experiments_v835plus/v835_results.json": "555b78a95555e8f721d26bce91c9a105b9d2043c2f85fdf5ac9f3548eca1d319",
+    "archive/preserved_artifacts/transmutor_experiments_v836plus/v836_results.json": "0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d"
+  },
+  "preserved_registry_files": {
+    "registry/experiments.jsonl": "598673e427036078caa73a0f8c62c172f92fdb6296e4d3f87cc58dccd61416b7",
+    "registry/experiments.csv": "54ddd7a9e9a8f661ac35e2c9797966fed33c761daac001db45f90f9ea9ea0de7",
+    "registry/artifact_inventory.json": "f5b7c821b540243e39b340a1b6fc2b3337ef5778bc6b35f6385c9b78df4c1927"
+  },
+  "missing_preserved_inventory_artifact": {
+    "path": "transmutor_v828_v836_experiments.zip",
+    "size_bytes": 23579,
+    "sha256": "dcb0bfc2e4927ee89511ae7f87701ba465f6a7193a838cdb1b2dc0e1c122f953"
+  }
+}
