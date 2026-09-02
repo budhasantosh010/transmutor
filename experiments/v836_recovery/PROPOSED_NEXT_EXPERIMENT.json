@@ -1,0 +1,91 @@
+{
+  "status": "NOT_RUN_BLOCKED_BY_V836_REPRODUCTION",
+  "provisional_name": "Post-V836 Target A: neutral-cell callable primitive invention",
+  "version": null,
+  "reason_not_versioned": "Do not start V837 until V836 is closed under the recovery rules.",
+  "research_question": "Can one generic low-level cell substrate independently discover recurring computational motifs, promote them into callable primitives based on held-out reuse value, and reduce future search/compute without named high-level operators or task-family labels?",
+  "hypothesis": "Across behaviorally different task families, repeated useful subgraphs will recur independently. A reuse-gated promoter can compress such motifs into callable units whose later reuse reduces candidate evaluations while preserving fresh held-out performance better than random or frequency-only promotion.",
+  "single_principal_change_from_existing_neutral_substrate_work": "Add evidence-gated motif compression and callable reuse; do not change the low-level cell substrate, benchmark families, objective, or resource model in the same variant.",
+  "substrate_constraints": {
+    "allowed": [
+      "generic cells with local internal state",
+      "generic incoming/outgoing messages",
+      "mutable graph connections",
+      "optional recurrence",
+      "cell birth/death",
+      "parameter mutation or training",
+      "one supplied low-level nonlinearity"
+    ],
+    "forbidden_named_high_level_objects": [
+      "MEMORY",
+      "ROUTER",
+      "SEARCH",
+      "COUNTER",
+      "ATTENTION",
+      "CONCAT",
+      "STACK"
+    ],
+    "task_family_label_exposed": false
+  },
+  "benchmark_families": [
+    "delayed recall",
+    "conditional routing",
+    "iterative parity/counter-like computation",
+    "variable-depth composition",
+    "partial-observation prediction"
+  ],
+  "baselines": [
+    "fixed architecture",
+    "same neutral substrate without primitive promotion",
+    "random motif promotion",
+    "frequency-only motif promotion",
+    "oracle hand-designed motif where meaningful"
+  ],
+  "seed_ranges": {
+    "development": [10000, 10099],
+    "validation": [20000, 20049],
+    "fresh_audit": [90000, 90049]
+  },
+  "seed_policy": "paired episode seeds across methods; fresh_audit seeds are never used for design, threshold selection, motif selection, or hyperparameter choice",
+  "fixed_gate_before_run": {
+    "gate_frozen_before_run": true,
+    "development": {
+      "independent_recurrence": "At least one structurally/behaviorally equivalent motif must be discovered independently in at least 3 development runs and in at least 2 distinct benchmark families.",
+      "heldout_value": "Promoted motif must improve validation performance or reduce validation candidate evaluations relative to no-promotion on paired seeds, with no benchmark family losing more than 2 percentage points absolute success rate.",
+      "callability": "The compressed unit must be executable as a callable graph/program object without task-family-specific relabeling or hand-written family logic.",
+      "reuse_value": "On validation tasks where the primitive is applicable, median candidate evaluations must be <= 0.75 times the no-promotion baseline while paired success rate is not lower by more than 2 percentage points.",
+      "promotion_specificity": "Random-promotion and frequency-only promotion must not match the reuse-gated method on both success and candidate-evaluation cost."
+    },
+    "fresh_audit": {
+      "episodes": 50,
+      "success_rate_requirement": "Overall paired success rate must be no worse than no-promotion by more than 2 percentage points, and at least 4 of 5 families must be non-inferior by the same margin.",
+      "search_cost_requirement": "For applicable reused motifs, median candidate evaluations must remain <= 0.80 times no-promotion.",
+      "reuse_requirement": "At least one previously promoted primitive must be automatically retrieved and reused on a fresh combination not used during motif promotion.",
+      "structural_restraint": "On an adequate negative-control family, primitive promotion count must be zero or statistically indistinguishable from the no-useful-motif null calibration fixed during development."
+    }
+  },
+  "negative_controls": [
+    "task already solved within the cheap-search adequacy budget: no primitive should be promoted",
+    "one-off noise motif: no primitive should be promoted",
+    "repeated motif with no held-out benefit: frequency alone must not cause promotion"
+  ],
+  "resource_accounting": [
+    "wall_time",
+    "candidate_evaluations",
+    "training_steps",
+    "environment_interactions",
+    "acquired_observations",
+    "search_expansions",
+    "model_fits",
+    "peak_memory",
+    "archive_lookup_count",
+    "primitive_count",
+    "primitive_reuse_count"
+  ],
+  "statistical_reporting": {
+    "binary": ["N", "success_count", "success_rate", "95% confidence interval"],
+    "continuous": ["mean", "median", "standard_deviation", "p10", "p90"],
+    "comparisons": "paired episode seeds"
+  },
+  "execution_blocker": "Historical V836 cannot currently be reproduced because transmutor_v828_v836_experiments.zip is missing. Do not execute this proposal until the V836 recovery gate is explicitly unblocked."
+}
