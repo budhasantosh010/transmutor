@@ -1,0 +1,145 @@
+{
+  "rows": [
+    {
+      "rep": 0,
+      "mul_solved": true,
+      "dot2_solved": false,
+      "portfolio_solved": true,
+      "mul_evals": 2581,
+      "dot2_evals": 12944,
+      "portfolio_compute": 5162.0,
+      "oracle_compute": 2581.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 1,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2581,
+      "dot2_evals": 720,
+      "portfolio_compute": 1440.0,
+      "oracle_compute": 720.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 2,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2617,
+      "dot2_evals": 795,
+      "portfolio_compute": 1590.0,
+      "oracle_compute": 795.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 3,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2593,
+      "dot2_evals": 720,
+      "portfolio_compute": 1440.0,
+      "oracle_compute": 720.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 4,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2605,
+      "dot2_evals": 720,
+      "portfolio_compute": 1440.0,
+      "oracle_compute": 720.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 5,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2557,
+      "dot2_evals": 798,
+      "portfolio_compute": 1596.0,
+      "oracle_compute": 798.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 6,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2605,
+      "dot2_evals": 720,
+      "portfolio_compute": 1440.0,
+      "oracle_compute": 720.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 7,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2557,
+      "dot2_evals": 6624,
+      "portfolio_compute": 5114.0,
+      "oracle_compute": 2557.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 8,
+      "mul_solved": true,
+      "dot2_solved": true,
+      "portfolio_solved": true,
+      "mul_evals": 2605,
+      "dot2_evals": 717,
+      "portfolio_compute": 1434.0,
+      "oracle_compute": 717.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 9,
+      "mul_solved": true,
+      "dot2_solved": false,
+      "portfolio_solved": true,
+      "mul_evals": 2593,
+      "dot2_evals": 12944,
+      "portfolio_compute": 5186.0,
+      "oracle_compute": 2593.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 10,
+      "mul_solved": true,
+      "dot2_solved": false,
+      "portfolio_solved": true,
+      "mul_evals": 2605,
+      "dot2_evals": 12944,
+      "portfolio_compute": 5210.0,
+      "oracle_compute": 2605.0,
+      "portfolio_regret": 2.0
+    },
+    {
+      "rep": 11,
+      "mul_solved": true,
+      "dot2_solved": false,
+      "portfolio_solved": true,
+      "mul_evals": 2593,
+      "dot2_evals": 12944,
+      "portfolio_compute": 5186.0,
+      "oracle_compute": 2593.0,
+      "portfolio_regret": 2.0
+    }
+  ],
+  "MUL_ONLY_success": 12,
+  "DOT2_ONLY_success": 8,
+  "PORTFOLIO_success": 12,
+  "median_MUL_evals": 2593.0,
+  "median_DOT2_evals": 720.0,
+  "median_portfolio_compute": 1593.0,
+  "median_portfolio_regret": 2.0,
+  "max_portfolio_regret": 2.0,
+  "V833B_PASS": true
+}

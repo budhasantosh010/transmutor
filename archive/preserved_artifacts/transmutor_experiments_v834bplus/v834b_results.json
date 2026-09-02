@@ -1,0 +1,102 @@
+{
+  "BASE_success": 10,
+  "AUTO_MACRO_success": 7,
+  "PORTFOLIO_success": 10,
+  "median_portfolio_compute": 1446.0,
+  "median_BASE_compute": 2269.0,
+  "median_regret": 2.0,
+  "max_regret": 2.0,
+  "rows": [
+    {
+      "rep": 0,
+      "base_solved": true,
+      "macro_solved": true,
+      "portfolio_solved": true,
+      "portfolio_compute": 1440.0,
+      "oracle_compute": 720.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 1,
+      "base_solved": true,
+      "macro_solved": true,
+      "portfolio_solved": true,
+      "portfolio_compute": 1416.0,
+      "oracle_compute": 708.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 2,
+      "base_solved": true,
+      "macro_solved": true,
+      "portfolio_solved": true,
+      "portfolio_compute": 1416.0,
+      "oracle_compute": 708.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 3,
+      "base_solved": true,
+      "macro_solved": true,
+      "portfolio_solved": true,
+      "portfolio_compute": 1470.0,
+      "oracle_compute": 735.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 4,
+      "base_solved": true,
+      "macro_solved": true,
+      "portfolio_solved": true,
+      "portfolio_compute": 1422.0,
+      "oracle_compute": 711.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 5,
+      "base_solved": true,
+      "macro_solved": false,
+      "portfolio_solved": true,
+      "portfolio_compute": 4562.0,
+      "oracle_compute": 2281.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 6,
+      "base_solved": true,
+      "macro_solved": false,
+      "portfolio_solved": true,
+      "portfolio_compute": 4514.0,
+      "oracle_compute": 2257.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 7,
+      "base_solved": true,
+      "macro_solved": true,
+      "portfolio_solved": true,
+      "portfolio_compute": 1428.0,
+      "oracle_compute": 714.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 8,
+      "base_solved": true,
+      "macro_solved": false,
+      "portfolio_solved": true,
+      "portfolio_compute": 4562.0,
+      "oracle_compute": 2281.0,
+      "regret": 2.0
+    },
+    {
+      "rep": 9,
+      "base_solved": true,
+      "macro_solved": true,
+      "portfolio_solved": true,
+      "portfolio_compute": 1452.0,
+      "oracle_compute": 726.0,
+      "regret": 2.0
+    }
+  ],
+  "V834B_PASS": true
+}

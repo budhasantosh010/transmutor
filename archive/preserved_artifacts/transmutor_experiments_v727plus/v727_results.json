@@ -1,0 +1,68 @@
+{
+  "discovered_primitives": {
+    "XOR2": {
+      "coefficients": [
+        0,
+        1,
+        1,
+        -2
+      ],
+      "MSE": 0.0
+    },
+    "AND2": {
+      "coefficients": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "MSE": 0.0
+    },
+    "OR2": {
+      "coefficients": [
+        0,
+        1,
+        1,
+        -1
+      ],
+      "MSE": 0.0
+    }
+  },
+  "FULL_ADDER_search": {
+    "sum_MSE": 0.0,
+    "carry_MSE": 0.0,
+    "sum_inner_pair": [
+      0,
+      1
+    ],
+    "sum_remaining": 2,
+    "carry_AND_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "4BIT_ADDER": {
+    "input_pairs": 256,
+    "error_count": 0,
+    "accuracy": 1.0,
+    "XOR_only_accuracy": 0.31640625,
+    "example_errors": []
+  },
+  "pass_gate": {
+    "all_primitives_exact": true,
+    "full_adder_exact": true,
+    "4bit_adder_exact": true,
+    "hierarchy_advantage_over_XOR_only_gt_0.5": true
+  },
+  "V727_PASS": true
+}

@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "expression_A": "(((a*v)*(-1*-1))-((0*-1)+(0-s)))",
+    "expression_B": "(((s-b)-(b*v))+tanh(tanh(b)))",
+    "shared_discovery_exact": 1.0,
+    "idle_drift_sum": 0.0,
+    "long_sequence": {
+      "32": {
+        "both_correct": 1.0,
+        "bit_accuracy": 1.0
+      },
+      "64": {
+        "both_correct": 1.0,
+        "bit_accuracy": 1.0
+      },
+      "128": {
+        "both_correct": 1.0,
+        "bit_accuracy": 1.0
+      }
+    }
+  },
+  "self_check": "append 32 random no-write steps and penalize normalized state drift",
+  "caveat": "Idle-state invariance is a supplied generic memory prior. It uses no hidden long-sequence target labels, but it does encode the idea that irrelevant no-write inputs should not erase persistent state."
+}

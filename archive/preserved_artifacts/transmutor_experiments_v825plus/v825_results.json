@@ -1,0 +1,287 @@
+{
+  "rows": [
+    {
+      "family": "NAND_NATIVE",
+      "task": 0,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 6017,
+      "macro_evals": 14897,
+      "eval_ratio_macro_over_base": 2.475818514209739,
+      "base_cost": 6,
+      "macro_cost": 4
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 1,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 617,
+      "macro_evals": 19933,
+      "eval_ratio_macro_over_base": 32.306320907617504,
+      "base_cost": 4,
+      "macro_cost": 4
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 2,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 2022,
+      "macro_evals": 18761,
+      "eval_ratio_macro_over_base": 9.2784371909001,
+      "base_cost": 5,
+      "macro_cost": 4
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 3,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 796,
+      "macro_evals": 34345,
+      "eval_ratio_macro_over_base": 43.14698492462311,
+      "base_cost": 4,
+      "macro_cost": 4
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 4,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 11,
+      "macro_evals": 41,
+      "eval_ratio_macro_over_base": 3.727272727272727,
+      "base_cost": 1,
+      "macro_cost": 1
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 5,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 109,
+      "macro_evals": 1361,
+      "eval_ratio_macro_over_base": 12.486238532110091,
+      "base_cost": 3,
+      "macro_cost": 3
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 6,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 542,
+      "macro_evals": 16253,
+      "eval_ratio_macro_over_base": 29.987084870848708,
+      "base_cost": 4,
+      "macro_cost": 4
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 7,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 866,
+      "macro_evals": 1590,
+      "eval_ratio_macro_over_base": 1.836027713625866,
+      "base_cost": 4,
+      "macro_cost": 3
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 8,
+      "base_solved": false,
+      "macro_solved": false,
+      "base_evals": 400001,
+      "macro_evals": 400001,
+      "eval_ratio_macro_over_base": 1.0,
+      "base_cost": null,
+      "macro_cost": null
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 9,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 674,
+      "macro_evals": 449,
+      "eval_ratio_macro_over_base": 0.6661721068249258,
+      "base_cost": 4,
+      "macro_cost": 2
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 10,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 40,
+      "macro_evals": 349,
+      "eval_ratio_macro_over_base": 8.725,
+      "base_cost": 2,
+      "macro_cost": 2
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 11,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 535,
+      "macro_evals": 15965,
+      "eval_ratio_macro_over_base": 29.8411214953271,
+      "base_cost": 4,
+      "macro_cost": 4
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 0,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 3070,
+      "macro_evals": 46,
+      "eval_ratio_macro_over_base": 0.01498371335504886,
+      "base_cost": 5,
+      "macro_cost": 1
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 1,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 11,
+      "macro_evals": 41,
+      "eval_ratio_macro_over_base": 3.727272727272727,
+      "base_cost": 1,
+      "macro_cost": 1
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 2,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 25058,
+      "macro_evals": 292,
+      "eval_ratio_macro_over_base": 0.011652965120919467,
+      "base_cost": 7,
+      "macro_cost": 2
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 3,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 585,
+      "macro_evals": 288,
+      "eval_ratio_macro_over_base": 0.49230769230769234,
+      "base_cost": 4,
+      "macro_cost": 2
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 4,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 191179,
+      "macro_evals": 185797,
+      "eval_ratio_macro_over_base": 0.9718483724676874,
+      "base_cost": 9,
+      "macro_cost": 5
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 5,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 30053,
+      "macro_evals": 4501,
+      "eval_ratio_macro_over_base": 0.14976874188932884,
+      "base_cost": 7,
+      "macro_cost": 3
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 6,
+      "base_solved": false,
+      "macro_solved": true,
+      "base_evals": 400001,
+      "macro_evals": 1891,
+      "eval_ratio_macro_over_base": 0.004727488181279547,
+      "base_cost": null,
+      "macro_cost": 3
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 7,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 157553,
+      "macro_evals": 3276,
+      "eval_ratio_macro_over_base": 0.02079300298947021,
+      "base_cost": 9,
+      "macro_cost": 3
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 8,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 3598,
+      "macro_evals": 2355,
+      "eval_ratio_macro_over_base": 0.6545302946081156,
+      "base_cost": 5,
+      "macro_cost": 3
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 9,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 189437,
+      "macro_evals": 1162,
+      "eval_ratio_macro_over_base": 0.006133965381630833,
+      "base_cost": 9,
+      "macro_cost": 3
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 10,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 17,
+      "macro_evals": 2,
+      "eval_ratio_macro_over_base": 0.11764705882352941,
+      "base_cost": 2,
+      "macro_cost": 1
+    },
+    {
+      "family": "MACRO_NATIVE",
+      "task": 11,
+      "base_solved": true,
+      "macro_solved": true,
+      "base_evals": 3573,
+      "macro_evals": 2087,
+      "eval_ratio_macro_over_base": 0.5841029946823397,
+      "base_cost": 5,
+      "macro_cost": 3
+    }
+  ],
+  "by_family": {
+    "NAND_NATIVE": {
+      "base_solved_count": 11,
+      "macro_solved_count": 11,
+      "both_solved_count": 11,
+      "median_eval_ratio_macro_over_base": 9.2784371909001,
+      "macro_faster_count": 1,
+      "macro_slower_count": 10
+    },
+    "MACRO_NATIVE": {
+      "base_solved_count": 11,
+      "macro_solved_count": 12,
+      "both_solved_count": 11,
+      "median_eval_ratio_macro_over_base": 0.14976874188932884,
+      "macro_faster_count": 11,
+      "macro_slower_count": 1
+    }
+  },
+  "V825_NEGATIVE_CONTROL_PASS": true
+}

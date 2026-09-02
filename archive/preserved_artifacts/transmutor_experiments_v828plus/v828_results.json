@@ -1,0 +1,488 @@
+{
+  "tasks": 26,
+  "phase_lengths": {
+    "A": 8,
+    "B": 10,
+    "C": 8
+  },
+  "totals": {
+    "STATIC_FULL": {
+      "solved": 25,
+      "total_evals": 452465
+    },
+    "STATIC_BASE": {
+      "solved": 14,
+      "total_evals": 1719883
+    },
+    "ADAPTIVE": {
+      "solved": 23,
+      "total_evals": 721066
+    }
+  },
+  "adaptive_history": [
+    {
+      "step": 0,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 120001,
+      "solved": false,
+      "active": [
+        "NAND",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.0,
+        "XOR": 0.28,
+        "XNOR": 0.28
+      }
+    },
+    {
+      "step": 1,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 767,
+      "solved": true,
+      "active": [
+        "NAND",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": -0.042230359600665894,
+        "XOR": 0.15289716792230817,
+        "XNOR": 0.2691209318863178
+      }
+    },
+    {
+      "step": 2,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 16735,
+      "solved": true,
+      "active": [
+        "NAND",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": -0.09959620481548671,
+        "XOR": 0.045669012294484335,
+        "XNOR": 0.2414627457172573
+      }
+    },
+    {
+      "step": 3,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 94891,
+      "solved": true,
+      "active": [
+        "NAND",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.026967302927223533,
+        "XOR": -0.042192220121054516,
+        "XNOR": 0.45385317691642524
+      }
+    },
+    {
+      "step": 4,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 839,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.299416458107601,
+        "XOR": -0.07906556652122476,
+        "XNOR": 0.3242285522878649
+      }
+    },
+    {
+      "step": 5,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 1902,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.3567284294713369,
+        "XOR": 0.03932733984640496,
+        "XNOR": 0.3306413207228483
+      }
+    },
+    {
+      "step": 6,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 1439,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.23539827483688727,
+        "XOR": -0.010083931933007075,
+        "XNOR": 0.19966213429803212
+      }
+    },
+    {
+      "step": 7,
+      "phase": "A",
+      "policy": "ADAPTIVE",
+      "evals": 495,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.3561201701055795,
+        "XOR": -0.04292420180713171,
+        "XNOR": 0.2707383623166262
+      }
+    },
+    {
+      "step": 8,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 120001,
+      "solved": false,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.25640652247601725,
+        "XOR": -0.03090542530113483,
+        "XNOR": 0.19493162086797083
+      }
+    },
+    {
+      "step": 9,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 101660,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.11261930230499585,
+        "XOR": 0.257748093783183,
+        "XNOR": 0.08613870872825993
+      }
+    },
+    {
+      "step": 10,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 149,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.3292634721369596,
+        "XOR": 0.15578188044409386,
+        "XNOR": 0.03222312320454927
+      }
+    },
+    {
+      "step": 11,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 25,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.21870420142588654,
+        "XOR": 0.09379745540702321,
+        "XNOR": 0.004835150194551104
+      }
+    },
+    {
+      "step": 12,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 9,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.14184697643464364,
+        "XOR": 0.051914119301062024,
+        "XNOR": -0.012138740451917887
+      }
+    },
+    {
+      "step": 13,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 389,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.3173345927821849,
+        "XOR": 0.002216120509898903,
+        "XNOR": -0.04390193851224663
+      }
+    },
+    {
+      "step": 14,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 19729,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.16682385786334525,
+        "XOR": -0.04039827519005251,
+        "XNOR": 0.04584358636996208
+      }
+    },
+    {
+      "step": 15,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 13329,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.1804287852823624,
+        "XOR": -0.0773240627114606,
+        "XNOR": 0.04877640941705609
+      }
+    },
+    {
+      "step": 16,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 22801,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR"
+      ],
+      "utility": {
+        "OR": 0.19065248906573393,
+        "XOR": -0.10283766791229988,
+        "XNOR": -0.012153808414737434
+      }
+    },
+    {
+      "step": 17,
+      "phase": "B",
+      "policy": "ADAPTIVE",
+      "evals": 12508,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR"
+      ],
+      "utility": {
+        "OR": 0.2787492463205035,
+        "XOR": -0.12187736405981418,
+        "XNOR": -0.10617853819151327
+      }
+    },
+    {
+      "step": 18,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 120001,
+      "solved": false,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.20069945735076253,
+        "XOR": 0.19224829787693382,
+        "XNOR": 0.20355145250211049
+      }
+    },
+    {
+      "step": 19,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 1403,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.10227324969188312,
+        "XOR": 0.1002603591705672,
+        "XNOR": 0.2474295741085642
+      }
+    },
+    {
+      "step": 20,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 44969,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.0044463938751485715,
+        "XOR": 0.020306459584702972,
+        "XNOR": 0.45814929335816623
+      }
+    },
+    {
+      "step": 21,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 23174,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.10187797398448094,
+        "XOR": -0.03274037240216942,
+        "XNOR": 0.28211320845342847
+      }
+    },
+    {
+      "step": 22,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 14,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.3533521412688263,
+        "XOR": -0.03919311672155666,
+        "XNOR": 0.1875014614944738
+      }
+    },
+    {
+      "step": 23,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 1902,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.39556212134741914,
+        "XOR": 0.06803550370216599,
+        "XNOR": 0.23219781535160672
+      }
+    },
+    {
+      "step": 24,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 1439,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.2633585329876664,
+        "XOR": 0.010585946043140865,
+        "XNOR": 0.1287828104307382
+      }
+    },
+    {
+      "step": 25,
+      "phase": "C",
+      "policy": "ADAPTIVE",
+      "evals": 495,
+      "solved": true,
+      "active": [
+        "NAND",
+        "OR",
+        "XNOR",
+        "XOR"
+      ],
+      "utility": {
+        "OR": 0.3762515559741405,
+        "XOR": -0.028041889664305195,
+        "XNOR": 0.21970524913217454
+      }
+    }
+  ],
+  "adaptive_vs_full_reduction": -0.5936392870166753,
+  "adaptive_vs_base_reduction": 0.5807470624455269,
+  "V828_PASS": false
+}

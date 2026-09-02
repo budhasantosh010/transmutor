@@ -1,0 +1,84 @@
+{
+  "status": "irregular random-scale unlabeled developmental-axis audit",
+  "foundations": 3,
+  "mean_pc1_variance": 0.6240265965461731,
+  "mean_spearman": 0.942857142857143,
+  "mean_monotonic_steps": 4.0,
+  "rows": [
+    {
+      "seed": 66500,
+      "random_gaps_revealed_after_PCA": [
+        5,
+        7,
+        8,
+        13,
+        29,
+        176
+      ],
+      "pc1_variance": 0.6510515809059143,
+      "pc1_coordinates": {
+        "5": -0.371724009513855,
+        "7": -0.293692022562027,
+        "8": -0.29848137497901917,
+        "13": -0.1729339361190796,
+        "29": 0.3992060720920563,
+        "176": 0.737625241279602
+      },
+      "spearman_pc1_vs_log_gap": 0.942857142857143,
+      "adjacent_monotonic_increases": 4,
+      "out_of": 5
+    },
+    {
+      "seed": 66501,
+      "random_gaps_revealed_after_PCA": [
+        8,
+        16,
+        22,
+        64,
+        74,
+        214
+      ],
+      "pc1_variance": 0.5371354222297668,
+      "pc1_coordinates": {
+        "8": -0.48082277178764343,
+        "16": -0.3428758978843689,
+        "22": -0.224069744348526,
+        "64": 0.3181792199611664,
+        "74": 0.32837507128715515,
+        "214": 0.4012141525745392
+      },
+      "spearman_pc1_vs_log_gap": 1.0,
+      "adjacent_monotonic_increases": 5,
+      "out_of": 5
+    },
+    {
+      "seed": 66502,
+      "random_gaps_revealed_after_PCA": [
+        6,
+        7,
+        26,
+        64,
+        85,
+        138
+      ],
+      "pc1_variance": 0.6838927865028381,
+      "pc1_coordinates": {
+        "6": -0.6279539465904236,
+        "7": -0.6496488451957703,
+        "26": -0.004895936697721481,
+        "64": 0.3198535442352295,
+        "85": 0.4817984104156494,
+        "138": 0.48084673285484314
+      },
+      "spearman_pc1_vs_log_gap": 0.8857142857142858,
+      "adjacent_monotonic_increases": 3,
+      "out_of": 5
+    }
+  ],
+  "pass_gate": {
+    "mean_pc1_variance_at_least_0.50": true,
+    "mean_spearman_at_least_0.85": true,
+    "mean_monotonic_at_least_4_of_5": true
+  },
+  "V665_PASS": true
+}

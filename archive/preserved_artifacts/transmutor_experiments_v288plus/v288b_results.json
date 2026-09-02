@@ -1,0 +1,37 @@
+{
+  "library_size": 4200,
+  "useful_seed_expressions_planted": false,
+  "results": {
+    "PARITY": {
+      "expression": "((s-(s+v))+(s*(v+v)))",
+      "train_accuracy": 1.0,
+      "mean_long_accuracy": 1.0,
+      "long_accuracy": {
+        "9": 1.0,
+        "15": 1.0,
+        "31": 1.0
+      }
+    },
+    "MAJORITY": {
+      "expression": "(((0*v)+(s+f))+((v*f)-(v-f)))",
+      "train_accuracy": 1.0,
+      "mean_long_accuracy": 1.0,
+      "long_accuracy": {
+        "9": 1.0,
+        "15": 1.0,
+        "31": 1.0
+      }
+    },
+    "FLAG_MEMORY": {
+      "expression": "(s+((v*-1)*f))",
+      "train_accuracy": 1.0,
+      "mean_long_accuracy": 1.0,
+      "long_accuracy": {
+        "9": 1.0,
+        "15": 1.0,
+        "31": 1.0
+      }
+    }
+  },
+  "caveat": "The recurrence scaffold, scalar state, flag input, expression grammar, and affine readout remain supplied. Random grammar search is also expensive and not yet a scalable discovery process."
+}

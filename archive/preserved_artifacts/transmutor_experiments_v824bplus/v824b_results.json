@@ -1,0 +1,195 @@
+{
+  "curriculum": {
+    "AND": {
+      "solved": true,
+      "cost": 3,
+      "evals": 27,
+      "expr": "NAND(NAND(x0,x1),NAND(x0,x1))",
+      "seen": 10
+    },
+    "OR": {
+      "solved": true,
+      "cost": 3,
+      "evals": 25,
+      "expr": "NAND(NAND(x0,x0),NAND(x1,x1))",
+      "seen": 9
+    },
+    "XOR": {
+      "solved": true,
+      "cost": 5,
+      "evals": 75,
+      "expr": "NAND(NAND(x0,NAND(x0,x1)),NAND(x1,NAND(x0,x0)))",
+      "seen": 15
+    },
+    "XNOR": {
+      "solved": true,
+      "cost": 5,
+      "evals": 66,
+      "expr": "NAND(NAND(x0,x1),NAND(NAND(x0,x0),NAND(x1,x1)))",
+      "seen": 11
+    },
+    "IMPLIES": {
+      "solved": true,
+      "cost": 2,
+      "evals": 6,
+      "expr": "NAND(x0,NAND(x0,x1))",
+      "seen": 7
+    }
+  },
+  "candidate_macros": [
+    "AND",
+    "OR",
+    "XOR",
+    "XNOR",
+    "IMPLIES"
+  ],
+  "probe_specs": [
+    [
+      "OR",
+      "AND",
+      "XNOR"
+    ],
+    [
+      "XNOR",
+      "XNOR",
+      "AND"
+    ],
+    [
+      "OR",
+      "IMPLIES",
+      "XNOR"
+    ],
+    [
+      "XOR",
+      "IMPLIES",
+      "OR"
+    ],
+    [
+      "IMPLIES",
+      "IMPLIES",
+      "OR"
+    ],
+    [
+      "IMPLIES",
+      "XOR",
+      "OR"
+    ],
+    [
+      "AND",
+      "AND",
+      "IMPLIES"
+    ],
+    [
+      "AND",
+      "AND",
+      "OR"
+    ],
+    [
+      "OR",
+      "OR",
+      "XOR"
+    ],
+    [
+      "IMPLIES",
+      "XNOR",
+      "AND"
+    ]
+  ],
+  "macro_scores": {
+    "AND": {
+      "score": -21550,
+      "raw_eval_savings": -21250,
+      "definition_cost": 3,
+      "solved_both": 10
+    },
+    "OR": {
+      "score": 4650,
+      "raw_eval_savings": 4950,
+      "definition_cost": 3,
+      "solved_both": 10
+    },
+    "XOR": {
+      "score": 10237,
+      "raw_eval_savings": 10737,
+      "definition_cost": 5,
+      "solved_both": 10
+    },
+    "XNOR": {
+      "score": 11803,
+      "raw_eval_savings": 12303,
+      "definition_cost": 5,
+      "solved_both": 10
+    },
+    "IMPLIES": {
+      "score": -1501,
+      "raw_eval_savings": -1301,
+      "definition_cost": 2,
+      "solved_both": 10
+    }
+  },
+  "admitted_macros": [
+    "XNOR",
+    "XOR",
+    "OR"
+  ],
+  "transfer": {
+    "3": {
+      "NAND_ONLY": {
+        "solved": true,
+        "cost": 14,
+        "evals": 37845,
+        "expr": "NAND(NAND(x0,NAND(NAND(x1,x2),NAND(NAND(x0,x1),NAND(x0,x2)))),NAND(NAND(x0,x0),NAND(NAND(x1,NAND(x1,x2)),NAND(x2,NAND(x1,x1)))))",
+        "seen": 256
+      },
+      "ADMITTED_MACROS": {
+        "solved": true,
+        "cost": 2,
+        "evals": 90,
+        "expr": "MACRO_XNOR(x0,MACRO_XNOR(x1,x2))",
+        "seen": 34
+      },
+      "eval_reduction_fraction": 0.9976218787158145
+    },
+    "4": {
+      "NAND_ONLY": {
+        "solved": false,
+        "cost": null,
+        "evals": 1000001,
+        "expr": null,
+        "seen": 19678
+      },
+      "ADMITTED_MACROS": {
+        "solved": true,
+        "cost": 3,
+        "evals": 1383,
+        "expr": "MACRO_XOR(x0,MACRO_XNOR(x1,MACRO_XNOR(x2,x3)))",
+        "seen": 325
+      },
+      "eval_reduction_fraction": 0.9986170013829986
+    },
+    "5": {
+      "NAND_ONLY": {
+        "solved": false,
+        "cost": null,
+        "evals": 1000001,
+        "expr": null,
+        "seen": 146627
+      },
+      "ADMITTED_MACROS": {
+        "solved": true,
+        "cost": 4,
+        "evals": 31866,
+        "expr": "MACRO_XNOR(x0,MACRO_XNOR(x1,MACRO_XNOR(x2,MACRO_XNOR(x3,x4))))",
+        "seen": 5548
+      },
+      "eval_reduction_fraction": 0.9681340318659681
+    }
+  },
+  "pass_gate": {
+    "xor_discovered": true,
+    "at_least_one_macro_admitted": true,
+    "parity4_macro_solved": true,
+    "parity4_improves": true
+  },
+  "V824B_PASS": true
+}

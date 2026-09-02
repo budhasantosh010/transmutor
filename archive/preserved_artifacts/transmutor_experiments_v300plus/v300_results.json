@@ -1,0 +1,96 @@
+{
+  "summary": {
+    "phases": [
+      {
+        "phase": 1,
+        "target": [
+          3,
+          9,
+          14
+        ],
+        "gate_set": [
+          9,
+          14,
+          3
+        ],
+        "repair_evals": 0,
+        "train_exact": 1.0,
+        "length256_exact": 1.0
+      },
+      {
+        "phase": 2,
+        "target": [
+          3,
+          9,
+          12
+        ],
+        "gate_set": [
+          9,
+          3,
+          12
+        ],
+        "repair_evals": 17,
+        "length256_exact": 1.0,
+        "history": [
+          {
+            "gate_set": [
+              9,
+              14,
+              3
+            ],
+            "exact": 0.5108333333333334
+          },
+          {
+            "removed": 14,
+            "added": 12,
+            "gate_set": [
+              9,
+              3,
+              12
+            ],
+            "exact": 1.0
+          }
+        ]
+      },
+      {
+        "phase": 3,
+        "target": [
+          3,
+          7,
+          12
+        ],
+        "gate_set": [
+          3,
+          12,
+          7
+        ],
+        "repair_evals": 17,
+        "length256_exact": 1.0,
+        "history": [
+          {
+            "gate_set": [
+              9,
+              3,
+              12
+            ],
+            "exact": 0.5275
+          },
+          {
+            "removed": 9,
+            "added": 7,
+            "gate_set": [
+              3,
+              12,
+              7
+            ],
+            "exact": 1.0
+          }
+        ]
+      }
+    ],
+    "repair_total_candidate_evals": 34,
+    "scratch_rebuild_total_candidate_evals": 90,
+    "repair_savings_percent": 62.22222222222222
+  },
+  "caveat": "Each environment change swaps only one relevant gate, favoring local repair. The repair policy knows capacity stays at three and tests removal/addition effects using supervised task output."
+}

@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "current_language_rule_count": 160,
+    "train_episodes": 192,
+    "test_episodes": 320,
+    "overall_level_choice_accuracy": 1.0,
+    "by_task": {
+      "FLAG_MEMORY": 1.0,
+      "NEG_FLAG_MEMORY": 1.0,
+      "LAST_BIT": 1.0,
+      "NEG_LAST_BIT": 1.0,
+      "MAJORITY": 1.0,
+      "NEG_MAJORITY": 1.0,
+      "PARITY": 1.0,
+      "NEG_PARITY": 1.0
+    },
+    "capability_audit": {
+      "FLAG_MEMORY": {
+        "macro_check": 1.0,
+        "search20": 0.6357142857142857,
+        "search60": 0.6357142857142857,
+        "search150": 0.6357142857142857,
+        "historical_cheapest_successful_action": "REUSE"
+      },
+      "NEG_FLAG_MEMORY": {
+        "macro_check": 1.0,
+        "search20": 0.6238095238095238,
+        "search60": 0.6238095238095238,
+        "search150": 0.6238095238095238,
+        "historical_cheapest_successful_action": "REUSE"
+      },
+      "LAST_BIT": {
+        "macro_check": 0.4880952380952381,
+        "search20": 1.0,
+        "search60": 1.0,
+        "search150": 1.0,
+        "historical_cheapest_successful_action": "SEARCH"
+      },
+      "NEG_LAST_BIT": {
+        "macro_check": 0.5142857142857142,
+        "search20": 1.0,
+        "search60": 1.0,
+        "search150": 1.0,
+        "historical_cheapest_successful_action": "SEARCH"
+      },
+      "MAJORITY": {
+        "macro_check": 0.5,
+        "search20": 1.0,
+        "search60": 1.0,
+        "search150": 1.0,
+        "historical_cheapest_successful_action": "SEARCH"
+      },
+      "NEG_MAJORITY": {
+        "macro_check": 0.5119047619047619,
+        "search20": 1.0,
+        "search60": 1.0,
+        "search150": 1.0,
+        "historical_cheapest_successful_action": "SEARCH"
+      },
+      "PARITY": {
+        "macro_check": 0.5071428571428571,
+        "search20": 0.5071428571428571,
+        "search60": 0.5071428571428571,
+        "search150": 0.5071428571428571,
+        "historical_cheapest_successful_action": "PRIMITIVE"
+      },
+      "NEG_PARITY": {
+        "macro_check": 0.5047619047619047,
+        "search20": 0.530952380952381,
+        "search60": 0.530952380952381,
+        "search150": 0.530952380952381,
+        "historical_cheapest_successful_action": "PRIMITIVE"
+      }
+    }
+  },
+  "features": [
+    "old-macro validation",
+    "search@20",
+    "search@60",
+    "search@150",
+    "gain20to60",
+    "gain60to150"
+  ],
+  "caveat": "Historical labels are family-level completed outcomes, and fresh tests reuse the same synthetic families. This is a meta-routing proof-of-mechanism, not open-world level selection."
+}

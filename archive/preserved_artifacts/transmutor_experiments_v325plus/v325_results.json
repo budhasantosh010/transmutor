@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "initial_hypotheses": 3,
+    "candidate_probes": 9,
+    "selected_probe": [
+      0,
+      0
+    ],
+    "selected_probe_predictions": [
+      -1,
+      0,
+      1
+    ],
+    "selected_probe_entropy_bits": 1.584962500721156,
+    "environment_observation": 0,
+    "surviving_hypotheses": 1,
+    "survivor_is_exact_multiplication": true,
+    "all_probe_scores": [
+      {
+        "probe": [
+          -1,
+          -1
+        ],
+        "predictions": [
+          1,
+          1,
+          1
+        ],
+        "disagreement_entropy": -0.0
+      },
+      {
+        "probe": [
+          -1,
+          0
+        ],
+        "predictions": [
+          0,
+          0,
+          0
+        ],
+        "disagreement_entropy": -0.0
+      },
+      {
+        "probe": [
+          -1,
+          1
+        ],
+        "predictions": [
+          -1,
+          -1,
+          -1
+        ],
+        "disagreement_entropy": -0.0
+      },
+      {
+        "probe": [
+          0,
+          -1
+        ],
+        "predictions": [
+          0,
+          0,
+          0
+        ],
+        "disagreement_entropy": -0.0
+      },
+      {
+        "probe": [
+          0,
+          0
+        ],
+        "predictions": [
+          -1,
+          0,
+          1
+        ],
+        "disagreement_entropy": 1.584962500721156
+      },
+      {
+        "probe": [
+          0,
+          1
+        ],
+        "predictions": [
+          0,
+          0,
+          0
+        ],
+        "disagreement_entropy": -0.0
+      },
+      {
+        "probe": [
+          1,
+          -1
+        ],
+        "predictions": [
+          -1,
+          -1,
+          -1
+        ],
+        "disagreement_entropy": -0.0
+      },
+      {
+        "probe": [
+          1,
+          0
+        ],
+        "predictions": [
+          0,
+          0,
+          0
+        ],
+        "disagreement_entropy": -0.0
+      },
+      {
+        "probe": [
+          1,
+          1
+        ],
+        "predictions": [
+          1,
+          1,
+          1
+        ],
+        "disagreement_entropy": -0.0
+      }
+    ]
+  },
+  "caveat": "The probe space and disagreement/entropy objective are supplied. The environment acts as an oracle for the chosen primitive input. This demonstrates active disambiguation, not autonomous invention of the experiment vocabulary itself."
+}

@@ -1,0 +1,81 @@
+{
+  "policy": "start with zero memories; greedily bind one promoted MEMORY macro to the unused gate that most improves exact training success; stop at >=99%",
+  "results": {
+    "NEED_1": {
+      "chosen_gates": [
+        "A"
+      ],
+      "copies_grown": 1,
+      "train_exact": 1.0,
+      "length256_exact": 1.0,
+      "growth_history": [
+        {
+          "copies": 0,
+          "exact": 0.507
+        },
+        {
+          "copies": 1,
+          "exact": 1.0,
+          "added_gate": "A"
+        }
+      ]
+    },
+    "NEED_2": {
+      "chosen_gates": [
+        "A",
+        "B"
+      ],
+      "copies_grown": 2,
+      "train_exact": 1.0,
+      "length256_exact": 1.0,
+      "growth_history": [
+        {
+          "copies": 0,
+          "exact": 0.289
+        },
+        {
+          "copies": 1,
+          "exact": 0.537,
+          "added_gate": "A"
+        },
+        {
+          "copies": 2,
+          "exact": 1.0,
+          "added_gate": "B"
+        }
+      ]
+    },
+    "NEED_3": {
+      "chosen_gates": [
+        "C",
+        "B",
+        "A"
+      ],
+      "copies_grown": 3,
+      "train_exact": 1.0,
+      "length256_exact": 1.0,
+      "growth_history": [
+        {
+          "copies": 0,
+          "exact": 0.13
+        },
+        {
+          "copies": 1,
+          "exact": 0.262,
+          "added_gate": "C"
+        },
+        {
+          "copies": 2,
+          "exact": 0.515,
+          "added_gate": "B"
+        },
+        {
+          "copies": 3,
+          "exact": 1.0,
+          "added_gate": "A"
+        }
+      ]
+    }
+  },
+  "caveat": "The MEMORY macro, three available gate bindings, greedy growth operator, and 99% stopping threshold are supplied. This autonomously chooses copy count within a predefined macro-and-binding vocabulary."
+}

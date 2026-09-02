@@ -1,0 +1,219 @@
+{
+  "rows": [
+    {
+      "rep": 0,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2581,
+      "best_mse": 4.468748208001406e-05,
+      "expr": "ADD(ADD(MUL(x7,x6),MUL(x1,x0)),ADD(MUL(x2,x3),MUL(x4,x5)))"
+    },
+    {
+      "rep": 0,
+      "mode": "DOT2_LIBRARY",
+      "solved": false,
+      "evals": 12944,
+      "best_mse": 0.09281093436259363,
+      "expr": "ADD(DOT2(x7,x6,x0,x1),MUL(x3,x2))"
+    },
+    {
+      "rep": 1,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2581,
+      "best_mse": 5.7210508797931564e-05,
+      "expr": "ADD(ADD(MUL(x5,x4),MUL(x7,x6)),ADD(MUL(x1,x0),MUL(x3,x2)))"
+    },
+    {
+      "rep": 1,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 720,
+      "best_mse": 5.675537934272579e-05,
+      "expr": "ADD(DOT2(x4,x5,x0,x1),DOT2(x2,x3,x6,x7))"
+    },
+    {
+      "rep": 2,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2617,
+      "best_mse": 3.969705628739756e-05,
+      "expr": "ADD(ADD(MUL(x7,x6),MUL(x4,x5)),ADD(MUL(x3,x2),MUL(x0,x1)))"
+    },
+    {
+      "rep": 2,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 795,
+      "best_mse": 3.8216707872691224e-05,
+      "expr": "ADD(DOT2(x2,x3,x6,x7),DOT2(x0,x1,x5,x4))"
+    },
+    {
+      "rep": 3,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2593,
+      "best_mse": 5.0892736517424706e-05,
+      "expr": "ADD(ADD(MUL(x6,x7),MUL(x5,x4)),ADD(MUL(x3,x2),MUL(x1,x0)))"
+    },
+    {
+      "rep": 3,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 720,
+      "best_mse": 5.1195627240953235e-05,
+      "expr": "ADD(DOT2(x5,x4,x3,x2),DOT2(x0,x1,x6,x7))"
+    },
+    {
+      "rep": 4,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2605,
+      "best_mse": 4.00039526050726e-05,
+      "expr": "ADD(ADD(MUL(x1,x0),MUL(x2,x3)),ADD(MUL(x6,x7),MUL(x5,x4)))"
+    },
+    {
+      "rep": 4,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 720,
+      "best_mse": 3.908924756872776e-05,
+      "expr": "ADD(DOT2(x0,x1,x3,x2),DOT2(x4,x5,x6,x7))"
+    },
+    {
+      "rep": 5,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2557,
+      "best_mse": 4.289211171925175e-05,
+      "expr": "ADD(ADD(MUL(x6,x7),MUL(x4,x5)),ADD(MUL(x2,x3),MUL(x1,x0)))"
+    },
+    {
+      "rep": 5,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 798,
+      "best_mse": 4.486847623691235e-05,
+      "expr": "ADD(DOT2(x4,x5,x3,x2),DOT2(x0,x1,x6,x7))"
+    },
+    {
+      "rep": 6,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2605,
+      "best_mse": 5.392383525632336e-05,
+      "expr": "ADD(ADD(MUL(x1,x0),MUL(x2,x3)),ADD(MUL(x4,x5),MUL(x6,x7)))"
+    },
+    {
+      "rep": 6,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 720,
+      "best_mse": 5.332073624260632e-05,
+      "expr": "ADD(DOT2(x0,x1,x2,x3),DOT2(x6,x7,x4,x5))"
+    },
+    {
+      "rep": 7,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2557,
+      "best_mse": 4.555632469881055e-05,
+      "expr": "ADD(ADD(MUL(x3,x2),MUL(x0,x1)),ADD(MUL(x7,x6),MUL(x5,x4)))"
+    },
+    {
+      "rep": 7,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 6624,
+      "best_mse": 4.555632469881055e-05,
+      "expr": "ADD(ADD(MUL(x3,x2),MUL(x0,x1)),ADD(MUL(x7,x6),MUL(x5,x4)))"
+    },
+    {
+      "rep": 8,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2605,
+      "best_mse": 5.3835214710256304e-05,
+      "expr": "ADD(ADD(MUL(x6,x7),MUL(x5,x4)),ADD(MUL(x3,x2),MUL(x0,x1)))"
+    },
+    {
+      "rep": 8,
+      "mode": "DOT2_LIBRARY",
+      "solved": true,
+      "evals": 717,
+      "best_mse": 5.3835214710256304e-05,
+      "expr": "ADD(DOT2(x6,x7,x5,x4),DOT2(x0,x1,x3,x2))"
+    },
+    {
+      "rep": 9,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2593,
+      "best_mse": 4.78952395816861e-05,
+      "expr": "ADD(ADD(MUL(x6,x7),MUL(x1,x0)),ADD(MUL(x5,x4),MUL(x3,x2)))"
+    },
+    {
+      "rep": 9,
+      "mode": "DOT2_LIBRARY",
+      "solved": false,
+      "evals": 12944,
+      "best_mse": 0.08832069049920159,
+      "expr": "ADD(DOT2(x5,x4,x6,x7),MUL(x1,x0))"
+    },
+    {
+      "rep": 10,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2605,
+      "best_mse": 3.19297506375847e-05,
+      "expr": "ADD(ADD(MUL(x3,x2),MUL(x7,x6)),ADD(MUL(x0,x1),MUL(x4,x5)))"
+    },
+    {
+      "rep": 10,
+      "mode": "DOT2_LIBRARY",
+      "solved": false,
+      "evals": 12944,
+      "best_mse": 0.10548388604999513,
+      "expr": "ADD(DOT2(x7,x6,x3,x2),MUL(x1,x0))"
+    },
+    {
+      "rep": 11,
+      "mode": "MUL_LIBRARY",
+      "solved": true,
+      "evals": 2593,
+      "best_mse": 4.532263758119974e-05,
+      "expr": "ADD(ADD(MUL(x2,x3),MUL(x1,x0)),ADD(MUL(x6,x7),MUL(x4,x5)))"
+    },
+    {
+      "rep": 11,
+      "mode": "DOT2_LIBRARY",
+      "solved": false,
+      "evals": 12944,
+      "best_mse": 0.10650569107302067,
+      "expr": "ADD(DOT2(x6,x7,x1,x0),MUL(x2,x3))"
+    }
+  ],
+  "results": {
+    "MUL_LIBRARY": {
+      "solved_count": 12,
+      "median_evals": 2593.0,
+      "median_best_mse": 4.5439481140005146e-05,
+      "examples": [
+        "ADD(ADD(MUL(x7,x6),MUL(x1,x0)),ADD(MUL(x2,x3),MUL(x4,x5)))",
+        "ADD(ADD(MUL(x5,x4),MUL(x7,x6)),ADD(MUL(x1,x0),MUL(x3,x2)))",
+        "ADD(ADD(MUL(x7,x6),MUL(x4,x5)),ADD(MUL(x3,x2),MUL(x0,x1)))"
+      ]
+    },
+    "DOT2_LIBRARY": {
+      "solved_count": 8,
+      "median_evals": 796.5,
+      "median_best_mse": 5.357797547643131e-05,
+      "examples": [
+        "ADD(DOT2(x7,x6,x0,x1),MUL(x3,x2))",
+        "ADD(DOT2(x4,x5,x0,x1),DOT2(x2,x3,x6,x7))",
+        "ADD(DOT2(x2,x3,x6,x7),DOT2(x0,x1,x5,x4))"
+      ]
+    }
+  },
+  "V833_PASS": false
+}

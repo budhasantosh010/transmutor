@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "initial_observations": "all x in {-1,0,1} with y=+1; MULT and LEFT both fit",
+    "active_probe_cell": [
+      -1,
+      -1
+    ],
+    "active_probe_predictions": {
+      "MULT": 1,
+      "LEFT": -1
+    },
+    "active_queries_needed": 1,
+    "random_mean_queries_to_distinguish": 1.389,
+    "random_p90_queries": 2.0,
+    "correct_invariant_choice_rate": 1.0,
+    "V329_universal_symmetry_LEFT_accuracy": 0.6666666666666665
+  },
+  "caveat": "The hypothesis set contains only two known candidate laws, MULT and LEFT. The experiment demonstrates evidence-based invariant selection, not open-ended discovery of every possible structural law."
+}

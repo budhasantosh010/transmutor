@@ -1,0 +1,280 @@
+{
+  "rows": [
+    {
+      "task": "XYZ",
+      "rep": 0,
+      "solved": true,
+      "cost": 2,
+      "evals": 54,
+      "expr": "MUL(x0,MUL(x1,x2))",
+      "train_mse": 8.908062530072112e-06,
+      "test_mse": 9.063288841057911e-06
+    },
+    {
+      "task": "XYZ",
+      "rep": 1,
+      "solved": true,
+      "cost": 2,
+      "evals": 78,
+      "expr": "MUL(x0,MUL(x2,x1))",
+      "train_mse": 8.158033660823326e-06,
+      "test_mse": 9.242500874044579e-06
+    },
+    {
+      "task": "XYZ",
+      "rep": 2,
+      "solved": true,
+      "cost": 2,
+      "evals": 72,
+      "expr": "MUL(x0,MUL(x2,x1))",
+      "train_mse": 9.249556506163672e-06,
+      "test_mse": 9.106721865245671e-06
+    },
+    {
+      "task": "XYZ",
+      "rep": 3,
+      "solved": true,
+      "cost": 2,
+      "evals": 60,
+      "expr": "MUL(x0,MUL(x2,x1))",
+      "train_mse": 8.146811801897375e-06,
+      "test_mse": 8.990051915101423e-06
+    },
+    {
+      "task": "XYZ",
+      "rep": 4,
+      "solved": true,
+      "cost": 2,
+      "evals": 66,
+      "expr": "MUL(x0,MUL(x1,x2))",
+      "train_mse": 1.2524851432362623e-05,
+      "test_mse": 9.005842639337197e-06
+    },
+    {
+      "task": "XYZ",
+      "rep": 5,
+      "solved": true,
+      "cost": 2,
+      "evals": 60,
+      "expr": "MUL(x0,MUL(x1,x2))",
+      "train_mse": 1.0208911357728382e-05,
+      "test_mse": 8.83423380099412e-06
+    },
+    {
+      "task": "XYZ",
+      "rep": 6,
+      "solved": true,
+      "cost": 2,
+      "evals": 66,
+      "expr": "MUL(x0,MUL(x1,x2))",
+      "train_mse": 7.1624022686762165e-06,
+      "test_mse": 8.823604990107855e-06
+    },
+    {
+      "task": "XYZ",
+      "rep": 7,
+      "solved": true,
+      "cost": 2,
+      "evals": 54,
+      "expr": "MUL(x0,MUL(x2,x1))",
+      "train_mse": 9.423813259073336e-06,
+      "test_mse": 9.386788447295946e-06
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 0,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x3,x2),MUL(x1,x0))",
+      "train_mse": 1.931364828114235e-05,
+      "test_mse": 1.676122612113537e-05
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 1,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x3,x2),MUL(x0,x1))",
+      "train_mse": 1.5548914736465384e-05,
+      "test_mse": 1.6641854837655596e-05
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 2,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x2,x3),MUL(x0,x1))",
+      "train_mse": 1.4371839018446565e-05,
+      "test_mse": 1.6489721977265537e-05
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 3,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x0,x1),MUL(x2,x3))",
+      "train_mse": 1.468675938654951e-05,
+      "test_mse": 1.5496511360827775e-05
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 4,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x2,x3),MUL(x0,x1))",
+      "train_mse": 1.4829206017513638e-05,
+      "test_mse": 1.5800984282196297e-05
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 5,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x2,x3),MUL(x0,x1))",
+      "train_mse": 2.0005331938055248e-05,
+      "test_mse": 1.64275611727073e-05
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 6,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x3,x2),MUL(x0,x1))",
+      "train_mse": 2.113479804364817e-05,
+      "test_mse": 1.6268078593716083e-05
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "rep": 7,
+      "solved": true,
+      "cost": 3,
+      "evals": 2671,
+      "expr": "ADD(MUL(x2,x3),MUL(x1,x0))",
+      "train_mse": 1.5995414552454598e-05,
+      "test_mse": 1.6693825710325334e-05
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 0,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x0,x1),x2)",
+      "train_mse": 4.543578350349901e-06,
+      "test_mse": 6.446042986265401e-06
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 1,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x0,x1),x2)",
+      "train_mse": 5.900829807117454e-06,
+      "test_mse": 6.246224981189812e-06
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 2,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x1,x0),x2)",
+      "train_mse": 7.890433714825189e-06,
+      "test_mse": 6.354318476484026e-06
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 3,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x1,x0),x2)",
+      "train_mse": 4.984120625600681e-06,
+      "test_mse": 5.562119023663051e-06
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 4,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x1,x0),x2)",
+      "train_mse": 7.0673652549183165e-06,
+      "test_mse": 6.182696764710633e-06
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 5,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x0,x1),x2)",
+      "train_mse": 4.213962146987389e-06,
+      "test_mse": 6.062812461145257e-06
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 6,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x0,x1),x2)",
+      "train_mse": 6.857997967837529e-06,
+      "test_mse": 6.242159085099251e-06
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "rep": 7,
+      "solved": true,
+      "cost": 2,
+      "evals": 524,
+      "expr": "SUB(MUL(x1,x0),x2)",
+      "train_mse": 4.758871910451346e-06,
+      "test_mse": 6.459835096121196e-06
+    }
+  ],
+  "by_task": {
+    "XYZ": {
+      "solved_count": 8,
+      "generalized_below_5e-4": 8,
+      "median_evals": 63.0,
+      "median_cost": 2.0,
+      "sample_expressions": [
+        "MUL(x0,MUL(x1,x2))",
+        "MUL(x0,MUL(x2,x1))",
+        "MUL(x0,MUL(x2,x1))"
+      ]
+    },
+    "XY_PLUS_ZW": {
+      "solved_count": 8,
+      "generalized_below_5e-4": 8,
+      "median_evals": 2671.0,
+      "median_cost": 3.0,
+      "sample_expressions": [
+        "ADD(MUL(x3,x2),MUL(x1,x0))",
+        "ADD(MUL(x3,x2),MUL(x0,x1))",
+        "ADD(MUL(x2,x3),MUL(x0,x1))"
+      ]
+    },
+    "XY_MINUS_Z": {
+      "solved_count": 8,
+      "generalized_below_5e-4": 8,
+      "median_evals": 524.0,
+      "median_cost": 2.0,
+      "sample_expressions": [
+        "SUB(MUL(x0,x1),x2)",
+        "SUB(MUL(x0,x1),x2)",
+        "SUB(MUL(x1,x0),x2)"
+      ]
+    }
+  },
+  "V831_PASS": true
+}

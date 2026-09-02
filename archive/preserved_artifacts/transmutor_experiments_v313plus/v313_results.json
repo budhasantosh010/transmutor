@@ -1,0 +1,66 @@
+{
+  "result": {
+    "original_operation_space": 19683,
+    "behaviorally_fixed_cells": 7,
+    "free_cells_after_gate_behavior": 2,
+    "candidate_tables_after_pruning": 9,
+    "free_cell_coordinates_rows_cols_0_1_2": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "parity_mean_accuracy_lengths_1_to_7": 1.0,
+    "parity_accuracy_by_length": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0
+    },
+    "discovered_table_rows_x_-1_0_1_cols_y_-1_0_1": [
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        1
+      ]
+    ],
+    "ordinary_multiplication_table": [
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        1
+      ]
+    ],
+    "cells_matching_multiplication": 9,
+    "exact_multiplication_table": true,
+    "perfect_parity_candidates_after_gate_constraints": 3
+  },
+  "caveat": "The ternary lookup-table substrate is supplied. Gated-write examples directly constrain seven cells, and parity resolves the remaining behavior except potentially behaviorally irrelevant cells. A simplicity tie-break selects among equivalent tables."
+}

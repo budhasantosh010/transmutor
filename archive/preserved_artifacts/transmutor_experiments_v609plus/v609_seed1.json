@@ -1,0 +1,82 @@
+{
+  "status": "exploratory integration of G127 self-extension and strong hold/write polarization",
+  "result": {
+    "seed": 60900,
+    "final_gaps": [
+      0,
+      1,
+      3,
+      7,
+      15,
+      31,
+      63,
+      127
+    ],
+    "growth_history": [
+      {
+        "epoch": 70,
+        "current_gap": 3,
+        "candidate_gap": 7,
+        "median_extra_error": 0.01758670248091221,
+        "fraction_samples_harder": 0.70625,
+        "grow": true
+      },
+      {
+        "epoch": 140,
+        "current_gap": 7,
+        "candidate_gap": 15,
+        "median_extra_error": 0.025471145287156105,
+        "fraction_samples_harder": 0.975,
+        "grow": true
+      },
+      {
+        "epoch": 210,
+        "current_gap": 15,
+        "candidate_gap": 31,
+        "median_extra_error": 0.021198101341724396,
+        "fraction_samples_harder": 0.98125,
+        "grow": true
+      },
+      {
+        "epoch": 280,
+        "current_gap": 31,
+        "candidate_gap": 63,
+        "median_extra_error": 0.027756445109844208,
+        "fraction_samples_harder": 0.9875,
+        "grow": true
+      },
+      {
+        "epoch": 350,
+        "current_gap": 63,
+        "candidate_gap": 127,
+        "median_extra_error": 0.033469680696725845,
+        "fraction_samples_harder": 0.9875,
+        "grow": true
+      }
+    ],
+    "64": {
+      "mae": 0.14910104870796204,
+      "r2": 0.8948747515678406
+    },
+    "256": {
+      "mae": 0.18626831471920013,
+      "r2": 0.8478079438209534
+    },
+    "512": {
+      "mae": 0.21535012125968933,
+      "r2": 0.795233428478241
+    },
+    "1024": {
+      "mae": 0.286045104265213,
+      "r2": 0.612068772315979
+    },
+    "rate_audit": {
+      "relevant_mean_alpha": 0.7076824307441711,
+      "ordinary_mean_alpha": 0.06250865757465363,
+      "ordinary_fraction_below_0.01": 0.139446422457695,
+      "relevant_fraction_above_0.90": 0.18589285016059875,
+      "ratio": 11.321351051330566
+    }
+  },
+  "caveat": "Single seed only. Polarization did not clearly improve the self-extending G127 system in this first integration."
+}

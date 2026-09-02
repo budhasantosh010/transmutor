@@ -1,0 +1,39 @@
+{
+  "status": "valid lighter rerun after stronger version timed out",
+  "transformer": {
+    "d_model": 48,
+    "heads": 4,
+    "layers": 3,
+    "ffn": 128,
+    "parameter_count": 66385,
+    "train_lengths": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "steps": 360,
+    "seeds_per_task": 1
+  },
+  "summary": {
+    "PARITY": {
+      "15": 0.5009999871253967,
+      "31": 0.5109999775886536,
+      "63": 0.5023333430290222
+    },
+    "MAJORITY": {
+      "15": 1.0,
+      "31": 0.9923333525657654,
+      "63": 0.8119999766349792
+    },
+    "FLAG_MEMORY": {
+      "15": 1.0,
+      "31": 1.0,
+      "63": 1.0
+    }
+  },
+  "caveat": "Only one seed per task. This remains a small Transformer recipe and is not a general Transformer comparison. The original stronger V291b attempt timed out and has no scientific result."
+}

@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "seed": 71200,
+      "TASK1_DISCOVER_DOT2": {
+        "expr": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          "+"
+        ],
+        "validation": 1.0,
+        "test": 1.0,
+        "exact": true,
+        "candidate_evals": 812
+      },
+      "TASK2_REUSE_OR_INVENT_ALIGN2": {
+        "triggered": true,
+        "expr": "DOT2*DOT2",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 5,
+        "prior_DOT2_test": 0.7508
+      },
+      "TASK3_REUSE_OR_INVENT_XOR": {
+        "triggered": true,
+        "expr": "(A-B)*(A-B)",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 7,
+        "prior_best_test": 0.75
+      },
+      "TASK4_REUSE_DOT2": {
+        "reused": "DOT2",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 1,
+        "invention_triggered": false
+      },
+      "final_library": [
+        "DOT2",
+        "ALIGN2",
+        "XOR_ALIGN"
+      ]
+    },
+    {
+      "seed": 71220,
+      "TASK1_DISCOVER_DOT2": {
+        "expr": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          "+"
+        ],
+        "validation": 1.0,
+        "test": 1.0,
+        "exact": true,
+        "candidate_evals": 812
+      },
+      "TASK2_REUSE_OR_INVENT_ALIGN2": {
+        "triggered": true,
+        "expr": "DOT2*DOT2",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 5,
+        "prior_DOT2_test": 0.7412
+      },
+      "TASK3_REUSE_OR_INVENT_XOR": {
+        "triggered": true,
+        "expr": "(A-B)*(A-B)",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 7,
+        "prior_best_test": 0.75
+      },
+      "TASK4_REUSE_DOT2": {
+        "reused": "DOT2",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 1,
+        "invention_triggered": false
+      },
+      "final_library": [
+        "DOT2",
+        "ALIGN2",
+        "XOR_ALIGN"
+      ]
+    },
+    {
+      "seed": 71240,
+      "TASK1_DISCOVER_DOT2": {
+        "expr": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          "+"
+        ],
+        "validation": 1.0,
+        "test": 1.0,
+        "exact": true,
+        "candidate_evals": 812
+      },
+      "TASK2_REUSE_OR_INVENT_ALIGN2": {
+        "triggered": true,
+        "expr": "DOT2*DOT2",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 5,
+        "prior_DOT2_test": 0.76
+      },
+      "TASK3_REUSE_OR_INVENT_XOR": {
+        "triggered": true,
+        "expr": "(A-B)*(A-B)",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 7,
+        "prior_best_test": 0.75
+      },
+      "TASK4_REUSE_DOT2": {
+        "reused": "DOT2",
+        "validation": 1.0,
+        "test": 1.0,
+        "candidate_evals": 1,
+        "invention_triggered": false
+      },
+      "final_library": [
+        "DOT2",
+        "ALIGN2",
+        "XOR_ALIGN"
+      ]
+    }
+  ],
+  "DOT2_exact_discovery_count": 3,
+  "ALIGN2_invention_count": 3,
+  "XOR_invention_count": 3,
+  "final_DOT2_reuse_without_invention_count": 3,
+  "mean_final_task_tests": {
+    "TASK1": 1.0,
+    "TASK2": 1.0,
+    "TASK3": 1.0,
+    "TASK4": 1.0
+  },
+  "pass_gate": {
+    "DOT2_discovered_3of3": true,
+    "ALIGN_invented_3of3": true,
+    "XOR_invented_3of3": true,
+    "old_DOT2_reused_3of3": true,
+    "all_mean_tests_above_0.99": true
+  },
+  "V712_PASS": true
+}

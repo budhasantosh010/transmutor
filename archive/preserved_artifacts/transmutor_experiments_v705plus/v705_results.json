@@ -1,0 +1,116 @@
+{
+  "rows": [
+    {
+      "macro_pool_size": 36,
+      "selected_level1_macros": [
+        {
+          "dot2_application": [
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        },
+        {
+          "dot2_application": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        }
+      ],
+      "macro_combiner": "+",
+      "hierarchical_validation_accuracy": 1.0,
+      "hierarchical_test_accuracy": 1.0,
+      "exact_level2_recovery": true,
+      "raw_two_product_test_accuracy": 0.8333333333333334
+    },
+    {
+      "macro_pool_size": 36,
+      "selected_level1_macros": [
+        {
+          "dot2_application": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        },
+        {
+          "dot2_application": [
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      ],
+      "macro_combiner": "+",
+      "hierarchical_validation_accuracy": 1.0,
+      "hierarchical_test_accuracy": 1.0,
+      "exact_level2_recovery": true,
+      "raw_two_product_test_accuracy": 0.8326666666666667
+    },
+    {
+      "macro_pool_size": 36,
+      "selected_level1_macros": [
+        {
+          "dot2_application": [
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        },
+        {
+          "dot2_application": [
+            [
+              5,
+              6
+            ],
+            [
+              9,
+              10
+            ]
+          ]
+        }
+      ],
+      "macro_combiner": "+",
+      "hierarchical_validation_accuracy": 1.0,
+      "hierarchical_test_accuracy": 1.0,
+      "exact_level2_recovery": true,
+      "raw_two_product_test_accuracy": 0.8333333333333334
+    }
+  ],
+  "exact_level2_recovery_count": 3,
+  "mean_hierarchical_test_accuracy": 1.0,
+  "mean_raw_two_product_test_accuracy": 0.8331111111111111,
+  "hierarchy_advantage": 0.16688888888888886,
+  "pass_gate": {
+    "level2_recovery_3of3": true,
+    "hierarchical_test_above_0.99": true,
+    "hierarchy_beats_raw2_by_0.10": true
+  },
+  "V705_PASS": true
+}

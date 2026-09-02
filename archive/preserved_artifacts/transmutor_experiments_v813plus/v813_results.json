@@ -1,0 +1,412 @@
+{
+  "rows": [
+    {
+      "config": "FULL",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "FULL",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "TEMPORAL",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "TEMPORAL",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "TEMPORAL",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "TEMPORAL",
+      "success": false
+    },
+    {
+      "config": "NO_PORTFOLIO",
+      "world": "TEMPORAL",
+      "success": false
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "SYNERGY",
+      "success": false
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "SYNERGY",
+      "success": false
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "COVERAGE",
+      "success": false
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_PROTECTED",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "SYNERGY",
+      "success": false
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "SYNERGY",
+      "success": false
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "SYNERGY",
+      "success": false
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "SYNERGY",
+      "success": false
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "SYNERGY",
+      "success": false
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_SANDBOX",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "SYNERGY",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "COVERAGE",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "TEMPORAL",
+      "success": true
+    },
+    {
+      "config": "NO_WIDEN",
+      "world": "TEMPORAL",
+      "success": true
+    }
+  ],
+  "matrix": {
+    "FULL": {
+      "SYNERGY": 5,
+      "COVERAGE": 5,
+      "TEMPORAL": 5,
+      "TOTAL": 15
+    },
+    "NO_PORTFOLIO": {
+      "SYNERGY": 5,
+      "COVERAGE": 0,
+      "TEMPORAL": 0,
+      "TOTAL": 5
+    },
+    "NO_PROTECTED": {
+      "SYNERGY": 3,
+      "COVERAGE": 1,
+      "TEMPORAL": 5,
+      "TOTAL": 9
+    },
+    "NO_SANDBOX": {
+      "SYNERGY": 0,
+      "COVERAGE": 5,
+      "TEMPORAL": 5,
+      "TOTAL": 10
+    },
+    "NO_WIDEN": {
+      "SYNERGY": 5,
+      "COVERAGE": 5,
+      "TEMPORAL": 5,
+      "TOTAL": 15
+    }
+  },
+  "V813_PASS": false
+}

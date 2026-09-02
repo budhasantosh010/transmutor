@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "expression": "((x3*x5)+(x4*x6))",
+      "calibration_reward": 1.0,
+      "test_reward": 1.0,
+      "threshold": 0.8500369669408397,
+      "orientation": 1
+    },
+    {
+      "expression": "((x3*x5)+(x4*x6))",
+      "calibration_reward": 1.0,
+      "test_reward": 1.0,
+      "threshold": 0.8503326986875218,
+      "orientation": 1
+    },
+    {
+      "expression": "((x3*x5)+(x4*x6))",
+      "calibration_reward": 1.0,
+      "test_reward": 1.0,
+      "threshold": 0.8514567300717376,
+      "orientation": 1
+    }
+  ],
+  "mean_test_reward": 1.0,
+  "min_test_reward": 1.0,
+  "pass_gate": {
+    "mean_above_0.99": true,
+    "min_above_0.98": true
+  },
+  "V732B_PASS": true
+}

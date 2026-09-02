@@ -1,0 +1,544 @@
+{
+  "rows": [
+    {
+      "true_G": 3,
+      "rep": 0,
+      "mode": "GLOBAL",
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 3,
+      "rep": 0,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 0,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": true,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 1,
+      "mode": "GLOBAL",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 3,
+      "rep": 1,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 1,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 2,
+      "mode": "GLOBAL",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 3,
+      "rep": 2,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 2,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 3,
+      "mode": "GLOBAL",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 3,
+      "rep": 3,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 3,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 4,
+      "mode": "GLOBAL",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 3,
+      "rep": 4,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 4,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 5,
+      "mode": "GLOBAL",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 3,
+      "rep": 5,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 3,
+      "rep": 5,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 6
+    },
+    {
+      "true_G": 4,
+      "rep": 0,
+      "mode": "GLOBAL",
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 4,
+      "rep": 0,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 0,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 1,
+      "mode": "GLOBAL",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 4,
+      "rep": 1,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 1,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 2,
+      "mode": "GLOBAL",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 4,
+      "rep": 2,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 2,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 3,
+      "mode": "GLOBAL",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 4,
+      "rep": 3,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 3,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 4,
+      "mode": "GLOBAL",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 4,
+      "rep": 4,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 4,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": false,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 5,
+      "mode": "GLOBAL",
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 4,
+      "rep": 5,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 4,
+      "rep": 5,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "proposal_count": 8
+    },
+    {
+      "true_G": 6,
+      "rep": 0,
+      "mode": "GLOBAL",
+      "selected_k": 6,
+      "ari": 0.915164251742064,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 0,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.915164251742064,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 0,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.915164251742064,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 1,
+      "mode": "GLOBAL",
+      "selected_k": 6,
+      "ari": 0.8007780958672833,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 1,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.8007780958672833,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 1,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.8007780958672833,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 2,
+      "mode": "GLOBAL",
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 2,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 2,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 3,
+      "mode": "GLOBAL",
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 3,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 3,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 4,
+      "mode": "GLOBAL",
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 4,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 4,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 5,
+      "mode": "GLOBAL",
+      "selected_k": 6,
+      "ari": 0.8740244441172139,
+      "success": false,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 5,
+      "mode": "AUTO_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.8740244441172139,
+      "success": true,
+      "proposal_count": 12
+    },
+    {
+      "true_G": 6,
+      "rep": 5,
+      "mode": "ORACLE_CONTEXTS",
+      "selected_k": 6,
+      "ari": 0.8740244441172139,
+      "success": true,
+      "proposal_count": 12
+    }
+  ],
+  "by_G": {
+    "3": {
+      "selected_k": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "exact_k_count": 6,
+      "mean_ARI": 0.9915937835645865,
+      "success": {
+        "GLOBAL": 1,
+        "AUTO_CONTEXTS": 0,
+        "ORACLE_CONTEXTS": 3
+      }
+    },
+    "4": {
+      "selected_k": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "exact_k_count": 6,
+      "mean_ARI": 0.9849241803459243,
+      "success": {
+        "GLOBAL": 0,
+        "AUTO_CONTEXTS": 5,
+        "ORACLE_CONTEXTS": 4
+      }
+    },
+    "6": {
+      "selected_k": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "exact_k_count": 6,
+      "mean_ARI": 0.9178426094638877,
+      "success": {
+        "GLOBAL": 1,
+        "AUTO_CONTEXTS": 6,
+        "ORACLE_CONTEXTS": 6
+      }
+    }
+  },
+  "V817_PASS": false
+}

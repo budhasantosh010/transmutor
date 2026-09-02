@@ -1,0 +1,96 @@
+{
+  "rows": [
+    {
+      "target_screen_rank": 46,
+      "certified": true,
+      "certified_exact": true,
+      "focal_pairs_audited": 80,
+      "all_possible_pairs": 2415,
+      "focal_fraction": 0.033126293995859216,
+      "focal_reduction_fraction": 0.9668737060041408,
+      "certified_screen_rank": 46,
+      "certified_organ_lcb": 0.8895198635346594,
+      "estimated_ceiling": 0.8984344362627307
+    },
+    {
+      "target_screen_rank": 25,
+      "certified": true,
+      "certified_exact": true,
+      "focal_pairs_audited": 40,
+      "all_possible_pairs": 2415,
+      "focal_fraction": 0.016563146997929608,
+      "focal_reduction_fraction": 0.9834368530020704,
+      "certified_screen_rank": 25,
+      "certified_organ_lcb": 0.8916856260675939,
+      "estimated_ceiling": 0.9010610926031095
+    },
+    {
+      "target_screen_rank": 1,
+      "certified": true,
+      "certified_exact": true,
+      "focal_pairs_audited": 20,
+      "all_possible_pairs": 2415,
+      "focal_fraction": 0.008281573498964804,
+      "focal_reduction_fraction": 0.9917184265010351,
+      "certified_screen_rank": 1,
+      "certified_organ_lcb": 0.8892406481335987,
+      "estimated_ceiling": 0.8984971769034256
+    },
+    {
+      "target_screen_rank": 60,
+      "certified": true,
+      "certified_exact": true,
+      "focal_pairs_audited": 80,
+      "all_possible_pairs": 2415,
+      "focal_fraction": 0.033126293995859216,
+      "focal_reduction_fraction": 0.9668737060041408,
+      "certified_screen_rank": 60,
+      "certified_organ_lcb": 0.8924999999999998,
+      "estimated_ceiling": 0.8999374951164244
+    },
+    {
+      "target_screen_rank": 2,
+      "certified": true,
+      "certified_exact": true,
+      "focal_pairs_audited": 20,
+      "all_possible_pairs": 2415,
+      "focal_fraction": 0.008281573498964804,
+      "focal_reduction_fraction": 0.9917184265010351,
+      "certified_screen_rank": 2,
+      "certified_organ_lcb": 0.8893352189441912,
+      "estimated_ceiling": 0.9009364039345891
+    },
+    {
+      "target_screen_rank": 5,
+      "certified": true,
+      "certified_exact": true,
+      "focal_pairs_audited": 20,
+      "all_possible_pairs": 2415,
+      "focal_fraction": 0.008281573498964804,
+      "focal_reduction_fraction": 0.9917184265010351,
+      "certified_screen_rank": 5,
+      "certified_organ_lcb": 0.8923536208047297,
+      "estimated_ceiling": 0.8977436360270268
+    }
+  ],
+  "certified_count": 6,
+  "exact_count": 6,
+  "false_cert_count": 0,
+  "mean_focal_pairs_audited": 43.333333333333336,
+  "mean_focal_reduction_fraction": 0.9820565907522428,
+  "audit_counts": [
+    80,
+    40,
+    20,
+    80,
+    20,
+    20
+  ],
+  "pass_gate": {
+    "exact_6of6": true,
+    "zero_false": true,
+    "mean_focal_audits_below_60": true,
+    "mean_reduction_above_0.975": true
+  },
+  "V789_PASS": true
+}

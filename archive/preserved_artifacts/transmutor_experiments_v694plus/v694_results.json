@@ -1,0 +1,109 @@
+{
+  "rows": [
+    {
+      "event_slots": [
+        3,
+        6
+      ],
+      "goal_slots": [
+        5,
+        4
+      ],
+      "found_pairs": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "op": "+",
+      "expected_dot_pairs": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "exact_pair_recovery": true,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 0.999
+    },
+    {
+      "event_slots": [
+        6,
+        4
+      ],
+      "goal_slots": [
+        3,
+        5
+      ],
+      "found_pairs": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "op": "+",
+      "expected_dot_pairs": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_pair_recovery": true,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0
+    },
+    {
+      "event_slots": [
+        5,
+        3
+      ],
+      "goal_slots": [
+        4,
+        6
+      ],
+      "found_pairs": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "op": "+",
+      "expected_dot_pairs": [
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "exact_pair_recovery": true,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0
+    }
+  ],
+  "exact_recovery_count": 3,
+  "mean_test_accuracy": 0.9996666666666667,
+  "V694_PASS": true
+}

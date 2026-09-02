@@ -1,0 +1,243 @@
+{
+  "stream": [
+    "FLAG_MEMORY",
+    "PARITY",
+    "FLAG_MEMORY",
+    "MAJORITY",
+    "PARITY",
+    "LAST_BIT",
+    "FLAG_MEMORY",
+    "MAJORITY",
+    "LAST_BIT",
+    "PARITY",
+    "FLAG_MEMORY",
+    "LAST_BIT",
+    "MAJORITY",
+    "PARITY",
+    "FLAG_MEMORY",
+    "MAJORITY",
+    "LAST_BIT",
+    "PARITY",
+    "FLAG_MEMORY",
+    "MAJORITY"
+  ],
+  "records": [
+    {
+      "step": 1,
+      "task": "FLAG_MEMORY",
+      "mode": "SEARCH",
+      "chosen_expression": "tanh((s+(v*f)))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 1,
+      "cumulative_vocab_cost": 3142720,
+      "cumulative_always_search_cost": 3142720
+    },
+    {
+      "step": 2,
+      "task": "PARITY",
+      "mode": "SEARCH",
+      "chosen_expression": "(1+((1-s)*v))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 2,
+      "cumulative_vocab_cost": 6301140,
+      "cumulative_always_search_cost": 6285440
+    },
+    {
+      "step": 3,
+      "task": "FLAG_MEMORY",
+      "mode": "REUSE",
+      "chosen_expression": "tanh((s+(v*f)))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 2,
+      "cumulative_vocab_cost": 6332540,
+      "cumulative_always_search_cost": 9428160
+    },
+    {
+      "step": 4,
+      "task": "MAJORITY",
+      "mode": "SEARCH",
+      "chosen_expression": "(s-v)",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 3,
+      "cumulative_vocab_cost": 9506660,
+      "cumulative_always_search_cost": 12570880
+    },
+    {
+      "step": 5,
+      "task": "PARITY",
+      "mode": "REUSE",
+      "chosen_expression": "(1+((1-s)*v))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 3,
+      "cumulative_vocab_cost": 9553760,
+      "cumulative_always_search_cost": 15713600
+    },
+    {
+      "step": 6,
+      "task": "LAST_BIT",
+      "mode": "SEARCH",
+      "chosen_expression": "v",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 12743580,
+      "cumulative_always_search_cost": 18856320
+    },
+    {
+      "step": 7,
+      "task": "FLAG_MEMORY",
+      "mode": "REUSE",
+      "chosen_expression": "tanh((s+(v*f)))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 12806380,
+      "cumulative_always_search_cost": 21999040
+    },
+    {
+      "step": 8,
+      "task": "MAJORITY",
+      "mode": "REUSE",
+      "chosen_expression": "(s-v)",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 12869180,
+      "cumulative_always_search_cost": 25141760
+    },
+    {
+      "step": 9,
+      "task": "LAST_BIT",
+      "mode": "REUSE",
+      "chosen_expression": "v",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 12931980,
+      "cumulative_always_search_cost": 28284480
+    },
+    {
+      "step": 10,
+      "task": "PARITY",
+      "mode": "REUSE",
+      "chosen_expression": "(1+((1-s)*v))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 12994780,
+      "cumulative_always_search_cost": 31427200
+    },
+    {
+      "step": 11,
+      "task": "FLAG_MEMORY",
+      "mode": "REUSE",
+      "chosen_expression": "tanh((s+(v*f)))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13057580,
+      "cumulative_always_search_cost": 34569920
+    },
+    {
+      "step": 12,
+      "task": "LAST_BIT",
+      "mode": "REUSE",
+      "chosen_expression": "v",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13120380,
+      "cumulative_always_search_cost": 37712640
+    },
+    {
+      "step": 13,
+      "task": "MAJORITY",
+      "mode": "REUSE",
+      "chosen_expression": "(s-v)",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13183180,
+      "cumulative_always_search_cost": 40855360
+    },
+    {
+      "step": 14,
+      "task": "PARITY",
+      "mode": "REUSE",
+      "chosen_expression": "(1+((1-s)*v))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13245980,
+      "cumulative_always_search_cost": 43998080
+    },
+    {
+      "step": 15,
+      "task": "FLAG_MEMORY",
+      "mode": "REUSE",
+      "chosen_expression": "tanh((s+(v*f)))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13308780,
+      "cumulative_always_search_cost": 47140800
+    },
+    {
+      "step": 16,
+      "task": "MAJORITY",
+      "mode": "REUSE",
+      "chosen_expression": "(s-v)",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13371580,
+      "cumulative_always_search_cost": 50283520
+    },
+    {
+      "step": 17,
+      "task": "LAST_BIT",
+      "mode": "REUSE",
+      "chosen_expression": "v",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13434380,
+      "cumulative_always_search_cost": 53426240
+    },
+    {
+      "step": 18,
+      "task": "PARITY",
+      "mode": "REUSE",
+      "chosen_expression": "(1+((1-s)*v))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13497180,
+      "cumulative_always_search_cost": 56568960
+    },
+    {
+      "step": 19,
+      "task": "FLAG_MEMORY",
+      "mode": "REUSE",
+      "chosen_expression": "tanh((s+(v*f)))",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13559980,
+      "cumulative_always_search_cost": 59711680
+    },
+    {
+      "step": 20,
+      "task": "MAJORITY",
+      "mode": "REUSE",
+      "chosen_expression": "(s-v)",
+      "length63_accuracy": 1.0,
+      "vocab_size_after": 4,
+      "cumulative_vocab_cost": 13622780,
+      "cumulative_always_search_cost": 62854400
+    }
+  ],
+  "summary": {
+    "tasks": 20,
+    "final_vocab_size": 4,
+    "final_vocab_expressions": [
+      "tanh((s+(v*f)))",
+      "(1+((1-s)*v))",
+      "(s-v)",
+      "v"
+    ],
+    "search_events": 4,
+    "reuse_events": 16,
+    "mean_length63_accuracy": 1.0,
+    "online_vocab_cost": 13622780,
+    "always_search_cost": 62854400,
+    "cost_reduction_percent": 78.32644969962325
+  },
+  "caveat": "The library stores whole expressions and tests each one on every task, so lookup cost grows linearly with vocabulary size. The synthetic stream repeats only four task families; scalable retrieval and abstraction over a large library remain open."
+}

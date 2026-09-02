@@ -1,0 +1,76 @@
+{
+  "curriculum": [
+    {
+      "task": 0,
+      "solved": true,
+      "evals": 2551,
+      "expr": "ADD(MUL(x2,x3),MUL(x0,x1))",
+      "pattern": "ADD(MUL(V,V),MUL(V,V))"
+    },
+    {
+      "task": 1,
+      "solved": true,
+      "evals": 2551,
+      "expr": "ADD(MUL(x1,x3),MUL(x2,x0))",
+      "pattern": "ADD(MUL(V,V),MUL(V,V))"
+    },
+    {
+      "task": 2,
+      "solved": true,
+      "evals": 2551,
+      "expr": "ADD(MUL(x1,x0),MUL(x3,x2))",
+      "pattern": "ADD(MUL(V,V),MUL(V,V))"
+    },
+    {
+      "task": 3,
+      "solved": true,
+      "evals": 2551,
+      "expr": "ADD(MUL(x0,x3),MUL(x1,x2))",
+      "pattern": "ADD(MUL(V,V),MUL(V,V))"
+    },
+    {
+      "task": 4,
+      "solved": true,
+      "evals": 2551,
+      "expr": "ADD(MUL(x0,x2),MUL(x3,x1))",
+      "pattern": "ADD(MUL(V,V),MUL(V,V))"
+    },
+    {
+      "task": 5,
+      "solved": true,
+      "evals": 2551,
+      "expr": "ADD(MUL(x2,x3),MUL(x1,x0))",
+      "pattern": "ADD(MUL(V,V),MUL(V,V))"
+    }
+  ],
+  "pattern_counts": {
+    "ADD(MUL(V,V),MUL(V,V))": 6
+  },
+  "promoted_patterns": [
+    "ADD(MUL(V,V),MUL(V,V))"
+  ],
+  "compiled_macro_count": 1,
+  "transfer": {
+    "BASE": {
+      "solved_count": 10,
+      "median_evals": 2269.0,
+      "median_mse": 4.835693386100297e-05,
+      "examples": [
+        "ADD(ADD(MUL(x7,x6),MUL(x3,x2)),ADD(MUL(x5,x4),MUL(x0,x1)))",
+        "ADD(ADD(MUL(x3,x2),MUL(x4,x5)),ADD(MUL(x6,x7),MUL(x0,x1)))",
+        "ADD(ADD(MUL(x7,x6),MUL(x4,x5)),ADD(MUL(x0,x1),MUL(x3,x2)))"
+      ]
+    },
+    "AUTO_MACRO": {
+      "solved_count": 7,
+      "median_evals": 723.0,
+      "median_mse": 4.649977022341966e-05,
+      "examples": [
+        "ADD(AUTO_MACRO(x7,x6,x3,x2),AUTO_MACRO(x5,x4,x0,x1))",
+        "ADD(AUTO_MACRO(x5,x4,x3,x2),AUTO_MACRO(x0,x1,x6,x7))",
+        "ADD(AUTO_MACRO(x6,x7,x4,x5),AUTO_MACRO(x2,x3,x0,x1))"
+      ]
+    }
+  },
+  "V834_PASS": true
+}

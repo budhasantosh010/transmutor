@@ -1,0 +1,149 @@
+{
+  "rows": [
+    {
+      "start_phi": -1.5707963267948966,
+      "start_rho": 4.275,
+      "final_phi": -1.56862966012823,
+      "final_rho": 4.379999999999999,
+      "true_phi_audit": -1.5650961319728172,
+      "true_rho_audit": 4.451792460669709,
+      "test_reward": 1.0,
+      "matrix_similarity": 0.9999875176662354,
+      "relative_matrix_error": 0.004996457133409691,
+      "history": [
+        {
+          "stage": 0,
+          "phi": -1.5682963267948966,
+          "rho": 4.345,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 1,
+          "phi": -1.5682963267948966,
+          "rho": 4.305,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 2,
+          "phi": -1.56862966012823,
+          "rho": 4.379999999999999,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 3,
+          "phi": -1.56862966012823,
+          "rho": 4.379999999999999,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        }
+      ]
+    },
+    {
+      "start_phi": -1.5707963267948966,
+      "start_rho": 4.775,
+      "final_phi": 1.5706763267948967,
+      "final_rho": 4.7425,
+      "true_phi_audit": -1.5688045170729819,
+      "true_rho_audit": 4.897014235675816,
+      "test_reward": 1.0,
+      "matrix_similarity": 0.9999955406499668,
+      "relative_matrix_error": 0.002986457405946034,
+      "history": [
+        {
+          "stage": 0,
+          "phi": -1.5707963267948966,
+          "rho": 4.705,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 1,
+          "phi": -1.5707963267948966,
+          "rho": 4.705,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 2,
+          "phi": -1.5707963267948966,
+          "rho": 4.705,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 3,
+          "phi": 1.5706763267948967,
+          "rho": 4.7425,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        }
+      ]
+    },
+    {
+      "start_phi": -0.1970796326794897,
+      "start_rho": 4.45,
+      "final_phi": -0.19981963267948966,
+      "final_rho": 4.779999999999999,
+      "true_phi_audit": -0.19740739484168834,
+      "true_rho_audit": 4.86753681745681,
+      "test_reward": 1.0,
+      "matrix_similarity": 0.9999941818103124,
+      "relative_matrix_error": 0.0034112132434936703,
+      "history": [
+        {
+          "stage": 0,
+          "phi": -0.19957963267948964,
+          "rho": 4.7299999999999995,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 1,
+          "phi": -0.19957963267948964,
+          "rho": 4.7299999999999995,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 2,
+          "phi": -0.19957963267948964,
+          "rho": 4.7299999999999995,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        },
+        {
+          "stage": 3,
+          "phi": -0.19981963267948966,
+          "rho": 4.779999999999999,
+          "val1_reward": 1.0,
+          "val2_reward": 1.0,
+          "robust_reward": 1.0
+        }
+      ]
+    }
+  ],
+  "mean_test_reward": 1.0,
+  "min_test_reward": 1.0,
+  "mean_matrix_similarity": 0.9999924133755048,
+  "mean_relative_matrix_error": 0.003798042594283131,
+  "pass_gate": {
+    "mean_reward_above_0.99": true,
+    "min_reward_above_0.98": true,
+    "matrix_similarity_above_0.999": true
+  },
+  "V738D_PASS": true
+}

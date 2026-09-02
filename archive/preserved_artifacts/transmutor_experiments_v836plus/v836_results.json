@@ -1,0 +1,154 @@
+{
+  "results": {
+    "2": {
+      "selected": [
+        "L9_ORXN",
+        "L10_IMPLX"
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "added": "L9_ORXN",
+          "dev_mean_regret": 6.854632107275172,
+          "dev_unsolved": 1
+        },
+        {
+          "step": 2,
+          "added": "L10_IMPLX",
+          "dev_mean_regret": 4.764919643888287,
+          "dev_unsolved": 0
+        }
+      ],
+      "dev_mean_regret": 4.764919643888287,
+      "dev_unsolved": 0,
+      "test_mean_regret": 5.113903941074989,
+      "test_unsolved": 0,
+      "test_median_regret": 4.973429951690822,
+      "test_max_regret": 10.331865406815169
+    },
+    "3": {
+      "selected": [
+        "L9_ORXN",
+        "L10_IMPLX",
+        "L2_OR"
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "added": "L9_ORXN",
+          "dev_mean_regret": 6.854632107275172,
+          "dev_unsolved": 1
+        },
+        {
+          "step": 2,
+          "added": "L10_IMPLX",
+          "dev_mean_regret": 4.764919643888287,
+          "dev_unsolved": 0
+        },
+        {
+          "step": 3,
+          "added": "L2_OR",
+          "dev_mean_regret": 4.780343649759554,
+          "dev_unsolved": 0
+        }
+      ],
+      "dev_mean_regret": 4.780343649759554,
+      "dev_unsolved": 0,
+      "test_mean_regret": 4.713419328623934,
+      "test_unsolved": 0,
+      "test_median_regret": 4.4375,
+      "test_max_regret": 9.471503698319722
+    },
+    "4": {
+      "selected": [
+        "L9_ORXN",
+        "L10_IMPLX",
+        "L2_OR",
+        "L3_XOR"
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "added": "L9_ORXN",
+          "dev_mean_regret": 6.854632107275172,
+          "dev_unsolved": 1
+        },
+        {
+          "step": 2,
+          "added": "L10_IMPLX",
+          "dev_mean_regret": 4.764919643888287,
+          "dev_unsolved": 0
+        },
+        {
+          "step": 3,
+          "added": "L2_OR",
+          "dev_mean_regret": 4.780343649759554,
+          "dev_unsolved": 0
+        },
+        {
+          "step": 4,
+          "added": "L3_XOR",
+          "dev_mean_regret": 5.193440676648823,
+          "dev_unsolved": 0
+        }
+      ],
+      "dev_mean_regret": 5.193440676648823,
+      "dev_unsolved": 0,
+      "test_mean_regret": 5.631034471708222,
+      "test_unsolved": 0,
+      "test_median_regret": 4.0,
+      "test_max_regret": 12.62867159775963
+    },
+    "5": {
+      "selected": [
+        "L9_ORXN",
+        "L10_IMPLX",
+        "L2_OR",
+        "L3_XOR",
+        "L0_BASE"
+      ],
+      "trace": [
+        {
+          "step": 1,
+          "added": "L9_ORXN",
+          "dev_mean_regret": 6.854632107275172,
+          "dev_unsolved": 1
+        },
+        {
+          "step": 2,
+          "added": "L10_IMPLX",
+          "dev_mean_regret": 4.764919643888287,
+          "dev_unsolved": 0
+        },
+        {
+          "step": 3,
+          "added": "L2_OR",
+          "dev_mean_regret": 4.780343649759554,
+          "dev_unsolved": 0
+        },
+        {
+          "step": 4,
+          "added": "L3_XOR",
+          "dev_mean_regret": 5.193440676648823,
+          "dev_unsolved": 0
+        },
+        {
+          "step": 5,
+          "added": "L0_BASE",
+          "dev_mean_regret": 5.6805605617528485,
+          "dev_unsolved": 0
+        }
+      ],
+      "dev_mean_regret": 5.6805605617528485,
+      "dev_unsolved": 0,
+      "test_mean_regret": 5.133657994668689,
+      "test_unsolved": 0,
+      "test_median_regret": 5.0,
+      "test_max_regret": 7.291666666666667
+    }
+  },
+  "best_K_on_unseen_test_for_diagnostic": 3,
+  "all12_reference_mean_regret": 12.0,
+  "hand_small3_reference_mean_regret": 4.969338178511565,
+  "V836_PASS": true
+}

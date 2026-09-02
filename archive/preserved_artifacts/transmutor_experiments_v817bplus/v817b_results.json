@@ -1,0 +1,364 @@
+{
+  "rows": [
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 15,
+      "winner_lcb": 0.8896190476190476
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "winner_lcb": 0.873787892745211
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "stopping_width": 10,
+      "pair_proofs": 30,
+      "winner_lcb": null
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 15,
+      "winner_lcb": 0.8820598494188402
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": false,
+      "stopping_width": 10,
+      "pair_proofs": 30,
+      "winner_lcb": null
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "winner_lcb": 0.878685130459218
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "stopping_width": 10,
+      "pair_proofs": 30,
+      "winner_lcb": null
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 15,
+      "winner_lcb": 0.8806408542085753
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 15,
+      "winner_lcb": 0.8827863602902517
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "winner_lcb": 0.8873249538554809
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8682911509586224
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8817941678182916
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8880092189887661
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8841080063755388
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8821690685228277
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 20,
+      "winner_lcb": 0.8773076791863457
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8804761904761905
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8841602994279535
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "winner_lcb": 0.8792711598388648
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 20,
+      "winner_lcb": 0.8798124543858714
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.8806408542085753
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.883339071609378
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.8667876616425567
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.8834231520011738
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.873656548604061
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.8373460760889543,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.882881582983671
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.8763830178276052,
+      "success": false,
+      "stopping_width": 10,
+      "pair_proofs": 60,
+      "winner_lcb": null
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.8862960871666733
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.919270737028956,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.8809656692147385
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "winner_lcb": 0.8777342906868547
+    }
+  ],
+  "by_G": {
+    "3": {
+      "success_count": 7,
+      "selected_k": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "mean_ARI": 0.9899125402775037,
+      "mean_pair_proofs": 16.8,
+      "stopping_widths": [
+        5,
+        2,
+        10,
+        5,
+        10,
+        2,
+        10,
+        5,
+        5,
+        2
+      ]
+    },
+    "4": {
+      "success_count": 10,
+      "selected_k": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "mean_ARI": 0.9909545082075546,
+      "mean_pair_proofs": 10.4,
+      "stopping_widths": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    "6": {
+      "success_count": 9,
+      "selected_k": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "mean_ARI": 0.9508633128530664,
+      "mean_pair_proofs": 16.8,
+      "stopping_widths": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        10,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "V817B_PASS": false
+}

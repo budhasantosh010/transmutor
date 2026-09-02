@@ -1,0 +1,30 @@
+{
+  "multiplication_organ_test_mse": 6.340068011922995e-06,
+  "transfer": [
+    {
+      "task": "XYZ",
+      "compiled_test_mse": 6.949068392714253e-06,
+      "compiled_task_training_steps": 0,
+      "scratch_successes": 6,
+      "scratch_median_steps": 150.0,
+      "scratch_mean_test_mse": 0.0015722529885048668
+    },
+    {
+      "task": "XY_PLUS_ZW",
+      "compiled_test_mse": 1.6354277249774896e-05,
+      "compiled_task_training_steps": 0,
+      "scratch_successes": 6,
+      "scratch_median_steps": 325.0,
+      "scratch_mean_test_mse": 0.0017697490402497351
+    },
+    {
+      "task": "XY_MINUS_Z",
+      "compiled_test_mse": 6.096774086472578e-06,
+      "compiled_task_training_steps": 0,
+      "scratch_successes": 6,
+      "scratch_median_steps": 200.0,
+      "scratch_mean_test_mse": 0.0018350428241925936
+    }
+  ],
+  "V830B_PASS": true
+}

@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "runs": 50,
+    "task_only": {
+      "mean_task_accuracy": 1.0,
+      "exact_left_rate": 1.0,
+      "mean_commutativity": 0.33333333333333326
+    },
+    "task_plus_equal_commutativity_pressure": {
+      "mean_task_accuracy": 0.6666666666666665,
+      "exact_left_rate": 0.0,
+      "mean_commutativity": 1.0
+    }
+  },
+  "caveat": "LEFT(x,y)=x is a deliberately simple directional target. Equal weighting of task and commutativity is arbitrary; the point is that invariants must themselves remain hypotheses rather than universal assumptions."
+}

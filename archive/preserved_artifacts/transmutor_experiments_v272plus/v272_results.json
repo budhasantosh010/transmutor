@@ -1,0 +1,34 @@
+{
+  "full_per_type_budget": 192,
+  "strategies": {
+    "FULL5": "top5 \u00d7 full192",
+    "H8_P32_K2": "top8 \u00d7 pilot32 -> keep2 -> +160",
+    "H8_P48_K3": "top8 \u00d7 pilot48 -> keep3 -> +144",
+    "H12_P24_K3": "top12 \u00d7 pilot24 -> keep3 -> +168"
+  },
+  "episodes": 20,
+  "summary": {
+    "FULL5": {
+      "adequacy": 0.75,
+      "mean_mse": 0.007990625267621374,
+      "mean_loss_evals": 965.0
+    },
+    "H8_P32_K2": {
+      "adequacy": 0.75,
+      "mean_mse": 0.007994418125605059,
+      "mean_loss_evals": 584.0
+    },
+    "H8_P48_K3": {
+      "adequacy": 0.55,
+      "mean_mse": 0.008068799912063735,
+      "mean_loss_evals": 824.0
+    },
+    "H12_P24_K3": {
+      "adequacy": 0.6,
+      "mean_mse": 0.00804931807940781,
+      "mean_loss_evals": 804.0
+    }
+  },
+  "best_observed": "H8_P32_K2",
+  "caveat": "Early training-loss improvement can discard slow-starting structures that would generalize better after more optimization. The learned prior is still trained only on a small DOUBLE_WINDOW history."
+}

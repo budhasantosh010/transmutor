@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "status": "unlabeled parameter-space developmental-axis audit",
+    "foundations": 3,
+    "mean_pc1_variance": 0.5859661897023519,
+    "mean_pc2_variance": 0.1942694584528605,
+    "mean_spearman_pc1_vs_log_gap": 0.923809523809524,
+    "perfect_monotonic_foundations": 1,
+    "mean_adjacent_monotonic_increases": 4.333333333333333,
+    "pass_gate": {
+      "PC1_explains_at_least_50pct": true,
+      "mean_spearman_at_least_0.85": true,
+      "mean_monotonic_steps_at_least_4_of_5": true
+    },
+    "V659_PASS": true
+  },
+  "rows": [
+    {
+      "seed": 65900,
+      "pc1_variance": 0.6132020354270935,
+      "pc2_variance": 0.1461998075246811,
+      "pc1": {
+        "7": -0.6087287664413452,
+        "15": -0.43408843874931335,
+        "31": -0.05251908674836159,
+        "63": 0.36373892426490784,
+        "127": 0.3947194516658783,
+        "255": 0.33687788248062134
+      },
+      "spearman_pc1_vs_log_gap": 0.8285714285714287,
+      "adjacent_monotonic_increases": 4,
+      "out_of": 5
+    },
+    {
+      "seed": 65901,
+      "pc1_variance": 0.5910468101501465,
+      "pc2_variance": 0.19333356618881226,
+      "pc1": {
+        "7": -0.6647526025772095,
+        "15": -0.4676278829574585,
+        "31": -0.028968656435608864,
+        "63": 0.2849290668964386,
+        "127": 0.4337254762649536,
+        "255": 0.4426945447921753
+      },
+      "spearman_pc1_vs_log_gap": 1.0,
+      "adjacent_monotonic_increases": 5,
+      "out_of": 5
+    },
+    {
+      "seed": 65902,
+      "pc1_variance": 0.5536497235298157,
+      "pc2_variance": 0.2432750016450882,
+      "pc1": {
+        "7": -0.5885794758796692,
+        "15": -0.4257478415966034,
+        "31": -0.07964620739221573,
+        "63": 0.2151852399110794,
+        "127": 0.4572427272796631,
+        "255": 0.4215455949306488
+      },
+      "spearman_pc1_vs_log_gap": 0.942857142857143,
+      "adjacent_monotonic_increases": 4,
+      "out_of": 5
+    }
+  ],
+  "caveat": "PCA receives no temporal labels. Gap labels are used only after PCA to evaluate whether the discovered axis corresponds to temporal specialization."
+}

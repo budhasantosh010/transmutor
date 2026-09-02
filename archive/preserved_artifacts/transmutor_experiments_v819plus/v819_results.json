@@ -1,0 +1,314 @@
+{
+  "rows": [
+    {
+      "success": true,
+      "selected_k": 3,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 12,
+      "route": "STATIC",
+      "kind": "SYNERGY",
+      "G": 3,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 3,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 12,
+      "route": "STATIC",
+      "kind": "SYNERGY",
+      "G": 3,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 3,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 12,
+      "route": "STATIC",
+      "kind": "COVERAGE",
+      "G": 3,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 3,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 12,
+      "route": "STATIC",
+      "kind": "COVERAGE",
+      "G": 3,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 3,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 15,
+      "route": "TEMPORAL",
+      "kind": "TEMPORAL",
+      "G": 3,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 3,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 14,
+      "route": "TEMPORAL",
+      "kind": "TEMPORAL",
+      "G": 3,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 4,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 16,
+      "route": "STATIC",
+      "kind": "SYNERGY",
+      "G": 4,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 4,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 15,
+      "route": "STATIC",
+      "kind": "SYNERGY",
+      "G": 4,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 4,
+      "ari": 0.9432039090001576,
+      "stopping_width": 2,
+      "proofs": 16,
+      "route": "STATIC",
+      "kind": "COVERAGE",
+      "G": 4,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 4,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 16,
+      "route": "STATIC",
+      "kind": "COVERAGE",
+      "G": 4,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 4,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 16,
+      "route": "TEMPORAL",
+      "kind": "TEMPORAL",
+      "G": 4,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 4,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 21,
+      "route": "TEMPORAL",
+      "kind": "TEMPORAL",
+      "G": 4,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 6,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 23,
+      "route": "STATIC",
+      "kind": "SYNERGY",
+      "G": 6,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 6,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 22,
+      "route": "STATIC",
+      "kind": "SYNERGY",
+      "G": 6,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 6,
+      "ari": 0.9476731240258295,
+      "stopping_width": 2,
+      "proofs": 24,
+      "route": "STATIC",
+      "kind": "COVERAGE",
+      "G": 6,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 6,
+      "ari": 0.9476731240258295,
+      "stopping_width": 2,
+      "proofs": 23,
+      "route": "STATIC",
+      "kind": "COVERAGE",
+      "G": 6,
+      "true_lag": 3
+    },
+    {
+      "success": true,
+      "selected_k": 6,
+      "ari": 0.8923849619617401,
+      "stopping_width": 2,
+      "proofs": 28,
+      "route": "TEMPORAL",
+      "kind": "TEMPORAL",
+      "G": 6,
+      "true_lag": 1
+    },
+    {
+      "success": true,
+      "selected_k": 6,
+      "ari": 1.0,
+      "stopping_width": 2,
+      "proofs": 26,
+      "route": "TEMPORAL",
+      "kind": "TEMPORAL",
+      "G": 6,
+      "true_lag": 3
+    }
+  ],
+  "by_kind_G": {
+    "SYNERGY_G3": {
+      "success_count": 2,
+      "selected_k": [
+        3,
+        3
+      ],
+      "routes": [
+        "STATIC",
+        "STATIC"
+      ],
+      "mean_proofs": 12.0
+    },
+    "COVERAGE_G3": {
+      "success_count": 2,
+      "selected_k": [
+        3,
+        3
+      ],
+      "routes": [
+        "STATIC",
+        "STATIC"
+      ],
+      "mean_proofs": 12.0
+    },
+    "TEMPORAL_G3": {
+      "success_count": 2,
+      "selected_k": [
+        3,
+        3
+      ],
+      "routes": [
+        "TEMPORAL",
+        "TEMPORAL"
+      ],
+      "mean_proofs": 14.5
+    },
+    "SYNERGY_G4": {
+      "success_count": 2,
+      "selected_k": [
+        4,
+        4
+      ],
+      "routes": [
+        "STATIC",
+        "STATIC"
+      ],
+      "mean_proofs": 15.5
+    },
+    "COVERAGE_G4": {
+      "success_count": 2,
+      "selected_k": [
+        4,
+        4
+      ],
+      "routes": [
+        "STATIC",
+        "STATIC"
+      ],
+      "mean_proofs": 16.0
+    },
+    "TEMPORAL_G4": {
+      "success_count": 2,
+      "selected_k": [
+        4,
+        4
+      ],
+      "routes": [
+        "TEMPORAL",
+        "TEMPORAL"
+      ],
+      "mean_proofs": 18.5
+    },
+    "SYNERGY_G6": {
+      "success_count": 2,
+      "selected_k": [
+        6,
+        6
+      ],
+      "routes": [
+        "STATIC",
+        "STATIC"
+      ],
+      "mean_proofs": 22.5
+    },
+    "COVERAGE_G6": {
+      "success_count": 2,
+      "selected_k": [
+        6,
+        6
+      ],
+      "routes": [
+        "STATIC",
+        "STATIC"
+      ],
+      "mean_proofs": 23.5
+    },
+    "TEMPORAL_G6": {
+      "success_count": 2,
+      "selected_k": [
+        6,
+        6
+      ],
+      "routes": [
+        "TEMPORAL",
+        "TEMPORAL"
+      ],
+      "mean_proofs": 27.0
+    }
+  },
+  "total_success": 18,
+  "V819_PASS": true
+}

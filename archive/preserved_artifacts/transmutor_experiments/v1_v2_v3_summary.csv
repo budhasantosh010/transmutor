@@ -1,0 +1,5 @@
+version,test,result,key_result,lesson
+V1,Lifetime weight learning across changing Boolean tasks,Partial,"Final AND 100%, OR 100%, XOR 75%, XNOR 50%","A single system can adapt online, but rewriting shared weights causes interference/forgetting."
+V2,Plain recurrent cell state on 14-step delayed recall,Failed,Stateful tanh cells ~50%; stateless ~50%,State by itself is not enough; information decayed across the delay.
+V2b,Gated cell memory on the same delayed-recall task,Success,Gated cells 100%; stateless 49.83%; strongest cell correlation 0.9963,Learned retention/write dynamics can preserve information efficiently.
+V3,Lifetime structural growth + pruning across OR→XOR→AND→XNOR→OR,Partial,1→2 cells solved XOR; XNOR stuck 75% despite growth to 8; OR later pruned 8→6 at 100%,"Structural plasticity works mechanically, but blind growth can waste capacity without creating the right computation."

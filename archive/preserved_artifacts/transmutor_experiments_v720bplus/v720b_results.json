@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "metric_validation": 1.0,
+      "metric_test": 1.0,
+      "true_metric_test_ceiling": 1.0,
+      "learned_M": [
+        [
+          0.00011983394836778688,
+          -0.0041013175159704054
+        ],
+        [
+          -0.0041013175159704054,
+          1.9998801660516323
+        ]
+      ],
+      "true_M": [
+        [
+          0.0001194949347424884,
+          -0.00398316449141628
+        ],
+        [
+          -0.00398316449141628,
+          1.9998805050652575
+        ]
+      ],
+      "matrix_cosine_similarity": 0.9999999965095502,
+      "relative_frobenius_error": 8.355180922978035e-05
+    },
+    {
+      "metric_validation": 1.0,
+      "metric_test": 1.0,
+      "true_metric_test_ceiling": 1.0,
+      "learned_M": [
+        [
+          1.9232712917055275,
+          -0.3838283554935058
+        ],
+        [
+          -0.3838283554935058,
+          0.07672870829447259
+        ]
+      ],
+      "true_M": [
+        [
+          1.922958587163867,
+          -0.38459171743277343
+        ],
+        [
+          -0.38459171743277343,
+          0.07704141283613317
+        ]
+      ],
+      "matrix_cosine_similarity": 0.9999998298557569,
+      "relative_frobenius_error": 0.0005833464294571572
+    },
+    {
+      "metric_validation": 1.0,
+      "metric_test": 1.0,
+      "true_metric_test_ceiling": 1.0,
+      "learned_M": [
+        [
+          0.00032710883659100426,
+          -0.01064894122922171
+        ],
+        [
+          -0.01064894122922171,
+          1.9996728911634092
+        ]
+      ],
+      "true_M": [
+        [
+          0.0003367308613834458,
+          -0.011397044539132008
+        ],
+        [
+          -0.011397044539132008,
+          1.9996632691386167
+        ]
+      ],
+      "matrix_cosine_similarity": 0.9999998600245098,
+      "relative_frobenius_error": 0.0005291045676325579
+    }
+  ],
+  "mean_metric_test": 1.0,
+  "mean_true_ceiling": 1.0,
+  "mean_matrix_similarity": 0.9999998954632723,
+  "mean_relative_frobenius_error": 0.00039866760210649846,
+  "pass_gate": {
+    "metric_test_above_0.99": true,
+    "matrix_similarity_above_0.999": true,
+    "relative_error_below_0.01": true
+  },
+  "V720B_PASS": true
+}

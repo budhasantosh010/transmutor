@@ -1,0 +1,75 @@
+{
+  "dataset": "sklearn digits, 1797 real handwritten digit images",
+  "candidate_widths": [
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "stages": [
+    "8 candidates to 8 epochs -> 4 survive",
+    "4 candidates to 16 epochs -> 2 survive",
+    "2 candidates to 40 epochs"
+  ],
+  "runs": [
+    {
+      "full_test": 0.9666666666666667,
+      "full_width": 48,
+      "full_cost": 903200,
+      "half_test": 0.9694444444444444,
+      "half_width": 48,
+      "half_cost": 584640
+    },
+    {
+      "full_test": 0.9666666666666667,
+      "full_width": 48,
+      "full_cost": 903200,
+      "half_test": 0.9666666666666667,
+      "half_width": 64,
+      "half_cost": 498240
+    },
+    {
+      "full_test": 0.9777777777777777,
+      "full_width": 96,
+      "full_cost": 903200,
+      "half_test": 0.9805555555555555,
+      "half_width": 64,
+      "half_cost": 599040
+    },
+    {
+      "full_test": 0.9833333333333333,
+      "full_width": 96,
+      "full_cost": 903200,
+      "half_test": 0.9805555555555555,
+      "half_width": 96,
+      "half_cost": 613440
+    },
+    {
+      "full_test": 0.9777777777777777,
+      "full_width": 32,
+      "full_cost": 903200,
+      "half_test": 0.9777777777777777,
+      "half_width": 64,
+      "half_cost": 522240
+    }
+  ],
+  "summary": {
+    "full_exhaustive": {
+      "mean_test_accuracy": 0.9744444444444443,
+      "std_test_accuracy": 0.006666666666666643,
+      "mean_compute_proxy": 903200.0
+    },
+    "successive_halving": {
+      "mean_test_accuracy": 0.975,
+      "std_test_accuracy": 0.005826715823167488,
+      "mean_compute_proxy": 563520.0
+    },
+    "compute_reduction_percent": 37.608503100088576,
+    "accuracy_gap_percentage_points": 0.05555555555556424
+  },
+  "caveat": "This compares search policies over ordinary one-hidden-layer neural networks. It does not test a full Transmutor architecture and the compute proxy ignores hardware efficiency and memory traffic."
+}

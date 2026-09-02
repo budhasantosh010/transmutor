@@ -1,0 +1,116 @@
+{
+  "dataset": "sklearn handwritten digits",
+  "candidate_architectures": [
+    [
+      16
+    ],
+    [
+      32
+    ],
+    [
+      64
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      32,
+      16
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      64,
+      32
+    ],
+    [
+      64,
+      64
+    ]
+  ],
+  "runs": [
+    {
+      "full_test": 0.9805555555555555,
+      "full_arch": [
+        64
+      ],
+      "full_cost": 1267840,
+      "half_test": 0.9888888888888889,
+      "half_arch": [
+        64,
+        64
+      ],
+      "half_cost": 766368
+    },
+    {
+      "full_test": 0.9833333333333333,
+      "full_arch": [
+        64
+      ],
+      "full_cost": 1267840,
+      "half_test": 0.9777777777777777,
+      "half_arch": [
+        32
+      ],
+      "half_cost": 678432
+    },
+    {
+      "full_test": 0.9666666666666667,
+      "full_arch": [
+        32,
+        32
+      ],
+      "full_cost": 1267840,
+      "half_test": 0.9638888888888889,
+      "half_arch": [
+        64
+      ],
+      "half_cost": 774816
+    },
+    {
+      "full_test": 0.975,
+      "full_arch": [
+        32
+      ],
+      "full_cost": 1267840,
+      "half_test": 0.9805555555555555,
+      "half_arch": [
+        64,
+        64
+      ],
+      "half_cost": 774816
+    },
+    {
+      "full_test": 0.975,
+      "full_arch": [
+        32,
+        16
+      ],
+      "full_cost": 1267840,
+      "half_test": 0.9777777777777777,
+      "half_arch": [
+        64,
+        64
+      ],
+      "half_cost": 774816
+    }
+  ],
+  "summary": {
+    "full_exhaustive": {
+      "mean_test_accuracy": 0.9761111111111112,
+      "std": 0.0057197945227705355,
+      "mean_compute_proxy": 1267840.0
+    },
+    "successive_halving": {
+      "mean_test_accuracy": 0.9777777777777779,
+      "std": 0.008050764858994135,
+      "mean_compute_proxy": 753849.6
+    },
+    "compute_reduction_percent": 40.54063604240283,
+    "accuracy_gap_pp": 0.16666666666667052
+  },
+  "caveat": "These are still ordinary MLPs. The experiment validates adaptive architecture-search resource allocation, not the full Transmutor concept."
+}

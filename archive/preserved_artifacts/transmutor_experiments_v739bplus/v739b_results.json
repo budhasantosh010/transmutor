@@ -1,0 +1,364 @@
+{
+  "rows": [
+    {
+      "seed": 74100,
+      "ORTHOGONAL": {
+        "env": "ORTHOGONAL",
+        "chosen": "IDENTITY",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 1.0,
+            "val2": 1.0,
+            "robust_validation": 1.0,
+            "mean_validation": 1.0,
+            "test_reward": 1.0,
+            "threshold": 0.9779315735658376,
+            "orientation": 1
+          }
+        ]
+      },
+      "AXIS_SCALE": {
+        "env": "AXIS_SCALE",
+        "chosen": "DIAGONAL",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 0.7166666666666667,
+            "val2": 0.65,
+            "robust_validation": 0.65,
+            "mean_validation": 0.6833333333333333,
+            "test_reward": 0.68,
+            "threshold": 0.99999176756422,
+            "orientation": 1
+          },
+          {
+            "structure": "DIAGONAL",
+            "cost": 1,
+            "rho": -4.5,
+            "M": [
+              [
+                0.00024678915197246345,
+                0.0
+              ],
+              [
+                0.0,
+                1.9997532108480276
+              ]
+            ],
+            "val1": 1.0,
+            "val2": 1.0,
+            "robust_validation": 1.0,
+            "mean_validation": 1.0,
+            "test_reward": 1.0,
+            "threshold": 0.9820376970365712,
+            "orientation": 1
+          }
+        ]
+      },
+      "SHEAR": {
+        "env": "SHEAR",
+        "chosen": "FULL",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 0.6527777777777778,
+            "val2": 0.65,
+            "robust_validation": 0.65,
+            "mean_validation": 0.6513888888888889,
+            "test_reward": 0.6707692307692308,
+            "threshold": 0.9999932779055352,
+            "orientation": 1
+          },
+          {
+            "structure": "DIAGONAL",
+            "cost": 1,
+            "rho": -4.3705,
+            "M": [
+              [
+                0.00031973670409074387,
+                0.0
+              ],
+              [
+                0.0,
+                1.9996802632959094
+              ]
+            ],
+            "val1": 0.9722222222222222,
+            "val2": 0.975,
+            "robust_validation": 0.9722222222222222,
+            "mean_validation": 0.9736111111111111,
+            "test_reward": 0.9757692307692307,
+            "threshold": 0.9827781406833471,
+            "orientation": 1
+          },
+          {
+            "structure": "FULL",
+            "cost": 2,
+            "robust_validation": 1.0,
+            "test_reward": 0.9996875,
+            "phi": -1.5697496601282297,
+            "rho": 4.244999999999999
+          }
+        ]
+      }
+    },
+    {
+      "seed": 74180,
+      "ORTHOGONAL": {
+        "env": "ORTHOGONAL",
+        "chosen": "IDENTITY",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 1.0,
+            "val2": 1.0,
+            "robust_validation": 1.0,
+            "mean_validation": 1.0,
+            "test_reward": 1.0,
+            "threshold": 0.9779133680847647,
+            "orientation": 1
+          }
+        ]
+      },
+      "AXIS_SCALE": {
+        "env": "AXIS_SCALE",
+        "chosen": "DIAGONAL",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 0.6333333333333333,
+            "val2": 0.6722222222222223,
+            "robust_validation": 0.6333333333333333,
+            "mean_validation": 0.6527777777777778,
+            "test_reward": 0.6707692307692308,
+            "threshold": 0.9999914328645134,
+            "orientation": 1
+          },
+          {
+            "structure": "DIAGONAL",
+            "cost": 1,
+            "rho": -4.51375,
+            "M": [
+              [
+                0.0002400957215113284,
+                0.0
+              ],
+              [
+                0.0,
+                1.9997599042784888
+              ]
+            ],
+            "val1": 1.0,
+            "val2": 1.0,
+            "robust_validation": 1.0,
+            "mean_validation": 1.0,
+            "test_reward": 0.9996153846153846,
+            "threshold": 0.9821489948813642,
+            "orientation": 1
+          }
+        ]
+      },
+      "SHEAR": {
+        "env": "SHEAR",
+        "chosen": "FULL",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 0.65,
+            "val2": 0.6722222222222223,
+            "robust_validation": 0.65,
+            "mean_validation": 0.6611111111111112,
+            "test_reward": 0.6723076923076923,
+            "threshold": 0.9999931938839378,
+            "orientation": 1
+          },
+          {
+            "structure": "DIAGONAL",
+            "cost": 1,
+            "rho": -4.3125,
+            "M": [
+              [
+                0.00035905593869355474,
+                0.0
+              ],
+              [
+                0.0,
+                1.9996409440613065
+              ]
+            ],
+            "val1": 0.9777777777777777,
+            "val2": 0.9861111111111112,
+            "robust_validation": 0.9777777777777777,
+            "mean_validation": 0.9819444444444445,
+            "test_reward": 0.9803846153846154,
+            "threshold": 0.9831598431166978,
+            "orientation": 1
+          },
+          {
+            "structure": "FULL",
+            "cost": 2,
+            "robust_validation": 1.0,
+            "test_reward": 1.0,
+            "phi": -1.5695363267948965,
+            "rho": 4.2124999999999995
+          }
+        ]
+      }
+    },
+    {
+      "seed": 74260,
+      "ORTHOGONAL": {
+        "env": "ORTHOGONAL",
+        "chosen": "IDENTITY",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 1.0,
+            "val2": 1.0,
+            "robust_validation": 1.0,
+            "mean_validation": 1.0,
+            "test_reward": 1.0,
+            "threshold": 0.9778502684461373,
+            "orientation": 1
+          }
+        ]
+      },
+      "AXIS_SCALE": {
+        "env": "AXIS_SCALE",
+        "chosen": "DIAGONAL",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 0.7083333333333334,
+            "val2": 0.675,
+            "robust_validation": 0.675,
+            "mean_validation": 0.6916666666666667,
+            "test_reward": 0.6626923076923077,
+            "threshold": 0.9999923005151008,
+            "orientation": 1
+          },
+          {
+            "structure": "DIAGONAL",
+            "cost": 1,
+            "rho": -4.504,
+            "M": [
+              [
+                0.00024482295570671435,
+                0.0
+              ],
+              [
+                0.0,
+                1.9997551770442934
+              ]
+            ],
+            "val1": 1.0,
+            "val2": 1.0,
+            "robust_validation": 1.0,
+            "mean_validation": 1.0,
+            "test_reward": 1.0,
+            "threshold": 0.9818373461735274,
+            "orientation": 1
+          }
+        ]
+      },
+      "SHEAR": {
+        "env": "SHEAR",
+        "chosen": "FULL",
+        "log": [
+          {
+            "structure": "IDENTITY",
+            "cost": 0,
+            "val1": 0.6972222222222222,
+            "val2": 0.6722222222222223,
+            "robust_validation": 0.6722222222222223,
+            "mean_validation": 0.6847222222222222,
+            "test_reward": 0.6661538461538462,
+            "threshold": 0.9999936205172313,
+            "orientation": 1
+          },
+          {
+            "structure": "DIAGONAL",
+            "cost": 1,
+            "rho": -4.319,
+            "M": [
+              [
+                0.00035441924248203746,
+                0.0
+              ],
+              [
+                0.0,
+                1.9996455807575177
+              ]
+            ],
+            "val1": 0.9694444444444444,
+            "val2": 0.9666666666666667,
+            "robust_validation": 0.9666666666666667,
+            "mean_validation": 0.9680555555555556,
+            "test_reward": 0.98,
+            "threshold": 0.9826161490174076,
+            "orientation": 1
+          },
+          {
+            "structure": "FULL",
+            "cost": 2,
+            "robust_validation": 1.0,
+            "test_reward": 1.0,
+            "phi": -1.5696296601282298,
+            "rho": 4.254999999999999
+          }
+        ]
+      }
+    }
+  ],
+  "correct_choice_count": 9,
+  "total_choices": 9,
+  "by_environment": {
+    "ORTHOGONAL": {
+      "expected": "IDENTITY",
+      "choices": [
+        "IDENTITY",
+        "IDENTITY",
+        "IDENTITY"
+      ],
+      "correct_count": 3,
+      "mean_test_reward": 1.0,
+      "mean_cost": 0.0
+    },
+    "AXIS_SCALE": {
+      "expected": "DIAGONAL",
+      "choices": [
+        "DIAGONAL",
+        "DIAGONAL",
+        "DIAGONAL"
+      ],
+      "correct_count": 3,
+      "mean_test_reward": 0.9998717948717948,
+      "mean_cost": 1.0
+    },
+    "SHEAR": {
+      "expected": "FULL",
+      "choices": [
+        "FULL",
+        "FULL",
+        "FULL"
+      ],
+      "correct_count": 3,
+      "mean_test_reward": 0.9998958333333333,
+      "mean_cost": 2.0
+    }
+  },
+  "pass_gate": {
+    "all_9_correct": true,
+    "all_mean_test_above_0.98": true
+  },
+  "V739B_PASS": true
+}

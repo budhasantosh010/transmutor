@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "floor": 0.05,
+      "total": 2414359.419412236,
+      "solved": 26,
+      "median_regret": 2.032065762572108,
+      "max_regret": 19.999993775745335,
+      "mean_regret": 3.5407833742409123
+    },
+    {
+      "floor": 0.08,
+      "total": 1694581.3507775904,
+      "solved": 26,
+      "median_regret": 2.1772035947145882,
+      "max_regret": 12.499997826087226,
+      "mean_regret": 3.4123095010949696
+    },
+    {
+      "floor": 0.12,
+      "total": 1293186.1345655143,
+      "solved": 26,
+      "median_regret": 2.4063659538211057,
+      "max_regret": 8.333332519705099,
+      "mean_regret": 3.211730148433904
+    },
+    {
+      "floor": 0.18,
+      "total": 1055483.1540007417,
+      "solved": 26,
+      "median_regret": 2.8575199052112303,
+      "max_regret": 5.555555295646522,
+      "mean_regret": 3.2021380796613306
+    },
+    {
+      "floor": 0.24,
+      "total": 874189.5710132882,
+      "solved": 26,
+      "median_regret": 2.9781699233250287,
+      "max_regret": 4.166666577676072,
+      "mean_regret": 3.0580884830885138
+    },
+    {
+      "floor": 0.3,
+      "total": 753923.3723362924,
+      "solved": 26,
+      "median_regret": 3.246512561452237,
+      "max_regret": 3.3333333129926257,
+      "mean_regret": 3.0005088644528857
+    },
+    {
+      "floor": 0.3333333333333333,
+      "total": 713631.0,
+      "solved": 26,
+      "median_regret": 3.0,
+      "max_regret": 3.0,
+      "mean_regret": 3.0
+    }
+  ],
+  "best_full_success_floor": 0.3333333333333333,
+  "best_total_compute": 713631.0,
+  "equal_portfolio_compute": 713631.0,
+  "V828C_PASS": true
+}

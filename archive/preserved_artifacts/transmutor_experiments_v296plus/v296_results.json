@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "promoted_source_expression": "(s+((v*-1)*f))",
+    "abstracted_macro": "MEMORY(state,value,gate)",
+    "instances": [
+      "gate=A",
+      "gate=B"
+    ],
+    "train_exact": 1.0,
+    "long_sequence": {
+      "16": {
+        "both_correct": 1.0,
+        "bit_accuracy": 1.0
+      },
+      "64": {
+        "both_correct": 1.0,
+        "bit_accuracy": 1.0
+      },
+      "128": {
+        "both_correct": 1.0,
+        "bit_accuracy": 1.0
+      },
+      "256": {
+        "both_correct": 1.0,
+        "bit_accuracy": 1.0
+      }
+    },
+    "new_task_structural_candidates_evaluated": 2,
+    "V294_neutral_adaptive_search_candidate_proxy": 9400,
+    "structural_search_reduction_factor": 4700.0
+  },
+  "caveat": "The abstraction step that turns terminal f into a generic gate-binding slot is supplied by us. The experiment shows the value of input-parameterized macro reuse, not autonomous discovery of variable binding."
+}

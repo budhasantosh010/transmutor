@@ -1,0 +1,425 @@
+{
+  "rows": [
+    {
+      "rep": 0,
+      "context_budget": 2,
+      "target_context_rank": 13,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 0,
+      "context_budget": 4,
+      "target_context_rank": 13,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 0,
+      "context_budget": 8,
+      "target_context_rank": 13,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 0,
+      "context_budget": 36,
+      "target_context_rank": 13,
+      "success": true,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 1,
+      "context_budget": 2,
+      "target_context_rank": 5,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 1,
+      "context_budget": 4,
+      "target_context_rank": 5,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 1,
+      "context_budget": 8,
+      "target_context_rank": 5,
+      "success": true,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 1,
+      "context_budget": 36,
+      "target_context_rank": 5,
+      "success": true,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 2,
+      "context_budget": 2,
+      "target_context_rank": 11,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 2,
+      "context_budget": 4,
+      "target_context_rank": 11,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 2,
+      "context_budget": 8,
+      "target_context_rank": 11,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 2,
+      "context_budget": 36,
+      "target_context_rank": 11,
+      "success": true,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 3,
+      "context_budget": 2,
+      "target_context_rank": 20,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 3,
+      "context_budget": 4,
+      "target_context_rank": 20,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 3,
+      "context_budget": 8,
+      "target_context_rank": 20,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 3,
+      "context_budget": 36,
+      "target_context_rank": 20,
+      "success": false,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 4,
+      "context_budget": 2,
+      "target_context_rank": 10,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 4,
+      "context_budget": 4,
+      "target_context_rank": 10,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 4,
+      "context_budget": 8,
+      "target_context_rank": 10,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 4,
+      "context_budget": 36,
+      "target_context_rank": 10,
+      "success": true,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 5,
+      "context_budget": 2,
+      "target_context_rank": 23,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 5,
+      "context_budget": 4,
+      "target_context_rank": 23,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 5,
+      "context_budget": 8,
+      "target_context_rank": 23,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 5,
+      "context_budget": 36,
+      "target_context_rank": 23,
+      "success": false,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 6,
+      "context_budget": 2,
+      "target_context_rank": 30,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 6,
+      "context_budget": 4,
+      "target_context_rank": 30,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 6,
+      "context_budget": 8,
+      "target_context_rank": 30,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 6,
+      "context_budget": 36,
+      "target_context_rank": 30,
+      "success": false,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 7,
+      "context_budget": 2,
+      "target_context_rank": 13,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 7,
+      "context_budget": 4,
+      "target_context_rank": 13,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 7,
+      "context_budget": 8,
+      "target_context_rank": 13,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 7,
+      "context_budget": 36,
+      "target_context_rank": 13,
+      "success": false,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 8,
+      "context_budget": 2,
+      "target_context_rank": 14,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 8,
+      "context_budget": 4,
+      "target_context_rank": 14,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 8,
+      "context_budget": 8,
+      "target_context_rank": 14,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 8,
+      "context_budget": 36,
+      "target_context_rank": 14,
+      "success": false,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 9,
+      "context_budget": 2,
+      "target_context_rank": 15,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 9,
+      "context_budget": 4,
+      "target_context_rank": 15,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 9,
+      "context_budget": 8,
+      "target_context_rank": 15,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 9,
+      "context_budget": 36,
+      "target_context_rank": 15,
+      "success": true,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 10,
+      "context_budget": 2,
+      "target_context_rank": 8,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 10,
+      "context_budget": 4,
+      "target_context_rank": 8,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 10,
+      "context_budget": 8,
+      "target_context_rank": 8,
+      "success": true,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 10,
+      "context_budget": 36,
+      "target_context_rank": 8,
+      "success": true,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 11,
+      "context_budget": 2,
+      "target_context_rank": 15,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 11,
+      "context_budget": 4,
+      "target_context_rank": 15,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 11,
+      "context_budget": 8,
+      "target_context_rank": 15,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 11,
+      "context_budget": 36,
+      "target_context_rank": 15,
+      "success": true,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 12,
+      "context_budget": 2,
+      "target_context_rank": 7,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 12,
+      "context_budget": 4,
+      "target_context_rank": 7,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 12,
+      "context_budget": 8,
+      "target_context_rank": 7,
+      "success": false,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 12,
+      "context_budget": 36,
+      "target_context_rank": 7,
+      "success": false,
+      "pair_proofs": 72
+    },
+    {
+      "rep": 13,
+      "context_budget": 2,
+      "target_context_rank": 6,
+      "success": false,
+      "pair_proofs": 4
+    },
+    {
+      "rep": 13,
+      "context_budget": 4,
+      "target_context_rank": 6,
+      "success": false,
+      "pair_proofs": 8
+    },
+    {
+      "rep": 13,
+      "context_budget": 8,
+      "target_context_rank": 6,
+      "success": true,
+      "pair_proofs": 16
+    },
+    {
+      "rep": 13,
+      "context_budget": 36,
+      "target_context_rank": 6,
+      "success": true,
+      "pair_proofs": 72
+    }
+  ],
+  "by_budget": {
+    "2": {
+      "success_count": 0,
+      "mean_target_context_rank": 13.571428571428571,
+      "target_context_recall": 0,
+      "mean_pair_proofs": 4.0
+    },
+    "4": {
+      "success_count": 0,
+      "mean_target_context_rank": 13.571428571428571,
+      "target_context_recall": 0,
+      "mean_pair_proofs": 8.0
+    },
+    "8": {
+      "success_count": 3,
+      "mean_target_context_rank": 13.571428571428571,
+      "target_context_recall": 4,
+      "mean_pair_proofs": 16.0
+    },
+    "36": {
+      "success_count": 8,
+      "mean_target_context_rank": 13.571428571428571,
+      "target_context_recall": 14,
+      "mean_pair_proofs": 72.0
+    }
+  },
+  "raw_pair_space": 2016,
+  "context_pair_space": 36,
+  "V821_PASS": false
+}

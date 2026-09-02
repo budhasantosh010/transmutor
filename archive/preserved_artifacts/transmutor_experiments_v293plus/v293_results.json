@@ -1,0 +1,51 @@
+{
+  "same_rule_library_size": 4200,
+  "selection": "highest short-task accuracy, then smallest expression",
+  "results": {
+    "LAST_BIT": {
+      "expression": "v",
+      "uses_state": false,
+      "nodes": 1,
+      "train_accuracy": 1.0,
+      "long_accuracy": {
+        "9": 1.0,
+        "31": 1.0,
+        "63": 1.0
+      }
+    },
+    "PARITY": {
+      "expression": "(1+((1-s)*v))",
+      "uses_state": true,
+      "nodes": 7,
+      "train_accuracy": 1.0,
+      "long_accuracy": {
+        "9": 1.0,
+        "31": 1.0,
+        "63": 1.0
+      }
+    },
+    "MAJORITY": {
+      "expression": "(s-v)",
+      "uses_state": true,
+      "nodes": 3,
+      "train_accuracy": 1.0,
+      "long_accuracy": {
+        "9": 1.0,
+        "31": 1.0,
+        "63": 1.0
+      }
+    },
+    "FLAG_MEMORY": {
+      "expression": "tanh((s+(v*f)))",
+      "uses_state": true,
+      "nodes": 6,
+      "train_accuracy": 1.0,
+      "long_accuracy": {
+        "9": 1.0,
+        "31": 1.0,
+        "63": 1.0
+      }
+    }
+  },
+  "caveat": "The recurrence execution loop is still globally available even when an expression does not reference state. This shows optional state use within a common substrate, not invention of the time-loop mechanism itself."
+}

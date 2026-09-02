@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "train_families": [
+      "FLAG_MEMORY",
+      "LAST_BIT",
+      "MAJORITY",
+      "PARITY"
+    ],
+    "heldout_transformations": [
+      "NEG_FLAG_MEMORY",
+      "NEG_LAST_BIT",
+      "NEG_MAJORITY",
+      "NEG_PARITY"
+    ],
+    "overall_zero_shot_level_accuracy": 1.0,
+    "by_task": {
+      "NEG_FLAG_MEMORY": 1.0,
+      "NEG_LAST_BIT": 1.0,
+      "NEG_MAJORITY": 1.0,
+      "NEG_PARITY": 1.0
+    }
+  },
+  "caveat": "Negating labels is a mild distribution shift: it preserves the underlying mechanism and only changes the readout sign. This is stronger than same-task fresh seeds but far from open-world transfer."
+}

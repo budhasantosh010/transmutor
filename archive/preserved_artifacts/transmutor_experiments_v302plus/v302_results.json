@@ -1,0 +1,111 @@
+{
+  "result": {
+    "best_portable_source_solution": {
+      "source_solution": "a",
+      "source_expression": "((a*(a+v))+s)",
+      "candidate_role_terminal": "a",
+      "mean_long_after_rebinding": 1.0,
+      "scores": {
+        "a": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "b": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "c": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "d": {
+          "train": 1.0,
+          "long": 1.0
+        }
+      }
+    },
+    "discovered_generic_expression": "((SLOT_0*(SLOT_0+v))+s)",
+    "unseen_d_train_accuracy": 1.0,
+    "unseen_d_long_accuracy": {
+      "16": 1.0,
+      "64": 1.0,
+      "128": 1.0,
+      "256": 1.0
+    }
+  },
+  "all_portability_tests": [
+    {
+      "source_solution": "a",
+      "source_expression": "((a*(a+v))+s)",
+      "candidate_role_terminal": "a",
+      "mean_long_after_rebinding": 1.0,
+      "scores": {
+        "a": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "b": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "c": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "d": {
+          "train": 1.0,
+          "long": 1.0
+        }
+      }
+    },
+    {
+      "source_solution": "b",
+      "source_expression": "(s+(b*v))",
+      "candidate_role_terminal": "b",
+      "mean_long_after_rebinding": 1.0,
+      "scores": {
+        "a": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "b": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "c": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "d": {
+          "train": 1.0,
+          "long": 1.0
+        }
+      }
+    },
+    {
+      "source_solution": "c",
+      "source_expression": "(s+(c*v))",
+      "candidate_role_terminal": "c",
+      "mean_long_after_rebinding": 1.0,
+      "scores": {
+        "a": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "b": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "c": {
+          "train": 1.0,
+          "long": 1.0
+        },
+        "d": {
+          "train": 1.0,
+          "long": 1.0
+        }
+      }
+    }
+  ],
+  "caveat": "The generic substitution operation is supplied. What is discovered is WHICH terminal behaves as a portable role. This is stronger than syntactic anti-unification but still assumes input symbols can be systematically substituted."
+}

@@ -1,0 +1,1726 @@
+{
+  "summary": {
+    "runs": 12,
+    "mean_task_accuracy": 1.0,
+    "all_tasks_99plus_rate": 1.0,
+    "mean_primitive_events": 2.0,
+    "mean_primitive_generations": 0.5,
+    "mean_final_library_size": 4.0,
+    "final_exact_multiplication_rate": 0.0,
+    "example_run": [
+      {
+        "step": 1,
+        "task": "LAST_BIT",
+        "mode": "PROGRAM_SEARCH",
+        "descriptor": [
+          "BASE",
+          "('lin', 0, -1, 0, 1)"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 1,
+        "primitive_present": false
+      },
+      {
+        "step": 2,
+        "task": "NEG_LAST_BIT",
+        "mode": "REUSE",
+        "descriptor": [
+          "BASE",
+          "('lin', 0, -1, 0, 1)"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 1,
+        "primitive_present": false
+      },
+      {
+        "step": 3,
+        "task": "MAJORITY",
+        "mode": "PROGRAM_SEARCH",
+        "descriptor": [
+          "BASE",
+          "('lin', 1, -1, 0, 0)"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 2,
+        "primitive_present": false
+      },
+      {
+        "step": 4,
+        "task": "PARITY",
+        "mode": "PRIMITIVE_CREATE",
+        "descriptor": [
+          "B",
+          "B_s_v"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 3,
+        "primitive_present": true
+      },
+      {
+        "step": 5,
+        "task": "NEG_PARITY",
+        "mode": "REUSE",
+        "descriptor": [
+          "B",
+          "B_s_v"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 3,
+        "primitive_present": true
+      },
+      {
+        "step": 6,
+        "task": "FLAG_MEMORY",
+        "mode": "PRIMITIVE_REFINE",
+        "descriptor": [
+          "B",
+          "s_plus_B_v_f"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 4,
+        "primitive_present": true
+      },
+      {
+        "step": 7,
+        "task": "NEG_FLAG_MEMORY",
+        "mode": "REUSE",
+        "descriptor": [
+          "B",
+          "s_plus_B_v_f"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 4,
+        "primitive_present": true
+      },
+      {
+        "step": 8,
+        "task": "PARITY",
+        "mode": "REUSE",
+        "descriptor": [
+          "B",
+          "B_s_v"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 4,
+        "primitive_present": true
+      },
+      {
+        "step": 9,
+        "task": "FLAG_MEMORY",
+        "mode": "REUSE",
+        "descriptor": [
+          "B",
+          "s_plus_B_v_f"
+        ],
+        "validation_accuracy": 1.0,
+        "library_size": 4,
+        "primitive_present": true
+      }
+    ],
+    "mode_counts": {
+      "PROGRAM_SEARCH": 24,
+      "REUSE": 60,
+      "PRIMITIVE_CREATE": 12,
+      "PRIMITIVE_REFINE": 12
+    }
+  },
+  "runs": [
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 1,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 0,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 0,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 0,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 0,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          -1,
+          -1,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          -1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 0,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          -1,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 1,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 1,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 1,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 1,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          1,
+          1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_v_s"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_f_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 1,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    },
+    {
+      "records": [
+        {
+          "step": 1,
+          "task": "LAST_BIT",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 2,
+          "task": "NEG_LAST_BIT",
+          "mode": "REUSE",
+          "descriptor": [
+            "BASE",
+            "('lin', 0, -1, 0, 1)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 1,
+          "primitive_present": false
+        },
+        {
+          "step": 3,
+          "task": "MAJORITY",
+          "mode": "PROGRAM_SEARCH",
+          "descriptor": [
+            "BASE",
+            "('lin', 1, -1, 0, 0)"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 2,
+          "primitive_present": false
+        },
+        {
+          "step": 4,
+          "task": "PARITY",
+          "mode": "PRIMITIVE_CREATE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 5,
+          "task": "NEG_PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 3,
+          "primitive_present": true
+        },
+        {
+          "step": 6,
+          "task": "FLAG_MEMORY",
+          "mode": "PRIMITIVE_REFINE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 7,
+          "task": "NEG_FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 8,
+          "task": "PARITY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "B_s_v"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        },
+        {
+          "step": 9,
+          "task": "FLAG_MEMORY",
+          "mode": "REUSE",
+          "descriptor": [
+            "B",
+            "s_plus_B_v_f"
+          ],
+          "validation_accuracy": 1.0,
+          "library_size": 4,
+          "primitive_present": true
+        }
+      ],
+      "primitive_events": 2,
+      "primitive_generations": 0,
+      "final_library_size": 4,
+      "final_B": [
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      "final_B_exact_multiplication": false
+    }
+  ],
+  "caveat": "The action loop, B-program templates, validation threshold, and evolutionary primitive mechanism are supplied. The task stream is small. This is integration evidence: it does not mean the system can yet invent arbitrary meta-operations."
+}

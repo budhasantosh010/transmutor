@@ -1,0 +1,31 @@
+{
+  "policy": "search 1 state; grow to 2 only if short exact accuracy <99%; pair search uses output usefulness + idle-stability",
+  "results": {
+    "SINGLE_MEMORY_A": {
+      "one_state_train_exact": 1.0,
+      "one_state_long_exact": 1.0,
+      "selected_states": 1,
+      "selected_train_exact": 1.0,
+      "selected_long_exact": 1.0,
+      "selected_expressions": [
+        "tanh(((v*a)+s))"
+      ],
+      "adaptive_candidate_search_cost": 3000,
+      "always_two_pair_search_cost": 6400
+    },
+    "DUAL_MEMORY": {
+      "one_state_train_exact": 0.75875,
+      "one_state_long_exact": 0.759,
+      "selected_states": 2,
+      "selected_train_exact": 1.0,
+      "selected_long_exact": 1.0,
+      "selected_expressions": [
+        "(((a*v)*(-1*-1))-((0*-1)+(0-s)))",
+        "(((s-b)-(b*v))+tanh(tanh(b)))"
+      ],
+      "adaptive_candidate_search_cost": 9400,
+      "always_two_pair_search_cost": 6400
+    }
+  },
+  "caveat": "The 99% growth threshold, maximum of two states, pair-pool size, and idle-stability criterion are supplied. Candidate-count cost is not hardware compute."
+}

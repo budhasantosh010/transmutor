@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "selected_pairs": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "op": "+",
+      "exact_relation": true,
+      "validation_reward": 1.0,
+      "test_reward": 1.0,
+      "tolerance": 0.05
+    },
+    {
+      "selected_pairs": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "op": "+",
+      "exact_relation": true,
+      "validation_reward": 1.0,
+      "test_reward": 1.0,
+      "tolerance": 0.05
+    },
+    {
+      "selected_pairs": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "op": "+",
+      "exact_relation": true,
+      "validation_reward": 1.0,
+      "test_reward": 1.0,
+      "tolerance": 0.05
+    }
+  ],
+  "exact_count": 3,
+  "mean_test_reward": 1.0,
+  "min_test_reward": 1.0,
+  "pass_gate": {
+    "exact_3of3": true,
+    "mean_reward_above_0.99": true,
+    "min_reward_above_0.98": true
+  },
+  "V730_PASS": true
+}

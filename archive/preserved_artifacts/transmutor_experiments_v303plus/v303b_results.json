@@ -1,0 +1,28 @@
+{
+  "result": {
+    "target_pair": [
+      2,
+      6
+    ],
+    "composition_library_size": 1200,
+    "best_single": {
+      "gates": [
+        0
+      ],
+      "check_accuracy": 0.5166666666666667,
+      "composition": "z0"
+    },
+    "best_pair": {
+      "gates": [
+        2,
+        6
+      ],
+      "check_accuracy": 1.0,
+      "composition": "tanh((z1*z0))"
+    },
+    "final_refit_composition": "tanh((z1*z0))",
+    "length256_accuracy": 1.0,
+    "pair_candidates_tested": 28
+  },
+  "caveat": "The search explicitly allows pair coalitions and a supplied composition grammar. The useful pair is discovered by exhaustive testing of 28 pairs; scalable coalition discovery remains unresolved."
+}

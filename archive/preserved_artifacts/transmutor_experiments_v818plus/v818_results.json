@@ -1,0 +1,619 @@
+{
+  "rows": [
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        155,
+        144,
+        167
+      ],
+      "total_screen_steps": 466
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 20,
+      "pair_proofs": 60,
+      "screen_steps_by_context": [
+        155,
+        155,
+        155
+      ],
+      "total_screen_steps": 465
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 15,
+      "screen_steps_by_context": [
+        155,
+        155,
+        155
+      ],
+      "total_screen_steps": 465
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        155,
+        167,
+        144
+      ],
+      "total_screen_steps": 466
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": false,
+      "stopping_width": 20,
+      "pair_proofs": 60,
+      "screen_steps_by_context": [
+        155,
+        155,
+        155
+      ],
+      "total_screen_steps": 465
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        144,
+        167,
+        155
+      ],
+      "total_screen_steps": 466
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        155,
+        155,
+        155
+      ],
+      "total_screen_steps": 465
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        155,
+        167,
+        144
+      ],
+      "total_screen_steps": 466
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        155,
+        155,
+        155
+      ],
+      "total_screen_steps": 465
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        155,
+        155,
+        155
+      ],
+      "total_screen_steps": 465
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        155,
+        155,
+        155
+      ],
+      "total_screen_steps": 465
+    },
+    {
+      "true_G": 3,
+      "selected_k": 3,
+      "ari": 0.9495627013875189,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 6,
+      "screen_steps_by_context": [
+        144,
+        167,
+        155
+      ],
+      "total_screen_steps": 466
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        111,
+        91,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "stopping_width": 20,
+      "pair_proofs": 80,
+      "screen_steps_by_context": [
+        101,
+        91,
+        101,
+        111
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        101,
+        101,
+        111,
+        91
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9081360673475312,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        121,
+        101,
+        91,
+        91
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": false,
+      "stopping_width": 20,
+      "pair_proofs": 80,
+      "screen_steps_by_context": [
+        101,
+        91,
+        101,
+        111
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 0.9547725410377732,
+      "success": true,
+      "stopping_width": 5,
+      "pair_proofs": 20,
+      "screen_steps_by_context": [
+        111,
+        91,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 4,
+      "selected_k": 4,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 8,
+      "screen_steps_by_context": [
+        101,
+        101,
+        101,
+        101
+      ],
+      "total_screen_steps": 404
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "total_screen_steps": 330
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9172143859390001,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        63,
+        63,
+        55,
+        50,
+        50,
+        55
+      ],
+      "total_screen_steps": 336
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        55,
+        63,
+        55,
+        55,
+        50
+      ],
+      "total_screen_steps": 333
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        55,
+        63,
+        50,
+        55,
+        55
+      ],
+      "total_screen_steps": 333
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9218082756589604,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        50,
+        72,
+        55,
+        55,
+        55,
+        55
+      ],
+      "total_screen_steps": 342
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9172143859390001,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        63,
+        55,
+        50,
+        50,
+        63
+      ],
+      "total_screen_steps": 336
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "total_screen_steps": 330
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9218082756589604,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        72,
+        55,
+        55,
+        50,
+        55
+      ],
+      "total_screen_steps": 342
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "total_screen_steps": 330
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "total_screen_steps": 330
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 1.0,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "total_screen_steps": 330
+    },
+    {
+      "true_G": 6,
+      "selected_k": 6,
+      "ari": 0.9585444325283828,
+      "success": true,
+      "stopping_width": 2,
+      "pair_proofs": 12,
+      "screen_steps_by_context": [
+        63,
+        55,
+        55,
+        55,
+        50,
+        55
+      ],
+      "total_screen_steps": 333
+    }
+  ],
+  "by_G": {
+    "3": {
+      "success_count": 11,
+      "mean_ARI": 0.9789844589114662,
+      "mean_pair_proofs": 15.75,
+      "mean_total_screen_steps": 465.4166666666667,
+      "stopping_widths": [
+        2,
+        20,
+        5,
+        2,
+        20,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "4": {
+      "success_count": 11,
+      "mean_ARI": 0.9734998977113665,
+      "mean_pair_proofs": 21.0,
+      "mean_total_screen_steps": 404.0,
+      "stopping_widths": [
+        2,
+        2,
+        2,
+        2,
+        20,
+        2,
+        2,
+        2,
+        20,
+        5,
+        2,
+        2
+      ]
+    },
+    "6": {
+      "success_count": 12,
+      "mean_ARI": 0.9628065517317558,
+      "mean_pair_proofs": 12.0,
+      "mean_total_screen_steps": 333.75,
+      "stopping_widths": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "V818_PASS": true
+}

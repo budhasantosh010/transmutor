@@ -1,0 +1,283 @@
+{
+  "rows": [
+    {
+      "seed": 73700,
+      "final_library": [
+        "DOT",
+        "COS"
+      ],
+      "invention_count": 1,
+      "log": [
+        {
+          "task": "UNIT_1",
+          "library": [
+            "DOT"
+          ],
+          "chosen": "DOT",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 1
+            }
+          },
+          "invention_triggered": false
+        },
+        {
+          "task": "SCALED_1",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "COS",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 0.62,
+              "test_reward": 0.5881818181818181,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": true,
+          "invented": "COS"
+        },
+        {
+          "task": "UNIT_2",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "DOT",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": false
+        },
+        {
+          "task": "SCALED_EXTREME",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "COS",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 0.5425,
+              "test_reward": 0.2423076923076923,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": false
+        }
+      ]
+    },
+    {
+      "seed": 73720,
+      "final_library": [
+        "DOT",
+        "COS"
+      ],
+      "invention_count": 1,
+      "log": [
+        {
+          "task": "UNIT_1",
+          "library": [
+            "DOT"
+          ],
+          "chosen": "DOT",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 1
+            }
+          },
+          "invention_triggered": false
+        },
+        {
+          "task": "SCALED_1",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "COS",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 0.5857142857142857,
+              "test_reward": 0.5795454545454546,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": true,
+          "invented": "COS"
+        },
+        {
+          "task": "UNIT_2",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "DOT",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": false
+        },
+        {
+          "task": "SCALED_EXTREME",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "COS",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 0.56125,
+              "test_reward": 0.23615384615384616,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": false
+        }
+      ]
+    },
+    {
+      "seed": 73740,
+      "final_library": [
+        "DOT",
+        "COS"
+      ],
+      "invention_count": 1,
+      "log": [
+        {
+          "task": "UNIT_1",
+          "library": [
+            "DOT"
+          ],
+          "chosen": "DOT",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 1
+            }
+          },
+          "invention_triggered": false
+        },
+        {
+          "task": "SCALED_1",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "COS",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 0.6128571428571429,
+              "test_reward": 0.5936363636363636,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": true,
+          "invented": "COS"
+        },
+        {
+          "task": "UNIT_2",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "DOT",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": false
+        },
+        {
+          "task": "SCALED_EXTREME",
+          "library": [
+            "DOT",
+            "COS"
+          ],
+          "chosen": "COS",
+          "scores": {
+            "DOT": {
+              "calibration_reward": 0.5525,
+              "test_reward": 0.24,
+              "cost": 1
+            },
+            "COS": {
+              "calibration_reward": 1.0,
+              "test_reward": 1.0,
+              "cost": 5
+            }
+          },
+          "invention_triggered": false
+        }
+      ]
+    }
+  ],
+  "correct_task_choices": 12,
+  "total_task_choices": 12,
+  "invention_once_count": 3,
+  "COS_compiled_count": 3,
+  "mean_selected_test_reward": 1.0,
+  "pass_gate": {
+    "all_12_choices_correct": true,
+    "invent_once_3of3": true,
+    "COS_compiled_3of3": true,
+    "mean_selected_reward_above_0.99": true
+  },
+  "V737_PASS": true
+}

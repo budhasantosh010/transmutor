@@ -1,0 +1,85 @@
+{
+  "result": {
+    "population": 120,
+    "max_generations": 140,
+    "generation_first_best_seen": 3,
+    "generations_run": 4,
+    "final_metrics": {
+      "mean": 1.0,
+      "parity": 1.0,
+      "gate_value_flag": 1.0,
+      "gate_flag_value": 1.0
+    },
+    "evolved_table": [
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        1
+      ]
+    ],
+    "multiplication_table": [
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        1
+      ]
+    ],
+    "cells_matching_multiplication": 9,
+    "exact_multiplication": true
+  },
+  "history": [
+    {
+      "generation": 0,
+      "mean_fitness": 0.4155222800925926,
+      "best_fitness": 0.7151041666666668,
+      "best_parity": 0.6640625,
+      "best_gate1": 0.48125,
+      "best_gate2": 1.0
+    },
+    {
+      "generation": 1,
+      "mean_fitness": 0.5128197337962963,
+      "best_fitness": 0.8406250000000001,
+      "best_parity": 1.0,
+      "best_gate1": 0.521875,
+      "best_gate2": 1.0
+    },
+    {
+      "generation": 2,
+      "mean_fitness": 0.5476707175925928,
+      "best_fitness": 0.8406250000000001,
+      "best_parity": 1.0,
+      "best_gate1": 0.521875,
+      "best_gate2": 1.0
+    },
+    {
+      "generation": 3,
+      "mean_fitness": 0.5813541666666667,
+      "best_fitness": 1.0,
+      "best_parity": 1.0,
+      "best_gate1": 1.0,
+      "best_gate2": 1.0
+    }
+  ],
+  "caveat": "The ternary lookup-table substrate, evolutionary algorithm, and three fitness tasks are supplied. Perfect task behavior may leave unused table cells unconstrained, so exact multiplication is not required for success."
+}

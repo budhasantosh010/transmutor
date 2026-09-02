@@ -1,0 +1,12 @@
+{
+  "continuous": {
+    "pre_query_memory_vector_MAE": 0.06664019078016281,
+    "final_query_scalar_MAE": 0.2411113679409027,
+    "readout_extra_error": 0.1744711771607399
+  },
+  "discrete": {
+    "pre_query_memory_vector_MAE": 0.05309455096721649,
+    "final_query_scalar_MAE": 0.10739683359861374,
+    "readout_extra_error": 0.05430228263139725
+  }
+}

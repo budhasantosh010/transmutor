@@ -1,0 +1,131 @@
+{
+  "selected_terms": [
+    {
+      "pair": [
+        4,
+        8
+      ],
+      "sign": "+"
+    },
+    {
+      "pair": [
+        6,
+        10
+      ],
+      "sign": "+"
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "sign": "+"
+    },
+    {
+      "pair": [
+        5,
+        9
+      ],
+      "sign": "+"
+    }
+  ],
+  "history": [
+    {
+      "step": 1,
+      "validation_accuracy": 0.655,
+      "terms": [
+        {
+          "pair": [
+            4,
+            8
+          ],
+          "sign": "+"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "validation_accuracy": 0.6833333333333333,
+      "terms": [
+        {
+          "pair": [
+            6,
+            10
+          ],
+          "sign": "-"
+        },
+        {
+          "pair": [
+            6,
+            6
+          ],
+          "sign": "+"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "validation_accuracy": 0.7466666666666667,
+      "terms": [
+        {
+          "pair": [
+            6,
+            10
+          ],
+          "sign": "-"
+        },
+        {
+          "pair": [
+            6,
+            6
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            5,
+            9
+          ],
+          "sign": "-"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "validation_accuracy": 1.0,
+      "terms": [
+        {
+          "pair": [
+            4,
+            8
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            6,
+            10
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            3,
+            7
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            5,
+            9
+          ],
+          "sign": "+"
+        }
+      ]
+    }
+  ],
+  "validation_accuracy": 1.0,
+  "test_accuracy": 0.9975,
+  "exact_4d_dot_recovery": true
+}

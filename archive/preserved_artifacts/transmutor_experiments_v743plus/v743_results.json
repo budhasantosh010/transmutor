@@ -1,0 +1,253 @@
+{
+  "source_solutions": [
+    {
+      "term1": [
+        0,
+        7
+      ],
+      "term2": [
+        4,
+        10
+      ],
+      "op": "+",
+      "validation_accuracy": 1.0,
+      "test_accuracy": 0.9995833333333334,
+      "event_slots": [
+        0,
+        4
+      ],
+      "goal_slots": [
+        7,
+        10
+      ],
+      "pattern": [
+        "SUM",
+        [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      ]
+    },
+    {
+      "term1": [
+        6,
+        9
+      ],
+      "term2": [
+        1,
+        2
+      ],
+      "op": "+",
+      "validation_accuracy": 1.0,
+      "test_accuracy": 0.9991666666666666,
+      "event_slots": [
+        2,
+        9
+      ],
+      "goal_slots": [
+        1,
+        6
+      ],
+      "pattern": [
+        "SUM",
+        [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      ]
+    },
+    {
+      "term1": [
+        3,
+        5
+      ],
+      "term2": [
+        8,
+        11
+      ],
+      "op": "+",
+      "validation_accuracy": 1.0,
+      "test_accuracy": 0.99875,
+      "event_slots": [
+        3,
+        11
+      ],
+      "goal_slots": [
+        5,
+        8
+      ],
+      "pattern": [
+        "SUM",
+        [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      ]
+    },
+    {
+      "term1": [
+        7,
+        9
+      ],
+      "term2": [
+        1,
+        4
+      ],
+      "op": "+",
+      "validation_accuracy": 1.0,
+      "test_accuracy": 0.9995833333333334,
+      "event_slots": [
+        1,
+        7
+      ],
+      "goal_slots": [
+        4,
+        9
+      ],
+      "pattern": [
+        "SUM",
+        [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      ]
+    },
+    {
+      "term1": [
+        3,
+        10
+      ],
+      "term2": [
+        0,
+        6
+      ],
+      "op": "+",
+      "validation_accuracy": 0.9981818181818182,
+      "test_accuracy": 0.99875,
+      "event_slots": [
+        6,
+        10
+      ],
+      "goal_slots": [
+        0,
+        3
+      ],
+      "pattern": [
+        "SUM",
+        [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      ]
+    },
+    {
+      "term1": [
+        8,
+        11
+      ],
+      "term2": [
+        2,
+        5
+      ],
+      "op": "+",
+      "validation_accuracy": 0.9981818181818182,
+      "test_accuracy": 0.9995833333333334,
+      "event_slots": [
+        5,
+        11
+      ],
+      "goal_slots": [
+        2,
+        8
+      ],
+      "pattern": [
+        "SUM",
+        [
+          [
+            "v0",
+            "v1"
+          ],
+          [
+            "v2",
+            "v3"
+          ]
+        ]
+      ]
+    }
+  ],
+  "pattern_counts": {
+    "('SUM', (('v0', 'v1'), ('v2', 'v3')))": 6
+  },
+  "promoted_pattern": "('SUM', (('v0', 'v1'), ('v2', 'v3')))",
+  "promotion_triggered": true,
+  "frequency": 6,
+  "compression": {
+    "raw_ops_per_use": 3,
+    "macro_ops_per_use": 1,
+    "savings_per_use": 2
+  },
+  "new_4D_task": {
+    "selected_macro_apps": [
+      [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    ],
+    "combiner": "+",
+    "validation_accuracy": 1.0,
+    "test_accuracy": 1.0,
+    "macro_library_size": 1485
+  },
+  "pass_gate": {
+    "macro_promoted": true,
+    "pattern_seen_at_least_4_times": true,
+    "new_task_test_above_0.99": true
+  },
+  "V743_PASS": true
+}

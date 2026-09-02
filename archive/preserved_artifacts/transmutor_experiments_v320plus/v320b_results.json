@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "early_controller": {
+      "TRUE_MISSING": 1.0,
+      "DECEPTIVE_SOLVABLE": 0.0
+    },
+    "finish_current_small_language_before_escalating": {
+      "TRUE_MISSING": 1.0,
+      "DECEPTIVE_SOLVABLE": 1.0
+    },
+    "mean_curve": {
+      "TRUE_MISSING": {
+        "20": 0.49926587301587305,
+        "60": 0.5349007936507936,
+        "100": 0.566626984126984,
+        "150": 0.5694047619047619,
+        "160": 0.5694047619047619
+      },
+      "DECEPTIVE_SOLVABLE": {
+        "20": 0.5009325396825397,
+        "60": 0.5756746031746031,
+        "100": 0.844484126984127,
+        "150": 1.0,
+        "160": 1.0
+      }
+    }
+  },
+  "caveat": "The difficult ordering is deliberately adversarial and derived from a separate reference dataset. Exhausting all 160 rules is practical only because this current language is tiny; large languages need a value-of-search estimate rather than exhaustive completion."
+}

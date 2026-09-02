@@ -1,0 +1,197 @@
+{
+  "tasks": 20,
+  "all12": {
+    "median_regret": 12.0,
+    "mean_regret": 12.0,
+    "max_regret": 12.0
+  },
+  "small3": {
+    "solved_count": 20,
+    "median_regret": 4.5,
+    "mean_regret": 4.969338178511565,
+    "max_regret": 12.757234726688102
+  },
+  "rows": [
+    {
+      "family": "NAND_NATIVE",
+      "task": 0,
+      "oracle": 16,
+      "all12_time": 192,
+      "all12_regret": 12.0,
+      "small3_time": 48,
+      "small3_regret": 3.0
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 1,
+      "oracle": 58022,
+      "all12_time": 696264,
+      "all12_regret": 12.0,
+      "small3_time": 201942,
+      "small3_regret": 3.480438454379373
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 2,
+      "oracle": 3973,
+      "all12_time": 47676,
+      "all12_regret": 12.0,
+      "small3_time": 24924,
+      "small3_regret": 6.273345079285175
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 3,
+      "oracle": 23389,
+      "all12_time": 280668,
+      "all12_regret": 12.0,
+      "small3_time": 70167,
+      "small3_regret": 3.0
+    },
+    {
+      "family": "NAND_NATIVE",
+      "task": 4,
+      "oracle": 29,
+      "all12_time": 348,
+      "all12_regret": 12.0,
+      "small3_time": 87,
+      "small3_regret": 3.0
+    },
+    {
+      "family": "XOR_NATIVE",
+      "task": 0,
+      "oracle": 1,
+      "all12_time": 12,
+      "all12_regret": 12.0,
+      "small3_time": 3,
+      "small3_regret": 3.0
+    },
+    {
+      "family": "XOR_NATIVE",
+      "task": 1,
+      "oracle": 54,
+      "all12_time": 648,
+      "all12_regret": 12.0,
+      "small3_time": 276,
+      "small3_regret": 5.111111111111111
+    },
+    {
+      "family": "XOR_NATIVE",
+      "task": 2,
+      "oracle": 8,
+      "all12_time": 96,
+      "all12_regret": 12.0,
+      "small3_time": 33,
+      "small3_regret": 4.125
+    },
+    {
+      "family": "XOR_NATIVE",
+      "task": 3,
+      "oracle": 64,
+      "all12_time": 768,
+      "all12_regret": 12.0,
+      "small3_time": 339,
+      "small3_regret": 5.296875
+    },
+    {
+      "family": "XOR_NATIVE",
+      "task": 4,
+      "oracle": 16,
+      "all12_time": 192,
+      "all12_regret": 12.0,
+      "small3_time": 48,
+      "small3_regret": 3.0
+    },
+    {
+      "family": "OR_IMPL_NATIVE",
+      "task": 0,
+      "oracle": 1687,
+      "all12_time": 20244,
+      "all12_regret": 12.0,
+      "small3_time": 10242,
+      "small3_regret": 6.07113218731476
+    },
+    {
+      "family": "OR_IMPL_NATIVE",
+      "task": 1,
+      "oracle": 24,
+      "all12_time": 288,
+      "all12_regret": 12.0,
+      "small3_time": 135,
+      "small3_regret": 5.625
+    },
+    {
+      "family": "OR_IMPL_NATIVE",
+      "task": 2,
+      "oracle": 2,
+      "all12_time": 24,
+      "all12_regret": 12.0,
+      "small3_time": 9,
+      "small3_regret": 4.5
+    },
+    {
+      "family": "OR_IMPL_NATIVE",
+      "task": 3,
+      "oracle": 14,
+      "all12_time": 168,
+      "all12_regret": 12.0,
+      "small3_time": 117,
+      "small3_regret": 8.357142857142858
+    },
+    {
+      "family": "OR_IMPL_NATIVE",
+      "task": 4,
+      "oracle": 622,
+      "all12_time": 7464,
+      "all12_regret": 12.0,
+      "small3_time": 7935,
+      "small3_regret": 12.757234726688102
+    },
+    {
+      "family": "MIXED_NATIVE",
+      "task": 0,
+      "oracle": 2,
+      "all12_time": 24,
+      "all12_regret": 12.0,
+      "small3_time": 9,
+      "small3_regret": 4.5
+    },
+    {
+      "family": "MIXED_NATIVE",
+      "task": 1,
+      "oracle": 106,
+      "all12_time": 1272,
+      "all12_regret": 12.0,
+      "small3_time": 609,
+      "small3_regret": 5.745283018867925
+    },
+    {
+      "family": "MIXED_NATIVE",
+      "task": 2,
+      "oracle": 6,
+      "all12_time": 72,
+      "all12_regret": 12.0,
+      "small3_time": 18,
+      "small3_regret": 3.0
+    },
+    {
+      "family": "MIXED_NATIVE",
+      "task": 3,
+      "oracle": 3699,
+      "all12_time": 44388,
+      "all12_regret": 12.0,
+      "small3_time": 24207,
+      "small3_regret": 6.5442011354420115
+    },
+    {
+      "family": "MIXED_NATIVE",
+      "task": 4,
+      "oracle": 414,
+      "all12_time": 4968,
+      "all12_regret": 12.0,
+      "small3_time": 1242,
+      "small3_regret": 3.0
+    }
+  ],
+  "V835_FINDING": true
+}

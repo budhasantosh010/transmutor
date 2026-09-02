@@ -1,0 +1,65 @@
+{
+  "discovered_B_table": [
+    [
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      1
+    ]
+  ],
+  "grammar_ops": [
+    "+",
+    "-",
+    "tanh",
+    "B"
+  ],
+  "multiplication_operator_present": false,
+  "results": {
+    "LAST_BIT": {
+      "expression": "v",
+      "train_accuracy": 1.0,
+      "mean_long_accuracy": 1.0,
+      "length63_accuracy": 1.0
+    },
+    "PARITY": {
+      "expression": "(((vB(1+s))-0)+-1)",
+      "train_accuracy": 1.0,
+      "mean_long_accuracy": 1.0,
+      "length63_accuracy": 1.0
+    },
+    "MAJORITY": {
+      "expression": "(v+s)",
+      "train_accuracy": 1.0,
+      "mean_long_accuracy": 1.0,
+      "length63_accuracy": 1.0
+    },
+    "FLAG_MEMORY": {
+      "expression": "tanh(((s+(vBf))+0))",
+      "train_accuracy": 1.0,
+      "mean_long_accuracy": 1.0,
+      "length63_accuracy": 1.0
+    }
+  },
+  "V312_no_interaction_reference": {
+    "LAST_BIT": 1.0,
+    "PARITY": 0.48055555555555557,
+    "MAJORITY": 1.0,
+    "FLAG_MEMORY": 0.56
+  },
+  "V293_full_multiplication_reference": {
+    "LAST_BIT": 1.0,
+    "PARITY": 1.0,
+    "MAJORITY": 1.0,
+    "FLAG_MEMORY": 1.0
+  },
+  "caveat": "B quantizes arbitrary intermediate values to the ternary domain before table lookup. This quantization wrapper is supplied, and random search may miss valid programs even when the primitive is expressive enough."
+}

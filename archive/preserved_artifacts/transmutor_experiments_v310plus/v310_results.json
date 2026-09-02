@@ -1,0 +1,86 @@
+{
+  "records": [
+    {
+      "step": 1,
+      "task": "PARITY",
+      "mode": "ROUTER_REUSE",
+      "expression": "(1+((1-s)*v))",
+      "length63_accuracy": 1.0,
+      "vocab_size": 4,
+      "router_old_macro_passed": true
+    },
+    {
+      "step": 2,
+      "task": "FIRST_BIT",
+      "mode": "NEW_SEARCH",
+      "expression": "(s-(-1*(s-v)))",
+      "length63_accuracy": 1.0,
+      "vocab_size": 5,
+      "router_old_macro_passed": false
+    },
+    {
+      "step": 3,
+      "task": "FLAG_MEMORY",
+      "mode": "ROUTER_REUSE",
+      "expression": "tanh((s+(v*f)))",
+      "length63_accuracy": 1.0,
+      "vocab_size": 5,
+      "router_old_macro_passed": true
+    },
+    {
+      "step": 4,
+      "task": "FIRST_BIT",
+      "mode": "VOCAB_FALLBACK",
+      "expression": "(s-(-1*(s-v)))",
+      "length63_accuracy": 1.0,
+      "vocab_size": 5,
+      "router_old_macro_passed": false
+    },
+    {
+      "step": 5,
+      "task": "MAJORITY",
+      "mode": "ROUTER_REUSE",
+      "expression": "(s-v)",
+      "length63_accuracy": 1.0,
+      "vocab_size": 5,
+      "router_old_macro_passed": true
+    },
+    {
+      "step": 6,
+      "task": "FIRST_BIT",
+      "mode": "VOCAB_FALLBACK",
+      "expression": "(s-(-1*(s-v)))",
+      "length63_accuracy": 1.0,
+      "vocab_size": 5,
+      "router_old_macro_passed": false
+    }
+  ],
+  "summary": {
+    "stream": [
+      "PARITY",
+      "FIRST_BIT",
+      "FLAG_MEMORY",
+      "FIRST_BIT",
+      "MAJORITY",
+      "FIRST_BIT"
+    ],
+    "new_search_events": 1,
+    "final_vocab_size": 5,
+    "final_vocab": [
+      "tanh((s+(v*f)))",
+      "(1+((1-s)*v))",
+      "(s-v)",
+      "v",
+      "(s-(-1*(s-v)))"
+    ],
+    "mean_stream_length63_accuracy": 1.0,
+    "forced_old_router_FIRST_BIT_mean_length63": 0.520625,
+    "FIRST_BIT_discovered_expression": "(s-(-1*(s-v)))",
+    "later_FIRST_BIT_modes": [
+      "NEW_SEARCH",
+      "VOCAB_FALLBACK",
+      "VOCAB_FALLBACK"
+    ]
+  },
+  "caveat": "Novelty is detected by a supplied 99% verification threshold. The new FIRST_BIT task is still expressible in the existing grammar, and the old router is not itself retrained during this experiment."
+}

@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "runs": 60,
+    "behavior_perfect_rate": 1.0,
+    "exact_multiplication_rate": 0.3333333333333333,
+    "mean_generation_to_behavior_perfect": 3.783333333333333,
+    "median_generation_to_behavior_perfect": 4.0,
+    "max_generation_to_behavior_perfect": 7
+  },
+  "caveat": "The primitive substrate is only a 9-cell ternary lookup table, so this search space is tiny. Repeated success here does not imply primitive evolution will remain easy in large continuous spaces."
+}

@@ -1,0 +1,26 @@
+Version,Question,Status,Key result,Main caveat
+V0,Topology growth/pruning,Success,"100% AND/OR/XOR/XNOR; 3 hidden cells, 13 edges",Population evolution
+V1,Lifetime learning,Partial,Online adaptation with interference,Forgetting
+V2,Plain state,Failed,~50% delayed recall,State ≠ memory
+V2b,Gated memory,Success,100% recall; corr 0.9963,Gates supplied
+V3,Blind growth,Partial,2→8 cells still 75% XNOR,More capacity insufficient
+V3b,Directed repair,Success/Partial,1→2 cells solved XOR/XNOR,External structural evaluator
+V4,Energy-aware compute,Success,7.92→1.28 equivalent active cells at 100%,Toy energy proxy
+V5,Generic selective memory,Failed,Write nothing collapse,Degenerate optimum
+V5b,Addressed memory,Success,100%; ~1.2 writes/20,Relevance signal supplied
+V6,Random feedback learning,Success,30/30 XOR,Tiny benchmark
+V7,Learning-rule search,Partial,"99.38%, matched hand-DFA",Rule family supplied
+V8,Primitive composition,Success,Exact compact Boolean programs,Primitive set supplied
+V9,Reusable modules,Success,1-step transfer vs 5–42 scratch,Modules supplied
+V10,Skill compilation,Success,50.54% late compute reduction,Compiler supplied
+V11,Dynamic routing,Success,"Hard gate ~.99, easy ~.50 at ~99%",Experts supplied
+V12,World model planning,Success,Greedy stuck; planner found 8-step detour,Tiny full transition data
+V13,Selective planning,Success,"100% success, cost 2.83 vs 8 always-plan",Controllers supplied
+V14,Curiosity,Positive modest,98.48% vs 96.34% random,Uncertainty rule supplied
+V15,Development,Success,"Same seed: 1,2,2,3–4 cells by task",Growth evaluator supplied
+V16,Near-clone reproduction,Failed,0/12,Insufficient diversity
+V16b,Diverse reproduction,Success,12/12,Mutation scales supplied
+V17,Resource competition,Success,"12→3 cells, 100% retained",Death logic external
+V18,Easy continual learning,Inconclusive,Both 100%,Benchmark too easy
+V18b,Conflicting continual learning,Success,"Shared 66.25%, progressive 98.75%; 24.06pp vs 0 forgetting",Progressive capacity grows
+V21,Recurrent algorithm discovery,Success,Discovered s*x parity and s+x majority; 100% length-64 generalization,Loop scaffold + primitives supplied

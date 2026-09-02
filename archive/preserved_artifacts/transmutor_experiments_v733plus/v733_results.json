@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "expression": "((x3*x5)+(x4*x6))",
+      "search_validation_reward": 0.95,
+      "calibrated_threshold": 0.8972384078669348,
+      "test_reward": 1.0
+    },
+    {
+      "expression": "((x3*x5)+(x4*x6))",
+      "search_validation_reward": 0.9583333333333334,
+      "calibrated_threshold": 0.8970129242607314,
+      "test_reward": 1.0
+    },
+    {
+      "expression": "((x3*x5)+(x4*x6))",
+      "search_validation_reward": 0.9291666666666667,
+      "calibrated_threshold": 0.8973683862634387,
+      "test_reward": 1.0
+    }
+  ],
+  "dot_recovery_count": 3,
+  "mean_test_reward": 1.0,
+  "min_test_reward": 1.0,
+  "pass_gate": {
+    "dot_3of3": true,
+    "mean_reward_above_0.98": true,
+    "min_reward_above_0.95": true
+  },
+  "V733_PASS": true
+}

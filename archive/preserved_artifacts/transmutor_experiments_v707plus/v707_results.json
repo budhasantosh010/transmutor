@@ -1,0 +1,28 @@
+{
+  "4D": {
+    "flat_raw_product_library_size": 91,
+    "flat_exhaustive_4term_candidates": 21381360,
+    "actual_raw_rank_prune_candidates_V704": 117131,
+    "DOT2_macro_application_count": 2145,
+    "hierarchical_rank_prune_candidates_V705": 3405,
+    "compression_vs_flat_exhaustive": 6279.400881057269,
+    "compression_vs_same_style_raw_rank_prune": 34.39970631424376,
+    "empirical_accuracy": {
+      "hierarchical_DOT2_to_DOT4": 1.0,
+      "raw_two_product_baseline": 0.8331111111111111
+    }
+  },
+  "8D": {
+    "flat_raw_product_library_size": 136,
+    "flat_exhaustive_8term_candidates": 301229049813120,
+    "DOT4_macro_application_count": 4900,
+    "hierarchical_rank_prune_candidates_V706": 6160,
+    "shallow_DOT2_rank_prune_candidates": 2044,
+    "compression_vs_flat_exhaustive": 48900819774.85714,
+    "empirical_accuracy": {
+      "hierarchical_DOT4_to_DOT8": 1.0,
+      "shallow_two_DOT2": 0.9177380952380952
+    }
+  },
+  "V707_PASS": true
+}

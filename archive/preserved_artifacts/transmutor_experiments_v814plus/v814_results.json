@@ -1,0 +1,1126 @@
+{
+  "rows": [
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1677,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1677,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1677,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1551,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1551,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1551,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1084,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1084,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1084,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1867,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1867,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1867,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1891,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1891,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1891,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 204,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 204,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 204,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 394,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 394,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 394,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 762,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 762,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 762,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 280,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 280,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 280,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 830,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 830,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 830,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 67,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 67,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 67,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1318,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1318,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1318,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 103,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 103,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 103,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 109,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 109,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 109,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1722,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1722,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1722,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 143,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 143,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 143,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1118,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1118,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1118,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 5,
+      "target_rank": 1254,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 15,
+      "target_rank": 1254,
+      "success": false
+    },
+    {
+      "steps": 60,
+      "K": 40,
+      "target_rank": 1254,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 1195,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 1195,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 1195,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 52,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 52,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 52,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 117,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 117,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 117,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 178,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 178,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 178,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 41,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 41,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 41,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 87,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 87,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 87,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 8,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 8,
+      "success": true
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 8,
+      "success": true
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 90,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 90,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 90,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 395,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 395,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 395,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 6,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 6,
+      "success": true
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 6,
+      "success": true
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 222,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 222,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 222,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 1833,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 1833,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 1833,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 18,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 18,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 18,
+      "success": true
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 40,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 40,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 40,
+      "success": true
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 182,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 182,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 182,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 203,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 203,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 203,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 1118,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 1118,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 1118,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 580,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 580,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 580,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 2238,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 2238,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 2238,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 5,
+      "target_rank": 296,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 15,
+      "target_rank": 296,
+      "success": false
+    },
+    {
+      "steps": 120,
+      "K": 40,
+      "target_rank": 296,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 39,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 39,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 39,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 566,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 566,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 566,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 2,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 2,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 2,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 56,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 56,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 56,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 6,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 6,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 6,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 9,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 9,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 9,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 856,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 856,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 856,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 1451,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 1451,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 1451,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 1150,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 1150,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 1150,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 470,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 470,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 470,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 155,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 155,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 155,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 228,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 228,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 228,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 199,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 199,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 199,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 1,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 37,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 37,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 37,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 20,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 20,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 20,
+      "success": true
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 636,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 636,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 636,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 5,
+      "target_rank": 70,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 15,
+      "target_rank": 70,
+      "success": false
+    },
+    {
+      "steps": 240,
+      "K": 40,
+      "target_rank": 70,
+      "success": false
+    }
+  ],
+  "by_steps": {
+    "60": {
+      "mean_target_rank": 818.8,
+      "recall": {
+        "5": 2,
+        "15": 2,
+        "40": 2
+      },
+      "exact_success": {
+        "5": 2,
+        "15": 2,
+        "40": 2
+      }
+    },
+    "120": {
+      "mean_target_rank": 444.95,
+      "recall": {
+        "5": 0,
+        "15": 2,
+        "40": 4
+      },
+      "exact_success": {
+        "5": 0,
+        "15": 2,
+        "40": 4
+      }
+    },
+    "240": {
+      "mean_target_rank": 297.65,
+      "recall": {
+        "5": 4,
+        "15": 6,
+        "40": 9
+      },
+      "exact_success": {
+        "5": 4,
+        "15": 6,
+        "40": 9
+      }
+    }
+  },
+  "V814_PASS": false
+}

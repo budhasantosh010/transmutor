@@ -1,0 +1,132 @@
+{
+  "rows": [
+    {
+      "success": true,
+      "stage1_target_rank": 8,
+      "stage2_target_rank": 5,
+      "stage3_target_rank": 2,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 5,
+      "stage2_target_rank": 2,
+      "stage3_target_rank": 2,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 2,
+      "stage2_target_rank": 2,
+      "stage3_target_rank": 1,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 12,
+      "stage2_target_rank": 5,
+      "stage3_target_rank": 1,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 9,
+      "stage2_target_rank": 2,
+      "stage3_target_rank": 3,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 5,
+      "stage2_target_rank": 6,
+      "stage3_target_rank": 2,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": false,
+      "stage1_target_rank": 18,
+      "stage2_target_rank": null,
+      "stage3_target_rank": null,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 1,
+      "stage2_target_rank": 1,
+      "stage3_target_rank": 1,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": false,
+      "stage1_target_rank": 28,
+      "stage2_target_rank": null,
+      "stage3_target_rank": null,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 9,
+      "stage2_target_rank": 1,
+      "stage3_target_rank": 2,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": true,
+      "stage1_target_rank": 3,
+      "stage2_target_rank": 3,
+      "stage3_target_rank": 2,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    },
+    {
+      "success": false,
+      "stage1_target_rank": 12,
+      "stage2_target_rank": 10,
+      "stage3_target_rank": null,
+      "pair_proofs": 6,
+      "adaptive_effort": 7840,
+      "uniform160_effort": 11520,
+      "effort_reduction_fraction": 0.3194444444444444
+    }
+  ],
+  "success_count": 9,
+  "mean_stage1_rank": 9.333333333333334,
+  "target_survived_stage2_count": 10,
+  "target_survived_stage3_count": 9,
+  "adaptive_effort": 7840,
+  "uniform160_effort": 11520,
+  "effort_reduction_fraction": 0.3194444444444444,
+  "V823_PASS": false
+}

@@ -1,0 +1,49 @@
+{
+  "dataset": "sklearn handwritten digits",
+  "task": "even vs odd",
+  "stable_channel": "4 PCA dimensions of image pixels",
+  "shortcut_failures": [
+    "DIRECT1",
+    "XOR2",
+    "REDUNDANT4"
+  ],
+  "repair_operators": [
+    "NEUTRALIZE1",
+    "NEUTRALIZE2",
+    "DROP_ALL"
+  ],
+  "repair_cost_per_neutralized_feature": 0.0035,
+  "meta_context": "top five IID aux permutation drops + sum of drops + base IID validation accuracy",
+  "summary": {
+    "episodes_train": 48,
+    "episodes_test": 24,
+    "exact_best_repair_recovery": 0.7083333333333334,
+    "mean_net_utility_regret": 0.00492471340388007,
+    "mean_fraction_of_exhaustive_net_utility": 0.9922528568529895,
+    "by_failure": {
+      "DIRECT1": {
+        "exact_repair_recovery": 0.625,
+        "mean_regret": 0.008277447089947057
+      },
+      "XOR2": {
+        "exact_repair_recovery": 0.5,
+        "mean_regret": 0.006496693121693153
+      },
+      "REDUNDANT4": {
+        "exact_repair_recovery": 1.0,
+        "mean_regret": 0.0
+      }
+    },
+    "train_best_action_counts": {
+      "NEUTRALIZE1": 17,
+      "NEUTRALIZE2": 14,
+      "DROP_ALL": 17
+    },
+    "test_best_action_counts": {
+      "NEUTRALIZE1": 12,
+      "NEUTRALIZE2": 4,
+      "DROP_ALL": 8
+    }
+  },
+  "caveat": "Shortcut mechanisms and auxiliary variables are synthetic even though perception data are real. Repair means inference-time neutralization, not full structural retraining."
+}

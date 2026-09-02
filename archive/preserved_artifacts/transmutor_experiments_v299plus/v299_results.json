@@ -1,0 +1,41 @@
+{
+  "result": {
+    "target_gates": [
+      3,
+      9,
+      14
+    ],
+    "chosen_gates": [
+      9,
+      14,
+      3
+    ],
+    "copies_grown": 3,
+    "train_exact": 1.0,
+    "length256_exact": 1.0,
+    "candidate_bindings_tested": 45,
+    "all_3_gate_subsets": 560,
+    "history": [
+      {
+        "copies": 0,
+        "exact": 0.11583333333333333
+      },
+      {
+        "copies": 1,
+        "exact": 0.2683333333333333,
+        "added_gate": 9
+      },
+      {
+        "copies": 2,
+        "exact": 0.5325,
+        "added_gate": 14
+      },
+      {
+        "copies": 3,
+        "exact": 1.0,
+        "added_gate": 3
+      }
+    ]
+  },
+  "caveat": "Each candidate gate can be tested directly against labeled task output, and the promoted MEMORY macro is supplied. Greedy forward selection may fail when useful gates only help jointly and not individually."
+}

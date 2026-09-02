@@ -1,0 +1,51 @@
+{
+  "best_expression": "(x3*x5) + (x4*x6)",
+  "validation_accuracy": 1.0,
+  "test_accuracy": 0.99975,
+  "top10": [
+    {
+      "expr": "(x3*x5) + (x4*x6)",
+      "validation_accuracy": 1.0
+    },
+    {
+      "expr": "(x3*x3) - (x3*x5)",
+      "validation_accuracy": 0.8
+    },
+    {
+      "expr": "(x3*x5) + (x4*x4)",
+      "validation_accuracy": 0.8
+    },
+    {
+      "expr": "(x3*x5) - (x5*x5)",
+      "validation_accuracy": 0.8
+    },
+    {
+      "expr": "(x3*x5) + (x6*x6)",
+      "validation_accuracy": 0.8
+    },
+    {
+      "expr": "(x4*x6) + (x5*x5)",
+      "validation_accuracy": 0.8
+    },
+    {
+      "expr": "(x4*x6) - (x6*x6)",
+      "validation_accuracy": 0.8
+    },
+    {
+      "expr": "(x4*x4) - (x4*x6)",
+      "validation_accuracy": 0.7957142857142857
+    },
+    {
+      "expr": "(x3*x3) + (x4*x6)",
+      "validation_accuracy": 0.7928571428571428
+    },
+    {
+      "expr": "(x3*x5) + (x3*x5)",
+      "validation_accuracy": 0.7671428571428571
+    }
+  ],
+  "pass_gate": {
+    "test_accuracy_at_least_0.98": true
+  },
+  "V693_PASS": true
+}

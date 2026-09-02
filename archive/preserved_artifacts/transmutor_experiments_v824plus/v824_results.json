@@ -1,0 +1,106 @@
+{
+  "curriculum": {
+    "AND": {
+      "solved": true,
+      "cost": 3,
+      "evals": 27,
+      "expr": "NAND(NAND(x0,x1),NAND(x0,x1))",
+      "seen": 10
+    },
+    "OR": {
+      "solved": true,
+      "cost": 3,
+      "evals": 25,
+      "expr": "NAND(NAND(x0,x0),NAND(x1,x1))",
+      "seen": 9
+    },
+    "XOR": {
+      "solved": false,
+      "cost": null,
+      "evals": 63,
+      "expr": null,
+      "seen": 10
+    },
+    "XNOR": {
+      "solved": false,
+      "cost": null,
+      "evals": 63,
+      "expr": null,
+      "seen": 10
+    },
+    "IMPLIES": {
+      "solved": true,
+      "cost": 2,
+      "evals": 6,
+      "expr": "NAND(x0,NAND(x0,x1))",
+      "seen": 7
+    }
+  },
+  "learned_operators": [
+    "NAND",
+    "MACRO_AND",
+    "MACRO_OR",
+    "MACRO_IMPLIES"
+  ],
+  "learned_operator_count": 4,
+  "transfer": {
+    "3": {
+      "NAND_ONLY": {
+        "solved": true,
+        "cost": 14,
+        "evals": 37845,
+        "expr": "NAND(NAND(x0,NAND(NAND(x1,x2),NAND(NAND(x0,x1),NAND(x0,x2)))),NAND(NAND(x0,x0),NAND(NAND(x1,NAND(x1,x2)),NAND(x2,NAND(x1,x1)))))",
+        "seen": 256
+      },
+      "LEARNED_MACROS": {
+        "solved": false,
+        "cost": null,
+        "evals": 66208,
+        "expr": null,
+        "seen": 238
+      },
+      "eval_reduction_fraction": -0.749451710926146
+    },
+    "4": {
+      "NAND_ONLY": {
+        "solved": false,
+        "cost": null,
+        "evals": 800001,
+        "expr": null,
+        "seen": 19678
+      },
+      "LEARNED_MACROS": {
+        "solved": false,
+        "cost": null,
+        "evals": 800001,
+        "expr": null,
+        "seen": 12980
+      },
+      "eval_reduction_fraction": 0.0
+    },
+    "5": {
+      "NAND_ONLY": {
+        "solved": false,
+        "cost": null,
+        "evals": 800001,
+        "expr": null,
+        "seen": 97144
+      },
+      "LEARNED_MACROS": {
+        "solved": false,
+        "cost": null,
+        "evals": 800001,
+        "expr": null,
+        "seen": 54082
+      },
+      "eval_reduction_fraction": 0.0
+    }
+  },
+  "pass_gate": {
+    "xor_macro_learned": false,
+    "parity3_solved_with_macros": false,
+    "parity4_solved_with_macros": false,
+    "macro_search_cheaper_parity4": false
+  },
+  "V824_PASS": false
+}

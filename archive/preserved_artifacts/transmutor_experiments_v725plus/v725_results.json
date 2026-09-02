@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "best_expression": "(D/sqrt((E*G)))",
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "approx_complexity": 4,
+      "completion_candidates_evaluated": 25284
+    },
+    {
+      "best_expression": "(D/sqrt((E*G)))",
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "approx_complexity": 4,
+      "completion_candidates_evaluated": 25284
+    },
+    {
+      "best_expression": "(D/sqrt((E*G)))",
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "approx_complexity": 4,
+      "completion_candidates_evaluated": 25242
+    }
+  ],
+  "expressions": [
+    "(D/sqrt((E*G)))",
+    "(D/sqrt((E*G)))",
+    "(D/sqrt((E*G)))"
+  ],
+  "mean_test_accuracy": 1.0,
+  "mean_candidate_evals": 25270.0,
+  "cosine_like_count": 3,
+  "pass_gate": {
+    "cosine_3of3": true,
+    "test_above_0.99": true
+  },
+  "V725_PASS": true
+}

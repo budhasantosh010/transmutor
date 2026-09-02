@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "behavior_perfect_tables_without_invariant": 3,
+    "behavior_perfect_tables_with_zero_stability": 1,
+    "tables_without_invariant": [
+      [
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ]
+    ],
+    "zero_stable_table_is_exact_multiplication": true,
+    "evolution_runs": 60,
+    "zero_stable_behavior_perfect_rate": 1.0,
+    "exact_multiplication_recovery_rate": 1.0,
+    "mean_generation": 4.533333333333333
+  },
+  "caveat": "The zero-stability invariant is supplied by us. It is plausible and task-independent, but a deeper system would need to learn or derive useful invariants rather than receive them manually."
+}

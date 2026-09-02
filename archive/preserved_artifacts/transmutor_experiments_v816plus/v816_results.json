@@ -1,0 +1,802 @@
+{
+  "rows": [
+    {
+      "noise": 0.4,
+      "rep": 0,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 0,
+      "mode": "RANDOM_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 0,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 0,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 1,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 1,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 1,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 1,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 2,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 2,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 2,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 2,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 3,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 3,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 3,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 3,
+      "mode": "ORACLE_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 4,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 4,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 4,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 4,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 5,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 5,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 5,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 5,
+      "mode": "ORACLE_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 6,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 6,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 6,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 6,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 7,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 7,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 7,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.4,
+      "rep": 7,
+      "mode": "ORACLE_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 0,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 0,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 0,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 0,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 1,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 1,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 1,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 1,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 2,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 2,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 2,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 2,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 3,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 3,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 3,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 3,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 4,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 4,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 4,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 4,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 5,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 5,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 5,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 5,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 6,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 6,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 6,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 6,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 0.9547725410377732,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 7,
+      "mode": "GLOBAL",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 7,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 7,
+      "mode": "LEARNED_CONTEXTS",
+      "success": false,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 0.8,
+      "rep": 7,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 1.0,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 0,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.9112500989628691,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 0,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.9112500989628691,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 0,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.9112500989628691,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 0,
+      "mode": "ORACLE_CONTEXTS",
+      "success": false,
+      "ari": 0.9112500989628691,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 1,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.7027551823668329,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 1,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.7027551823668329,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 1,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.7027551823668329,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 1,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 0.7027551823668329,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 2,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.9096191432042682,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 2,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.9096191432042682,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 2,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.9096191432042682,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 2,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 0.9096191432042682,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 3,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.7835748027340143,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 3,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.7835748027340143,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 3,
+      "mode": "LEARNED_CONTEXTS",
+      "success": false,
+      "ari": 0.7835748027340143,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 3,
+      "mode": "ORACLE_CONTEXTS",
+      "success": false,
+      "ari": 0.7835748027340143,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 4,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.8649814556645711,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 4,
+      "mode": "RANDOM_CONTEXTS",
+      "success": true,
+      "ari": 0.8649814556645711,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 4,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.8649814556645711,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 4,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 0.8649814556645711,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 5,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.7780729673567088,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 5,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.7780729673567088,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 5,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.7780729673567088,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 5,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 0.7780729673567088,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 6,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.8691035867096297,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 6,
+      "mode": "RANDOM_CONTEXTS",
+      "success": true,
+      "ari": 0.8691035867096297,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 6,
+      "mode": "LEARNED_CONTEXTS",
+      "success": false,
+      "ari": 0.8691035867096297,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 6,
+      "mode": "ORACLE_CONTEXTS",
+      "success": false,
+      "ari": 0.8691035867096297,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 7,
+      "mode": "GLOBAL",
+      "success": false,
+      "ari": 0.5641307764853819,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 7,
+      "mode": "RANDOM_CONTEXTS",
+      "success": false,
+      "ari": 0.5641307764853819,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 7,
+      "mode": "LEARNED_CONTEXTS",
+      "success": true,
+      "ari": 0.5641307764853819,
+      "proposal_count": 8
+    },
+    {
+      "noise": 1.2,
+      "rep": 7,
+      "mode": "ORACLE_CONTEXTS",
+      "success": true,
+      "ari": 0.5641307764853819,
+      "proposal_count": 8
+    }
+  ],
+  "by_noise": {
+    "0.4": {
+      "mean_ARI": 1.0,
+      "success": {
+        "GLOBAL": 0,
+        "RANDOM_CONTEXTS": 1,
+        "LEARNED_CONTEXTS": 8,
+        "ORACLE_CONTEXTS": 5
+      }
+    },
+    "0.8": {
+      "mean_ARI": 0.9886931352594432,
+      "success": {
+        "GLOBAL": 1,
+        "RANDOM_CONTEXTS": 0,
+        "LEARNED_CONTEXTS": 7,
+        "ORACLE_CONTEXTS": 8
+      }
+    },
+    "1.2": {
+      "mean_ARI": 0.7979360016855345,
+      "success": {
+        "GLOBAL": 0,
+        "RANDOM_CONTEXTS": 2,
+        "LEARNED_CONTEXTS": 6,
+        "ORACLE_CONTEXTS": 5
+      }
+    }
+  },
+  "V816_PASS": true
+}

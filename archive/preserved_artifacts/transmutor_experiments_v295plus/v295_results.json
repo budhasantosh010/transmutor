@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "full_cost_proxy": 20580000,
+    "staged_cost_proxy": 3142720,
+    "cost_reduction_percent": 84.72925170068028,
+    "tasks": {
+      "LAST_BIT": {
+        "full_expression": "v",
+        "staged_expression": "v",
+        "full_length63_accuracy": 1.0,
+        "staged_length63_accuracy": 1.0,
+        "same_expression": true
+      },
+      "PARITY": {
+        "full_expression": "(1+((1-s)*v))",
+        "staged_expression": "(1+((1-s)*v))",
+        "full_length63_accuracy": 1.0,
+        "staged_length63_accuracy": 1.0,
+        "same_expression": true
+      },
+      "MAJORITY": {
+        "full_expression": "(s-v)",
+        "staged_expression": "(s-v)",
+        "full_length63_accuracy": 1.0,
+        "staged_length63_accuracy": 1.0,
+        "same_expression": true
+      },
+      "FLAG_MEMORY": {
+        "full_expression": "tanh((s+(v*f)))",
+        "staged_expression": "tanh((s+(v*f)))",
+        "full_length63_accuracy": 1.0,
+        "staged_length63_accuracy": 1.0,
+        "same_expression": true
+      }
+    }
+  },
+  "stages": [
+    {
+      "rules": 4200,
+      "sequences": 120,
+      "length": 5,
+      "survive": 256
+    },
+    {
+      "rules": 256,
+      "sequences": 260,
+      "length": 7,
+      "survive": 32
+    },
+    {
+      "rules": 32,
+      "sequences": 700,
+      "length": 7,
+      "survive": 1
+    }
+  ],
+  "caveat": "The staged budgets and survivor counts are supplied. Cost proxy ignores expression complexity and vectorization. Small early samples can discard a genuinely good rule on noisier tasks."
+}

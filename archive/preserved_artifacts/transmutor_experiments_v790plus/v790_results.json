@@ -1,0 +1,129 @@
+{
+  "rows": [
+    {
+      "B": 128,
+      "H": 5,
+      "target_screen_rank": 1,
+      "target_in_topK": true,
+      "winner_exact_true": true,
+      "persistent_memory_scalars": 640,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": 0.7349896480331263,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 128,
+      "H": 5,
+      "target_screen_rank": 453,
+      "target_in_topK": false,
+      "winner_exact_true": false,
+      "persistent_memory_scalars": 640,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": 0.7349896480331263,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 128,
+      "H": 5,
+      "target_screen_rank": 671,
+      "target_in_topK": false,
+      "winner_exact_true": false,
+      "persistent_memory_scalars": 640,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": 0.7349896480331263,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 256,
+      "H": 5,
+      "target_screen_rank": 933,
+      "target_in_topK": false,
+      "winner_exact_true": false,
+      "persistent_memory_scalars": 1280,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": 0.46997929606625255,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 256,
+      "H": 5,
+      "target_screen_rank": 1510,
+      "target_in_topK": false,
+      "winner_exact_true": false,
+      "persistent_memory_scalars": 1280,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": 0.46997929606625255,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 256,
+      "H": 5,
+      "target_screen_rank": 475,
+      "target_in_topK": false,
+      "winner_exact_true": false,
+      "persistent_memory_scalars": 1280,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": 0.46997929606625255,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 512,
+      "H": 5,
+      "target_screen_rank": 40,
+      "target_in_topK": true,
+      "winner_exact_true": true,
+      "persistent_memory_scalars": 2560,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": -0.0600414078674949,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 512,
+      "H": 5,
+      "target_screen_rank": 25,
+      "target_in_topK": true,
+      "winner_exact_true": true,
+      "persistent_memory_scalars": 2560,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": -0.0600414078674949,
+      "focal_pairs_audited": 80
+    },
+    {
+      "B": 512,
+      "H": 5,
+      "target_screen_rank": 1124,
+      "target_in_topK": false,
+      "winner_exact_true": false,
+      "persistent_memory_scalars": 2560,
+      "exact_pair_memory_scalars": 2415,
+      "memory_reduction_fraction": -0.0600414078674949,
+      "focal_pairs_audited": 80
+    }
+  ],
+  "by_B": {
+    "128": {
+      "target_top80_count": 1,
+      "exact_winner_count": 1,
+      "mean_target_rank": 375.0,
+      "memory_reduction_fraction": 0.7349896480331263
+    },
+    "256": {
+      "target_top80_count": 0,
+      "exact_winner_count": 0,
+      "mean_target_rank": 972.6666666666666,
+      "memory_reduction_fraction": 0.46997929606625255
+    },
+    "512": {
+      "target_top80_count": 2,
+      "exact_winner_count": 2,
+      "mean_target_rank": 396.3333333333333,
+      "memory_reduction_fraction": -0.0600414078674949
+    }
+  },
+  "best_B": 512,
+  "pass_gate": {
+    "some_config_exact_3of3": false,
+    "memory_reduction_above_0.40": false
+  },
+  "V790_PASS": false
+}

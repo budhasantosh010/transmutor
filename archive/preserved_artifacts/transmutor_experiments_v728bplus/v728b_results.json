@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "selected_pairs": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "op": "+",
+      "exact_relation": true,
+      "threshold": 0.835706994188947,
+      "validation_MAE": 0.0,
+      "test_MAE": 0.0
+    },
+    {
+      "selected_pairs": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "op": "+",
+      "exact_relation": true,
+      "threshold": 0.8325131252353541,
+      "validation_MAE": 0.0,
+      "test_MAE": 0.0
+    },
+    {
+      "selected_pairs": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "op": "+",
+      "exact_relation": true,
+      "threshold": 0.8378881399211575,
+      "validation_MAE": 0.0,
+      "test_MAE": 0.0
+    }
+  ],
+  "exact_count": 3,
+  "mean_test_MAE": 0.0,
+  "max_test_MAE": 0.0,
+  "pass_gate": {
+    "exact_3of3": true,
+    "mean_MAE_below_0.005": true,
+    "max_MAE_below_0.01": true
+  },
+  "V728B_PASS": true
+}

@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "rule_evaluations_per_decision": 120,
+    "full_language_size": 160,
+    "accuracy": {
+      "LAST_BIT": 1.0,
+      "PARITY": 1.0
+    },
+    "mean_best_restart": {
+      "LAST_BIT": 1.0,
+      "PARITY": 0.5748666666666665
+    },
+    "overall": 1.0
+  },
+  "caveat": "Random restarts work here because exact LAST_BIT rules occupy a nontrivial fraction of the tiny language. Rare valid programs could still be missed by all restarts, so failure remains probabilistic evidence rather than proof."
+}

@@ -1,0 +1,13 @@
+Version,Question,Status,Key result,Main caveat
+V0,Topology growth/pruning,Success,"100% AND/OR/XOR/XNOR; 3 hidden cells, 13 edges",External evolutionary search; not lifetime self-modification
+V1,Lifetime learning,Partial,"Final AND 100%, OR 100%, XOR 75%, XNOR 50%",Interference/forgetting in shared weights
+V2,Plain recurrent state,Failed,~50% delayed recall,State alone did not preserve memory
+V2b,Gated recurrent memory,Success,100% recall; memory-cell correlation 0.9963,Gate mechanism was hand-designed
+V3,Blind lifetime structural growth,Partial,XOR solved after growth; XNOR stuck 75% even at 8 cells,More capacity alone did not create correct structure
+V3b,Directed structural repair,Success/Partial,XOR and XNOR solved with 2 cells; easy task pruned back to 1,Current-task optimization still forgot old skills
+V4,Energy-aware routing,Success,100% accuracy with activation cut from 7.92/12 to 1.28/12,"Toy energy proxy, not real hardware joules"
+V5,Generic selective memory,Failed,~50%; write gate collapsed to zero,Cheap 'write nothing' local optimum
+V5b,Addressed selective memory,Success,100%; ~1.20 effective writes/20; relevant gate 0.848 vs distractor 0.018,Explicit address-match signal supplied
+V6,No exact backward weights,Success,30/30 random-feedback runs solved XOR,Still broadcasts output error; tiny task
+V7,Learning-rule coefficient search,Partial success,Discovered rule 99.38% held-out; equals hand-DFA; Hebbian 62.5%,Search only within predefined 4-term rule family
+V8,Primitive/program discovery,Success,AND=min; OR=max; XOR=-x1*x2; XNOR=x1*x2,"Primitive set hand-chosen; genetic programming, not lifetime cell emergence"

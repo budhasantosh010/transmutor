@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "exact_macro_recovery_count": 3,
+    "T256_K6": {
+      "mae": 0.13449589411417642,
+      "r2": 0.9166549841562907
+    },
+    "T1024_K6": {
+      "mae": 0.3190656403700511,
+      "r2": 0.6088513135910034
+    },
+    "pass_gate": {
+      "macro_recovery_3of3": true,
+      "T256_MAE_below_0.15": true,
+      "T256_R2_above_0.90": true
+    },
+    "V700_PASS": true
+  },
+  "rows": [
+    {
+      "seed": 70000,
+      "event_slots": [
+        3,
+        6
+      ],
+      "goal_slots": [
+        5,
+        4
+      ],
+      "macro": {
+        "pairA": [
+          3,
+          5
+        ],
+        "pairB": [
+          4,
+          6
+        ],
+        "op": "+",
+        "validation_accuracy": 1.0,
+        "threshold": 0.9996981024742126,
+        "orientation": 1
+      },
+      "exact_macro": true,
+      "T256_K6": {
+        "mae": 0.14001555740833282,
+        "r2": 0.9127906560897827
+      },
+      "T1024_K6": {
+        "mae": 0.3394853472709656,
+        "r2": 0.5851859450340271
+      }
+    },
+    {
+      "seed": 70001,
+      "event_slots": [
+        6,
+        4
+      ],
+      "goal_slots": [
+        3,
+        5
+      ],
+      "macro": {
+        "pairA": [
+          3,
+          6
+        ],
+        "pairB": [
+          4,
+          5
+        ],
+        "op": "+",
+        "validation_accuracy": 0.995,
+        "threshold": 0.9996981620788574,
+        "orientation": 1
+      },
+      "exact_macro": true,
+      "T256_K6": {
+        "mae": 0.13547614216804504,
+        "r2": 0.9213176369667053
+      },
+      "T1024_K6": {
+        "mae": 0.3406519591808319,
+        "r2": 0.5993461012840271
+      }
+    },
+    {
+      "seed": 70002,
+      "event_slots": [
+        5,
+        3
+      ],
+      "goal_slots": [
+        4,
+        6
+      ],
+      "macro": {
+        "pairA": [
+          3,
+          6
+        ],
+        "pairB": [
+          4,
+          5
+        ],
+        "op": "+",
+        "validation_accuracy": 0.9933333333333333,
+        "threshold": 0.9982861280441284,
+        "orientation": 1
+      },
+      "exact_macro": true,
+      "T256_K6": {
+        "mae": 0.12799598276615143,
+        "r2": 0.915856659412384
+      },
+      "T1024_K6": {
+        "mae": 0.2770596146583557,
+        "r2": 0.642021894454956
+      }
+    }
+  ],
+  "caveat": "The automatic macro search language remains restricted to a sum/difference of two pairwise products. Long-horizon T1024 performance remains substantially weaker than T256."
+}

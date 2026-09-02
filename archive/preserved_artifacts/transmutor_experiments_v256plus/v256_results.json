@@ -1,0 +1,236 @@
+{
+  "status": "corrected rerun; initial V256 aggregate was invalid and must not be used",
+  "proposal_budget": 64,
+  "modes": {
+    "FIXED_03": "constant delta .3",
+    "MULTISCALE": "uniform random from [.08,.2,.5,1.2]",
+    "ANNEAL": "16 proposals each at [1.2,.5,.2,.08]",
+    "SUCCESS_RULE": "delta starts .5 and adapts every 8 proposals from acceptance rate"
+  },
+  "summary": {
+    "FIXED_03": {
+      "adequacy": 0.7447916666666666,
+      "median_mse": 0.006634106752617101,
+      "mean_mse": 0.0075026904388530045
+    },
+    "MULTISCALE": {
+      "adequacy": 0.8645833333333334,
+      "median_mse": 0.006310568492885157,
+      "mean_mse": 0.006791633717828716
+    },
+    "ANNEAL": {
+      "adequacy": 0.84375,
+      "median_mse": 0.0063731527640064935,
+      "mean_mse": 0.0068905073541899895
+    },
+    "SUCCESS_RULE": {
+      "adequacy": 0.7760416666666666,
+      "median_mse": 0.006573539376210259,
+      "mean_mse": 0.007116792456517595
+    },
+    "LS": {
+      "adequacy": 0.8697916666666666,
+      "median_mse": 0.006060350208996252,
+      "mean_mse": 0.006607592939487744,
+      "mean_nfev": 30.536458333333332
+    }
+  },
+  "by_mechanism": {
+    "STEP": {
+      "FIXED_03": 0.8020833333333334,
+      "MULTISCALE": 0.8645833333333334,
+      "ANNEAL": 0.8645833333333334,
+      "SUCCESS_RULE": 0.7604166666666666,
+      "LS": 0.84375
+    },
+    "HINGE": {
+      "FIXED_03": 0.6875,
+      "MULTISCALE": 0.8645833333333334,
+      "ANNEAL": 0.8229166666666666,
+      "SUCCESS_RULE": 0.7916666666666666,
+      "LS": 0.8958333333333334
+    }
+  },
+  "by_template_mechanism": {
+    "0": {
+      "STEP": {
+        "FIXED_03": {
+          "adequacy": 0.8125,
+          "median_mse": 0.006432486107642448,
+          "mean_mse": 0.006906623826283903
+        },
+        "MULTISCALE": {
+          "adequacy": 0.84375,
+          "median_mse": 0.006372005910156723,
+          "mean_mse": 0.006861426530271813
+        },
+        "ANNEAL": {
+          "adequacy": 0.84375,
+          "median_mse": 0.006543546774783848,
+          "mean_mse": 0.006861560257431587
+        },
+        "SUCCESS_RULE": {
+          "adequacy": 0.8125,
+          "median_mse": 0.006441126457630874,
+          "mean_mse": 0.006869816635283842
+        },
+        "LS": {
+          "adequacy": 0.84375,
+          "median_mse": 0.0062073928685833415,
+          "mean_mse": 0.006558392521411031,
+          "mean_nfev": 25.0
+        }
+      },
+      "HINGE": {
+        "FIXED_03": {
+          "adequacy": 0.65625,
+          "median_mse": 0.0077008123446166196,
+          "mean_mse": 0.008468812645230441
+        },
+        "MULTISCALE": {
+          "adequacy": 0.75,
+          "median_mse": 0.00732393393719062,
+          "mean_mse": 0.008040593553493224
+        },
+        "ANNEAL": {
+          "adequacy": 0.78125,
+          "median_mse": 0.007107035512667301,
+          "mean_mse": 0.007800780127666284
+        },
+        "SUCCESS_RULE": {
+          "adequacy": 0.6875,
+          "median_mse": 0.006901656558643859,
+          "mean_mse": 0.007921848807403334
+        },
+        "LS": {
+          "adequacy": 0.875,
+          "median_mse": 0.006083810616477699,
+          "mean_mse": 0.006613281282426464,
+          "mean_nfev": 25.84375
+        }
+      }
+    },
+    "1": {
+      "STEP": {
+        "FIXED_03": {
+          "adequacy": 0.875,
+          "median_mse": 0.005979997252776757,
+          "mean_mse": 0.006618633145426474
+        },
+        "MULTISCALE": {
+          "adequacy": 0.875,
+          "median_mse": 0.006197332481767478,
+          "mean_mse": 0.006613968003696123
+        },
+        "ANNEAL": {
+          "adequacy": 0.8125,
+          "median_mse": 0.006877019962638873,
+          "mean_mse": 0.006968307602750634
+        },
+        "SUCCESS_RULE": {
+          "adequacy": 0.78125,
+          "median_mse": 0.006886476083824504,
+          "mean_mse": 0.0071332397716708205
+        },
+        "LS": {
+          "adequacy": 0.9375,
+          "median_mse": 0.005815987855254468,
+          "mean_mse": 0.005921362520307935,
+          "mean_nfev": 33.1875
+        }
+      },
+      "HINGE": {
+        "FIXED_03": {
+          "adequacy": 0.90625,
+          "median_mse": 0.005912903027055298,
+          "mean_mse": 0.00620671048588451
+        },
+        "MULTISCALE": {
+          "adequacy": 0.90625,
+          "median_mse": 0.005643289498060523,
+          "mean_mse": 0.006073265236108471
+        },
+        "ANNEAL": {
+          "adequacy": 0.90625,
+          "median_mse": 0.005824178864893526,
+          "mean_mse": 0.006191124675779733
+        },
+        "SUCCESS_RULE": {
+          "adequacy": 0.875,
+          "median_mse": 0.005497855802296036,
+          "mean_mse": 0.006217833020352772
+        },
+        "LS": {
+          "adequacy": 0.90625,
+          "median_mse": 0.005668068213371224,
+          "mean_mse": 0.006206591135117909,
+          "mean_nfev": 19.15625
+        }
+      }
+    },
+    "2": {
+      "STEP": {
+        "FIXED_03": {
+          "adequacy": 0.71875,
+          "median_mse": 0.006572655554622279,
+          "mean_mse": 0.007740484693723319
+        },
+        "MULTISCALE": {
+          "adequacy": 0.875,
+          "median_mse": 0.00598654328023599,
+          "mean_mse": 0.006486077876994592
+        },
+        "ANNEAL": {
+          "adequacy": 0.9375,
+          "median_mse": 0.005945445150607623,
+          "mean_mse": 0.006170109790110988
+        },
+        "SUCCESS_RULE": {
+          "adequacy": 0.6875,
+          "median_mse": 0.00711006835712376,
+          "mean_mse": 0.007624488464014859
+        },
+        "LS": {
+          "adequacy": 0.75,
+          "median_mse": 0.006584595000297784,
+          "mean_mse": 0.008048056056261719,
+          "mean_nfev": 39.78125
+        }
+      },
+      "HINGE": {
+        "FIXED_03": {
+          "adequacy": 0.5,
+          "median_mse": 0.008773231507529115,
+          "mean_mse": 0.009074877836569377
+        },
+        "MULTISCALE": {
+          "adequacy": 0.9375,
+          "median_mse": 0.006478961179768034,
+          "mean_mse": 0.006674471106408069
+        },
+        "ANNEAL": {
+          "adequacy": 0.78125,
+          "median_mse": 0.006653023742954948,
+          "mean_mse": 0.0073511616714007095
+        },
+        "SUCCESS_RULE": {
+          "adequacy": 0.8125,
+          "median_mse": 0.006349549521199323,
+          "mean_mse": 0.006933528040379941
+        },
+        "LS": {
+          "adequacy": 0.90625,
+          "median_mse": 0.005659329565897495,
+          "mean_mse": 0.006297874121401408,
+          "mean_nfev": 40.25
+        }
+      }
+    }
+  },
+  "best_derivative_free_mode": "MULTISCALE",
+  "validation_checks": {
+    "fixed_cell_mean_equals_global": true,
+    "fixed_mean_mse_below_0.1": true
+  },
+  "caveat": "Scale schedules remain supplied heuristics. The first V256 run produced a corrupted aggregate and is explicitly superseded by this validated rerun."
+}

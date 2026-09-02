@@ -1,0 +1,205 @@
+{
+  "rows": [
+    {
+      "steps": 40,
+      "rep": 0,
+      "true_context_rank": 20,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 40,
+      "rep": 1,
+      "true_context_rank": 4,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 40,
+      "rep": 2,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 40,
+      "rep": 3,
+      "true_context_rank": 5,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 40,
+      "rep": 4,
+      "true_context_rank": 5,
+      "true_context_best_pair_is_true": false
+    },
+    {
+      "steps": 40,
+      "rep": 5,
+      "true_context_rank": 6,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 40,
+      "rep": 6,
+      "true_context_rank": 11,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 40,
+      "rep": 7,
+      "true_context_rank": 7,
+      "true_context_best_pair_is_true": false
+    },
+    {
+      "steps": 40,
+      "rep": 8,
+      "true_context_rank": 8,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 40,
+      "rep": 9,
+      "true_context_rank": 2,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 0,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 1,
+      "true_context_rank": 2,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 2,
+      "true_context_rank": 3,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 3,
+      "true_context_rank": 2,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 4,
+      "true_context_rank": 10,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 5,
+      "true_context_rank": 4,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 6,
+      "true_context_rank": 3,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 7,
+      "true_context_rank": 3,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 8,
+      "true_context_rank": 2,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 80,
+      "rep": 9,
+      "true_context_rank": 9,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 0,
+      "true_context_rank": 3,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 1,
+      "true_context_rank": 2,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 2,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 3,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 4,
+      "true_context_rank": 2,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 5,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 6,
+      "true_context_rank": 2,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 7,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 8,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    },
+    {
+      "steps": 160,
+      "rep": 9,
+      "true_context_rank": 1,
+      "true_context_best_pair_is_true": true
+    }
+  ],
+  "by_steps": {
+    "40": {
+      "mean_context_rank": 6.9,
+      "median_context_rank": 5.5,
+      "top8_recall": 8,
+      "true_relation_top_inside_context": 8
+    },
+    "80": {
+      "mean_context_rank": 3.9,
+      "median_context_rank": 3.0,
+      "top8_recall": 8,
+      "true_relation_top_inside_context": 10
+    },
+    "160": {
+      "mean_context_rank": 1.5,
+      "median_context_rank": 1.0,
+      "top8_recall": 10,
+      "true_relation_top_inside_context": 10
+    }
+  },
+  "V822_PASS": true
+}

@@ -1,0 +1,1459 @@
+{
+  "epochs_total": 96,
+  "FIXED_CONTEXTS": {
+    "success": 28,
+    "target_copresent": 41,
+    "mean_ARI": 0.22802079076703774
+  },
+  "ONLINE_CONTEXTS": {
+    "success": 76,
+    "target_copresent": 96,
+    "mean_ARI": 0.993176901488006
+  },
+  "GLOBAL": {
+    "success": 3
+  },
+  "rows": [
+    {
+      "epoch": 0,
+      "target": [
+        4,
+        34
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 1,
+      "target": [
+        21,
+        41
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.7218126592302763,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 2,
+      "target": [
+        3,
+        53
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.5593730457208717,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 3,
+      "target": [
+        3,
+        27
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": true,
+      "fixed_ARI": 0.32762461302043044,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 4,
+      "target": [
+        5,
+        9
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.17286402544389945,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 5,
+      "target": [
+        6,
+        50
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.08360170941670982,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 6,
+      "target": [
+        28,
+        42
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.02163394054371688,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 7,
+      "target": [
+        17,
+        56
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.0248914965861441,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 8,
+      "target": [
+        20,
+        22
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": -0.035862158387841174,
+      "online_ARI": 0.9507729104995194,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 9,
+      "target": [
+        51,
+        55
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.004319187423201262,
+      "online_ARI": 0.9533274619104626,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 10,
+      "target": [
+        5,
+        52
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.015461284017178816,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 11,
+      "target": [
+        46,
+        49
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.020133176654915784,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 0
+    },
+    {
+      "epoch": 0,
+      "target": [
+        40,
+        44
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 0.9548463826964794,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 1,
+      "target": [
+        18,
+        34
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.703924258137901,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 2,
+      "target": [
+        30,
+        38
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.3652534819822908,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 3,
+      "target": [
+        4,
+        46
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.1799313182284337,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 4,
+      "target": [
+        22,
+        41
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.1697048131605667,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 5,
+      "target": [
+        19,
+        51
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.16311691035736448,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 6,
+      "target": [
+        47,
+        54
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.10680149216856809,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 7,
+      "target": [
+        17,
+        24
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.04009127901551074,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 8,
+      "target": [
+        0,
+        25
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.01827517172040871,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 9,
+      "target": [
+        0,
+        44
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.0012076848838987655,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 10,
+      "target": [
+        24,
+        49
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.01992427209818514,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 11,
+      "target": [
+        10,
+        26
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.006143013825704407,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 1
+    },
+    {
+      "epoch": 0,
+      "target": [
+        5,
+        48
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 1,
+      "target": [
+        12,
+        20
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.7027442624499457,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 2,
+      "target": [
+        6,
+        57
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.5634056354733578,
+      "online_ARI": 0.9507729104995194,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 3,
+      "target": [
+        20,
+        40
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.3334652207639406,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 4,
+      "target": [
+        37,
+        56
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.23037406006517216,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 5,
+      "target": [
+        3,
+        49
+      ],
+      "fixed_success": true,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.0927467603554062,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 6,
+      "target": [
+        9,
+        19
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.03560579191660627,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 7,
+      "target": [
+        16,
+        23
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.019108864942602007,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 8,
+      "target": [
+        8,
+        52
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.06678746439887277,
+      "online_ARI": 0.9557247916959172,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 9,
+      "target": [
+        6,
+        52
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.01392929329858409,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 10,
+      "target": [
+        9,
+        11
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.007801897815573405,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 11,
+      "target": [
+        18,
+        58
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.023258982137898152,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 2
+    },
+    {
+      "epoch": 0,
+      "target": [
+        53,
+        57
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 0.9533274619104626,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 1,
+      "target": [
+        27,
+        42
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.6701807308339354,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 2,
+      "target": [
+        48,
+        50
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.3735204910348984,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 3,
+      "target": [
+        18,
+        34
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.3363718198582428,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 4,
+      "target": [
+        29,
+        52
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.1918005040973127,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 5,
+      "target": [
+        25,
+        43
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.12446998753516986,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 6,
+      "target": [
+        22,
+        53
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.07357265156089375,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 7,
+      "target": [
+        31,
+        45
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.03409807189175654,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 8,
+      "target": [
+        36,
+        50
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.01077424729595909,
+      "online_ARI": 0.9601288491428829,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 9,
+      "target": [
+        47,
+        59
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.001746937602612872,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 10,
+      "target": [
+        4,
+        7
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.03594120370928233,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 11,
+      "target": [
+        8,
+        39
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.03095956333077287,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 3
+    },
+    {
+      "epoch": 0,
+      "target": [
+        24,
+        49
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 1,
+      "target": [
+        6,
+        20
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.6023763349333521,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 2,
+      "target": [
+        20,
+        57
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.39703104007452816,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 3,
+      "target": [
+        25,
+        49
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.22783056662605392,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 4,
+      "target": [
+        13,
+        42
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.08953316233563559,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 5,
+      "target": [
+        12,
+        50
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.037802642613410556,
+      "online_ARI": 0.9615105604584288,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 6,
+      "target": [
+        3,
+        30
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.06055886162207004,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 7,
+      "target": [
+        5,
+        22
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.037327961152217634,
+      "online_ARI": 0.9480682057124974,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 8,
+      "target": [
+        16,
+        35
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.026360404039001806,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 9,
+      "target": [
+        17,
+        55
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.026360404039001806,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 10,
+      "target": [
+        2,
+        57
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.021871465206842064,
+      "online_ARI": 0.9566985262483023,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 11,
+      "target": [
+        39,
+        51
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": true,
+      "fixed_ARI": -0.0325043793848427,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 4
+    },
+    {
+      "epoch": 0,
+      "target": [
+        4,
+        58
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 1,
+      "target": [
+        2,
+        23
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.5937130391358058,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 2,
+      "target": [
+        28,
+        46
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.3479080481141187,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 3,
+      "target": [
+        28,
+        35
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.31110177011816353,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 4,
+      "target": [
+        31,
+        52
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.20879874838220083,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 5,
+      "target": [
+        24,
+        57
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.11796808318030158,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 6,
+      "target": [
+        16,
+        55
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.0578528380193714,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 7,
+      "target": [
+        23,
+        35
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.005714818633521064,
+      "online_ARI": 0.9653484139940997,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 8,
+      "target": [
+        28,
+        42
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.02120161546018265,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 9,
+      "target": [
+        9,
+        34
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.020485130333910747,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 10,
+      "target": [
+        31,
+        46
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.026623386756971863,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 11,
+      "target": [
+        13,
+        54
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.039081100902268844,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 5
+    },
+    {
+      "epoch": 0,
+      "target": [
+        45,
+        48
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 0.9547725410377732,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 1,
+      "target": [
+        24,
+        44
+      ],
+      "fixed_success": true,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.6754748441978286,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 2,
+      "target": [
+        4,
+        34
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.5342338347175033,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 3,
+      "target": [
+        9,
+        17
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.4225733626477361,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 4,
+      "target": [
+        19,
+        32
+      ],
+      "fixed_success": true,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.1930439587956447,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 5,
+      "target": [
+        16,
+        44
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.11850295255266094,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 6,
+      "target": [
+        36,
+        52
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.058669879702945266,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 7,
+      "target": [
+        15,
+        39
+      ],
+      "fixed_success": true,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 5.902341543209356e-05,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 8,
+      "target": [
+        4,
+        7
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.014356699652087055,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 9,
+      "target": [
+        26,
+        56
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.0017890577686927038,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 10,
+      "target": [
+        48,
+        51
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.026562865737891097,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 11,
+      "target": [
+        23,
+        37
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": -0.032641988273387594,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 6
+    },
+    {
+      "epoch": 0,
+      "target": [
+        25,
+        28
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 1.0,
+      "online_ARI": 0.9518889315607557,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 1,
+      "target": [
+        18,
+        57
+      ],
+      "fixed_success": true,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.5510795178136453,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 2,
+      "target": [
+        34,
+        35
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.21421259349016003,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 3,
+      "target": [
+        15,
+        47
+      ],
+      "fixed_success": true,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.1741353199163114,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 4,
+      "target": [
+        36,
+        54
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.07485746297178579,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 5,
+      "target": [
+        2,
+        18
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.07017568313961085,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 6,
+      "target": [
+        24,
+        46
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": true,
+      "fixed_ARI": 0.07283930866134418,
+      "online_ARI": 0.9654526291134793,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 7,
+      "target": [
+        36,
+        47
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.11570712884170344,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 8,
+      "target": [
+        24,
+        58
+      ],
+      "fixed_success": true,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.06207785670626788,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": true,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 9,
+      "target": [
+        32,
+        55
+      ],
+      "fixed_success": false,
+      "online_success": false,
+      "global_success": false,
+      "fixed_ARI": 0.0989372533510598,
+      "online_ARI": 0.9623419663679882,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 10,
+      "target": [
+        8,
+        42
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.08051551987043083,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 7
+    },
+    {
+      "epoch": 11,
+      "target": [
+        4,
+        39
+      ],
+      "fixed_success": false,
+      "online_success": true,
+      "global_success": false,
+      "fixed_ARI": 0.06433158721306202,
+      "online_ARI": 1.0,
+      "target_same_fixed_context": false,
+      "target_same_online_context": true,
+      "rep": 7
+    }
+  ],
+  "V829B_PASS": true
+}

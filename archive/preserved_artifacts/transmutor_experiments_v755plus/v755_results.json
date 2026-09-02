@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "kept_pairs": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "largest_survival_gap": 0.7202829997839335,
+      "kept_count": 2,
+      "test_accuracy": 1.0,
+      "threshold": 0.8745756480552018,
+      "orientation": 1
+    },
+    {
+      "kept_pairs": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "largest_survival_gap": 0.7265211886955131,
+      "kept_count": 2,
+      "test_accuracy": 1.0,
+      "threshold": 0.8752649524019023,
+      "orientation": 1
+    },
+    {
+      "kept_pairs": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "largest_survival_gap": 0.7272893931310235,
+      "kept_count": 2,
+      "test_accuracy": 1.0,
+      "threshold": 0.8742989130401886,
+      "orientation": 1
+    }
+  ],
+  "mean_kept_count": 2.0,
+  "mean_test_accuracy": 1.0,
+  "min_test_accuracy": 1.0,
+  "exact_target_set_count": 3,
+  "pass_gate": {
+    "exact_target_set_3of3": true,
+    "mean_accuracy_above_0.99": true,
+    "min_accuracy_above_0.98": true
+  },
+  "V755_PASS": true
+}

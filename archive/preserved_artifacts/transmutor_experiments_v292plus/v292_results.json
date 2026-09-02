@@ -1,0 +1,56 @@
+{
+  "gru": {
+    "hidden": 32,
+    "parameter_count": 3489,
+    "steps": 360,
+    "train_lengths": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ]
+  },
+  "summary": {
+    "PARITY": {
+      "15": 0.5066666603088379,
+      "31": 0.5023333430290222,
+      "63": 0.4806666672229767
+    },
+    "MAJORITY": {
+      "15": 0.9943333268165588,
+      "31": 0.9363333582878113,
+      "63": 0.8256666660308838
+    },
+    "FLAG_MEMORY": {
+      "15": 1.0,
+      "31": 0.9983333349227905,
+      "63": 0.9580000042915344
+    }
+  },
+  "transformer_reference": {
+    "PARITY": {
+      "15": 0.5009999871253967,
+      "31": 0.5109999775886536,
+      "63": 0.5023333430290222
+    },
+    "MAJORITY": {
+      "15": 1.0,
+      "31": 0.9923333525657654,
+      "63": 0.8119999766349792
+    },
+    "FLAG_MEMORY": {
+      "15": 1.0,
+      "31": 1.0,
+      "63": 1.0
+    }
+  },
+  "symbolic_reference": {
+    "PARITY": 1.0,
+    "MAJORITY": 1.0,
+    "FLAG_MEMORY": 1.0
+  },
+  "caveat": "One GRU seed per task and one training recipe. This is not a broad neural-network benchmark. Exact symbolic rules were found by expensive discrete search, while GRU/Transformer weights were learned by gradient descent."
+}

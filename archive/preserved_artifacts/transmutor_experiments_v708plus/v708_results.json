@@ -1,0 +1,248 @@
+{
+  "rows": [
+    {
+      "best_expression": "(DOT2*DOT2)",
+      "size": 3,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "DOT2_alone_test_accuracy": 0.75,
+      "top_by_size": {
+        "3": [
+          {
+            "expr": "(DOT2*DOT2)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "(1-DOT2)",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(DOT2+DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(DOT2-1)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(1+DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(1*DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(DOT2-DOT2)",
+            "validation_accuracy": 0.5
+          },
+          {
+            "expr": "(1+1)",
+            "validation_accuracy": 0.5
+          }
+        ],
+        "5": [
+          {
+            "expr": "(1-(DOT2*DOT2))",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)+1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)-1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)*1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2+DOT2)*DOT2)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "(DOT2-(DOT2*DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(DOT2-(DOT2+DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(1-(DOT2+DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          }
+        ]
+      },
+      "discovered_square": true
+    },
+    {
+      "best_expression": "(DOT2*DOT2)",
+      "size": 3,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "DOT2_alone_test_accuracy": 0.75,
+      "top_by_size": {
+        "3": [
+          {
+            "expr": "(DOT2*DOT2)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "(1-DOT2)",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(DOT2+DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(DOT2-1)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(1+DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(1*DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(DOT2-DOT2)",
+            "validation_accuracy": 0.5
+          },
+          {
+            "expr": "(1+1)",
+            "validation_accuracy": 0.5
+          }
+        ],
+        "5": [
+          {
+            "expr": "(1-(DOT2*DOT2))",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)+1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)-1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)*1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2+DOT2)*DOT2)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "(DOT2-(DOT2*DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(DOT2-(DOT2+DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(1-(DOT2+DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          }
+        ]
+      },
+      "discovered_square": true
+    },
+    {
+      "best_expression": "(DOT2*DOT2)",
+      "size": 3,
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "DOT2_alone_test_accuracy": 0.75,
+      "top_by_size": {
+        "3": [
+          {
+            "expr": "(DOT2*DOT2)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "(1-DOT2)",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(DOT2+DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(DOT2-1)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(1+DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(1*DOT2)",
+            "validation_accuracy": 0.7492307692307693
+          },
+          {
+            "expr": "(DOT2-DOT2)",
+            "validation_accuracy": 0.5
+          },
+          {
+            "expr": "(1+1)",
+            "validation_accuracy": 0.5
+          }
+        ],
+        "5": [
+          {
+            "expr": "(1-(DOT2*DOT2))",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)+1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)-1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2*DOT2)*1)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "((DOT2+DOT2)*DOT2)",
+            "validation_accuracy": 1.0
+          },
+          {
+            "expr": "(DOT2-(DOT2*DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(DOT2-(DOT2+DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          },
+          {
+            "expr": "(1-(DOT2+DOT2))",
+            "validation_accuracy": 0.7507692307692307
+          }
+        ]
+      },
+      "discovered_square": true
+    }
+  ],
+  "square_recovery_count": 3,
+  "mean_test_accuracy": 1.0,
+  "mean_DOT2_alone_accuracy": 0.75,
+  "advantage": 0.25,
+  "pass_gate": {
+    "square_3of3": true,
+    "test_above_0.99": true,
+    "advantage_above_0.20": true
+  },
+  "V708_PASS": true
+}

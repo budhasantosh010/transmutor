@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "currently_task_perfect_primitives": 27,
+    "already_support_swapped_roles": 3,
+    "already_support_swap_plus_idle": 1,
+    "fraction_future_ready_without_repair": 0.037037037037037035,
+    "mean_cells_needing_change_to_multiplication": 2.0,
+    "max_cells_needing_change": 3,
+    "portability_selected_table": [
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        1
+      ]
+    ],
+    "portability_selection_is_exact_multiplication": true
+  },
+  "caveat": "Swap-role and idle tests are supplied generic portability checks. They favor multiplication in this substrate; other domains may need different invariants and transfer tests."
+}

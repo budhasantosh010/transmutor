@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "task_only_candidate_count": 3,
+    "idle_observation_scores": [
+      {
+        "table": [
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ]
+        ],
+        "idle_accuracy": 0.0,
+        "exact_multiplication": false
+      },
+      {
+        "table": [
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ]
+        ],
+        "idle_accuracy": 1.0,
+        "exact_multiplication": true
+      },
+      {
+        "table": [
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            1
+          ]
+        ],
+        "idle_accuracy": 0.0,
+        "exact_multiplication": false
+      }
+    ],
+    "candidates_surviving_idle_experience": 1,
+    "survivor_is_exact_multiplication": true,
+    "evolution_runs": 60,
+    "behavior_plus_idle_success_rate": 1.0,
+    "exact_multiplication_rate": 1.0,
+    "mean_generation": 4.583333333333333
+  },
+  "caveat": "Idle observations are still a specially chosen additional experience. The experiment shows ambiguity can be resolved by broader data rather than a hard-coded invariant; it does not solve autonomous experiment selection."
+}

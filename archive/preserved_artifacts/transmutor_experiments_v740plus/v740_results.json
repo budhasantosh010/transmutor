@@ -1,0 +1,244 @@
+{
+  "rows": [
+    {
+      "seed": 74300,
+      "log": [
+        {
+          "env": "AXIS_FIRST",
+          "chosen": "DIAG_AXIS",
+          "search_triggered": true,
+          "search_cost": 236,
+          "test_reward": 1.0,
+          "library_size": 2
+        },
+        {
+          "env": "SHEAR_A_FIRST",
+          "chosen": "FULL_SHEAR_A",
+          "search_triggered": true,
+          "search_cost": 2104,
+          "test_reward": 1.0,
+          "library_size": 3
+        },
+        {
+          "env": "AXIS_REVISIT",
+          "chosen": "DIAG_AXIS",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 1.0,
+          "library_size": 3
+        },
+        {
+          "env": "SHEAR_A_REVISIT",
+          "chosen": "FULL_SHEAR_A",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 1.0,
+          "library_size": 3
+        },
+        {
+          "env": "NEW_FIRST",
+          "chosen": "FULL_NEW",
+          "search_triggered": true,
+          "search_cost": 2104,
+          "test_reward": 0.9992307692307693,
+          "library_size": 4
+        },
+        {
+          "env": "NEW_REVISIT",
+          "chosen": "FULL_NEW",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 0.9969230769230769,
+          "library_size": 4
+        }
+      ],
+      "final_library": [
+        {
+          "name": "IDENTITY",
+          "type": "IDENTITY",
+          "cost": 0
+        },
+        {
+          "name": "DIAG_AXIS",
+          "type": "DIAGONAL",
+          "cost": 1
+        },
+        {
+          "name": "FULL_SHEAR_A",
+          "type": "FULL",
+          "cost": 2
+        },
+        {
+          "name": "FULL_NEW",
+          "type": "FULL",
+          "cost": 2
+        }
+      ],
+      "total_structural_search_cost": 4444
+    },
+    {
+      "seed": 74400,
+      "log": [
+        {
+          "env": "AXIS_FIRST",
+          "chosen": "DIAG_AXIS",
+          "search_triggered": true,
+          "search_cost": 236,
+          "test_reward": 0.9973076923076923,
+          "library_size": 2
+        },
+        {
+          "env": "SHEAR_A_FIRST",
+          "chosen": "FULL_SHEAR_A",
+          "search_triggered": true,
+          "search_cost": 2104,
+          "test_reward": 1.0,
+          "library_size": 3
+        },
+        {
+          "env": "AXIS_REVISIT",
+          "chosen": "DIAG_AXIS",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 0.9969230769230769,
+          "library_size": 3
+        },
+        {
+          "env": "SHEAR_A_REVISIT",
+          "chosen": "FULL_SHEAR_A",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 0.9996153846153846,
+          "library_size": 3
+        },
+        {
+          "env": "NEW_FIRST",
+          "chosen": "FULL_NEW",
+          "search_triggered": true,
+          "search_cost": 2104,
+          "test_reward": 1.0,
+          "library_size": 4
+        },
+        {
+          "env": "NEW_REVISIT",
+          "chosen": "FULL_NEW",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 1.0,
+          "library_size": 4
+        }
+      ],
+      "final_library": [
+        {
+          "name": "IDENTITY",
+          "type": "IDENTITY",
+          "cost": 0
+        },
+        {
+          "name": "DIAG_AXIS",
+          "type": "DIAGONAL",
+          "cost": 1
+        },
+        {
+          "name": "FULL_SHEAR_A",
+          "type": "FULL",
+          "cost": 2
+        },
+        {
+          "name": "FULL_NEW",
+          "type": "FULL",
+          "cost": 2
+        }
+      ],
+      "total_structural_search_cost": 4444
+    },
+    {
+      "seed": 74500,
+      "log": [
+        {
+          "env": "AXIS_FIRST",
+          "chosen": "DIAG_AXIS",
+          "search_triggered": true,
+          "search_cost": 236,
+          "test_reward": 0.9992307692307693,
+          "library_size": 2
+        },
+        {
+          "env": "SHEAR_A_FIRST",
+          "chosen": "FULL_SHEAR_A",
+          "search_triggered": true,
+          "search_cost": 2104,
+          "test_reward": 0.9992307692307693,
+          "library_size": 3
+        },
+        {
+          "env": "AXIS_REVISIT",
+          "chosen": "DIAG_AXIS",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 0.9992307692307693,
+          "library_size": 3
+        },
+        {
+          "env": "SHEAR_A_REVISIT",
+          "chosen": "FULL_SHEAR_A",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 1.0,
+          "library_size": 3
+        },
+        {
+          "env": "NEW_FIRST",
+          "chosen": "FULL_NEW",
+          "search_triggered": true,
+          "search_cost": 2104,
+          "test_reward": 1.0,
+          "library_size": 4
+        },
+        {
+          "env": "NEW_REVISIT",
+          "chosen": "FULL_NEW",
+          "search_triggered": false,
+          "search_cost": 0,
+          "test_reward": 1.0,
+          "library_size": 4
+        }
+      ],
+      "final_library": [
+        {
+          "name": "IDENTITY",
+          "type": "IDENTITY",
+          "cost": 0
+        },
+        {
+          "name": "DIAG_AXIS",
+          "type": "DIAGONAL",
+          "cost": 1
+        },
+        {
+          "name": "FULL_SHEAR_A",
+          "type": "FULL",
+          "cost": 2
+        },
+        {
+          "name": "FULL_NEW",
+          "type": "FULL",
+          "cost": 2
+        }
+      ],
+      "total_structural_search_cost": 4444
+    }
+  ],
+  "all_first_encounters_triggered_correctly": true,
+  "all_revisits_zero_search": true,
+  "mean_first_encounter_test_reward": 0.9994444444444446,
+  "mean_revisit_test_reward": 0.9991880341880344,
+  "mean_total_search_cost": 4444.0,
+  "pass_gate": {
+    "first_encounter_search_pattern_correct": true,
+    "all_revisits_zero_search": true,
+    "first_reward_above_0.99": true,
+    "revisit_reward_above_0.99": true
+  },
+  "V740_PASS": true
+}

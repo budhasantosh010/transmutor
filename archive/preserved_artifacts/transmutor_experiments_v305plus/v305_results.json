@@ -1,0 +1,91 @@
+{
+  "result": {
+    "hidden_target": [
+      4,
+      11,
+      19
+    ],
+    "best_screen_accuracy_by_candidate_order": {
+      "1": 0.5373333333333333,
+      "2": 0.536,
+      "3": 1.0
+    },
+    "selected_smallest_interaction_order": 3,
+    "top_gate_ranking": [
+      {
+        "gate": 4,
+        "score": 0.04065679012345669,
+        "count": 27
+      },
+      {
+        "gate": 11,
+        "score": 0.027160784313725372,
+        "count": 34
+      },
+      {
+        "gate": 19,
+        "score": 0.026659459459459467,
+        "count": 37
+      },
+      {
+        "gate": 21,
+        "score": 0.02251182795698925,
+        "count": 31
+      },
+      {
+        "gate": 20,
+        "score": 0.01897011494252876,
+        "count": 29
+      },
+      {
+        "gate": 5,
+        "score": 0.011882539682539717,
+        "count": 42
+      },
+      {
+        "gate": 13,
+        "score": 0.008177777777777728,
+        "count": 30
+      },
+      {
+        "gate": 22,
+        "score": 0.006511111111111023,
+        "count": 30
+      },
+      {
+        "gate": 16,
+        "score": 0.003826262626262733,
+        "count": 33
+      },
+      {
+        "gate": 15,
+        "score": 0.003442424242424247,
+        "count": 33
+      }
+    ],
+    "shortlist": [
+      4,
+      11,
+      19,
+      21,
+      20,
+      5,
+      13
+    ],
+    "all_hidden_gates_in_shortlist": true,
+    "best_shortlist_coalition": [
+      4,
+      11,
+      19
+    ],
+    "best_check_accuracy": 1.0,
+    "length256_accuracy": 1.0,
+    "random_group_screens": 110,
+    "total_order_screen_tests": 330,
+    "shortlist_coalition_tests": 35,
+    "total_structural_tests": 365,
+    "exhaustive_triple_tests": 2024,
+    "reduction_vs_exhaustive_triples_percent": 81.96640316205533
+  },
+  "caveat": "Candidate interaction orders 1/2/3 and polynomial feature families are supplied. Total test accounting counts three order-evaluations per group; hardware cost rises sharply with interaction order."
+}

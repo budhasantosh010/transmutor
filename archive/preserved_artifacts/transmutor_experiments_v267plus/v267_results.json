@@ -1,0 +1,155 @@
+{
+  "episodes": 16,
+  "summary": {
+    "d4_train": {
+      "adequacy": 0.5,
+      "mean_mse": 0.009366759338957292
+    },
+    "d4_oracle": {
+      "adequacy": 0.6875,
+      "mean_mse": 0.007470301053858483
+    },
+    "d5_train": {
+      "adequacy": 0.4375,
+      "mean_mse": 0.009223160704121738
+    },
+    "d5_oracle": {
+      "adequacy": 0.8125,
+      "mean_mse": 0.007403163863371519
+    },
+    "d4_train_oracle_type_agreement": 0.0625,
+    "d5_train_oracle_type_agreement": 0.125,
+    "depth5_oracle_headroom_pp": 37.5
+  },
+  "records": [
+    {
+      "d4_train": 0.009958287008938317,
+      "d4_oracle": 0.00962165734641265,
+      "d5_train": 0.010853113183193621,
+      "d5_oracle": 0.009717585621400043,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.009143872885008987,
+      "d4_oracle": 0.007540147361972669,
+      "d5_train": 0.009170233765791338,
+      "d5_oracle": 0.007990434148673608,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.017800814439076124,
+      "d4_oracle": 0.008421541753277135,
+      "d5_train": 0.01043541742897084,
+      "d5_oracle": 0.008617311522273288,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.00970816015185702,
+      "d4_oracle": 0.009462368995325493,
+      "d5_train": 0.012970602061642094,
+      "d5_oracle": 0.009901562441195569,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.006821577296418916,
+      "d4_oracle": 0.006337188020847848,
+      "d5_train": 0.0066513270682750855,
+      "d5_oracle": 0.0066513270682750855,
+      "d4_same": false,
+      "d5_same": true
+    },
+    {
+      "d4_train": 0.00762703865976547,
+      "d4_oracle": 0.007625832391532208,
+      "d5_train": 0.00767624937863575,
+      "d5_oracle": 0.006291751467883626,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.010936439806769407,
+      "d4_oracle": 0.01044617459737844,
+      "d5_train": 0.009926686423486642,
+      "d5_oracle": 0.007181745387542282,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.009198039922459683,
+      "d4_oracle": 0.006287234399506128,
+      "d5_train": 0.007501727859126284,
+      "d5_oracle": 0.006849501073357402,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.0060443218874957185,
+      "d4_oracle": 0.0032178438059481686,
+      "d5_train": 0.0032132250873396014,
+      "d5_oracle": 0.0032132250873396014,
+      "d4_same": false,
+      "d5_same": true
+    },
+    {
+      "d4_train": 0.015169477344165488,
+      "d4_oracle": 0.009027748212360966,
+      "d5_train": 0.013132742322341923,
+      "d5_oracle": 0.010121661367052752,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.006440954403355643,
+      "d4_oracle": 0.004574057200894233,
+      "d5_train": 0.006388988099836429,
+      "d5_oracle": 0.004565490613037576,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.007390831634162803,
+      "d4_oracle": 0.006354480003737697,
+      "d5_train": 0.007896772289396755,
+      "d5_oracle": 0.007081083120542138,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.009647181278467682,
+      "d4_oracle": 0.00902888163956142,
+      "d5_train": 0.008870870246761023,
+      "d5_oracle": 0.007886608363432293,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.007347963987864205,
+      "d4_oracle": 0.00626749361245696,
+      "d5_train": 0.014733159272419858,
+      "d5_oracle": 0.006751278146145485,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.008436056710597294,
+      "d4_oracle": 0.007115035513609814,
+      "d5_train": 0.008688585518639673,
+      "d5_oracle": 0.008437574629314258,
+      "d4_same": false,
+      "d5_same": false
+    },
+    {
+      "d4_train": 0.008197132006913911,
+      "d4_oracle": 0.008197132006913911,
+      "d5_train": 0.009460871260090903,
+      "d5_oracle": 0.0071924817564793025,
+      "d4_same": true,
+      "d5_same": false
+    }
+  ],
+  "caveat": "Held-out oracle selection is diagnostic only and cannot be used by a real learner. It quantifies available capacity after the same parameter-search process, separating capacity from structural-selection error."
+}

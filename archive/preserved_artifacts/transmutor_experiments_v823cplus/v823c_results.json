@@ -1,0 +1,112 @@
+{
+  "rows": [
+    {
+      "success": true,
+      "route": "RESCUE_B",
+      "effort": 15200,
+      "pair_proofs": 18
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "RESCUE_B",
+      "effort": 15200,
+      "pair_proofs": 18
+    },
+    {
+      "success": true,
+      "route": "RESCUE_A",
+      "effort": 11520,
+      "pair_proofs": 12
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "RESCUE_B",
+      "effort": 15200,
+      "pair_proofs": 18
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "BASE",
+      "effort": 7840,
+      "pair_proofs": 6
+    },
+    {
+      "success": true,
+      "route": "RESCUE_B",
+      "effort": 15200,
+      "pair_proofs": 18
+    }
+  ],
+  "success_count": 16,
+  "routes": {
+    "BASE": 11,
+    "RESCUE_A": 1,
+    "RESCUE_B": 4,
+    "FAIL": 0
+  },
+  "mean_effort": 9910.0,
+  "median_effort": 7840.0,
+  "uniform_reference_effort": 12000,
+  "mean_effort_reduction_fraction": 0.1741666666666667,
+  "V823C_PASS": true
+}

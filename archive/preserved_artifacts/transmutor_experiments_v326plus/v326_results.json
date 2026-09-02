@@ -1,0 +1,104 @@
+{
+  "summary": {
+    "PARITY_ONLY": {
+      "initial_hypotheses": 243,
+      "active_probe_count": 5,
+      "active_probe_sequence": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "observed": 0,
+          "remaining": 81
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "observed": 0,
+          "remaining": 27
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "observed": 0,
+          "remaining": 9
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "observed": 0,
+          "remaining": 3
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "observed": 0,
+          "remaining": 1
+        }
+      ],
+      "random_mean_probe_count": 8.369,
+      "random_median_probe_count": 9.0,
+      "random_p90_probe_count": 9.0
+    },
+    "PARITY_PLUS_GATE_VF": {
+      "initial_hypotheses": 27,
+      "active_probe_count": 3,
+      "active_probe_sequence": [
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "observed": 0,
+          "remaining": 9
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "observed": 0,
+          "remaining": 3
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "observed": 0,
+          "remaining": 1
+        }
+      ],
+      "random_mean_probe_count": 7.5485,
+      "random_median_probe_count": 8.0,
+      "random_p90_probe_count": 9.0
+    },
+    "PARITY_PLUS_BOTH_GATES": {
+      "initial_hypotheses": 3,
+      "active_probe_count": 1,
+      "active_probe_sequence": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "observed": 0,
+          "remaining": 1
+        }
+      ],
+      "random_mean_probe_count": 5.053,
+      "random_median_probe_count": 5.0,
+      "random_p90_probe_count": 9.0
+    }
+  },
+  "caveat": "The hypothesis class is a finite lookup-table space and probes directly address table cells. Real computational substrates will not expose such clean experimental coordinates."
+}

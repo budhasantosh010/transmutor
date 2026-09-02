@@ -1,0 +1,281 @@
+{
+  "rows": [
+    {
+      "selected_terms": [
+        {
+          "pair": [
+            5,
+            8
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            3,
+            6
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            4,
+            7
+          ],
+          "sign": "+"
+        }
+      ],
+      "validation_accuracy": 1.0,
+      "test_accuracy": 0.9982857142857143,
+      "history": [
+        {
+          "step": 1,
+          "best_validation_accuracy": 0.6914285714285714,
+          "terms": [
+            {
+              "pair": [
+                5,
+                8
+              ],
+              "sign": "+"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "best_validation_accuracy": 0.7271428571428571,
+          "terms": [
+            {
+              "pair": [
+                3,
+                6
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                3,
+                3
+              ],
+              "sign": "-"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "best_validation_accuracy": 1.0,
+          "terms": [
+            {
+              "pair": [
+                5,
+                8
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                3,
+                6
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                4,
+                7
+              ],
+              "sign": "+"
+            }
+          ]
+        }
+      ],
+      "exact_3d_dot_recovery": true
+    },
+    {
+      "selected_terms": [
+        {
+          "pair": [
+            5,
+            8
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            3,
+            6
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            4,
+            7
+          ],
+          "sign": "+"
+        }
+      ],
+      "validation_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "history": [
+        {
+          "step": 1,
+          "best_validation_accuracy": 0.6985714285714286,
+          "terms": [
+            {
+              "pair": [
+                5,
+                8
+              ],
+              "sign": "+"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "best_validation_accuracy": 0.7271428571428571,
+          "terms": [
+            {
+              "pair": [
+                5,
+                8
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                8,
+                8
+              ],
+              "sign": "-"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "best_validation_accuracy": 1.0,
+          "terms": [
+            {
+              "pair": [
+                5,
+                8
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                3,
+                6
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                4,
+                7
+              ],
+              "sign": "+"
+            }
+          ]
+        }
+      ],
+      "exact_3d_dot_recovery": true
+    },
+    {
+      "selected_terms": [
+        {
+          "pair": [
+            4,
+            7
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            5,
+            8
+          ],
+          "sign": "+"
+        },
+        {
+          "pair": [
+            3,
+            6
+          ],
+          "sign": "+"
+        }
+      ],
+      "validation_accuracy": 0.9985714285714286,
+      "test_accuracy": 1.0,
+      "history": [
+        {
+          "step": 1,
+          "best_validation_accuracy": 0.7028571428571428,
+          "terms": [
+            {
+              "pair": [
+                3,
+                6
+              ],
+              "sign": "+"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "best_validation_accuracy": 0.7271428571428571,
+          "terms": [
+            {
+              "pair": [
+                3,
+                6
+              ],
+              "sign": "-"
+            },
+            {
+              "pair": [
+                3,
+                3
+              ],
+              "sign": "+"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "best_validation_accuracy": 0.9985714285714286,
+          "terms": [
+            {
+              "pair": [
+                4,
+                7
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                5,
+                8
+              ],
+              "sign": "+"
+            },
+            {
+              "pair": [
+                3,
+                6
+              ],
+              "sign": "+"
+            }
+          ]
+        }
+      ],
+      "exact_3d_dot_recovery": true
+    }
+  ],
+  "exact_recovery_count": 3,
+  "mean_test_accuracy": 0.9994285714285714,
+  "pass_gate": {
+    "exact_recovery_3of3": true,
+    "mean_test_accuracy_at_least_0.99": true
+  },
+  "V702_PASS": true
+}

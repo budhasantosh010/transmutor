@@ -1,0 +1,25 @@
+Version,Question,Status,Key result,Main caveat
+V0,Topology growth/pruning,Success,"100% AND/OR/XOR/XNOR; 3 hidden cells, 13 edges","Population evolution, not lifetime self-change"
+V1,Lifetime learning,Partial,"Final AND 100%, OR 100%, XOR 75%, XNOR 50%",Interference/forgetting
+V2,Plain internal state,Failed,~50% delayed recall,State alone is not useful memory
+V2b,Gated memory,Success,100% delayed recall; memory correlation 0.9963,Gate architecture hand-designed
+V3,Blind structural growth,Partial,XNOR stuck 75% even after 2→8 cells,Capacity alone not enough
+V3b,Directed structural repair,Success/Partial,XOR and XNOR 75→100% with 1→2 cells; later pruning,External candidate testing; old skills not protected
+V4,Energy-aware compute,Success,100% while 7.92→1.28 equivalent active cells,Abstract activation-cost proxy
+V5,Generic selective memory,Failed,Write gate collapsed to zero; ~50%,Degenerate cheap solution
+V5b,Addressed selective memory,Success,100%; ~1.2 writes/20; relevant gate .848 vs distractor .018,Address-match signal supplied
+V6,No exact backward weights,Success,30/30 random-feedback runs solved XOR,Tiny task; output error still broadcast
+V7,Learning-rule coefficient search,Partial,"Discovered rule 99.38%, equal to hand-DFA",Predefined rule family
+V8,Primitive/program discovery,Success,AND=min; OR=max; XOR=-x1*x2; XNOR=x1*x2,Primitive vocabulary supplied
+V9,Reusable modules,Success,Composite tasks 100% in 1 router step vs 5–42 from scratch,Modular layout supplied
+V10,Skill compilation,Success,7 macros; late compute reduced 50.54%,Compiler rule supplied
+V11,Input-dependent routing,Success,"~99% while hard inputs gate expensive expert ~.99, easy ~.50",Experts supplied
+V12,World model + planning,Success,100% transition model; greedy stuck; planner found 8-step detour,Complete tiny transition table used
+V13,Selective planning,Success,100% success at 2.83 cost vs always-plan 8.0; planner used 26.19%,Controllers supplied
+V14,Curiosity / active data,Positive modest,98.48% vs 96.34% random at 100 labels,Curiosity=hand-defined uncertainty
+V15,Development from seed,Success,"Same 1-cell seed grew: linear 1, XOR2 2, parity3 2, parity4 3–4",External growth rule
+V16,Near-clone reproduction,Failed,0/12 parity4 vs random growth 11/12,Too little diversity
+V16b,Diverse reproduction,Success,12/12 parity4; mean 4.25 cells,Mutation scales + selection supplied
+V17,Resource competition / death,Success,12→3 cells while keeping 100% all four tasks,Death proposal/acceptance external
+V18,Continual learning easy benchmark,Inconclusive,Both shared and progressive retained 100%,Benchmark too easy
+V18b,Continual learning interference,Success,Shared 66.25% + 24.06pp forgetting; progressive 98.75% + 0 forgetting,Protected retention costs growing capacity

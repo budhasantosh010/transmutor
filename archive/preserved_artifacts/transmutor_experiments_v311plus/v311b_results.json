@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "prototype_episodes_per_skill": 1,
+    "top1_accuracy": 1.0,
+    "top3_accuracy": 1.0,
+    "by_task": {
+      "FLAG_MEMORY": {
+        "top1": 1.0,
+        "top3": 1.0
+      },
+      "PARITY": {
+        "top1": 1.0,
+        "top3": 1.0
+      },
+      "MAJORITY": {
+        "top1": 1.0,
+        "top3": 1.0
+      },
+      "LAST_BIT": {
+        "top1": 1.0,
+        "top3": 1.0
+      },
+      "FIRST_BIT": {
+        "top1": 1.0,
+        "top3": 1.0
+      }
+    },
+    "prototype_fingerprints": {
+      "FLAG_MEMORY": [
+        1.0,
+        0.5545454545454546,
+        0.7090909090909091,
+        0.5454545454545454,
+        0.5545454545454546
+      ],
+      "PARITY": [
+        0.509090909090909,
+        1.0,
+        0.6363636363636364,
+        0.5363636363636364,
+        0.4818181818181818
+      ],
+      "MAJORITY": [
+        0.4818181818181818,
+        0.5909090909090909,
+        1.0,
+        0.6545454545454545,
+        0.5636363636363636
+      ],
+      "LAST_BIT": [
+        0.5,
+        0.5363636363636364,
+        0.5181818181818182,
+        1.0,
+        0.5454545454545454
+      ],
+      "FIRST_BIT": [
+        0.43636363636363634,
+        0.5181818181818182,
+        0.6454545454545455,
+        0.4818181818181818,
+        1.0
+      ]
+    },
+    "V311_raw_router_after_8_new_examples": {
+      "overall_top1": 0.4866666666666667,
+      "overall_top3": 0.8266666666666667,
+      "FIRST_BIT_top1": 0.03333333333333333
+    }
+  },
+  "caveat": "The fingerprint probes include the exact five known useful computations, so retrieval is intentionally behavior-centric and requires testing a small probe bank. Scaling to thousands of skills needs compressed or learned probe selection."
+}

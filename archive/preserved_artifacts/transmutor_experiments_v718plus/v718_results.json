@@ -1,0 +1,68 @@
+{
+  "rows": [
+    {
+      "seed": 71800,
+      "frozen_2D_thresholds": {
+        "raw": 0.01676097592059443,
+        "cosine": 0.7448690664671275
+      },
+      "4": {
+        "raw_DOT_accuracy": 0.7876666666666666,
+        "normalized_COS_accuracy": 1.0
+      },
+      "8": {
+        "raw_DOT_accuracy": 0.7831666666666667,
+        "normalized_COS_accuracy": 1.0
+      }
+    },
+    {
+      "seed": 71810,
+      "frozen_2D_thresholds": {
+        "raw": 0.023755667310450986,
+        "cosine": 0.7437907385581402
+      },
+      "4": {
+        "raw_DOT_accuracy": 0.778,
+        "normalized_COS_accuracy": 1.0
+      },
+      "8": {
+        "raw_DOT_accuracy": 0.773,
+        "normalized_COS_accuracy": 1.0
+      }
+    },
+    {
+      "seed": 71820,
+      "frozen_2D_thresholds": {
+        "raw": 0.0226466125781406,
+        "cosine": 0.7441611623009713
+      },
+      "4": {
+        "raw_DOT_accuracy": 0.7826666666666666,
+        "normalized_COS_accuracy": 1.0
+      },
+      "8": {
+        "raw_DOT_accuracy": 0.7795,
+        "normalized_COS_accuracy": 1.0
+      }
+    }
+  ],
+  "dimensions": {
+    "4": {
+      "raw_accuracy": 0.7827777777777777,
+      "normalized_accuracy": 1.0,
+      "advantage": 0.21722222222222232
+    },
+    "8": {
+      "raw_accuracy": 0.7785555555555556,
+      "normalized_accuracy": 1.0,
+      "advantage": 0.22144444444444444
+    }
+  },
+  "pass_gate": {
+    "4D_normalized_above_0.99": true,
+    "8D_normalized_above_0.99": true,
+    "4D_advantage_above_0.15": true,
+    "8D_advantage_above_0.15": true
+  },
+  "V718_PASS": true
+}
