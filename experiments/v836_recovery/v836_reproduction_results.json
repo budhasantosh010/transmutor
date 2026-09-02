@@ -1,0 +1,16 @@
+{
+  "experiment": "V836",
+  "historical_status": "PASS",
+  "historical_result_sha256": "0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d",
+  "expected_source_archive_sha256": "dcb0bfc2e4927ee89511ae7f87701ba465f6a7193a838cdb1b2dc0e1c122f953",
+  "source_archive_found": false,
+  "reproduction_classification": "CANNOT_REPRODUCE_MISSING_SOURCE",
+  "historical_metric": 4.713419328623934,
+  "reproduction_metric": null,
+  "absolute_difference": null,
+  "relative_difference": null,
+  "notes": [
+    "The registry/inventory references transmutor_v828_v836_experiments.zip, but it is absent from the migrated repository and migration package.",
+    "No historical executable, dataset generator, seed policy, exact pass-gate logic, or per-task library-cost matrix is preserved, so replacement numbers would be fabrication rather than reproduction."
+  ]
+}
