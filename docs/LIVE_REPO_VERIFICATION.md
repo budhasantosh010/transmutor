@@ -35,6 +35,8 @@ This file is the compact entry point for independent review of the live private 
 
 ## Historical SHA-256 anchors
 
+These are the pre-existing scientific integrity anchors retained exactly as previously recorded. Canonical GitHub-stored Git-blob SHA-256 values are listed separately in `verification/live_repo_manifest.json` so verification is portable across Windows/Linux line-ending settings.
+
 - V836 result: `0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d`
 - V837 result: `5fed69cc990be5c6f64a5229f59ff7f27af0c1fc26398bdfbe80ee46255eef14`
 - V837b result: `f131110969e7700ec0cd9a82825e8554a51a9c05bb308d54625452db54e35cb0`

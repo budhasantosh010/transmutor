@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,6 +16,17 @@ def sha256(path: Path) -> str:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def git_blob_bytes(relative: str) -> bytes:
+    try:
+        return subprocess.check_output(["git", "show", f"HEAD:{relative}"], cwd=ROOT)
+    except subprocess.CalledProcessError as exc:
+        raise RuntimeError(f"unable to read committed Git blob: {relative}") from exc
+
+
+def git_blob_sha256(relative: str) -> str:
+    return hashlib.sha256(git_blob_bytes(relative)).hexdigest()
 
 
 def load_json(relative: str) -> dict:
@@ -48,9 +60,9 @@ def verify_sha_manifest() -> int:
         path = require_path(relative)
         if not path.is_file():
             raise RuntimeError(f"SHA entry is not a file: {relative}")
-        actual = sha256(path)
+        actual = git_blob_sha256(relative)
         if actual != expected:
-            raise RuntimeError(f"SHA mismatch: {relative}: {actual} != {expected}")
+            raise RuntimeError(f"committed Git-blob SHA mismatch: {relative}: {actual} != {expected}")
         checked += 1
     if checked == 0:
         raise RuntimeError("active-research SHA manifest is empty")
@@ -66,7 +78,7 @@ def main() -> int:
     for relative in critical_paths:
         require_path(relative)
 
-    historical = manifest["historical_integrity"]
+    historical_git = manifest["historical_git_blob_sha256"]
     historical_paths = {
         "v836_result_sha256": "archive/preserved_artifacts/transmutor_experiments_v836plus/v836_results.json",
         "v837_result_sha256": "experiments/v837_primitive_invention/v837/results.json",
@@ -75,10 +87,11 @@ def main() -> int:
         "frozen_gate_sha256": "experiments/v837_primitive_invention/frozen_gates.json",
     }
     for key, relative in historical_paths.items():
-        actual = sha256(require_path(relative))
-        expected = historical[key]
+        require_path(relative)
+        actual = git_blob_sha256(relative)
+        expected = historical_git[key]
         if actual != expected:
-            raise RuntimeError(f"historical integrity mismatch for {relative}: {actual} != {expected}")
+            raise RuntimeError(f"historical committed-blob mismatch for {relative}: {actual} != {expected}")
 
     for variant_name in ("V837d", "V837g", "V837h"):
         record = manifest["current_variants"][variant_name]
