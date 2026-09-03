@@ -1,0 +1,55 @@
+{
+  "experiment": "V837n",
+  "parent": "V837m",
+  "question": "Which mechanism in the successful 4x-data GRU reference is causally necessary?",
+  "single_change": "GRU mechanism availability only, with shared explicit equations, shared initialization policy, shared 4x unique data, and paired task/evaluation seeds",
+  "reference_regime": "4x_unique_data",
+  "models": {
+    "hidden_size": 13,
+    "input_dim": 6,
+    "reference_parameter_count": 875
+  },
+  "conditions": [
+    "full_gru",
+    "static_update_vector",
+    "static_update_scalar",
+    "no_update",
+    "no_reset",
+    "static_reset_vector",
+    "no_update_no_reset"
+  ],
+  "training": {
+    "optimizer": "AdamW",
+    "steps": 192,
+    "train_episodes": 512,
+    "development_seed_range": [10000, 10511],
+    "validation_episodes": 128,
+    "validation_seed_range": [20000, 20127],
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "replicates": 5,
+    "curve_steps": [0, 32, 64, 96, 128, 160, 192]
+  },
+  "positive_control_gate": {
+    "families_required": 4,
+    "target_from_v837l": 5,
+    "compatibility_drift_threshold": 0.10,
+    "max_families_over_drift_threshold": 1
+  },
+  "mechanism_necessity_gate": {
+    "strong_family_count_drop_to_or_below": 2,
+    "contribution_family_count": 3,
+    "robust_large_drop_threshold": 0.10,
+    "robust_large_drop_min_families": 2,
+    "bootstrap_confidence": 0.95
+  },
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "fresh_audit_allowed": false,
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "structural_search_allowed": false,
+  "task_family_label_allowed": false,
+  "cpu_only": true
+}

@@ -53,10 +53,26 @@ def _state_diagnostics(model: nn.Module, episodes: list[Episode]) -> dict:
     active_states = states[active]
     if not active_states.numel():
         return {"state_norm": 0.0, "activation_saturation": 0.0}
-    return {
+    output = {
         "state_norm": float(torch.linalg.vector_norm(active_states, dim=-1).mean().item()),
         "activation_saturation": float((torch.abs(active_states) >= 0.95).float().mean().item()),
     }
+    candidates = getattr(trace, "candidates", None)
+    if candidates is not None:
+        active_candidates = candidates[active]
+        output["candidate_state_norm"] = float(torch.linalg.vector_norm(active_candidates, dim=-1).mean().item())
+        output["candidate_saturation"] = float((torch.abs(active_candidates) >= 0.95).float().mean().item())
+    updates = getattr(trace, "updates", None)
+    resets = getattr(trace, "resets", None)
+    if updates is not None:
+        active_updates = updates[active]
+        output["update_coefficient_mean"] = float(active_updates.mean().item())
+        output["update_coefficient_variance"] = float(active_updates.var(unbiased=False).item())
+    if resets is not None:
+        active_resets = resets[active]
+        output["candidate_condition_mean"] = float(active_resets.mean().item())
+        output["candidate_condition_variance"] = float(active_resets.var(unbiased=False).item())
+    return output
 
 
 def _gradient_norm(parameters: list[torch.nn.Parameter]) -> float:
