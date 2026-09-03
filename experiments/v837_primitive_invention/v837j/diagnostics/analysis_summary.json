@@ -1,0 +1,23 @@
+{
+  "diagnosis": "BENCHMARK_LEARNABILITY_UNRESOLVED",
+  "families_passing_by_model": {
+    "gru_reference": 2,
+    "neutral_high_capacity": 1,
+    "residual_rnn_reference": 2,
+    "vanilla_rnn_reference": 1
+  },
+  "parameter_count_by_model": {
+    "gru_reference": 875,
+    "neutral_high_capacity": 856,
+    "residual_rnn_reference": 885,
+    "vanilla_rnn_reference": 885
+  },
+  "pass": false,
+  "plots": [
+    "plots/reference_family_scores.png",
+    "plots/families_passing_by_reference.png",
+    "plots/training_vs_validation.png",
+    "plots/learning_curves.png",
+    "plots/parameter_count_vs_success.png"
+  ]
+}
