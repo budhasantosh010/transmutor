@@ -1,0 +1,74 @@
+{
+  "base_training": {
+    "curve_steps": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96,
+      128,
+      160,
+      192
+    ],
+    "development_seed_range": [
+      10000,
+      10127
+    ],
+    "gradient_clip": 5.0,
+    "learning_rate": 0.005,
+    "optimizer": "AdamW",
+    "replicates": 5,
+    "steps": 192,
+    "train_episodes": 128,
+    "validation_episodes": 128,
+    "validation_seed_range": [
+      20000,
+      20127
+    ],
+    "weight_decay": 0.0001
+  },
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "cpu_only": true,
+  "experiment": "V837k",
+  "fresh_audit_allowed": false,
+  "fresh_audit_consumed": false,
+  "hidden_size_selection": {
+    "gru_reference": {
+      "architecture_type": "gru_reference",
+      "difference": 19,
+      "hidden_size": 13,
+      "parameter_count": 875,
+      "percent_difference": 2.219626168224299,
+      "target_parameter_count": 856
+    },
+    "residual_rnn_reference": {
+      "architecture_type": "residual_rnn_reference",
+      "difference": 29,
+      "hidden_size": 26,
+      "parameter_count": 885,
+      "percent_difference": 3.387850467289719,
+      "target_parameter_count": 856
+    }
+  },
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "models": [
+    "neutral_high_capacity",
+    "gru_reference",
+    "residual_rnn_reference"
+  ],
+  "parent": "V837j",
+  "primitive_mining_allowed": false,
+  "question": "Is the matched learned-reference failure caused by insufficient optimizer-step budget?",
+  "run_policy": "reuse V837j 1x rows; run 2x; run 4x only if neither GRU nor residual reaches >=4/5 at 2x",
+  "single_change": "optimizer step budget only: 1x -> 2x -> 4x while architecture, data, optimizer, seeds, task distributions, and criteria remain fixed",
+  "step_multipliers": [
+    1,
+    2,
+    4
+  ],
+  "task_family_label_allowed": false
+}
