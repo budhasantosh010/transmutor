@@ -1,0 +1,14 @@
+{
+  "version": "V837b",
+  "parent": "V837",
+  "single_change": "After the unchanged V837 structural search selects each evolved graph and matched-random control, refine all continuous cell/readout parameters for 48 AdamW steps; topology, tasks, seeds, search outputs, structural penalties, and pass gates remain unchanged.",
+  "gate_file_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "refinement": {
+    "steps": 48,
+    "learning_rate": 0.01,
+    "weight_decay": 0.0001,
+    "scope": "all_continuous_parameters",
+    "graph_topology_frozen": true
+  },
+  "compute": {"workers": 8}
+}

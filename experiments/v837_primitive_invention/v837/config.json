@@ -1,0 +1,18 @@
+{
+  "version": "V837",
+  "parent": null,
+  "lineage": "independent_post_v836",
+  "gate_file": "experiments/v837_primitive_invention/frozen_gates.json",
+  "gate_file_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "pass_gate_frozen_before_run": true,
+  "single_change": "Test neutral continuous-cell competence under a common low-level substrate across five task families; parameter adaptation is fixed readout-only AdamW while internal generic cell parameters/topology are searched by low-level mutations.",
+  "parameter_training_scope": "readout_only_adamw",
+  "task_families": ["delayed_recall", "conditional_routing", "iterative_state", "variable_composition", "partial_observation"],
+  "development_seed_range": [10000, 10999],
+  "validation_seed_range": [20000, 20499],
+  "fresh_audit_seed_range": [90000, 90499],
+  "model_input_contains_task_family_label": false,
+  "allowed_structural_edits": ["ADD_CELL", "REMOVE_CELL", "ADD_EDGE", "REMOVE_EDGE", "PERTURB_EDGE_WEIGHT", "PERTURB_CELL_PARAMETERS", "ADD_RECURRENT_EDGE", "REMOVE_RECURRENT_EDGE", "DUPLICATE_SUBGRAPH"],
+  "prohibited_named_operators": ["MEMORY", "ROUTER", "COUNTER", "ATTENTION", "STACK", "SEARCH", "CONCAT", "ADD", "SUB", "MUL", "NAND", "XOR"],
+  "compute": {"device": "cpu", "workers": 8}
+}

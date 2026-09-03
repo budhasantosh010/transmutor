@@ -1,0 +1,11 @@
+{
+  "version": "V837c",
+  "parent": "V837b",
+  "single_change": "Double structural-search offspring breadth from 4 to 8 candidates per generation; return to the original V837 readout-only AdamW candidate adaptation. All tasks, seed partitions, population size, generation cap, structural penalties, substrate dimensions, and pass gates remain unchanged.",
+  "gate_file_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "search_overrides": {
+    "offspring_per_generation": 8,
+    "parameter_training_scope": "readout_only_adamw"
+  },
+  "compute": {"workers": 10}
+}
