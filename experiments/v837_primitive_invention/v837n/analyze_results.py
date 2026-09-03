@@ -79,11 +79,11 @@ def _diagnose(summaries: dict, effects: dict) -> tuple[str, bool, str, list[str]
             "V837q minimal neutral candidate conditioning",
             [],
         )
-    if counts["no_update"] >= 4 and counts["no_reset"] >= 4 and counts["no_update_no_reset"] <= 2:
+    if counts["no_update"] >= 4 and counts["no_reset"] >= 4 and counts["no_update_no_reset"] < 4:
         return (
             "MECHANISM_REDUNDANCY_OR_COMPLEMENTARITY",
             True,
-            "design the simplest common adaptive-state property before transferring multiple GRU mechanisms",
+            "do not run V837o or V837q; first isolate the simplest common adaptive-modulation property because either dynamic update or dynamic reset is sufficient while disabling both falls below the 4/5 adequacy gate",
             ["MECHANISM_COUPLING_REQUIRED"],
         )
     if update_strong and reset_strong:
