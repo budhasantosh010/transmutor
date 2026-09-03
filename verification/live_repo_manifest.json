@@ -1,0 +1,115 @@
+{
+  "critical_paths": [
+    "experiments/v837_primitive_invention/frozen_gates.json",
+    "experiments/v837_primitive_invention/lineage_status.json",
+    "experiments/v837_primitive_invention/BLOCKER_ANALYSIS.md",
+    "experiments/v837_primitive_invention/final_resource_accounting.json",
+    "experiments/v837_primitive_invention/REPRESENTATION_BLOCKER_ANALYSIS.md",
+    "experiments/v837_primitive_invention/representation_recovery_status.json",
+    "experiments/v837_primitive_invention/representation_recovery_resource_accounting.json",
+    "verification/model_snapshot_manifest.json",
+    "verification/active_research_sha256.txt"
+  ],
+  "current_scientific_frontier": "generic tanh-centered cell-update family",
+  "current_variants": {
+    "V837d": {
+      "config": "experiments/v837_primitive_invention/v837d/config.json",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837d/diagnostics/broadcast_capacity.json",
+        "experiments/v837_primitive_invention/v837d/diagnostics/controls.json",
+        "experiments/v837_primitive_invention/v837d/diagnostics/sparse_density_sweep.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837d/FAILURE.md",
+        "experiments/v837_primitive_invention/v837d/README.md",
+        "experiments/v837_primitive_invention/v837d/RESEARCH_SPEC.md"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837d/plots/capacity_by_density.png",
+        "experiments/v837_primitive_invention/v837d/plots/cell_state_correlation_by_density.png",
+        "experiments/v837_primitive_invention/v837d/plots/families_passing_by_density.png",
+        "experiments/v837_primitive_invention/v837d/plots/message_dependency_by_density.png",
+        "experiments/v837_primitive_invention/v837d/plots/saturation_by_density.png",
+        "experiments/v837_primitive_invention/v837d/plots/sparse_vs_no_message.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837d/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837d/analyze_results.py",
+        "experiments/v837_primitive_invention/v837d/experiment.py",
+        "experiments/v837_primitive_invention/v837d/run_capacity_diagnostic.py",
+        "experiments/v837_primitive_invention/v837d/run_controls.py"
+      ]
+    },
+    "V837g": {
+      "config": "experiments/v837_primitive_invention/v837g/config.json",
+      "diagnostics": [],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837g/FAILURE.md",
+        "experiments/v837_primitive_invention/v837g/README.md",
+        "experiments/v837_primitive_invention/v837g/RESEARCH_SPEC.md"
+      ],
+      "plots": [],
+      "results": "experiments/v837_primitive_invention/v837g/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837g/run_capacity_diagnostic.py"
+      ]
+    },
+    "V837h": {
+      "config": "experiments/v837_primitive_invention/v837h/config.json",
+      "diagnostics": [],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837h/FAILURE.md",
+        "experiments/v837_primitive_invention/v837h/README.md",
+        "experiments/v837_primitive_invention/v837h/RESEARCH_SPEC.md"
+      ],
+      "plots": [],
+      "results": "experiments/v837_primitive_invention/v837h/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837h/run_capacity_diagnostic.py"
+      ]
+    }
+  },
+  "fresh_audit_consumed": false,
+  "historical_boundary": {
+    "v836_exact_reproduction": "CANNOT_REPRODUCE_MISSING_SOURCE",
+    "v836_status": "PASS",
+    "v837_original_lineage_outcome": "B_MILESTONE_FAILED_HONESTLY"
+  },
+  "historical_integrity": {
+    "frozen_gate_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+    "v836_result_sha256": "0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d",
+    "v837_result_sha256": "5fed69cc990be5c6f64a5229f59ff7f27af0c1fc26398bdfbe80ee46255eef14",
+    "v837b_result_sha256": "f131110969e7700ec0cd9a82825e8554a51a9c05bb308d54625452db54e35cb0",
+    "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
+  },
+  "main_sha": "4d065927ad0cc2ccf92808cd2e984c2e6c0e7ca7",
+  "main_sha_semantics": "Research-state SHA indexed by this package. The verification-only commit containing this manifest necessarily has a later SHA; use git rev-parse HEAD for that container commit.",
+  "model_snapshots": {
+    "count": 900,
+    "manifest": "verification/model_snapshot_manifest.json",
+    "storage": "normal Git; total snapshot size is small enough and all referenced snapshots are tracked"
+  },
+  "primitives_promoted": 0,
+  "reports": [
+    "docs/POST_V836_FRONTIER_AUDIT.md",
+    "docs/V837_PRIMITIVE_INVENTION_REPORT.md",
+    "docs/V837_REPRESENTATION_RECOVERY_REPORT.md",
+    "docs/LIVE_REPO_VERIFICATION.md"
+  ],
+  "repository": "budhasantosh010/transmutor",
+  "research_lineage": "V837 representation recovery",
+  "research_sha": "4d065927ad0cc2ccf92808cd2e984c2e6c0e7ca7",
+  "tests": [
+    "tests/test_active_research.py",
+    "tests/test_v837_representation_recovery_outcome.py",
+    "tests/test_v837_research.py",
+    "tests/test_v837d_representation.py",
+    "tests/test_v837g_representation.py",
+    "tests/test_v837h_representation.py"
+  ],
+  "validators": [
+    "scripts/validate_active_research.py",
+    "scripts/validate_registry.py",
+    "scripts/verify_live_repo.py"
+  ]
+}

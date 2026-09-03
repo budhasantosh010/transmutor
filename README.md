@@ -26,3 +26,10 @@ This repository is being migrated from a long-running experimental research conv
 - `scripts/` — migration and validation tooling.
 
 The repository is private during cleanup and evidence reconstruction.
+
+## Research verification navigation
+
+- [Post-V836 frontier audit](docs/POST_V836_FRONTIER_AUDIT.md)
+- [V837 primitive-invention report](docs/V837_PRIMITIVE_INVENTION_REPORT.md)
+- [V837 representation-recovery report](docs/V837_REPRESENTATION_RECOVERY_REPORT.md)
+- [Live repository verification index](docs/LIVE_REPO_VERIFICATION.md)
