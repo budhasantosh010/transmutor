@@ -1,0 +1,27 @@
+{
+  "diagnosis": "BENCHMARK_LEARNABILITY_UNRESOLVED",
+  "executed_multipliers": [
+    2,
+    4
+  ],
+  "families_passing": {
+    "gru_reference": {
+      "1x": 2,
+      "2x": 2,
+      "4x": 2
+    },
+    "neutral_high_capacity": {
+      "1x": 1,
+      "2x": 1,
+      "4x": 1
+    },
+    "residual_rnn_reference": {
+      "1x": 2,
+      "2x": 2,
+      "4x": 2
+    }
+  },
+  "fresh_audit_consumed": false,
+  "winning_model": null,
+  "winning_multiplier": null
+}
