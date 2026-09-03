@@ -21,6 +21,21 @@ FAILURE_CLASSES = {
     "UNKNOWN_FAILURE",
 }
 
+V837_FAILURE_CLASSES = FAILURE_CLASSES | {
+    "MOTIF_DETECTION_FAILURE",
+    "CAUSAL_VALIDATION_FAILURE",
+    "COMPRESSION_FAILURE",
+    "RETRIEVAL_FAILURE",
+    "REUSE_FAILURE",
+}
+V837_GATE_SHA256 = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
+V837_RESULT_FIELDS = {
+    "version", "parent", "research_question", "hypothesis", "single_change", "substrate_version",
+    "task_families", "development_seeds", "validation_seeds", "fresh_audit_seeds", "baselines",
+    "metrics", "resource_accounting", "motifs", "primitive_archive", "pass_gate", "pass",
+    "failure_classification", "caveats", "next_question", "gate_file_sha256",
+}
+
 REPRODUCTION_CLASSES = {
     "EXACTLY_REPRODUCED",
     "STATISTICALLY_REPRODUCED",
@@ -139,8 +154,12 @@ def validate_v836_recovery() -> None:
         raise ValueError("reproduction record rewrote historical V836 status")
 
     proposal = json.loads((ROOT / "experiments" / "v836_recovery" / "PROPOSED_NEXT_EXPERIMENT.json").read_text(encoding="utf-8"))
-    if proposal.get("status") != "NOT_RUN_BLOCKED_BY_V836_REPRODUCTION":
-        raise ValueError("post-V836 proposal must remain NOT_RUN while reproduction is blocked")
+    allowed_proposal_status = {
+        "NOT_RUN_BLOCKED_BY_V836_REPRODUCTION",
+        "SUPERSEDED_BY_INDEPENDENT_V837_LINEAGE_AUTHORIZATION",
+    }
+    if proposal.get("status") not in allowed_proposal_status:
+        raise ValueError(f"unexpected post-V836 proposal status: {proposal.get('status')}")
     assert_seed_ranges_disjoint(proposal["seed_ranges"])
     if proposal.get("fixed_gate_before_run", {}).get("gate_frozen_before_run") is not True:
         raise ValueError("proposed next gate must be frozen before any future run")
@@ -182,11 +201,84 @@ def validate_active_result_files() -> None:
         validate_result_schema(data, config=config)
 
 
+def validate_v837_lineage() -> None:
+    base = ROOT / "experiments" / "v837_primitive_invention"
+    gate_path = base / "frozen_gates.json"
+    if sha256_file(gate_path) != V837_GATE_SHA256:
+        raise ValueError("V837 frozen gate hash changed")
+    gates = json.loads(gate_path.read_text(encoding="utf-8"))
+    assert_seed_ranges_disjoint(gates["seed_ranges"])
+
+    status = json.loads((base / "lineage_status.json").read_text(encoding="utf-8"))
+    if status.get("historical_boundary", {}).get("v836_status") != "PASS":
+        raise ValueError("V837 lineage rewrote historical V836 status")
+    if status.get("historical_boundary", {}).get("v837_relation") != "independent_post_v836_lineage":
+        raise ValueError("V837 must remain explicitly independent of V836 repair lineage")
+    if status.get("outcome") not in {"A_MILESTONE_PASSED", "B_MILESTONE_FAILED_HONESTLY"}:
+        raise ValueError("V837 lineage has no valid closed outcome")
+
+    variants = ["v837", "v837b", "v837c"]
+    completed = []
+    for version in variants:
+        result_path = base / version / "results.json"
+        if not result_path.exists():
+            continue
+        completed.append(version)
+        data = json.loads(result_path.read_text(encoding="utf-8"))
+        missing = sorted(V837_RESULT_FIELDS - set(data))
+        if missing:
+            raise ValueError(f"{version} missing V837 result fields: {missing}")
+        if data.get("gate_file_sha256") != V837_GATE_SHA256:
+            raise ValueError(f"{version} references wrong frozen gate hash")
+        if not isinstance(data.get("resource_accounting"), dict) or not data["resource_accounting"]:
+            raise ValueError(f"{version} missing resource accounting")
+        if "random" not in json.dumps(data.get("baselines", {})).lower():
+            raise ValueError(f"{version} missing random matched control")
+        if data.get("pass") is False:
+            classes = data.get("failure_classification", [])
+            if not classes:
+                raise ValueError(f"{version} failure has no classification")
+            invalid = sorted(set(classes) - V837_FAILURE_CLASSES)
+            if invalid:
+                raise ValueError(f"{version} has invalid failure classes: {invalid}")
+    if not completed:
+        raise ValueError("V837 lineage has no completed experimental result")
+
+    audit = json.loads((base / "audit" / "audit_results.json").read_text(encoding="utf-8"))
+    if status["outcome"] == "A_MILESTONE_PASSED":
+        if audit.get("status") != "PASS":
+            raise ValueError("successful V837 lineage requires completed fresh audit")
+    else:
+        if len(completed) < 3 or not status.get("stop_rule_triggered"):
+            raise ValueError("Outcome B requires three controlled failures and stop-rule evidence")
+        if status.get("primary_blocker") not in V837_FAILURE_CLASSES:
+            raise ValueError("Outcome B requires a valid primary blocker classification")
+        if audit.get("status") != "NOT_RUN_PREREQUISITE_FAILURE" or audit.get("episodes_consumed") != 0:
+            raise ValueError("failed V837 lineage must preserve fresh-audit seeds")
+        for required in (
+            base / "BLOCKER_ANALYSIS.md",
+            base / "failures" / "blocker_diagnostic_results.json",
+            base / "failures" / "blocker_data_diagnostic_results.json",
+            ROOT / "docs" / "V837_PRIMITIVE_INVENTION_REPORT.md",
+        ):
+            if not required.exists() or not required.read_text(encoding="utf-8", errors="ignore").strip():
+                raise ValueError(f"required V837 failure evidence missing: {required.relative_to(ROOT)}")
+        if status.get("primitives_promoted"):
+            raise ValueError("Outcome B before motif validation cannot promote primitives")
+
+    archive_source = (base / "common" / "primitive_archive.py").read_text(encoding="utf-8").lower()
+    retrieve_block = archive_source.split("def retrieve", 1)[1].split("def increment_usage", 1)[0]
+    for forbidden in ("task_family", "domain_label", "family_label"):
+        if forbidden in retrieve_block:
+            raise ValueError(f"primitive retrieval leaks forbidden label: {forbidden}")
+
+
 def main() -> int:
     validate_integrity_manifest()
     validate_v836_recovery()
     validate_frontier_matrix()
     validate_active_result_files()
+    validate_v837_lineage()
     print("active research validation: PASS")
     return 0
 

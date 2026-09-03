@@ -47,11 +47,20 @@ class ReproductionGuardTests(unittest.TestCase):
         self.assertEqual(reproduction["reproduction_classification"], "CANNOT_REPRODUCE_MISSING_SOURCE")
         self.assertIsNone(reproduction["reproduction_metric"])
 
-    def test_next_experiment_is_not_run_while_v836_reproduction_blocked(self) -> None:
+    def test_v836_repair_remains_blocked_even_if_independent_v837_is_authorized(self) -> None:
         proposal = json.loads(
             (ROOT / "experiments" / "v836_recovery" / "PROPOSED_NEXT_EXPERIMENT.json").read_text(encoding="utf-8")
         )
-        self.assertEqual(proposal["status"], "NOT_RUN_BLOCKED_BY_V836_REPRODUCTION")
+        self.assertIn(
+            proposal["status"],
+            {"NOT_RUN_BLOCKED_BY_V836_REPRODUCTION", "SUPERSEDED_BY_INDEPENDENT_V837_LINEAGE_AUTHORIZATION"},
+        )
+        self.assertEqual(
+            json.loads((ROOT / "experiments/v837_primitive_invention/lineage_status.json").read_text(encoding="utf-8"))["historical_boundary"]["v837_relation"],
+            "independent_post_v836_lineage",
+        )
+        self.assertFalse((ROOT / "experiments/v836_recovery/variants/v836b").exists())
+        self.assertFalse((ROOT / "experiments/v836_recovery/variants/v836c").exists())
 
 
 class SeedAndGateTests(unittest.TestCase):
