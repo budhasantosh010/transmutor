@@ -1,0 +1,24 @@
+{
+  "fresh_audit_episodes_consumed": 0,
+  "historical_v837_gate_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "lineage": "V837 representation recovery",
+  "neutral_substrate_competence": "FAIL",
+  "next_single_variable": "Replace or more fundamentally revise the generic cell update family itself; do not spend more structural-search budget or resume motif mining first.",
+  "outcome": "C_REPRESENTATION_FAMILY_REMAINS_INADEQUATE",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "scientifically_distinct_failed_variants": [
+    "V837d",
+    "V837g",
+    "V837h"
+  ],
+  "start_sha": "1280b2ad30af3976633f7052943650c769d2e508",
+  "stop_rule_triggered": true,
+  "strongest_supported_diagnosis": "The tested task-independent tanh continuous-cell family remains insufficient under controlled changes to raw-input accessibility, generic state persistence, and a rank-2 multiplicative interaction basis. No tested representation restored >=4/5 high-capacity competence.",
+  "v838_started": false,
+  "variant_status": {
+    "V837d": "FAIL",
+    "V837g": "FAIL",
+    "V837h": "FAIL"
+  }
+}

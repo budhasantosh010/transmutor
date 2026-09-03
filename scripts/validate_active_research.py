@@ -380,6 +380,76 @@ def validate_v837_representation_recovery() -> None:
             if invalid:
                 raise ValueError(f"V837d has invalid failure classes: {invalid}")
 
+    # Later representation variants are conditional and become mandatory once
+    # their result files exist. All must preserve the original V837 gate,
+    # fresh-audit lock, primitive-mining lock, single-variable declaration and
+    # failure evidence.
+    for version in ("v837g", "v837h"):
+        variant = base / version
+        result_file = variant / "results.json"
+        if not result_file.exists():
+            continue
+        data = json.loads(result_file.read_text(encoding="utf-8"))
+        required = {
+            "version", "parent", "single_change", "representation_change", "historical_gate_hash",
+            "fresh_audit_consumed", "conditions", "capacity_results", "representation_diagnostics",
+            "resource_accounting", "pass_gate", "pass", "failure_classification", "interpretation",
+            "next_experiment", "primitive_mining_allowed", "capacity_criterion_hash",
+        }
+        missing = sorted(required - set(data))
+        if missing:
+            raise ValueError(f"{version} result missing fields: {missing}")
+        if data.get("historical_gate_hash") != V837_GATE_SHA256:
+            raise ValueError(f"{version} references wrong historical V837 gate")
+        if data.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+            raise ValueError(f"{version} changed the frozen capacity criterion")
+        if not str(data.get("single_change", "")).strip():
+            raise ValueError(f"{version} requires an explicit single_change")
+        if data.get("fresh_audit_consumed") is not False:
+            raise ValueError(f"{version} consumed fresh-audit data")
+        if data.get("primitive_mining_allowed") is not False:
+            raise ValueError(f"{version} reopened primitive mining before competence recovery")
+        if not isinstance(data.get("resource_accounting"), dict) or not data["resource_accounting"]:
+            raise ValueError(f"{version} missing resource accounting")
+        if data.get("pass") is False:
+            classes = data.get("failure_classification", [])
+            if not classes:
+                raise ValueError(f"failed {version} requires failure classification")
+            invalid = sorted(set(classes) - V837_FAILURE_CLASSES)
+            if invalid:
+                raise ValueError(f"{version} has invalid failure classes: {invalid}")
+            failure_doc = variant / "FAILURE.md"
+            if not failure_doc.exists() or not failure_doc.read_text(encoding="utf-8").strip():
+                raise ValueError(f"failed {version} missing FAILURE.md")
+
+    recovery_status_path = base / "representation_recovery_status.json"
+    if recovery_status_path.exists():
+        recovery_status = json.loads(recovery_status_path.read_text(encoding="utf-8"))
+        if recovery_status.get("outcome") != "C_REPRESENTATION_FAMILY_REMAINS_INADEQUATE":
+            raise ValueError("unexpected representation recovery outcome")
+        if recovery_status.get("scientifically_distinct_failed_variants") != ["V837d", "V837g", "V837h"]:
+            raise ValueError("representation recovery stop rule must retain V837d/V837g/V837h sequence")
+        if recovery_status.get("stop_rule_triggered") is not True:
+            raise ValueError("representation recovery status must record stop-rule trigger")
+        if recovery_status.get("neutral_substrate_competence") != "FAIL":
+            raise ValueError("failed recovery must not mark neutral substrate competence PASS")
+        if recovery_status.get("primitive_mining_allowed") is not False:
+            raise ValueError("failed recovery must keep primitive mining blocked")
+        if recovery_status.get("fresh_audit_episodes_consumed") != 0:
+            raise ValueError("failed recovery consumed fresh-audit episodes")
+        if recovery_status.get("primitives_promoted") != 0:
+            raise ValueError("failed recovery promoted primitives")
+        if recovery_status.get("v838_started") is not False:
+            raise ValueError("failed representation recovery must not start V838")
+        for required_path in (
+            base / "INPUT_ACCESS_LINE_VERDICT.md",
+            base / "REPRESENTATION_BLOCKER_ANALYSIS.md",
+            base / "representation_recovery_resource_accounting.json",
+            ROOT / "docs" / "V837_REPRESENTATION_RECOVERY_REPORT.md",
+        ):
+            if not required_path.exists() or not required_path.read_text(encoding="utf-8", errors="ignore").strip():
+                raise ValueError(f"representation recovery evidence missing: {required_path.relative_to(ROOT)}")
+
 
 def main() -> int:
     validate_integrity_manifest()

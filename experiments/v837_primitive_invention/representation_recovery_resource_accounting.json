@@ -1,0 +1,14 @@
+{
+  "candidate_evaluations": 360,
+  "cpu_seconds_sum_workers": 14965.78125,
+  "environment_interaction_fraction_of_original_v837": 0.05350784157066699,
+  "environment_steps": 645408,
+  "examples_processed": 8847360,
+  "forward_calls": 69840,
+  "optimizer_step_fraction_of_original_v837": 0.05592450192240475,
+  "optimizer_steps": 69120,
+  "v837_reference_candidate_evaluations": 50688,
+  "v837_reference_environment_interactions": 12061933,
+  "v837_reference_optimizer_steps": 1235952,
+  "wall_seconds_sum_workers": 17867.898114900163
+}
