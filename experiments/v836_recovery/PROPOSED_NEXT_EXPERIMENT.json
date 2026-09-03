@@ -1,8 +1,8 @@
 {
-  "status": "NOT_RUN_BLOCKED_BY_V836_REPRODUCTION",
+  "status": "SUPERSEDED_BY_INDEPENDENT_V837_LINEAGE_AUTHORIZATION",
   "provisional_name": "Post-V836 Target A: neutral-cell callable primitive invention",
   "version": null,
-  "reason_not_versioned": "Do not start V837 until V836 is closed under the recovery rules.",
+  "reason_not_versioned": "This proposal was originally blocked under the V836 recovery rules. The later V837+ specification explicitly defined V837 as a new independent lineage rather than a V836 repair, superseding this proposal's execution block without changing historical V836 status.",
   "research_question": "Can one generic low-level cell substrate independently discover recurring computational motifs, promote them into callable primitives based on held-out reuse value, and reduce future search/compute without named high-level operators or task-family labels?",
   "hypothesis": "Across behaviorally different task families, repeated useful subgraphs will recur independently. A reuse-gated promoter can compress such motifs into callable units whose later reuse reduces candidate evaluations while preserving fresh held-out performance better than random or frequency-only promotion.",
   "single_principal_change_from_existing_neutral_substrate_work": "Add evidence-gated motif compression and callable reuse; do not change the low-level cell substrate, benchmark families, objective, or resource model in the same variant.",
@@ -87,5 +87,6 @@
     "continuous": ["mean", "median", "standard_deviation", "p10", "p90"],
     "comparisons": "paired episode seeds"
   },
-  "execution_blocker": "Historical V836 cannot currently be reproduced because transmutor_v828_v836_experiments.zip is missing. Do not execute this proposal until the V836 recovery gate is explicitly unblocked."
+  "historical_execution_blocker": "At proposal creation time, historical V836 could not be reproduced because transmutor_v828_v836_experiments.zip was missing, so this proposal was not executed under the then-current continuation rule.",
+  "supersession": "The subsequent V837+ research specification explicitly authorizes V837 as an independent post-V836 lineage while preserving V836=PASS and CANNOT_REPRODUCE_MISSING_SOURCE. The active implementation therefore follows experiments/v837_primitive_invention/frozen_gates.json rather than retroactively rewriting V836."
 }

@@ -1,0 +1,74 @@
+{
+  "first_observation_leakage": {
+    "accuracy": 0.19047619047619047,
+    "chance": 0.2,
+    "n_test": 210,
+    "n_train": 390
+  },
+  "gate_file_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "leakage_pass": true,
+  "oracle": {
+    "conditional_routing": {
+      "binary": {
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ],
+        "n": 100,
+        "success_count": 100,
+        "success_rate": 1.0
+      },
+      "max_absolute_error": 0.0
+    },
+    "delayed_recall": {
+      "binary": {
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ],
+        "n": 100,
+        "success_count": 100,
+        "success_rate": 1.0
+      },
+      "max_absolute_error": 0.0
+    },
+    "iterative_state": {
+      "binary": {
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ],
+        "n": 100,
+        "success_count": 100,
+        "success_rate": 1.0
+      },
+      "max_absolute_error": 0.0
+    },
+    "partial_observation": {
+      "binary": {
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ],
+        "n": 100,
+        "success_count": 100,
+        "success_rate": 1.0
+      },
+      "max_absolute_error": 0.0
+    },
+    "variable_composition": {
+      "binary": {
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ],
+        "n": 100,
+        "success_count": 100,
+        "success_rate": 1.0
+      },
+      "max_absolute_error": 0.0
+    }
+  },
+  "oracle_pass": true,
+  "pass": true
+}

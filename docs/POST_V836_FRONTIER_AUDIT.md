@@ -102,8 +102,8 @@ The experiment must test all four primitive-invention requirements together:
 
 It must use the same low-level substrate across behaviorally different families with no task-family label and must compare against no-promotion, random promotion, frequency-only promotion, fixed architecture, and an oracle hand-designed motif where meaningful.
 
-## Why no V837 is executed in this branch
+## Historical boundary for V837+
 
-The new recovery rules require historical V836 reproduction before subsequent science is treated as valid continuation. The migrated registry references the original `transmutor_v828_v836_experiments.zip`, but that exact source archive is absent from the repository and migration package. The V836 reproduction harness therefore correctly returns `CANNOT_REPRODUCE_MISSING_SOURCE`.
+Historical V836 remains **PASS** and its exact reproduction remains `CANNOT_REPRODUCE_MISSING_SOURCE` because the inventory-referenced `transmutor_v828_v836_experiments.zip` is absent. No V836b/V836c repair may be invented unless that exact historical source is recovered.
 
-Historical V836 stays **PASS**. It is not rewritten. But Gate B of the new completion standard is blocked, the exact historical pass-gate implementation and seed policy are not preserved, and no separate pristine fresh audit is preserved. Starting V837 anyway would directly violate the user's frontier program. The next experiment is therefore specified and frozen as a proposal only; it is **not run**.
+The V837+ primitive-invention program is explicitly a **new independent research lineage**, not a repair or continuation claim that retroactively changes V836. Its scientific results therefore stand or fail on their own frozen gates, seed partitions, benchmark-validity checks, random controls, resource accounting, and fresh audit. Historical V836 evidence remains immutable and is not used as a development or audit dataset for V837.

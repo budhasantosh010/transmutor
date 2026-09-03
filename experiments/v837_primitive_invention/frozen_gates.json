@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "frozen_before_first_run": true,
+  "seed_ranges": {
+    "development": [10000, 10999],
+    "validation": [20000, 20499],
+    "ablation": [30000, 30499],
+    "negative_controls": [40000, 40499],
+    "fresh_audit": [90000, 90499]
+  },
+  "substrate": {
+    "state_dim": 4,
+    "message_dim": 4,
+    "initial_cells": 2,
+    "max_cells": 16,
+    "max_edges": 64
+  },
+  "search": {
+    "population": 16,
+    "max_generations": 40,
+    "offspring_per_generation": 4,
+    "lambda_cells": 0.002,
+    "lambda_edges": 0.0005,
+    "candidate_train_steps": 24,
+    "parameter_training_scope": "readout_only_adamw",
+    "learning_rate": 0.02,
+    "weight_decay": 0.0001,
+    "development_episodes_per_candidate": 16,
+    "validation_episodes_per_candidate": 20
+  },
+  "benchmark_validity": {
+    "oracle_min_success_rate": 0.98,
+    "first_observation_family_classifier_max_accuracy": 0.35
+  },
+  "v837": {
+    "independent_searches_per_family": 30,
+    "development_success_rate_per_family": 0.90,
+    "heldout_validation_success_rate_per_family": 0.85,
+    "families_required": 4,
+    "median_final_graph_fraction_of_cap_max": 0.75,
+    "random_matched_graph_min_gap_points": 20.0,
+    "differentiation_classifier_min_accuracy": 0.60,
+    "differentiation_permutation_p_max": 0.01
+  },
+  "motif": {
+    "min_cells": 2,
+    "max_cells": 6,
+    "min_successful_run_fraction": 0.20,
+    "min_independent_organisms": 5,
+    "random_enrichment_permutation_p_max": 0.05
+  },
+  "causal_validation": {
+    "motif_vs_sham_drop_ratio_min": 2.0,
+    "paired_bootstrap_ci_level": 0.95,
+    "bootstrap_resamples": 2000
+  },
+  "compression": {
+    "max_absolute_error": 1e-6
+  },
+  "reuse": {
+    "max_success_drop_points": 2.0,
+    "candidate_evaluation_reduction_min": 0.30,
+    "optimizer_step_reduction_min": 0.20,
+    "primitive_actual_use_min_fraction": 0.30,
+    "retrieval_top_k": 3
+  },
+  "fresh_audit": {
+    "episodes_per_family_min": 50,
+    "paired_conditions": ["NO_ARCHIVE", "VALIDATED_ARCHIVE", "RANDOM_ARCHIVE"]
+  }
+}
