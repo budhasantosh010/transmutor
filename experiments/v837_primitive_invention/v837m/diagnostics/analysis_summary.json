@@ -1,0 +1,17 @@
+{
+  "diagnosis": "LINEAR_STATE_TRANSPORT_INSUFFICIENT",
+  "families_passing": {
+    "historical_direct": 2,
+    "linear_transport": 2,
+    "parameter_matched_additive": 1,
+    "scalar_persistence": 2
+  },
+  "fresh_audit_consumed": false,
+  "parameter_matching": {
+    "exact_match": true,
+    "linear_transport": 1016,
+    "parameter_matched_additive": 1016
+  },
+  "pass": false,
+  "version": "V837m"
+}
