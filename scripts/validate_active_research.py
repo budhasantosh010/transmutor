@@ -40,6 +40,12 @@ V837_FAILURE_CLASSES = FAILURE_CLASSES | {
     "CAPACITY_FAILURE",
     "REPRESENTATION_FAMILY_FAILURE_STRENGTHENED",
     "BENCHMARK_LEARNABILITY_UNRESOLVED",
+    "REFERENCE_MECHANISM_LOCALIZATION_FAILURE",
+    "ADAPTIVE_UPDATE_FAILURE",
+    "VECTOR_UPDATE_FAILURE",
+    "CANDIDATE_CONDITIONING_FAILURE",
+    "MECHANISM_COUPLING_REQUIRED",
+    "REPRESENTATION_ADEQUATE_SAMPLE_INEFFICIENT",
 }
 V837_GATE_SHA256 = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
 V837_CAPACITY_CRITERION_SHA256 = "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa"
@@ -646,7 +652,7 @@ def validate_v837_learned_reference_calibration() -> None:
             raise ValueError("V837l diagnostic PASS missing PASS.md")
 
     # V837m: after learnability is calibrated, test one new cell-law
-    # property—stable general linear state transport—against historical,
+    # propertyâ€”stable general linear state transportâ€”against historical,
     # scalar-persistence and exact parameter-matched additive controls.
     m_dir = base / "v837m"
     if (m_dir / "results.json").exists():
@@ -684,6 +690,121 @@ def validate_v837_learned_reference_calibration() -> None:
             raise ValueError("V837m failed diagnostic missing FAILURE.md")
 
 
+
+def validate_v837_gru_mechanism_localization() -> None:
+    base = ROOT / "experiments" / "v837_primitive_invention"
+    variant = base / "v837n"
+    if not variant.exists():
+        return
+    config = json.loads((variant / "config.json").read_text(encoding="utf-8"))
+    frozen = json.loads((variant / "frozen_mechanism_gate.json").read_text(encoding="utf-8"))
+    if config.get("historical_gate_hash") != V837_GATE_SHA256:
+        raise ValueError("V837n references wrong historical V837 gate")
+    if config.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+        raise ValueError("V837n changed the frozen capacity criterion")
+    if frozen.get("historical_v837_gate_sha256") != V837_GATE_SHA256:
+        raise ValueError("V837n frozen mechanism gate changed historical gate")
+    if frozen.get("capacity_criterion_sha256") != V837_CAPACITY_CRITERION_SHA256:
+        raise ValueError("V837n frozen mechanism gate changed capacity criterion")
+    if config.get("reference_regime") != "4x_unique_data":
+        raise ValueError("V837n mechanism localization must use the successful 4x reference regime")
+    training = config.get("training", {})
+    if int(training.get("train_episodes", -1)) != 512 or training.get("development_seed_range") != [10000, 10511]:
+        raise ValueError("V837n development data is not the frozen V837l 4x regime")
+    if int(training.get("validation_episodes", -1)) != 128 or training.get("validation_seed_range") != [20000, 20127]:
+        raise ValueError("V837n validation episodes drifted from V837l")
+    if int(training.get("steps", -1)) != 192 or training.get("optimizer") != "AdamW":
+        raise ValueError("V837n optimizer-step regime drifted")
+    if config.get("fresh_audit_consumed") is not False or config.get("fresh_audit_allowed") is not False:
+        raise ValueError("V837n consumed or allowed fresh audit")
+    if config.get("primitive_mining_allowed") is not False or config.get("structural_search_allowed") is not False:
+        raise ValueError("V837n reopened downstream science")
+    if config.get("task_family_label_allowed") is not False:
+        raise ValueError("V837n allows task-family label leakage")
+
+    positive_path = variant / "diagnostics" / "full_gru_positive_control.json"
+    if not positive_path.exists():
+        return
+    positive = json.loads(positive_path.read_text(encoding="utf-8"))
+    if positive.get("compatible") is not True or int(positive.get("families_passing", 0)) < 4:
+        raise ValueError("V837n explicit full-GRU positive control is not compatible")
+    if int(positive.get("parameter_count", 0)) != 875 or positive.get("parameter_count_match") is not True:
+        raise ValueError("V837n explicit GRU does not match the 875-parameter reference")
+
+    full_raw = json.loads((variant / "raw" / "full_gru.json").read_text(encoding="utf-8"))
+    ablation_raw = json.loads((variant / "raw" / "ablations.json").read_text(encoding="utf-8"))
+    rows = list(full_raw.get("rows", [])) + list(ablation_raw.get("rows", []))
+    expected_conditions = set(config.get("conditions", []))
+    if len(rows) != len(expected_conditions) * 5 * int(training.get("replicates", 0)):
+        raise ValueError("V837n does not contain the complete paired condition/family/replicate set")
+    seen = set()
+    for row in rows:
+        key = (row.get("condition"), row.get("family"), int(row.get("replicate", -1)))
+        if key in seen:
+            raise ValueError(f"duplicate V837n row: {key}")
+        seen.add(key)
+        if row.get("condition") not in expected_conditions:
+            raise ValueError("V837n row has unknown condition")
+        if row.get("task_family_label_in_model_input") is not False or row.get("fresh_audit_consumed") is not False:
+            raise ValueError("V837n row violated task-label/fresh-audit locks")
+        if [row.get("train_seed_first"), row.get("train_seed_last")] != training["development_seed_range"]:
+            raise ValueError("V837n row development seeds are not paired")
+        if [row.get("validation_seed_first"), row.get("validation_seed_last")] != training["validation_seed_range"]:
+            raise ValueError("V837n row validation seeds are not paired")
+        resources = row.get("resources", {})
+        if int(resources.get("optimizer_steps", -1)) != int(training["steps"]):
+            raise ValueError("V837n row optimizer-step budget mismatch")
+        if int(resources.get("examples_processed", -1)) != int(training["steps"]) * int(training["train_episodes"]):
+            raise ValueError("V837n row example budget mismatch")
+
+    result_path = variant / "results.json"
+    if not result_path.exists():
+        return
+    result = json.loads(result_path.read_text(encoding="utf-8"))
+    required = {
+        "version", "parent", "question", "single_change", "reference_regime",
+        "historical_gate_hash", "capacity_criterion_hash", "full_gru_reproduced",
+        "full_gru_positive_control", "conditions", "families_passing", "paired_deltas",
+        "gate_statistics", "mechanism_diagnosis", "diagnostic_pass", "resource_accounting",
+        "fresh_audit_consumed", "primitive_mining_allowed", "structural_search_allowed", "next_experiment",
+    }
+    missing = sorted(required - set(result))
+    if missing:
+        raise ValueError(f"V837n result missing fields: {missing}")
+    if result.get("version") != "V837n" or result.get("parent") != "V837m":
+        raise ValueError("V837n version/parent mismatch")
+    if result.get("full_gru_reproduced") is not True or result.get("diagnostic_pass") is not True:
+        raise ValueError("V837n must retain the reproduced positive control and diagnostic result")
+    if result.get("mechanism_diagnosis") != "MECHANISM_REDUNDANCY_OR_COMPLEMENTARITY":
+        raise ValueError("V837n mechanism diagnosis changed unexpectedly")
+    expected_counts = {
+        "full_gru": 5, "static_update_vector": 4, "static_update_scalar": 4,
+        "no_update": 5, "no_reset": 5, "static_reset_vector": 5, "no_update_no_reset": 3,
+    }
+    if result.get("families_passing") != expected_counts:
+        raise ValueError("V837n recorded family-count outcome changed")
+    if result.get("fresh_audit_consumed") is not False or result.get("primitive_mining_allowed") is not False or result.get("structural_search_allowed") is not False:
+        raise ValueError("V837n result reopened locked science")
+    invalid = sorted(set(result.get("failure_classification", [])) - V837_FAILURE_CLASSES)
+    if invalid:
+        raise ValueError(f"V837n has invalid failure classes: {invalid}")
+    if not (variant / "PASS.md").exists():
+        raise ValueError("V837n diagnostic PASS documentation missing")
+
+    status_path = base / "gru_mechanism_localization_status.json"
+    if status_path.exists():
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        if status.get("outcome") != "C_NO_INDIVIDUAL_GRU_MECHANISM_EXPLAINS_SUCCESS":
+            raise ValueError("unexpected V837N+ program outcome")
+        if status.get("full_structural_search_allowed") is not False or status.get("primitive_mining_allowed") is not False:
+            raise ValueError("V837N+ status reopened downstream science")
+        if int(status.get("fresh_audit_episodes_consumed", -1)) != 0 or int(status.get("primitives_promoted", -1)) != 0:
+            raise ValueError("V837N+ status consumed audit/promoted primitives")
+        for suffix in ("v837o", "v837p", "v837q", "v837r", "v837s", "v837t"):
+            if (base / suffix).exists():
+                raise ValueError(f"{suffix} exists despite V837n not justifying neutral transfer")
+
+
 def main() -> int:
     validate_integrity_manifest()
     validate_v836_recovery()
@@ -692,6 +813,7 @@ def main() -> int:
     validate_v837_lineage()
     validate_v837_representation_recovery()
     validate_v837_learned_reference_calibration()
+    validate_v837_gru_mechanism_localization()
     print("active research validation: PASS")
     return 0
 

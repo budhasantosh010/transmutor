@@ -181,6 +181,40 @@ def main() -> int:
     if v837m.get("full_structural_search_allowed") is not False:
         raise RuntimeError("V837m improperly reopened structural search")
 
+    # Successful-reference mechanism localization.
+    v837n_record = manifest["current_variants"].get("V837n")
+    if not isinstance(v837n_record, dict):
+        raise RuntimeError("verification manifest missing V837n")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in v837n_record.get(key, []):
+            require_path(relative)
+    require_path(v837n_record["config"])
+    require_path(v837n_record["frozen_gate"])
+    v837n = load_json(v837n_record["results"])
+    if v837n.get("version") != "V837n" or v837n.get("diagnostic_pass") is not True:
+        raise RuntimeError("V837n diagnostic result changed")
+    if v837n.get("mechanism_diagnosis") != "MECHANISM_REDUNDANCY_OR_COMPLEMENTARITY":
+        raise RuntimeError("V837n mechanism diagnosis changed")
+    expected_n_counts = {
+        "full_gru": 5, "static_update_vector": 4, "static_update_scalar": 4,
+        "no_update": 5, "no_reset": 5, "static_reset_vector": 5, "no_update_no_reset": 3,
+    }
+    if v837n.get("families_passing") != expected_n_counts:
+        raise RuntimeError("V837n family-count outcome changed")
+    positive = v837n.get("full_gru_positive_control", {})
+    if positive.get("compatible") is not True or int(positive.get("parameter_count", 0)) != 875:
+        raise RuntimeError("V837n explicit GRU positive control changed")
+    if v837n.get("fresh_audit_consumed") is not False or v837n.get("primitive_mining_allowed") is not False or v837n.get("structural_search_allowed") is not False:
+        raise RuntimeError("V837n reopened locked science")
+
+    localization = load_json("experiments/v837_primitive_invention/gru_mechanism_localization_status.json")
+    if localization.get("outcome") != "C_NO_INDIVIDUAL_GRU_MECHANISM_EXPLAINS_SUCCESS":
+        raise RuntimeError("GRU mechanism-localization program outcome changed")
+    if localization.get("full_structural_search_allowed") is not False or localization.get("primitive_mining_allowed") is not False:
+        raise RuntimeError("GRU localization status reopened downstream science")
+    if localization.get("fresh_audit_episodes_consumed") != 0 or localization.get("primitives_promoted") != 0:
+        raise RuntimeError("GRU localization status violated audit/primitive locks")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

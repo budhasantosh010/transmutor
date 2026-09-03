@@ -1,0 +1,29 @@
+{
+  "program": "V837N+ successful-reference mechanism localization",
+  "variants": {
+    "V837n": {
+      "model_fits": 175,
+      "optimizer_steps": 33600,
+      "examples_processed": 17203200,
+      "environment_interactions": 778575,
+      "forward_calls": 37900,
+      "wall_seconds_sum_workers": 966.6845127003035,
+      "cpu_seconds_sum_workers": 945.734375,
+      "gpu_seconds": 0.0
+    }
+  },
+  "totals": {
+    "model_fits": 175,
+    "optimizer_steps": 33600,
+    "examples_processed": 17203200,
+    "environment_interactions": 778575,
+    "forward_calls": 37900,
+    "wall_seconds_sum_workers": 966.6845127003035,
+    "cpu_seconds_sum_workers": 945.734375,
+    "gpu_seconds": 0.0
+  },
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "structural_search_runs": 0,
+  "motif_mining_runs": 0
+}

@@ -33,4 +33,5 @@ The repository is private during cleanup and evidence reconstruction.
 - [V837 primitive-invention report](docs/V837_PRIMITIVE_INVENTION_REPORT.md)
 - [V837 representation-recovery report](docs/V837_REPRESENTATION_RECOVERY_REPORT.md)
 - [V837 learned-reference calibration report](docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md)
+- [V837 GRU mechanism-localization report](docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md)
 - [Live repository verification index](docs/LIVE_REPO_VERIFICATION.md)

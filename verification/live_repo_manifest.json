@@ -16,9 +16,11 @@
     "experiments/v837_primitive_invention/v837j/results.json",
     "experiments/v837_primitive_invention/v837k/results.json",
     "experiments/v837_primitive_invention/v837l/results.json",
-    "experiments/v837_primitive_invention/v837m/results.json"
+    "experiments/v837_primitive_invention/v837m/results.json",
+    "experiments/v837_primitive_invention/gru_mechanism_localization_status.json",
+    "experiments/v837_primitive_invention/gru_mechanism_localization_resource_accounting.json"
   ],
-  "current_scientific_frontier": "adaptive generic state-update control after calibrated sample-efficiency diagnosis and failed linear transport",
+  "current_scientific_frontier": "isolate the smallest location-agnostic adaptive multiplicative state-modulation property inside the successful dense reference before neutral transfer",
   "current_variants": {
     "V837d": {
       "config": "experiments/v837_primitive_invention/v837d/config.json",
@@ -181,6 +183,38 @@
         "experiments/v837_primitive_invention/common/substrate.py"
       ],
       "status": "FAIL"
+    },
+    "V837n": {
+      "config": "experiments/v837_primitive_invention/v837n/config.json",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837n/diagnostics/full_gru_positive_control.json",
+        "experiments/v837_primitive_invention/v837n/diagnostics/ablation_summaries.json",
+        "experiments/v837_primitive_invention/v837n/diagnostics/mechanism_analysis.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837n/README.md",
+        "experiments/v837_primitive_invention/v837n/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837n/PASS.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837n/frozen_mechanism_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837n/plots/families_passing_by_gru_ablation.png",
+        "experiments/v837_primitive_invention/v837n/plots/family_scores_by_ablation.png",
+        "experiments/v837_primitive_invention/v837n/plots/update_gate_statistics.png",
+        "experiments/v837_primitive_invention/v837n/plots/reset_gate_statistics.png",
+        "experiments/v837_primitive_invention/v837n/plots/gate_temporal_variance.png",
+        "experiments/v837_primitive_invention/v837n/plots/full_vs_ablation_learning_curves.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837n/raw/full_gru.json",
+        "experiments/v837_primitive_invention/v837n/raw/ablations.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837n/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837n/gru_reference_explicit.py",
+        "experiments/v837_primitive_invention/v837n/run_mechanism_ablation.py",
+        "experiments/v837_primitive_invention/v837n/analyze_results.py"
+      ]
     }
   },
   "fresh_audit_consumed": false,
@@ -218,10 +252,11 @@
     "docs/V837_PRIMITIVE_INVENTION_REPORT.md",
     "docs/V837_REPRESENTATION_RECOVERY_REPORT.md",
     "docs/LIVE_REPO_VERIFICATION.md",
-    "docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md"
+    "docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md",
+    "docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 learned-reference calibration and cell-law diagnosis",
+  "research_lineage": "V837 successful-reference mechanism localization after learned-reference calibration",
   "research_sha": "cff95b53956e6bbf609c3bf597bb7d771c859d72",
   "tests": [
     "tests/test_active_research.py",
@@ -234,7 +269,9 @@
     "tests/test_v837k_training_budget.py",
     "tests/test_v837l_data_budget.py",
     "tests/test_v837m_linear_transport.py",
-    "tests/test_v837_learned_reference_outcome.py"
+    "tests/test_v837_learned_reference_outcome.py",
+    "tests/test_v837n_gru_mechanism_localization.py",
+    "tests/test_v837n_mechanism_outcome.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",

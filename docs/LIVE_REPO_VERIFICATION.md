@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This file is the compact entry point for independent review of the live private repository `budhasantosh010/transmutor`. The current verification package indexes the V837 learned-reference calibration and cell-law diagnostic state. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
+This file is the compact entry point for independent review of the live private repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, and successful-GRU mechanism-localization state. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
 
 ## Historical boundary
 
@@ -9,7 +9,8 @@ This file is the compact entry point for independent review of the live private 
 - V837 is an independent post-V836 lineage, not a V836 repair.
 - V837/V837b/V837c historical results remain immutable.
 - V837d/V837g/V837h representation-recovery results remain preserved failures.
-- V837j+ learned-reference calibration is diagnostic control research; reference models are never Transmutor primitives.
+- V837j–V837m learned-reference calibration/cell-law results remain preserved.
+- V837n is successful-reference mechanism localization only; learned references are never Transmutor primitives.
 
 ## Primary evidence paths
 
@@ -25,7 +26,12 @@ This file is the compact entry point for independent review of the live private 
 | V837k optimizer-budget calibration | `experiments/v837_primitive_invention/v837k/results.json` |
 | V837l unique-data calibration | `experiments/v837_primitive_invention/v837l/results.json` |
 | V837m linear-state-transport diagnostic | `experiments/v837_primitive_invention/v837m/results.json` |
+| V837n GRU mechanism localization | `experiments/v837_primitive_invention/v837n/results.json` |
+| V837n explicit GRU implementation | `experiments/v837_primitive_invention/v837n/gru_reference_explicit.py` |
+| V837n raw full-GRU runs | `experiments/v837_primitive_invention/v837n/raw/full_gru.json` |
+| V837n raw ablation runs | `experiments/v837_primitive_invention/v837n/raw/ablations.json` |
 | Frozen V837 gates | `experiments/v837_primitive_invention/frozen_gates.json` |
+| V837n frozen mechanism gate | `experiments/v837_primitive_invention/v837n/frozen_mechanism_gate.json` |
 | V837 lineage status | `experiments/v837_primitive_invention/lineage_status.json` |
 | Original V837 blocker analysis | `experiments/v837_primitive_invention/BLOCKER_ANALYSIS.md` |
 | Representation blocker analysis | `experiments/v837_primitive_invention/REPRESENTATION_BLOCKER_ANALYSIS.md` |
@@ -33,7 +39,10 @@ This file is the compact entry point for independent review of the live private 
 | Representation-recovery resources | `experiments/v837_primitive_invention/representation_recovery_resource_accounting.json` |
 | Learned-reference calibration status | `experiments/v837_primitive_invention/learned_reference_calibration_status.json` |
 | Learned-reference calibration resources | `experiments/v837_primitive_invention/learned_reference_calibration_resource_accounting.json` |
-| Learned-reference final report | `docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md` |
+| GRU-localization status | `experiments/v837_primitive_invention/gru_mechanism_localization_status.json` |
+| GRU-localization resources | `experiments/v837_primitive_invention/gru_mechanism_localization_resource_accounting.json` |
+| Learned-reference report | `docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md` |
+| GRU-localization report | `docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md` |
 | Active validator | `scripts/validate_active_research.py` |
 | Fast live-repo verifier | `scripts/verify_live_repo.py` |
 | Reproduction dispatcher | `scripts/reproduce_v837_recovery.py` |
@@ -42,9 +51,7 @@ This file is the compact entry point for independent review of the live private 
 | Active-file SHA-256 list | `verification/active_research_sha256.txt` |
 | Model snapshot metadata | `verification/model_snapshot_manifest.json` |
 
-## Current calibration result
-
-The key causal sequence is:
+## Current causal sequence
 
 ```text
 V837j matched learned references
@@ -64,9 +71,20 @@ V837m stable linear state transport
 2/5, parameter-matched additive control 1/5
         ↓
 LINEAR_STATE_TRANSPORT_INSUFFICIENT
+        ↓
+V837n explicit successful-GRU ablations @ 4x data
+full GRU                 5/5
+no update                5/5
+no reset                 5/5
+static reset vector      5/5
+static update vector     4/5
+static update scalar     4/5
+no update + no reset     3/5
+        ↓
+MECHANISM_REDUNDANCY_OR_COMPLEMENTARITY
 ```
 
-A separate learned-reference capacity escalation was not run because the same 875-parameter GRU already solved 5/5 when only unique development data was increased.
+The reference-side result rules out both named GRU mechanisms as individually necessary. V837o/p/q were therefore not run. The double ablation falls below the 4/5 adequacy gate, so some adaptive state-control flexibility appears useful, but the evidence does not localize that benefit uniquely to update/carry or reset/candidate conditioning.
 
 ## Historical SHA-256 anchors
 
@@ -83,8 +101,10 @@ These pre-existing scientific integrity anchors remain unchanged. Canonical GitH
 - Fresh-audit episodes consumed: **0**.
 - Primitives promoted: **0**.
 - Primitive mining allowed: **false**.
-- Full structural search after V837m: **not allowed**.
-- Current scientific frontier: **generic adaptive state-update control**, to be tested as one isolated property before any full GRU-like cell or structural-search restart.
+- Full structural search: **blocked**.
+- V837o/p/q/r/s/t: **not run**.
+- V838: **not started**.
+- Current scientific frontier: **isolate the smallest location-agnostic adaptive multiplicative state-modulation property inside the successful dense reference before transferring anything to the neutral substrate**.
 
 ## Fast verification
 

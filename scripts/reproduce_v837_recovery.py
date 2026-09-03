@@ -35,6 +35,11 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837m/run_capacity_diagnostic.py"],
         [sys.executable, "experiments/v837_primitive_invention/v837m/analyze_results.py"],
     ],
+    "v837n": [
+        [sys.executable, "experiments/v837_primitive_invention/v837n/run_mechanism_ablation.py", "--phase", "full"],
+        [sys.executable, "experiments/v837_primitive_invention/v837n/run_mechanism_ablation.py", "--phase", "ablations"],
+        [sys.executable, "experiments/v837_primitive_invention/v837n/analyze_results.py"],
+    ],
 }
 
 

@@ -1,0 +1,36 @@
+{
+  "program": "V837N+ successful-reference mechanism localization",
+  "start_sha": "9b6025e1ddbbfeabfc39fe060fa089f687602d8d",
+  "completed_variants": ["V837n"],
+  "outcome": "C_NO_INDIVIDUAL_GRU_MECHANISM_EXPLAINS_SUCCESS",
+  "v837n": {
+    "diagnostic_pass": true,
+    "mechanism_diagnosis": "MECHANISM_REDUNDANCY_OR_COMPLEMENTARITY",
+    "families_passing": {
+      "full_gru": 5,
+      "static_update_vector": 4,
+      "static_update_scalar": 4,
+      "no_update": 5,
+      "no_reset": 5,
+      "static_reset_vector": 5,
+      "no_update_no_reset": 3
+    }
+  },
+  "neutral_followups": {
+    "V837o": "NOT_RUN_UPDATE_NOT_CAUSALLY_LOCALIZED",
+    "V837p": "NOT_RUN_VECTOR_UPDATE_NOT_CAUSALLY_REQUIRED",
+    "V837q": "NOT_RUN_RESET_NOT_CAUSALLY_LOCALIZED",
+    "V837r": "NOT_RUN_MINIMAL_COMMON_PROPERTY_NOT_YET_ISOLATED",
+    "V837s": "NOT_RUN_NO_RECOVERED_NEUTRAL_CELL",
+    "V837t": "NOT_RUN_REPRESENTATION_ADEQUACY_NOT_ESTABLISHED"
+  },
+  "representation_adequacy": "NOT_RESTORED_IN_NEUTRAL_SUBSTRATE",
+  "sample_efficiency_retest": "NOT_RUN",
+  "full_structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_consumed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "next_single_variable": "localize the smallest location-agnostic adaptive multiplicative state-modulation property inside the successful dense reference before transferring anything to the neutral substrate"
+}
