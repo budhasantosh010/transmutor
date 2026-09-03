@@ -11,6 +11,7 @@ import torch
 from torch import nn
 
 from .graph import CellSpec, EdgeSpec, GraphSpec, connected_subsets
+from .guards import assert_primitive_mining_allowed
 from .metrics import permutation_rate_difference
 from .substrate import NeutralGraphModel
 from .trainer import episodes_to_batch
@@ -197,3 +198,12 @@ def primitive_equivalence(primitive: CallablePrimitive, expanded: CallablePrimit
         b = expanded(observations, lengths)
     max_error = float(torch.max(torch.abs(a - b)).item())
     return {"max_absolute_error": max_error, "tolerance": tolerance, "pass": max_error <= tolerance}
+
+
+def begin_scientific_motif_pipeline() -> None:
+    """Guard the scientific motif pipeline while representation recovery is open.
+
+    Low-level motif utilities remain testable, but an experiment must call this
+    gate before treating motif extraction/promotion as scientific evidence.
+    """
+    assert_primitive_mining_allowed()

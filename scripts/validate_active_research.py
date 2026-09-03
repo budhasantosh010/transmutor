@@ -27,8 +27,23 @@ V837_FAILURE_CLASSES = FAILURE_CLASSES | {
     "COMPRESSION_FAILURE",
     "RETRIEVAL_FAILURE",
     "REUSE_FAILURE",
+    "INPUT_ACCESS_FAILURE",
+    "STATE_UPDATE_FAILURE",
+    "INTERACTION_BASIS_FAILURE",
+    "CAPACITY_WITHOUT_GENERALIZATION",
+    "REGULARIZATION_ONLY_EFFECT",
+    "MESSAGE_MEDIATION_FAILURE",
+    "PARAMETER_COUNT_CONFOUND",
 }
 V837_GATE_SHA256 = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
+V837_CAPACITY_CRITERION_SHA256 = "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa"
+V837_IMMUTABLE_HASHES = {
+    "experiments/v837_primitive_invention/v837/results.json": "5fed69cc990be5c6f64a5229f59ff7f27af0c1fc26398bdfbe80ee46255eef14",
+    "experiments/v837_primitive_invention/v837b/results.json": "f131110969e7700ec0cd9a82825e8554a51a9c05bb308d54625452db54e35cb0",
+    "experiments/v837_primitive_invention/v837c/results.json": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009",
+    "experiments/v837_primitive_invention/BLOCKER_ANALYSIS.md": "4eea85cbfb2fb9e379675765038527daf2ad6a49aa0721e861c9cc61b0155a20",
+    "experiments/v837_primitive_invention/final_resource_accounting.json": "c712ea3c0771ebc398e4ccb80a4d0ffe0d8ead946d42fd460633577fbb3d9b37",
+}
 V837_RESULT_FIELDS = {
     "version", "parent", "research_question", "hypothesis", "single_change", "substrate_version",
     "task_families", "development_seeds", "validation_seeds", "fresh_audit_seeds", "baselines",
@@ -273,12 +288,106 @@ def validate_v837_lineage() -> None:
             raise ValueError(f"primitive retrieval leaks forbidden label: {forbidden}")
 
 
+def validate_v837_representation_recovery() -> None:
+    base = ROOT / "experiments" / "v837_primitive_invention"
+    recovery = base / "v837d"
+    if not recovery.exists():
+        return
+
+    for relative, expected in V837_IMMUTABLE_HASHES.items():
+        actual = sha256_file(ROOT / relative)
+        if actual != expected:
+            raise ValueError(f"historical V837 artifact changed during representation recovery: {relative}")
+
+    config = json.loads((recovery / "config.json").read_text(encoding="utf-8"))
+    gate_reference = json.loads((recovery / "frozen_gate_reference.json").read_text(encoding="utf-8"))
+    if config.get("historical_gate_hash") != V837_GATE_SHA256:
+        raise ValueError("V837d config references the wrong historical gate hash")
+    if config.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+        raise ValueError("V837d capacity criterion changed")
+    if gate_reference.get("historical_v837_gate_sha256") != V837_GATE_SHA256:
+        raise ValueError("V837d gate reference changed")
+    if gate_reference.get("capacity_criterion_sha256") != V837_CAPACITY_CRITERION_SHA256:
+        raise ValueError("V837d capacity criterion reference changed")
+    if not str(config.get("single_change", "")).strip():
+        raise ValueError("V837d requires an explicit single_change")
+    if config.get("diagnostic_data", {}).get("fresh_audit_used") is not False:
+        raise ValueError("V837d must not consume fresh-audit seeds")
+    if config.get("primitive_mining_allowed") is not False:
+        raise ValueError("primitive mining must remain blocked during V837d capacity recovery")
+
+    audit = json.loads((base / "audit" / "audit_results.json").read_text(encoding="utf-8"))
+    if audit.get("episodes_consumed") != 0:
+        raise ValueError("representation recovery consumed fresh-audit episodes")
+    status = json.loads((base / "lineage_status.json").read_text(encoding="utf-8"))
+    if status.get("primitives_promoted"):
+        raise ValueError("representation recovery promoted a primitive before competence recovery")
+
+    broadcast_path = recovery / "diagnostics" / "broadcast_capacity.json"
+    if broadcast_path.exists():
+        broadcast = json.loads(broadcast_path.read_text(encoding="utf-8"))
+        if broadcast.get("fresh_audit_consumed") is not False:
+            raise ValueError("broadcast diagnostic consumed fresh-audit data")
+        if broadcast.get("historical_gate_hash") != V837_GATE_SHA256:
+            raise ValueError("broadcast diagnostic references wrong gate")
+
+    sweep_path = recovery / "diagnostics" / "sparse_density_sweep.json"
+    controls_path = recovery / "diagnostics" / "controls.json"
+    if sweep_path.exists():
+        sweep = json.loads(sweep_path.read_text(encoding="utf-8"))
+        if sweep.get("fresh_audit_consumed") is not False:
+            raise ValueError("sparse sweep consumed fresh-audit data")
+        if sweep.get("historical_gate_hash") != V837_GATE_SHA256:
+            raise ValueError("sparse sweep references wrong gate")
+    if controls_path.exists():
+        controls = json.loads(controls_path.read_text(encoding="utf-8"))
+        if controls.get("fresh_audit_consumed") is not False:
+            raise ValueError("V837d controls consumed fresh-audit data")
+        rows = controls.get("rows", {})
+        for condition in ("shuffled_sparse", "no_message"):
+            pairs = {(row.get("family"), row.get("replicate")) for row in rows.get(condition, [])}
+            if len(pairs) != 40:
+                raise ValueError(f"{condition} does not contain the required paired 5x8 condition set")
+
+    result_path = recovery / "results.json"
+    if result_path.exists():
+        data = json.loads(result_path.read_text(encoding="utf-8"))
+        required = {
+            "version", "parent", "single_change", "representation_change", "historical_gate_hash",
+            "fresh_audit_consumed", "conditions", "capacity_results", "representation_diagnostics",
+            "resource_accounting", "pass_gate", "pass", "failure_classification", "interpretation",
+            "next_experiment", "primitive_mining_allowed",
+        }
+        missing = sorted(required - set(data))
+        if missing:
+            raise ValueError(f"V837d result missing fields: {missing}")
+        if data.get("historical_gate_hash") != V837_GATE_SHA256:
+            raise ValueError("V837d result references wrong historical gate")
+        if data.get("fresh_audit_consumed") is not False:
+            raise ValueError("V837d result consumed fresh-audit data")
+        if data.get("primitive_mining_allowed") is not False:
+            raise ValueError("V837d cannot reopen primitive mining from a capacity diagnostic")
+        if not isinstance(data.get("resource_accounting"), dict) or not data["resource_accounting"]:
+            raise ValueError("V837d missing resource accounting")
+        for condition in ("broadcast", "fixed_sparse_selected_density", "degree_preserving_shuffled_sparse", "no_message"):
+            if condition not in data.get("conditions", {}):
+                raise ValueError(f"V837d missing required control: {condition}")
+        if data.get("pass") is False:
+            classes = data.get("failure_classification", [])
+            if not classes:
+                raise ValueError("failed V837d requires failure classification")
+            invalid = sorted(set(classes) - V837_FAILURE_CLASSES)
+            if invalid:
+                raise ValueError(f"V837d has invalid failure classes: {invalid}")
+
+
 def main() -> int:
     validate_integrity_manifest()
     validate_v836_recovery()
     validate_frontier_matrix()
     validate_active_result_files()
     validate_v837_lineage()
+    validate_v837_representation_recovery()
     print("active research validation: PASS")
     return 0
 

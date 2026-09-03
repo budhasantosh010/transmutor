@@ -40,6 +40,26 @@ def continuous_summary(values: list[float] | np.ndarray) -> dict:
     }
 
 
+def bootstrap_mean_ci(values: list[float] | np.ndarray, *, resamples: int = 2000, seed: int = 0, confidence: float = 0.95) -> dict:
+    array = np.asarray(values, dtype=float)
+    if not array.size:
+        return {"mean": None, "median": None, "ci": [None, None], "confidence": confidence, "n": 0}
+    generator = np.random.default_rng(seed)
+    means = np.empty(resamples, dtype=float)
+    n = len(array)
+    for index in range(resamples):
+        sample = generator.integers(0, n, size=n)
+        means[index] = array[sample].mean()
+    alpha = (1.0 - confidence) / 2.0
+    return {
+        "mean": float(np.mean(array)),
+        "median": float(np.median(array)),
+        "ci": [float(np.quantile(means, alpha)), float(np.quantile(means, 1.0 - alpha))],
+        "confidence": confidence,
+        "n": int(n),
+    }
+
+
 def paired_bootstrap_difference(a: np.ndarray, b: np.ndarray, *, resamples: int = 2000, seed: int = 0, confidence: float = 0.95) -> dict:
     a = np.asarray(a, dtype=float)
     b = np.asarray(b, dtype=float)

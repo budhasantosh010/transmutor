@@ -6,6 +6,8 @@ import json
 from dataclasses import asdict, dataclass, field
 from typing import Any
 
+import numpy as np
+
 
 @dataclass(frozen=True)
 class CellSpec:
@@ -23,9 +25,198 @@ class EdgeSpec:
 
 
 @dataclass
+class InputAccessSpec:
+    """Task-agnostic graph-level raw-observation connectivity.
+
+    The mask is stored as [observation_dim, num_cells]. A value of 1 means
+    that raw observation dimension is visible to that ordinary cell. The cell
+    implementation itself is unchanged.
+    """
+
+    mode: str
+    observation_dim: int
+    num_cells: int
+    mask: list[list[float]]
+    density: float
+    seed: int = 0
+
+    def validate(self) -> None:
+        if self.mode not in {"broadcast", "fixed_sparse", "none"}:
+            raise ValueError(f"unsupported input access mode: {self.mode}")
+        if self.observation_dim <= 0 or self.num_cells <= 0:
+            raise ValueError("input access dimensions must be positive")
+        array = np.asarray(self.mask, dtype=np.float32)
+        if array.shape != (self.observation_dim, self.num_cells):
+            raise ValueError(
+                f"input mask shape {array.shape} != {(self.observation_dim, self.num_cells)}"
+            )
+        if not np.all(np.isin(array, [0.0, 1.0])):
+            raise ValueError("input mask must be binary")
+        effective = float(np.mean(array))
+        if self.mode == "broadcast" and not np.all(array == 1.0):
+            raise ValueError("broadcast mode requires an all-ones mask")
+        if self.mode == "none" and not np.all(array == 0.0):
+            raise ValueError("none mode requires an all-zero mask")
+        if abs(float(self.density) - effective) > 1e-8:
+            raise ValueError(f"input density metadata drift: {self.density} != {effective}")
+
+    @property
+    def effective_density(self) -> float:
+        return float(np.mean(np.asarray(self.mask, dtype=np.float32)))
+
+    @property
+    def edge_count(self) -> int:
+        return int(np.asarray(self.mask, dtype=np.float32).sum())
+
+    def to_dict(self) -> dict[str, Any]:
+        self.validate()
+        return {
+            "mode": self.mode,
+            "observation_dim": int(self.observation_dim),
+            "num_cells": int(self.num_cells),
+            "mask": [[float(value) for value in row] for row in self.mask],
+            "density": float(self.density),
+            "seed": int(self.seed),
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "InputAccessSpec":
+        spec = cls(
+            mode=str(data["mode"]),
+            observation_dim=int(data["observation_dim"]),
+            num_cells=int(data["num_cells"]),
+            mask=[[float(value) for value in row] for row in data["mask"]],
+            density=float(data["density"]),
+            seed=int(data.get("seed", 0)),
+        )
+        spec.validate()
+        return spec
+
+
+def build_fixed_sparse_mask(
+    observation_dim: int,
+    num_cells: int,
+    density: float,
+    seed: int,
+    *,
+    ensure_each_input_connected: bool = True,
+    ensure_each_cell_connected: bool = True,
+) -> np.ndarray:
+    """Build a deterministic task-independent binary input mask.
+
+    The requested edge count is rounded to the nearest feasible integer and
+    raised only when necessary to satisfy the coverage constraints.
+    """
+
+    observation_dim = int(observation_dim)
+    num_cells = int(num_cells)
+    density = float(density)
+    if observation_dim <= 0 or num_cells <= 0:
+        raise ValueError("observation_dim and num_cells must be positive")
+    if not (0.0 <= density <= 1.0):
+        raise ValueError("density must lie in [0,1]")
+    total = observation_dim * num_cells
+    target_edges = int(round(total * density))
+    minimum = 0
+    if ensure_each_input_connected:
+        minimum = max(minimum, observation_dim)
+    if ensure_each_cell_connected:
+        minimum = max(minimum, num_cells)
+    target_edges = min(total, max(target_edges, minimum))
+    generator = np.random.default_rng(int(seed))
+    mask = np.zeros((observation_dim, num_cells), dtype=np.float32)
+
+    input_order = generator.permutation(observation_dim).tolist()
+    cell_order = generator.permutation(num_cells).tolist()
+
+    if ensure_each_cell_connected:
+        for position, cell in enumerate(cell_order):
+            input_index = input_order[position % observation_dim]
+            mask[input_index, cell] = 1.0
+
+    if ensure_each_input_connected:
+        for position, input_index in enumerate(input_order):
+            if mask[input_index].sum() == 0:
+                cell = cell_order[position % num_cells]
+                mask[input_index, cell] = 1.0
+
+    current = int(mask.sum())
+    candidates = [(row, col) for row in range(observation_dim) for col in range(num_cells) if mask[row, col] == 0.0]
+    generator.shuffle(candidates)
+    for row, col in candidates[: max(0, target_edges - current)]:
+        mask[row, col] = 1.0
+
+    if ensure_each_input_connected and np.any(mask.sum(axis=1) == 0):
+        raise RuntimeError("failed to connect every observation dimension")
+    if ensure_each_cell_connected and np.any(mask.sum(axis=0) == 0):
+        raise RuntimeError("failed to connect every cell")
+    return mask
+
+
+def build_input_access_spec(
+    mode: str,
+    observation_dim: int,
+    num_cells: int,
+    *,
+    density: float = 1.0,
+    seed: int = 0,
+) -> InputAccessSpec:
+    if mode == "broadcast":
+        mask = np.ones((observation_dim, num_cells), dtype=np.float32)
+    elif mode == "none":
+        mask = np.zeros((observation_dim, num_cells), dtype=np.float32)
+    elif mode == "fixed_sparse":
+        mask = build_fixed_sparse_mask(observation_dim, num_cells, density, seed)
+    else:
+        raise ValueError(f"unsupported input access mode: {mode}")
+    spec = InputAccessSpec(
+        mode=mode,
+        observation_dim=int(observation_dim),
+        num_cells=int(num_cells),
+        mask=mask.tolist(),
+        density=float(mask.mean()),
+        seed=int(seed),
+    )
+    spec.validate()
+    return spec
+
+
+def degree_preserving_shuffled_mask(mask: np.ndarray | list[list[float]], seed: int, *, attempts: int = 5000) -> np.ndarray:
+    """Randomize connectivity with degree-preserving 2x2 edge swaps."""
+
+    array = np.asarray(mask, dtype=np.float32).copy()
+    if array.ndim != 2:
+        raise ValueError("mask must be 2D")
+    original = array.copy()
+    generator = np.random.default_rng(int(seed))
+    rows, cols = array.shape
+    successful = 0
+    for _ in range(int(attempts)):
+        r1, r2 = generator.choice(rows, size=2, replace=False)
+        c1, c2 = generator.choice(cols, size=2, replace=False)
+        block = (array[r1, c1], array[r1, c2], array[r2, c1], array[r2, c2])
+        if block == (1.0, 0.0, 0.0, 1.0):
+            array[r1, c1] = 0.0; array[r2, c2] = 0.0
+            array[r1, c2] = 1.0; array[r2, c1] = 1.0
+            successful += 1
+        elif block == (0.0, 1.0, 1.0, 0.0):
+            array[r1, c1] = 1.0; array[r2, c2] = 1.0
+            array[r1, c2] = 0.0; array[r2, c1] = 0.0
+            successful += 1
+        if successful >= max(8, int(array.sum())):
+            break
+    if not np.array_equal(array.sum(axis=0), original.sum(axis=0)):
+        raise RuntimeError("column degree changed during shuffle")
+    if not np.array_equal(array.sum(axis=1), original.sum(axis=1)):
+        raise RuntimeError("row degree changed during shuffle")
+    return array
+
+
+@dataclass
 class GraphSpec:
     cells: list[CellSpec]
     edges: list[EdgeSpec]
+    input_access: InputAccessSpec | None = None
     parameters: dict[str, Any] = field(default_factory=dict)
     birth_history: list[dict[str, Any]] = field(default_factory=list)
     mutation_history: list[dict[str, Any]] = field(default_factory=list)
@@ -48,6 +239,10 @@ class GraphSpec:
             if key in seen:
                 raise ValueError(f"duplicate edge {key}")
             seen.add(key)
+        if self.input_access is not None:
+            self.input_access.validate()
+            if self.input_access.num_cells != len(self.cells):
+                raise ValueError("input access num_cells does not match graph")
 
     def canonical_structure(self) -> dict[str, Any]:
         cells = [{"id": idx, "param_seed": int(cell.param_seed)} for idx, cell in enumerate(self.cells)]
@@ -63,7 +258,12 @@ class GraphSpec:
             ),
             key=lambda item: (item["src"], item["dst"], item["recurrent"], item["weight"]),
         )
-        return {"cells": cells, "edges": edges}
+        payload: dict[str, Any] = {"cells": cells, "edges": edges}
+        # Broadcast is the historical implicit default. Omitting it here keeps
+        # historical graph IDs and therefore historical training seeds stable.
+        if self.input_access is not None and self.input_access.mode != "broadcast":
+            payload["input_access"] = self.input_access.to_dict()
+        return payload
 
     @property
     def graph_id(self) -> str:
@@ -74,6 +274,7 @@ class GraphSpec:
         return {
             "cells": [asdict(cell) for cell in self.cells],
             "edges": [asdict(edge) for edge in self.edges],
+            "input_access": self.input_access.to_dict() if self.input_access is not None else None,
             "parameters": self.parameters,
             "birth_history": self.birth_history,
             "mutation_history": self.mutation_history,
@@ -84,9 +285,11 @@ class GraphSpec:
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "GraphSpec":
+        access_data = data.get("input_access")
         graph = cls(
             cells=[CellSpec(**{k: v for k, v in row.items() if k in {"id", "param_seed", "birth_generation"}}) for row in data["cells"]],
             edges=[EdgeSpec(**{k: v for k, v in row.items() if k in {"src", "dst", "weight", "recurrent"}}) for row in data["edges"]],
+            input_access=InputAccessSpec.from_dict(access_data) if access_data else None,
             parameters=dict(data.get("parameters", {})),
             birth_history=list(data.get("birth_history", [])),
             mutation_history=list(data.get("mutation_history", [])),
@@ -155,9 +358,22 @@ def renormalize(graph: GraphSpec) -> GraphSpec:
         for edge in graph.edges
         if edge.src in mapping and edge.dst in mapping
     ]
+    access = None
+    if graph.input_access is not None:
+        old_mask = np.asarray(graph.input_access.mask, dtype=np.float32)
+        new_mask = old_mask[:, old_ids]
+        access = InputAccessSpec(
+            mode=graph.input_access.mode,
+            observation_dim=graph.input_access.observation_dim,
+            num_cells=len(cells),
+            mask=new_mask.tolist(),
+            density=float(new_mask.mean()),
+            seed=graph.input_access.seed,
+        )
     out = GraphSpec(
         cells=cells,
         edges=edges,
+        input_access=access,
         parameters=dict(graph.parameters),
         birth_history=list(graph.birth_history),
         mutation_history=list(graph.mutation_history),

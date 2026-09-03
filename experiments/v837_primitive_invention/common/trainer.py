@@ -53,11 +53,17 @@ def episodes_to_batch(episodes: list[Episode]) -> tuple[torch.Tensor, torch.Tens
     return torch.from_numpy(observations), torch.from_numpy(lengths), torch.from_numpy(targets)
 
 
-def evaluate_model(model: NeutralGraphModel, task: TaskFamily, episodes: list[Episode]) -> Evaluation:
+def evaluate_model(
+    model: NeutralGraphModel,
+    task: TaskFamily,
+    episodes: list[Episode],
+    *,
+    forward_options: dict | None = None,
+) -> Evaluation:
     model.eval()
     observations, lengths, targets = episodes_to_batch(episodes)
     with torch.no_grad():
-        predictions = model(observations, lengths)
+        predictions = model(observations, lengths, **(forward_options or {}))
         loss = torch.mean((predictions - targets) ** 2).item()
     pred_values = [float(value) for value in predictions.tolist()]
     target_values = [float(value) for value in targets.tolist()]
@@ -84,9 +90,11 @@ def train_graph(
     learning_rate: float = 0.02,
     weight_decay: float = 1e-4,
     training_scope: str = "readout_only_adamw",
+    forward_options: dict | None = None,
+    initialization_seed_override: int | None = None,
 ) -> TrainedCandidate:
     graph.validate()
-    init_seed = deterministic_int("train", graph.graph_id, task.name, run_seed)
+    init_seed = int(initialization_seed_override) if initialization_seed_override is not None else deterministic_int("train", graph.graph_id, task.name, run_seed)
     torch.manual_seed(init_seed)
     np.random.seed(init_seed % (2**32 - 1))
     model = NeutralGraphModel(graph, obs_dim=OBS_DIM, state_dim=state_dim, message_dim=message_dim)
@@ -102,6 +110,7 @@ def train_graph(
     validation_episodes = [task.generate(seed, "validation") for seed in validation_seeds]
     observations, lengths, targets = episodes_to_batch(train_episodes)
     unique_env_steps = sum(len(episode.observations) for episode in train_episodes + validation_episodes)
+    options = dict(forward_options or {})
     resources = ResourceAccounting(
         candidate_evaluations=1,
         optimizer_steps=0,
@@ -112,13 +121,18 @@ def train_graph(
         peak_edges=len(graph.edges),
         final_cells=len(graph.cells),
         final_edges=len(graph.edges),
+        input_edges=model.input_edge_count,
+        internal_message_edges=model.internal_message_edge_count,
+        disabled_message_edges=model.internal_message_edge_count if options.get("disable_messages") else 0,
         parameter_count=model.parameter_count(),
+        model_parameter_bytes=model.parameter_bytes(),
     )
     with WallTimer() as timer:
         model.train()
         if training_scope == "readout_only_adamw":
             with torch.no_grad():
-                _, trace = model(observations, lengths, return_trace=True)
+                _, trace = model(observations, lengths, return_trace=True, **options)
+                resources.forward_calls += 1
                 train_features = trace.states[:, -1].reshape(len(train_episodes), -1).detach()
             for _ in range(int(steps)):
                 optimizer.zero_grad(set_to_none=True)
@@ -132,16 +146,19 @@ def train_graph(
         else:
             for _ in range(int(steps)):
                 optimizer.zero_grad(set_to_none=True)
-                predictions = model(observations, lengths)
+                predictions = model(observations, lengths, **options)
+                resources.forward_calls += 1
                 loss = loss_fn(predictions, targets)
                 loss.backward()
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0)
                 optimizer.step()
                 resources.optimizer_steps += 1
                 resources.examples_processed += len(train_episodes)
-        development = evaluate_model(model, task, train_episodes)
-        validation = evaluate_model(model, task, validation_episodes)
+        development = evaluate_model(model, task, train_episodes, forward_options=options)
+        validation = evaluate_model(model, task, validation_episodes, forward_options=options)
+        resources.forward_calls += 2
     resources.wall_seconds = timer.seconds
+    resources.cpu_seconds = timer.cpu_seconds
     return TrainedCandidate(graph=graph.clone(), model=model, development=development, validation=validation, resources=resources)
 
 
@@ -154,13 +171,9 @@ def refine_candidate_full_adamw(
     steps: int,
     learning_rate: float,
     weight_decay: float,
+    forward_options: dict | None = None,
 ) -> TrainedCandidate:
-    """Refine all continuous parameters of an already-selected graph.
-
-    The topology is frozen. This isolates whether the initial competence
-    failure came from readout-only parameter adaptation rather than from the
-    structural representation itself.
-    """
+    """Refine all continuous parameters of an already-selected graph."""
     model = clone_with_state(candidate.model)
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
     loss_fn = nn.MSELoss()
@@ -168,6 +181,7 @@ def refine_candidate_full_adamw(
     validation_episodes = [task.generate(seed, "validation") for seed in validation_seeds]
     observations, lengths, targets = episodes_to_batch(train_episodes)
     unique_env_steps = sum(len(episode.observations) for episode in train_episodes + validation_episodes)
+    options = dict(forward_options or {})
     resources = ResourceAccounting(
         candidate_evaluations=1,
         optimizer_steps=0,
@@ -178,22 +192,29 @@ def refine_candidate_full_adamw(
         peak_edges=len(candidate.graph.edges),
         final_cells=len(candidate.graph.cells),
         final_edges=len(candidate.graph.edges),
+        input_edges=model.input_edge_count,
+        internal_message_edges=model.internal_message_edge_count,
+        disabled_message_edges=model.internal_message_edge_count if options.get("disable_messages") else 0,
         parameter_count=model.parameter_count(),
+        model_parameter_bytes=model.parameter_bytes(),
     )
     with WallTimer() as timer:
         model.train()
         for _ in range(int(steps)):
             optimizer.zero_grad(set_to_none=True)
-            predictions = model(observations, lengths)
+            predictions = model(observations, lengths, **options)
+            resources.forward_calls += 1
             loss = loss_fn(predictions, targets)
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0)
             optimizer.step()
             resources.optimizer_steps += 1
             resources.examples_processed += len(train_episodes)
-        development = evaluate_model(model, task, train_episodes)
-        validation = evaluate_model(model, task, validation_episodes)
+        development = evaluate_model(model, task, train_episodes, forward_options=options)
+        validation = evaluate_model(model, task, validation_episodes, forward_options=options)
+        resources.forward_calls += 2
     resources.wall_seconds = timer.seconds
+    resources.cpu_seconds = timer.cpu_seconds
     return TrainedCandidate(
         graph=candidate.graph.clone(),
         model=model,

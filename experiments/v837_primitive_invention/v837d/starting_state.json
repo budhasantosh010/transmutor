@@ -1,0 +1,15 @@
+{
+  "branch_before_creation": "main",
+  "start_sha": "1280b2ad30af3976633f7052943650c769d2e508",
+  "origin_main_local_ref": "1280b2ad30af3976633f7052943650c769d2e508",
+  "working_tree_before_changes": "clean",
+  "active_branch": "research/v837-representation-recovery",
+  "historical_hashes": {
+    "v836_results": "0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d",
+    "v837_results": "5fed69cc990be5c6f64a5229f59ff7f27af0c1fc26398bdfbe80ee46255eef14",
+    "v837b_results": "f131110969e7700ec0cd9a82825e8554a51a9c05bb308d54625452db54e35cb0",
+    "v837c_results": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009",
+    "blocker_analysis": "4eea85cbfb2fb9e379675765038527daf2ad6a49aa0721e861c9cc61b0155a20",
+    "final_resource_accounting": "c712ea3c0771ebc398e4ccb80a4d0ffe0d8ead946d42fd460633577fbb3d9b37"
+  }
+}
