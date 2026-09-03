@@ -1,0 +1,27 @@
+{
+  "lineage": "V837 primitive invention",
+  "historical_boundary": {
+    "v836_status": "PASS",
+    "v836_reproduction": "CANNOT_REPRODUCE_MISSING_SOURCE",
+    "v837_relation": "independent_post_v836_lineage"
+  },
+  "gate_file_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "outcome": "B_MILESTONE_FAILED_HONESTLY",
+  "stop_rule_triggered": true,
+  "failed_variants": ["V837", "V837b", "V837c"],
+  "primary_blocker": "REPRESENTATION_FAILURE",
+  "families_passing_main_gate": 0,
+  "downstream_phases": {
+    "differentiation_claim": "NOT_RUN_PREREQUISITE_FAILURE",
+    "motif_recurrence": "NOT_RUN_PREREQUISITE_FAILURE",
+    "causal_validation": "NOT_RUN_PREREQUISITE_FAILURE",
+    "primitive_compression": "NOT_RUN_PREREQUISITE_FAILURE",
+    "primitive_reuse": "NOT_RUN_PREREQUISITE_FAILURE",
+    "random_macro_scientific_control": "NOT_RUN_PREREQUISITE_FAILURE",
+    "fresh_audit": "NOT_RUN_PREREQUISITE_FAILURE",
+    "primitive_composition": "NOT_RUN_PREREQUISITE_FAILURE"
+  },
+  "fresh_audit_seed_range_used": false,
+  "primitives_promoted": [],
+  "next_question": "Which single lower-level representation change lets the task-independent neutral substrate generalize across at least four families before motif mining is reopened?"
+}

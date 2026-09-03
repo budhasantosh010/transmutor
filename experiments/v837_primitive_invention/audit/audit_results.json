@@ -1,0 +1,7 @@
+{
+  "status": "NOT_RUN_PREREQUISITE_FAILURE",
+  "seed_range": [90000, 90499],
+  "episodes_consumed": 0,
+  "conditions_run": [],
+  "reason": "Outcome B stop condition triggered before motif/primitive promotion and reuse."
+}

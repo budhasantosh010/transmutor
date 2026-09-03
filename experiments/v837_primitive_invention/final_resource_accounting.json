@@ -1,0 +1,42 @@
+{
+  "scope": "actual V837 lineage work through the mandated Outcome B stop diagnostics",
+  "cpu_only": true,
+  "candidate_evaluations": 50688,
+  "optimizer_steps": 1235952,
+  "environment_steps": 12061933,
+  "wall_seconds_sum_workers_and_model_fits": 9391.515901399602,
+  "wall_hours_sum_workers_and_model_fits": 2.608754417055445,
+  "components": {
+    "V837": {
+      "candidate_evaluations": 18343,
+      "optimizer_steps": 440232,
+      "environment_steps": 4333318,
+      "wall_seconds_sum_workers": 2155.715673599858
+    },
+    "V837b_added_refinement": {
+      "candidate_evaluations": 0,
+      "optimizer_steps": 14400,
+      "environment_steps": 73796,
+      "wall_seconds_sum_workers": 918.0378851002897
+    },
+    "V837c": {
+      "candidate_evaluations": 32315,
+      "optimizer_steps": 775560,
+      "environment_steps": 7586341,
+      "wall_seconds_sum_workers": 5108.85881399957
+    },
+    "high_capacity_blocker_diagnostic": {
+      "candidate_evaluations": 15,
+      "optimizer_steps": 2880,
+      "environment_steps": 26892,
+      "wall_seconds_sum_model_fits": 553.2938001001021
+    },
+    "increased_data_blocker_diagnostic": {
+      "candidate_evaluations": 15,
+      "optimizer_steps": 2880,
+      "environment_steps": 41586,
+      "wall_seconds_sum_model_fits": 655.6097285997821
+    }
+  },
+  "note": "V837b inherits V837 structural-search candidates; only its added refinement work is counted again in these actual-work totals."
+}
