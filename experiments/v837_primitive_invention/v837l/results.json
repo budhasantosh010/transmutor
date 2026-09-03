@@ -1,0 +1,1999 @@
+{
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "compute_accounting": {
+    "new_v837l_runs_only": {
+      "cpu_seconds_sum_workers": 2462.1875,
+      "environment_interactions": 532290,
+      "examples_processed": 11059200,
+      "forward_calls": 32250,
+      "gpu_seconds": 0.0,
+      "model_fits": 150,
+      "optimizer_steps": 28800,
+      "wall_seconds_sum_workers": 2925.190671199991
+    }
+  },
+  "conditions": {
+    "1x": {
+      "gru_reference": {
+        "families_passing": 2,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 1.0,
+              "median": 1.0,
+              "n": 5,
+              "p10": 1.0,
+              "p90": 1.0,
+              "std": 0.0
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.4765625,
+            "validation": {
+              "mean": 0.5390625,
+              "median": 0.5234375,
+              "n": 5,
+              "p10": 0.45,
+              "p90": 0.6375,
+              "std": 0.10126157341262282
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.4608984375000001,
+                0.628125
+              ],
+              "confidence": 0.95,
+              "mean": 0.5390625,
+              "median": 0.5234375,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.9953125,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9859375,
+              "p90": 1.0,
+              "std": 0.010481568644530264
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.3755346297625255,
+                0.9637758913675698
+              ],
+              "n": 5,
+              "success_count": 4,
+              "success_rate": 0.8
+            },
+            "training_validation_gap_median": 0.125,
+            "validation": {
+              "mean": 0.8671875,
+              "median": 0.859375,
+              "n": 5,
+              "p10": 0.8421875,
+              "p90": 0.896875,
+              "std": 0.027621358640099514
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.846875,
+                0.8875
+              ],
+              "confidence": 0.95,
+              "mean": 0.8671875,
+              "median": 0.859375,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.996875,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9921875,
+              "p90": 1.0,
+              "std": 0.00427908248050911
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.0,
+            "validation": {
+              "mean": 0.9921875,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.9828125,
+              "p90": 1.0,
+              "std": 0.009568319307746789
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.984375,
+                0.9984375
+              ],
+              "confidence": 0.95,
+              "mean": 0.9921875,
+              "median": 0.9921875,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.98125,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.971875,
+              "p90": 0.9890625,
+              "std": 0.008907620508587016
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.03622410863243014,
+                0.6244653702374745
+              ],
+              "n": 5,
+              "success_count": 1,
+              "success_rate": 0.2
+            },
+            "training_validation_gap_median": 0.1484375,
+            "validation": {
+              "mean": 0.8296875,
+              "median": 0.828125,
+              "n": 5,
+              "p10": 0.815625,
+              "p90": 0.8453125,
+              "std": 0.015027643798180737
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.81875,
+                0.8421875
+              ],
+              "confidence": 0.95,
+              "mean": 0.8296875,
+              "median": 0.828125,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.996875,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9921875,
+              "p90": 1.0,
+              "std": 0.00427908248050911
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.2421875,
+            "validation": {
+              "mean": 0.759375,
+              "median": 0.7578125,
+              "n": 5,
+              "p10": 0.7140625,
+              "p90": 0.8046875,
+              "std": 0.046351240544347895
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.7234375,
+                0.796875
+              ],
+              "confidence": 0.95,
+              "mean": 0.759375,
+              "median": 0.7578125,
+              "n": 5
+            }
+          }
+        },
+        "parameter_bytes": 3500,
+        "parameter_count": 875,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 102.515625,
+          "environment_interactions": 43965,
+          "examples_processed": 614400,
+          "forward_calls": 5750,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "parameter_bytes": 3500,
+          "parameter_count": 875,
+          "wall_seconds_sum_workers": 159.5004533000174
+        }
+      },
+      "neutral_high_capacity": {
+        "families_passing": 1,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 1.0,
+              "median": 1.0,
+              "n": 5,
+              "p10": 1.0,
+              "p90": 1.0,
+              "std": 0.0
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.6640625,
+            "validation": {
+              "mean": 0.3390625,
+              "median": 0.3359375,
+              "n": 5,
+              "p10": 0.30625,
+              "p90": 0.3765625,
+              "std": 0.03771099495670991
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.3125,
+                0.371875
+              ],
+              "confidence": 0.95,
+              "mean": 0.3390625,
+              "median": 0.3359375,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9984375,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9953125,
+              "p90": 1.0,
+              "std": 0.0034938562148434213
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.1875,
+            "validation": {
+              "mean": 0.796875,
+              "median": 0.8125,
+              "n": 5,
+              "p10": 0.771875,
+              "p90": 0.8125,
+              "std": 0.02209708691207961
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.778125,
+                0.8125
+              ],
+              "confidence": 0.95,
+              "mean": 0.796875,
+              "median": 0.8125,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.9984375,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9953125,
+              "p90": 1.0,
+              "std": 0.0034938562148434213
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.0234375,
+            "validation": {
+              "mean": 0.978125,
+              "median": 0.9765625,
+              "n": 5,
+              "p10": 0.96875,
+              "p90": 0.9890625,
+              "std": 0.010186253758129139
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.9703125,
+                0.9859375
+              ],
+              "confidence": 0.95,
+              "mean": 0.978125,
+              "median": 0.9765625,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 1.0,
+              "median": 1.0,
+              "n": 5,
+              "p10": 1.0,
+              "p90": 1.0,
+              "std": 0.0
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.3671875,
+            "validation": {
+              "mean": 0.6515625,
+              "median": 0.6328125,
+              "n": 5,
+              "p10": 0.6109375,
+              "p90": 0.7,
+              "std": 0.04508293139454222
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.6171875,
+                0.6875
+              ],
+              "confidence": 0.95,
+              "mean": 0.6515625,
+              "median": 0.6328125,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9984375,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9953125,
+              "p90": 1.0,
+              "std": 0.0034938562148434213
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.4375,
+            "validation": {
+              "mean": 0.528125,
+              "median": 0.5546875,
+              "n": 5,
+              "p10": 0.4671875,
+              "p90": 0.5703125,
+              "std": 0.054575778739290565
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.48125,
+                0.5671875
+              ],
+              "confidence": 0.95,
+              "mean": 0.528125,
+              "median": 0.5546875,
+              "n": 5
+            }
+          }
+        },
+        "parameter_bytes": 3424,
+        "parameter_count": 856,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 1108.546875,
+          "environment_interactions": 43965,
+          "examples_processed": 614400,
+          "forward_calls": 5750,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "parameter_bytes": 3424,
+          "parameter_count": 856,
+          "wall_seconds_sum_workers": 1670.7226496999501
+        }
+      },
+      "residual_rnn_reference": {
+        "families_passing": 2,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9875,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.984375,
+              "p90": 0.99375,
+              "std": 0.006987712429686843
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.6328125,
+            "validation": {
+              "mean": 0.35625,
+              "median": 0.3515625,
+              "n": 5,
+              "p10": 0.3421875,
+              "p90": 0.371875,
+              "std": 0.015229366163764005
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.3453125,
+                0.36875
+              ],
+              "confidence": 0.95,
+              "mean": 0.35625,
+              "median": 0.3515625,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.9875,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.975,
+              "p90": 0.996875,
+              "std": 0.011848242881330547
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.1328125,
+            "validation": {
+              "mean": 0.8671875,
+              "median": 0.8671875,
+              "n": 5,
+              "p10": 0.8546875,
+              "p90": 0.88125,
+              "std": 0.014615849167085708
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.85625,
+                0.8796875
+              ],
+              "confidence": 0.95,
+              "mean": 0.8671875,
+              "median": 0.8671875,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.9921875,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.984375,
+              "p90": 1.0,
+              "std": 0.0078125
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.015625,
+            "validation": {
+              "mean": 0.984375,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.9796875,
+              "p90": 0.9890625,
+              "std": 0.005524271728019903
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.9796875,
+                0.9890625
+              ],
+              "confidence": 0.95,
+              "mean": 0.984375,
+              "median": 0.984375,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9921875,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.9921875,
+              "p90": 0.9921875,
+              "std": 0.0
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.25,
+            "validation": {
+              "mean": 0.728125,
+              "median": 0.7421875,
+              "n": 5,
+              "p10": 0.703125,
+              "p90": 0.746875,
+              "std": 0.023043564380863475
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.7109375,
+                0.7453125
+              ],
+              "confidence": 0.95,
+              "mean": 0.728125,
+              "median": 0.7421875,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.990625,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.9875,
+              "p90": 0.9921875,
+              "std": 0.0034938562148434213
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.390625,
+            "validation": {
+              "mean": 0.6109375,
+              "median": 0.6015625,
+              "n": 5,
+              "p10": 0.5890625,
+              "p90": 0.6375,
+              "std": 0.024331892972495994
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.5921875,
+                0.6296875
+              ],
+              "confidence": 0.95,
+              "mean": 0.6109375,
+              "median": 0.6015625,
+              "n": 5
+            }
+          }
+        },
+        "parameter_bytes": 3540,
+        "parameter_count": 885,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 66.765625,
+          "environment_interactions": 43965,
+          "examples_processed": 614400,
+          "forward_calls": 5750,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "parameter_bytes": 3540,
+          "parameter_count": 885,
+          "wall_seconds_sum_workers": 99.2923120999476
+        }
+      }
+    },
+    "2x": {
+      "gru_reference": {
+        "families_passing": 3,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.99453125,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.984375,
+              "p90": 1.0,
+              "std": 0.010186253758129139
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.234375,
+            "validation": {
+              "mean": 0.765625,
+              "median": 0.765625,
+              "n": 5,
+              "p10": 0.71875,
+              "p90": 0.8140625,
+              "std": 0.04910080113272084
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.7265625,
+                0.803125
+              ],
+              "confidence": 0.95,
+              "mean": 0.765625,
+              "median": 0.765625,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.99921875,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.99765625,
+              "p90": 1.0,
+              "std": 0.0017469281074217109
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.015625,
+            "validation": {
+              "mean": 0.96875,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.9390625,
+              "p90": 0.9890625,
+              "std": 0.02649347649658308
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.9453125,
+                0.9875
+              ],
+              "confidence": 0.95,
+              "mean": 0.96875,
+              "median": 0.984375,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.9953125,
+              "median": 0.99609375,
+              "n": 5,
+              "p10": 0.99140625,
+              "p90": 0.9984375,
+              "std": 0.00427908248050911
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.00390625,
+            "validation": {
+              "mean": 0.99375,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.9875,
+              "p90": 1.0,
+              "std": 0.006536406457297465
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.9890625,
+                0.9984375
+              ],
+              "confidence": 0.95,
+              "mean": 0.99375,
+              "median": 0.9921875,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.93203125,
+              "median": 0.93359375,
+              "n": 5,
+              "p10": 0.925,
+              "p90": 0.9375,
+              "std": 0.006536406457297465
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.046875,
+            "validation": {
+              "mean": 0.8859375,
+              "median": 0.890625,
+              "n": 5,
+              "p10": 0.8734375,
+              "p90": 0.8953125,
+              "std": 0.011848242881330547
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.8765625,
+                0.89375
+              ],
+              "confidence": 0.95,
+              "mean": 0.8859375,
+              "median": 0.890625,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9734375,
+              "median": 0.9765625,
+              "n": 5,
+              "p10": 0.9625,
+              "p90": 0.9828125,
+              "std": 0.010111077426206863
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.15625,
+            "validation": {
+              "mean": 0.81875,
+              "median": 0.8046875,
+              "n": 5,
+              "p10": 0.8046875,
+              "p90": 0.840625,
+              "std": 0.019452968121857393
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.8046875,
+                0.834375
+              ],
+              "confidence": 0.95,
+              "mean": 0.81875,
+              "median": 0.8046875,
+              "n": 5
+            }
+          }
+        },
+        "parameter_count": 875,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 107.453125,
+          "environment_interactions": 66205,
+          "examples_processed": 1228800,
+          "forward_calls": 5375,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "wall_seconds_sum_workers": 131.64109549997374
+        }
+      },
+      "neutral_high_capacity": {
+        "families_passing": 1,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9984375,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9953125,
+              "p90": 1.0,
+              "std": 0.0034938562148434213
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.5703125,
+            "validation": {
+              "mean": 0.428125,
+              "median": 0.4296875,
+              "n": 5,
+              "p10": 0.375,
+              "p90": 0.48125,
+              "std": 0.052813886816111155
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.3859375,
+                0.4703125
+              ],
+              "confidence": 0.95,
+              "mean": 0.428125,
+              "median": 0.4296875,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9765625,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.95234375,
+              "p90": 0.9921875,
+              "std": 0.02455040056636042
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.03622410863243014,
+                0.6244653702374745
+              ],
+              "n": 5,
+              "success_count": 1,
+              "success_rate": 0.2
+            },
+            "training_validation_gap_median": 0.16015625,
+            "validation": {
+              "mean": 0.809375,
+              "median": 0.8203125,
+              "n": 5,
+              "p10": 0.76875,
+              "p90": 0.84375,
+              "std": 0.04006525439049402
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.778125,
+                0.8390625
+              ],
+              "confidence": 0.95,
+              "mean": 0.809375,
+              "median": 0.8203125,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.9953125,
+              "median": 0.99609375,
+              "n": 5,
+              "p10": 0.9921875,
+              "p90": 0.9984375,
+              "std": 0.0032682032286487327
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.00390625,
+            "validation": {
+              "mean": 0.9875,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.9796875,
+              "p90": 0.9921875,
+              "std": 0.006987712429686843
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.98125,
+                0.9921875
+              ],
+              "confidence": 0.95,
+              "mean": 0.9875,
+              "median": 0.9921875,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.996875,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9921875,
+              "p90": 1.0,
+              "std": 0.00427908248050911
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.2578125,
+            "validation": {
+              "mean": 0.7296875,
+              "median": 0.734375,
+              "n": 5,
+              "p10": 0.703125,
+              "p90": 0.7515625,
+              "std": 0.026262087990580642
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.7078125,
+                0.7484375
+              ],
+              "confidence": 0.95,
+              "mean": 0.7296875,
+              "median": 0.734375,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9859375,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.97265625,
+              "p90": 0.9984375,
+              "std": 0.013699748372461079
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.3203125,
+            "validation": {
+              "mean": 0.659375,
+              "median": 0.6796875,
+              "n": 5,
+              "p10": 0.5921875,
+              "p90": 0.7171875,
+              "std": 0.06480137922914914
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.603125,
+                0.70625
+              ],
+              "confidence": 0.95,
+              "mean": 0.659375,
+              "median": 0.6796875,
+              "n": 5
+            }
+          }
+        },
+        "parameter_count": 856,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 971.828125,
+          "environment_interactions": 66205,
+          "examples_processed": 1228800,
+          "forward_calls": 5375,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "wall_seconds_sum_workers": 1224.2464441999327
+        }
+      },
+      "residual_rnn_reference": {
+        "families_passing": 2,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "OPTIMIZATION_OR_CAPACITY_FAILURE",
+            "development": {
+              "mean": 0.76953125,
+              "median": 0.76171875,
+              "n": 5,
+              "p10": 0.703125,
+              "p90": 0.840625,
+              "std": 0.07768430391152868
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.39453125,
+            "validation": {
+              "mean": 0.3953125,
+              "median": 0.40625,
+              "n": 5,
+              "p10": 0.3484375,
+              "p90": 0.434375,
+              "std": 0.04300424670163401
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.3609375,
+                0.428125
+              ],
+              "confidence": 0.95,
+              "mean": 0.3953125,
+              "median": 0.40625,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.990625,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.9859375,
+              "p90": 0.99453125,
+              "std": 0.004453810254293508
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.1171875,
+            "validation": {
+              "mean": 0.8765625,
+              "median": 0.875,
+              "n": 5,
+              "p10": 0.8546875,
+              "p90": 0.8984375,
+              "std": 0.021678807696111885
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.8609375,
+                0.89375
+              ],
+              "confidence": 0.95,
+              "mean": 0.8765625,
+              "median": 0.875,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.99375,
+              "median": 0.9921875,
+              "n": 5,
+              "p10": 0.98984375,
+              "p90": 0.9984375,
+              "std": 0.004453810254293508
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.0078125,
+            "validation": {
+              "mean": 0.9859375,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.984375,
+              "p90": 0.9890625,
+              "std": 0.0034938562148434213
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.984375,
+                0.9890625
+              ],
+              "confidence": 0.95,
+              "mean": 0.9859375,
+              "median": 0.984375,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.96015625,
+              "median": 0.95703125,
+              "n": 5,
+              "p10": 0.940625,
+              "p90": 0.9796875,
+              "std": 0.020558902135844947
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.15234375,
+            "validation": {
+              "mean": 0.803125,
+              "median": 0.8046875,
+              "n": 5,
+              "p10": 0.78125,
+              "p90": 0.825,
+              "std": 0.021678807696111885
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.7859375,
+                0.8203125
+              ],
+              "confidence": 0.95,
+              "mean": 0.803125,
+              "median": 0.8046875,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9203125,
+              "median": 0.90234375,
+              "n": 5,
+              "p10": 0.88046875,
+              "p90": 0.96796875,
+              "std": 0.04415963362832056
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.2421875,
+            "validation": {
+              "mean": 0.6828125,
+              "median": 0.6796875,
+              "n": 5,
+              "p10": 0.6515625,
+              "p90": 0.715625,
+              "std": 0.03154160818466617
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.659375,
+                0.7078125
+              ],
+              "confidence": 0.95,
+              "mean": 0.6828125,
+              "median": 0.6796875,
+              "n": 5
+            }
+          }
+        },
+        "parameter_count": 885,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 64.5,
+          "environment_interactions": 66205,
+          "examples_processed": 1228800,
+          "forward_calls": 5375,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "wall_seconds_sum_workers": 79.4501886999933
+        }
+      }
+    },
+    "4x": {
+      "gru_reference": {
+        "families_passing": 5,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.99375,
+              "median": 0.994140625,
+              "n": 5,
+              "p10": 0.98984375,
+              "p90": 0.997265625,
+              "std": 0.0037569109495451847
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.060546875,
+            "validation": {
+              "mean": 0.9359375,
+              "median": 0.9375,
+              "n": 5,
+              "p10": 0.9078125,
+              "p90": 0.965625,
+              "std": 0.0314447059335908
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.9125,
+                0.9625
+              ],
+              "confidence": 0.95,
+              "mean": 0.9359375,
+              "median": 0.9375,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.999609375,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.998828125,
+              "p90": 1.0,
+              "std": 0.0008734640537108554
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.015625,
+            "validation": {
+              "mean": 0.984375,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.9671875,
+              "p90": 1.0,
+              "std": 0.016572815184059706
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.971875,
+                0.996875
+              ],
+              "confidence": 0.95,
+              "mean": 0.984375,
+              "median": 0.984375,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.994140625,
+              "median": 0.994140625,
+              "n": 5,
+              "p10": 0.990625,
+              "p90": 0.997265625,
+              "std": 0.003653962291771427
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": -0.00390625,
+            "validation": {
+              "mean": 0.996875,
+              "median": 1.0,
+              "n": 5,
+              "p10": 0.9921875,
+              "p90": 1.0,
+              "std": 0.00427908248050911
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.99375,
+                1.0
+              ],
+              "confidence": 0.95,
+              "mean": 0.996875,
+              "median": 1.0,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.914453125,
+              "median": 0.9140625,
+              "n": 5,
+              "p10": 0.9109375,
+              "p90": 0.918359375,
+              "std": 0.0037569109495451847
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.021484375,
+            "validation": {
+              "mean": 0.89375,
+              "median": 0.890625,
+              "n": 5,
+              "p10": 0.890625,
+              "p90": 0.8984375,
+              "std": 0.00427908248050911
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.890625,
+                0.896875
+              ],
+              "confidence": 0.95,
+              "mean": 0.89375,
+              "median": 0.890625,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.969921875,
+              "median": 0.96484375,
+              "n": 5,
+              "p10": 0.96171875,
+              "p90": 0.98203125,
+              "std": 0.01118579770568465
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.3755346297625255,
+                0.9637758913675698
+              ],
+              "n": 5,
+              "success_count": 4,
+              "success_rate": 0.8
+            },
+            "training_validation_gap_median": 0.078125,
+            "validation": {
+              "mean": 0.89375,
+              "median": 0.8828125,
+              "n": 5,
+              "p10": 0.85625,
+              "p90": 0.9375,
+              "std": 0.04156073774459496
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.8640625,
+                0.925
+              ],
+              "confidence": 0.95,
+              "mean": 0.89375,
+              "median": 0.8828125,
+              "n": 5
+            }
+          }
+        },
+        "parameter_count": 875,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 135.484375,
+          "environment_interactions": 111225,
+          "examples_processed": 2457600,
+          "forward_calls": 5375,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "wall_seconds_sum_workers": 170.22317080007633
+        }
+      },
+      "neutral_high_capacity": {
+        "families_passing": 2,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.9734375,
+              "median": 0.974609375,
+              "n": 5,
+              "p10": 0.959765625,
+              "p90": 0.9859375,
+              "std": 0.01307281291459493
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.48828125,
+            "validation": {
+              "mean": 0.515625,
+              "median": 0.5,
+              "n": 5,
+              "p10": 0.484375,
+              "p90": 0.5625,
+              "std": 0.04555431167847891
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.4875,
+                0.55625
+              ],
+              "confidence": 0.95,
+              "mean": 0.515625,
+              "median": 0.5,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.99609375,
+              "median": 0.998046875,
+              "n": 5,
+              "p10": 0.990625,
+              "p90": 1.0,
+              "std": 0.004979511243742954
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.060546875,
+            "validation": {
+              "mean": 0.93125,
+              "median": 0.9375,
+              "n": 5,
+              "p10": 0.909375,
+              "p90": 0.946875,
+              "std": 0.023696485762661097
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.909375,
+                0.946875
+              ],
+              "confidence": 0.95,
+              "mean": 0.93125,
+              "median": 0.9375,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.994140625,
+              "median": 0.99609375,
+              "n": 5,
+              "p10": 0.991015625,
+              "p90": 0.99609375,
+              "std": 0.0027621358640099515
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.0078125,
+            "validation": {
+              "mean": 0.984375,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.975,
+              "p90": 0.9921875,
+              "std": 0.009568319307746789
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.9765625,
+                0.990625
+              ],
+              "confidence": 0.95,
+              "mean": 0.984375,
+              "median": 0.984375,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.980859375,
+              "median": 0.986328125,
+              "n": 5,
+              "p10": 0.96484375,
+              "p90": 0.994140625,
+              "std": 0.014836038292838236
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.212890625,
+            "validation": {
+              "mean": 0.78125,
+              "median": 0.7734375,
+              "n": 5,
+              "p10": 0.7375,
+              "p90": 0.83125,
+              "std": 0.04654834096801947
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.7453125,
+                0.8171875
+              ],
+              "confidence": 0.95,
+              "mean": 0.78125,
+              "median": 0.7734375,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "GENERALIZATION_FAILURE",
+            "development": {
+              "mean": 0.95859375,
+              "median": 0.955078125,
+              "n": 5,
+              "p10": 0.9421875,
+              "p90": 0.977734375,
+              "std": 0.02031625566241538
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.173828125,
+            "validation": {
+              "mean": 0.7671875,
+              "median": 0.78125,
+              "n": 5,
+              "p10": 0.703125,
+              "p90": 0.8171875,
+              "std": 0.06011057519272295
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.715625,
+                0.809375
+              ],
+              "confidence": 0.95,
+              "mean": 0.7671875,
+              "median": 0.78125,
+              "n": 5
+            }
+          }
+        },
+        "parameter_count": 856,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 1100.828125,
+          "environment_interactions": 111225,
+          "examples_processed": 2457600,
+          "forward_calls": 5375,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "wall_seconds_sum_workers": 1184.4265353999217
+        }
+      },
+      "residual_rnn_reference": {
+        "families_passing": 3,
+        "family_results": {
+          "conditional_routing": {
+            "aggregate_capacity_pass": false,
+            "behavior": "OPTIMIZATION_OR_CAPACITY_FAILURE",
+            "development": {
+              "mean": 0.6734375,
+              "median": 0.646484375,
+              "n": 5,
+              "p10": 0.580078125,
+              "p90": 0.7890625,
+              "std": 0.11207432215509242
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                2.7755575615628914e-17,
+                0.43448246478317465
+              ],
+              "n": 5,
+              "success_count": 0,
+              "success_rate": 0.0
+            },
+            "training_validation_gap_median": 0.24609375,
+            "validation": {
+              "mean": 0.4328125,
+              "median": 0.421875,
+              "n": 5,
+              "p10": 0.365625,
+              "p90": 0.5171875,
+              "std": 0.08334147095684118
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.378125,
+                0.5046875
+              ],
+              "confidence": 0.95,
+              "mean": 0.4328125,
+              "median": 0.421875,
+              "n": 5
+            }
+          },
+          "delayed_recall": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.98515625,
+              "median": 0.982421875,
+              "n": 5,
+              "p10": 0.9765625,
+              "p90": 0.995703125,
+              "std": 0.009627935581145499
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.0703125,
+            "validation": {
+              "mean": 0.90625,
+              "median": 0.90625,
+              "n": 5,
+              "p10": 0.8859375,
+              "p90": 0.9265625,
+              "std": 0.019918044974971814
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.890625,
+                0.921875
+              ],
+              "confidence": 0.95,
+              "mean": 0.90625,
+              "median": 0.90625,
+              "n": 5
+            }
+          },
+          "iterative_state": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.9921875,
+              "median": 0.990234375,
+              "n": 5,
+              "p10": 0.9890625,
+              "p90": 0.996484375,
+              "std": 0.00390625
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.5655175352168254,
+                1.0
+              ],
+              "n": 5,
+              "success_count": 5,
+              "success_rate": 1.0
+            },
+            "training_validation_gap_median": 0.00390625,
+            "validation": {
+              "mean": 0.9875,
+              "median": 0.984375,
+              "n": 5,
+              "p10": 0.984375,
+              "p90": 0.9921875,
+              "std": 0.00427908248050911
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.984375,
+                0.990625
+              ],
+              "confidence": 0.95,
+              "mean": 0.9875,
+              "median": 0.984375,
+              "n": 5
+            }
+          },
+          "partial_observation": {
+            "aggregate_capacity_pass": true,
+            "behavior": "ADEQUATE",
+            "development": {
+              "mean": 0.913671875,
+              "median": 0.912109375,
+              "n": 5,
+              "p10": 0.90078125,
+              "p90": 0.927734375,
+              "std": 0.014706914528919297
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.23072428127601297,
+                0.8823792257673521
+              ],
+              "n": 5,
+              "success_count": 3,
+              "success_rate": 0.6
+            },
+            "training_validation_gap_median": 0.068359375,
+            "validation": {
+              "mean": 0.8421875,
+              "median": 0.8515625,
+              "n": 5,
+              "p10": 0.815625,
+              "p90": 0.8640625,
+              "std": 0.024331892972495994
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.8234375,
+                0.8609375
+              ],
+              "confidence": 0.95,
+              "mean": 0.8421875,
+              "median": 0.8515625,
+              "n": 5
+            }
+          },
+          "variable_composition": {
+            "aggregate_capacity_pass": false,
+            "behavior": "OPTIMIZATION_OR_CAPACITY_FAILURE",
+            "development": {
+              "mean": 0.8921875,
+              "median": 0.89453125,
+              "n": 5,
+              "p10": 0.840625,
+              "p90": 0.946484375,
+              "std": 0.053119973337557434
+            },
+            "replicate_capacity_rate": {
+              "ci95": [
+                0.03622410863243014,
+                0.6244653702374745
+              ],
+              "n": 5,
+              "success_count": 1,
+              "success_rate": 0.2
+            },
+            "training_validation_gap_median": 0.08984375,
+            "validation": {
+              "mean": 0.790625,
+              "median": 0.7890625,
+              "n": 5,
+              "p10": 0.753125,
+              "p90": 0.8328125,
+              "std": 0.040745015032516554
+            },
+            "validation_bootstrap": {
+              "ci": [
+                0.7609375,
+                0.8234375
+              ],
+              "confidence": 0.95,
+              "mean": 0.790625,
+              "median": 0.7890625,
+              "n": 5
+            }
+          }
+        },
+        "parameter_count": 885,
+        "resource_accounting": {
+          "cpu_seconds_sum_workers": 82.09375,
+          "environment_interactions": 111225,
+          "examples_processed": 2457600,
+          "forward_calls": 5375,
+          "gpu_seconds": 0.0,
+          "model_fits": 25,
+          "optimizer_steps": 4800,
+          "wall_seconds_sum_workers": 135.20323660009308
+        }
+      }
+    }
+  },
+  "diagnosis": "SAMPLE_EFFICIENCY_FAILURE",
+  "executed_data_multipliers": [
+    2,
+    4
+  ],
+  "failure_classification": [
+    "SAMPLE_EFFICIENCY_FAILURE"
+  ],
+  "fixed_optimizer_steps": 192,
+  "fixed_validation_seed_range": [
+    20000,
+    20127
+  ],
+  "fresh_audit_consumed": false,
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "next_experiment": "A conventional learned recurrent reference reaches >=4/5 after increasing only unique development data. Benchmark learnability is established under a calibrated data regime; V837m is scientifically justified, with sample efficiency retained as a confound relative to the original 1x regime.",
+  "parent": "V837k",
+  "pass": true,
+  "primitive_mining_allowed": false,
+  "resolved_at_data_multiplier": 4,
+  "single_change": "unique development episodes only: 128 -> 256 -> 512 while architecture, optimizer steps, optimizer, learning rate, validation episodes, task generators, seeds policy, and criteria remain fixed",
+  "task_family_label_allowed": false,
+  "version": "V837l"
+}

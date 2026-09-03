@@ -1,0 +1,24 @@
+{
+  "diagnosis": "SAMPLE_EFFICIENCY_FAILURE",
+  "families_passing": {
+    "1x": {
+      "gru_reference": 2,
+      "neutral_high_capacity": 1,
+      "residual_rnn_reference": 2
+    },
+    "2x": {
+      "gru_reference": 3,
+      "neutral_high_capacity": 1,
+      "residual_rnn_reference": 2
+    },
+    "4x": {
+      "gru_reference": 5,
+      "neutral_high_capacity": 2,
+      "residual_rnn_reference": 3
+    }
+  },
+  "fresh_audit_consumed": false,
+  "pass": true,
+  "resolved_at_data_multiplier": 4,
+  "version": "V837l"
+}
