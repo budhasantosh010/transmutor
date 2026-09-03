@@ -238,8 +238,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "cff95b53956e6bbf609c3bf597bb7d771c859d72",
-  "main_sha_semantics": "Research-state SHA indexed by this verification package. The verification-package commit containing this manifest necessarily has a later SHA; use git rev-parse HEAD for the container commit.",
+  "main_sha": "eaa691febf329f5f6377aa168312f8e32be5b902",
+  "main_sha_semantics": "V837n scientific research-state SHA indexed by this verification package. Verification-only hash commits may have later SHAs; use git rev-parse HEAD for the container commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -257,7 +257,7 @@
   ],
   "repository": "budhasantosh010/transmutor",
   "research_lineage": "V837 successful-reference mechanism localization after learned-reference calibration",
-  "research_sha": "cff95b53956e6bbf609c3bf597bb7d771c859d72",
+  "research_sha": "eaa691febf329f5f6377aa168312f8e32be5b902",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
