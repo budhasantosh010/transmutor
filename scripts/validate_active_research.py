@@ -34,6 +34,12 @@ V837_FAILURE_CLASSES = FAILURE_CLASSES | {
     "REGULARIZATION_ONLY_EFFECT",
     "MESSAGE_MEDIATION_FAILURE",
     "PARAMETER_COUNT_CONFOUND",
+    "REFERENCE_MODEL_FAILURE",
+    "OPTIMIZATION_BUDGET_FAILURE",
+    "SAMPLE_EFFICIENCY_FAILURE",
+    "CAPACITY_FAILURE",
+    "REPRESENTATION_FAMILY_FAILURE_STRENGTHENED",
+    "BENCHMARK_LEARNABILITY_UNRESOLVED",
 }
 V837_GATE_SHA256 = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
 V837_CAPACITY_CRITERION_SHA256 = "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa"
@@ -451,6 +457,125 @@ def validate_v837_representation_recovery() -> None:
                 raise ValueError(f"representation recovery evidence missing: {required_path.relative_to(ROOT)}")
 
 
+
+def validate_v837_learned_reference_calibration() -> None:
+    base = ROOT / "experiments" / "v837_primitive_invention"
+    variant = base / "v837j"
+    if not variant.exists():
+        return
+    config = json.loads((variant / "config.json").read_text(encoding="utf-8"))
+    frozen = json.loads((variant / "frozen_reference_gate.json").read_text(encoding="utf-8"))
+    if config.get("historical_gate_hash") != V837_GATE_SHA256:
+        raise ValueError("V837j references wrong historical V837 gate")
+    if config.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+        raise ValueError("V837j changed the frozen capacity criterion")
+    if frozen.get("historical_v837_gate_sha256") != V837_GATE_SHA256:
+        raise ValueError("V837j frozen reference changed historical gate")
+    if frozen.get("capacity_criterion_sha256") != V837_CAPACITY_CRITERION_SHA256:
+        raise ValueError("V837j frozen reference changed capacity criterion")
+    if config.get("fresh_audit_allowed") is not False or config.get("reference_calibration_fresh_audit_consumed") is not False:
+        raise ValueError("V837j must keep fresh audit locked")
+    if config.get("primitive_mining_allowed") is not False:
+        raise ValueError("V837j must keep primitive mining blocked")
+    if config.get("task_family_label_allowed") is not False:
+        raise ValueError("V837j learned references must not receive task labels")
+    required_models = {"neutral_high_capacity", "gru_reference", "residual_rnn_reference"}
+    if not required_models.issubset(set(config.get("models", []))):
+        raise ValueError("V837j missing required learned-reference conditions")
+    training = config.get("primary_training", {})
+    for key in ("steps", "train_episodes", "validation_episodes", "development_seed_range", "validation_seed_range", "replicates"):
+        if key not in training:
+            raise ValueError(f"V837j training budget missing {key}")
+    if int(training["steps"]) != 192 or int(training["train_episodes"]) != 128 or int(training["validation_episodes"]) != 128:
+        raise ValueError("V837j primary matched budget drifted from blocker diagnostic")
+    if training["development_seed_range"] != [10000, 10127] or training["validation_seed_range"] != [20000, 20127]:
+        raise ValueError("V837j primary seed ranges drifted from frozen V837 development/validation regions")
+
+    source = (base / "common" / "reference_models.py").read_text(encoding="utf-8")
+    for forbidden in ("task_family_id", "family_label", "generator_class_id"):
+        if forbidden in source:
+            raise ValueError(f"V837j reference model source contains forbidden task-label input: {forbidden}")
+
+    result_path = variant / "results.json"
+    if not result_path.exists():
+        return
+    data = json.loads(result_path.read_text(encoding="utf-8"))
+    required = {
+        "version", "parent", "single_change", "historical_gate_hash", "capacity_criterion_hash",
+        "fresh_audit_consumed", "primitive_mining_allowed", "task_family_label_allowed",
+        "baseline_compatibility", "matching_check", "models", "learning_curve_summary",
+        "compute_accounting", "diagnosis", "pass", "failure_classification", "next_experiment",
+    }
+    missing = sorted(required - set(data))
+    if missing:
+        raise ValueError(f"V837j result missing fields: {missing}")
+    if data.get("version") != "V837j" or data.get("parent") != "V837h":
+        raise ValueError("V837j version/parent mismatch")
+    if data.get("historical_gate_hash") != V837_GATE_SHA256 or data.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+        raise ValueError("V837j result gate fingerprints mismatch")
+    if data.get("fresh_audit_consumed") is not False or data.get("primitive_mining_allowed") is not False:
+        raise ValueError("V837j result violated scientific locks")
+    if data.get("task_family_label_allowed") is not False:
+        raise ValueError("V837j result allowed task-family labels")
+    if data.get("baseline_compatibility", {}).get("compatible") is not True:
+        raise ValueError("V837j cannot be interpreted without compatible neutral baseline")
+    matching = data.get("matching_check", {})
+    for key in ("same_task_generators", "same_primary_training_seeds", "same_primary_validation_episodes", "same_optimizer_steps", "same_examples_processed_per_fit", "same_optimizer"):
+        if matching.get(key) is not True:
+            raise ValueError(f"V837j matching check failed: {key}")
+    models = data.get("models", {})
+    if not required_models.issubset(models):
+        raise ValueError("V837j results missing required models")
+    for model_name, record in models.items():
+        if int(record.get("parameter_count", 0)) <= 0:
+            raise ValueError(f"V837j {model_name} missing parameter count")
+        family_results = record.get("family_results", {})
+        if set(family_results) != {"conditional_routing", "delayed_recall", "iterative_state", "partial_observation", "variable_composition"}:
+            raise ValueError(f"V837j {model_name} family result coverage mismatch")
+        if not record.get("resource_accounting"):
+            raise ValueError(f"V837j {model_name} missing resource accounting")
+    invalid = sorted(set(data.get("failure_classification", [])) - V837_FAILURE_CLASSES)
+    if invalid:
+        raise ValueError(f"V837j has invalid failure classes: {invalid}")
+    if data.get("pass") is False:
+        failure_doc = variant / "FAILURE.md"
+        if not failure_doc.exists() or not failure_doc.read_text(encoding="utf-8").strip():
+            raise ValueError("failed V837j missing FAILURE.md")
+    else:
+        pass_doc = variant / "PASS.md"
+        if not pass_doc.exists() or not pass_doc.read_text(encoding="utf-8").strip():
+            raise ValueError("successful diagnostic V837j missing PASS.md")
+    raw_path = variant / "diagnostics" / "raw_runs.json"
+    if not raw_path.exists():
+        raise ValueError("V837j raw numerical runs missing")
+    raw = json.loads(raw_path.read_text(encoding="utf-8"))
+    if raw.get("fresh_audit_consumed") is not False:
+        raise ValueError("V837j raw runs consumed fresh audit")
+    rows = raw.get("rows", [])
+    expected_rows = len(config["models"]) * 5 * int(training["replicates"])
+    if len(rows) != expected_rows:
+        raise ValueError(f"V837j raw run count mismatch: {len(rows)} != {expected_rows}")
+    for row in rows:
+        if row.get("task_family_label_in_model_input") is not False:
+            raise ValueError("V837j row leaked task-family label")
+        if [row.get("train_seed_first"), row.get("train_seed_last")] != training["development_seed_range"]:
+            raise ValueError("V837j row training seeds are not paired")
+        if [row.get("validation_seed_first"), row.get("validation_seed_last")] != training["validation_seed_range"]:
+            raise ValueError("V837j row validation seeds are not paired")
+        resources = row.get("resources", {})
+        if int(resources.get("optimizer_steps", -1)) != int(training["steps"]):
+            raise ValueError("V837j row optimizer budget mismatch")
+        if int(resources.get("examples_processed", -1)) != int(training["steps"]) * int(training["train_episodes"]):
+            raise ValueError("V837j row example budget mismatch")
+
+    audit = json.loads((base / "audit" / "audit_results.json").read_text(encoding="utf-8"))
+    if audit.get("episodes_consumed") != 0:
+        raise ValueError("V837j consumed fresh-audit episodes")
+    recovery = json.loads((base / "representation_recovery_status.json").read_text(encoding="utf-8"))
+    if recovery.get("primitives_promoted") != 0 or recovery.get("primitive_mining_allowed") is not False:
+        raise ValueError("V837j must not alter primitive-mining status")
+
+
 def main() -> int:
     validate_integrity_manifest()
     validate_v836_recovery()
@@ -458,6 +583,7 @@ def main() -> int:
     validate_active_result_files()
     validate_v837_lineage()
     validate_v837_representation_recovery()
+    validate_v837_learned_reference_calibration()
     print("active research validation: PASS")
     return 0
 

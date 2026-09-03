@@ -1,0 +1,103 @@
+{
+  "baseline_compatibility_probe": {
+    "drift_threshold": 0.1,
+    "max_families_over_threshold": 1,
+    "purpose": "exactly rerun preserved high-capacity blocker baseline before interpreting primary learned references",
+    "restarts": 3,
+    "train_seed_range": [
+      30000,
+      30127
+    ],
+    "validation_seed_range": [
+      30200,
+      30327
+    ]
+  },
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "cpu_only": true,
+  "data_budget_matched": true,
+  "decision_gate": {
+    "families_required": 4,
+    "total_families": 5
+  },
+  "experiment": "V837j",
+  "fresh_audit_allowed": false,
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "models": [
+    "neutral_high_capacity",
+    "gru_reference",
+    "residual_rnn_reference",
+    "vanilla_rnn_reference"
+  ],
+  "notes": [
+    "The compatibility probe uses the preserved blocker diagnostic ablation seeds so historical B0 can be checked exactly.",
+    "The primary learned-reference comparison uses the frozen V837 development/validation seed regions and gives every model identical episode IDs.",
+    "Only model initialization/representation differs across primary B0/B1/B2/B3."
+  ],
+  "parameter_matching": true,
+  "parameter_target": 856,
+  "parent": "V837h",
+  "primary_training": {
+    "curve_steps": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96,
+      128,
+      160,
+      192
+    ],
+    "development_seed_range": [
+      10000,
+      10127
+    ],
+    "gradient_clip": 5.0,
+    "learning_rate": 0.005,
+    "optimizer": "AdamW",
+    "replicates": 5,
+    "steps": 192,
+    "train_episodes": 128,
+    "validation_episodes": 128,
+    "validation_seed_range": [
+      20000,
+      20127
+    ],
+    "weight_decay": 0.0001
+  },
+  "primitive_mining_allowed": false,
+  "question": "Can standard learned recurrent references solve the V837 benchmark under matched data and training conditions?",
+  "reference_calibration_fresh_audit_consumed": false,
+  "reference_hidden_size_selection": {
+    "gru_reference": {
+      "architecture_type": "gru_reference",
+      "difference": 19,
+      "hidden_size": 13,
+      "parameter_count": 875,
+      "percent_difference": 2.219626168224299,
+      "target_parameter_count": 856
+    },
+    "residual_rnn_reference": {
+      "architecture_type": "residual_rnn_reference",
+      "difference": 29,
+      "hidden_size": 26,
+      "parameter_count": 885,
+      "percent_difference": 3.387850467289719,
+      "target_parameter_count": 856
+    },
+    "vanilla_rnn_reference": {
+      "architecture_type": "vanilla_rnn_reference",
+      "difference": 29,
+      "hidden_size": 26,
+      "parameter_count": 885,
+      "percent_difference": 3.387850467289719,
+      "target_parameter_count": 856
+    }
+  },
+  "task_family_label_allowed": false,
+  "training_budget_matched": true
+}
