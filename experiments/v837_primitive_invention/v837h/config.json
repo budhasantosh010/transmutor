@@ -1,0 +1,25 @@
+{
+  "version": "V837h",
+  "parent": "V837g",
+  "single_change": "Replace the historical additive cell preactivation with a rank-2 low-rank multiplicative interaction basis; compare against an exactly parameter-matched additive basis while keeping broadcast input and direct state overwrite.",
+  "representation_change": "u=A_s*s+A_m*m+A_x*x; v=B_s*s+B_m*m+B_x*x; candidate=tanh(C_u*u+C_v*v+C_i*(u elementwise v)+b)",
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "input_access_mode": "broadcast",
+  "state_update_mode": "direct",
+  "interaction_rank": 2,
+  "training": {
+    "scope": "full_adamw",
+    "steps": 192,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "train_episodes": 128,
+    "validation_episodes": 128,
+    "replicates_per_family": 8
+  },
+  "high_capacity_graph": {"cells": 10, "internal_edges": 55},
+  "seed_region": "ablation 30000-30499 only",
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "pass_gate": {"families_required": 4, "total_families": 5, "development_success_rate": 0.9, "validation_success_rate": 0.85}
+}

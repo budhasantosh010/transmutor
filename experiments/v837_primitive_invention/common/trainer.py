@@ -92,12 +92,25 @@ def train_graph(
     training_scope: str = "readout_only_adamw",
     forward_options: dict | None = None,
     initialization_seed_override: int | None = None,
+    state_update_mode: str = "direct",
+    alpha_init: float = 0.5,
+    interaction_mode: str = "none",
+    interaction_rank: int = 2,
 ) -> TrainedCandidate:
     graph.validate()
     init_seed = int(initialization_seed_override) if initialization_seed_override is not None else deterministic_int("train", graph.graph_id, task.name, run_seed)
     torch.manual_seed(init_seed)
     np.random.seed(init_seed % (2**32 - 1))
-    model = NeutralGraphModel(graph, obs_dim=OBS_DIM, state_dim=state_dim, message_dim=message_dim)
+    model = NeutralGraphModel(
+        graph,
+        obs_dim=OBS_DIM,
+        state_dim=state_dim,
+        message_dim=message_dim,
+        state_update_mode=state_update_mode,
+        alpha_init=alpha_init,
+        interaction_mode=interaction_mode,
+        interaction_rank=interaction_rank,
+    )
     if training_scope == "readout_only_adamw":
         optimized_parameters = list(model.readout.parameters())
     elif training_scope == "full_adamw":

@@ -23,7 +23,18 @@ class ForwardTrace:
 class NeutralGraphModel(nn.Module):
     """One generic continuous-cell implementation used for every V837 task family."""
 
-    def __init__(self, graph: GraphSpec, obs_dim: int = 6, state_dim: int = 4, message_dim: int = 4):
+    def __init__(
+        self,
+        graph: GraphSpec,
+        obs_dim: int = 6,
+        state_dim: int = 4,
+        message_dim: int = 4,
+        *,
+        state_update_mode: str = "direct",
+        alpha_init: float = 0.5,
+        interaction_mode: str = "none",
+        interaction_rank: int = 2,
+    ):
         super().__init__()
         if state_dim != message_dim:
             raise ValueError("V837 initial substrate keeps state_dim == message_dim")
@@ -32,6 +43,18 @@ class NeutralGraphModel(nn.Module):
         self.obs_dim = int(obs_dim)
         self.state_dim = int(state_dim)
         self.message_dim = int(message_dim)
+        if state_update_mode not in {"direct", "learned_leaky"}:
+            raise ValueError(f"unknown state_update_mode: {state_update_mode}")
+        if not 0.0 < float(alpha_init) < 1.0:
+            raise ValueError("alpha_init must be strictly between 0 and 1")
+        self.state_update_mode = state_update_mode
+        self.alpha_init = float(alpha_init)
+        if interaction_mode not in {"none", "low_rank_multiplicative", "parameter_matched_additive"}:
+            raise ValueError(f"unknown interaction_mode: {interaction_mode}")
+        if int(interaction_rank) <= 0:
+            raise ValueError("interaction_rank must be positive")
+        self.interaction_mode = interaction_mode
+        self.interaction_rank = int(interaction_rank)
         if self.graph.input_access is not None and self.graph.input_access.observation_dim != self.obs_dim:
             raise ValueError("graph input-access observation dimension does not match model obs_dim")
         if self.graph.input_access is None or self.graph.input_access.mode == "broadcast":
@@ -51,19 +74,41 @@ class NeutralGraphModel(nn.Module):
         self.cell_wx = nn.ParameterList()
         self.cell_b = nn.ParameterList()
         self.cell_wo = nn.ParameterList()
+        self.cell_alpha_logits = nn.ParameterList()
+        self.cell_as = nn.ParameterList(); self.cell_am = nn.ParameterList(); self.cell_ax = nn.ParameterList()
+        self.cell_bs = nn.ParameterList(); self.cell_bm = nn.ParameterList(); self.cell_bx = nn.ParameterList()
+        self.cell_cu = nn.ParameterList(); self.cell_cv = nn.ParameterList(); self.cell_ci = nn.ParameterList()
         for cell in self.graph.cells:
             generator = torch.Generator(device="cpu").manual_seed(int(cell.param_seed) + 137)
             scale = 1.0 / math.sqrt(max(1, state_dim))
             recurrent_gain = 0.20 + (int(cell.param_seed) % 1000) / 1000.0 * 0.85
-            recurrent_base = recurrent_gain * torch.eye(state_dim) + torch.randn(state_dim, state_dim, generator=generator) * (0.12 * scale)
-            message_base = torch.randn(state_dim, message_dim, generator=generator) * (0.35 * scale)
-            input_base = torch.randn(state_dim, obs_dim, generator=generator) * (0.45 / math.sqrt(obs_dim))
-            output_base = torch.eye(message_dim, state_dim) + torch.randn(message_dim, state_dim, generator=generator) * (0.12 * scale)
-            self.cell_ws.append(nn.Parameter(recurrent_base))
-            self.cell_wm.append(nn.Parameter(message_base))
-            self.cell_wx.append(nn.Parameter(input_base))
+            if self.interaction_mode == "none":
+                # Preserve the historical random-draw order exactly.
+                recurrent_base = recurrent_gain * torch.eye(state_dim) + torch.randn(state_dim, state_dim, generator=generator) * (0.12 * scale)
+                message_base = torch.randn(state_dim, message_dim, generator=generator) * (0.35 * scale)
+                input_base = torch.randn(state_dim, obs_dim, generator=generator) * (0.45 / math.sqrt(obs_dim))
+                output_base = torch.eye(message_dim, state_dim) + torch.randn(message_dim, state_dim, generator=generator) * (0.12 * scale)
+                self.cell_ws.append(nn.Parameter(recurrent_base))
+                self.cell_wm.append(nn.Parameter(message_base))
+                self.cell_wx.append(nn.Parameter(input_base))
+            else:
+                rank = self.interaction_rank
+                branch_scale = 1.0 / math.sqrt(max(1, rank))
+                self.cell_as.append(nn.Parameter(torch.randn(rank, state_dim, generator=generator) * (0.35 * scale)))
+                self.cell_am.append(nn.Parameter(torch.randn(rank, message_dim, generator=generator) * (0.35 * scale)))
+                self.cell_ax.append(nn.Parameter(torch.randn(rank, obs_dim, generator=generator) * (0.45 / math.sqrt(obs_dim))))
+                self.cell_bs.append(nn.Parameter(torch.randn(rank, state_dim, generator=generator) * (0.35 * scale)))
+                self.cell_bm.append(nn.Parameter(torch.randn(rank, message_dim, generator=generator) * (0.35 * scale)))
+                self.cell_bx.append(nn.Parameter(torch.randn(rank, obs_dim, generator=generator) * (0.45 / math.sqrt(obs_dim))))
+                self.cell_cu.append(nn.Parameter(torch.randn(state_dim, rank, generator=generator) * branch_scale))
+                self.cell_cv.append(nn.Parameter(torch.randn(state_dim, rank, generator=generator) * branch_scale))
+                self.cell_ci.append(nn.Parameter(torch.randn(state_dim, rank, generator=generator) * branch_scale))
+                output_base = torch.eye(message_dim, state_dim) + torch.randn(message_dim, state_dim, generator=generator) * (0.12 * scale)
             self.cell_b.append(nn.Parameter(torch.zeros(state_dim)))
             self.cell_wo.append(nn.Parameter(output_base))
+            if self.state_update_mode == "learned_leaky":
+                logit = math.log(self.alpha_init / (1.0 - self.alpha_init))
+                self.cell_alpha_logits.append(nn.Parameter(torch.tensor(logit, dtype=torch.float32)))
         self.edge_weights = nn.ParameterList([nn.Parameter(torch.tensor(float(edge.weight), dtype=torch.float32)) for edge in self.graph.edges])
         self.readout = nn.Linear(len(self.graph.cells) * state_dim, 1)
 
@@ -131,8 +176,6 @@ class NeutralGraphModel(nn.Module):
                             else:
                                 source = current_outputs[edge.src]
                             message = message + self.edge_weights[edge_index] * source
-                    recurrent_term = prev_states[cell_index] @ self.cell_ws[cell_index].T
-                    message_term = message @ self.cell_wm[cell_index].T
                     if cell_index in raw_disabled or self.input_access_mode == "none":
                         visible_x = torch.zeros_like(x_t)
                     elif self.input_access_mode == "broadcast":
@@ -140,13 +183,36 @@ class NeutralGraphModel(nn.Module):
                         visible_x = x_t
                     else:
                         visible_x = x_t * self.input_access_mask[:, cell_index].view(1, -1)
-                    input_term = visible_x @ self.cell_wx[cell_index].T
-                    proposed_state = torch.tanh(
-                        recurrent_term
-                        + message_term
-                        + input_term
-                        + self.cell_b[cell_index]
-                    )
+                    if self.interaction_mode == "none":
+                        recurrent_term = prev_states[cell_index] @ self.cell_ws[cell_index].T
+                        message_term = message @ self.cell_wm[cell_index].T
+                        input_term = visible_x @ self.cell_wx[cell_index].T
+                        preactivation = recurrent_term + message_term + input_term + self.cell_b[cell_index]
+                    else:
+                        u_s = prev_states[cell_index] @ self.cell_as[cell_index].T
+                        u_m = message @ self.cell_am[cell_index].T
+                        u_x = visible_x @ self.cell_ax[cell_index].T
+                        v_s = prev_states[cell_index] @ self.cell_bs[cell_index].T
+                        v_m = message @ self.cell_bm[cell_index].T
+                        v_x = visible_x @ self.cell_bx[cell_index].T
+                        u = u_s + u_m + u_x
+                        v = v_s + v_m + v_x
+                        recurrent_term = u_s @ self.cell_cu[cell_index].T + v_s @ self.cell_cv[cell_index].T
+                        message_term = u_m @ self.cell_cu[cell_index].T + v_m @ self.cell_cv[cell_index].T
+                        input_term = u_x @ self.cell_cu[cell_index].T + v_x @ self.cell_cv[cell_index].T
+                        if self.interaction_mode == "low_rank_multiplicative":
+                            extra = (u * v) @ self.cell_ci[cell_index].T
+                        else:
+                            # Same parameter count as the multiplicative branch,
+                            # but no elementwise interaction.
+                            extra = (u + v) @ self.cell_ci[cell_index].T
+                        preactivation = u @ self.cell_cu[cell_index].T + v @ self.cell_cv[cell_index].T + extra + self.cell_b[cell_index]
+                    candidate_state = torch.tanh(preactivation)
+                    if self.state_update_mode == "direct":
+                        proposed_state = candidate_state
+                    else:
+                        alpha = torch.sigmoid(self.cell_alpha_logits[cell_index])
+                        proposed_state = (1.0 - alpha) * prev_states[cell_index] + alpha * candidate_state
                     proposed_output = proposed_state @ self.cell_wo[cell_index].T
                     if lengths is not None:
                         active = (t < lengths).to(observations.dtype).unsqueeze(1)
@@ -196,8 +262,22 @@ class NeutralGraphModel(nn.Module):
     def parameter_bytes(self) -> int:
         return sum(parameter.numel() * parameter.element_size() for parameter in self.parameters())
 
+    def state_update_coefficients(self) -> list[float]:
+        if self.state_update_mode == "direct":
+            return [1.0] * len(self.graph.cells)
+        return [float(torch.sigmoid(value).detach().cpu().item()) for value in self.cell_alpha_logits]
+
 
 def clone_with_state(model: NeutralGraphModel) -> NeutralGraphModel:
-    clone = NeutralGraphModel(model.graph, obs_dim=model.obs_dim, state_dim=model.state_dim, message_dim=model.message_dim)
+    clone = NeutralGraphModel(
+        model.graph,
+        obs_dim=model.obs_dim,
+        state_dim=model.state_dim,
+        message_dim=model.message_dim,
+        state_update_mode=model.state_update_mode,
+        alpha_init=model.alpha_init,
+        interaction_mode=model.interaction_mode,
+        interaction_rank=model.interaction_rank,
+    )
     clone.load_state_dict(model.state_dict())
     return clone
