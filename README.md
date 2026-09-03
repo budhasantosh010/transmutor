@@ -32,4 +32,5 @@ The repository is private during cleanup and evidence reconstruction.
 - [Post-V836 frontier audit](docs/POST_V836_FRONTIER_AUDIT.md)
 - [V837 primitive-invention report](docs/V837_PRIMITIVE_INVENTION_REPORT.md)
 - [V837 representation-recovery report](docs/V837_REPRESENTATION_RECOVERY_REPORT.md)
+- [V837 learned-reference calibration report](docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md)
 - [Live repository verification index](docs/LIVE_REPO_VERIFICATION.md)

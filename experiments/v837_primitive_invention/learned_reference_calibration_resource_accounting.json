@@ -1,0 +1,58 @@
+{
+  "program": "V837J+ learned-reference calibration",
+  "cpu_only": true,
+  "components": {
+    "V837j_primary_calibration": {
+      "model_fits": 100,
+      "optimizer_steps": 19200,
+      "examples_processed": 2457600,
+      "environment_interactions": 175860,
+      "forward_calls": 23000,
+      "wall_seconds_sum_workers": 2008.1005492000259,
+      "cpu_seconds_sum_workers": 1335.890625,
+      "gpu_seconds": 0.0
+    },
+    "V837k_added_optimizer_budget_runs": {
+      "model_fits": 150,
+      "optimizer_steps": 86400,
+      "examples_processed": 11059200,
+      "environment_interactions": 263790,
+      "forward_calls": 94125,
+      "wall_seconds_sum_workers": 9307.806748499861,
+      "cpu_seconds_sum_workers": 6895.765625,
+      "gpu_seconds": 0.0
+    },
+    "V837l_added_data_budget_runs": {
+      "model_fits": 150,
+      "optimizer_steps": 28800,
+      "examples_processed": 11059200,
+      "environment_interactions": 532290,
+      "forward_calls": 32250,
+      "wall_seconds_sum_workers": 2925.190671199991,
+      "cpu_seconds_sum_workers": 2462.1875,
+      "gpu_seconds": 0.0
+    },
+    "V837m_cell_law_diagnostic": {
+      "model_fits": 100,
+      "optimizer_steps": 19200,
+      "examples_processed": 9830400,
+      "environment_interactions": 444900,
+      "forward_calls": 21500,
+      "wall_seconds_sum_workers": 6377.812254600052,
+      "cpu_seconds_sum_workers": 5267.875,
+      "gpu_seconds": 0.0
+    }
+  },
+  "actual_total_without_reused_condition_double_counting": {
+    "model_fits": 500,
+    "optimizer_steps": 153600,
+    "examples_processed": 34406400,
+    "environment_interactions": 1416840,
+    "forward_calls": 170875,
+    "wall_seconds_sum_workers": 20618.91022349993,
+    "cpu_seconds_sum_workers": 15961.71875,
+    "gpu_seconds": 0.0
+  },
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0
+}

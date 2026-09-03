@@ -575,6 +575,114 @@ def validate_v837_learned_reference_calibration() -> None:
     if recovery.get("primitives_promoted") != 0 or recovery.get("primitive_mining_allowed") is not False:
         raise ValueError("V837j must not alter primitive-mining status")
 
+    # V837k: optimizer-step budget only. The 1x condition is V837j and the
+    # 2x/4x conditions may not change architecture, data, optimizer, task
+    # generators, validation episodes, or scientific locks.
+    k_dir = base / "v837k"
+    if (k_dir / "results.json").exists():
+        k_config = json.loads((k_dir / "config.json").read_text(encoding="utf-8"))
+        k_data = json.loads((k_dir / "results.json").read_text(encoding="utf-8"))
+        if k_config.get("historical_gate_hash") != V837_GATE_SHA256 or k_config.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+            raise ValueError("V837k gate fingerprints changed")
+        if k_config.get("single_change", "").lower().find("optimizer step") < 0:
+            raise ValueError("V837k must isolate optimizer-step budget")
+        if k_config.get("fresh_audit_consumed") is not False or k_config.get("primitive_mining_allowed") is not False or k_config.get("task_family_label_allowed") is not False:
+            raise ValueError("V837k violated scientific locks")
+        base_training = k_config.get("base_training", {})
+        if int(base_training.get("steps", -1)) != 192 or int(base_training.get("train_episodes", -1)) != 128 or int(base_training.get("validation_episodes", -1)) != 128:
+            raise ValueError("V837k changed data budget instead of optimizer steps")
+        if k_data.get("version") != "V837k" or k_data.get("parent") != "V837j":
+            raise ValueError("V837k version/parent mismatch")
+        if k_data.get("fresh_audit_consumed") is not False or k_data.get("primitive_mining_allowed") is not False:
+            raise ValueError("V837k result violated scientific locks")
+        if k_data.get("diagnosis") != "BENCHMARK_LEARNABILITY_UNRESOLVED":
+            raise ValueError("V837k preserved result diagnosis changed")
+        if k_data.get("executed_multipliers") != [2, 4]:
+            raise ValueError("V837k must retain completed 2x/4x escalation")
+        for multiplier, expected_steps in (("1x", 192), ("2x", 384), ("4x", 768)):
+            condition = k_data.get("conditions", {}).get(multiplier)
+            if condition is None:
+                raise ValueError(f"V837k missing {multiplier} condition")
+            for model_name in ("neutral_high_capacity", "gru_reference", "residual_rnn_reference"):
+                record = condition.get("models", condition).get(model_name)
+                if record is None:
+                    raise ValueError(f"V837k {multiplier} missing {model_name}")
+                resources = record.get("resource_accounting", {})
+                model_fits = int(resources.get("model_fits", 0))
+                if model_fits != 25 or int(resources.get("optimizer_steps", 0)) != expected_steps * model_fits:
+                    raise ValueError(f"V837k {multiplier} optimizer budget mismatch for {model_name}")
+        if not (k_dir / "FAILURE.md").exists():
+            raise ValueError("V837k completed failure missing FAILURE.md")
+
+    # V837l: unique development episodes only. It establishes benchmark
+    # learnability because the matched GRU reaches 5/5 at 4x unique data,
+    # while optimizer steps remain fixed at 192.
+    l_dir = base / "v837l"
+    if (l_dir / "results.json").exists():
+        l_config = json.loads((l_dir / "config.json").read_text(encoding="utf-8"))
+        l_data = json.loads((l_dir / "results.json").read_text(encoding="utf-8"))
+        if l_config.get("historical_gate_hash") != V837_GATE_SHA256 or l_config.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+            raise ValueError("V837l gate fingerprints changed")
+        if "unique development episodes only" not in str(l_config.get("single_change", "")):
+            raise ValueError("V837l must isolate unique development data")
+        if l_config.get("fresh_audit_consumed") is not False or l_config.get("primitive_mining_allowed") is not False or l_config.get("task_family_label_allowed") is not False:
+            raise ValueError("V837l violated scientific locks")
+        if l_data.get("version") != "V837l" or l_data.get("parent") != "V837k":
+            raise ValueError("V837l version/parent mismatch")
+        if l_data.get("diagnosis") != "SAMPLE_EFFICIENCY_FAILURE" or l_data.get("pass") is not True:
+            raise ValueError("V837l must preserve the resolved sample-efficiency diagnosis")
+        if int(l_data.get("resolved_at_data_multiplier", 0)) != 4 or int(l_data.get("fixed_optimizer_steps", 0)) != 192:
+            raise ValueError("V837l resolution/data-vs-step isolation changed")
+        if l_data.get("fresh_audit_consumed") is not False or l_data.get("primitive_mining_allowed") is not False:
+            raise ValueError("V837l result violated scientific locks")
+        conditions = l_data.get("conditions", {})
+        expected_families = {"1x": 2, "2x": 3, "4x": 5}
+        for multiplier, expected in expected_families.items():
+            condition = conditions.get(multiplier, {})
+            gru = condition.get("gru_reference", {})
+            if int(gru.get("families_passing", -1)) != expected:
+                raise ValueError(f"V837l GRU {multiplier} family-pass count changed")
+        if not (l_dir / "PASS.md").exists():
+            raise ValueError("V837l diagnostic PASS missing PASS.md")
+
+    # V837m: after learnability is calibrated, test one new cell-law
+    # property—stable general linear state transport—against historical,
+    # scalar-persistence and exact parameter-matched additive controls.
+    m_dir = base / "v837m"
+    if (m_dir / "results.json").exists():
+        m_config = json.loads((m_dir / "config.json").read_text(encoding="utf-8"))
+        m_data = json.loads((m_dir / "results.json").read_text(encoding="utf-8"))
+        if m_config.get("historical_gate_hash") != V837_GATE_SHA256 or m_config.get("capacity_criterion_hash") != V837_CAPACITY_CRITERION_SHA256:
+            raise ValueError("V837m gate fingerprints changed")
+        if m_config.get("fresh_audit_consumed") is not False or m_config.get("primitive_mining_allowed") is not False:
+            raise ValueError("V837m config violated scientific locks")
+        if m_data.get("version") != "V837m" or m_data.get("parent") != "V837l":
+            raise ValueError("V837m version/parent mismatch")
+        if m_data.get("diagnosis") != "LINEAR_STATE_TRANSPORT_INSUFFICIENT" or m_data.get("pass") is not False:
+            raise ValueError("V837m preserved outcome changed")
+        if m_data.get("fresh_audit_consumed") is not False or m_data.get("primitive_mining_allowed") is not False or m_data.get("full_structural_search_allowed") is not False:
+            raise ValueError("V837m improperly reopened downstream research")
+        matching = m_data.get("parameter_matching", {})
+        if matching.get("exact_match") is not True or int(matching.get("linear_transport", 0)) != 1016 or int(matching.get("parameter_matched_additive", 0)) != 1016:
+            raise ValueError("V837m parameter-matched control is not exact")
+        conditions = m_data.get("conditions", {})
+        expected_params = {"historical_direct": 856, "scalar_persistence": 866, "linear_transport": 1016, "parameter_matched_additive": 1016}
+        expected_passes = {"historical_direct": 2, "scalar_persistence": 2, "linear_transport": 2, "parameter_matched_additive": 1}
+        for condition_name, expected_params_count in expected_params.items():
+            condition = conditions.get(condition_name)
+            if condition is None:
+                raise ValueError(f"V837m missing {condition_name}")
+            if int(condition.get("parameter_count", -1)) != expected_params_count:
+                raise ValueError(f"V837m {condition_name} parameter count changed")
+            if int(condition.get("families_passing", -1)) != expected_passes[condition_name]:
+                raise ValueError(f"V837m {condition_name} family-pass count changed")
+        transport_diag = conditions["linear_transport"].get("stability_diagnostics", {})
+        spectral = transport_diag.get("transport_spectral_norm_max", {}).get("mean")
+        if spectral is None or float(spectral) > 0.951:
+            raise ValueError("V837m transport stability bound not preserved")
+        if not (m_dir / "FAILURE.md").exists():
+            raise ValueError("V837m failed diagnostic missing FAILURE.md")
+
 
 def main() -> int:
     validate_integrity_manifest()

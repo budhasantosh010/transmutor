@@ -129,6 +129,66 @@ def main() -> int:
     if matching.get("additive_equals_multiplicative") is not True:
         raise RuntimeError("V837h parameter-matched control is not actually matched")
 
+    # Learned-reference calibration and calibrated cell-law diagnostic.
+    for variant_name in ("V837j", "V837k", "V837l", "V837m"):
+        record = manifest["current_variants"].get(variant_name)
+        if not isinstance(record, dict):
+            raise RuntimeError(f"verification manifest missing {variant_name}")
+        for key in ("source", "documentation", "plots", "diagnostics"):
+            for relative in record.get(key, []):
+                require_path(relative)
+        require_path(record["config"])
+        require_path(record["results"])
+        result = load_json(record["results"])
+        if result.get("version") != variant_name:
+            raise RuntimeError(f"{variant_name} result version mismatch")
+        if result.get("fresh_audit_consumed") is not False:
+            raise RuntimeError(f"{variant_name} unexpectedly consumed fresh-audit data")
+        if result.get("primitive_mining_allowed") is not False:
+            raise RuntimeError(f"{variant_name} unexpectedly reopened primitive mining")
+
+    v837j = load_json(manifest["current_variants"]["V837j"]["results"])
+    if v837j.get("diagnosis") != "BENCHMARK_LEARNABILITY_UNRESOLVED" or v837j.get("pass") is not False:
+        raise RuntimeError("V837j matched-budget diagnosis changed")
+    if int(v837j["models"]["gru_reference"]["parameter_count"]) != 875 or int(v837j["models"]["gru_reference"]["families_passing"]) != 2:
+        raise RuntimeError("V837j GRU calibration record changed")
+
+    v837k = load_json(manifest["current_variants"]["V837k"]["results"])
+    if v837k.get("diagnosis") != "BENCHMARK_LEARNABILITY_UNRESOLVED" or v837k.get("pass") is not False:
+        raise RuntimeError("V837k optimizer-budget diagnosis changed")
+    for multiplier in ("1x", "2x", "4x"):
+        if int(v837k["conditions"][multiplier]["models"]["gru_reference"]["families_passing"]) != 2:
+            raise RuntimeError(f"V837k GRU {multiplier} pass count changed")
+
+    v837l = load_json(manifest["current_variants"]["V837l"]["results"])
+    if v837l.get("diagnosis") != "SAMPLE_EFFICIENCY_FAILURE" or v837l.get("pass") is not True:
+        raise RuntimeError("V837l sample-efficiency diagnosis changed")
+    if int(v837l.get("resolved_at_data_multiplier", 0)) != 4:
+        raise RuntimeError("V837l learnability resolution multiplier changed")
+    if int(v837l["conditions"]["4x"]["gru_reference"]["families_passing"]) != 5:
+        raise RuntimeError("V837l 4x-data GRU no longer passes 5/5")
+    if int(v837l["conditions"]["4x"]["neutral_high_capacity"]["families_passing"]) != 2:
+        raise RuntimeError("V837l calibrated neutral pass count changed")
+
+    v837m = load_json(manifest["current_variants"]["V837m"]["results"])
+    if v837m.get("diagnosis") != "LINEAR_STATE_TRANSPORT_INSUFFICIENT" or v837m.get("pass") is not False:
+        raise RuntimeError("V837m linear-transport diagnosis changed")
+    m_matching = v837m.get("parameter_matching", {})
+    if m_matching.get("exact_match") is not True or int(m_matching.get("linear_transport", 0)) != 1016 or int(m_matching.get("parameter_matched_additive", 0)) != 1016:
+        raise RuntimeError("V837m parameter-matched control changed")
+    if int(v837m["conditions"]["linear_transport"]["families_passing"]) != 2:
+        raise RuntimeError("V837m linear-transport pass count changed")
+    if v837m.get("full_structural_search_allowed") is not False:
+        raise RuntimeError("V837m improperly reopened structural search")
+
+    calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
+    if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
+        raise RuntimeError("learned-reference calibration status changed")
+    if calibration.get("sample_efficiency_failure_supported") is not True:
+        raise RuntimeError("sample-efficiency diagnosis not preserved")
+    if calibration.get("primitive_mining_allowed") is not False or calibration.get("fresh_audit_episodes_consumed") != 0 or calibration.get("primitives_promoted") != 0:
+        raise RuntimeError("learned-reference calibration violated downstream locks")
+
     audit = load_json("experiments/v837_primitive_invention/audit/audit_results.json")
     if audit.get("episodes_consumed") != 0:
         raise RuntimeError("fresh audit episodes have been consumed")

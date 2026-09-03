@@ -9,9 +9,16 @@
     "experiments/v837_primitive_invention/representation_recovery_status.json",
     "experiments/v837_primitive_invention/representation_recovery_resource_accounting.json",
     "verification/model_snapshot_manifest.json",
-    "verification/active_research_sha256.txt"
+    "verification/active_research_sha256.txt",
+    "experiments/v837_primitive_invention/learned_reference_calibration_status.json",
+    "experiments/v837_primitive_invention/learned_reference_calibration_resource_accounting.json",
+    "docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md",
+    "experiments/v837_primitive_invention/v837j/results.json",
+    "experiments/v837_primitive_invention/v837k/results.json",
+    "experiments/v837_primitive_invention/v837l/results.json",
+    "experiments/v837_primitive_invention/v837m/results.json"
   ],
-  "current_scientific_frontier": "generic tanh-centered cell-update family",
+  "current_scientific_frontier": "adaptive generic state-update control after calibrated sample-efficiency diagnosis and failed linear transport",
   "current_variants": {
     "V837d": {
       "config": "experiments/v837_primitive_invention/v837d/config.json",
@@ -68,6 +75,112 @@
       "source": [
         "experiments/v837_primitive_invention/v837h/run_capacity_diagnostic.py"
       ]
+    },
+    "V837j": {
+      "config": "experiments/v837_primitive_invention/v837j/config.json",
+      "diagnosis": "BENCHMARK_LEARNABILITY_UNRESOLVED",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837j/diagnostics/raw_runs.json",
+        "experiments/v837_primitive_invention/v837j/diagnostics/baseline_compatibility.json",
+        "experiments/v837_primitive_invention/v837j/diagnostics/learning_curve_summary.json",
+        "experiments/v837_primitive_invention/v837j/diagnostics/analysis_summary.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837j/README.md",
+        "experiments/v837_primitive_invention/v837j/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837j/FAILURE.md",
+        "experiments/v837_primitive_invention/v837j/frozen_reference_gate.json"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837j/plots/reference_family_scores.png",
+        "experiments/v837_primitive_invention/v837j/plots/families_passing_by_reference.png",
+        "experiments/v837_primitive_invention/v837j/plots/training_vs_validation.png",
+        "experiments/v837_primitive_invention/v837j/plots/learning_curves.png",
+        "experiments/v837_primitive_invention/v837j/plots/parameter_count_vs_success.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837j/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837j/run_reference_calibration.py",
+        "experiments/v837_primitive_invention/v837j/analyze_results.py",
+        "experiments/v837_primitive_invention/common/reference_models.py",
+        "experiments/v837_primitive_invention/common/reference_training.py"
+      ],
+      "status": "DIAGNOSTIC_FAIL"
+    },
+    "V837k": {
+      "config": "experiments/v837_primitive_invention/v837k/config.json",
+      "diagnosis": "BENCHMARK_LEARNABILITY_UNRESOLVED",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837k/diagnostics/raw_runs_2x.json",
+        "experiments/v837_primitive_invention/v837k/diagnostics/raw_runs_4x.json",
+        "experiments/v837_primitive_invention/v837k/diagnostics/analysis_summary.json",
+        "experiments/v837_primitive_invention/v837k/diagnostics/plot_data.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837k/README.md",
+        "experiments/v837_primitive_invention/v837k/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837k/FAILURE.md"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837k/plots/families_passing_by_step_budget.png",
+        "experiments/v837_primitive_invention/v837k/plots/learning_curves_by_step_budget.png",
+        "experiments/v837_primitive_invention/v837k/plots/validation_scores_by_step_budget.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837k/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837k/run_training_budget_diagnostic.py",
+        "experiments/v837_primitive_invention/v837k/analyze_results.py"
+      ],
+      "status": "DIAGNOSTIC_FAIL"
+    },
+    "V837l": {
+      "config": "experiments/v837_primitive_invention/v837l/config.json",
+      "diagnosis": "SAMPLE_EFFICIENCY_FAILURE",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837l/diagnostics/raw_runs_2x.json",
+        "experiments/v837_primitive_invention/v837l/diagnostics/raw_runs_4x.json",
+        "experiments/v837_primitive_invention/v837l/diagnostics/analysis_summary.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837l/README.md",
+        "experiments/v837_primitive_invention/v837l/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837l/PASS.md"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837l/plots/families_passing_by_data_budget.png",
+        "experiments/v837_primitive_invention/v837l/plots/validation_by_data_budget.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837l/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837l/run_data_diagnostic.py",
+        "experiments/v837_primitive_invention/v837l/analyze_results.py"
+      ],
+      "status": "DIAGNOSTIC_PASS"
+    },
+    "V837m": {
+      "config": "experiments/v837_primitive_invention/v837m/config.json",
+      "diagnosis": "LINEAR_STATE_TRANSPORT_INSUFFICIENT",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837m/diagnostics/raw_runs.json",
+        "experiments/v837_primitive_invention/v837m/diagnostics/analysis_summary.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837m/README.md",
+        "experiments/v837_primitive_invention/v837m/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837m/FAILURE.md"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837m/plots/families_passing_by_update_mode.png",
+        "experiments/v837_primitive_invention/v837m/plots/family_scores_by_update_mode.png",
+        "experiments/v837_primitive_invention/v837m/plots/parameter_count_control.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837m/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837m/run_capacity_diagnostic.py",
+        "experiments/v837_primitive_invention/v837m/analyze_results.py",
+        "experiments/v837_primitive_invention/common/substrate.py"
+      ],
+      "status": "FAIL"
     }
   },
   "fresh_audit_consumed": false,
@@ -91,8 +204,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "4d065927ad0cc2ccf92808cd2e984c2e6c0e7ca7",
-  "main_sha_semantics": "Research-state SHA indexed by this package. The verification-only commit containing this manifest necessarily has a later SHA; use git rev-parse HEAD for that container commit.",
+  "main_sha": "cff95b53956e6bbf609c3bf597bb7d771c859d72",
+  "main_sha_semantics": "Research-state SHA indexed by this verification package. The verification-package commit containing this manifest necessarily has a later SHA; use git rev-parse HEAD for the container commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -104,18 +217,24 @@
     "docs/POST_V836_FRONTIER_AUDIT.md",
     "docs/V837_PRIMITIVE_INVENTION_REPORT.md",
     "docs/V837_REPRESENTATION_RECOVERY_REPORT.md",
-    "docs/LIVE_REPO_VERIFICATION.md"
+    "docs/LIVE_REPO_VERIFICATION.md",
+    "docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 representation recovery",
-  "research_sha": "4d065927ad0cc2ccf92808cd2e984c2e6c0e7ca7",
+  "research_lineage": "V837 learned-reference calibration and cell-law diagnosis",
+  "research_sha": "cff95b53956e6bbf609c3bf597bb7d771c859d72",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
     "tests/test_v837_research.py",
     "tests/test_v837d_representation.py",
     "tests/test_v837g_representation.py",
-    "tests/test_v837h_representation.py"
+    "tests/test_v837h_representation.py",
+    "tests/test_v837j_reference_calibration.py",
+    "tests/test_v837k_training_budget.py",
+    "tests/test_v837l_data_budget.py",
+    "tests/test_v837m_linear_transport.py",
+    "tests/test_v837_learned_reference_outcome.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",

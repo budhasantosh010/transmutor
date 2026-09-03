@@ -19,6 +19,22 @@ VARIANT_COMMANDS = {
     "v837h": [
         [sys.executable, "experiments/v837_primitive_invention/v837h/run_capacity_diagnostic.py"],
     ],
+    "v837j": [
+        [sys.executable, "experiments/v837_primitive_invention/v837j/run_reference_calibration.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837j/analyze_results.py"],
+    ],
+    "v837k": [
+        [sys.executable, "experiments/v837_primitive_invention/v837k/run_training_budget_diagnostic.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837k/analyze_results.py"],
+    ],
+    "v837l": [
+        [sys.executable, "experiments/v837_primitive_invention/v837l/run_data_diagnostic.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837l/analyze_results.py"],
+    ],
+    "v837m": [
+        [sys.executable, "experiments/v837_primitive_invention/v837m/run_capacity_diagnostic.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837m/analyze_results.py"],
+    ],
 }
 
 
@@ -29,7 +45,7 @@ def display_command(command: list[str]) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Show or explicitly execute the preserved V837 representation-recovery entrypoints. "
+            "Show or explicitly execute the preserved V837 representation-recovery and learned-reference calibration entrypoints. "
             "By default this command is read-only and does not launch research runs."
         )
     )
