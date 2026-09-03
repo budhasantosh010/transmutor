@@ -1,0 +1,35 @@
+{
+  "experiment": "V837m",
+  "parent": "V837l",
+  "question": "Does stable general linear state transport recover neutral-cell competence under the calibrated learnable data regime?",
+  "single_change": "cell state update form within a four-condition fixed-topology diagnostic; all conditions share the V837l 4x calibrated data regime",
+  "calibration_basis": "V837l GRU reached 5/5 only at 4x unique development data; V837m therefore uses that shared learnable data regime for every cell-law condition",
+  "conditions": {
+    "historical_direct": {"state_update_mode": "direct", "parameter_count_expected": 856},
+    "scalar_persistence": {"state_update_mode": "learned_leaky", "alpha_init": 0.5, "parameter_count_expected": 866},
+    "linear_transport": {"state_update_mode": "linear_transport", "transport_rho": 0.95, "parameter_count_expected": 1016},
+    "parameter_matched_additive": {"state_update_mode": "transport_matched_additive", "transport_rho": 0.95, "parameter_count_expected": 1016}
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "steps": 192,
+    "train_episodes": 512,
+    "development_seed_range": [10000, 10511],
+    "validation_episodes": 128,
+    "validation_seed_range": [20000, 20127],
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "replicates": 5,
+    "curve_steps": [0, 32, 64, 96, 128, 160, 192]
+  },
+  "topology": {"cells": 10, "internal_edges": 55, "source": "high_capacity_generic_graph"},
+  "transport_stability": {"parameterization": "A = rho * B / spectral_norm(B)", "rho": 0.95},
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "families_required": 4,
+  "fresh_audit_allowed": false,
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "cpu_only": true
+}

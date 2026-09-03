@@ -13,6 +13,7 @@ from .graph import GraphSpec
 @dataclass
 class ForwardTrace:
     states: torch.Tensor  # [B,T,N,D]
+    candidate_states: torch.Tensor  # [B,T,N,D], tanh candidate before any carry/transport
     outputs: torch.Tensor  # [B,T,N,D]
     messages: torch.Tensor  # [B,T,N,M]
     recurrent_terms: torch.Tensor  # [B,T,N,D]
@@ -32,6 +33,7 @@ class NeutralGraphModel(nn.Module):
         *,
         state_update_mode: str = "direct",
         alpha_init: float = 0.5,
+        transport_rho: float = 0.95,
         interaction_mode: str = "none",
         interaction_rank: int = 2,
     ):
@@ -43,12 +45,15 @@ class NeutralGraphModel(nn.Module):
         self.obs_dim = int(obs_dim)
         self.state_dim = int(state_dim)
         self.message_dim = int(message_dim)
-        if state_update_mode not in {"direct", "learned_leaky"}:
+        if state_update_mode not in {"direct", "learned_leaky", "linear_transport", "transport_matched_additive"}:
             raise ValueError(f"unknown state_update_mode: {state_update_mode}")
         if not 0.0 < float(alpha_init) < 1.0:
             raise ValueError("alpha_init must be strictly between 0 and 1")
+        if not 0.0 < float(transport_rho) <= 1.0:
+            raise ValueError("transport_rho must be in (0,1]")
         self.state_update_mode = state_update_mode
         self.alpha_init = float(alpha_init)
+        self.transport_rho = float(transport_rho)
         if interaction_mode not in {"none", "low_rank_multiplicative", "parameter_matched_additive"}:
             raise ValueError(f"unknown interaction_mode: {interaction_mode}")
         if int(interaction_rank) <= 0:
@@ -75,6 +80,7 @@ class NeutralGraphModel(nn.Module):
         self.cell_b = nn.ParameterList()
         self.cell_wo = nn.ParameterList()
         self.cell_alpha_logits = nn.ParameterList()
+        self.cell_transport_raw = nn.ParameterList()
         self.cell_as = nn.ParameterList(); self.cell_am = nn.ParameterList(); self.cell_ax = nn.ParameterList()
         self.cell_bs = nn.ParameterList(); self.cell_bm = nn.ParameterList(); self.cell_bx = nn.ParameterList()
         self.cell_cu = nn.ParameterList(); self.cell_cv = nn.ParameterList(); self.cell_ci = nn.ParameterList()
@@ -109,6 +115,8 @@ class NeutralGraphModel(nn.Module):
             if self.state_update_mode == "learned_leaky":
                 logit = math.log(self.alpha_init / (1.0 - self.alpha_init))
                 self.cell_alpha_logits.append(nn.Parameter(torch.tensor(logit, dtype=torch.float32)))
+            elif self.state_update_mode in {"linear_transport", "transport_matched_additive"}:
+                self.cell_transport_raw.append(nn.Parameter(torch.eye(state_dim, dtype=torch.float32)))
         self.edge_weights = nn.ParameterList([nn.Parameter(torch.tensor(float(edge.weight), dtype=torch.float32)) for edge in self.graph.edges])
         self.readout = nn.Linear(len(self.graph.cells) * state_dim, 1)
 
@@ -144,6 +152,7 @@ class NeutralGraphModel(nn.Module):
         prev_states = [torch.zeros(batch, self.state_dim, device=device) for _ in range(n)]
         prev_outputs = [torch.zeros(batch, self.message_dim, device=device) for _ in range(n)]
         state_trace: list[torch.Tensor] = []
+        candidate_state_trace: list[torch.Tensor] = []
         output_trace: list[torch.Tensor] = []
         aggregate_message_trace: list[torch.Tensor] = []
         recurrent_term_trace: list[torch.Tensor] = []
@@ -152,6 +161,7 @@ class NeutralGraphModel(nn.Module):
         for t in range(steps):
             x_t = observations[:, t, :]
             current_states: list[torch.Tensor] = []
+            current_candidates: list[torch.Tensor] = []
             current_outputs: list[torch.Tensor] = []
             current_messages: list[torch.Tensor] = []
             current_recurrent_terms: list[torch.Tensor] = []
@@ -160,6 +170,7 @@ class NeutralGraphModel(nn.Module):
             for cell_index in range(n):
                 if cell_index in disabled:
                     state = torch.zeros(batch, self.state_dim, device=device)
+                    candidate_state = torch.zeros(batch, self.state_dim, device=device)
                     output = torch.zeros(batch, self.message_dim, device=device)
                     message = torch.zeros(batch, self.message_dim, device=device)
                     recurrent_term = torch.zeros(batch, self.state_dim, device=device)
@@ -207,12 +218,20 @@ class NeutralGraphModel(nn.Module):
                             # but no elementwise interaction.
                             extra = (u + v) @ self.cell_ci[cell_index].T
                         preactivation = u @ self.cell_cu[cell_index].T + v @ self.cell_cv[cell_index].T + extra + self.cell_b[cell_index]
+                    if self.state_update_mode == "transport_matched_additive":
+                        transport = self._stable_transport_matrix(cell_index)
+                        preactivation = preactivation + prev_states[cell_index] @ transport.T
                     candidate_state = torch.tanh(preactivation)
                     if self.state_update_mode == "direct":
                         proposed_state = candidate_state
-                    else:
+                    elif self.state_update_mode == "learned_leaky":
                         alpha = torch.sigmoid(self.cell_alpha_logits[cell_index])
                         proposed_state = (1.0 - alpha) * prev_states[cell_index] + alpha * candidate_state
+                    elif self.state_update_mode == "linear_transport":
+                        transport = self._stable_transport_matrix(cell_index)
+                        proposed_state = prev_states[cell_index] @ transport.T + candidate_state
+                    else:
+                        proposed_state = candidate_state
                     proposed_output = proposed_state @ self.cell_wo[cell_index].T
                     if lengths is not None:
                         active = (t < lengths).to(observations.dtype).unsqueeze(1)
@@ -227,6 +246,7 @@ class NeutralGraphModel(nn.Module):
                         state = proposed_state
                         output = proposed_output
                 current_states.append(state)
+                current_candidates.append(candidate_state)
                 current_outputs.append(output)
                 if return_trace:
                     current_messages.append(message)
@@ -237,6 +257,7 @@ class NeutralGraphModel(nn.Module):
             prev_outputs = current_outputs
             if return_trace:
                 state_trace.append(torch.stack(current_states, dim=1))
+                candidate_state_trace.append(torch.stack(current_candidates, dim=1))
                 output_trace.append(torch.stack(current_outputs, dim=1))
                 aggregate_message_trace.append(torch.stack(current_messages, dim=1))
                 recurrent_term_trace.append(torch.stack(current_recurrent_terms, dim=1))
@@ -247,6 +268,7 @@ class NeutralGraphModel(nn.Module):
         if return_trace:
             trace = ForwardTrace(
                 states=torch.stack(state_trace, dim=1),
+                candidate_states=torch.stack(candidate_state_trace, dim=1),
                 outputs=torch.stack(output_trace, dim=1),
                 messages=torch.stack(aggregate_message_trace, dim=1),
                 recurrent_terms=torch.stack(recurrent_term_trace, dim=1),
@@ -263,9 +285,29 @@ class NeutralGraphModel(nn.Module):
         return sum(parameter.numel() * parameter.element_size() for parameter in self.parameters())
 
     def state_update_coefficients(self) -> list[float]:
-        if self.state_update_mode == "direct":
+        if self.state_update_mode != "learned_leaky":
             return [1.0] * len(self.graph.cells)
         return [float(torch.sigmoid(value).detach().cpu().item()) for value in self.cell_alpha_logits]
+
+    def _stable_transport_matrix(self, cell_index: int) -> torch.Tensor:
+        raw = self.cell_transport_raw[cell_index]
+        spectral_norm = torch.linalg.matrix_norm(raw, ord=2)
+        return self.transport_rho * raw / torch.clamp(spectral_norm, min=1e-6)
+
+    def transport_diagnostics(self) -> list[dict[str, float]]:
+        if self.state_update_mode not in {"linear_transport", "transport_matched_additive"}:
+            return []
+        output: list[dict[str, float]] = []
+        with torch.no_grad():
+            for index in range(len(self.cell_transport_raw)):
+                matrix = self._stable_transport_matrix(index).detach().cpu()
+                eigenvalues = torch.linalg.eigvals(matrix)
+                output.append({
+                    "cell_index": float(index),
+                    "spectral_norm": float(torch.linalg.matrix_norm(matrix, ord=2).item()),
+                    "spectral_radius": float(torch.max(torch.abs(eigenvalues)).item()),
+                })
+        return output
 
 
 def clone_with_state(model: NeutralGraphModel) -> NeutralGraphModel:
@@ -276,6 +318,7 @@ def clone_with_state(model: NeutralGraphModel) -> NeutralGraphModel:
         message_dim=model.message_dim,
         state_update_mode=model.state_update_mode,
         alpha_init=model.alpha_init,
+        transport_rho=model.transport_rho,
         interaction_mode=model.interaction_mode,
         interaction_rank=model.interaction_rank,
     )
