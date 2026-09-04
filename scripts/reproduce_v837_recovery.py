@@ -50,6 +50,11 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837p/run_transfer.py"],
         [sys.executable, "experiments/v837_primitive_invention/v837p/analyze_results.py"],
     ],
+    "v837q": [
+        [sys.executable, "experiments/v837_primitive_invention/v837q/run_state_organization_diagnostic.py", "--phase", "baseline"],
+        [sys.executable, "experiments/v837_primitive_invention/v837q/run_state_organization_diagnostic.py", "--phase", "primary"],
+        [sys.executable, "experiments/v837_primitive_invention/v837q/analyze_results.py"],
+    ],
 }
 
 

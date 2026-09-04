@@ -263,6 +263,44 @@ def main() -> int:
     if shared.get("fresh_audit_episodes_consumed") != 0 or shared.get("primitives_promoted") != 0:
         raise RuntimeError("shared-state-path status violated audit/primitive locks")
 
+    # Shared-state organization localization.
+    q_record = manifest["current_variants"].get("V837q")
+    if not isinstance(q_record, dict):
+        raise RuntimeError("verification manifest missing V837q")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in q_record.get(key, []):
+            require_path(relative)
+    require_path(q_record["config"])
+    require_path(q_record["frozen_gate"])
+    v837q = load_json(q_record["results"])
+    if v837q.get("version") != "V837q" or v837q.get("diagnostic_pass") is not True:
+        raise RuntimeError("V837q diagnostic result changed")
+    if v837q.get("diagnosis") != "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED" or v837q.get("representation_adequacy_pass") is not False:
+        raise RuntimeError("V837q state-organization diagnosis changed")
+    expected_q = {"Q0_local_10x4": 2, "Q1_group5_5x8": 2, "Q2_group2_2x20": 2, "Q3_shared_1x40": 2}
+    actual_q = {name: int(row.get("families_passing", -1)) for name, row in v837q.get("conditions", {}).items()}
+    if actual_q != expected_q:
+        raise RuntimeError("V837q primary family-count outcome changed")
+    expected_q_refs = {"QR1_dense_vanilla_rnn_40": 2, "QR2_gru_reference": 5}
+    actual_q_refs = {name: int(row.get("families_passing", -1)) for name, row in v837q.get("references", {}).items()}
+    if actual_q_refs != expected_q_refs:
+        raise RuntimeError("V837q reference-control outcome changed")
+    for name in expected_q:
+        record = v837q["conditions"][name]
+        if int(record.get("parameter_count", -1)) != 856 or sum(record.get("layout", {}).get("group_dims", [])) != 40:
+            raise RuntimeError(f"V837q state/parameter matching changed for {name}")
+    if v837q.get("q3_no_message_control") is not None or v837q.get("projection_sensitivity") is not None:
+        raise RuntimeError("V837q conditional controls ran despite failed Q3 gate")
+    if v837q.get("fresh_audit_consumed") is not False or v837q.get("primitive_mining_allowed") is not False or v837q.get("structural_search_allowed") is not False:
+        raise RuntimeError("V837q reopened locked science")
+    q_status = load_json("experiments/v837_primitive_invention/shared_state_organization_status.json")
+    if q_status.get("outcome") != "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED" or q_status.get("representation_adequacy") != "FAIL":
+        raise RuntimeError("shared-state-organization status changed")
+    if q_status.get("full_structural_search_allowed") is not False or q_status.get("primitive_mining_allowed") is not False:
+        raise RuntimeError("shared-state-organization status reopened downstream science")
+    if q_status.get("fresh_audit_episodes_consumed") != 0 or q_status.get("primitives_promoted") != 0 or q_status.get("v838_started") is not False:
+        raise RuntimeError("shared-state-organization status violated audit/primitive/V838 locks")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

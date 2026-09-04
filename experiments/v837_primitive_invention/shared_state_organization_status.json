@@ -1,0 +1,28 @@
+{
+  "program": "V837Q+ shared-state organization localization",
+  "version": "V837q",
+  "parent": "V837p",
+  "start_sha": "f20316fd2aca8751b32226d653ac5b5f6976c7b3",
+  "outcome": "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED",
+  "diagnostic_pass": true,
+  "representation_adequacy": "FAIL",
+  "families_passing": {
+    "Q0_local_10x4": 2,
+    "Q1_group5_5x8": 2,
+    "Q2_group2_2x20": 2,
+    "Q3_shared_1x40": 2,
+    "QR1_dense_vanilla_rnn_40": 2,
+    "QR2_gru_reference": 5
+  },
+  "q3_no_message_control_run": false,
+  "projection_sensitivity_run": false,
+  "conditional_controls_reason": "Q3 failed the >=4/5 representation-adequacy gate, so conditional Q3 controls remained blocked.",
+  "sample_efficiency_retest_allowed": false,
+  "full_structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "downstream_variants_started": [],
+  "next_single_variable": "global cross-dimensional recurrent coupling while holding recurrent-state capacity and benchmark regime fixed"
+}

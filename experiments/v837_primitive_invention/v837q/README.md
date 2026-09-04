@@ -29,3 +29,7 @@ python experiments/v837_primitive_invention/v837q/analyze_results.py
 ```
 
 Conditional no-message/projection-sensitivity controls are guarded by the completed Q3 result and are not part of the default run.
+
+## Final outcome
+
+Q0/Q1/Q2/Q3 each reached **2/5** families under the matched 4× regime. The dense 40D vanilla RNN reference also reached **2/5**, while the calibrated GRU reference remained **5/5**. Q3 therefore did not unlock the no-message or projection-sensitivity controls. The frozen diagnosis is **STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED**; representation adequacy remains failed, structural search and primitive mining remain blocked, and the next single variable is global cross-dimensional recurrent coupling rather than state ownership.

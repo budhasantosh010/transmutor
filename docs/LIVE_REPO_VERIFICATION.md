@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This file is the compact entry point for independent review of the live private repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, successful-GRU mechanism localization, V837o factorial shared-property localization, and the single authorized V837p neutral transfer. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
+This file is the compact entry point for independent review of the live private repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, successful-GRU mechanism localization, V837o factorial shared-property localization, the single authorized V837p neutral transfer, and the V837q shared-state organization diagnostic. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
 
 ## Historical boundary
 
@@ -13,6 +13,7 @@ This file is the compact entry point for independent review of the live private 
 - V837n is frozen successful-reference mechanism localization evidence.
 - V837o is factorial shared-property localization inside the successful reference.
 - V837p is the one neutral transfer authorized by V837o; learned references are never Transmutor primitives.
+- V837q is the shared-state organization diagnostic; it preserves 40 total recurrent dimensions while varying state ownership from 10 local groups to one fully shared state.
 
 ## Primary evidence paths
 
@@ -36,6 +37,14 @@ This file is the compact entry point for independent review of the live private 
 | V837o raw factorial runs | `experiments/v837_primitive_invention/v837o/raw/factorial_runs.json` |
 | V837p dynamic-modulator transfer results | `experiments/v837_primitive_invention/v837p/results.json` |
 | V837p raw neutral-transfer runs | `experiments/v837_primitive_invention/v837p/raw/runs.json` |
+| V837q shared-state organization results | `experiments/v837_primitive_invention/v837q/results.json` |
+| V837q shared-state model implementation | `experiments/v837_primitive_invention/v837q/state_organization_models.py` |
+| V837q raw baseline runs | `experiments/v837_primitive_invention/v837q/raw/baseline_runs.json` |
+| V837q raw primary/reference runs | `experiments/v837_primitive_invention/v837q/raw/primary_runs.json` |
+| V837q decision state | `experiments/v837_primitive_invention/v837q/diagnostics/decision_state.json` |
+| V837Q+ program status | `experiments/v837_primitive_invention/shared_state_organization_status.json` |
+| V837Q+ resource accounting | `experiments/v837_primitive_invention/shared_state_organization_resource_accounting.json` |
+| V837Q+ final report | `docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md` |
 | V837O+ program status | `experiments/v837_primitive_invention/shared_state_path_localization_status.json` |
 | V837O+ resource accounting | `experiments/v837_primitive_invention/shared_state_path_localization_resource_accounting.json` |
 | V837O+ final report | `docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md` |
@@ -107,9 +116,19 @@ dynamic scalar state modulation        3/5
 parameter-matched dynamic additive     3/5
         ↓
 SHARED_PROPERTY_TRANSFER_FAILURE
+        ↓
+V837q state-organization localization @ 4x data
+Q0 local 10x4                         2/5
+Q1 shared 5x8                         2/5
+Q2 shared 2x20                        2/5
+Q3 fully shared 1x40                  2/5
+dense vanilla RNN 40D                 2/5
+GRU reference                         5/5
+        ↓
+STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED
 ```
 
-The reference-side result now localizes a shared property more tightly: at least one temporally/state-conditioned dynamic modulation path is required for the successful dense reference, while static vector/scalar pathways are insufficient. The one authorized neutral transfer improved the fixed neutral graph to 3/5 but did not reach the 4/5 representation-adequacy gate, and the exactly parameter-matched dynamic additive control also reached 3/5. Therefore no structural-search or primitive-mining stage is reopened.
+The reference-side result localizes a shared property tightly: at least one temporally/state-conditioned dynamic modulation path is required for the successful dense reference, while static vector/scalar pathways are insufficient. The one authorized neutral transfer improved the fixed neutral graph to 3/5 but did not reach the 4/5 representation-adequacy gate, and the exactly parameter-matched dynamic additive control also reached 3/5. V837q then isolated state ownership itself: all four 40-dimensional neutral layouts—10 local states, 5 shared groups, 2 shared groups, and one fully shared state—remained 2/5 with exactly 856 trainable parameters. The dense 40D vanilla RNN control also remained 2/5 while the GRU reference stayed 5/5. Therefore recurrent-state fragmentation by itself is not supported as the remaining bottleneck, and no structural-search or primitive-mining stage is reopened.
 
 ## Historical SHA-256 anchors
 
@@ -129,9 +148,10 @@ These pre-existing scientific integrity anchors remain unchanged. Canonical GitH
 - Full structural search: **blocked**.
 - V837o: **complete — DYNAMIC_STATE_MODULATION_REQUIRED**.
 - V837p: **complete — SHARED_PROPERTY_TRANSFER_FAILURE, 3/5**.
-- V837q/r/s/t: **not run**.
+- V837q: **complete — STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED; Q0/Q1/Q2/Q3 all 2/5**.
+- V837r/s/t/u: **not run**.
 - V838: **not started**.
-- Current scientific frontier: **test dense shared hidden-state organization versus decomposed cell-local recurrent state as the next isolated difference; do not add more GRU machinery or reopen structural search yet**.
+- Current scientific frontier: **test global cross-dimensional recurrent coupling as the next isolated difference; do not add GRU machinery, dynamic modulation, structural search, or primitive mining at the same time**.
 
 ## Fast verification
 

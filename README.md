@@ -35,4 +35,5 @@ The repository is private during cleanup and evidence reconstruction.
 - [V837 learned-reference calibration report](docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md)
 - [V837 GRU mechanism-localization report](docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md)
 - [V837 shared-state-path localization report](docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md)
+- [V837 shared-state-organization report](docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md)
 - [Live repository verification index](docs/LIVE_REPO_VERIFICATION.md)

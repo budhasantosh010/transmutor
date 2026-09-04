@@ -144,7 +144,20 @@ def validate_v837_shared_state_organization() -> None:
         raise ValueError("V837q QR2 parameter count changed")
     if result.get("diagnosis") not in {"STATE_FRAGMENTATION_CRITICAL", "STATE_SHARING_PARTIAL_BENEFIT", "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED", "INTERMEDIATE_MODULARITY_OPTIMAL"}:
         raise ValueError("V837q diagnosis is not a frozen allowed outcome")
-    if result.get("diagnostic_pass") is not True or result.get("fresh_audit_consumed") is not False or result.get("primitive_mining_allowed") is not False or result.get("structural_search_allowed") is not False:
+    expected_passes = {
+        "Q0_local_10x4": 2,
+        "Q1_group5_5x8": 2,
+        "Q2_group2_2x20": 2,
+        "Q3_shared_1x40": 2,
+    }
+    actual_passes = {name: int(row.get("families_passing", -1)) for name, row in result.get("conditions", {}).items()}
+    if actual_passes != expected_passes or result.get("diagnosis") != "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED":
+        raise ValueError("V837q frozen state-sharing outcome changed")
+    expected_references = {"QR1_dense_vanilla_rnn_40": 2, "QR2_gru_reference": 5}
+    actual_references = {name: int(row.get("families_passing", -1)) for name, row in result.get("references", {}).items()}
+    if actual_references != expected_references:
+        raise ValueError("V837q frozen reference-control outcome changed")
+    if result.get("diagnostic_pass") is not True or result.get("representation_adequacy_pass") is not False or result.get("fresh_audit_consumed") is not False or result.get("primitive_mining_allowed") is not False or result.get("structural_search_allowed") is not False:
         raise ValueError("V837q result violated diagnostic/science locks")
     decision = load_json(HERE / "diagnostics" / "decision_state.json")
     if decision.get("v837q_complete") is not True or decision.get("diagnosis") != result.get("diagnosis"):
@@ -160,9 +173,27 @@ def validate_v837_shared_state_organization() -> None:
     if not (HERE / "PASS.md").exists():
         raise ValueError("V837q diagnostic PASS documentation missing")
 
+    status_path = BASE / "shared_state_organization_status.json"
+    accounting_path = BASE / "shared_state_organization_resource_accounting.json"
+    if not status_path.exists() or not accounting_path.exists():
+        raise ValueError("V837q final program status/resource accounting missing")
+    status = load_json(status_path)
+    if status.get("outcome") != "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED" or status.get("representation_adequacy") != "FAIL":
+        raise ValueError("V837q final program outcome changed")
+    if status.get("full_structural_search_allowed") is not False or status.get("primitive_mining_allowed") is not False:
+        raise ValueError("V837q final status reopened downstream science")
+    if int(status.get("fresh_audit_episodes_consumed", -1)) != 0 or int(status.get("primitives_promoted", -1)) != 0 or status.get("v838_started") is not False:
+        raise ValueError("V837q final status violated audit/primitive/V838 locks")
+    accounting = load_json(accounting_path)
+    totals = accounting.get("totals", {})
+    if int(totals.get("model_fits", -1)) != 150 or int(totals.get("optimizer_steps", -1)) != 28800:
+        raise ValueError("V837q resource accounting changed")
+    if int(totals.get("fresh_audit_episodes", -1)) != 0 or int(totals.get("structural_search_runs", -1)) != 0 or int(totals.get("motif_mining_runs", -1)) != 0:
+        raise ValueError("V837q resource accounting contains forbidden downstream work")
+
     report = ROOT / "docs" / "V837_SHARED_STATE_ORGANIZATION_REPORT.md"
-    if report.exists() and not report.read_text(encoding="utf-8").strip():
-        raise ValueError("V837q report is empty")
+    if not report.exists() or not report.read_text(encoding="utf-8").strip():
+        raise ValueError("V837q final scientific report missing or empty")
 
 
 if __name__ == "__main__":
