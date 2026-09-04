@@ -1,0 +1,515 @@
+{
+  "G1_dynamic_update_no_reset": {
+    "conditional_routing": {
+      "ci": [
+        -0.084375,
+        0.00625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.034375,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.0125,
+        0.0234375
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": 0.0046875,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        0.0,
+        0.0046875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": 0.0015625,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.009375,
+        0.00625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0015625,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.046875,
+        -0.015625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.028125,
+      "median_difference": -0.015625,
+      "n": 5
+    }
+  },
+  "G2_no_update_dynamic_reset": {
+    "conditional_routing": {
+      "ci": [
+        -0.1453125,
+        -0.0171875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.078125,
+      "median_difference": -0.0390625,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.35,
+        0.009375
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.1171875,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.021875,
+        -0.0125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0171875,
+      "median_difference": -0.015625,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.0140625,
+        -0.0046875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.009375,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        0.0375,
+        0.0859375
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": 0.059375,
+      "median_difference": 0.046875,
+      "n": 5
+    }
+  },
+  "G3_static_update_vector_no_reset": {
+    "conditional_routing": {
+      "ci": [
+        -0.4234375,
+        -0.303125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.3609375,
+      "median_difference": -0.375,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.028125,
+        -0.0046875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.015625,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.0078125,
+        0.003125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.003125,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.015625,
+        -0.0015625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0078125,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.1078125,
+        -0.0515625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.078125,
+      "median_difference": -0.0703125,
+      "n": 5
+    }
+  },
+  "G4_no_update_static_reset_vector": {
+    "conditional_routing": {
+      "ci": [
+        -0.3890625,
+        -0.2453125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.3125,
+      "median_difference": -0.3125,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.021875,
+        0.0
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.009375,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.015625,
+        -0.00625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0125,
+      "median_difference": -0.015625,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.0125,
+        -0.003125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0078125,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.1390625,
+        -0.059375
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0953125,
+      "median_difference": -0.09375,
+      "n": 5
+    }
+  },
+  "G5_static_update_vector_static_reset_vector": {
+    "conditional_routing": {
+      "ci": [
+        -0.4734375,
+        -0.321875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.4015625,
+      "median_difference": -0.390625,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.040625,
+        -0.009375
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0234375,
+      "median_difference": -0.015625,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.0109375,
+        -0.0015625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.00625,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.00625,
+        0.0
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.003125,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.115625,
+        -0.0671875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0921875,
+      "median_difference": -0.109375,
+      "n": 5
+    }
+  },
+  "G6_static_update_scalar_static_reset_vector": {
+    "conditional_routing": {
+      "ci": [
+        -0.46875,
+        -0.3375
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.403125,
+      "median_difference": -0.390625,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.0484375,
+        -0.0140625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.03125,
+      "median_difference": -0.0234375,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.0109375,
+        -0.0015625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.00625,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.00625,
+        0.0
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.003125,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.1265625,
+        -0.0671875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.096875,
+      "median_difference": -0.1171875,
+      "n": 5
+    }
+  },
+  "G7_static_update_vector_static_reset_scalar": {
+    "conditional_routing": {
+      "ci": [
+        -0.46875,
+        -0.346875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.409375,
+      "median_difference": -0.40625,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.040625,
+        -0.0203125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0296875,
+      "median_difference": -0.0234375,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.0109375,
+        -0.0015625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.00625,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.00625,
+        0.0
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.003125,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.115625,
+        -0.0609375
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0890625,
+      "median_difference": -0.109375,
+      "n": 5
+    }
+  },
+  "G8_static_update_scalar_static_reset_scalar": {
+    "conditional_routing": {
+      "ci": [
+        -0.4796875,
+        -0.3421875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.4078125,
+      "median_difference": -0.3828125,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.0578125,
+        -0.0171875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0375,
+      "median_difference": -0.0390625,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.0109375,
+        -0.0015625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.00625,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.00625,
+        0.0
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.003125,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.1265625,
+        -0.071875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.1,
+      "median_difference": -0.1171875,
+      "n": 5
+    }
+  },
+  "G9_no_update_no_reset": {
+    "conditional_routing": {
+      "ci": [
+        -0.259375,
+        -0.1125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.2015625,
+      "median_difference": -0.234375,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.0171875,
+        0.0140625
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.0046875,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.0078125,
+        -0.003125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.00625,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.0296875,
+        0.003125
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.009375,
+      "median_difference": 0.0,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.065625,
+        -0.0046875
+      ],
+      "confidence": 0.95,
+      "definition": "condition_minus_full_gru",
+      "mean_difference": -0.034375,
+      "median_difference": -0.0390625,
+      "n": 5
+    }
+  }
+}

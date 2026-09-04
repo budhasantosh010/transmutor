@@ -1,0 +1,3146 @@
+{
+  "G1_dynamic_update_no_reset": {
+    "active_parameter_count": 602,
+    "counterfactual_flattening": {},
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 2.0196896457491675e-06,
+          "median": 2.0196896457491675e-06,
+          "n": 25,
+          "p10": 2.019689418375492e-06,
+          "p90": 2.019689873122843e-06,
+          "std": 1.4676907639293468e-13
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 1.0,
+          "median": 1.0,
+          "n": 25,
+          "p10": 1.0,
+          "p90": 1.0,
+          "std": 0.0
+        },
+        "median": {
+          "mean": 1.0,
+          "median": 1.0,
+          "n": 25,
+          "p10": 1.0,
+          "p90": 1.0,
+          "std": 0.0
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 0.5777503705024719,
+          "median": 0.5813187956809998,
+          "n": 25,
+          "p10": 0.5059701442718506,
+          "p90": 0.6435574173927308,
+          "std": 0.05926443075775231
+        },
+        "input_conditioned_variance": {
+          "mean": 0.018248096574097872,
+          "median": 0.016273463144898415,
+          "n": 25,
+          "p10": 0.006404119543731213,
+          "p90": 0.028118531405925757,
+          "std": 0.011488116334084345
+        },
+        "mean": {
+          "mean": 0.41251878972560013,
+          "median": 0.40815548818798175,
+          "n": 25,
+          "p10": 0.36054368756647265,
+          "p90": 0.47531064282230034,
+          "std": 0.04804844306163213
+        },
+        "median": {
+          "mean": 0.3897113543748856,
+          "median": 0.3892516493797302,
+          "n": 25,
+          "p10": 0.30715579390525816,
+          "p90": 0.4785397469997406,
+          "std": 0.06273836003884525
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0265551733225584,
+          "median": 0.02510875277221203,
+          "n": 25,
+          "p10": 0.0074124108068645,
+          "p90": 0.048843481391668324,
+          "std": 0.01673114450897227
+        },
+        "temporal_variance": {
+          "mean": 0.01869350665838283,
+          "median": 0.020161636675766204,
+          "n": 25,
+          "p10": 0.003423343664690037,
+          "p90": 0.034521496132947506,
+          "std": 0.012738296981075654
+        }
+      }
+    },
+    "families_passing": 5,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.987890625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.975,
+          "p90": 0.996875,
+          "std": 0.013418409404154428
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.3755346297625255,
+            0.9637758913675698
+          ],
+          "n": 5,
+          "success_count": 4,
+          "success_rate": 0.8
+        },
+        "validation": {
+          "mean": 0.9015625,
+          "median": 0.90625,
+          "n": 5,
+          "p10": 0.825,
+          "p90": 0.96875,
+          "std": 0.07646677689526347
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8359375,
+            0.953125
+          ],
+          "confidence": 0.95,
+          "mean": 0.9015625,
+          "median": 0.90625,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 1.0,
+          "median": 1.0,
+          "n": 5,
+          "p10": 1.0,
+          "p90": 1.0,
+          "std": 0.0
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9890625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.975,
+          "p90": 1.0,
+          "std": 0.01307281291459493
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.978125,
+            0.9984375
+          ],
+          "confidence": 0.95,
+          "mean": 0.9890625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.9953125,
+          "median": 0.994140625,
+          "n": 5,
+          "p10": 0.9921875,
+          "p90": 0.99921875,
+          "std": 0.003548027758707998
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9984375,
+          "median": 1.0,
+          "n": 5,
+          "p10": 0.9953125,
+          "p90": 1.0,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9953125,
+            1.0
+          ],
+          "confidence": 0.95,
+          "mean": 0.9984375,
+          "median": 1.0,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.91875,
+          "median": 0.919921875,
+          "n": 5,
+          "p10": 0.916796875,
+          "p90": 0.919921875,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.8921875,
+          "median": 0.890625,
+          "n": 5,
+          "p10": 0.8859375,
+          "p90": 0.8984375,
+          "std": 0.006536406457297465
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8875,
+            0.896875
+          ],
+          "confidence": 0.95,
+          "mean": 0.8921875,
+          "median": 0.890625,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.9609375,
+          "median": 0.953125,
+          "n": 5,
+          "p10": 0.94453125,
+          "p90": 0.981640625,
+          "std": 0.01878455474772592
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.23072428127601297,
+            0.8823792257673521
+          ],
+          "n": 5,
+          "success_count": 3,
+          "success_rate": 0.6
+        },
+        "validation": {
+          "mean": 0.865625,
+          "median": 0.859375,
+          "n": 5,
+          "p10": 0.8234375,
+          "p90": 0.9125,
+          "std": 0.04398652581331015
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8328125,
+            0.9
+          ],
+          "confidence": 0.95,
+          "mean": 0.865625,
+          "median": 0.859375,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "off",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 130.671875,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5400,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 153.5341436000308
+    },
+    "static_parameter_diagnostics": {},
+    "update_level": "dynamic"
+  },
+  "G2_no_update_dynamic_reset": {
+    "active_parameter_count": 602,
+    "counterfactual_flattening": {},
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 0.57283158659935,
+          "median": 0.5357133746147156,
+          "n": 25,
+          "p10": 0.4839734137058258,
+          "p90": 0.6762127161026001,
+          "std": 0.08513495820789516
+        },
+        "input_conditioned_variance": {
+          "mean": 0.018971762130968274,
+          "median": 0.021412169560790062,
+          "n": 25,
+          "p10": 0.003909146413207054,
+          "p90": 0.03689702823758126,
+          "std": 0.0137897054510218
+        },
+        "mean": {
+          "mean": 0.5758818946943215,
+          "median": 0.5669859788296064,
+          "n": 25,
+          "p10": 0.49004237990001187,
+          "p90": 0.6916384811125682,
+          "std": 0.0761969595814497
+        },
+        "median": {
+          "mean": 0.6013019943237304,
+          "median": 0.5814447402954102,
+          "n": 25,
+          "p10": 0.5012150168418884,
+          "p90": 0.739078825712204,
+          "std": 0.09915194729142053
+        },
+        "state_conditioned_variance": {
+          "mean": 0.028452196437865496,
+          "median": 0.03620925545692444,
+          "n": 25,
+          "p10": 0.003976399917155505,
+          "p90": 0.04796648547053337,
+          "std": 0.020706896970968745
+        },
+        "temporal_variance": {
+          "mean": 0.02289652631494391,
+          "median": 0.025741190380358603,
+          "n": 25,
+          "p10": 0.0013720945276872955,
+          "p90": 0.04266233373782598,
+          "std": 0.019561587819664984
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 1.7310192561126315e-06,
+          "median": 1.7310192106378963e-06,
+          "n": 25,
+          "p10": 1.7310190969510586e-06,
+          "p90": 1.7310194380115718e-06,
+          "std": 1.1832901233595593e-13
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "median": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 5,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.95703125,
+          "median": 0.9765625,
+          "n": 5,
+          "p10": 0.904296875,
+          "p90": 0.989453125,
+          "std": 0.054214612819460974
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.3755346297625255,
+            0.9637758913675698
+          ],
+          "n": 5,
+          "success_count": 4,
+          "success_rate": 0.8
+        },
+        "validation": {
+          "mean": 0.8578125,
+          "median": 0.859375,
+          "n": 5,
+          "p10": 0.7765625,
+          "p90": 0.9265625,
+          "std": 0.08145257199361479
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.790625,
+            0.9140625
+          ],
+          "confidence": 0.95,
+          "mean": 0.8578125,
+          "median": 0.859375,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.963671875,
+          "median": 0.99609375,
+          "n": 5,
+          "p10": 0.89453125,
+          "p90": 1.0,
+          "std": 0.07581547229849425
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.3755346297625255,
+            0.9637758913675698
+          ],
+          "n": 5,
+          "success_count": 4,
+          "success_rate": 0.8
+        },
+        "validation": {
+          "mean": 0.8671875,
+          "median": 0.984375,
+          "n": 5,
+          "p10": 0.625,
+          "p90": 0.996875,
+          "std": 0.25828555085650845
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.634375,
+            0.99375
+          ],
+          "confidence": 0.95,
+          "mean": 0.8671875,
+          "median": 0.984375,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.987890625,
+          "median": 0.98828125,
+          "n": 5,
+          "p10": 0.984765625,
+          "p90": 0.990234375,
+          "std": 0.003209311860381833
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9796875,
+          "median": 0.984375,
+          "n": 5,
+          "p10": 0.971875,
+          "p90": 0.984375,
+          "std": 0.006987712429686843
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9734375,
+            0.984375
+          ],
+          "confidence": 0.95,
+          "mean": 0.9796875,
+          "median": 0.984375,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.914453125,
+          "median": 0.9140625,
+          "n": 5,
+          "p10": 0.9109375,
+          "p90": 0.91796875,
+          "std": 0.0034938562148434213
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.884375,
+          "median": 0.8828125,
+          "n": 5,
+          "p10": 0.878125,
+          "p90": 0.890625,
+          "std": 0.006536406457297465
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8796875,
+            0.8890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.884375,
+          "median": 0.8828125,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.986328125,
+          "median": 0.982421875,
+          "n": 5,
+          "p10": 0.97421875,
+          "p90": 0.99921875,
+          "std": 0.012881744099875898
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.953125,
+          "median": 0.9453125,
+          "n": 5,
+          "p10": 0.9328125,
+          "p90": 0.98125,
+          "std": 0.027621358640099514
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9359375,
+            0.978125
+          ],
+          "confidence": 0.95,
+          "mean": 0.953125,
+          "median": 0.9453125,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "dynamic",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 134.171875,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5400,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 152.27019499975722
+    },
+    "static_parameter_diagnostics": {},
+    "update_level": "off"
+  },
+  "G3_static_update_vector_no_reset": {
+    "active_parameter_count": 342,
+    "counterfactual_flattening": {
+      "update_vector_to_mean": {
+        "mean": 0.841875,
+        "median": 0.890625,
+        "n": 25,
+        "p10": 0.584375,
+        "p90": 0.9921875,
+        "std": 0.16024006952947972
+      }
+    },
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 2.0196896457491675e-06,
+          "median": 2.0196896457491675e-06,
+          "n": 25,
+          "p10": 2.019689418375492e-06,
+          "p90": 2.019689873122843e-06,
+          "std": 1.4676907639293468e-13
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 1.0,
+          "median": 1.0,
+          "n": 25,
+          "p10": 1.0,
+          "p90": 1.0,
+          "std": 0.0
+        },
+        "median": {
+          "mean": 1.0,
+          "median": 1.0,
+          "n": 25,
+          "p10": 1.0,
+          "p90": 1.0,
+          "std": 0.0
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 0.6763109064102173,
+          "median": 0.6786422729492188,
+          "n": 25,
+          "p10": 0.6501678109169007,
+          "p90": 0.691617774963379,
+          "std": 0.015558803019365243
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.43204671598397765,
+          "median": 0.42738907841535717,
+          "n": 25,
+          "p10": 0.36970932873395773,
+          "p90": 0.48955434469076303,
+          "std": 0.04233782303346549
+        },
+        "median": {
+          "mean": 0.42912968635559084,
+          "median": 0.43019407987594604,
+          "n": 25,
+          "p10": 0.3630640745162964,
+          "p90": 0.48351762890815736,
+          "std": 0.04606913618726266
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.67890625,
+          "median": 0.681640625,
+          "n": 5,
+          "p10": 0.53203125,
+          "p90": 0.805859375,
+          "std": 0.14448901409903972
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.575,
+          "median": 0.59375,
+          "n": 5,
+          "p10": 0.4921875,
+          "p90": 0.64375,
+          "std": 0.08279038619836848
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.5,
+            0.634375
+          ],
+          "confidence": 0.95,
+          "mean": 0.575,
+          "median": 0.59375,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.997265625,
+          "median": 0.998046875,
+          "n": 5,
+          "p10": 0.994921875,
+          "p90": 0.99921875,
+          "std": 0.0022269051271467536
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.96875,
+          "median": 0.9609375,
+          "n": 5,
+          "p10": 0.9609375,
+          "p90": 0.9828125,
+          "std": 0.013531646934131853
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9609375,
+            0.9796875
+          ],
+          "confidence": 0.95,
+          "mean": 0.96875,
+          "median": 0.9609375,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.98671875,
+          "median": 0.986328125,
+          "n": 5,
+          "p10": 0.986328125,
+          "p90": 0.9875,
+          "std": 0.0008734640537108553
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.99375,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9921875,
+          "p90": 0.996875,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9921875,
+            0.996875
+          ],
+          "confidence": 0.95,
+          "mean": 0.99375,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.916015625,
+          "median": 0.9140625,
+          "n": 5,
+          "p10": 0.9109375,
+          "p90": 0.921875,
+          "std": 0.005524271728019903
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.8859375,
+          "median": 0.890625,
+          "n": 5,
+          "p10": 0.8765625,
+          "p90": 0.890625,
+          "std": 0.010481568644530264
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8765625,
+            0.890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.8859375,
+          "median": 0.890625,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.887109375,
+          "median": 0.884765625,
+          "n": 5,
+          "p10": 0.8671875,
+          "p90": 0.905859375,
+          "std": 0.02054962255869162
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.815625,
+          "median": 0.8203125,
+          "n": 5,
+          "p10": 0.7921875,
+          "p90": 0.8328125,
+          "std": 0.02445699350390395
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.79375,
+            0.83125
+          ],
+          "confidence": 0.95,
+          "mean": 0.815625,
+          "median": 0.8203125,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "off",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 130.796875,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5425,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 146.13537329935934
+    },
+    "static_parameter_diagnostics": {
+      "update": {
+        "inter_dimension_variance": {
+          "mean": 0.0019395479537523525,
+          "median": 0.0014890450652632753,
+          "n": 25,
+          "p10": 0.0004843974555930278,
+          "p90": 0.003675487909666534,
+          "std": 0.0014184137093534873
+        },
+        "mean": {
+          "mean": 0.43204671598397765,
+          "median": 0.42738907841535717,
+          "n": 25,
+          "p10": 0.36970932873395773,
+          "p90": 0.48955434469076303,
+          "std": 0.04233782303346549
+        },
+        "std_across_dimensions": {
+          "mean": 0.04120343516768618,
+          "median": 0.03858814669381357,
+          "n": 25,
+          "p10": 0.02198383805856174,
+          "p90": 0.06061088482394247,
+          "std": 0.015871386863584965
+        }
+      }
+    },
+    "update_level": "static_vector"
+  },
+  "G4_no_update_static_reset_vector": {
+    "active_parameter_count": 342,
+    "counterfactual_flattening": {
+      "reset_vector_to_mean": {
+        "mean": 0.851875,
+        "median": 0.8828125,
+        "n": 25,
+        "p10": 0.6609375000000001,
+        "p90": 0.984375,
+        "std": 0.14314296648514263
+      }
+    },
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 0.6779876399040222,
+          "median": 0.6778653264045715,
+          "n": 25,
+          "p10": 0.6619356393814086,
+          "p90": 0.6926782608032227,
+          "std": 0.014519976362018856
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.5581475002949055,
+          "median": 0.5675671008917001,
+          "n": 25,
+          "p10": 0.49928940717990583,
+          "p90": 0.6157361048918504,
+          "std": 0.051083963893079044
+        },
+        "median": {
+          "mean": 0.5552548062801361,
+          "median": 0.5534899830818176,
+          "n": 25,
+          "p10": 0.5003922581672668,
+          "p90": 0.6207888722419739,
+          "std": 0.05034702100322267
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 1.7310192561126315e-06,
+          "median": 1.7310192106378963e-06,
+          "n": 25,
+          "p10": 1.7310190969510586e-06,
+          "p90": 1.7310194380115718e-06,
+          "std": 1.1832901233595593e-13
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "median": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.75703125,
+          "median": 0.8125,
+          "n": 5,
+          "p10": 0.60625,
+          "p90": 0.859375,
+          "std": 0.15161962317535266
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.6234375,
+          "median": 0.609375,
+          "n": 5,
+          "p10": 0.5203125,
+          "p90": 0.7265625,
+          "std": 0.10443649947156884
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.54375,
+            0.703125
+          ],
+          "confidence": 0.95,
+          "mean": 0.6234375,
+          "median": 0.609375,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.998046875,
+          "median": 1.0,
+          "n": 5,
+          "p10": 0.99453125,
+          "p90": 1.0,
+          "std": 0.0033829117335329633
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.975,
+          "median": 0.9765625,
+          "n": 5,
+          "p10": 0.9640625,
+          "p90": 0.984375,
+          "std": 0.010186253758129139
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9671875,
+            0.9828125
+          ],
+          "confidence": 0.95,
+          "mean": 0.975,
+          "median": 0.9765625,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.983984375,
+          "median": 0.986328125,
+          "n": 5,
+          "p10": 0.980078125,
+          "p90": 0.986328125,
+          "std": 0.0034938562148434213
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.984375,
+          "median": 0.984375,
+          "n": 5,
+          "p10": 0.9796875,
+          "p90": 0.9890625,
+          "std": 0.005524271728019903
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9796875,
+            0.9890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.984375,
+          "median": 0.984375,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.915234375,
+          "median": 0.916015625,
+          "n": 5,
+          "p10": 0.912890625,
+          "p90": 0.9171875,
+          "std": 0.002226905127146754
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.8859375,
+          "median": 0.8828125,
+          "n": 5,
+          "p10": 0.8828125,
+          "p90": 0.890625,
+          "std": 0.00427908248050911
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8828125,
+            0.8890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.8859375,
+          "median": 0.8828125,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.865625,
+          "median": 0.888671875,
+          "n": 5,
+          "p10": 0.814453125,
+          "p90": 0.90234375,
+          "std": 0.0464129243411621
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.7984375,
+          "median": 0.796875,
+          "n": 5,
+          "p10": 0.784375,
+          "p90": 0.8125,
+          "std": 0.013975424859373685
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.7875,
+            0.809375
+          ],
+          "confidence": 0.95,
+          "mean": 0.7984375,
+          "median": 0.796875,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "static_vector",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 137.140625,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5425,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 187.7468571002828
+    },
+    "static_parameter_diagnostics": {
+      "reset": {
+        "inter_dimension_variance": {
+          "mean": 0.0015778956867925134,
+          "median": 0.0017636222065144597,
+          "n": 25,
+          "p10": 0.00020864901525846839,
+          "p90": 0.003179184490040134,
+          "std": 0.0013152429640249067
+        },
+        "mean": {
+          "mean": 0.5581475002949055,
+          "median": 0.5675671008917001,
+          "n": 25,
+          "p10": 0.49928940717990583,
+          "p90": 0.6157361048918504,
+          "std": 0.051083963893079044
+        },
+        "std_across_dimensions": {
+          "mean": 0.03559756965308863,
+          "median": 0.04199550221767159,
+          "n": 25,
+          "p10": 0.014441816243662538,
+          "p90": 0.05637229487865802,
+          "std": 0.017990411844056482
+        }
+      }
+    },
+    "update_level": "off"
+  },
+  "G5_static_update_vector_static_reset_vector": {
+    "active_parameter_count": 355,
+    "counterfactual_flattening": {
+      "both_vectors_to_means": {
+        "mean": 0.8259375,
+        "median": 0.890625,
+        "n": 25,
+        "p10": 0.53125,
+        "p90": 0.9890625,
+        "std": 0.18026007054767887
+      },
+      "reset_vector_to_mean": {
+        "mean": 0.834375,
+        "median": 0.890625,
+        "n": 25,
+        "p10": 0.56875,
+        "p90": 0.9921875,
+        "std": 0.1735828970129738
+      },
+      "update_vector_to_mean": {
+        "mean": 0.8278125,
+        "median": 0.890625,
+        "n": 25,
+        "p10": 0.5515625,
+        "p90": 0.9921875,
+        "std": 0.17735808954508767
+      }
+    },
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 0.676099157333374,
+          "median": 0.6749881505966187,
+          "n": 25,
+          "p10": 0.653685188293457,
+          "p90": 0.6928361415863037,
+          "std": 0.018358013301003437
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.5576332209660457,
+          "median": 0.5743172329205734,
+          "n": 25,
+          "p10": 0.49338593437121464,
+          "p90": 0.6261481963671172,
+          "std": 0.059340868321608425
+        },
+        "median": {
+          "mean": 0.5568711745738983,
+          "median": 0.5638095140457153,
+          "n": 25,
+          "p10": 0.4930836260318756,
+          "p90": 0.617564594745636,
+          "std": 0.05969389928848555
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 0.67488041639328,
+          "median": 0.6797844767570496,
+          "n": 25,
+          "p10": 0.6479796648025513,
+          "p90": 0.691888964176178,
+          "std": 0.018033584651571913
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.4363754830452112,
+          "median": 0.4372166165938744,
+          "n": 25,
+          "p10": 0.3717041492462158,
+          "p90": 0.491725938136761,
+          "std": 0.04755432205953938
+        },
+        "median": {
+          "mean": 0.4346850001811981,
+          "median": 0.43298205733299255,
+          "n": 25,
+          "p10": 0.35125511288642886,
+          "p90": 0.4870541632175446,
+          "std": 0.051895932653163765
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.63671875,
+          "median": 0.69140625,
+          "n": 5,
+          "p10": 0.4859375,
+          "p90": 0.753125,
+          "std": 0.13680242974873016
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.534375,
+          "median": 0.5625,
+          "n": 5,
+          "p10": 0.4296875,
+          "p90": 0.621875,
+          "std": 0.09672998218300777
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.4609375,
+            0.60625
+          ],
+          "confidence": 0.95,
+          "mean": 0.534375,
+          "median": 0.5625,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.993359375,
+          "median": 0.99609375,
+          "n": 5,
+          "p10": 0.984765625,
+          "p90": 0.99921875,
+          "std": 0.008580422904878437
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9609375,
+          "median": 0.9609375,
+          "n": 5,
+          "p10": 0.9359375,
+          "p90": 0.9859375,
+          "std": 0.024705294220065465
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9421875,
+            0.9796875
+          ],
+          "confidence": 0.95,
+          "mean": 0.9609375,
+          "median": 0.9609375,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.987890625,
+          "median": 0.98828125,
+          "n": 5,
+          "p10": 0.9859375,
+          "p90": 0.989453125,
+          "std": 0.002139541240254555
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9875,
+          "p90": 0.9921875,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9875,
+            0.9921875
+          ],
+          "confidence": 0.95,
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.915234375,
+          "median": 0.9140625,
+          "n": 5,
+          "p10": 0.9140625,
+          "p90": 0.9171875,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5,
+          "p10": 0.890625,
+          "p90": 0.890625,
+          "std": 0.0
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.890625,
+            0.890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.837890625,
+          "median": 0.841796875,
+          "n": 5,
+          "p10": 0.803125,
+          "p90": 0.869921875,
+          "std": 0.03317439013957623
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.8015625,
+          "median": 0.7890625,
+          "n": 5,
+          "p10": 0.7765625,
+          "p90": 0.834375,
+          "std": 0.02954323500185787
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.7796875,
+            0.8265625
+          ],
+          "confidence": 0.95,
+          "mean": 0.8015625,
+          "median": 0.7890625,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "static_vector",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 166.078125,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5475,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 361.61126529960893
+    },
+    "static_parameter_diagnostics": {
+      "reset": {
+        "inter_dimension_variance": {
+          "mean": 0.0016667393847123102,
+          "median": 0.0010230289188494597,
+          "n": 25,
+          "p10": 0.00012293926526657487,
+          "p90": 0.004231506301217953,
+          "std": 0.0017520480037338706
+        },
+        "mean": {
+          "mean": 0.5576332209660457,
+          "median": 0.5743172329205734,
+          "n": 25,
+          "p10": 0.49338593437121464,
+          "p90": 0.6261481963671172,
+          "std": 0.059340868321608425
+        },
+        "std_across_dimensions": {
+          "mean": 0.035087262862808756,
+          "median": 0.031984823258061935,
+          "n": 25,
+          "p10": 0.011040756572711094,
+          "p90": 0.06500622248420171,
+          "std": 0.021301979796206537
+        }
+      },
+      "update": {
+        "inter_dimension_variance": {
+          "mean": 0.002738255167548075,
+          "median": 0.0019164401141712163,
+          "n": 25,
+          "p10": 0.0005632317663427206,
+          "p90": 0.0061399643848706305,
+          "std": 0.0026767186675788813
+        },
+        "mean": {
+          "mean": 0.4363754830452112,
+          "median": 0.4372166165938744,
+          "n": 25,
+          "p10": 0.3717041492462158,
+          "p90": 0.491725938136761,
+          "std": 0.04755432205953938
+        },
+        "std_across_dimensions": {
+          "mean": 0.047282605872472946,
+          "median": 0.04377716430025152,
+          "n": 25,
+          "p10": 0.023719413905715414,
+          "p90": 0.0783390015188225,
+          "std": 0.02288126848211175
+        }
+      }
+    },
+    "update_level": "static_vector"
+  },
+  "G6_static_update_scalar_static_reset_vector": {
+    "active_parameter_count": 343,
+    "counterfactual_flattening": {
+      "reset_vector_to_mean": {
+        "mean": 0.8271875,
+        "median": 0.890625,
+        "n": 25,
+        "p10": 0.5546875,
+        "p90": 0.9921875,
+        "std": 0.17782835770677155
+      }
+    },
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 0.676118369102478,
+          "median": 0.6758450269699097,
+          "n": 25,
+          "p10": 0.6537405133247376,
+          "p90": 0.6928300738334656,
+          "std": 0.018408657015643363
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.5579345142841339,
+          "median": 0.5791487166514764,
+          "n": 25,
+          "p10": 0.49273395721728985,
+          "p90": 0.6264459087298467,
+          "std": 0.05956797350374385
+        },
+        "median": {
+          "mean": 0.5566569721698761,
+          "median": 0.5467456579208374,
+          "n": 25,
+          "p10": 0.4931976914405823,
+          "p90": 0.6166102528572083,
+          "std": 0.059956221415608975
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 0.6723934674263,
+          "median": 0.6797280311584473,
+          "n": 25,
+          "p10": 0.6265264272689819,
+          "p90": 0.6926771402359009,
+          "std": 0.02558339772722072
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.4162734186649322,
+          "median": 0.4182720482349396,
+          "n": 25,
+          "p10": 0.3195538580417633,
+          "p90": 0.48506764173507694,
+          "std": 0.05763118078755941
+        },
+        "median": {
+          "mean": 0.4162734186649322,
+          "median": 0.4182720482349396,
+          "n": 25,
+          "p10": 0.3195538580417633,
+          "p90": 0.48506764173507694,
+          "std": 0.05763118078755941
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.650390625,
+          "median": 0.693359375,
+          "n": 5,
+          "p10": 0.49453125,
+          "p90": 0.775390625,
+          "std": 0.14513046183399417
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.5328125,
+          "median": 0.546875,
+          "n": 5,
+          "p10": 0.434375,
+          "p90": 0.61875,
+          "std": 0.09184257506053498
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.4609375,
+            0.6
+          ],
+          "confidence": 0.95,
+          "mean": 0.5328125,
+          "median": 0.546875,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.992578125,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.987109375,
+          "p90": 0.9984375,
+          "std": 0.005592898852842325
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.953125,
+          "median": 0.9609375,
+          "n": 5,
+          "p10": 0.921875,
+          "p90": 0.9765625,
+          "std": 0.029231698334171417
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.928125,
+            0.9734375
+          ],
+          "confidence": 0.95,
+          "mean": 0.953125,
+          "median": 0.9609375,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.9875,
+          "median": 0.98828125,
+          "n": 5,
+          "p10": 0.9859375,
+          "p90": 0.98828125,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9875,
+          "p90": 0.9921875,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9875,
+            0.9921875
+          ],
+          "confidence": 0.95,
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.915234375,
+          "median": 0.9140625,
+          "n": 5,
+          "p10": 0.9140625,
+          "p90": 0.9171875,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5,
+          "p10": 0.890625,
+          "p90": 0.890625,
+          "std": 0.0
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.890625,
+            0.890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.837109375,
+          "median": 0.84765625,
+          "n": 5,
+          "p10": 0.805859375,
+          "p90": 0.8625,
+          "std": 0.029251266582486432
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.796875,
+          "median": 0.796875,
+          "n": 5,
+          "p10": 0.775,
+          "p90": 0.8171875,
+          "std": 0.02139541240254555
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.7796875,
+            0.8125
+          ],
+          "confidence": 0.95,
+          "mean": 0.796875,
+          "median": 0.796875,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "static_vector",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 155.234375,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5425,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 210.33605089969933
+    },
+    "static_parameter_diagnostics": {
+      "reset": {
+        "inter_dimension_variance": {
+          "mean": 0.0015974976473051162,
+          "median": 0.000853846894795585,
+          "n": 25,
+          "p10": 0.000124030066631136,
+          "p90": 0.00401363123059539,
+          "std": 0.0016809263566694881
+        },
+        "mean": {
+          "mean": 0.5579345142841339,
+          "median": 0.5791487166514764,
+          "n": 25,
+          "p10": 0.49273395721728985,
+          "p90": 0.6264459087298467,
+          "std": 0.05956797350374385
+        },
+        "std_across_dimensions": {
+          "mean": 0.034301373360992794,
+          "median": 0.029220658698865518,
+          "n": 25,
+          "p10": 0.011094450602696563,
+          "p90": 0.06333264275373478,
+          "std": 0.020939233332602624
+        }
+      },
+      "update": {
+        "inter_dimension_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.4162734186649322,
+          "median": 0.4182720482349396,
+          "n": 25,
+          "p10": 0.3195538580417633,
+          "p90": 0.48506764173507694,
+          "std": 0.05763118078755941
+        },
+        "std_across_dimensions": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "update_level": "static_scalar"
+  },
+  "G7_static_update_vector_static_reset_scalar": {
+    "active_parameter_count": 343,
+    "counterfactual_flattening": {
+      "update_vector_to_mean": {
+        "mean": 0.8265625,
+        "median": 0.890625,
+        "n": 25,
+        "p10": 0.553125,
+        "p90": 0.9890625,
+        "std": 0.17783808215211291
+      }
+    },
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 0.6692114877700805,
+          "median": 0.6748027801513672,
+          "n": 25,
+          "p10": 0.6308668732643128,
+          "p90": 0.6930583477020263,
+          "std": 0.02945652468228687
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.5753868496418,
+          "median": 0.5954774618148804,
+          "n": 25,
+          "p10": 0.4842487573623657,
+          "p90": 0.6733650207519531,
+          "std": 0.07937126106757728
+        },
+        "median": {
+          "mean": 0.5753868496418,
+          "median": 0.5954774618148804,
+          "n": 25,
+          "p10": 0.4842487573623657,
+          "p90": 0.6733650207519531,
+          "std": 0.07937126106757728
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 0.6745942115783692,
+          "median": 0.6793895959854126,
+          "n": 25,
+          "p10": 0.6458560824394226,
+          "p90": 0.6919036984443665,
+          "std": 0.01826413648894823
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.43644922802081476,
+          "median": 0.43638157844543457,
+          "n": 25,
+          "p10": 0.36530933838624224,
+          "p90": 0.49167414995340203,
+          "std": 0.048745217885690514
+        },
+        "median": {
+          "mean": 0.4350559163093567,
+          "median": 0.4342068135738373,
+          "n": 25,
+          "p10": 0.345749044418335,
+          "p90": 0.4900832533836365,
+          "std": 0.05253302641061359
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.65078125,
+          "median": 0.708984375,
+          "n": 5,
+          "p10": 0.494921875,
+          "p90": 0.765625,
+          "std": 0.14186330873153147
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.5265625,
+          "median": 0.5703125,
+          "n": 5,
+          "p10": 0.4375,
+          "p90": 0.5875,
+          "std": 0.07959553516843769
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.45625,
+            0.5828125
+          ],
+          "confidence": 0.95,
+          "mean": 0.5265625,
+          "median": 0.5703125,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.99296875,
+          "median": 0.994140625,
+          "n": 5,
+          "p10": 0.98671875,
+          "p90": 0.9984375,
+          "std": 0.005956230735147229
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9546875,
+          "median": 0.953125,
+          "n": 5,
+          "p10": 0.934375,
+          "p90": 0.9734375,
+          "std": 0.02096313728906053
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9375,
+            0.9703125
+          ],
+          "confidence": 0.95,
+          "mean": 0.9546875,
+          "median": 0.953125,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.987890625,
+          "median": 0.98828125,
+          "n": 5,
+          "p10": 0.9859375,
+          "p90": 0.989453125,
+          "std": 0.002139541240254555
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9875,
+          "p90": 0.9921875,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9875,
+            0.9921875
+          ],
+          "confidence": 0.95,
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.915234375,
+          "median": 0.9140625,
+          "n": 5,
+          "p10": 0.9140625,
+          "p90": 0.9171875,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5,
+          "p10": 0.890625,
+          "p90": 0.890625,
+          "std": 0.0
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.890625,
+            0.890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.8375,
+          "median": 0.83984375,
+          "n": 5,
+          "p10": 0.812109375,
+          "p90": 0.86015625,
+          "std": 0.02732281564705242
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.8046875,
+          "median": 0.796875,
+          "n": 5,
+          "p10": 0.7796875,
+          "p90": 0.834375,
+          "std": 0.027621358640099514
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.784375,
+            0.8250781249999996
+          ],
+          "confidence": 0.95,
+          "mean": 0.8046875,
+          "median": 0.796875,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "static_scalar",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 156.09375,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5425,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 192.02716449950822
+    },
+    "static_parameter_diagnostics": {
+      "reset": {
+        "inter_dimension_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.5753868496418,
+          "median": 0.5954774618148804,
+          "n": 25,
+          "p10": 0.4842487573623657,
+          "p90": 0.6733650207519531,
+          "std": 0.07937126106757728
+        },
+        "std_across_dimensions": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "inter_dimension_variance": {
+          "mean": 0.002777336215562119,
+          "median": 0.001913876588590602,
+          "n": 25,
+          "p10": 0.0005582994196348716,
+          "p90": 0.00646867920334455,
+          "std": 0.0028658616562771168
+        },
+        "mean": {
+          "mean": 0.43644922802081476,
+          "median": 0.43638157844543457,
+          "n": 25,
+          "p10": 0.36530933838624224,
+          "p90": 0.49167414995340203,
+          "std": 0.048745217885690514
+        },
+        "std_across_dimensions": {
+          "mean": 0.047430847129176695,
+          "median": 0.04374787524658314,
+          "n": 25,
+          "p10": 0.02361571460513377,
+          "p90": 0.08042509710243896,
+          "std": 0.02344432580983948
+        }
+      }
+    },
+    "update_level": "static_vector"
+  },
+  "G8_static_update_scalar_static_reset_scalar": {
+    "active_parameter_count": 331,
+    "counterfactual_flattening": {},
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 0.6693496441841126,
+          "median": 0.6756748557090759,
+          "n": 25,
+          "p10": 0.6332571983337403,
+          "p90": 0.6930569171905517,
+          "std": 0.028781103697531597
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.5752150678634643,
+          "median": 0.5931940674781799,
+          "n": 25,
+          "p10": 0.4840684950351715,
+          "p90": 0.6705555438995362,
+          "std": 0.07913680417903166
+        },
+        "median": {
+          "mean": 0.5752150678634643,
+          "median": 0.5931940674781799,
+          "n": 25,
+          "p10": 0.4840684950351715,
+          "p90": 0.6705555438995362,
+          "std": 0.07913680417903166
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 0.6726639842987061,
+          "median": 0.6799536347389221,
+          "n": 25,
+          "p10": 0.6251758575439453,
+          "p90": 0.6926772236824036,
+          "std": 0.02541793643235108
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.4166245114803314,
+          "median": 0.4189591407775879,
+          "n": 25,
+          "p10": 0.31777127981185915,
+          "p90": 0.4850915491580963,
+          "std": 0.05696431939070761
+        },
+        "median": {
+          "mean": 0.4166245114803314,
+          "median": 0.4189591407775879,
+          "n": 25,
+          "p10": 0.31777127981185915,
+          "p90": 0.4850915491580963,
+          "std": 0.05696431939070761
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.654296875,
+          "median": 0.712890625,
+          "n": 5,
+          "p10": 0.504296875,
+          "p90": 0.7625,
+          "std": 0.1390358888688625
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.528125,
+          "median": 0.5546875,
+          "n": 5,
+          "p10": 0.428125,
+          "p90": 0.609375,
+          "std": 0.09120905545435168
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.4578125,
+            0.5984375
+          ],
+          "confidence": 0.95,
+          "mean": 0.528125,
+          "median": 0.5546875,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.991796875,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.983984375,
+          "p90": 0.99921875,
+          "std": 0.007488394340890943
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.946875,
+          "median": 0.9375,
+          "n": 5,
+          "p10": 0.9140625,
+          "p90": 0.98125,
+          "std": 0.03467553284558148
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.921875,
+            0.9734375
+          ],
+          "confidence": 0.95,
+          "mean": 0.946875,
+          "median": 0.9375,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.9875,
+          "median": 0.98828125,
+          "n": 5,
+          "p10": 0.9859375,
+          "p90": 0.98828125,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9875,
+          "p90": 0.9921875,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9875,
+            0.9921875
+          ],
+          "confidence": 0.95,
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.915234375,
+          "median": 0.9140625,
+          "n": 5,
+          "p10": 0.9140625,
+          "p90": 0.9171875,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5,
+          "p10": 0.890625,
+          "p90": 0.890625,
+          "std": 0.0
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.890625,
+            0.890625
+          ],
+          "confidence": 0.95,
+          "mean": 0.890625,
+          "median": 0.890625,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.835546875,
+          "median": 0.84375,
+          "n": 5,
+          "p10": 0.805078125,
+          "p90": 0.8609375,
+          "std": 0.029601283112629807
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.79375,
+          "median": 0.7890625,
+          "n": 5,
+          "p10": 0.775,
+          "p90": 0.8140625,
+          "std": 0.020372507516258277
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.7796875,
+            0.8094140624999997
+          ],
+          "confidence": 0.95,
+          "mean": 0.79375,
+          "median": 0.7890625,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "static_scalar",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 157.15625,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5400,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 194.8259981998708
+    },
+    "static_parameter_diagnostics": {
+      "reset": {
+        "inter_dimension_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.5752150678634643,
+          "median": 0.5931940674781799,
+          "n": 25,
+          "p10": 0.4840684950351715,
+          "p90": 0.6705555438995362,
+          "std": 0.07913680417903166
+        },
+        "std_across_dimensions": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "inter_dimension_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.4166245114803314,
+          "median": 0.4189591407775879,
+          "n": 25,
+          "p10": 0.31777127981185915,
+          "p90": 0.4850915491580963,
+          "std": 0.05696431939070761
+        },
+        "std_across_dimensions": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "update_level": "static_scalar"
+  },
+  "G9_no_update_no_reset": {
+    "active_parameter_count": 329,
+    "counterfactual_flattening": {},
+    "factor_diagnostics": {
+      "reset": {
+        "entropy": {
+          "mean": 2.0196896457491675e-06,
+          "median": 2.0196896457491675e-06,
+          "n": 25,
+          "p10": 2.019689418375492e-06,
+          "p90": 2.019689873122843e-06,
+          "std": 1.4676907639293468e-13
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 1.0,
+          "median": 1.0,
+          "n": 25,
+          "p10": 1.0,
+          "p90": 1.0,
+          "std": 0.0
+        },
+        "median": {
+          "mean": 1.0,
+          "median": 1.0,
+          "n": 25,
+          "p10": 1.0,
+          "p90": 1.0,
+          "std": 0.0
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      },
+      "update": {
+        "entropy": {
+          "mean": 1.7310192561126315e-06,
+          "median": 1.7310192106378963e-06,
+          "n": 25,
+          "p10": 1.7310190969510586e-06,
+          "p90": 1.7310194380115718e-06,
+          "std": 1.1832901233595593e-13
+        },
+        "input_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "mean": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "median": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "state_conditioned_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        },
+        "temporal_variance": {
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.0,
+          "std": 0.0
+        }
+      }
+    },
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.87421875,
+          "median": 0.841796875,
+          "n": 5,
+          "p10": 0.809375,
+          "p90": 0.9578125,
+          "std": 0.07734720241663358
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.03622410863243014,
+            0.6244653702374745
+          ],
+          "n": 5,
+          "success_count": 1,
+          "success_rate": 0.2
+        },
+        "validation": {
+          "mean": 0.734375,
+          "median": 0.6796875,
+          "n": 5,
+          "p10": 0.6546875,
+          "p90": 0.853125,
+          "std": 0.10768788087570486
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.6609375,
+            0.8265625
+          ],
+          "confidence": 0.95,
+          "mean": 0.734375,
+          "median": 0.6796875,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.998046875,
+          "median": 1.0,
+          "n": 5,
+          "p10": 0.994140625,
+          "p90": 1.0,
+          "std": 0.004367320268554277
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9796875,
+          "median": 0.984375,
+          "n": 5,
+          "p10": 0.9625,
+          "p90": 0.9921875,
+          "std": 0.01620034480728728
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.965625,
+            0.990625
+          ],
+          "confidence": 0.95,
+          "mean": 0.9796875,
+          "median": 0.984375,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.987890625,
+          "median": 0.990234375,
+          "n": 5,
+          "p10": 0.98203125,
+          "p90": 0.9921875,
+          "std": 0.005240784322265132
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9875,
+          "p90": 0.9921875,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9875,
+            0.9921875
+          ],
+          "confidence": 0.95,
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.9171875,
+          "median": 0.919921875,
+          "n": 5,
+          "p10": 0.912890625,
+          "p90": 0.919921875,
+          "std": 0.0038073415409410017
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.884375,
+          "median": 0.890625,
+          "n": 5,
+          "p10": 0.8671875,
+          "p90": 0.8953125,
+          "std": 0.01865208810361457
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8671875,
+            0.8953125
+          ],
+          "confidence": 0.95,
+          "mean": 0.884375,
+          "median": 0.890625,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.925390625,
+          "median": 0.927734375,
+          "n": 5,
+          "p10": 0.87421875,
+          "p90": 0.974609375,
+          "std": 0.050732398377340567
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.11762077423264794,
+            0.769275718723987
+          ],
+          "n": 5,
+          "success_count": 2,
+          "success_rate": 0.4
+        },
+        "validation": {
+          "mean": 0.859375,
+          "median": 0.8359375,
+          "n": 5,
+          "p10": 0.8078125,
+          "p90": 0.928125,
+          "std": 0.06720566614877052
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8140625,
+            0.9157812499999992
+          ],
+          "confidence": 0.95,
+          "mean": 0.859375,
+          "median": 0.8359375,
+          "n": 5
+        }
+      }
+    },
+    "nominal_parameter_count": 875,
+    "reset_level": "off",
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 135.71875,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5400,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 224.08644340001047
+    },
+    "static_parameter_diagnostics": {},
+    "update_level": "off"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "dynamic_vs_off_2x2": {
+    "conditional_routing": {
+      "interaction": -0.1484375,
+      "reset_main_effect": 0.10546875,
+      "update_main_effect": 0.15234375
+    },
+    "delayed_recall": {
+      "interaction": -0.0078125,
+      "reset_main_effect": -0.00390625,
+      "update_main_effect": 0.00390625
+    },
+    "iterative_state": {
+      "interaction": 0.0078125,
+      "reset_main_effect": -0.00390625,
+      "update_main_effect": 0.01171875
+    },
+    "partial_observation": {
+      "interaction": 0.0078125,
+      "reset_main_effect": -0.00390625,
+      "update_main_effect": 0.00390625
+    },
+    "variable_composition": {
+      "interaction": -0.0859375,
+      "reset_main_effect": 0.06640625,
+      "update_main_effect": -0.01953125
+    }
+  },
+  "dynamic_vs_static_substitution": {
+    "conditional_routing": {
+      "both_dynamic_minus_both_static_vector": 0.375,
+      "dynamic_reset_minus_static_reset_with_update_off": 0.25,
+      "dynamic_update_minus_static_update_with_reset_off": 0.3125
+    },
+    "delayed_recall": {
+      "both_dynamic_minus_both_static_vector": 0.0234375,
+      "dynamic_reset_minus_static_reset_with_update_off": 0.0078125,
+      "dynamic_update_minus_static_update_with_reset_off": 0.03125
+    },
+    "iterative_state": {
+      "both_dynamic_minus_both_static_vector": 0.0078125,
+      "dynamic_reset_minus_static_reset_with_update_off": 0.0,
+      "dynamic_update_minus_static_update_with_reset_off": 0.0078125
+    },
+    "partial_observation": {
+      "both_dynamic_minus_both_static_vector": 0.0,
+      "dynamic_reset_minus_static_reset_with_update_off": 0.0,
+      "dynamic_update_minus_static_update_with_reset_off": 0.0
+    },
+    "variable_composition": {
+      "both_dynamic_minus_both_static_vector": 0.09375,
+      "dynamic_reset_minus_static_reset_with_update_off": 0.1484375,
+      "dynamic_update_minus_static_update_with_reset_off": 0.0390625
+    }
+  },
+  "static_vector_vs_off_2x2": {
+    "conditional_routing": {
+      "interaction": 0.0390625,
+      "reset_main_effect": -0.05078125,
+      "update_main_effect": -0.06640625
+    },
+    "delayed_recall": {
+      "interaction": 0.0078125,
+      "reset_main_effect": -0.00390625,
+      "update_main_effect": -0.01953125
+    },
+    "iterative_state": {
+      "interaction": 0.0078125,
+      "reset_main_effect": -0.00390625,
+      "update_main_effect": 0.00390625
+    },
+    "partial_observation": {
+      "interaction": 0.0078125,
+      "reset_main_effect": -0.00390625,
+      "update_main_effect": 0.00390625
+    },
+    "variable_composition": {
+      "interaction": 0.0078125,
+      "reset_main_effect": -0.03515625,
+      "update_main_effect": -0.01171875
+    }
+  }
+}

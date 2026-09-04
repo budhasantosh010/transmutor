@@ -1,0 +1,8 @@
+{
+  "fresh_audit_consumed": false,
+  "neutral_followup_allowed": true,
+  "neutral_followup_type": "single_dynamic_modulator",
+  "primitive_mining_allowed": false,
+  "v837o_complete": true,
+  "v837o_diagnosis": "DYNAMIC_STATE_MODULATION_REQUIRED"
+}
