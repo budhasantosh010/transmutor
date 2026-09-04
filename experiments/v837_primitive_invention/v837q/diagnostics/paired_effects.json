@@ -1,0 +1,158 @@
+{
+  "Q1_group5_5x8": {
+    "conditional_routing": {
+      "ci": [
+        -0.1609375,
+        0.0359375
+      ],
+      "confidence": 0.95,
+      "mean_difference": -0.0625,
+      "median_difference": -0.0703125,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        -0.0328125,
+        0.0015625
+      ],
+      "confidence": 0.95,
+      "mean_difference": -0.015625,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.003125,
+        0.0203125
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.0078125,
+      "median_difference": 0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.0421875,
+        0.040625
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.0,
+      "median_difference": -0.015625,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.0203125,
+        0.1109375
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.0375,
+      "median_difference": 0.03125,
+      "n": 5
+    }
+  },
+  "Q2_group2_2x20": {
+    "conditional_routing": {
+      "ci": [
+        -0.16878906249999995,
+        -0.0953125
+      ],
+      "confidence": 0.95,
+      "mean_difference": -0.13125,
+      "median_difference": -0.1171875,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        0.0140625,
+        0.05625
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.03125,
+      "median_difference": 0.0234375,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.009375,
+        0.0140625
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.0046875,
+      "median_difference": 0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        -0.0171875,
+        0.1015625
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.0421875,
+      "median_difference": 0.0390625,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.0328125,
+        0.0796875
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.01875,
+      "median_difference": 0.0078125,
+      "n": 5
+    }
+  },
+  "Q3_shared_1x40": {
+    "conditional_routing": {
+      "ci": [
+        -0.1453125,
+        -0.0140625
+      ],
+      "confidence": 0.95,
+      "mean_difference": -0.09375,
+      "median_difference": -0.1171875,
+      "n": 5
+    },
+    "delayed_recall": {
+      "ci": [
+        0.01875,
+        0.028125
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.0234375,
+      "median_difference": 0.0234375,
+      "n": 5
+    },
+    "iterative_state": {
+      "ci": [
+        -0.0140625,
+        -0.0015625
+      ],
+      "confidence": 0.95,
+      "mean_difference": -0.0078125,
+      "median_difference": -0.0078125,
+      "n": 5
+    },
+    "partial_observation": {
+      "ci": [
+        0.015625,
+        0.08125
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.05,
+      "median_difference": 0.0625,
+      "n": 5
+    },
+    "variable_composition": {
+      "ci": [
+        -0.009375,
+        0.1171875
+      ],
+      "confidence": 0.95,
+      "mean_difference": 0.05,
+      "median_difference": 0.046875,
+      "n": 5
+    }
+  }
+}

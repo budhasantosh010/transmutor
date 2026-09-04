@@ -1,0 +1,14 @@
+{
+  "conditional_q3_controls_allowed": false,
+  "diagnosis": "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED",
+  "fresh_audit_consumed": false,
+  "next_variant_allowed": "GLOBAL_CROSS_DIMENSION_RECURRENT_COUPLING_SPEC_REQUIRED",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "q3_representation_adequacy_pass": false,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "v837q_complete": true,
+  "winning_condition": null
+}
