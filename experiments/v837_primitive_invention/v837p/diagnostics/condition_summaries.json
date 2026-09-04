@@ -1,0 +1,1148 @@
+{
+  "dynamic_scalar_state_modulation": {
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.99609375,
+          "median": 0.99609375,
+          "n": 5,
+          "p10": 0.994921875,
+          "p90": 0.997265625,
+          "std": 0.0013810679320049757
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.11762077423264794,
+            0.769275718723987
+          ],
+          "n": 5,
+          "success_count": 2,
+          "success_rate": 0.4
+        },
+        "validation": {
+          "mean": 0.803125,
+          "median": 0.8125,
+          "n": 5,
+          "p10": 0.7328125,
+          "p90": 0.8703125,
+          "std": 0.06774838558962125
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.75,
+            0.85625
+          ],
+          "confidence": 0.95,
+          "mean": 0.803125,
+          "median": 0.8125,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.993359375,
+          "median": 0.99609375,
+          "n": 5,
+          "p10": 0.985546875,
+          "p90": 0.998046875,
+          "std": 0.008355175639143531
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9484375,
+          "median": 0.953125,
+          "n": 5,
+          "p10": 0.9203125,
+          "p90": 0.971875,
+          "std": 0.03105407330367467
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9203125,
+            0.971875
+          ],
+          "confidence": 0.95,
+          "mean": 0.9484375,
+          "median": 0.953125,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.99375,
+          "median": 0.994140625,
+          "n": 5,
+          "p10": 0.9921875,
+          "p90": 0.9953125,
+          "std": 0.0016341016143243663
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9890625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.984375,
+          "p90": 0.9921875,
+          "std": 0.00427908248050911
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9859375,
+            0.9921875
+          ],
+          "confidence": 0.95,
+          "mean": 0.9890625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.944140625,
+          "median": 0.9375,
+          "n": 5,
+          "p10": 0.930078125,
+          "p90": 0.96171875,
+          "std": 0.015963138079455118
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.23072428127601297,
+            0.8823792257673521
+          ],
+          "n": 5,
+          "success_count": 3,
+          "success_rate": 0.6
+        },
+        "validation": {
+          "mean": 0.8515625,
+          "median": 0.8671875,
+          "n": 5,
+          "p10": 0.815625,
+          "p90": 0.8765625,
+          "std": 0.03360283307438526
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8234375,
+            0.8734375
+          ],
+          "confidence": 0.95,
+          "mean": 0.8515625,
+          "median": 0.8671875,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.96875,
+          "median": 0.970703125,
+          "n": 5,
+          "p10": 0.960546875,
+          "p90": 0.975,
+          "std": 0.008170508071621832
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.784375,
+          "median": 0.78125,
+          "n": 5,
+          "p10": 0.7671875,
+          "p90": 0.8015625,
+          "std": 0.01798572567690834
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.7703125,
+            0.7984375
+          ],
+          "confidence": 0.95,
+          "mean": 0.784375,
+          "median": 0.78125,
+          "n": 5
+        }
+      }
+    },
+    "parameter_bytes": 4024,
+    "parameter_count": 1006,
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 1834.796875,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5375,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 2163.4942249997985
+    },
+    "state_modulator_diagnostics": {
+      "mean": {
+        "mean": 0.5281228280067444,
+        "median": 0.5161531567573547,
+        "n": 25,
+        "p10": 0.4942500352859497,
+        "p90": 0.5707154393196106,
+        "std": 0.03297121582861181
+      },
+      "median": {
+        "mean": 0.5312545382976532,
+        "median": 0.5139513611793518,
+        "n": 25,
+        "p10": 0.4909552276134491,
+        "p90": 0.5756524801254272,
+        "std": 0.03813991243571663
+      },
+      "near_one_fraction": {
+        "mean": 0.008054437092051038,
+        "median": 0.005699481865284974,
+        "n": 25,
+        "p10": 0.0,
+        "p90": 0.024871794871794882,
+        "std": 0.009830136653641363
+      },
+      "near_zero_fraction": {
+        "mean": 0.004236257075443529,
+        "median": 0.0036596523330283625,
+        "n": 25,
+        "p10": 0.0,
+        "p90": 0.009884416102032683,
+        "std": 0.004505963926510505
+      },
+      "p10": {
+        "mean": 0.306592738032341,
+        "median": 0.30882319808006287,
+        "n": 25,
+        "p10": 0.2305251657962799,
+        "p90": 0.4030223786830902,
+        "std": 0.06917562819279792
+      },
+      "p90": {
+        "mean": 0.7456547737121582,
+        "median": 0.7652309536933899,
+        "n": 25,
+        "p10": 0.6246920704841614,
+        "p90": 0.8595297336578369,
+        "std": 0.08801385245852589
+      },
+      "per_family": {
+        "conditional_routing": {
+          "mean": {
+            "mean": 0.5201198577880859,
+            "median": 0.5110362768173218,
+            "n": 5,
+            "p10": 0.5016400814056396,
+            "p90": 0.5481880307197571,
+            "std": 0.02888093429558199
+          },
+          "temporal_variance": {
+            "mean": 0.028612160503689664,
+            "median": 0.027479009819217026,
+            "n": 5,
+            "p10": 0.026132879276701715,
+            "p90": 0.03226342418347485,
+            "std": 0.003867931653146679
+          }
+        },
+        "delayed_recall": {
+          "mean": {
+            "mean": 0.571197772026062,
+            "median": 0.5653607845306396,
+            "n": 5,
+            "p10": 0.5584731936454773,
+            "p90": 0.5888433814048767,
+            "std": 0.01765348380690672
+          },
+          "temporal_variance": {
+            "mean": 0.016033214455092093,
+            "median": 0.013632116355438484,
+            "n": 5,
+            "p10": 0.011759430792881175,
+            "p90": 0.02275217292190064,
+            "std": 0.006828506246346547
+          }
+        },
+        "iterative_state": {
+          "mean": {
+            "mean": 0.5122661709785461,
+            "median": 0.5117918848991394,
+            "n": 5,
+            "p10": 0.5064136147499084,
+            "p90": 0.5187808990478515,
+            "std": 0.006161988824134521
+          },
+          "temporal_variance": {
+            "mean": 0.0077422170752470265,
+            "median": 0.00599720467471343,
+            "n": 5,
+            "p10": 0.0053117724100957275,
+            "p90": 0.011476219553878763,
+            "std": 0.0034123129370724125
+          }
+        },
+        "partial_observation": {
+          "mean": {
+            "mean": 0.4918890714645386,
+            "median": 0.49257051944732666,
+            "n": 5,
+            "p10": 0.484056556224823,
+            "p90": 0.49922235012054444,
+            "std": 0.007522918518662654
+          },
+          "temporal_variance": {
+            "mean": 0.01693737439709366,
+            "median": 0.01542156892537605,
+            "n": 5,
+            "p10": 0.014945953987626126,
+            "p90": 0.020039812228060328,
+            "std": 0.002814105654876753
+          }
+        },
+        "variable_composition": {
+          "mean": {
+            "mean": 0.5451412677764893,
+            "median": 0.5474066138267517,
+            "n": 5,
+            "p10": 0.5240480661392212,
+            "p90": 0.5683961749076843,
+            "std": 0.023779881909293445
+          },
+          "temporal_variance": {
+            "mean": 0.030165026784015937,
+            "median": 0.032489331057149684,
+            "n": 5,
+            "p10": 0.025260793168854434,
+            "p90": 0.03384627962223021,
+            "std": 0.004408324553774734
+          }
+        }
+      },
+      "std": {
+        "mean": 0.1681414756178856,
+        "median": 0.16583991050720215,
+        "n": 25,
+        "p10": 0.09383305162191391,
+        "p90": 0.2265426605939865,
+        "std": 0.04843138476601702
+      },
+      "temporal_variance": {
+        "mean": 0.019897998643027676,
+        "median": 0.01788727810708224,
+        "n": 25,
+        "p10": 0.007090733186123545,
+        "p90": 0.032857690882156024,
+        "std": 0.009500899001158384
+      }
+    }
+  },
+  "historical_direct": {
+    "families_passing": 2,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.958984375,
+          "median": 0.96875,
+          "n": 5,
+          "p10": 0.919140625,
+          "p90": 0.98671875,
+          "std": 0.04054792869536464
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.5046875,
+          "median": 0.4921875,
+          "n": 5,
+          "p10": 0.4828125,
+          "p90": 0.5328125,
+          "std": 0.02567449488305466
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.4859375,
+            0.5265625
+          ],
+          "confidence": 0.95,
+          "mean": 0.5046875,
+          "median": 0.4921875,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.99296875,
+          "median": 0.994140625,
+          "n": 5,
+          "p10": 0.985546875,
+          "p90": 0.99921875,
+          "std": 0.006987712429686843
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.9109375,
+          "median": 0.90625,
+          "n": 5,
+          "p10": 0.871875,
+          "p90": 0.95,
+          "std": 0.03890593624371479
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.878125,
+            0.940625
+          ],
+          "confidence": 0.95,
+          "mean": 0.9109375,
+          "median": 0.90625,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.992578125,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.991015625,
+          "p90": 0.994140625,
+          "std": 0.0016341016143243663
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.98125,
+          "median": 0.984375,
+          "n": 5,
+          "p10": 0.9765625,
+          "p90": 0.984375,
+          "std": 0.00427908248050911
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.978125,
+            0.984375
+          ],
+          "confidence": 0.95,
+          "mean": 0.98125,
+          "median": 0.984375,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.977734375,
+          "median": 0.978515625,
+          "n": 5,
+          "p10": 0.96875,
+          "p90": 0.986328125,
+          "std": 0.00922321793212312
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.80625,
+          "median": 0.8125,
+          "n": 5,
+          "p10": 0.7875,
+          "p90": 0.821875,
+          "std": 0.01781524101717403
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.79375,
+            0.81875
+          ],
+          "confidence": 0.95,
+          "mean": 0.80625,
+          "median": 0.8125,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.96953125,
+          "median": 0.9765625,
+          "n": 5,
+          "p10": 0.938671875,
+          "p90": 0.992578125,
+          "std": 0.029800361129313516
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.03622410863243014,
+            0.6244653702374745
+          ],
+          "n": 5,
+          "success_count": 1,
+          "success_rate": 0.2
+        },
+        "validation": {
+          "mean": 0.8078125,
+          "median": 0.7890625,
+          "n": 5,
+          "p10": 0.746875,
+          "p90": 0.8828125,
+          "std": 0.07000802130381203
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.7578125,
+            0.8625
+          ],
+          "confidence": 0.95,
+          "mean": 0.8078125,
+          "median": 0.7890625,
+          "n": 5
+        }
+      }
+    },
+    "parameter_bytes": 3424,
+    "parameter_count": 856,
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 1186.96875,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5375,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 1355.7510651999619
+    },
+    "state_modulator_diagnostics": null
+  },
+  "parameter_matched_dynamic_additive": {
+    "families_passing": 3,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.932421875,
+          "median": 0.927734375,
+          "n": 5,
+          "p10": 0.895703125,
+          "p90": 0.969921875,
+          "std": 0.038807763146936854
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.6390625,
+          "median": 0.640625,
+          "n": 5,
+          "p10": 0.5984375,
+          "p90": 0.68125,
+          "std": 0.04328717242873459
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.609375,
+            0.6734765624999998
+          ],
+          "confidence": 0.95,
+          "mean": 0.6390625,
+          "median": 0.640625,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.99453125,
+          "median": 0.994140625,
+          "n": 5,
+          "p10": 0.989453125,
+          "p90": 0.99921875,
+          "std": 0.005240784322265132
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.95625,
+          "median": 0.9453125,
+          "n": 5,
+          "p10": 0.940625,
+          "p90": 0.9796875,
+          "std": 0.02181912506838897
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9421875,
+            0.9765625
+          ],
+          "confidence": 0.95,
+          "mean": 0.95625,
+          "median": 0.9453125,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.994921875,
+          "median": 0.99609375,
+          "n": 5,
+          "p10": 0.991015625,
+          "p90": 0.9984375,
+          "std": 0.0038073415409410013
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.984375,
+          "p90": 0.996875,
+          "std": 0.006536406457297465
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9859375,
+            0.9953125
+          ],
+          "confidence": 0.95,
+          "mean": 0.990625,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.930859375,
+          "median": 0.927734375,
+          "n": 5,
+          "p10": 0.925390625,
+          "p90": 0.939453125,
+          "std": 0.009326044051807283
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.3755346297625255,
+            0.9637758913675698
+          ],
+          "n": 5,
+          "success_count": 4,
+          "success_rate": 0.8
+        },
+        "validation": {
+          "mean": 0.8609375,
+          "median": 0.8671875,
+          "n": 5,
+          "p10": 0.8421875,
+          "p90": 0.875,
+          "std": 0.016937096397405312
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.846875,
+            0.8734375
+          ],
+          "confidence": 0.95,
+          "mean": 0.8609375,
+          "median": 0.8671875,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.941796875,
+          "median": 0.953125,
+          "n": 5,
+          "p10": 0.885546875,
+          "p90": 0.983203125,
+          "std": 0.05812639132239384
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.8078125,
+          "median": 0.828125,
+          "n": 5,
+          "p10": 0.7625,
+          "p90": 0.8359375,
+          "std": 0.04300424670163402
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.76875,
+            0.834375
+          ],
+          "confidence": 0.95,
+          "mean": 0.8078125,
+          "median": 0.828125,
+          "n": 5
+        }
+      }
+    },
+    "parameter_bytes": 4024,
+    "parameter_count": 1006,
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 1781.609375,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5375,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 2200.36093349976
+    },
+    "state_modulator_diagnostics": {
+      "mean": {
+        "mean": 0.4700868034362793,
+        "median": 0.4681273102760315,
+        "n": 25,
+        "p10": 0.44762701988220216,
+        "p90": 0.5018954277038574,
+        "std": 0.02796717787775729
+      },
+      "median": {
+        "mean": 0.46577041149139403,
+        "median": 0.4657157361507416,
+        "n": 25,
+        "p10": 0.4380029082298279,
+        "p90": 0.49936782121658324,
+        "std": 0.02679229474266916
+      },
+      "near_one_fraction": {
+        "mean": 0.0017662417556682949,
+        "median": 0.0,
+        "n": 25,
+        "p10": 0.0,
+        "p90": 0.0008205128205128212,
+        "std": 0.006864690773672863
+      },
+      "near_zero_fraction": {
+        "mean": 0.0014870203448005973,
+        "median": 0.0,
+        "n": 25,
+        "p10": 0.0,
+        "p90": 0.0008258270227182146,
+        "std": 0.006161341491723186
+      },
+      "p10": {
+        "mean": 0.30239050030708314,
+        "median": 0.2965407371520996,
+        "n": 25,
+        "p10": 0.2375980168581009,
+        "p90": 0.3789646327495575,
+        "std": 0.05461939288359527
+      },
+      "p90": {
+        "mean": 0.6465399098396302,
+        "median": 0.6536916494369507,
+        "n": 25,
+        "p10": 0.5810989379882813,
+        "p90": 0.6851473569869995,
+        "std": 0.0441978451495089
+      },
+      "per_family": {
+        "conditional_routing": {
+          "mean": {
+            "mean": 0.4737227618694305,
+            "median": 0.4685018062591553,
+            "n": 5,
+            "p10": 0.4610111951828003,
+            "p90": 0.49005780816078187,
+            "std": 0.01547419335826847
+          },
+          "temporal_variance": {
+            "mean": 0.014484264268685366,
+            "median": 0.013830128056724789,
+            "n": 5,
+            "p10": 0.013243247722130036,
+            "p90": 0.016268400864646537,
+            "std": 0.0017527309787946832
+          }
+        },
+        "delayed_recall": {
+          "mean": {
+            "mean": 0.4391059637069702,
+            "median": 0.4532525837421417,
+            "n": 5,
+            "p10": 0.4005411207675934,
+            "p90": 0.4672325372695923,
+            "std": 0.03482226087256814
+          },
+          "temporal_variance": {
+            "mean": 0.009826582460664212,
+            "median": 0.009903198828396853,
+            "n": 5,
+            "p10": 0.006647134052764158,
+            "p90": 0.01319231493616826,
+            "std": 0.003492763434626709
+          }
+        },
+        "iterative_state": {
+          "mean": {
+            "mean": 0.4937264144420624,
+            "median": 0.496359646320343,
+            "n": 5,
+            "p10": 0.4787961423397064,
+            "p90": 0.5053668141365051,
+            "std": 0.015372555747959194
+          },
+          "temporal_variance": {
+            "mean": 0.003031561335956212,
+            "median": 0.0028675165167442174,
+            "n": 5,
+            "p10": 0.002693711837855517,
+            "p90": 0.0034688665637077065,
+            "std": 0.0004048258650537973
+          }
+        },
+        "partial_observation": {
+          "mean": {
+            "mean": 0.48498525023460387,
+            "median": 0.4885384738445282,
+            "n": 5,
+            "p10": 0.46223933100700376,
+            "p90": 0.5039942145347596,
+            "std": 0.021243024179964667
+          },
+          "temporal_variance": {
+            "mean": 0.0025079455276681983,
+            "median": 0.0024100654109133757,
+            "n": 5,
+            "p10": 0.0021754352977040982,
+            "p90": 0.0029407652944428266,
+            "std": 0.00040843916504387887
+          }
+        },
+        "variable_composition": {
+          "mean": {
+            "mean": 0.45889362692832947,
+            "median": 0.457000195980072,
+            "n": 5,
+            "p10": 0.44762701988220216,
+            "p90": 0.4732782542705536,
+            "std": 0.014299046625321502
+          },
+          "temporal_variance": {
+            "mean": 0.009400918034452843,
+            "median": 0.00948460091422021,
+            "n": 5,
+            "p10": 0.0077200014896789074,
+            "p90": 0.011002725464641117,
+            "std": 0.0016207082060373495
+          }
+        }
+      },
+      "std": {
+        "mean": 0.1320582264661789,
+        "median": 0.13698898255825043,
+        "n": 25,
+        "p10": 0.10597611665725708,
+        "p90": 0.1589060127735138,
+        "std": 0.027282786420052836
+      },
+      "temporal_variance": {
+        "mean": 0.007850254325485367,
+        "median": 0.008023137761483667,
+        "n": 25,
+        "p10": 0.0024836269580191584,
+        "p90": 0.014222884293849348,
+        "std": 0.004930003281651006
+      }
+    }
+  },
+  "scalar_persistence": {
+    "families_passing": 2,
+    "family_results": {
+      "conditional_routing": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.903515625,
+          "median": 0.927734375,
+          "n": 5,
+          "p10": 0.84296875,
+          "p90": 0.949609375,
+          "std": 0.054837267022456435
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.521875,
+          "median": 0.5390625,
+          "n": 5,
+          "p10": 0.459375,
+          "p90": 0.5703125,
+          "std": 0.05698307040253271
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.475,
+            0.5640625
+          ],
+          "confidence": 0.95,
+          "mean": 0.521875,
+          "median": 0.5390625,
+          "n": 5
+        }
+      },
+      "delayed_recall": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.994140625,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9890625,
+          "p90": 1.0,
+          "std": 0.005524271728019903
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.928125,
+          "median": 0.9375,
+          "n": 5,
+          "p10": 0.89375,
+          "p90": 0.9578125,
+          "std": 0.031926276158910236
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.903125,
+            0.953125
+          ],
+          "confidence": 0.95,
+          "mean": 0.928125,
+          "median": 0.9375,
+          "n": 5
+        }
+      },
+      "iterative_state": {
+        "aggregate_capacity_pass": true,
+        "development": {
+          "mean": 0.99296875,
+          "median": 0.994140625,
+          "n": 5,
+          "p10": 0.991015625,
+          "p90": 0.994140625,
+          "std": 0.0017469281074217107
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.5655175352168254,
+            1.0
+          ],
+          "n": 5,
+          "success_count": 5,
+          "success_rate": 1.0
+        },
+        "validation": {
+          "mean": 0.99375,
+          "median": 0.9921875,
+          "n": 5,
+          "p10": 0.9921875,
+          "p90": 0.996875,
+          "std": 0.0034938562148434213
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.9921875,
+            0.996875
+          ],
+          "confidence": 0.95,
+          "mean": 0.99375,
+          "median": 0.9921875,
+          "n": 5
+        }
+      },
+      "partial_observation": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.962109375,
+          "median": 0.962890625,
+          "n": 5,
+          "p10": 0.953515625,
+          "p90": 0.969921875,
+          "std": 0.008123685290267742
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            0.11762077423264794,
+            0.769275718723987
+          ],
+          "n": 5,
+          "success_count": 2,
+          "success_rate": 0.4
+        },
+        "validation": {
+          "mean": 0.8359375,
+          "median": 0.8359375,
+          "n": 5,
+          "p10": 0.8109375,
+          "p90": 0.859375,
+          "std": 0.024079742199097563
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.8171875,
+            0.8546875
+          ],
+          "confidence": 0.95,
+          "mean": 0.8359375,
+          "median": 0.8359375,
+          "n": 5
+        }
+      },
+      "variable_composition": {
+        "aggregate_capacity_pass": false,
+        "development": {
+          "mean": 0.94453125,
+          "median": 0.9453125,
+          "n": 5,
+          "p10": 0.920703125,
+          "p90": 0.968359375,
+          "std": 0.023502513994517693
+        },
+        "replicate_capacity_rate": {
+          "ci95": [
+            2.7755575615628914e-17,
+            0.43448246478317465
+          ],
+          "n": 5,
+          "success_count": 0,
+          "success_rate": 0.0
+        },
+        "validation": {
+          "mean": 0.7734375,
+          "median": 0.7578125,
+          "n": 5,
+          "p10": 0.734375,
+          "p90": 0.8203125,
+          "std": 0.044538102542935075
+        },
+        "validation_bootstrap": {
+          "ci": [
+            0.7421875,
+            0.8125
+          ],
+          "confidence": 0.95,
+          "mean": 0.7734375,
+          "median": 0.7578125,
+          "n": 5
+        }
+      }
+    },
+    "parameter_bytes": 3464,
+    "parameter_count": 866,
+    "resource_accounting": {
+      "cpu_seconds_sum_workers": 1368.4375,
+      "environment_interactions": 111225,
+      "examples_processed": 2457600,
+      "forward_calls": 5375,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "wall_seconds_sum_workers": 1558.736383700394
+    },
+    "state_modulator_diagnostics": null
+  }
+}

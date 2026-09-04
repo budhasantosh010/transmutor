@@ -1,0 +1,12 @@
+{
+  "fresh_audit_consumed": false,
+  "next_variant": "",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_followup_allowed": false,
+  "structural_search_allowed": false,
+  "v837o_diagnosis": "DYNAMIC_STATE_MODULATION_REQUIRED",
+  "v837p_complete": true,
+  "v837p_diagnosis": "SHARED_PROPERTY_TRANSFER_FAILURE"
+}
