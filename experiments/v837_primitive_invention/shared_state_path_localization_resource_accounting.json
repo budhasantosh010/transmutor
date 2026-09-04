@@ -1,0 +1,39 @@
+{
+  "program": "V837O+ shared-property factorial localization",
+  "variants": {
+    "V837o": {
+      "model_fits": 250,
+      "optimizer_steps": 48000,
+      "examples_processed": 24576000,
+      "environment_interactions": 1112250,
+      "forward_calls": 54175,
+      "wall_seconds_sum_workers": 2027.9837524984032,
+      "cpu_seconds_sum_workers": 1452.65625,
+      "gpu_seconds": 0.0
+    },
+    "V837p": {
+      "model_fits": 100,
+      "optimizer_steps": 19200,
+      "examples_processed": 9830400,
+      "environment_interactions": 444900,
+      "forward_calls": 21500,
+      "wall_seconds_sum_workers": 7278.342607399914,
+      "cpu_seconds_sum_workers": 6171.8125,
+      "gpu_seconds": 0.0
+    }
+  },
+  "totals": {
+    "model_fits": 350,
+    "optimizer_steps": 67200,
+    "examples_processed": 34406400,
+    "environment_interactions": 1557150,
+    "forward_calls": 75675,
+    "wall_seconds_sum_workers": 9306.326359898317,
+    "cpu_seconds_sum_workers": 7624.46875,
+    "gpu_seconds": 0.0
+  },
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "structural_search_runs": 0,
+  "motif_mining_runs": 0
+}

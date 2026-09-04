@@ -215,6 +215,54 @@ def main() -> int:
     if localization.get("fresh_audit_episodes_consumed") != 0 or localization.get("primitives_promoted") != 0:
         raise RuntimeError("GRU localization status violated audit/primitive locks")
 
+    # Shared-property factorial localization and the single authorized neutral transfer.
+    for variant_name in ("V837o", "V837p"):
+        record = manifest["current_variants"].get(variant_name)
+        if not isinstance(record, dict):
+            raise RuntimeError(f"verification manifest missing {variant_name}")
+        for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+            for relative in record.get(key, []):
+                require_path(relative)
+        require_path(record["config"])
+        require_path(record["frozen_gate"])
+        require_path(record["results"])
+
+    v837o = load_json(manifest["current_variants"]["V837o"]["results"])
+    if v837o.get("mechanism_diagnosis") != "DYNAMIC_STATE_MODULATION_REQUIRED" or v837o.get("diagnostic_pass") is not True:
+        raise RuntimeError("V837o factorial diagnosis changed")
+    expected_o = {
+        "G0_full_dynamic": 5, "G1_dynamic_update_no_reset": 5, "G2_no_update_dynamic_reset": 5,
+        "G3_static_update_vector_no_reset": 3, "G4_no_update_static_reset_vector": 3,
+        "G5_static_update_vector_static_reset_vector": 3, "G6_static_update_scalar_static_reset_vector": 3,
+        "G7_static_update_vector_static_reset_scalar": 3, "G8_static_update_scalar_static_reset_scalar": 3,
+        "G9_no_update_no_reset": 3,
+    }
+    actual_o = {name: int(row.get("families_passing", -1)) for name, row in v837o.get("conditions", {}).items()}
+    if actual_o != expected_o:
+        raise RuntimeError("V837o family-count outcome changed")
+    if v837o.get("fresh_audit_consumed") is not False or v837o.get("primitive_mining_allowed") is not False:
+        raise RuntimeError("V837o reopened locked science")
+
+    v837p = load_json(manifest["current_variants"]["V837p"]["results"])
+    if v837p.get("diagnosis") != "SHARED_PROPERTY_TRANSFER_FAILURE" or v837p.get("representation_adequacy_pass") is not False:
+        raise RuntimeError("V837p transfer outcome changed")
+    expected_p = {"historical_direct": 2, "scalar_persistence": 2, "dynamic_scalar_state_modulation": 3, "parameter_matched_dynamic_additive": 3}
+    actual_p = {name: int(row.get("families_passing", -1)) for name, row in v837p.get("conditions", {}).items()}
+    if actual_p != expected_p:
+        raise RuntimeError("V837p family-count outcome changed")
+    if int(v837p["conditions"]["dynamic_scalar_state_modulation"].get("parameter_count", -1)) != 1006 or int(v837p["conditions"]["parameter_matched_dynamic_additive"].get("parameter_count", -1)) != 1006:
+        raise RuntimeError("V837p parameter-matched control changed")
+    if v837p.get("structural_search_allowed") is not False or v837p.get("primitive_mining_allowed") is not False or v837p.get("fresh_audit_consumed") is not False:
+        raise RuntimeError("V837p reopened locked science")
+
+    shared = load_json("experiments/v837_primitive_invention/shared_state_path_localization_status.json")
+    if shared.get("outcome") != "DYNAMIC_MODULATION_LOCALIZED_TRANSFER_INSUFFICIENT":
+        raise RuntimeError("shared-state-path program outcome changed")
+    if shared.get("full_structural_search_allowed") is not False or shared.get("primitive_mining_allowed") is not False:
+        raise RuntimeError("shared-state-path status reopened downstream science")
+    if shared.get("fresh_audit_episodes_consumed") != 0 or shared.get("primitives_promoted") != 0:
+        raise RuntimeError("shared-state-path status violated audit/primitive locks")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

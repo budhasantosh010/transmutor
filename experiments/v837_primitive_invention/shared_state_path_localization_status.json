@@ -1,0 +1,42 @@
+{
+  "program": "V837O+ shared-property factorial localization",
+  "start_sha": "ca6bd2c3cbaf752901c32f08e62a01ef63bbec07",
+  "science_sha": "1cbf872b68591f9726a4625d968492e978c2357b",
+  "branch": "research/v837-shared-state-path-localization",
+  "completed_variants": ["V837o", "V837p"],
+  "outcome": "DYNAMIC_MODULATION_LOCALIZED_TRANSFER_INSUFFICIENT",
+  "v837o": {
+    "diagnostic_pass": true,
+    "mechanism_diagnosis": "DYNAMIC_STATE_MODULATION_REQUIRED",
+    "full_gru_families_passing": 5,
+    "dynamic_update_no_reset_families_passing": 5,
+    "no_update_dynamic_reset_families_passing": 5,
+    "static_update_vector_no_reset_families_passing": 3,
+    "no_update_static_reset_vector_families_passing": 3,
+    "static_update_vector_static_reset_vector_families_passing": 3,
+    "static_update_scalar_static_reset_vector_families_passing": 3,
+    "static_update_vector_static_reset_scalar_families_passing": 3,
+    "static_update_scalar_static_reset_scalar_families_passing": 3,
+    "both_off_families_passing": 3,
+    "neutral_followup_allowed": true,
+    "neutral_followup_type": "single_dynamic_modulator"
+  },
+  "v837p": {
+    "diagnosis": "SHARED_PROPERTY_TRANSFER_FAILURE",
+    "historical_neutral_families_passing": 2,
+    "scalar_persistence_families_passing": 2,
+    "dynamic_scalar_state_modulation_families_passing": 3,
+    "parameter_matched_dynamic_additive_families_passing": 3,
+    "representation_adequacy_pass": false,
+    "sample_efficiency_tested": false
+  },
+  "representation_adequacy": "NOT_RESTORED",
+  "sample_efficiency_retest": "NOT_RUN_PREREQUISITE_FAILURE",
+  "full_structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_consumed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "next_single_variable": "dense shared hidden-state organization versus decomposed cell-local recurrent state"
+}

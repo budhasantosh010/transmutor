@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This file is the compact entry point for independent review of the live private repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, and successful-GRU mechanism-localization state. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
+This file is the compact entry point for independent review of the live private repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, successful-GRU mechanism localization, V837o factorial shared-property localization, and the single authorized V837p neutral transfer. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
 
 ## Historical boundary
 
@@ -10,7 +10,9 @@ This file is the compact entry point for independent review of the live private 
 - V837/V837b/V837c historical results remain immutable.
 - V837d/V837g/V837h representation-recovery results remain preserved failures.
 - V837j–V837m learned-reference calibration/cell-law results remain preserved.
-- V837n is successful-reference mechanism localization only; learned references are never Transmutor primitives.
+- V837n is frozen successful-reference mechanism localization evidence.
+- V837o is factorial shared-property localization inside the successful reference.
+- V837p is the one neutral transfer authorized by V837o; learned references are never Transmutor primitives.
 
 ## Primary evidence paths
 
@@ -30,6 +32,13 @@ This file is the compact entry point for independent review of the live private 
 | V837n explicit GRU implementation | `experiments/v837_primitive_invention/v837n/gru_reference_explicit.py` |
 | V837n raw full-GRU runs | `experiments/v837_primitive_invention/v837n/raw/full_gru.json` |
 | V837n raw ablation runs | `experiments/v837_primitive_invention/v837n/raw/ablations.json` |
+| V837o factorial localization results | `experiments/v837_primitive_invention/v837o/results.json` |
+| V837o raw factorial runs | `experiments/v837_primitive_invention/v837o/raw/factorial_runs.json` |
+| V837p dynamic-modulator transfer results | `experiments/v837_primitive_invention/v837p/results.json` |
+| V837p raw neutral-transfer runs | `experiments/v837_primitive_invention/v837p/raw/runs.json` |
+| V837O+ program status | `experiments/v837_primitive_invention/shared_state_path_localization_status.json` |
+| V837O+ resource accounting | `experiments/v837_primitive_invention/shared_state_path_localization_resource_accounting.json` |
+| V837O+ final report | `docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md` |
 | Frozen V837 gates | `experiments/v837_primitive_invention/frozen_gates.json` |
 | V837n frozen mechanism gate | `experiments/v837_primitive_invention/v837n/frozen_mechanism_gate.json` |
 | V837 lineage status | `experiments/v837_primitive_invention/lineage_status.json` |
@@ -82,9 +91,25 @@ static update scalar     4/5
 no update + no reset     3/5
         ↓
 MECHANISM_REDUNDANCY_OR_COMPLEMENTARITY
+        ↓
+V837o factorial shared-property localization @ 4x data
+dynamic update / no reset             5/5
+no update / dynamic reset             5/5
+all static single/dual combinations   3/5
+both off                               3/5
+        ↓
+DYNAMIC_STATE_MODULATION_REQUIRED
+        ↓
+V837p one generic dynamic scalar neutral modulator
+historical neutral                     2/5
+scalar persistence                     2/5
+dynamic scalar state modulation        3/5
+parameter-matched dynamic additive     3/5
+        ↓
+SHARED_PROPERTY_TRANSFER_FAILURE
 ```
 
-The reference-side result rules out both named GRU mechanisms as individually necessary. V837o/p/q were therefore not run. The double ablation falls below the 4/5 adequacy gate, so some adaptive state-control flexibility appears useful, but the evidence does not localize that benefit uniquely to update/carry or reset/candidate conditioning.
+The reference-side result now localizes a shared property more tightly: at least one temporally/state-conditioned dynamic modulation path is required for the successful dense reference, while static vector/scalar pathways are insufficient. The one authorized neutral transfer improved the fixed neutral graph to 3/5 but did not reach the 4/5 representation-adequacy gate, and the exactly parameter-matched dynamic additive control also reached 3/5. Therefore no structural-search or primitive-mining stage is reopened.
 
 ## Historical SHA-256 anchors
 
@@ -102,9 +127,11 @@ These pre-existing scientific integrity anchors remain unchanged. Canonical GitH
 - Primitives promoted: **0**.
 - Primitive mining allowed: **false**.
 - Full structural search: **blocked**.
-- V837o/p/q/r/s/t: **not run**.
+- V837o: **complete — DYNAMIC_STATE_MODULATION_REQUIRED**.
+- V837p: **complete — SHARED_PROPERTY_TRANSFER_FAILURE, 3/5**.
+- V837q/r/s/t: **not run**.
 - V838: **not started**.
-- Current scientific frontier: **isolate the smallest location-agnostic adaptive multiplicative state-modulation property inside the successful dense reference before transferring anything to the neutral substrate**.
+- Current scientific frontier: **test dense shared hidden-state organization versus decomposed cell-local recurrent state as the next isolated difference; do not add more GRU machinery or reopen structural search yet**.
 
 ## Fast verification
 

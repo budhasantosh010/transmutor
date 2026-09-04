@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -40,11 +41,33 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837n/run_mechanism_ablation.py", "--phase", "ablations"],
         [sys.executable, "experiments/v837_primitive_invention/v837n/analyze_results.py"],
     ],
+    "v837o": [
+        [sys.executable, "experiments/v837_primitive_invention/v837o/run_factorial_localization.py", "--phase", "full"],
+        [sys.executable, "experiments/v837_primitive_invention/v837o/run_factorial_localization.py", "--phase", "factorial"],
+        [sys.executable, "experiments/v837_primitive_invention/v837o/analyze_results.py"],
+    ],
+    "v837p": [
+        [sys.executable, "experiments/v837_primitive_invention/v837p/run_transfer.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837p/analyze_results.py"],
+    ],
 }
 
 
 def display_command(command: list[str]) -> str:
     return " ".join(command)
+
+
+def enforce_variant_guard(variant: str) -> None:
+    if variant != "v837p":
+        return
+    parent_path = ROOT / "experiments" / "v837_primitive_invention" / "v837o" / "results.json"
+    if not parent_path.is_file():
+        raise SystemExit("V837p blocked: V837o results are missing")
+    parent = json.loads(parent_path.read_text(encoding="utf-8"))
+    if parent.get("mechanism_diagnosis") != "DYNAMIC_STATE_MODULATION_REQUIRED":
+        raise SystemExit("V837p blocked: V837o did not localize dynamic state modulation")
+    if parent.get("neutral_followup_allowed") is not True or parent.get("neutral_followup_type") != "single_dynamic_modulator":
+        raise SystemExit("V837p blocked: V837o did not authorize the single dynamic-modulator transfer")
 
 
 def main() -> int:
@@ -61,6 +84,7 @@ def main() -> int:
         help="Actually run the variant. Without this flag, only print the preserved commands.",
     )
     args = parser.parse_args()
+    enforce_variant_guard(args.variant)
 
     commands = VARIANT_COMMANDS[args.variant]
     config = ROOT / "experiments" / "v837_primitive_invention" / args.variant / "config.json"

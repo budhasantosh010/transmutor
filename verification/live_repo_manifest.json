@@ -18,9 +18,14 @@
     "experiments/v837_primitive_invention/v837l/results.json",
     "experiments/v837_primitive_invention/v837m/results.json",
     "experiments/v837_primitive_invention/gru_mechanism_localization_status.json",
-    "experiments/v837_primitive_invention/gru_mechanism_localization_resource_accounting.json"
+    "experiments/v837_primitive_invention/gru_mechanism_localization_resource_accounting.json",
+    "experiments/v837_primitive_invention/shared_state_path_localization_status.json",
+    "experiments/v837_primitive_invention/shared_state_path_localization_resource_accounting.json",
+    "docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md",
+    "experiments/v837_primitive_invention/v837o/results.json",
+    "experiments/v837_primitive_invention/v837p/results.json"
   ],
-  "current_scientific_frontier": "isolate the smallest location-agnostic adaptive multiplicative state-modulation property inside the successful dense reference before neutral transfer",
+  "current_scientific_frontier": "dynamic state modulation is necessary in the successful dense reference, but one generic scalar dynamic state modulator transfers only to 3/5 in the neutral substrate; next isolate dense shared hidden-state organization versus decomposed cell-local recurrent state", 
   "current_variants": {
     "V837d": {
       "config": "experiments/v837_primitive_invention/v837d/config.json",
@@ -215,6 +220,75 @@
         "experiments/v837_primitive_invention/v837n/run_mechanism_ablation.py",
         "experiments/v837_primitive_invention/v837n/analyze_results.py"
       ]
+    },
+    "V837o": {
+      "config": "experiments/v837_primitive_invention/v837o/config.json",
+      "diagnosis": "DYNAMIC_STATE_MODULATION_REQUIRED",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837o/diagnostics/full_gru_positive_control.json",
+        "experiments/v837_primitive_invention/v837o/diagnostics/factorial_summaries.json",
+        "experiments/v837_primitive_invention/v837o/diagnostics/factorial_effects.json",
+        "experiments/v837_primitive_invention/v837o/diagnostics/paired_effects.json",
+        "experiments/v837_primitive_invention/v837o/diagnostics/static_parameter_diagnostics.json",
+        "experiments/v837_primitive_invention/v837o/diagnostics/decision_state.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837o/README.md",
+        "experiments/v837_primitive_invention/v837o/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837o/PASS.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837o/frozen_factorial_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837o/plots/families_passing_factorial.png",
+        "experiments/v837_primitive_invention/v837o/plots/family_scores_factorial.png",
+        "experiments/v837_primitive_invention/v837o/plots/update_reset_interaction.png",
+        "experiments/v837_primitive_invention/v837o/plots/static_vector_distributions.png",
+        "experiments/v837_primitive_invention/v837o/plots/static_vector_variance_by_family.png",
+        "experiments/v837_primitive_invention/v837o/plots/full_vs_static_learning_curves.png",
+        "experiments/v837_primitive_invention/v837o/plots/counterfactual_flattening_effect.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837o/raw/full_gru.json",
+        "experiments/v837_primitive_invention/v837o/raw/factorial_runs.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837o/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837o/factorial_gru.py",
+        "experiments/v837_primitive_invention/v837o/run_factorial_localization.py",
+        "experiments/v837_primitive_invention/v837o/analyze_results.py"
+      ],
+      "status": "DIAGNOSTIC_PASS"
+    },
+    "V837p": {
+      "config": "experiments/v837_primitive_invention/v837p/config.json",
+      "diagnosis": "SHARED_PROPERTY_TRANSFER_FAILURE",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837p/diagnostics/condition_summaries.json",
+        "experiments/v837_primitive_invention/v837p/diagnostics/decision_state.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837p/README.md",
+        "experiments/v837_primitive_invention/v837p/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837p/FAILURE.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837p/frozen_transfer_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837p/plots/dynamic_modulator_distribution.png",
+        "experiments/v837_primitive_invention/v837p/plots/families_passing_by_condition.png",
+        "experiments/v837_primitive_invention/v837p/plots/family_scores_by_condition.png",
+        "experiments/v837_primitive_invention/v837p/plots/learning_curves_routing.png",
+        "experiments/v837_primitive_invention/v837p/plots/parameter_count_vs_success.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837p/raw/runs.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837p/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837p/run_transfer.py",
+        "experiments/v837_primitive_invention/v837p/analyze_results.py",
+        "experiments/v837_primitive_invention/common/substrate.py"
+      ],
+      "status": "FAIL"
     }
   },
   "fresh_audit_consumed": false,
@@ -238,8 +312,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "eaa691febf329f5f6377aa168312f8e32be5b902",
-  "main_sha_semantics": "V837n scientific research-state SHA indexed by this verification package. Verification-only hash commits may have later SHAs; use git rev-parse HEAD for the container commit.",
+  "main_sha": "1cbf872b68591f9726a4625d968492e978c2357b",
+  "main_sha_semantics": "V837p scientific research-state SHA indexed by this verification package. Verification-only integration/hash commits may have later SHAs; use git rev-parse HEAD for the container commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -253,11 +327,12 @@
     "docs/V837_REPRESENTATION_RECOVERY_REPORT.md",
     "docs/LIVE_REPO_VERIFICATION.md",
     "docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md",
-    "docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md"
+    "docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md",
+    "docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 successful-reference mechanism localization after learned-reference calibration",
-  "research_sha": "eaa691febf329f5f6377aa168312f8e32be5b902",
+  "research_lineage": "V837 shared-property factorial localization and one authorized neutral dynamic-modulator transfer after successful-reference mechanism localization",
+  "research_sha": "1cbf872b68591f9726a4625d968492e978c2357b",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
@@ -271,10 +346,13 @@
     "tests/test_v837m_linear_transport.py",
     "tests/test_v837_learned_reference_outcome.py",
     "tests/test_v837n_gru_mechanism_localization.py",
-    "tests/test_v837n_mechanism_outcome.py"
+    "tests/test_v837n_mechanism_outcome.py",
+    "tests/test_v837o_factorial_localization.py",
+    "tests/test_v837p_dynamic_state_modulator.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",
+    "scripts/validate_v837_shared_state_path.py",
     "scripts/validate_registry.py",
     "scripts/verify_live_repo.py"
   ]

@@ -42,12 +42,18 @@ class V837nMechanismOutcomeTests(unittest.TestCase):
         self.assertIn("reset_time_shuffle", replay)
         self.assertLess(replay["update_time_shuffle"]["conditional_routing"]["median"], 0.85)
 
-    def test_neutral_transfer_variants_were_not_started(self):
-        for suffix in ("v837o", "v837p", "v837q", "v837r", "v837s", "v837t"):
-            self.assertFalse((BASE / suffix).exists(), suffix)
+    def test_v837n_did_not_directly_transfer_a_named_gru_gate(self):
         self.assertEqual(self.status["outcome"], "C_NO_INDIVIDUAL_GRU_MECHANISM_EXPLAINS_SUCCESS")
         self.assertFalse(self.status["full_structural_search_allowed"])
         self.assertFalse(self.status["primitive_mining_allowed"])
+        v837o = json.loads((BASE / "v837o" / "results.json").read_text(encoding="utf-8"))
+        v837p = json.loads((BASE / "v837p" / "results.json").read_text(encoding="utf-8"))
+        self.assertEqual(v837o["parent"], "V837n")
+        self.assertEqual(v837o["mechanism_diagnosis"], "DYNAMIC_STATE_MODULATION_REQUIRED")
+        self.assertEqual(v837p["parent"], "V837o")
+        self.assertEqual(v837p["selection_basis"], "V837o DYNAMIC_STATE_MODULATION_REQUIRED")
+        for suffix in ("v837q", "v837r", "v837s", "v837t"):
+            self.assertFalse((BASE / suffix).exists(), suffix)
 
     def test_fresh_audit_and_primitives_remain_locked(self):
         self.assertFalse(self.result["fresh_audit_consumed"])

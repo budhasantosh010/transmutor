@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import runpy
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -800,9 +801,8 @@ def validate_v837_gru_mechanism_localization() -> None:
             raise ValueError("V837N+ status reopened downstream science")
         if int(status.get("fresh_audit_episodes_consumed", -1)) != 0 or int(status.get("primitives_promoted", -1)) != 0:
             raise ValueError("V837N+ status consumed audit/promoted primitives")
-        for suffix in ("v837o", "v837p", "v837q", "v837r", "v837s", "v837t"):
-            if (base / suffix).exists():
-                raise ValueError(f"{suffix} exists despite V837n not justifying neutral transfer")
+        if any((base / suffix).exists() for suffix in ("v837o", "v837p", "v837q", "v837r", "v837s", "v837t")) and not (base / "shared_state_path_localization_status.json").exists():
+            raise ValueError("post-V837n variants exist without the shared-state-path localization authorization record")
 
 
 def main() -> int:
@@ -814,6 +814,7 @@ def main() -> int:
     validate_v837_representation_recovery()
     validate_v837_learned_reference_calibration()
     validate_v837_gru_mechanism_localization()
+    runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_path.py"), run_name="__main__")
     print("active research validation: PASS")
     return 0
 
