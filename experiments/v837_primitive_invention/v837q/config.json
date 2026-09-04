@@ -1,0 +1,103 @@
+{
+  "experiment": "V837q",
+  "parent": "V837p",
+  "question": "Does reducing recurrent-state fragmentation restore neutral-substrate representation adequacy?",
+  "single_change": "recurrent state ownership from cell-local to progressively shared while preserving 40 total recurrent state dimensions",
+  "data_regime": "4x_unique",
+  "total_state_dim": 40,
+  "local_view_dim": 4,
+  "message_dim": 4,
+  "projection_seed": 837040,
+  "projection_semantics": "fixed task-independent orthonormal-row read projections with transpose writes; frame-energy normalization sqrt(group_dim/(member_count*local_view_dim))",
+  "conditions": {
+    "Q0_local_10x4": {
+      "num_state_groups": 10,
+      "group_dims": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "Q1_group5_5x8": {
+      "num_state_groups": 5,
+      "group_dims": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    "Q2_group2_2x20": {
+      "num_state_groups": 2,
+      "group_dims": [
+        20,
+        20
+      ]
+    },
+    "Q3_shared_1x40": {
+      "num_state_groups": 1,
+      "group_dims": [
+        40
+      ]
+    }
+  },
+  "references": {
+    "QR1_dense_vanilla_rnn_40": {
+      "architecture": "vanilla_rnn_reference",
+      "hidden_size": 40
+    },
+    "QR2_gru_reference": {
+      "architecture": "gru_reference",
+      "hidden_size": 13
+    }
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "steps": 192,
+    "development_seed_range": [
+      10000,
+      10511
+    ],
+    "validation_seed_range": [
+      20000,
+      20127
+    ],
+    "train_episodes": 512,
+    "validation_episodes": 128,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "replicates": 5,
+    "curve_steps": [
+      0,
+      32,
+      64,
+      96,
+      128,
+      160,
+      192
+    ],
+    "initialization_seed_namespace": "v837j-primary-init"
+  },
+  "baseline_drift_threshold": {
+    "absolute_validation_delta": 0.1,
+    "families_required": 2
+  },
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "fresh_audit_allowed": false,
+  "fresh_audit_consumed": false,
+  "dynamic_modulation_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "task_family_label_allowed": false,
+  "partial_benefit_min_mean_validation_delta": 0.05
+}

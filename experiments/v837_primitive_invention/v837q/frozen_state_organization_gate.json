@@ -1,0 +1,38 @@
+{
+  "version": "V837q",
+  "start_sha": "f20316fd2aca8751b32226d653ac5b5f6976c7b3",
+  "parent": "V837p",
+  "parent_result_git_blob_sha256": "d3acf0e14db50a45106fd8595fe4870bf09409f6ae1d5b59d136fcbd9f81e7b1",
+  "calibrated_reference_result_git_blob_sha256": "5e607c94b9b7632155fac7d43840ed8327272ce0bc88efffab75be8e537405d8",
+  "historical_gate_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_sha256": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "data_regime": "4x_unique",
+  "total_state_dim": 40,
+  "local_view_dim": 4,
+  "primary_conditions": [
+    "Q0_local_10x4",
+    "Q1_group5_5x8",
+    "Q2_group2_2x20",
+    "Q3_shared_1x40"
+  ],
+  "expected_q0_families_passing": 2,
+  "expected_q0_validation_medians": {
+    "conditional_routing": 0.5,
+    "delayed_recall": 0.9375,
+    "iterative_state": 0.984375,
+    "partial_observation": 0.7734375,
+    "variable_composition": 0.78125
+  },
+  "baseline_drift_threshold": {
+    "absolute_validation_delta": 0.1,
+    "families_required": 2
+  },
+  "projection_seed": 837040,
+  "group_write_normalization": "sqrt(group_dim/(member_count*local_view_dim)); equals 1.0 for every primary layout",
+  "dynamic_modulation_allowed": false,
+  "fresh_audit_consumed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "partial_benefit_min_mean_validation_delta": 0.05
+}

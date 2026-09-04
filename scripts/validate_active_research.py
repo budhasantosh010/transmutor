@@ -47,6 +47,13 @@ V837_FAILURE_CLASSES = FAILURE_CLASSES | {
     "CANDIDATE_CONDITIONING_FAILURE",
     "MECHANISM_COUPLING_REQUIRED",
     "REPRESENTATION_ADEQUATE_SAMPLE_INEFFICIENT",
+    "STATE_FRAGMENTATION_CRITICAL",
+    "STATE_SHARING_PARTIAL_BENEFIT",
+    "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED",
+    "INTERMEDIATE_MODULARITY_OPTIMAL",
+    "SHARED_STATE_PARAMETER_CONFOUND",
+    "SHARED_STATE_OPTIMIZATION_EFFECT",
+    "SHARED_STATE_REPRESENTATION_RECOVERY",
 }
 V837_GATE_SHA256 = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
 V837_CAPACITY_CRITERION_SHA256 = "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa"
@@ -815,6 +822,7 @@ def main() -> int:
     validate_v837_learned_reference_calibration()
     validate_v837_gru_mechanism_localization()
     runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_path.py"), run_name="__main__")
+    runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_organization.py"), run_name="__main__")
     print("active research validation: PASS")
     return 0
 
