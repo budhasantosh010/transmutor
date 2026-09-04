@@ -1,0 +1,61 @@
+{
+  "experiment": "V837o",
+  "parent": "V837n",
+  "question": "Is dynamic adaptive state control necessary, or are complementary static recurrent pathways sufficient?",
+  "single_change": "factorial update/reset pathway dynamics inside the frozen explicit GRU while holding the calibrated 4x data and training regime fixed",
+  "data_regime": "4x_unique",
+  "reference_parameter_count": 875,
+  "hidden_size": 13,
+  "input_dim": 6,
+  "conditions": [
+    "G0_full_dynamic",
+    "G1_dynamic_update_no_reset",
+    "G2_no_update_dynamic_reset",
+    "G3_static_update_vector_no_reset",
+    "G4_no_update_static_reset_vector",
+    "G5_static_update_vector_static_reset_vector",
+    "G6_static_update_scalar_static_reset_vector",
+    "G7_static_update_vector_static_reset_scalar",
+    "G8_static_update_scalar_static_reset_scalar",
+    "G9_no_update_no_reset"
+  ],
+  "training": {
+    "optimizer": "AdamW",
+    "steps": 192,
+    "train_episodes": 512,
+    "development_seed_range": [10000, 10511],
+    "validation_episodes": 128,
+    "validation_seed_range": [20000, 20127],
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "replicates": 5,
+    "curve_steps": [0, 32, 64, 96, 128, 160, 192]
+  },
+  "positive_control_gate": {
+    "families_required": 4,
+    "expected_v837n_families": 5,
+    "compatibility_drift_threshold": 0.10,
+    "max_families_over_drift_threshold": 1
+  },
+  "factorial_gate": {
+    "families_required": 4,
+    "both_off_historical_expected": 3,
+    "baseline_drift_if_both_off_at_or_above": 4,
+    "bootstrap_confidence": 0.95
+  },
+  "static_initialization": {
+    "logit": 0.0,
+    "coefficient": 0.5,
+    "policy": "reuse retained GRU gate-bias slice and zero it after shared initialization"
+  },
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "fresh_audit_allowed": false,
+  "fresh_audit_consumed": false,
+  "primitives_promoted": 0,
+  "primitive_mining_allowed": false,
+  "structural_search_allowed": false,
+  "task_family_label_allowed": false,
+  "cpu_only": true
+}

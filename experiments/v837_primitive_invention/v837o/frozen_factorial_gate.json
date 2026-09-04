@@ -1,0 +1,20 @@
+{
+  "version": "V837o",
+  "start_sha": "ca6bd2c3cbaf752901c32f08e62a01ef63bbec07",
+  "parent": "V837n",
+  "parent_results_git_blob_sha256": "042aa2f8be35c4c4ddc7c4f9db4c2d7516e7558e3ca75a929280725d9ae2ae5b",
+  "parent_explicit_gru_git_blob_sha256": "f7cffd779cf9654e8a014013c80a67631ee2449c423b9ca0d0b5e40ac0cecc5b",
+  "historical_gate_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_sha256": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "reference_regime": "4x_unique",
+  "positive_control": "G0_full_dynamic",
+  "negative_control": "G9_no_update_no_reset",
+  "families_required": 4,
+  "replicates": 5,
+  "optimizer_steps": 192,
+  "development_episodes": 512,
+  "validation_episodes": 128,
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "structural_search_allowed": false
+}
