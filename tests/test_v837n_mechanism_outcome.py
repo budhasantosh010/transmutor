@@ -52,7 +52,12 @@ class V837nMechanismOutcomeTests(unittest.TestCase):
         self.assertEqual(v837o["mechanism_diagnosis"], "DYNAMIC_STATE_MODULATION_REQUIRED")
         self.assertEqual(v837p["parent"], "V837o")
         self.assertEqual(v837p["selection_basis"], "V837o DYNAMIC_STATE_MODULATION_REQUIRED")
-        for suffix in ("v837q", "v837r", "v837s", "v837t"):
+        v837q = json.loads((BASE / "v837q" / "results.json").read_text(encoding="utf-8"))
+        q_config = json.loads((BASE / "v837q" / "config.json").read_text(encoding="utf-8"))
+        self.assertEqual(v837q["parent"], "V837p")
+        self.assertEqual(v837q["diagnosis"], "STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED")
+        self.assertFalse(q_config["dynamic_modulation_allowed"])
+        for suffix in ("v837r", "v837s", "v837t", "v837u"):
             self.assertFalse((BASE / suffix).exists(), suffix)
 
     def test_fresh_audit_and_primitives_remain_locked(self):
