@@ -1,0 +1,27 @@
+{
+  "version": "V837r",
+  "parent": "V837q",
+  "start_sha": "7f623f99eadffc333a07a73f1155876e987356d3",
+  "historical_gate_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_sha256": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "parent_result_git_blob_sha256": "eab8334d37e63634453b548991664de98824bbcb69a1a17557abd8fdb3d60d43",
+  "calibrated_reference_result_git_blob_sha256": "5e607c94b9b7632155fac7d43840ed8327272ce0bc88efffab75be8e537405d8",
+  "v837p_result_git_blob_sha256": "d3acf0e14db50a45106fd8595fe4870bf09409f6ae1d5b59d136fcbd9f81e7b1",
+  "expected_r0_families_passing": 2,
+  "expected_r0_validation_medians": {
+    "conditional_routing": 0.5,
+    "delayed_recall": 0.9375,
+    "iterative_state": 0.984375,
+    "partial_observation": 0.7734375,
+    "variable_composition": 0.78125
+  },
+  "representation_adequacy_gate": ">=4/5 families under the existing V837 capacity criterion at 4x unique data",
+  "primary_state_layout": "local_10x4",
+  "total_state_dim": 40,
+  "dynamic_modulation": false,
+  "shared_state": false,
+  "structural_search": false,
+  "primitive_mining": false,
+  "fresh_audit": false,
+  "strict_stop_rule": "after R2/R3/R5 plus matched controls, do not run rank1/rank8 if all screened global conditions remain <=2/5 and no global condition beats its matched local control by >=0.05 mean family validation median"
+}

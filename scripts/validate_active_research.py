@@ -54,6 +54,11 @@ V837_FAILURE_CLASSES = FAILURE_CLASSES | {
     "SHARED_STATE_PARAMETER_CONFOUND",
     "SHARED_STATE_OPTIMIZATION_EFFECT",
     "SHARED_STATE_REPRESENTATION_RECOVERY",
+    "LOW_RANK_GLOBAL_COUPLING_SUFFICIENT",
+    "HIGH_BANDWIDTH_GLOBAL_COUPLING_REQUIRED",
+    "GLOBAL_COUPLING_PARTIAL_BENEFIT",
+    "GLOBAL_COUPLING_SPECIFICITY_NOT_ESTABLISHED",
+    "GLOBAL_RECURRENT_COUPLING_INSUFFICIENT",
 }
 V837_GATE_SHA256 = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
 V837_CAPACITY_CRITERION_SHA256 = "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa"
@@ -823,6 +828,7 @@ def main() -> int:
     validate_v837_gru_mechanism_localization()
     runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_path.py"), run_name="__main__")
     runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_organization.py"), run_name="__main__")
+    runpy.run_path(str(ROOT / "scripts" / "validate_v837_global_recurrent_coupling.py"), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

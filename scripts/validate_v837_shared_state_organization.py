@@ -168,8 +168,18 @@ def validate_v837_shared_state_organization() -> None:
     conditional_files = [HERE / "raw" / "q3_no_message_runs.json", HERE / "raw" / "q3_projection_sensitivity_runs.json"]
     if not q3_pass and any(path.exists() for path in conditional_files):
         raise ValueError("V837q conditional Q3 controls ran without Q3 representation adequacy")
-    if (BASE / "v837r").exists() or (BASE / "v837s").exists() or (BASE / "v837t").exists() or (BASE / "v837u").exists():
-        raise ValueError("V837q closure may not execute downstream variants automatically")
+    v837r_dir = BASE / "v837r"
+    if v837r_dir.exists():
+        r_config = load_json(v837r_dir / "config.json")
+        if r_config.get("parent") != "V837q" or r_config.get("state_layout") != "local_10x4" or r_config.get("dynamic_modulation_allowed") is not False or r_config.get("shared_state_allowed") is not False:
+            raise ValueError("V837r does not preserve the single-variable continuation authorized after V837q")
+    v837s_dir = BASE / "v837s"
+    if v837s_dir.exists():
+        decision_path = v837r_dir / "diagnostics" / "decision_state.json"
+        if not decision_path.exists() or load_json(decision_path).get("interaction_followup_allowed") is not True:
+            raise ValueError("V837s exists without V837r interaction authorization")
+    if (BASE / "v837t").exists() or (BASE / "v837u").exists():
+        raise ValueError("V837q lineage may not skip directly to V837t/u")
     if not (HERE / "PASS.md").exists():
         raise ValueError("V837q diagnostic PASS documentation missing")
 
