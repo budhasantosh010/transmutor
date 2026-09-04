@@ -19,6 +19,7 @@ class ForwardTrace:
     recurrent_terms: torch.Tensor  # [B,T,N,D]
     message_terms: torch.Tensor  # [B,T,N,D]
     input_terms: torch.Tensor  # [B,T,N,D]
+    state_modulators: torch.Tensor | None = None  # [B,T,N,1] for scalar dynamic modulation
 
 
 class NeutralGraphModel(nn.Module):
@@ -36,6 +37,7 @@ class NeutralGraphModel(nn.Module):
         transport_rho: float = 0.95,
         interaction_mode: str = "none",
         interaction_rank: int = 2,
+        state_modulation_mode: str = "none",
     ):
         super().__init__()
         if state_dim != message_dim:
@@ -60,6 +62,11 @@ class NeutralGraphModel(nn.Module):
             raise ValueError("interaction_rank must be positive")
         self.interaction_mode = interaction_mode
         self.interaction_rank = int(interaction_rank)
+        if state_modulation_mode not in {"none", "dynamic_scalar_candidate", "dynamic_scalar_matched_additive"}:
+            raise ValueError(f"unknown state_modulation_mode: {state_modulation_mode}")
+        if state_modulation_mode != "none" and interaction_mode != "none":
+            raise ValueError("dynamic state modulation is isolated from interaction-mode experiments")
+        self.state_modulation_mode = state_modulation_mode
         if self.graph.input_access is not None and self.graph.input_access.observation_dim != self.obs_dim:
             raise ValueError("graph input-access observation dimension does not match model obs_dim")
         if self.graph.input_access is None or self.graph.input_access.mode == "broadcast":
@@ -84,6 +91,7 @@ class NeutralGraphModel(nn.Module):
         self.cell_as = nn.ParameterList(); self.cell_am = nn.ParameterList(); self.cell_ax = nn.ParameterList()
         self.cell_bs = nn.ParameterList(); self.cell_bm = nn.ParameterList(); self.cell_bx = nn.ParameterList()
         self.cell_cu = nn.ParameterList(); self.cell_cv = nn.ParameterList(); self.cell_ci = nn.ParameterList()
+        self.cell_gs = nn.ParameterList(); self.cell_gm = nn.ParameterList(); self.cell_gx = nn.ParameterList(); self.cell_gb = nn.ParameterList()
         for cell in self.graph.cells:
             generator = torch.Generator(device="cpu").manual_seed(int(cell.param_seed) + 137)
             scale = 1.0 / math.sqrt(max(1, state_dim))
@@ -117,6 +125,14 @@ class NeutralGraphModel(nn.Module):
                 self.cell_alpha_logits.append(nn.Parameter(torch.tensor(logit, dtype=torch.float32)))
             elif self.state_update_mode in {"linear_transport", "transport_matched_additive"}:
                 self.cell_transport_raw.append(nn.Parameter(torch.eye(state_dim, dtype=torch.float32)))
+            if self.state_modulation_mode != "none":
+                # V837p uses the smallest mechanism licensed by V837o: one
+                # input/state/message-conditioned scalar modulator per cell.
+                mod_generator = torch.Generator(device="cpu").manual_seed(int(cell.param_seed) + 9137)
+                self.cell_gs.append(nn.Parameter(torch.randn(state_dim, generator=mod_generator) * (0.20 / math.sqrt(state_dim))))
+                self.cell_gm.append(nn.Parameter(torch.randn(message_dim, generator=mod_generator) * (0.20 / math.sqrt(message_dim))))
+                self.cell_gx.append(nn.Parameter(torch.randn(obs_dim, generator=mod_generator) * (0.20 / math.sqrt(obs_dim))))
+                self.cell_gb.append(nn.Parameter(torch.zeros(1)))
         self.edge_weights = nn.ParameterList([nn.Parameter(torch.tensor(float(edge.weight), dtype=torch.float32)) for edge in self.graph.edges])
         self.readout = nn.Linear(len(self.graph.cells) * state_dim, 1)
 
@@ -158,6 +174,7 @@ class NeutralGraphModel(nn.Module):
         recurrent_term_trace: list[torch.Tensor] = []
         message_term_trace: list[torch.Tensor] = []
         input_term_trace: list[torch.Tensor] = []
+        state_modulator_trace: list[torch.Tensor] = []
         for t in range(steps):
             x_t = observations[:, t, :]
             current_states: list[torch.Tensor] = []
@@ -167,6 +184,7 @@ class NeutralGraphModel(nn.Module):
             current_recurrent_terms: list[torch.Tensor] = []
             current_message_terms: list[torch.Tensor] = []
             current_input_terms: list[torch.Tensor] = []
+            current_state_modulators: list[torch.Tensor] = []
             for cell_index in range(n):
                 if cell_index in disabled:
                     state = torch.zeros(batch, self.state_dim, device=device)
@@ -176,6 +194,7 @@ class NeutralGraphModel(nn.Module):
                     recurrent_term = torch.zeros(batch, self.state_dim, device=device)
                     message_term = torch.zeros(batch, self.state_dim, device=device)
                     input_term = torch.zeros(batch, self.state_dim, device=device)
+                    state_modulator = torch.ones(batch, 1, device=device)
                 else:
                     message = torch.zeros(batch, self.message_dim, device=device)
                     if not disable_messages and cell_index not in message_disabled:
@@ -195,11 +214,32 @@ class NeutralGraphModel(nn.Module):
                     else:
                         visible_x = x_t * self.input_access_mask[:, cell_index].view(1, -1)
                     if self.interaction_mode == "none":
-                        recurrent_term = prev_states[cell_index] @ self.cell_ws[cell_index].T
+                        if self.state_modulation_mode != "none":
+                            modulator_pre = (
+                                torch.sum(prev_states[cell_index] * self.cell_gs[cell_index].view(1, -1), dim=1, keepdim=True)
+                                + torch.sum(message * self.cell_gm[cell_index].view(1, -1), dim=1, keepdim=True)
+                                + torch.sum(visible_x * self.cell_gx[cell_index].view(1, -1), dim=1, keepdim=True)
+                                + self.cell_gb[cell_index]
+                            )
+                            state_modulator = torch.sigmoid(modulator_pre)
+                        else:
+                            state_modulator = torch.ones(batch, 1, device=device, dtype=observations.dtype)
+                        recurrent_source = (
+                            state_modulator * prev_states[cell_index]
+                            if self.state_modulation_mode == "dynamic_scalar_candidate"
+                            else prev_states[cell_index]
+                        )
+                        recurrent_term = recurrent_source @ self.cell_ws[cell_index].T
                         message_term = message @ self.cell_wm[cell_index].T
                         input_term = visible_x @ self.cell_wx[cell_index].T
                         preactivation = recurrent_term + message_term + input_term + self.cell_b[cell_index]
+                        if self.state_modulation_mode == "dynamic_scalar_matched_additive":
+                            # Same dynamic scalar network and parameter count,
+                            # but the coefficient cannot multiplicatively gate
+                            # access to the previous state.
+                            preactivation = preactivation + state_modulator
                     else:
+                        state_modulator = torch.ones(batch, 1, device=device, dtype=observations.dtype)
                         u_s = prev_states[cell_index] @ self.cell_as[cell_index].T
                         u_m = message @ self.cell_am[cell_index].T
                         u_x = visible_x @ self.cell_ax[cell_index].T
@@ -242,6 +282,7 @@ class NeutralGraphModel(nn.Module):
                             recurrent_term = active * recurrent_term
                             message_term = active * message_term
                             input_term = active * input_term
+                            state_modulator = active * state_modulator + (1.0 - active)
                     else:
                         state = proposed_state
                         output = proposed_output
@@ -253,6 +294,7 @@ class NeutralGraphModel(nn.Module):
                     current_recurrent_terms.append(recurrent_term)
                     current_message_terms.append(message_term)
                     current_input_terms.append(input_term)
+                    current_state_modulators.append(state_modulator)
             prev_states = current_states
             prev_outputs = current_outputs
             if return_trace:
@@ -263,6 +305,7 @@ class NeutralGraphModel(nn.Module):
                 recurrent_term_trace.append(torch.stack(current_recurrent_terms, dim=1))
                 message_term_trace.append(torch.stack(current_message_terms, dim=1))
                 input_term_trace.append(torch.stack(current_input_terms, dim=1))
+                state_modulator_trace.append(torch.stack(current_state_modulators, dim=1))
         stacked = torch.cat(prev_states, dim=1)
         prediction = torch.tanh(self.readout(stacked)).squeeze(-1)
         if return_trace:
@@ -274,6 +317,7 @@ class NeutralGraphModel(nn.Module):
                 recurrent_terms=torch.stack(recurrent_term_trace, dim=1),
                 message_terms=torch.stack(message_term_trace, dim=1),
                 input_terms=torch.stack(input_term_trace, dim=1),
+                state_modulators=torch.stack(state_modulator_trace, dim=1),
             )
             return prediction, trace
         return prediction
@@ -321,6 +365,7 @@ def clone_with_state(model: NeutralGraphModel) -> NeutralGraphModel:
         transport_rho=model.transport_rho,
         interaction_mode=model.interaction_mode,
         interaction_rank=model.interaction_rank,
+        state_modulation_mode=model.state_modulation_mode,
     )
     clone.load_state_dict(model.state_dict())
     return clone

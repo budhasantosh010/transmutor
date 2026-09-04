@@ -1,0 +1,59 @@
+{
+  "experiment": "V837p",
+  "parent": "V837o",
+  "question": "Does one generic dynamic scalar state modulator repair the neutral cell under the calibrated 4x-data regime?",
+  "single_change": "add one input/state/message-conditioned scalar modulator per neutral cell and apply it only to recurrent-state access",
+  "selection_basis": "V837o DYNAMIC_STATE_MODULATION_REQUIRED",
+  "data_regime": "4x_unique",
+  "conditions": {
+    "historical_direct": {
+      "state_update_mode": "direct",
+      "state_modulation_mode": "none",
+      "parameter_count_expected": 856
+    },
+    "scalar_persistence": {
+      "state_update_mode": "learned_leaky",
+      "state_modulation_mode": "none",
+      "alpha_init": 0.5,
+      "parameter_count_expected": 866
+    },
+    "dynamic_scalar_state_modulation": {
+      "state_update_mode": "direct",
+      "state_modulation_mode": "dynamic_scalar_candidate",
+      "parameter_count_expected": 1006
+    },
+    "parameter_matched_dynamic_additive": {
+      "state_update_mode": "direct",
+      "state_modulation_mode": "dynamic_scalar_matched_additive",
+      "parameter_count_expected": 1006
+    }
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "steps": 192,
+    "train_episodes": 512,
+    "development_seed_range": [10000, 10511],
+    "validation_episodes": 128,
+    "validation_seed_range": [20000, 20127],
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "replicates": 5,
+    "curve_steps": [0, 32, 64, 96, 128, 160, 192]
+  },
+  "representation_gate": {
+    "families_required": 4,
+    "development_success": 0.9,
+    "validation_success": 0.85
+  },
+  "v837o_result_git_blob_sha256": "92cdc0f2ca92b6228ec0599cc89fc2d51707a22abb1fda806f40a9cad15aa831",
+  "required_v837o_diagnosis": "DYNAMIC_STATE_MODULATION_REQUIRED",
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "fresh_audit_allowed": false,
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "structural_search_allowed_before_pass": false,
+  "task_family_label_allowed": false,
+  "cpu_only": true
+}
