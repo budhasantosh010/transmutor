@@ -847,6 +847,15 @@ def main() -> int:
     neutral_validator = ROOT / "scripts" / "validate_v837_neutral_dynamic_followup.py"
     if neutral_validator.exists():
         runpy.run_path(str(neutral_validator), run_name="__main__")
+    control_scope_validator = ROOT / "scripts" / "validate_v837_control_scope.py"
+    if control_scope_validator.exists():
+        runpy.run_path(str(control_scope_validator), run_name="__main__")
+    controller_info_validator = ROOT / "scripts" / "validate_v837_controller_information.py"
+    if controller_info_validator.exists():
+        runpy.run_path(str(controller_info_validator), run_name="__main__")
+    global_scalar_validator = ROOT / "scripts" / "validate_v837_global_scalar_control.py"
+    if global_scalar_validator.exists():
+        runpy.run_path(str(global_scalar_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

@@ -1,0 +1,20 @@
+{
+  "baseline_reproduced": true,
+  "best_passing_condition": null,
+  "diagnosis": "CONTROL_SCOPE_ALONE_INSUFFICIENT",
+  "families_passing": {
+    "V0_10_domains": 2,
+    "V1_5_domains": 2,
+    "V2_2_domains": 2,
+    "V3_1_domain": 2
+  },
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "v837v_complete": true,
+  "v837w_allowed": true,
+  "v838_started": false
+}

@@ -72,8 +72,10 @@ class V837nMechanismOutcomeTests(unittest.TestCase):
         self.assertEqual(t_decision["authorized_v837u_mode"], "DYNAMIC_SCALAR_CARRY")
         self.assertEqual(u_decision["authorized_mode"], t_decision["authorized_v837u_mode"])
         self.assertEqual(u_decision["diagnosis"], "DYNAMIC_SCALAR_CARRY_INSUFFICIENT")
-        for suffix in ("v837v", "v838"):
-            self.assertFalse((BASE / suffix).exists(), suffix)
+        self.assertFalse((BASE / "v838").exists(), "v838")
+        if (BASE / "v837v").exists():
+            self.assertEqual(u_decision["diagnosis"], "DYNAMIC_SCALAR_CARRY_INSUFFICIENT")
+            self.assertFalse(u_decision["representation_adequacy_pass"])
 
     def test_fresh_audit_and_primitives_remain_locked(self):
         self.assertFalse(self.result["fresh_audit_consumed"])

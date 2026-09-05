@@ -184,9 +184,15 @@ def validate_v837_global_recurrent_coupling() -> None:
         s_decision = load_json(s_decision_path)
         if s_decision.get("v837s_complete") is not True or s_decision.get("representation_adequacy_pass") is not False:
             raise ValueError("V837t/u continuation is inconsistent with V837s closure")
-    for suffix in ("v837v", "v838"):
-        if (BASE / suffix).exists():
-            raise ValueError(f"V837r closure may not create downstream {suffix}")
+    if (BASE / "v838").exists():
+        raise ValueError("V837r closure may not create downstream v838")
+    if (BASE / "v837v").exists():
+        u_decision_path = BASE / "v837u" / "diagnostics" / "decision_state.json"
+        if not u_decision_path.exists():
+            raise ValueError("V837v exists without completed V837u")
+        u_decision = load_json(u_decision_path)
+        if u_decision.get("diagnosis") != "DYNAMIC_SCALAR_CARRY_INSUFFICIENT" or u_decision.get("representation_adequacy_pass") is not False:
+            raise ValueError("V837v continuation is inconsistent with V837u closure")
     if not (HERE / "PASS.md").exists():
         raise ValueError("V837r diagnostic PASS document missing")
     report = ROOT / "docs" / "V837_GLOBAL_RECURRENT_COUPLING_REPORT.md"

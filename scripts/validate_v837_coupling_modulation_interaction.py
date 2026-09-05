@@ -136,9 +136,15 @@ def validate_v837_coupling_modulation_interaction() -> None:
         t_decision = load_json(t_decision_path)
         if t_decision.get("neutral_followup_allowed") is not True:
             raise ValueError("V837u exists without V837t authorization")
-    for suffix in ("v837v", "v838"):
-        if (BASE / suffix).exists():
-            raise ValueError(f"V837s closure may not create downstream {suffix}")
+    if (BASE / "v838").exists():
+        raise ValueError("V837s closure may not create downstream v838")
+    if (BASE / "v837v").exists():
+        u_decision_path = BASE / "v837u" / "diagnostics" / "decision_state.json"
+        if not u_decision_path.exists():
+            raise ValueError("V837v exists without completed V837u")
+        u_decision = load_json(u_decision_path)
+        if u_decision.get("diagnosis") != "DYNAMIC_SCALAR_CARRY_INSUFFICIENT" or u_decision.get("representation_adequacy_pass") is not False:
+            raise ValueError("V837v continuation is inconsistent with V837u closure")
 
 
 if __name__ == "__main__":

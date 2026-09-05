@@ -1,0 +1,37 @@
+{
+  "compatible": true,
+  "drifted_families": [],
+  "families_passing": 2,
+  "family_medians": {
+    "conditional_routing": {
+      "absolute_difference": 0.0,
+      "difference": 0.0,
+      "expected": 0.640625,
+      "observed": 0.640625
+    },
+    "delayed_recall": {
+      "absolute_difference": 0.0,
+      "difference": 0.0,
+      "expected": 0.9140625,
+      "observed": 0.9140625
+    },
+    "iterative_state": {
+      "absolute_difference": 0.0,
+      "difference": 0.0,
+      "expected": 0.9921875,
+      "observed": 0.9921875
+    },
+    "partial_observation": {
+      "absolute_difference": 0.0,
+      "difference": 0.0,
+      "expected": 0.8046875,
+      "observed": 0.8046875
+    },
+    "variable_composition": {
+      "absolute_difference": 0.0,
+      "difference": 0.0,
+      "expected": 0.796875,
+      "observed": 0.796875
+    }
+  }
+}

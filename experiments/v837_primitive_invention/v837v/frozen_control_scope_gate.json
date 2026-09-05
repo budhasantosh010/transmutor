@@ -1,0 +1,15 @@
+{
+  "experiment": "V837v",
+  "frozen_before_run": true,
+  "historical_v837_gate_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_sha256": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "representation_adequacy": {"families_passing_minimum": 4, "families_total": 5},
+  "baseline_guard": {"expected_v0_families_passing": 2, "absolute_family_median_drift_stop": 0.10, "drifting_families_stop_count": 2},
+  "control_scope_conditions": ["V0_10_domains", "V1_5_domains", "V2_2_domains", "V3_1_domain"],
+  "decision_preference": "among passing conditions choose the largest number of independent control domains",
+  "v837w_allowed_only_if_v837v_fails": true,
+  "fresh_audit_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v838_allowed": false
+}

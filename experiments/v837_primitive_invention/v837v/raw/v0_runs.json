@@ -1,0 +1,3531 @@
+{
+  "fresh_audit_consumed": false,
+  "rows": [
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.009856629185378551,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.9765625,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.4453125,
+          "V2_2_domains": 0.359375,
+          "V3_1_domain": 0.3984375
+        },
+        "message_ablation": {
+          "performance_drop": 0.203125,
+          "validation_success_no_message": 0.3359375,
+          "validation_success_normal": 0.5390625
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.024659207198907185,
+          "mean": 0.4449095129966736,
+          "median": 0.44045642018318176,
+          "near_one_fraction": 0.00017271157167530224,
+          "near_zero_fraction": 0.004490500863557859,
+          "p10": 0.22552621364593506,
+          "p90": 0.6716490983963013,
+          "std": 0.17110736668109894,
+          "temporal_variance": 0.013091619439364877
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.3139910101163991,
+          "cross_cell_state_change_correlation": 0.3139910108771924,
+          "effective_state_rank": 10.791830778352178,
+          "mean_candidate_update_magnitude": 0.8039283156394958,
+          "mean_realized_update_magnitude": 0.4490065276622772,
+          "mean_state_change_magnitude": 0.44900649785995483,
+          "mean_state_norm": 0.6803338527679443,
+          "pairwise_state_cosine_similarity": -0.022659061914829606,
+          "state_covariance_trace": 5.140989237863391
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "conditional_routing",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 127626457,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 0,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 37.921875,
+        "disabled_message_edges": 0,
+        "environment_steps": 2864,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 40.6469008999411
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.14884266257286072,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.5390625,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.007461790926754475,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.986328125,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.359375,
+          "V2_2_domains": 0.3203125,
+          "V3_1_domain": 0.234375
+        },
+        "message_ablation": {
+          "performance_drop": 0.328125,
+          "validation_success_no_message": 0.3515625,
+          "validation_success_normal": 0.6796875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.04008156792558279,
+          "mean": 0.4476916790008545,
+          "median": 0.4461129605770111,
+          "near_one_fraction": 0.006044905008635579,
+          "near_zero_fraction": 0.01917098445595855,
+          "p10": 0.16260366141796112,
+          "p90": 0.7207548022270203,
+          "std": 0.20847178995609283,
+          "temporal_variance": 0.019863076944602653
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.17396352390351902,
+          "cross_cell_state_change_correlation": 0.17396352138461085,
+          "effective_state_rank": 12.620509960600563,
+          "mean_candidate_update_magnitude": 0.9316292405128479,
+          "mean_realized_update_magnitude": 0.5128345489501953,
+          "mean_state_change_magnitude": 0.5128345489501953,
+          "mean_state_norm": 0.759360134601593,
+          "pairwise_state_cosine_similarity": -2.0562686135524737e-05,
+          "state_covariance_trace": 5.717892057114755
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "conditional_routing",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 1846330547,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 1,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 38.109375,
+        "disabled_message_edges": 0,
+        "environment_steps": 2864,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 41.31397889996879
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.10462590306997299,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.6796875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.007236700505018234,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.9921875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.4609375,
+          "V2_2_domains": 0.3984375,
+          "V3_1_domain": 0.3828125
+        },
+        "message_ablation": {
+          "performance_drop": 0.3046875,
+          "validation_success_no_message": 0.3359375,
+          "validation_success_normal": 0.640625
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.0479927323187584,
+          "mean": 0.42825251817703247,
+          "median": 0.40583336353302,
+          "near_one_fraction": 0.001381692573402418,
+          "near_zero_fraction": 0.023316062176165803,
+          "p10": 0.13709445297718048,
+          "p90": 0.7582991123199463,
+          "std": 0.2252899408340454,
+          "temporal_variance": 0.01779272647763719
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.2049138549881502,
+          "cross_cell_state_change_correlation": 0.2049138566709399,
+          "effective_state_rank": 12.245040332603065,
+          "mean_candidate_update_magnitude": 0.9047991633415222,
+          "mean_realized_update_magnitude": 0.5039327144622803,
+          "mean_state_change_magnitude": 0.5039327144622803,
+          "mean_state_norm": 0.8166280388832092,
+          "pairwise_state_cosine_similarity": 0.039390348431463565,
+          "state_covariance_trace": 6.987157399054567
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "conditional_routing",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 2032079070,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 2,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 38.3125,
+        "disabled_message_edges": 0,
+        "environment_steps": 2864,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 41.33418909995817
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.10235977172851562,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.640625,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.009201611392199993,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.982421875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.3828125,
+          "V2_2_domains": 0.40625,
+          "V3_1_domain": 0.3828125
+        },
+        "message_ablation": {
+          "performance_drop": 0.234375,
+          "validation_success_no_message": 0.328125,
+          "validation_success_normal": 0.5625
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.04507919563791218,
+          "mean": 0.46359512209892273,
+          "median": 0.4550298750400543,
+          "near_one_fraction": 0.0062176165803108805,
+          "near_zero_fraction": 0.018998272884283247,
+          "p10": 0.1648326814174652,
+          "p90": 0.7804239392280579,
+          "std": 0.22622528672218323,
+          "temporal_variance": 0.022690104007779155
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.17104686372456981,
+          "cross_cell_state_change_correlation": 0.17104686660244686,
+          "effective_state_rank": 11.103372368515393,
+          "mean_candidate_update_magnitude": 0.8966798782348633,
+          "mean_realized_update_magnitude": 0.4846368432044983,
+          "mean_state_change_magnitude": 0.4846368432044983,
+          "mean_state_norm": 0.7326293587684631,
+          "pairwise_state_cosine_similarity": 0.02519909474496659,
+          "state_covariance_trace": 5.902267063143566
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "conditional_routing",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 1210554331,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 3,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 39.6875,
+        "disabled_message_edges": 0,
+        "environment_steps": 2864,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 43.12397649988998
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.13753639161586761,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.5625,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.006417481694370508,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.994140625,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.4296875,
+          "V2_2_domains": 0.4375,
+          "V3_1_domain": 0.375
+        },
+        "message_ablation": {
+          "performance_drop": 0.265625,
+          "validation_success_no_message": 0.40625,
+          "validation_success_normal": 0.671875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.03622620421041942,
+          "mean": 0.44074803590774536,
+          "median": 0.4330999553203583,
+          "near_one_fraction": 0.004490500863557859,
+          "near_zero_fraction": 0.023488773747841106,
+          "p10": 0.17710281908512115,
+          "p90": 0.7161948680877686,
+          "std": 0.20361226797103882,
+          "temporal_variance": 0.019541487861715723
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.2538199788442216,
+          "cross_cell_state_change_correlation": 0.2538199814124791,
+          "effective_state_rank": 11.584458213903387,
+          "mean_candidate_update_magnitude": 0.8715324997901917,
+          "mean_realized_update_magnitude": 0.4848446547985077,
+          "mean_state_change_magnitude": 0.4848446547985077,
+          "mean_state_norm": 0.7496193051338196,
+          "pairwise_state_cosine_similarity": 0.04078791592235729,
+          "state_covariance_trace": 6.130680188846388
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "conditional_routing",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 861786558,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 4,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 40.046875,
+        "disabled_message_edges": 0,
+        "environment_steps": 2864,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 43.35541379998904
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.08522868901491165,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.671875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.00029101266409270465,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 1.0,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.8671875,
+          "V2_2_domains": 0.8515625,
+          "V3_1_domain": 0.8671875
+        },
+        "message_ablation": {
+          "performance_drop": 0.3671875,
+          "validation_success_no_message": 0.546875,
+          "validation_success_normal": 0.9140625
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.030897462503270294,
+          "mean": 0.47812941670417786,
+          "median": 0.4815253019332886,
+          "near_one_fraction": 0.000211864406779661,
+          "near_zero_fraction": 0.0015536723163841809,
+          "p10": 0.22366607189178467,
+          "p90": 0.7221653461456299,
+          "std": 0.1858162134885788,
+          "temporal_variance": 0.01651392295025289
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.3203374922559044,
+          "cross_cell_state_change_correlation": 0.3203374943075732,
+          "effective_state_rank": 7.521985437363816,
+          "mean_candidate_update_magnitude": 0.6285098791122437,
+          "mean_realized_update_magnitude": 0.322700172662735,
+          "mean_state_change_magnitude": 0.3227001428604126,
+          "mean_state_norm": 1.0213651657104492,
+          "pairwise_state_cosine_similarity": -0.036783007711015815,
+          "state_covariance_trace": 11.40124843881798
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "delayed_recall",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 179132087,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 0,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 109.3125,
+        "disabled_message_edges": 0,
+        "environment_steps": 7109,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 118.19943079992663
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.21612660586833954,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9140625,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.00014397695485968143,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 1.0,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.890625,
+          "V2_2_domains": 0.90625,
+          "V3_1_domain": 0.921875
+        },
+        "message_ablation": {
+          "performance_drop": 0.6640625,
+          "validation_success_no_message": 0.28125,
+          "validation_success_normal": 0.9453125
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.030217465329954746,
+          "mean": 0.48072582483291626,
+          "median": 0.4970102906227112,
+          "near_one_fraction": 0.00014124293785310735,
+          "near_zero_fraction": 0.004731638418079096,
+          "p10": 0.22853469848632812,
+          "p90": 0.7046107053756714,
+          "std": 0.1803802102804184,
+          "temporal_variance": 0.011313552215142408
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.3711021088207152,
+          "cross_cell_state_change_correlation": 0.37110210808349703,
+          "effective_state_rank": 4.058598954399896,
+          "mean_candidate_update_magnitude": 0.5556604266166687,
+          "mean_realized_update_magnitude": 0.2794521749019623,
+          "mean_state_change_magnitude": 0.2794521749019623,
+          "mean_state_norm": 0.9944484829902649,
+          "pairwise_state_cosine_similarity": 0.028796207146927058,
+          "state_covariance_trace": 12.193701346961674
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "delayed_recall",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 1772872914,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 1,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 109.109375,
+        "disabled_message_edges": 0,
+        "environment_steps": 7109,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 116.94007110001985
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.1824212521314621,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9453125,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.0001597961672814563,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 1.0,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.8984375,
+          "V2_2_domains": 0.8671875,
+          "V3_1_domain": 0.8828125
+        },
+        "message_ablation": {
+          "performance_drop": 0.5078125,
+          "validation_success_no_message": 0.4375,
+          "validation_success_normal": 0.9453125
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.017135828805135006,
+          "mean": 0.4803946912288666,
+          "median": 0.487068772315979,
+          "near_one_fraction": 0.0,
+          "near_zero_fraction": 0.0,
+          "p10": 0.2932499647140503,
+          "p90": 0.6554067730903625,
+          "std": 0.13907413184642792,
+          "temporal_variance": 0.00844229157155496
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.38444945465841485,
+          "cross_cell_state_change_correlation": 0.3844494540902796,
+          "effective_state_rank": 3.9075463125350844,
+          "mean_candidate_update_magnitude": 0.5877106189727783,
+          "mean_realized_update_magnitude": 0.3063592314720154,
+          "mean_state_change_magnitude": 0.3063592314720154,
+          "mean_state_norm": 0.9819042086601257,
+          "pairwise_state_cosine_similarity": -0.02050265118179729,
+          "state_covariance_trace": 11.267595357313539
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "delayed_recall",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 653129190,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 2,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 109.53125,
+        "disabled_message_edges": 0,
+        "environment_steps": 7109,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 118.51839169999585
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.17074784636497498,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9453125,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.047024745494127274,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.98828125,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.84375,
+          "V2_2_domains": 0.796875,
+          "V3_1_domain": 0.828125
+        },
+        "message_ablation": {
+          "performance_drop": 0.4453125,
+          "validation_success_no_message": 0.4140625,
+          "validation_success_normal": 0.859375
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.028635972131952632,
+          "mean": 0.4036427438259125,
+          "median": 0.4185001254081726,
+          "near_one_fraction": 7.062146892655367e-05,
+          "near_zero_fraction": 0.015395480225988701,
+          "p10": 0.13491065800189972,
+          "p90": 0.635228157043457,
+          "std": 0.18409447371959686,
+          "temporal_variance": 0.01285878683484043
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.33051301601115873,
+          "cross_cell_state_change_correlation": 0.33051301653494497,
+          "effective_state_rank": 5.538254629339097,
+          "mean_candidate_update_magnitude": 0.530144989490509,
+          "mean_realized_update_magnitude": 0.30519551038742065,
+          "mean_state_change_magnitude": 0.30519551038742065,
+          "mean_state_norm": 0.9566713571548462,
+          "pairwise_state_cosine_similarity": -0.011603385290201225,
+          "state_covariance_trace": 9.917726432635511
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "delayed_recall",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 2091185541,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 3,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 109.515625,
+        "disabled_message_edges": 0,
+        "environment_steps": 7109,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 118.66246099991258
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.4624960124492645,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.859375,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.008107297122478485,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.998046875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.859375,
+          "V2_2_domains": 0.84375,
+          "V3_1_domain": 0.828125
+        },
+        "message_ablation": {
+          "performance_drop": 0.734375,
+          "validation_success_no_message": 0.171875,
+          "validation_success_normal": 0.90625
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.028333345149978494,
+          "mean": 0.4558432698249817,
+          "median": 0.4610212445259094,
+          "near_one_fraction": 0.0002824858757062147,
+          "near_zero_fraction": 0.011440677966101695,
+          "p10": 0.1950860470533371,
+          "p90": 0.7072784900665283,
+          "std": 0.19428439438343048,
+          "temporal_variance": 0.012104666715458734
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.4006583056285465,
+          "cross_cell_state_change_correlation": 0.40065830723286483,
+          "effective_state_rank": 4.875657203814503,
+          "mean_candidate_update_magnitude": 0.6184199452400208,
+          "mean_realized_update_magnitude": 0.3281896412372589,
+          "mean_state_change_magnitude": 0.3281896412372589,
+          "mean_state_norm": 0.9740067720413208,
+          "pairwise_state_cosine_similarity": 0.10730520387625216,
+          "state_covariance_trace": 10.661543843088353
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "delayed_recall",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 1279439008,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 4,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 109.65625,
+        "disabled_message_edges": 0,
+        "environment_steps": 7109,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 119.60574579995591
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.36336514353752136,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.90625,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.0020237835124135017,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.9921875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.984375,
+          "V2_2_domains": 0.9921875,
+          "V3_1_domain": 0.984375
+        },
+        "message_ablation": {
+          "performance_drop": 0.1171875,
+          "validation_success_no_message": 0.875,
+          "validation_success_normal": 0.9921875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.0027332641280790977,
+          "mean": 0.4981984496116638,
+          "median": 0.4968864917755127,
+          "near_one_fraction": 0.0,
+          "near_zero_fraction": 0.0,
+          "p10": 0.43744564056396484,
+          "p90": 0.5662645697593689,
+          "std": 0.05285150557756424,
+          "temporal_variance": 0.001472097789928739
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.5012942496829731,
+          "cross_cell_state_change_correlation": 0.5012942518875358,
+          "effective_state_rank": 7.466575088636273,
+          "mean_candidate_update_magnitude": 0.48475420475006104,
+          "mean_realized_update_magnitude": 0.2451118379831314,
+          "mean_state_change_magnitude": 0.2451118379831314,
+          "mean_state_norm": 0.3617367744445801,
+          "pairwise_state_cosine_similarity": 0.012564168255012905,
+          "state_covariance_trace": 1.4665090388447437
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "iterative_state",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 604059812,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 0,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 84.171875,
+        "disabled_message_edges": 0,
+        "environment_steps": 4859,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 89.41088270000182
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.0023955602664500475,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9921875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.00212659640237689,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.9921875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.9921875,
+          "V2_2_domains": 0.984375,
+          "V3_1_domain": 0.9921875
+        },
+        "message_ablation": {
+          "performance_drop": 0.03125,
+          "validation_success_no_message": 0.9609375,
+          "validation_success_normal": 0.9921875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.0023995833486766915,
+          "mean": 0.4991878569126129,
+          "median": 0.4960895776748657,
+          "near_one_fraction": 0.0,
+          "near_zero_fraction": 0.0,
+          "p10": 0.4343371093273163,
+          "p90": 0.563754141330719,
+          "std": 0.050861459225416183,
+          "temporal_variance": 0.0016116414744828944
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.559002257615158,
+          "cross_cell_state_change_correlation": 0.5590022589779449,
+          "effective_state_rank": 5.913909335513991,
+          "mean_candidate_update_magnitude": 0.506593644618988,
+          "mean_realized_update_magnitude": 0.254422664642334,
+          "mean_state_change_magnitude": 0.254422664642334,
+          "mean_state_norm": 0.36029237508773804,
+          "pairwise_state_cosine_similarity": 0.006957633497252657,
+          "state_covariance_trace": 1.370737586087089
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "iterative_state",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 404313515,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 1,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 87.125,
+        "disabled_message_edges": 0,
+        "environment_steps": 4859,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 92.61917469999753
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.0022236830554902554,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9921875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.0017093161586672068,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 1.0,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.984375,
+          "V2_2_domains": 0.9296875,
+          "V3_1_domain": 0.7734375
+        },
+        "message_ablation": {
+          "performance_drop": 0.046875,
+          "validation_success_no_message": 0.9453125,
+          "validation_success_normal": 0.9921875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.006991968714406245,
+          "mean": 0.49830353260040283,
+          "median": 0.4975528120994568,
+          "near_one_fraction": 0.0,
+          "near_zero_fraction": 0.0,
+          "p10": 0.3845826983451843,
+          "p90": 0.6051128506660461,
+          "std": 0.08486462384462357,
+          "temporal_variance": 0.0031166977005341323
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.4824961280721559,
+          "cross_cell_state_change_correlation": 0.4824961309266213,
+          "effective_state_rank": 7.158114691115551,
+          "mean_candidate_update_magnitude": 0.5398260951042175,
+          "mean_realized_update_magnitude": 0.274742066860199,
+          "mean_state_change_magnitude": 0.274742066860199,
+          "mean_state_norm": 0.5044664740562439,
+          "pairwise_state_cosine_similarity": 0.02780992089432564,
+          "state_covariance_trace": 1.8860962741810146
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "iterative_state",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 1140819880,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 2,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 87.296875,
+        "disabled_message_edges": 0,
+        "environment_steps": 4859,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 93.61719570006244
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.002142997458577156,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9921875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.0020301062613725662,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.99609375,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 1.0,
+          "V2_2_domains": 0.9921875,
+          "V3_1_domain": 0.953125
+        },
+        "message_ablation": {
+          "performance_drop": 0.046875,
+          "validation_success_no_message": 0.9453125,
+          "validation_success_normal": 0.9921875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.0030122018473862353,
+          "mean": 0.4923950433731079,
+          "median": 0.490936815738678,
+          "near_one_fraction": 0.0,
+          "near_zero_fraction": 0.0,
+          "p10": 0.4303175210952759,
+          "p90": 0.554957926273346,
+          "std": 0.05566006898880005,
+          "temporal_variance": 0.001939180936460616
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.5896980643697944,
+          "cross_cell_state_change_correlation": 0.5896980627641567,
+          "effective_state_rank": 6.457718118170088,
+          "mean_candidate_update_magnitude": 0.4756392538547516,
+          "mean_realized_update_magnitude": 0.24179935455322266,
+          "mean_state_change_magnitude": 0.24179935455322266,
+          "mean_state_norm": 0.3379344344139099,
+          "pairwise_state_cosine_similarity": 0.031019168140079788,
+          "state_covariance_trace": 1.3376532740509663
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "iterative_state",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 465173501,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 3,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 86.21875,
+        "disabled_message_edges": 0,
+        "environment_steps": 4859,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 91.12294999998994
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.0021753639448434114,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9921875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": true,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.0019311313517391682,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.994140625,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.9921875,
+          "V2_2_domains": 0.9765625,
+          "V3_1_domain": 0.9765625
+        },
+        "message_ablation": {
+          "performance_drop": 0.0234375,
+          "validation_success_no_message": 0.96875,
+          "validation_success_normal": 0.9921875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.002834460890869732,
+          "mean": 0.4984509348869324,
+          "median": 0.5031332969665527,
+          "near_one_fraction": 0.0,
+          "near_zero_fraction": 0.0,
+          "p10": 0.4329926371574402,
+          "p90": 0.5554277300834656,
+          "std": 0.05469697713851929,
+          "temporal_variance": 0.001934265263571433
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.49173309447434943,
+          "cross_cell_state_change_correlation": 0.4917330911658671,
+          "effective_state_rank": 6.842948704477941,
+          "mean_candidate_update_magnitude": 0.5327692031860352,
+          "mean_realized_update_magnitude": 0.26806962490081787,
+          "mean_state_change_magnitude": 0.26806962490081787,
+          "mean_state_norm": 0.3984125554561615,
+          "pairwise_state_cosine_similarity": -0.03130189259905253,
+          "state_covariance_trace": 1.8191621082145246
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "iterative_state",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 63351237,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 4,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 86.4375,
+        "disabled_message_edges": 0,
+        "environment_steps": 4859,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 89.8555130000459
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.0022122832015156746,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.9921875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.006738242227584124,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.982421875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.7734375,
+          "V2_2_domains": 0.78125,
+          "V3_1_domain": 0.8046875
+        },
+        "message_ablation": {
+          "performance_drop": 0.3046875,
+          "validation_success_no_message": 0.5390625,
+          "validation_success_normal": 0.84375
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.013351716524226913,
+          "mean": 0.47708651423454285,
+          "median": 0.47618621587753296,
+          "near_one_fraction": 0.0006404391582799634,
+          "near_zero_fraction": 0.0004574565416285453,
+          "p10": 0.33128154277801514,
+          "p90": 0.6226931214332581,
+          "std": 0.12058484554290771,
+          "temporal_variance": 0.008635537928057602
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.4774742515978113,
+          "cross_cell_state_change_correlation": 0.4774742529137766,
+          "effective_state_rank": 10.109897766808587,
+          "mean_candidate_update_magnitude": 0.4054938554763794,
+          "mean_realized_update_magnitude": 0.21009033918380737,
+          "mean_state_change_magnitude": 0.21009033918380737,
+          "mean_state_norm": 0.5030199289321899,
+          "pairwise_state_cosine_similarity": -0.04561804736299676,
+          "state_covariance_trace": 2.9153020927336284
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "partial_observation",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 1171969358,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 0,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 74.15625,
+        "disabled_message_edges": 0,
+        "environment_steps": 5473,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 76.8529423000291
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.022382980212569237,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.84375,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.005344095174223185,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.98828125,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.7421875,
+          "V2_2_domains": 0.7734375,
+          "V3_1_domain": 0.7578125
+        },
+        "message_ablation": {
+          "performance_drop": 0.15625,
+          "validation_success_no_message": 0.6015625,
+          "validation_success_normal": 0.7578125
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.017925937835460277,
+          "mean": 0.44191473722457886,
+          "median": 0.4411681294441223,
+          "near_one_fraction": 0.0004574565416285453,
+          "near_zero_fraction": 0.0017383348581884721,
+          "p10": 0.2637532353401184,
+          "p90": 0.6177099943161011,
+          "std": 0.14249201118946075,
+          "temporal_variance": 0.008974867500000983
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.5178224799908218,
+          "cross_cell_state_change_correlation": 0.5178224794767434,
+          "effective_state_rank": 10.001841870243185,
+          "mean_candidate_update_magnitude": 0.42230233550071716,
+          "mean_realized_update_magnitude": 0.2332148253917694,
+          "mean_state_change_magnitude": 0.2332148253917694,
+          "mean_state_norm": 0.582385241985321,
+          "pairwise_state_cosine_similarity": 0.0008349888422824646,
+          "state_covariance_trace": 3.980812133449396
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "partial_observation",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 437272581,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 1,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 73.796875,
+        "disabled_message_edges": 0,
+        "environment_steps": 5473,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 75.91165549994912
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.028915684670209885,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.7578125,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.006815638858824968,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.986328125,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.8125,
+          "V2_2_domains": 0.8359375,
+          "V3_1_domain": 0.796875
+        },
+        "message_ablation": {
+          "performance_drop": 0.1484375,
+          "validation_success_no_message": 0.6953125,
+          "validation_success_normal": 0.84375
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.017948345847017568,
+          "mean": 0.4690651297569275,
+          "median": 0.46853694319725037,
+          "near_one_fraction": 0.0002744739249771272,
+          "near_zero_fraction": 0.0002744739249771272,
+          "p10": 0.2948909401893616,
+          "p90": 0.6413207054138184,
+          "std": 0.13850601017475128,
+          "temporal_variance": 0.00920017031057796
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.47760423216958575,
+          "cross_cell_state_change_correlation": 0.47760423168767047,
+          "effective_state_rank": 10.59589517055346,
+          "mean_candidate_update_magnitude": 0.4137517511844635,
+          "mean_realized_update_magnitude": 0.21707096695899963,
+          "mean_state_change_magnitude": 0.21707096695899963,
+          "mean_state_norm": 0.5146576762199402,
+          "pairwise_state_cosine_similarity": 0.02068712506777703,
+          "state_covariance_trace": 3.2001432853700686
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "partial_observation",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 478928375,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 2,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 69.5,
+        "disabled_message_edges": 0,
+        "environment_steps": 5473,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 70.91159769997466
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.02220652624964714,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.84375,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.006480811163783073,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.986328125,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.765625,
+          "V2_2_domains": 0.703125,
+          "V3_1_domain": 0.703125
+        },
+        "message_ablation": {
+          "performance_drop": 0.2421875,
+          "validation_success_no_message": 0.5625,
+          "validation_success_normal": 0.8046875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.018086794136353654,
+          "mean": 0.47766798734664917,
+          "median": 0.4761073589324951,
+          "near_one_fraction": 0.00036596523330283625,
+          "near_zero_fraction": 0.0007319304666056725,
+          "p10": 0.2932506203651428,
+          "p90": 0.6630866527557373,
+          "std": 0.14568312466144562,
+          "temporal_variance": 0.011238606519327732
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.4935426825111821,
+          "cross_cell_state_change_correlation": 0.4935426815138993,
+          "effective_state_rank": 10.909778842379586,
+          "mean_candidate_update_magnitude": 0.41686221957206726,
+          "mean_realized_update_magnitude": 0.21489499509334564,
+          "mean_state_change_magnitude": 0.21489496529102325,
+          "mean_state_norm": 0.47639355063438416,
+          "pairwise_state_cosine_similarity": 0.0037749158579837836,
+          "state_covariance_trace": 2.725398326533086
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "partial_observation",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 879142002,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 3,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 64.234375,
+        "disabled_message_edges": 0,
+        "environment_steps": 5473,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 64.99225450004451
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.02780439704656601,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.8046875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.008465751074254513,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.962890625,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.78125,
+          "V2_2_domains": 0.7890625,
+          "V3_1_domain": 0.8203125
+        },
+        "message_ablation": {
+          "performance_drop": 0.046875,
+          "validation_success_no_message": 0.75,
+          "validation_success_normal": 0.796875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.01579604930598425,
+          "mean": 0.4218313992023468,
+          "median": 0.4373834729194641,
+          "near_one_fraction": 0.00036596523330283625,
+          "near_zero_fraction": 0.01253430924062214,
+          "p10": 0.24556323885917664,
+          "p90": 0.5684976577758789,
+          "std": 0.1380380392074585,
+          "temporal_variance": 0.008484294166919426
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.4944509202295021,
+          "cross_cell_state_change_correlation": 0.4944509228525329,
+          "effective_state_rank": 8.89619114983272,
+          "mean_candidate_update_magnitude": 0.371418833732605,
+          "mean_realized_update_magnitude": 0.21070341765880585,
+          "mean_state_change_magnitude": 0.21070341765880585,
+          "mean_state_norm": 0.5523766875267029,
+          "pairwise_state_cosine_similarity": 0.06013119664116803,
+          "state_covariance_trace": 3.085277088454076
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "partial_observation",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 459935059,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 4,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 63.9375,
+        "disabled_message_edges": 0,
+        "environment_steps": 5473,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 64.72736780007835
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.023565446957945824,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.796875,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.0038948822766542435,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.984375,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.53125,
+          "V2_2_domains": 0.5,
+          "V3_1_domain": 0.5078125
+        },
+        "message_ablation": {
+          "performance_drop": 0.296875,
+          "validation_success_no_message": 0.53125,
+          "validation_success_normal": 0.828125
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.019499547127634288,
+          "mean": 0.4559756815433502,
+          "median": 0.4503990709781647,
+          "near_one_fraction": 0.0002564102564102564,
+          "near_zero_fraction": 0.002564102564102564,
+          "p10": 0.2470598667860031,
+          "p90": 0.6654713153839111,
+          "std": 0.15858128666877747,
+          "temporal_variance": 0.01624756110140879
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.2508235405971958,
+          "cross_cell_state_change_correlation": 0.25082354224825176,
+          "effective_state_rank": 11.430548324564267,
+          "mean_candidate_update_magnitude": 0.802948534488678,
+          "mean_realized_update_magnitude": 0.44445106387138367,
+          "mean_state_change_magnitude": 0.44445106387138367,
+          "mean_state_norm": 0.5923261046409607,
+          "pairwise_state_cosine_similarity": -0.03005227733098227,
+          "state_covariance_trace": 3.107151950918014
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "variable_composition",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 684029635,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 0,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 36.265625,
+        "disabled_message_edges": 0,
+        "environment_steps": 1940,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 37.929973599966615
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.013566055335104465,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.828125,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.005433387588709593,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.974609375,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.6875,
+          "V2_2_domains": 0.6640625,
+          "V3_1_domain": 0.515625
+        },
+        "message_ablation": {
+          "performance_drop": 0.28125,
+          "validation_success_no_message": 0.546875,
+          "validation_success_normal": 0.828125
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.031596482710506864,
+          "mean": 0.47743889689445496,
+          "median": 0.45827609300613403,
+          "near_one_fraction": 0.0033333333333333335,
+          "near_zero_fraction": 0.002564102564102564,
+          "p10": 0.24457311630249023,
+          "p90": 0.746880054473877,
+          "std": 0.1905638575553894,
+          "temporal_variance": 0.016713761046048603
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.2829469929032956,
+          "cross_cell_state_change_correlation": 0.28294699521160327,
+          "effective_state_rank": 9.857263795727112,
+          "mean_candidate_update_magnitude": 0.8394842743873596,
+          "mean_realized_update_magnitude": 0.44337198138237,
+          "mean_state_change_magnitude": 0.44337198138237,
+          "mean_state_norm": 0.6300947666168213,
+          "pairwise_state_cosine_similarity": 0.05235408854570825,
+          "state_covariance_trace": 3.4069790971230747
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "variable_composition",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 650528623,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 1,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 36.0625,
+        "disabled_message_edges": 0,
+        "environment_steps": 1940,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 38.02873290004209
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.013394946232438087,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.828125,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.004145569633692503,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.98046875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.671875,
+          "V2_2_domains": 0.5078125,
+          "V3_1_domain": 0.46875
+        },
+        "message_ablation": {
+          "performance_drop": 0.421875,
+          "validation_success_no_message": 0.3359375,
+          "validation_success_normal": 0.7578125
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.023567786403239154,
+          "mean": 0.4479773938655853,
+          "median": 0.44020330905914307,
+          "near_one_fraction": 0.0002564102564102564,
+          "near_zero_fraction": 0.002307692307692308,
+          "p10": 0.24692465364933014,
+          "p90": 0.6657354235649109,
+          "std": 0.16093872487545013,
+          "temporal_variance": 0.012770238252414856
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.27581301132716074,
+          "cross_cell_state_change_correlation": 0.2758130120060542,
+          "effective_state_rank": 11.32301161409107,
+          "mean_candidate_update_magnitude": 0.8508085012435913,
+          "mean_realized_update_magnitude": 0.46844521164894104,
+          "mean_state_change_magnitude": 0.46844521164894104,
+          "mean_state_norm": 0.6101756691932678,
+          "pairwise_state_cosine_similarity": -0.027785215992779017,
+          "state_covariance_trace": 3.478189983910885
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "variable_composition",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 470127290,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 2,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 35.8125,
+        "disabled_message_edges": 0,
+        "environment_steps": 1940,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 38.27534509997349
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.019307967275381088,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.7578125,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.004181421361863613,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.98828125,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.6640625,
+          "V2_2_domains": 0.578125,
+          "V3_1_domain": 0.515625
+        },
+        "message_ablation": {
+          "performance_drop": 0.421875,
+          "validation_success_no_message": 0.3359375,
+          "validation_success_normal": 0.7578125
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.01894077848738585,
+          "mean": 0.46710723638534546,
+          "median": 0.47045034170150757,
+          "near_one_fraction": 0.0,
+          "near_zero_fraction": 0.0007692307692307692,
+          "p10": 0.2723284959793091,
+          "p90": 0.6568794846534729,
+          "std": 0.14693805575370789,
+          "temporal_variance": 0.010261607400934736
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.32186485412984583,
+          "cross_cell_state_change_correlation": 0.32186485635838563,
+          "effective_state_rank": 9.370425062283886,
+          "mean_candidate_update_magnitude": 0.7415814399719238,
+          "mean_realized_update_magnitude": 0.3994731605052948,
+          "mean_state_change_magnitude": 0.3994731307029724,
+          "mean_state_norm": 0.5447466373443604,
+          "pairwise_state_cosine_similarity": -0.0010590980336881984,
+          "state_covariance_trace": 3.2173833784897776
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "variable_composition",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 144326589,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 3,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 35.90625,
+        "disabled_message_edges": 0,
+        "environment_steps": 1940,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 37.86968699994031
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.017691105604171753,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.7578125,
+      "version": "V837v"
+    },
+    {
+      "active_controller_count": 10,
+      "active_controller_parameters": 150,
+      "active_parameters": 1006,
+      "base_macs_per_timestep": 160,
+      "capacity_pass": false,
+      "condition": "V0_10_domains",
+      "controller_information_scope": "source_cell_local_only",
+      "controller_macs_per_timestep": 140,
+      "development_loss": 0.005235628224909306,
+      "development_seed_range": [
+        10000,
+        10511
+      ],
+      "development_success": 0.966796875,
+      "diagnostics": {
+        "counterfactual_domain_collapse": {
+          "V1_5_domains": 0.609375,
+          "V2_2_domains": 0.6640625,
+          "V3_1_domain": 0.6640625
+        },
+        "message_ablation": {
+          "performance_drop": 0.2734375,
+          "validation_success_no_message": 0.5234375,
+          "validation_success_normal": 0.796875
+        },
+        "source_gate": {
+          "between_domain_gate_disagreement": 0.02576099838165996,
+          "mean": 0.42122915387153625,
+          "median": 0.4265558123588562,
+          "near_one_fraction": 0.0005128205128205128,
+          "near_zero_fraction": 0.008205128205128205,
+          "p10": 0.18801277875900269,
+          "p90": 0.6395803093910217,
+          "std": 0.17236052453517914,
+          "temporal_variance": 0.013542325295929913
+        },
+        "state_coherence": {
+          "cross_cell_realized_update_correlation": 0.3280670708656969,
+          "cross_cell_state_change_correlation": 0.3280670698613476,
+          "effective_state_rank": 5.651930926838421,
+          "mean_candidate_update_magnitude": 0.8720631003379822,
+          "mean_realized_update_magnitude": 0.5067538022994995,
+          "mean_state_change_magnitude": 0.5067538619041443,
+          "mean_state_norm": 0.7380877137184143,
+          "pairwise_state_cosine_similarity": 0.1270551466099464,
+          "state_covariance_trace": 6.087652153877636
+        }
+      },
+      "domain_assignment": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ]
+      ],
+      "domain_count": 10,
+      "family": "variable_composition",
+      "fresh_audit_consumed": false,
+      "gate_pooling": false,
+      "global_state_visibility": false,
+      "gpu_seconds": 0.0,
+      "model_init_seed": 845723367,
+      "nominal_controller_count": 10,
+      "nominal_controller_parameters": 150,
+      "nominal_parameters": 1006,
+      "processed_examples": 98304,
+      "replicate": 4,
+      "resources": {
+        "archive_lookups": 0,
+        "candidate_evaluations": 1,
+        "cpu_seconds": 35.59375,
+        "disabled_message_edges": 0,
+        "environment_steps": 1940,
+        "examples_processed": 98304,
+        "final_cells": 0,
+        "final_edges": 0,
+        "forward_calls": 215,
+        "input_edges": 60,
+        "internal_message_edges": 55,
+        "max_candidate_budget": 0,
+        "max_optimizer_step_budget": 0,
+        "model_fits": 1,
+        "model_parameter_bytes": 4024,
+        "mutation_count": 0,
+        "optimizer_steps": 192,
+        "parameter_count": 1006,
+        "peak_cells": 0,
+        "peak_edges": 0,
+        "primitive_calls": 0,
+        "search_expansions": 0,
+        "wall_seconds": 37.745924600050785
+      },
+      "source_cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "task_family_label_in_model_input": false,
+      "total_macs_per_timestep": 300,
+      "unique_seed_policy": "same 3200 family/seed episodes reused across conditions and replicates",
+      "validation_loss": 0.016359131783246994,
+      "validation_seed_range": [
+        20000,
+        20127
+      ],
+      "validation_success": 0.796875,
+      "version": "V837v"
+    }
+  ],
+  "unique_seed_defined_episodes": 3200
+}
