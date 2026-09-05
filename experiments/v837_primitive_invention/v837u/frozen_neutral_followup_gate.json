@@ -1,0 +1,19 @@
+{
+  "version": "V837u",
+  "parent": "V837t",
+  "authorized_mode": "DYNAMIC_SCALAR_CARRY",
+  "authorization_decision_sha256": "1bf3fc00b401883cf89823c4017ffc8735de33e0f2fd2c69279ddc8d4407fbdb",
+  "authorization_result_sha256": "eaae3d2b1e5718a5012bbf223031593d1e82ff860548932f52e348c4468ec065",
+  "state_layout": "local_10x4",
+  "global_coupling": false,
+  "shared_state": false,
+  "dynamic_controller": "exact V837p scalar state/message/input-conditioned controller",
+  "carry_equation": "s_next = g*s_prev + (1-g)*candidate",
+  "matched_control_equation": "s_next = g*candidate",
+  "candidate_equation": "candidate=tanh(W_s s + W_m m + W_x x + b)",
+  "unique_seed_defined_episodes": 3200,
+  "fresh_audit_consumed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v838_started": false
+}
