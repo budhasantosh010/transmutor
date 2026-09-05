@@ -25,7 +25,7 @@ This repository is being migrated from a long-running experimental research conv
 - `archive/preserved_artifacts/` — original preserved outputs/logs copied without pretending they are normalized source.
 - `scripts/` — migration and validation tooling.
 
-The repository is private during cleanup and evidence reconstruction.
+The repository is public; scientific artifacts, failures, provenance, and verification records are intentionally preserved.
 
 ## Research verification navigation
 
@@ -36,4 +36,5 @@ The repository is private during cleanup and evidence reconstruction.
 - [V837 GRU mechanism-localization report](docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md)
 - [V837 shared-state-path localization report](docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md)
 - [V837 shared-state-organization report](docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md)
+- [V837 global recurrent coupling report](docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md)
 - [Live repository verification index](docs/LIVE_REPO_VERIFICATION.md)

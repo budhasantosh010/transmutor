@@ -1,0 +1,72 @@
+{
+  "program": "V837R+ global recurrent coupling localization and authorized V837s interaction",
+  "scope": "V837r R0-R5 plus exact matched local controls, followed only by the machine-authorized V837s rank4 coupling x frozen dynamic-scalar interaction",
+  "v837r": {
+    "cpu_seconds_sum_workers": 14330.484375,
+    "environment_interactions": 1223475,
+    "examples_processed": 27033600,
+    "forward_calls": 61475,
+    "fresh_audit_episodes": 0,
+    "gpu_seconds": 0.0,
+    "model_fits": 275,
+    "optimizer_steps": 52800,
+    "primitive_mining_runs": 0,
+    "structural_search_runs": 0,
+    "wall_seconds_sum_workers": 15364.706205499358
+  },
+  "v837s": {
+    "cpu_seconds_sum_workers": 8242.640625,
+    "environment_interactions": 556125,
+    "examples_processed": 12288000,
+    "forward_calls": 26875,
+    "fresh_audit_episodes": 0,
+    "gpu_seconds": 0.0,
+    "model_fits": 125,
+    "optimizer_steps": 24000,
+    "primitive_mining_runs": 0,
+    "structural_search_runs": 0,
+    "wall_seconds_sum_workers": 10239.575746799586
+  },
+  "combined": {
+    "model_fits": 400,
+    "optimizer_steps": 76800,
+    "examples_processed": 39321600,
+    "environment_interactions": 1779600,
+    "forward_calls": 88350,
+    "wall_seconds_sum_workers": 25604.281952298945,
+    "cpu_seconds_sum_workers": 22573.125,
+    "gpu_seconds": 0.0,
+    "structural_search_runs": 0,
+    "primitive_mining_runs": 0,
+    "fresh_audit_episodes": 0
+  },
+  "trainable_parameters": {
+    "R0_local": 856,
+    "R1_rank1": 936,
+    "R2_rank2": 1016,
+    "R3_rank4": 1176,
+    "R4_rank8": 1496,
+    "R5_dense_cross_block": 2456,
+    "C1_rank1_local": 936,
+    "C2_rank2_local": 1016,
+    "C3_rank4_local": 1176,
+    "C4_rank8_local": 1496,
+    "C5_dense_budget_local": 2456,
+    "S0_local_no_modulation": 856,
+    "S1_local_dynamic_scalar": 1006,
+    "S2_rank4_no_modulation": 1176,
+    "S3C_rank4_matched_dynamic_additive": 1326,
+    "S3_rank4_dynamic_scalar": 1326
+  },
+  "recurrent_macs_per_timestep": {
+    "R0_local": 160,
+    "R1_rank1": 320,
+    "R2_rank2": 480,
+    "R3_rank4": 800,
+    "R4_rank8": 1440,
+    "R5_dense_cross_block": 1600
+  },
+  "fresh_audit_episodes": 0,
+  "structural_search_runs": 0,
+  "primitive_mining_runs": 0
+}

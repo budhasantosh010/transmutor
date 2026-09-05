@@ -27,9 +27,24 @@
     "experiments/v837_primitive_invention/shared_state_organization_status.json",
     "experiments/v837_primitive_invention/shared_state_organization_resource_accounting.json",
     "docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md",
-    "experiments/v837_primitive_invention/v837q/results.json"
+    "experiments/v837_primitive_invention/v837q/results.json",
+    "experiments/v837_primitive_invention/global_recurrent_coupling_status.json",
+    "experiments/v837_primitive_invention/global_recurrent_coupling_resource_accounting.json",
+    "docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md",
+    "experiments/v837_primitive_invention/v837r/results.json",
+    "experiments/v837_primitive_invention/v837r/config.json",
+    "experiments/v837_primitive_invention/v837r/recurrent_coupling.py",
+    "experiments/v837_primitive_invention/v837r/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837s/results.json",
+    "experiments/v837_primitive_invention/v837s/config.json",
+    "experiments/v837_primitive_invention/v837s/diagnostics/decision_state.json",
+    "scripts/validate_v837_global_recurrent_coupling.py",
+    "scripts/validate_v837_coupling_modulation_interaction.py",
+    "scripts/reproduce_v837_recovery.py",
+    "tests/test_v837r_global_recurrent_coupling.py",
+    "tests/test_v837s_coupling_modulation_interaction.py"
   ],
-  "current_scientific_frontier": "progressively sharing the same 40 recurrent dimensions leaves the neutral substrate at 2/5 from 10 groups through one fully shared state; state ownership alone is not the remaining bottleneck, so next isolate global cross-dimensional recurrent coupling without adding GRU machinery",
+  "current_scientific_frontier": "moderate cross-block recurrent coupling has a specific partial benefit (rank4/rank8 3/5 vs matched local 2/5), but the authorized rank4 x frozen dynamic-scalar interaction remains 3/5 and is not multiplicatively specific; next isolate dynamic vector-valued state modulation",
   "current_variants": {
     "V837d": {
       "config": "experiments/v837_primitive_invention/v837d/config.json",
@@ -330,6 +345,77 @@
         "experiments/v837_primitive_invention/v837q/analyze_results.py"
       ],
       "status": "DIAGNOSTIC_PASS_HYPOTHESIS_NOT_SUPPORTED"
+    },
+    "V837r": {
+      "config": "experiments/v837_primitive_invention/v837r/config.json",
+      "diagnosis": "GLOBAL_COUPLING_PARTIAL_BENEFIT",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837r/diagnostics/baseline_compatibility.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/coupling_diagnostics.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/cross_cell_influence.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/decision_state.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/gradient_diagnostics.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/message_diagnostics.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/paired_effects.json",
+        "experiments/v837_primitive_invention/v837r/diagnostics/screen_decision.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837r/README.md",
+        "experiments/v837_primitive_invention/v837r/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837r/PASS.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837r/frozen_global_coupling_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837r/plots/capability_per_recurrent_mac.png",
+        "experiments/v837_primitive_invention/v837r/plots/coupling_rank_vs_compute.png",
+        "experiments/v837_primitive_invention/v837r/plots/coupling_rank_vs_validation.png",
+        "experiments/v837_primitive_invention/v837r/plots/effective_coupling_rank.png",
+        "experiments/v837_primitive_invention/v837r/plots/families_passing_by_coupling_rank.png",
+        "experiments/v837_primitive_invention/v837r/plots/family_scores_by_coupling_rank.png",
+        "experiments/v837_primitive_invention/v837r/plots/global_vs_local_recurrent_norm.png",
+        "experiments/v837_primitive_invention/v837r/plots/message_dependency_by_coupling.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837r/raw/baseline_runs.json",
+        "experiments/v837_primitive_invention/v837r/raw/screen_runs.json",
+        "experiments/v837_primitive_invention/v837r/raw/localization_runs.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837r/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837r/recurrent_coupling.py",
+        "experiments/v837_primitive_invention/v837r/run_coupling_diagnostic.py",
+        "experiments/v837_primitive_invention/v837r/analyze_results.py"
+      ],
+      "status": "DIAGNOSTIC_PASS_PARTIAL_BENEFIT"
+    },
+    "V837s": {
+      "config": "experiments/v837_primitive_invention/v837s/config.json",
+      "diagnosis": "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837s/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837s/diagnostics/decision_state.json",
+        "experiments/v837_primitive_invention/v837s/diagnostics/interaction_effects.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837s/README.md",
+        "experiments/v837_primitive_invention/v837s/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837s/FAILURE.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837s/frozen_interaction_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837s/plots/global_coupling_modulation_factorial.png",
+        "experiments/v837_primitive_invention/v837s/plots/interaction_effect_by_family.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837s/raw/runs.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837s/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837s/run_interaction.py",
+        "experiments/v837_primitive_invention/v837s/analyze_results.py"
+      ],
+      "status": "DIAGNOSTIC_FAIL_INTERACTION_INSUFFICIENT"
     }
   },
   "fresh_audit_consumed": false,
@@ -353,8 +439,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "e283b54",
-  "main_sha_semantics": "V837q scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the container commit.",
+  "main_sha": "c5822b4",
+  "main_sha_semantics": "V837s scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -370,11 +456,12 @@
     "docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md",
     "docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md",
     "docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md",
-    "docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md"
+    "docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md",
+    "docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 shared-state organization localization after the V837o/V837p shared-property transfer failure",
-  "research_sha": "e283b54",
+  "research_lineage": "V837 global recurrent coupling localization followed by the single machine-authorized V837s coupling x frozen dynamic-scalar interaction",
+  "research_sha": "c5822b4",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
@@ -391,13 +478,17 @@
     "tests/test_v837n_mechanism_outcome.py",
     "tests/test_v837o_factorial_localization.py",
     "tests/test_v837p_dynamic_state_modulator.py",
-    "tests/test_v837q_state_organization.py"
+    "tests/test_v837q_state_organization.py",
+    "tests/test_v837r_global_recurrent_coupling.py",
+    "tests/test_v837s_coupling_modulation_interaction.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",
     "scripts/validate_v837_shared_state_path.py",
     "scripts/validate_registry.py",
     "scripts/verify_live_repo.py",
-    "scripts/validate_v837_shared_state_organization.py"
+    "scripts/validate_v837_shared_state_organization.py",
+    "scripts/validate_v837_global_recurrent_coupling.py",
+    "scripts/validate_v837_coupling_modulation_interaction.py"
   ]
 }

@@ -55,6 +55,16 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837q/run_state_organization_diagnostic.py", "--phase", "primary"],
         [sys.executable, "experiments/v837_primitive_invention/v837q/analyze_results.py"],
     ],
+    "v837r": [
+        [sys.executable, "experiments/v837_primitive_invention/v837r/run_coupling_diagnostic.py", "--phase", "baseline"],
+        [sys.executable, "experiments/v837_primitive_invention/v837r/run_coupling_diagnostic.py", "--phase", "screen"],
+        [sys.executable, "experiments/v837_primitive_invention/v837r/run_coupling_diagnostic.py", "--phase", "localization"],
+        [sys.executable, "experiments/v837_primitive_invention/v837r/analyze_results.py"],
+    ],
+    "v837s": [
+        [sys.executable, "experiments/v837_primitive_invention/v837s/run_interaction.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837s/analyze_results.py"],
+    ],
 }
 
 
@@ -63,16 +73,25 @@ def display_command(command: list[str]) -> str:
 
 
 def enforce_variant_guard(variant: str) -> None:
-    if variant != "v837p":
+    if variant == "v837p":
+        parent_path = ROOT / "experiments" / "v837_primitive_invention" / "v837o" / "results.json"
+        if not parent_path.is_file():
+            raise SystemExit("V837p blocked: V837o results are missing")
+        parent = json.loads(parent_path.read_text(encoding="utf-8"))
+        if parent.get("mechanism_diagnosis") != "DYNAMIC_STATE_MODULATION_REQUIRED":
+            raise SystemExit("V837p blocked: V837o did not localize dynamic state modulation")
+        if parent.get("neutral_followup_allowed") is not True or parent.get("neutral_followup_type") != "single_dynamic_modulator":
+            raise SystemExit("V837p blocked: V837o did not authorize the single dynamic-modulator transfer")
         return
-    parent_path = ROOT / "experiments" / "v837_primitive_invention" / "v837o" / "results.json"
-    if not parent_path.is_file():
-        raise SystemExit("V837p blocked: V837o results are missing")
-    parent = json.loads(parent_path.read_text(encoding="utf-8"))
-    if parent.get("mechanism_diagnosis") != "DYNAMIC_STATE_MODULATION_REQUIRED":
-        raise SystemExit("V837p blocked: V837o did not localize dynamic state modulation")
-    if parent.get("neutral_followup_allowed") is not True or parent.get("neutral_followup_type") != "single_dynamic_modulator":
-        raise SystemExit("V837p blocked: V837o did not authorize the single dynamic-modulator transfer")
+    if variant == "v837s":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837r" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837s blocked: V837r decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        if decision.get("v837r_complete") is not True or decision.get("interaction_followup_allowed") is not True:
+            raise SystemExit("V837s blocked: V837r did not authorize the interaction follow-up")
+        if decision.get("best_condition") != "R3_rank4":
+            raise SystemExit("V837s blocked: frozen best V837r condition is not R3_rank4")
 
 
 def main() -> int:

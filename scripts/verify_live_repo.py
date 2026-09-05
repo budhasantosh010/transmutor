@@ -301,6 +301,57 @@ def main() -> int:
     if q_status.get("fresh_audit_episodes_consumed") != 0 or q_status.get("primitives_promoted") != 0 or q_status.get("v838_started") is not False:
         raise RuntimeError("shared-state-organization status violated audit/primitive/V838 locks")
 
+    # Global recurrent coupling localization and the single authorized interaction.
+    for variant_name in ("V837r", "V837s"):
+        record = manifest["current_variants"].get(variant_name)
+        if not isinstance(record, dict):
+            raise RuntimeError(f"verification manifest missing {variant_name}")
+        for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+            for relative in record.get(key, []):
+                require_path(relative)
+        require_path(record["config"])
+        require_path(record["frozen_gate"])
+        require_path(record["results"])
+
+    v837r = load_json(manifest["current_variants"]["V837r"]["results"])
+    if v837r.get("version") != "V837r" or v837r.get("diagnosis") != "GLOBAL_COUPLING_PARTIAL_BENEFIT":
+        raise RuntimeError("V837r coupling diagnosis changed")
+    expected_r = {"R0_local": 2, "R1_rank1": 2, "R2_rank2": 2, "R3_rank4": 3, "R4_rank8": 3, "R5_dense_cross_block": 2}
+    actual_r = {name: int(row.get("families_passing", -1)) for name, row in v837r.get("conditions", {}).items()}
+    if actual_r != expected_r:
+        raise RuntimeError("V837r primary family-count outcome changed")
+    expected_rc = {"C1_rank1_local": 2, "C2_rank2_local": 2, "C3_rank4_local": 2, "C4_rank8_local": 2, "C5_dense_budget_local": 2}
+    actual_rc = {name: int(row.get("families_passing", -1)) for name, row in v837r.get("matched_controls", {}).items()}
+    if actual_rc != expected_rc:
+        raise RuntimeError("V837r matched-control outcome changed")
+    for primary, control in (("R1_rank1", "C1_rank1_local"), ("R2_rank2", "C2_rank2_local"), ("R3_rank4", "C3_rank4_local"), ("R4_rank8", "C4_rank8_local"), ("R5_dense_cross_block", "C5_dense_budget_local")):
+        if int(v837r["conditions"][primary]["parameter_count"]) != int(v837r["matched_controls"][control]["parameter_count"]):
+            raise RuntimeError(f"V837r parameter matching changed for {primary}")
+    if v837r.get("representation_adequacy_pass") is not False or v837r.get("interaction_followup_allowed") is not True:
+        raise RuntimeError("V837r adequacy/interaction gate changed")
+    if v837r.get("fresh_audit_consumed") is not False or v837r.get("primitive_mining_allowed") is not False or v837r.get("structural_search_allowed") is not False or v837r.get("v838_started") is not False:
+        raise RuntimeError("V837r reopened locked science")
+
+    v837s = load_json(manifest["current_variants"]["V837s"]["results"])
+    if v837s.get("version") != "V837s" or v837s.get("diagnosis") != "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT":
+        raise RuntimeError("V837s interaction diagnosis changed")
+    expected_s = {"S0_local_no_modulation": 2, "S1_local_dynamic_scalar": 3, "S2_rank4_no_modulation": 3, "S3_rank4_dynamic_scalar": 3, "S3C_rank4_matched_dynamic_additive": 3}
+    actual_s = {name: int(row.get("families_passing", -1)) for name, row in v837s.get("conditions", {}).items()}
+    if actual_s != expected_s:
+        raise RuntimeError("V837s family-count outcome changed")
+    if int(v837s["conditions"]["S3_rank4_dynamic_scalar"]["parameter_count"]) != 1326 or int(v837s["conditions"]["S3C_rank4_matched_dynamic_additive"]["parameter_count"]) != 1326:
+        raise RuntimeError("V837s matched dynamic control parameter count changed")
+    if v837s.get("multiplicative_specificity_established") is not False or v837s.get("representation_adequacy_pass") is not False:
+        raise RuntimeError("V837s specificity/adequacy outcome changed")
+    if v837s.get("fresh_audit_consumed") is not False or v837s.get("primitive_mining_allowed") is not False or v837s.get("structural_search_allowed") is not False or v837s.get("v838_started") is not False:
+        raise RuntimeError("V837s reopened locked science")
+
+    coupling_status = load_json("experiments/v837_primitive_invention/global_recurrent_coupling_status.json")
+    if coupling_status.get("v837r_outcome") != "GLOBAL_COUPLING_PARTIAL_BENEFIT" or coupling_status.get("v837s_outcome") != "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT" or coupling_status.get("representation_adequacy") != "FAIL":
+        raise RuntimeError("global recurrent coupling program status changed")
+    if coupling_status.get("fresh_audit_episodes_consumed") != 0 or coupling_status.get("primitives_promoted") != 0 or coupling_status.get("v838_started") is not False:
+        raise RuntimeError("global recurrent coupling status violated audit/primitive/V838 locks")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

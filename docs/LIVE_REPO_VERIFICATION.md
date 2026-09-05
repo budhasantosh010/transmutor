@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This file is the compact entry point for independent review of the live private repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, successful-GRU mechanism localization, V837o factorial shared-property localization, the single authorized V837p neutral transfer, and the V837q shared-state organization diagnostic. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
+This file is the compact entry point for independent review of the live public repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, successful-GRU mechanism localization, V837o factorial shared-property localization, the single authorized V837p neutral transfer, the V837q shared-state organization diagnostic, V837r global recurrent coupling localization, and the single machine-authorized V837s interaction. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
 
 ## Historical boundary
 
@@ -14,6 +14,8 @@ This file is the compact entry point for independent review of the live private 
 - V837o is factorial shared-property localization inside the successful reference.
 - V837p is the one neutral transfer authorized by V837o; learned references are never Transmutor primitives.
 - V837q is the shared-state organization diagnostic; it preserves 40 total recurrent dimensions while varying state ownership from 10 local groups to one fully shared state.
+- V837r isolates direct cross-dimensional recurrent coupling with exact local-capacity controls.
+- V837s is the single interaction follow-up authorized by the V837r decision state; it reuses the frozen V837p scalar mechanism without redesign.
 
 ## Primary evidence paths
 
@@ -126,9 +128,29 @@ dense vanilla RNN 40D                 2/5
 GRU reference                         5/5
         ↓
 STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED
+        ->
+V837r cross-block recurrent coupling @ 4x data
+R0 local                               2/5
+rank1                                  2/5
+rank2                                  2/5
+rank4                                  3/5
+rank8                                  3/5
+dense cross-block                      2/5
+all exact matched local controls       2/5
+        ->
+GLOBAL_COUPLING_PARTIAL_BENEFIT
+        ->
+V837s authorized rank4 x dynamic-scalar interaction
+local / no modulation                  2/5
+local / dynamic scalar                 3/5
+rank4 / no modulation                  3/5
+rank4 / dynamic scalar                 3/5
+rank4 / matched dynamic additive       3/5
+        ->
+GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT
 ```
 
-The reference-side result localizes a shared property tightly: at least one temporally/state-conditioned dynamic modulation path is required for the successful dense reference, while static vector/scalar pathways are insufficient. The one authorized neutral transfer improved the fixed neutral graph to 3/5 but did not reach the 4/5 representation-adequacy gate, and the exactly parameter-matched dynamic additive control also reached 3/5. V837q then isolated state ownership itself: all four 40-dimensional neutral layouts—10 local states, 5 shared groups, 2 shared groups, and one fully shared state—remained 2/5 with exactly 856 trainable parameters. The dense 40D vanilla RNN control also remained 2/5 while the GRU reference stayed 5/5. Therefore recurrent-state fragmentation by itself is not supported as the remaining bottleneck, and no structural-search or primitive-mining stage is reopened.
+The reference-side result localizes a shared property tightly: at least one temporally/state-conditioned dynamic modulation path is required for the successful dense reference, while static vector/scalar pathways are insufficient. V837p showed that one generic scalar adaptive path gives only a 3/5 neutral result. V837q then showed that state ownership itself is not the remaining bottleneck. V837r added only direct cross-dimensional recurrence to the historical local substrate: rank4 and rank8 reached 3/5 while exact matched local-capacity controls stayed 2/5, establishing a specific but partial global-coupling benefit. The single machine-authorized V837s interaction then combined rank4 coupling with the exact frozen V837p scalar modulator; it remained 3/5, and the matched dynamic-additive control also reached 3/5. Representation adequacy therefore remains closed, structural search and primitive mining remain blocked, and the next isolated variable is dimension-wise dynamic modulation rather than more density.
 
 ## Historical SHA-256 anchors
 
@@ -149,9 +171,11 @@ These pre-existing scientific integrity anchors remain unchanged. Canonical GitH
 - V837o: **complete — DYNAMIC_STATE_MODULATION_REQUIRED**.
 - V837p: **complete — SHARED_PROPERTY_TRANSFER_FAILURE, 3/5**.
 - V837q: **complete — STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED; Q0/Q1/Q2/Q3 all 2/5**.
-- V837r/s/t/u: **not run**.
+- V837r: **complete ? GLOBAL_COUPLING_PARTIAL_BENEFIT; rank4/rank8 3/5, exact matched local controls 2/5**.
+- V837s: **complete ? GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT; all interaction variants remain <=3/5 and multiplicative specificity is not established**.
+- V837t/u/v: **not run**.
 - V838: **not started**.
-- Current scientific frontier: **test global cross-dimensional recurrent coupling as the next isolated difference; do not add GRU machinery, dynamic modulation, structural search, or primitive mining at the same time**.
+- Current scientific frontier: **isolate dynamic vector-valued state modulation next; do not add more density, shared-state changes, structural search, primitive mining, or V838 at the same time**.
 
 ## Fast verification
 
@@ -165,3 +189,18 @@ python -m unittest discover -s tests
 ```
 
 The fast verifier is read-only and does not rerun expensive experiments. The reproduction dispatcher is dry-run by default; pass `--execute` only when an explicit rerun is intended.
+
+## V837r/V837s verification package
+
+| Artifact | Path |
+|---|---|
+| Program status | `experiments/v837_primitive_invention/global_recurrent_coupling_status.json` |
+| Program resources | `experiments/v837_primitive_invention/global_recurrent_coupling_resource_accounting.json` |
+| Final report | `docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md` |
+| V837r result | `experiments/v837_primitive_invention/v837r/results.json` |
+| V837r decision state | `experiments/v837_primitive_invention/v837r/diagnostics/decision_state.json` |
+| V837s result | `experiments/v837_primitive_invention/v837s/results.json` |
+| V837s decision state | `experiments/v837_primitive_invention/v837s/diagnostics/decision_state.json` |
+| V837r validator | `scripts/validate_v837_global_recurrent_coupling.py` |
+| V837s validator | `scripts/validate_v837_coupling_modulation_interaction.py` |
+| Reproduction dispatcher | `scripts/reproduce_v837_recovery.py` |

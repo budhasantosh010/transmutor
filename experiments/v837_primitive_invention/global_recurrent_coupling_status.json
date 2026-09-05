@@ -1,0 +1,44 @@
+{
+  "program": "V837R+ global recurrent coupling localization and authorized V837s interaction",
+  "versions": [
+    "V837r",
+    "V837s"
+  ],
+  "parent": "V837q",
+  "start_sha": "7f623f99eadffc333a07a73f1155876e987356d3",
+  "v837r_outcome": "GLOBAL_COUPLING_PARTIAL_BENEFIT",
+  "v837s_outcome": "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT",
+  "representation_adequacy": "FAIL",
+  "v837r_families_passing": {
+    "R0_local": 2,
+    "R1_rank1": 2,
+    "R2_rank2": 2,
+    "R3_rank4": 3,
+    "R4_rank8": 3,
+    "R5_dense_cross_block": 2
+  },
+  "v837r_matched_control_families_passing": {
+    "C1_rank1_local": 2,
+    "C2_rank2_local": 2,
+    "C3_rank4_local": 2,
+    "C4_rank8_local": 2,
+    "C5_dense_budget_local": 2
+  },
+  "v837s_families_passing": {
+    "S0_local_no_modulation": 2,
+    "S1_local_dynamic_scalar": 3,
+    "S2_rank4_no_modulation": 3,
+    "S3C_rank4_matched_dynamic_additive": 3,
+    "S3_rank4_dynamic_scalar": 3
+  },
+  "best_v837r_condition": "R3_rank4",
+  "best_v837r_families_passing": 3,
+  "v837s_multiplicative_specificity_established": false,
+  "sample_efficiency_retest_allowed": false,
+  "full_structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "next_single_variable": "dynamic vector-valued state modulation, isolated before any further coupling or search expansion"
+}
