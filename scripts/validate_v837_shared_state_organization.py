@@ -179,7 +179,12 @@ def validate_v837_shared_state_organization() -> None:
         if not decision_path.exists() or load_json(decision_path).get("interaction_followup_allowed") is not True:
             raise ValueError("V837s exists without V837r interaction authorization")
     if (BASE / "v837t").exists() or (BASE / "v837u").exists():
-        raise ValueError("V837q lineage may not skip directly to V837t/u")
+        s_decision_path = v837s_dir / "diagnostics" / "decision_state.json"
+        if not v837s_dir.exists() or not s_decision_path.exists():
+            raise ValueError("V837t/u exists without the completed V837r->V837s lineage")
+        s_decision = load_json(s_decision_path)
+        if s_decision.get("v837s_complete") is not True or s_decision.get("representation_adequacy_pass") is not False:
+            raise ValueError("V837t/u continuation is inconsistent with the closed V837s frontier")
     if not (HERE / "PASS.md").exists():
         raise ValueError("V837q diagnostic PASS documentation missing")
 

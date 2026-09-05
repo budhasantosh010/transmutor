@@ -177,7 +177,14 @@ def validate_v837_global_recurrent_coupling() -> None:
         raise ValueError("V837r interaction guard inconsistent")
     if (BASE / "v837s").exists() and decision.get("interaction_followup_allowed") is not True:
         raise ValueError("V837s exists without V837r authorization")
-    for suffix in ("v837t", "v837u", "v837v", "v838"):
+    if (BASE / "v837t").exists() or (BASE / "v837u").exists():
+        s_decision_path = BASE / "v837s" / "diagnostics" / "decision_state.json"
+        if not s_decision_path.exists():
+            raise ValueError("V837t/u exists without completed V837s")
+        s_decision = load_json(s_decision_path)
+        if s_decision.get("v837s_complete") is not True or s_decision.get("representation_adequacy_pass") is not False:
+            raise ValueError("V837t/u continuation is inconsistent with V837s closure")
+    for suffix in ("v837v", "v838"):
         if (BASE / suffix).exists():
             raise ValueError(f"V837r closure may not create downstream {suffix}")
     if not (HERE / "PASS.md").exists():

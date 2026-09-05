@@ -63,6 +63,15 @@ V837_FAILURE_CLASSES = FAILURE_CLASSES | {
     "INTERACTION_RECOVERY_WITHOUT_MULTIPLICATIVE_SPECIFICITY",
     "REPRESENTATION_RECOVERY_WITHOUT_INTERACTION_NECESSITY",
     "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT",
+    "REFERENCE_DYNAMIC_GRANULARITY_INCONCLUSIVE",
+    "DYNAMIC_VECTOR_GRANULARITY_REQUIRED",
+    "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED",
+    "MULTIPLE_DYNAMIC_PATHWAYS_SUFFICIENT",
+    "DYNAMIC_SCALAR_CARRY_INSUFFICIENT",
+    "POST_TRANSFORM_MODULATION_INSUFFICIENT",
+    "DYNAMIC_VECTOR_STATE_MODULATION_INSUFFICIENT",
+    "VECTOR_SPECIFICITY_NOT_ESTABLISHED",
+    "MULTIPLICATIVE_SPECIFICITY_NOT_ESTABLISHED",
 }
 V837_GATE_SHA256 = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
 V837_CAPACITY_CRITERION_SHA256 = "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa"
@@ -834,6 +843,10 @@ def main() -> int:
     runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_organization.py"), run_name="__main__")
     runpy.run_path(str(ROOT / "scripts" / "validate_v837_global_recurrent_coupling.py"), run_name="__main__")
     runpy.run_path(str(ROOT / "scripts" / "validate_v837_coupling_modulation_interaction.py"), run_name="__main__")
+    runpy.run_path(str(ROOT / "scripts" / "validate_v837_dynamic_control_granularity.py"), run_name="__main__")
+    neutral_validator = ROOT / "scripts" / "validate_v837_neutral_dynamic_followup.py"
+    if neutral_validator.exists():
+        runpy.run_path(str(neutral_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

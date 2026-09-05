@@ -65,6 +65,15 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837s/run_interaction.py"],
         [sys.executable, "experiments/v837_primitive_invention/v837s/analyze_results.py"],
     ],
+    "v837t": [
+        [sys.executable, "experiments/v837_primitive_invention/v837t/run_dynamic_granularity.py", "--phase", "anchors"],
+        [sys.executable, "experiments/v837_primitive_invention/v837t/run_dynamic_granularity.py", "--phase", "scalarized"],
+        [sys.executable, "experiments/v837_primitive_invention/v837t/analyze_results.py"],
+    ],
+    "v837u": [
+        [sys.executable, "experiments/v837_primitive_invention/v837u/run_neutral_followup.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837u/analyze_results.py"],
+    ],
 }
 
 
@@ -92,6 +101,17 @@ def enforce_variant_guard(variant: str) -> None:
             raise SystemExit("V837s blocked: V837r did not authorize the interaction follow-up")
         if decision.get("best_condition") != "R3_rank4":
             raise SystemExit("V837s blocked: frozen best V837r condition is not R3_rank4")
+        return
+    if variant == "v837u":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837t" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837u blocked: V837t decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        allowed = {"DYNAMIC_SCALAR_CARRY", "POST_TRANSFORM_SCALAR_MODULATION", "DUAL_SCALAR_DYNAMIC_PATHWAYS", "DYNAMIC_VECTOR_STATE_MODULATION"}
+        if decision.get("v837t_complete") is not True or decision.get("positive_controls_pass") is not True or decision.get("neutral_followup_allowed") is not True:
+            raise SystemExit("V837u blocked: V837t did not authorize a neutral follow-up")
+        if decision.get("authorized_v837u_mode") not in allowed:
+            raise SystemExit("V837u blocked: V837t authorized mode is invalid")
 
 
 def main() -> int:

@@ -1,0 +1,28 @@
+{
+  "version": "V837t",
+  "start_sha": "c1023ea12d1d70f00770b1cde78859cef6443364",
+  "parent": "V837s",
+  "parent_result_sha256": "a8669aeacf0d1ffd4b53d593a9444686c3b41071420dfff8022f9c364cfdb914",
+  "reference_result_sha256": "92cdc0f2ca92b6228ec0599cc89fc2d51707a22abb1fda806f40a9cad15aa831",
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "scalarization": "mean(sigmoid(logits), hidden_dimension) then broadcast",
+  "scalarization_location": "post_sigmoid",
+  "same_vector_gate_network_retained": true,
+  "nominal_parameter_count_all_conditions": 875,
+  "positive_control_families_required": 4,
+  "neutral_followup_modes": [
+    "DYNAMIC_SCALAR_CARRY",
+    "POST_TRANSFORM_SCALAR_MODULATION",
+    "DUAL_SCALAR_DYNAMIC_PATHWAYS",
+    "DYNAMIC_VECTOR_STATE_MODULATION"
+  ],
+  "development_seed_range": [10000, 10511],
+  "validation_seed_range": [20000, 20127],
+  "unique_seed_defined_episodes": 3200,
+  "fresh_audit_seed_range": [90000, 90499],
+  "fresh_audit_consumed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v838_started": false
+}

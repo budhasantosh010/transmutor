@@ -126,9 +126,17 @@ def validate_v837_coupling_modulation_interaction() -> None:
         raise ValueError("V837s decision state inconsistent")
     if decision.get("representation_adequacy_pass") is not result.get("representation_adequacy_pass"):
         raise ValueError("V837s representation gate inconsistent")
-    if (BASE / "v837t").exists() and decision.get("coupling_compression_allowed") is not True:
-        raise ValueError("V837t exists without V837s compression authorization")
-    for suffix in ("v837u", "v837v", "v838"):
+    if (BASE / "v837t").exists():
+        if decision.get("representation_adequacy_pass") is not False or decision.get("diagnosis") != "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT":
+            raise ValueError("V837t exists without the closed V837s insufficient-interaction frontier")
+    if (BASE / "v837u").exists():
+        t_decision_path = BASE / "v837t" / "diagnostics" / "decision_state.json"
+        if not t_decision_path.exists():
+            raise ValueError("V837u exists without V837t decision state")
+        t_decision = load_json(t_decision_path)
+        if t_decision.get("neutral_followup_allowed") is not True:
+            raise ValueError("V837u exists without V837t authorization")
+    for suffix in ("v837v", "v838"):
         if (BASE / suffix).exists():
             raise ValueError(f"V837s closure may not create downstream {suffix}")
 
