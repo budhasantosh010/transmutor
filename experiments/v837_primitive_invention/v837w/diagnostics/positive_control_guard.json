@@ -1,0 +1,11 @@
+{
+  "absolute_family_median_drift": {
+    "conditional_routing": 0.0,
+    "delayed_recall": 0.0,
+    "iterative_state": 0.0,
+    "partial_observation": 0.0,
+    "variable_composition": 0.0
+  },
+  "compatible": true,
+  "families_passing": 4
+}

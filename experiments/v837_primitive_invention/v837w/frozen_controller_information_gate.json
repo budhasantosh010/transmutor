@@ -1,0 +1,18 @@
+{
+  "version": "V837w",
+  "parent": "V837v",
+  "required_v837v_diagnosis": ["CONTROL_SCOPE_PARTIAL_BENEFIT", "CONTROL_SCOPE_ALONE_INSUFFICIENT", "CONTROL_SCOPE_COARSENING_HARMFUL"],
+  "required_v837v_representation_adequacy_pass": false,
+  "conditions": {
+    "W0_joint_input_state": "sigmoid(L_input + L_state + B) -> mean -> broadcast",
+    "W1_input_only": "sigmoid(L_input + B) -> mean -> broadcast",
+    "W2_state_only": "sigmoid(L_state + B) -> mean -> broadcast",
+    "W3_bias_only": "sigmoid(B) -> mean -> broadcast"
+  },
+  "reset": "off_equals_one",
+  "candidate": "exact_T2",
+  "scalarization": "after_sigmoid",
+  "representation_gate_families": 4,
+  "fresh_audit_consumed": false,
+  "v838_started": false
+}

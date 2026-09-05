@@ -1,0 +1,63 @@
+{
+  "conditions": {
+    "W0_joint_input_state": {
+      "active_params": 602,
+      "cpu_seconds": 117.046875,
+      "environment_interactions": 111225,
+      "families_passing": 4,
+      "forward_calls": 5475,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "processed_examples": 2457600,
+      "wall_seconds_sum_workers": 118.68893119948916
+    },
+    "W1_input_only": {
+      "active_params": 433,
+      "cpu_seconds": 128.203125,
+      "environment_interactions": 111225,
+      "families_passing": 3,
+      "forward_calls": 5400,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "processed_examples": 2457600,
+      "wall_seconds_sum_workers": 130.7375085997628
+    },
+    "W2_state_only": {
+      "active_params": 524,
+      "cpu_seconds": 132.546875,
+      "environment_interactions": 111225,
+      "families_passing": 3,
+      "forward_calls": 5400,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "processed_examples": 2457600,
+      "wall_seconds_sum_workers": 136.91757609997876
+    },
+    "W3_bias_only": {
+      "active_params": 355,
+      "cpu_seconds": 123.21875,
+      "environment_interactions": 111225,
+      "families_passing": 3,
+      "forward_calls": 5400,
+      "gpu_seconds": 0.0,
+      "model_fits": 25,
+      "optimizer_steps": 4800,
+      "processed_examples": 2457600,
+      "wall_seconds_sum_workers": 124.58090619975701
+    }
+  },
+  "program": {
+    "cpu_seconds": 501.015625,
+    "environment_interactions": 444900,
+    "forward_calls": 21675,
+    "gpu_seconds": 0.0,
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_examples": 9830400,
+    "unique_seed_defined_episodes": 3200,
+    "wall_seconds_sum_workers": 510.92492209898774
+  }
+}

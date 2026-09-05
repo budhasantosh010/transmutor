@@ -1,0 +1,14 @@
+{
+  "authorized_v837x_mode": "JOINT_INPUT_STATE_GLOBAL_SCALAR",
+  "diagnosis": "JOINT_INPUT_STATE_GLOBAL_CONTROL_REQUIRED",
+  "fresh_audit_consumed": false,
+  "neutral_global_controller_allowed": true,
+  "primitive_mining_allowed": false,
+  "structural_search_allowed": false,
+  "v837w_complete": true,
+  "v838_started": false,
+  "w0_joint": 4,
+  "w1_input_only": 3,
+  "w2_state_only": 3,
+  "w3_bias_only": 3
+}
