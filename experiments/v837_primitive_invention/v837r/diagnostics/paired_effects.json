@@ -1,0 +1,526 @@
+{
+  "vs_matched_control": {
+    "R1_rank1": {
+      "conditional_routing": {
+        "ci": [
+          -0.0546875,
+          0.0953125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0203125,
+        "median_difference": 0.0390625,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.0125,
+          0.0828125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0453125,
+        "median_difference": 0.03125,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.021875,
+          -0.0078125
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.0140625,
+        "median_difference": -0.0078125,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.0359375,
+          0.05625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0203125,
+        "median_difference": 0.0390625,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          0.00625,
+          0.05625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0296875,
+        "median_difference": 0.03125,
+        "n": 5
+      }
+    },
+    "R2_rank2": {
+      "conditional_routing": {
+        "ci": [
+          0.0390625,
+          0.2015625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.1171875,
+        "median_difference": 0.1328125,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          -0.0125,
+          0.0578125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0203125,
+        "median_difference": 0.015625,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.00625,
+          0.0109375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.003125,
+        "median_difference": 0.0078125,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.0203125,
+          0.034375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0078125,
+        "median_difference": 0.015625,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          -0.025,
+          0.11875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.034375,
+        "median_difference": 0.015625,
+        "n": 5
+      }
+    },
+    "R3_rank4": {
+      "conditional_routing": {
+        "ci": [
+          -0.053125,
+          0.1125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0390625,
+        "median_difference": 0.0546875,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.01246093750000007,
+          0.0734375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.04375,
+        "median_difference": 0.0390625,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.0109375,
+          0.009375
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.0015625,
+        "median_difference": -0.0078125,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.0140625,
+          0.040625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0125,
+        "median_difference": -0.0078125,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          0.0,
+          0.1171875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0640625,
+        "median_difference": 0.0859375,
+        "n": 5
+      }
+    },
+    "R4_rank8": {
+      "conditional_routing": {
+        "ci": [
+          -0.021875,
+          0.0203125
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.0015625,
+        "median_difference": 0.0,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.009375,
+          0.0484375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.025,
+        "median_difference": 0.015625,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.0046875,
+          0.0046875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.025,
+          0.0703125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.025,
+        "median_difference": 0.0546875,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          0.0125,
+          0.059375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.034375,
+        "median_difference": 0.03125,
+        "n": 5
+      }
+    },
+    "R5_dense_cross_block": {
+      "conditional_routing": {
+        "ci": [
+          -0.08125,
+          0.028125
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.0265625,
+        "median_difference": -0.0625,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          -0.0078125,
+          0.0296875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0109375,
+        "median_difference": 0.0078125,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.015625,
+          -0.0015625
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.009375,
+        "median_difference": -0.015625,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.0265625,
+          0.025
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.003125,
+        "median_difference": -0.0078125,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          -0.090625,
+          0.0875
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.009375,
+        "median_difference": -0.0703125,
+        "n": 5
+      }
+    }
+  },
+  "vs_r0": {
+    "R1_rank1": {
+      "conditional_routing": {
+        "ci": [
+          -0.02972656249999993,
+          0.1015625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0359375,
+        "median_difference": 0.0703125,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.0296875,
+          0.059375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.04375,
+        "median_difference": 0.0390625,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.0046875,
+          0.0046875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.0265625,
+          0.078125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.03125,
+        "median_difference": 0.046875,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          0.03125,
+          0.11875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.078125,
+        "median_difference": 0.0859375,
+        "n": 5
+      }
+    },
+    "R2_rank2": {
+      "conditional_routing": {
+        "ci": [
+          0.034375,
+          0.14851562499999957
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0921875,
+        "median_difference": 0.078125,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.0078125,
+          0.0734375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0375,
+        "median_difference": 0.03125,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.0015625,
+          0.021875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.009375,
+        "median_difference": 0.0078125,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.0203125,
+          0.0390625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0078125,
+        "median_difference": 0.0078125,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          0.0234375,
+          0.1453125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.084375,
+        "median_difference": 0.0703125,
+        "n": 5
+      }
+    },
+    "R3_rank4": {
+      "conditional_routing": {
+        "ci": [
+          -0.03914062499999986,
+          0.1171875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0296875,
+        "median_difference": 0.0234375,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.0265625,
+          0.0625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.04375,
+        "median_difference": 0.0390625,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.003125,
+          0.00625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.0015625,
+        "median_difference": 0.0,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.003125,
+          0.0703125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.03125,
+        "median_difference": 0.0234375,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          0.071875,
+          0.1375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.109375,
+        "median_difference": 0.1171875,
+        "n": 5
+      }
+    },
+    "R4_rank8": {
+      "conditional_routing": {
+        "ci": [
+          -0.0859375,
+          -0.0234375
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.0609375,
+        "median_difference": -0.0703125,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.0296875,
+          0.08125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.05625,
+        "median_difference": 0.0625,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          0.0015625,
+          0.0109375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.00625,
+        "median_difference": 0.0078125,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.0421875,
+          0.0109375
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.015625,
+        "median_difference": -0.0078125,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          0.059375,
+          0.1578125
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.103125,
+        "median_difference": 0.09375,
+        "n": 5
+      }
+    },
+    "R5_dense_cross_block": {
+      "conditional_routing": {
+        "ci": [
+          -0.1453125,
+          -0.0765625
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.1109375,
+        "median_difference": -0.1015625,
+        "n": 5
+      },
+      "delayed_recall": {
+        "ci": [
+          0.028125,
+          0.0671875
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.046875,
+        "median_difference": 0.046875,
+        "n": 5
+      },
+      "iterative_state": {
+        "ci": [
+          -0.00625,
+          0.0140625
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.003125,
+        "median_difference": 0.0,
+        "n": 5
+      },
+      "partial_observation": {
+        "ci": [
+          -0.06875,
+          0.034375
+        ],
+        "confidence": 0.95,
+        "mean_difference": -0.0171875,
+        "median_difference": 0.0,
+        "n": 5
+      },
+      "variable_composition": {
+        "ci": [
+          -0.040625,
+          0.0609375
+        ],
+        "confidence": 0.95,
+        "mean_difference": 0.009375,
+        "median_difference": -0.0078125,
+        "n": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "best_condition": "R3_rank4",
+  "diagnosis": "GLOBAL_COUPLING_PARTIAL_BENEFIT",
+  "families_passing": 3,
+  "fresh_audit_consumed": false,
+  "full_dense_control_run": false,
+  "interaction_followup_allowed": true,
+  "interaction_followup_reasons": [
+    "global coupling reaches 3/5 and specifically beats its matched local control",
+    "strong coupling utilization/cross-cell influence with complementary improvement on a V837p-failing family"
+  ],
+  "next_variant": "V837s",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "rank1_run": true,
+  "rank8_run": true,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "specificity_vs_matched_control": {
+    "control_families_passing": 2,
+    "families_passing_delta": 1,
+    "global_families_passing": 3,
+    "matched_control": "C3_rank4_local",
+    "mean_family_validation_delta": 0.02968750000000009,
+    "specificity_supported": true
+  },
+  "strict_stop_triggered": false,
+  "structural_search_allowed": false,
+  "v837r_complete": true,
+  "v838_started": false
+}

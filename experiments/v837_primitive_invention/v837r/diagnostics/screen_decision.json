@@ -1,0 +1,36 @@
+{
+  "localization_allowed": true,
+  "records": {
+    "R2_rank2": {
+      "families_passing": 2,
+      "matched_control": "C2_rank2_local",
+      "matched_control_families_passing": 2,
+      "matched_control_mean_family_validation_median": 0.8140625,
+      "mean_family_validation_median": 0.8359375,
+      "specificity_delta": 0.021874999999999978
+    },
+    "R3_rank4": {
+      "families_passing": 3,
+      "matched_control": "C3_rank4_local",
+      "matched_control_families_passing": 2,
+      "matched_control_mean_family_validation_median": 0.809375,
+      "mean_family_validation_median": 0.8390625,
+      "specificity_delta": 0.02968750000000009
+    },
+    "R5_dense_cross_block": {
+      "families_passing": 2,
+      "matched_control": "C5_dense_budget_local",
+      "matched_control_families_passing": 2,
+      "matched_control_mean_family_validation_median": 0.8046875,
+      "mean_family_validation_median": 0.7796875,
+      "specificity_delta": -0.025000000000000022
+    }
+  },
+  "rule": {
+    "description": "run rank1/rank8 only if a screened global condition reaches >=3/5 or beats its matched local control by >=0.05 mean family validation median",
+    "min_families_passing": 3,
+    "specificity_min_mean_validation_delta": 0.05
+  },
+  "screen_complete": true,
+  "strict_stop_triggered": false
+}

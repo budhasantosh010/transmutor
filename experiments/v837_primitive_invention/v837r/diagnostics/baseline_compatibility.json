@@ -1,0 +1,31 @@
+{
+  "absolute_deltas": {
+    "conditional_routing": 0.0,
+    "delayed_recall": 0.0,
+    "iterative_state": 0.0,
+    "partial_observation": 0.0,
+    "variable_composition": 0.0
+  },
+  "compatible": true,
+  "drifted_families": [],
+  "expected_families_passing": 2,
+  "expected_validation_medians": {
+    "conditional_routing": 0.5,
+    "delayed_recall": 0.9375,
+    "iterative_state": 0.984375,
+    "partial_observation": 0.7734375,
+    "variable_composition": 0.78125
+  },
+  "families_passing": 2,
+  "observed_validation_medians": {
+    "conditional_routing": 0.5,
+    "delayed_recall": 0.9375,
+    "iterative_state": 0.984375,
+    "partial_observation": 0.7734375,
+    "variable_composition": 0.78125
+  },
+  "threshold": {
+    "absolute_validation_delta": 0.1,
+    "families_required": 2
+  }
+}
