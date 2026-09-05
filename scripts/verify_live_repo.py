@@ -398,6 +398,46 @@ def main() -> int:
     if int(combined.get("model_fits", -1)) != 250 or int(combined.get("optimizer_steps", -1)) != 48000 or int(combined.get("processed_examples", -1)) != 24576000 or int(combined.get("unique_seed_defined_episodes", -1)) != 3200:
         raise RuntimeError("dynamic-control combined resource accounting changed")
 
+    # Control-scope, reference-information, and authorized global-scalar transfer.
+    for variant_name in ("V837v", "V837w", "V837x"):
+        record = manifest["current_variants"].get(variant_name)
+        if not isinstance(record, dict):
+            raise RuntimeError(f"verification manifest missing {variant_name}")
+        for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+            for relative in record.get(key, []):
+                require_path(relative)
+        require_path(record["config"])
+        require_path(record["frozen_gate"])
+        require_path(record["results"])
+
+    v837v = load_json(manifest["current_variants"]["V837v"]["results"])
+    expected_v = {"V0_10_domains": 2, "V1_5_domains": 2, "V2_2_domains": 2, "V3_1_domain": 2}
+    actual_v = {name: int(row.get("families_passing", -1)) for name, row in v837v.get("conditions", {}).items()}
+    if v837v.get("diagnosis") != "CONTROL_SCOPE_ALONE_INSUFFICIENT" or actual_v != expected_v or v837v.get("representation_adequacy_pass") is not False:
+        raise RuntimeError("V837v control-scope outcome changed")
+
+    v837w = load_json(manifest["current_variants"]["V837w"]["results"])
+    expected_w = {"W0_joint_input_state": 4, "W1_input_only": 3, "W2_state_only": 3, "W3_bias_only": 3}
+    actual_w = {name: int(row.get("families_passing", -1)) for name, row in v837w.get("conditions", {}).items()}
+    if v837w.get("diagnosis") != "JOINT_INPUT_STATE_GLOBAL_CONTROL_REQUIRED" or actual_w != expected_w or v837w.get("authorized_v837x_mode") != "JOINT_INPUT_STATE_GLOBAL_SCALAR":
+        raise RuntimeError("V837w information-source outcome changed")
+
+    v837x = load_json(manifest["current_variants"]["V837x"]["results"])
+    expected_x = {"X0_historical_direct": 2, "X1_local_scalar_carry": 2, "X2_global_scalar_carry": 3, "X2C_global_scale_candidate_control": 3}
+    actual_x = {name: int(row.get("families_passing", -1)) for name, row in v837x.get("conditions", {}).items()}
+    if v837x.get("diagnosis") != "GLOBAL_SCALAR_CONTROL_PARTIAL_BENEFIT" or actual_x != expected_x or v837x.get("representation_adequacy_pass") is not False:
+        raise RuntimeError("V837x global-scalar outcome changed")
+    if v837x.get("sample_efficiency_retest_allowed") is not False or v837x.get("structural_search_allowed") is not False or v837x.get("primitive_mining_allowed") is not False or v837x.get("fresh_audit_consumed") is not False or v837x.get("v838_started") is not False:
+        raise RuntimeError("V837x science lock state changed")
+
+    scope_status = load_json("experiments/v837_primitive_invention/control_scope_program_status.json")
+    scope_resources = load_json("experiments/v837_primitive_invention/control_scope_program_resource_accounting.json")
+    if scope_status.get("scalar_control_stop_rule_triggered") is not True or scope_status.get("next_single_variable") != "candidate_transformation_organization":
+        raise RuntimeError("control-scope program stop-rule/next-variable state changed")
+    scope_combined = scope_resources.get("combined", {})
+    if int(scope_combined.get("model_fits", -1)) != 300 or int(scope_combined.get("optimizer_steps", -1)) != 57600 or int(scope_combined.get("processed_examples", -1)) != 29491200 or int(scope_combined.get("unique_seed_defined_episodes", -1)) != 3200:
+        raise RuntimeError("control-scope program resource accounting changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

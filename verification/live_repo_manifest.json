@@ -62,9 +62,31 @@
     "scripts/validate_v837_dynamic_control_granularity.py",
     "scripts/validate_v837_neutral_dynamic_followup.py",
     "tests/test_v837t_dynamic_control_granularity.py",
-    "tests/test_v837u_neutral_dynamic_followup.py"
+    "tests/test_v837u_neutral_dynamic_followup.py",
+    "experiments/v837_primitive_invention/control_scope_program_status.json",
+    "experiments/v837_primitive_invention/control_scope_program_resource_accounting.json",
+    "docs/V837_CONTROL_SCOPE_AND_INFORMATION_REPORT.md",
+    "docs/V837_SCALAR_CONTROL_TRANSFER_BLOCKER_ANALYSIS.md",
+    "experiments/v837_primitive_invention/v837v/config.json",
+    "experiments/v837_primitive_invention/v837v/control_scope.py",
+    "experiments/v837_primitive_invention/v837v/results.json",
+    "experiments/v837_primitive_invention/v837v/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837w/config.json",
+    "experiments/v837_primitive_invention/v837w/gru_controller_information.py",
+    "experiments/v837_primitive_invention/v837w/results.json",
+    "experiments/v837_primitive_invention/v837w/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837x/config.json",
+    "experiments/v837_primitive_invention/v837x/global_scalar_control.py",
+    "experiments/v837_primitive_invention/v837x/results.json",
+    "experiments/v837_primitive_invention/v837x/diagnostics/decision_state.json",
+    "scripts/validate_v837_control_scope.py",
+    "scripts/validate_v837_controller_information.py",
+    "scripts/validate_v837_global_scalar_control.py",
+    "tests/test_v837v_control_scope.py",
+    "tests/test_v837w_controller_information.py",
+    "tests/test_v837x_global_scalar_control.py"
   ],
-  "current_scientific_frontier": "V837t proves dimension-specific dynamic update gating is not required in the successful reference (scalarized update/no-reset 4/5); the machine-authorized V837u scalar preserve-vs-replace carry transfer is insufficient at 2/5, so vector gating is not licensed and the next variable must localize the remaining GRU update-pathway semantic difference.",
+  "current_scientific_frontier": "V837v shows local-source control-domain coarsening 10\u21925\u21922\u21921 remains 2/5; V837w shows successful T2 requires joint dynamic input+state information (4/5 versus 3/5 for each ablation); V837x faithfully transfers one 47-parameter joint global scalar controller and improves the neutral substrate to 3/5 but not 4/5. Scalar-control localization is stopped; candidate-transformation organization is the next single variable.",
   "current_variants": {
     "V837d": {
       "config": "experiments/v837_primitive_invention/v837d/config.json",
@@ -502,6 +524,111 @@
       ],
       "results": "experiments/v837_primitive_invention/v837u/results.json",
       "status": "FAIL_REPRESENTATION_INADEQUATE"
+    },
+    "V837v": {
+      "config": "experiments/v837_primitive_invention/v837v/config.json",
+      "frozen_gate": "experiments/v837_primitive_invention/v837v/frozen_control_scope_gate.json",
+      "diagnosis": "CONTROL_SCOPE_ALONE_INSUFFICIENT",
+      "source": [
+        "experiments/v837_primitive_invention/v837v/control_scope.py",
+        "experiments/v837_primitive_invention/v837v/run_control_scope.py",
+        "experiments/v837_primitive_invention/v837v/analyze_results.py"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837v/README.md",
+        "experiments/v837_primitive_invention/v837v/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837v/FAILURE.md"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837v/raw/v0_runs.json",
+        "experiments/v837_primitive_invention/v837v/raw/shared_scope_runs.json",
+        "experiments/v837_primitive_invention/v837v/raw/runs.json"
+      ],
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837v/diagnostics/baseline_compatibility.json",
+        "experiments/v837_primitive_invention/v837v/diagnostics/control_scope_summary.json",
+        "experiments/v837_primitive_invention/v837v/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837v/diagnostics/decision_state.json"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837v/plots/families_passing_vs_control_domains.png",
+        "experiments/v837_primitive_invention/v837v/plots/family_scores_vs_control_domains.png",
+        "experiments/v837_primitive_invention/v837v/plots/active_controller_macs_vs_capability.png",
+        "experiments/v837_primitive_invention/v837v/plots/active_controller_params_vs_capability.png",
+        "experiments/v837_primitive_invention/v837v/plots/control_signal_temporal_variance.png",
+        "experiments/v837_primitive_invention/v837v/plots/between_domain_gate_disagreement.png",
+        "experiments/v837_primitive_invention/v837v/plots/state_change_synchrony.png",
+        "experiments/v837_primitive_invention/v837v/plots/message_dependence_vs_control_scope.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837v/results.json",
+      "status": "FAIL_REPRESENTATION_INADEQUATE"
+    },
+    "V837w": {
+      "config": "experiments/v837_primitive_invention/v837w/config.json",
+      "frozen_gate": "experiments/v837_primitive_invention/v837w/frozen_controller_information_gate.json",
+      "diagnosis": "JOINT_INPUT_STATE_GLOBAL_CONTROL_REQUIRED",
+      "source": [
+        "experiments/v837_primitive_invention/v837w/gru_controller_information.py",
+        "experiments/v837_primitive_invention/v837w/run_controller_information.py",
+        "experiments/v837_primitive_invention/v837w/analyze_results.py"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837w/README.md",
+        "experiments/v837_primitive_invention/v837w/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837w/PASS.md"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837w/raw/runs.json"
+      ],
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837w/diagnostics/positive_control_guard.json",
+        "experiments/v837_primitive_invention/v837w/diagnostics/controller_information_summary.json",
+        "experiments/v837_primitive_invention/v837w/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837w/diagnostics/decision_state.json"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837w/plots/controller_information_family_scores.png",
+        "experiments/v837_primitive_invention/v837w/plots/families_passing_input_state_joint.png",
+        "experiments/v837_primitive_invention/v837w/plots/gate_temporal_variance_by_information_source.png",
+        "experiments/v837_primitive_invention/v837w/plots/input_vs_state_logit_contribution.png",
+        "experiments/v837_primitive_invention/v837w/plots/counterfactual_source_ablation.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837w/results.json",
+      "status": "DIAGNOSTIC_PASS_JOINT_INPUT_STATE_REQUIRED"
+    },
+    "V837x": {
+      "config": "experiments/v837_primitive_invention/v837x/config.json",
+      "frozen_gate": "experiments/v837_primitive_invention/v837x/frozen_global_scalar_controller_gate.json",
+      "diagnosis": "GLOBAL_SCALAR_CONTROL_PARTIAL_BENEFIT",
+      "source": [
+        "experiments/v837_primitive_invention/v837x/global_scalar_control.py",
+        "experiments/v837_primitive_invention/v837x/run_global_scalar_control.py",
+        "experiments/v837_primitive_invention/v837x/analyze_results.py"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837x/README.md",
+        "experiments/v837_primitive_invention/v837x/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837x/FAILURE.md"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837x/raw/runs.json"
+      ],
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837x/diagnostics/anchor_guard.json",
+        "experiments/v837_primitive_invention/v837x/diagnostics/global_scalar_control_summary.json",
+        "experiments/v837_primitive_invention/v837x/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837x/diagnostics/decision_state.json"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837x/plots/global_scalar_control_family_scores.png",
+        "experiments/v837_primitive_invention/v837x/plots/global_vs_local_scalar_control.png",
+        "experiments/v837_primitive_invention/v837x/plots/global_control_gate_dynamics.png",
+        "experiments/v837_primitive_invention/v837x/plots/capability_vs_controller_macs.png",
+        "experiments/v837_primitive_invention/v837x/plots/capability_vs_active_params.png",
+        "experiments/v837_primitive_invention/v837x/plots/global_carry_vs_scaling_control.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837x/results.json",
+      "status": "FAIL_REPRESENTATION_INADEQUATE_PARTIAL_BENEFIT"
     }
   },
   "fresh_audit_consumed": false,
@@ -525,8 +652,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "032de08",
-  "main_sha_semantics": "V837u scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
+  "main_sha": "818e59c",
+  "main_sha_semantics": "V837x scientific closure commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -544,11 +671,13 @@
     "docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md",
     "docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md",
     "docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md",
-    "docs/V837_DYNAMIC_CONTROL_GRANULARITY_REPORT.md"
+    "docs/V837_DYNAMIC_CONTROL_GRANULARITY_REPORT.md",
+    "docs/V837_CONTROL_SCOPE_AND_INFORMATION_REPORT.md",
+    "docs/V837_SCALAR_CONTROL_TRANSFER_BLOCKER_ANALYSIS.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 dynamic-control granularity localization in the successful GRU followed by exactly one machine-authorized V837u neutral scalar-carry transfer",
-  "research_sha": "032de08",
+  "research_lineage": "V837 dynamic-control localization through V837v control scope, V837w reference controller-information source, and exactly one V837w-authorized V837x global scalar transfer",
+  "research_sha": "818e59c",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
@@ -569,7 +698,10 @@
     "tests/test_v837r_global_recurrent_coupling.py",
     "tests/test_v837s_coupling_modulation_interaction.py",
     "tests/test_v837t_dynamic_control_granularity.py",
-    "tests/test_v837u_neutral_dynamic_followup.py"
+    "tests/test_v837u_neutral_dynamic_followup.py",
+    "tests/test_v837v_control_scope.py",
+    "tests/test_v837w_controller_information.py",
+    "tests/test_v837x_global_scalar_control.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",
@@ -580,6 +712,9 @@
     "scripts/validate_v837_global_recurrent_coupling.py",
     "scripts/validate_v837_coupling_modulation_interaction.py",
     "scripts/validate_v837_dynamic_control_granularity.py",
-    "scripts/validate_v837_neutral_dynamic_followup.py"
+    "scripts/validate_v837_neutral_dynamic_followup.py",
+    "scripts/validate_v837_control_scope.py",
+    "scripts/validate_v837_controller_information.py",
+    "scripts/validate_v837_global_scalar_control.py"
   ]
 }
