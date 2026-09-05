@@ -1,0 +1,27 @@
+{
+  "anchors": {
+    "X0_historical_direct": {
+      "expected_families_passing": 2,
+      "families_passing": 2,
+      "family_median_drift": {
+        "conditional_routing": 0.0,
+        "delayed_recall": 0.0,
+        "iterative_state": 0.0,
+        "partial_observation": 0.0,
+        "variable_composition": 0.0
+      }
+    },
+    "X1_local_scalar_carry": {
+      "expected_families_passing": 2,
+      "families_passing": 2,
+      "family_median_drift": {
+        "conditional_routing": 0.0,
+        "delayed_recall": 0.0,
+        "iterative_state": 0.0,
+        "partial_observation": 0.0,
+        "variable_composition": 0.0
+      }
+    }
+  },
+  "compatible": true
+}

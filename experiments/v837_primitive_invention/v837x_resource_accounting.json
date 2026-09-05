@@ -1,0 +1,11 @@
+{
+  "cpu_seconds": 5131.984375,
+  "environment_interactions": 444900,
+  "forward_calls": 21600,
+  "gpu_seconds": 0.0,
+  "model_fits": 100,
+  "optimizer_steps": 19200,
+  "processed_examples": 9830400,
+  "unique_seed_defined_episodes": 3200,
+  "wall_seconds_sum_workers": 5263.196902599535
+}

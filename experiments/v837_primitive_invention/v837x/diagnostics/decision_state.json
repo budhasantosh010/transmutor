@@ -1,0 +1,18 @@
+{
+  "authorized_controller_mode": "JOINT_INPUT_STATE_GLOBAL_SCALAR",
+  "diagnosis": "GLOBAL_SCALAR_CONTROL_PARTIAL_BENEFIT",
+  "families_passing": {
+    "X0_historical_direct": 2,
+    "X1_local_scalar_carry": 2,
+    "X2C_global_scale_candidate_control": 3,
+    "X2_global_scalar_carry": 3
+  },
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "v837x_complete": true,
+  "v838_started": false
+}

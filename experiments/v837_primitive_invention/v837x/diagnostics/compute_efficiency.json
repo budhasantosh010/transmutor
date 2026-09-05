@@ -1,0 +1,91 @@
+{
+  "conditions": {
+    "X0_historical_direct": {
+      "capability_per_active_mac": 0.0125,
+      "capability_per_active_parameter": 0.002336448598130841,
+      "controller_macs": 0,
+      "controller_param_count": 0,
+      "families_passing": 2,
+      "parameter_count": 856,
+      "resource_accounting": {
+        "cpu_seconds": 970.21875,
+        "environment_interactions": 111225,
+        "forward_calls": 5400,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 994.5071334001841
+      },
+      "total_macs": 160
+    },
+    "X1_local_scalar_carry": {
+      "capability_per_active_mac": 0.006666666666666667,
+      "capability_per_active_parameter": 0.0019880715705765406,
+      "controller_macs": 140,
+      "controller_param_count": 150,
+      "families_passing": 2,
+      "parameter_count": 1006,
+      "resource_accounting": {
+        "cpu_seconds": 1719.8125,
+        "environment_interactions": 111225,
+        "forward_calls": 5400,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 1760.5366983993445
+      },
+      "total_macs": 300
+    },
+    "X2C_global_scale_candidate_control": {
+      "capability_per_active_mac": 0.014563106796116505,
+      "capability_per_active_parameter": 0.0033222591362126247,
+      "controller_macs": 46,
+      "controller_param_count": 47,
+      "families_passing": 3,
+      "parameter_count": 903,
+      "resource_accounting": {
+        "cpu_seconds": 1153.890625,
+        "environment_interactions": 111225,
+        "forward_calls": 5400,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 1181.799268799834
+      },
+      "total_macs": 206
+    },
+    "X2_global_scalar_carry": {
+      "capability_per_active_mac": 0.014563106796116505,
+      "capability_per_active_parameter": 0.0033222591362126247,
+      "controller_macs": 46,
+      "controller_param_count": 47,
+      "families_passing": 3,
+      "parameter_count": 903,
+      "resource_accounting": {
+        "cpu_seconds": 1288.0625,
+        "environment_interactions": 111225,
+        "forward_calls": 5400,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 1326.3538020001724
+      },
+      "total_macs": 206
+    }
+  },
+  "program": {
+    "cpu_seconds": 5131.984375,
+    "environment_interactions": 444900,
+    "forward_calls": 21600,
+    "gpu_seconds": 0.0,
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_examples": 9830400,
+    "unique_seed_defined_episodes": 3200,
+    "wall_seconds_sum_workers": 5263.196902599535
+  }
+}

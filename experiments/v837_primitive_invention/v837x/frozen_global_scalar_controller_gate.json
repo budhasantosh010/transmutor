@@ -1,0 +1,16 @@
+{
+  "version": "V837x",
+  "authorized_mode": "JOINT_INPUT_STATE_GLOBAL_SCALAR",
+  "controller_equation": "sigmoid(w_s^T S_previous + w_x^T x_current + b)",
+  "controller_input_dim": 46,
+  "controller_parameter_count": 47,
+  "controller_macs": 46,
+  "compute_once_per_timestep": true,
+  "broadcast_same_scalar_to_all_10_cells": true,
+  "messages_visible_to_controller": false,
+  "partial_current_states_visible_to_controller": false,
+  "conditions": ["X0_historical_direct", "X1_local_scalar_carry", "X2_global_scalar_carry", "X2C_global_scale_candidate_control"],
+  "representation_gate_families": 4,
+  "fresh_audit_consumed": false,
+  "v838_started": false
+}

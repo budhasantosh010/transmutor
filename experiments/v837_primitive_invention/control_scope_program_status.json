@@ -1,0 +1,29 @@
+{
+  "program": "V837v_V837w_V837x_control_scope_and_information_localization",
+  "v837v": {
+    "complete": true,
+    "diagnosis": "CONTROL_SCOPE_ALONE_INSUFFICIENT",
+    "families_passing": {"V0_10_domains": 2, "V1_5_domains": 2, "V2_2_domains": 2, "V3_1_domain": 2}
+  },
+  "v837w": {
+    "complete": true,
+    "diagnosis": "JOINT_INPUT_STATE_GLOBAL_CONTROL_REQUIRED",
+    "families_passing": {"W0_joint_input_state": 4, "W1_input_only": 3, "W2_state_only": 3, "W3_bias_only": 3},
+    "authorized_v837x_mode": "JOINT_INPUT_STATE_GLOBAL_SCALAR"
+  },
+  "v837x": {
+    "complete": true,
+    "diagnosis": "GLOBAL_SCALAR_CONTROL_PARTIAL_BENEFIT",
+    "families_passing": {"X0_historical_direct": 2, "X1_local_scalar_carry": 2, "X2_global_scalar_carry": 3, "X2C_global_scale_candidate_control": 3}
+  },
+  "representation_adequacy": "FAIL",
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "large_persistent_storage_tested": false,
+  "v838_started": false,
+  "scalar_control_stop_rule_triggered": true,
+  "next_single_variable": "candidate_transformation_organization"
+}

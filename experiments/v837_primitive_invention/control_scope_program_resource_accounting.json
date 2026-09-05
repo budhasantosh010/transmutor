@@ -1,0 +1,51 @@
+{
+  "program": "V837v_V837w_V837x_control_scope_and_information_localization",
+  "v837v": {
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_examples": 9830400,
+    "environment_interactions": 444900,
+    "forward_calls": 21500,
+    "cpu_seconds": 5931.984375,
+    "wall_seconds_sum_workers": 6204.294998000609,
+    "gpu_seconds": 0.0
+  },
+  "v837w": {
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_examples": 9830400,
+    "environment_interactions": 444900,
+    "forward_calls": 21675,
+    "cpu_seconds": 501.015625,
+    "wall_seconds_sum_workers": 510.92492209898774,
+    "gpu_seconds": 0.0
+  },
+  "v837x": {
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_examples": 9830400,
+    "environment_interactions": 444900,
+    "forward_calls": 21600,
+    "cpu_seconds": 5131.984375,
+    "wall_seconds_sum_workers": 5263.196902599535,
+    "gpu_seconds": 0.0
+  },
+  "combined": {
+    "model_fits": 300,
+    "optimizer_steps": 57600,
+    "processed_examples": 29491200,
+    "environment_interactions": 1334700,
+    "forward_calls": 64775,
+    "cpu_seconds": 11564.984375,
+    "wall_seconds_sum_workers": 11978.41682269913,
+    "gpu_seconds": 0.0,
+    "unique_seed_defined_episodes": 3200
+  },
+  "unique_data": {
+    "development_per_family": 512,
+    "validation_per_family": 128,
+    "task_families": 5,
+    "total_family_seed_pairs": 3200,
+    "reuse_policy": "same seed-defined episodes reused across conditions, replicates, and variants; repeated processing is not new unique data"
+  }
+}
