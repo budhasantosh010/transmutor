@@ -66,7 +66,13 @@ class V837nMechanismOutcomeTests(unittest.TestCase):
         self.assertEqual(v837s["parent"], "V837r")
         self.assertEqual(v837s["diagnosis"], "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT")
         self.assertFalse(v837s["multiplicative_specificity_established"])
-        for suffix in ("v837t", "v837u", "v837v", "v838"):
+        t_decision = json.loads((BASE / "v837t" / "diagnostics" / "decision_state.json").read_text(encoding="utf-8"))
+        u_decision = json.loads((BASE / "v837u" / "diagnostics" / "decision_state.json").read_text(encoding="utf-8"))
+        self.assertEqual(t_decision["diagnosis"], "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED")
+        self.assertEqual(t_decision["authorized_v837u_mode"], "DYNAMIC_SCALAR_CARRY")
+        self.assertEqual(u_decision["authorized_mode"], t_decision["authorized_v837u_mode"])
+        self.assertEqual(u_decision["diagnosis"], "DYNAMIC_SCALAR_CARRY_INSUFFICIENT")
+        for suffix in ("v837v", "v838"):
             self.assertFalse((BASE / suffix).exists(), suffix)
 
     def test_fresh_audit_and_primitives_remain_locked(self):

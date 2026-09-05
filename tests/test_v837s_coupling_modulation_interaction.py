@@ -153,11 +153,16 @@ class V837sScientificBoundaryTests(unittest.TestCase):
         self.assertFalse(result["v838_started"])
         self.assertEqual(result["primitives_promoted"], 0)
 
-    def test_v837t_not_created_before_interaction_result_authorizes_it(self):
-        decision = HERE / "diagnostics" / "decision_state.json"
-        if decision.exists() and json.loads(decision.read_text(encoding="utf-8")).get("coupling_compression_allowed") is True:
-            return
-        self.assertFalse((BASE / "v837t").exists())
+    def test_v837t_starts_from_closed_v837s_frontier_without_reopening_coupling(self):
+        decision = json.loads((HERE / "diagnostics" / "decision_state.json").read_text(encoding="utf-8"))
+        self.assertTrue(decision["v837s_complete"])
+        self.assertEqual(decision["diagnosis"], "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT")
+        self.assertFalse(decision["coupling_compression_allowed"])
+        t_config = json.loads((BASE / "v837t" / "config.json").read_text(encoding="utf-8"))
+        self.assertEqual(t_config["parent"], "V837s")
+        self.assertEqual(t_config["question"], "Does successful recurrent computation require dimension-specific dynamic modulation, or are scalarized dynamic pathways sufficient?")
+        self.assertFalse(t_config["structural_search_allowed"])
+        self.assertFalse(t_config["primitive_mining_allowed"])
 
     def test_coupling_seed_matches_v837r_rank4(self):
         for replicate in range(5):
