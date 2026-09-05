@@ -1,0 +1,699 @@
+{
+  "authorized_mode": "DYNAMIC_SCALAR_CARRY",
+  "carry_specificity_established": false,
+  "conditions": {
+    "U0_historical_direct": {
+      "base_recurrent_macs_per_timestep": 160,
+      "controller_macs_per_timestep": 0,
+      "controller_parameter_count": 0,
+      "families_passing": 2,
+      "family_results": {
+        "conditional_routing": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.958984375,
+            "median": 0.96875,
+            "n": 5,
+            "p10": 0.919140625,
+            "p90": 0.98671875,
+            "std": 0.04054792869536464
+          },
+          "validation": {
+            "mean": 0.5046875,
+            "median": 0.4921875,
+            "n": 5,
+            "p10": 0.4828125,
+            "p90": 0.5328125,
+            "std": 0.02567449488305466
+          }
+        },
+        "delayed_recall": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.99296875,
+            "median": 0.994140625,
+            "n": 5,
+            "p10": 0.985546875,
+            "p90": 0.99921875,
+            "std": 0.006987712429686843
+          },
+          "validation": {
+            "mean": 0.9109375,
+            "median": 0.90625,
+            "n": 5,
+            "p10": 0.871875,
+            "p90": 0.95,
+            "std": 0.03890593624371479
+          }
+        },
+        "iterative_state": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.992578125,
+            "median": 0.9921875,
+            "n": 5,
+            "p10": 0.991015625,
+            "p90": 0.994140625,
+            "std": 0.0016341016143243663
+          },
+          "validation": {
+            "mean": 0.98125,
+            "median": 0.984375,
+            "n": 5,
+            "p10": 0.9765625,
+            "p90": 0.984375,
+            "std": 0.00427908248050911
+          }
+        },
+        "partial_observation": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.977734375,
+            "median": 0.978515625,
+            "n": 5,
+            "p10": 0.96875,
+            "p90": 0.986328125,
+            "std": 0.00922321793212312
+          },
+          "validation": {
+            "mean": 0.80625,
+            "median": 0.8125,
+            "n": 5,
+            "p10": 0.7875,
+            "p90": 0.821875,
+            "std": 0.01781524101717403
+          }
+        },
+        "variable_composition": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.96953125,
+            "median": 0.9765625,
+            "n": 5,
+            "p10": 0.938671875,
+            "p90": 0.992578125,
+            "std": 0.029800361129313516
+          },
+          "validation": {
+            "mean": 0.8078125,
+            "median": 0.7890625,
+            "n": 5,
+            "p10": 0.746875,
+            "p90": 0.8828125,
+            "std": 0.07000802130381203
+          }
+        }
+      },
+      "parameter_bytes": 3424,
+      "parameter_count": 856,
+      "resource_accounting": {
+        "cpu_seconds": 1075.078125,
+        "environment_interactions": 111225,
+        "forward_calls": 5375,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 1425.1492951002438
+      },
+      "state_modulation_location": "none",
+      "state_modulator_diagnostics": null,
+      "total_recurrent_controller_macs_per_timestep": 160
+    },
+    "U1_v837p_scalar_candidate": {
+      "base_recurrent_macs_per_timestep": 160,
+      "controller_macs_per_timestep": 140,
+      "controller_parameter_count": 150,
+      "families_passing": 3,
+      "family_results": {
+        "conditional_routing": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.99609375,
+            "median": 0.99609375,
+            "n": 5,
+            "p10": 0.994921875,
+            "p90": 0.997265625,
+            "std": 0.0013810679320049757
+          },
+          "validation": {
+            "mean": 0.803125,
+            "median": 0.8125,
+            "n": 5,
+            "p10": 0.7328125,
+            "p90": 0.8703125,
+            "std": 0.06774838558962125
+          }
+        },
+        "delayed_recall": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.993359375,
+            "median": 0.99609375,
+            "n": 5,
+            "p10": 0.985546875,
+            "p90": 0.998046875,
+            "std": 0.008355175639143531
+          },
+          "validation": {
+            "mean": 0.9484375,
+            "median": 0.953125,
+            "n": 5,
+            "p10": 0.9203125,
+            "p90": 0.971875,
+            "std": 0.03105407330367467
+          }
+        },
+        "iterative_state": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.99375,
+            "median": 0.994140625,
+            "n": 5,
+            "p10": 0.9921875,
+            "p90": 0.9953125,
+            "std": 0.0016341016143243663
+          },
+          "validation": {
+            "mean": 0.9890625,
+            "median": 0.9921875,
+            "n": 5,
+            "p10": 0.984375,
+            "p90": 0.9921875,
+            "std": 0.00427908248050911
+          }
+        },
+        "partial_observation": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.944140625,
+            "median": 0.9375,
+            "n": 5,
+            "p10": 0.930078125,
+            "p90": 0.96171875,
+            "std": 0.015963138079455118
+          },
+          "validation": {
+            "mean": 0.8515625,
+            "median": 0.8671875,
+            "n": 5,
+            "p10": 0.815625,
+            "p90": 0.8765625,
+            "std": 0.03360283307438526
+          }
+        },
+        "variable_composition": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.96875,
+            "median": 0.970703125,
+            "n": 5,
+            "p10": 0.960546875,
+            "p90": 0.975,
+            "std": 0.008170508071621832
+          },
+          "validation": {
+            "mean": 0.784375,
+            "median": 0.78125,
+            "n": 5,
+            "p10": 0.7671875,
+            "p90": 0.8015625,
+            "std": 0.01798572567690834
+          }
+        }
+      },
+      "parameter_bytes": 4024,
+      "parameter_count": 1006,
+      "resource_accounting": {
+        "cpu_seconds": 1668.1875,
+        "environment_interactions": 111225,
+        "forward_calls": 5375,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 1894.6827907996485
+      },
+      "state_modulation_location": "pre_transform_candidate_state_access",
+      "state_modulator_diagnostics": {
+        "mean": {
+          "mean": 0.5281228280067444,
+          "median": 0.5161531567573547,
+          "n": 25,
+          "p10": 0.4942500352859497,
+          "p90": 0.5707154393196106,
+          "std": 0.03297121582861181
+        },
+        "median": {
+          "mean": 0.5312545382976532,
+          "median": 0.5139513611793518,
+          "n": 25,
+          "p10": 0.4909552276134491,
+          "p90": 0.5756524801254272,
+          "std": 0.03813991243571663
+        },
+        "near_one_fraction": {
+          "mean": 0.008054437092051038,
+          "median": 0.005699481865284974,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.024871794871794882,
+          "std": 0.009830136653641363
+        },
+        "near_zero_fraction": {
+          "mean": 0.004236257075443529,
+          "median": 0.0036596523330283625,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.009884416102032683,
+          "std": 0.004505963926510505
+        },
+        "p10": {
+          "mean": 0.306592738032341,
+          "median": 0.30882319808006287,
+          "n": 25,
+          "p10": 0.2305251657962799,
+          "p90": 0.4030223786830902,
+          "std": 0.06917562819279792
+        },
+        "p90": {
+          "mean": 0.7456547737121582,
+          "median": 0.7652309536933899,
+          "n": 25,
+          "p10": 0.6246920704841614,
+          "p90": 0.8595297336578369,
+          "std": 0.08801385245852589
+        },
+        "std": {
+          "mean": 0.1681414756178856,
+          "median": 0.16583991050720215,
+          "n": 25,
+          "p10": 0.09383305162191391,
+          "p90": 0.2265426605939865,
+          "std": 0.04843138476601702
+        },
+        "temporal_variance": {
+          "mean": 0.019897998643027676,
+          "median": 0.01788727810708224,
+          "n": 25,
+          "p10": 0.007090733186123545,
+          "p90": 0.032857690882156024,
+          "std": 0.009500899001158384
+        }
+      },
+      "total_recurrent_controller_macs_per_timestep": 300
+    },
+    "U2C_scalar_scale_candidate_control": {
+      "base_recurrent_macs_per_timestep": 160,
+      "controller_macs_per_timestep": 140,
+      "controller_parameter_count": 150,
+      "families_passing": 3,
+      "family_results": {
+        "conditional_routing": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.99296875,
+            "median": 0.990234375,
+            "n": 5,
+            "p10": 0.9890625,
+            "p90": 0.998046875,
+            "std": 0.004703747882340741
+          },
+          "validation": {
+            "mean": 0.703125,
+            "median": 0.71875,
+            "n": 5,
+            "p10": 0.6234375,
+            "p90": 0.771875,
+            "std": 0.07390971847040821
+          }
+        },
+        "delayed_recall": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.983203125,
+            "median": 0.982421875,
+            "n": 5,
+            "p10": 0.97578125,
+            "p90": 0.990625,
+            "std": 0.007513821899090369
+          },
+          "validation": {
+            "mean": 0.91875,
+            "median": 0.9453125,
+            "n": 5,
+            "p10": 0.8453125,
+            "p90": 0.971875,
+            "std": 0.0695707401902912
+          }
+        },
+        "iterative_state": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.994140625,
+            "median": 0.994140625,
+            "n": 5,
+            "p10": 0.99296875,
+            "p90": 0.9953125,
+            "std": 0.0013810679320049757
+          },
+          "validation": {
+            "mean": 0.9859375,
+            "median": 0.984375,
+            "n": 5,
+            "p10": 0.9796875,
+            "p90": 0.9921875,
+            "std": 0.006536406457297465
+          }
+        },
+        "partial_observation": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.93515625,
+            "median": 0.935546875,
+            "n": 5,
+            "p10": 0.919140625,
+            "p90": 0.951171875,
+            "std": 0.016937096397405312
+          },
+          "validation": {
+            "mean": 0.8578125,
+            "median": 0.859375,
+            "n": 5,
+            "p10": 0.8390625,
+            "p90": 0.8765625,
+            "std": 0.018652088103614566
+          }
+        },
+        "variable_composition": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.975,
+            "median": 0.974609375,
+            "n": 5,
+            "p10": 0.966796875,
+            "p90": 0.9828125,
+            "std": 0.0082170640499854
+          },
+          "validation": {
+            "mean": 0.809375,
+            "median": 0.8125,
+            "n": 5,
+            "p10": 0.7890625,
+            "p90": 0.8265625,
+            "std": 0.022507594204512395
+          }
+        }
+      },
+      "parameter_bytes": 4024,
+      "parameter_count": 1006,
+      "resource_accounting": {
+        "cpu_seconds": 1889.453125,
+        "environment_interactions": 111225,
+        "forward_calls": 5375,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 2471.669778399868
+      },
+      "state_modulation_location": "candidate_output_scale_without_old_state_carry",
+      "state_modulator_diagnostics": {
+        "mean": {
+          "mean": 0.5588249707221985,
+          "median": 0.5538982152938843,
+          "n": 25,
+          "p10": 0.5060484766960144,
+          "p90": 0.6147738814353944,
+          "std": 0.05369039314725895
+        },
+        "median": {
+          "mean": 0.557195873260498,
+          "median": 0.5653584003448486,
+          "n": 25,
+          "p10": 0.503953492641449,
+          "p90": 0.6000594973564148,
+          "std": 0.04994580725453745
+        },
+        "near_one_fraction": {
+          "mean": 0.012877326519572983,
+          "median": 0.004358974358974359,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.03173728813559325,
+          "std": 0.021568776449635587
+        },
+        "near_zero_fraction": {
+          "mean": 0.0011238469574619424,
+          "median": 0.0005128205128205128,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.003179487179487181,
+          "std": 0.0013180946790029
+        },
+        "p10": {
+          "mean": 0.37277581572532653,
+          "median": 0.3532038927078247,
+          "n": 25,
+          "p10": 0.3006488561630249,
+          "p90": 0.4517516791820526,
+          "std": 0.06350479847443569
+        },
+        "p90": {
+          "mean": 0.7493818950653076,
+          "median": 0.7841851115226746,
+          "n": 25,
+          "p10": 0.6024283647537232,
+          "p90": 0.8937977433204651,
+          "std": 0.11699156282287537
+        },
+        "std": {
+          "mean": 0.14745114728808403,
+          "median": 0.16475827991962433,
+          "n": 25,
+          "p10": 0.0727886974811554,
+          "p90": 0.20108807682991028,
+          "std": 0.04985965010677686
+        },
+        "temporal_variance": {
+          "mean": 0.014747016327728488,
+          "median": 0.014089451204199577,
+          "n": 25,
+          "p10": 0.0037543886872299483,
+          "p90": 0.025500815658597277,
+          "std": 0.008975558568555269
+        }
+      },
+      "total_recurrent_controller_macs_per_timestep": 300
+    },
+    "U2_dynamic_scalar_carry": {
+      "base_recurrent_macs_per_timestep": 160,
+      "controller_macs_per_timestep": 140,
+      "controller_parameter_count": 150,
+      "families_passing": 2,
+      "family_results": {
+        "conditional_routing": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.986328125,
+            "median": 0.986328125,
+            "n": 5,
+            "p10": 0.97890625,
+            "p90": 0.993359375,
+            "std": 0.007176239480810092
+          },
+          "validation": {
+            "mean": 0.61875,
+            "median": 0.640625,
+            "n": 5,
+            "p10": 0.5484375,
+            "p90": 0.6765625,
+            "std": 0.06428125759601316
+          }
+        },
+        "delayed_recall": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.997265625,
+            "median": 1.0,
+            "n": 5,
+            "p10": 0.9921875,
+            "p90": 1.0,
+            "std": 0.005093126879064569
+          },
+          "validation": {
+            "mean": 0.9140625,
+            "median": 0.9140625,
+            "n": 5,
+            "p10": 0.878125,
+            "p90": 0.9453125,
+            "std": 0.035372598195849286
+          }
+        },
+        "iterative_state": {
+          "aggregate_capacity_pass": true,
+          "development": {
+            "mean": 0.994921875,
+            "median": 0.994140625,
+            "n": 5,
+            "p10": 0.9921875,
+            "p90": 0.9984375,
+            "std": 0.0032682032286487327
+          },
+          "validation": {
+            "mean": 0.9921875,
+            "median": 0.9921875,
+            "n": 5,
+            "p10": 0.9921875,
+            "p90": 0.9921875,
+            "std": 0.0
+          }
+        },
+        "partial_observation": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.98125,
+            "median": 0.986328125,
+            "n": 5,
+            "p10": 0.970703125,
+            "p90": 0.9875,
+            "std": 0.010481568644530264
+          },
+          "validation": {
+            "mean": 0.809375,
+            "median": 0.8046875,
+            "n": 5,
+            "p10": 0.7734375,
+            "p90": 0.84375,
+            "std": 0.036056189872544775
+          }
+        },
+        "variable_composition": {
+          "aggregate_capacity_pass": false,
+          "development": {
+            "mean": 0.97890625,
+            "median": 0.98046875,
+            "n": 5,
+            "p10": 0.969921875,
+            "p90": 0.98671875,
+            "std": 0.00844599543376549
+          },
+          "validation": {
+            "mean": 0.79375,
+            "median": 0.796875,
+            "n": 5,
+            "p10": 0.7578125,
+            "p90": 0.828125,
+            "std": 0.03519962601896503
+          }
+        }
+      },
+      "parameter_bytes": 4024,
+      "parameter_count": 1006,
+      "resource_accounting": {
+        "cpu_seconds": 1894.359375,
+        "environment_interactions": 111225,
+        "forward_calls": 5375,
+        "gpu_seconds": 0.0,
+        "model_fits": 25,
+        "optimizer_steps": 4800,
+        "processed_examples": 2457600,
+        "wall_seconds_sum_workers": 2034.0228920998052
+      },
+      "state_modulation_location": "state_carry_preserve_replace",
+      "state_modulator_diagnostics": {
+        "mean": {
+          "mean": 0.4627105104923248,
+          "median": 0.46710723638534546,
+          "n": 25,
+          "p10": 0.4243998467922211,
+          "p90": 0.4982614994049072,
+          "std": 0.026951530211316604
+        },
+        "median": {
+          "mean": 0.4622209620475769,
+          "median": 0.4610212445259094,
+          "n": 25,
+          "p10": 0.42917346954345703,
+          "p90": 0.4969607710838318,
+          "std": 0.027755649513996988
+        },
+        "near_one_fraction": {
+          "mean": 0.0010190766294925296,
+          "median": 0.0002564102564102564,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.00402763385146805,
+          "std": 0.0018703613818703334
+        },
+        "near_zero_fraction": {
+          "mean": 0.006189312979865544,
+          "median": 0.002307692307692308,
+          "n": 25,
+          "p10": 0.0,
+          "p90": 0.01910189982728843,
+          "std": 0.007974832237020035
+        },
+        "p10": {
+          "mean": 0.2675968545675278,
+          "median": 0.24692465364933014,
+          "n": 25,
+          "p10": 0.16349526941776277,
+          "p90": 0.43192259073257444,
+          "std": 0.0942991702052031
+        },
+        "p90": {
+          "mean": 0.6562153291702271,
+          "median": 0.6568794846534729,
+          "n": 25,
+          "p10": 0.5647583127021789,
+          "p90": 0.7369941711425781,
+          "std": 0.06535044585731967
+        },
+        "std": {
+          "mean": 0.14927908763289452,
+          "median": 0.15858128666877747,
+          "n": 25,
+          "p10": 0.05508221387863159,
+          "p90": 0.20652798116207124,
+          "std": 0.05350561853446086
+        },
+        "temporal_variance": {
+          "mean": 0.011214203508197898,
+          "median": 0.011313552215142408,
+          "n": 25,
+          "p10": 0.0019362315327271062,
+          "p90": 0.01884198330808431,
+          "std": 0.00603550413055503
+        }
+      },
+      "total_recurrent_controller_macs_per_timestep": 300
+    }
+  },
+  "diagnosis": "DYNAMIC_SCALAR_CARRY_INSUFFICIENT",
+  "fresh_audit_consumed": false,
+  "large_persistent_storage_tested": false,
+  "multiplicative_specificity": "NOT_APPLICABLE",
+  "parent": "V837t",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "question": "Does GRU-like adaptive preserve-vs-replace carry transfer the scalar dynamic update property into the neutral substrate?",
+  "representation_adequacy_pass": false,
+  "resource_accounting": {
+    "cpu_seconds": 6527.078125,
+    "environment_interactions": 444900,
+    "forward_calls": 21500,
+    "gpu_seconds": 0.0,
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_examples": 9830400,
+    "unique_seed_defined_episodes": 3200,
+    "wall_seconds_sum_workers": 7825.524756399565
+  },
+  "sample_efficiency_retest_allowed": false,
+  "single_change": "move the frozen V837p scalar dynamic controller from candidate recurrent-state access to direct preserve-vs-replace state carry",
+  "structural_search_allowed": false,
+  "v838_started": false,
+  "vector_specificity": "NOT_APPLICABLE",
+  "version": "V837u"
+}

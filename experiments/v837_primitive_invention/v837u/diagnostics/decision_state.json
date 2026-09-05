@@ -1,0 +1,18 @@
+{
+  "authorized_mode": "DYNAMIC_SCALAR_CARRY",
+  "diagnosis": "DYNAMIC_SCALAR_CARRY_INSUFFICIENT",
+  "families_passing": {
+    "U0_historical_direct": 2,
+    "U1_v837p_scalar_candidate": 3,
+    "U2C_scalar_scale_candidate_control": 3,
+    "U2_dynamic_scalar_carry": 2
+  },
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "v837u_complete": true,
+  "v838_started": false
+}
