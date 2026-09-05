@@ -1,0 +1,21 @@
+{
+  "coupling_compression_allowed": false,
+  "diagnosis": "GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT",
+  "families_passing": {
+    "S0_local_no_modulation": 2,
+    "S1_local_dynamic_scalar": 3,
+    "S2_rank4_no_modulation": 3,
+    "S3C_rank4_matched_dynamic_additive": 3,
+    "S3_rank4_dynamic_scalar": 3
+  },
+  "fresh_audit_consumed": false,
+  "multiplicative_specificity_established": false,
+  "next_variant": "DYNAMIC_VECTOR_VALUED_MODULATION_IS_NEXT_SINGLE_VARIABLE",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "v837s_complete": true,
+  "v838_started": false
+}
