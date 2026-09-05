@@ -1,0 +1,24 @@
+{
+  "version": "V837s",
+  "parent": "V837r",
+  "frozen_before_run": true,
+  "required_parent_diagnosis": "GLOBAL_COUPLING_PARTIAL_BENEFIT",
+  "required_parent_best_condition": "R3_rank4",
+  "required_parent_interaction_followup_allowed": true,
+  "factor_a": "global recurrent coupling absent vs rank4 cross-block-only",
+  "factor_b": "V837p dynamic scalar recurrent-state modulation absent vs present",
+  "matched_dynamic_control": "same dynamic scalar network added to preactivation without multiplicatively modulating recurrent-state access",
+  "representation_adequacy": ">=4/5 families under frozen V837 capacity criterion",
+  "primary_success_condition": "S3_rank4_dynamic_scalar",
+  "specificity_control": "S3C_rank4_matched_dynamic_additive",
+  "interpretation": {
+    "interaction_recovery": "S3 reaches >=4/5 while both S1 and S2 remain below 4/5",
+    "multiplicative_specificity": "S3 reaches >=4/5 and S3C remains below 4/5",
+    "generic_dynamic_branch_recovery": "S3 and S3C both reach >=4/5",
+    "interaction_insufficient": "S3 remains below 4/5"
+  },
+  "fresh_audit_consumed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v838_started": false
+}

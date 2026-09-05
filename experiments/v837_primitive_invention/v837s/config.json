@@ -1,0 +1,70 @@
+{
+  "experiment": "V837s",
+  "parent": "V837r",
+  "question": "Does V837p dynamic scalar state modulation become sufficient when combined with the best V837r global recurrent coupling?",
+  "single_change": "2x2 factorial interaction between rank4 cross-block recurrent coupling and the frozen V837p dynamic scalar recurrent-state modulator",
+  "selection_basis": "V837r GLOBAL_COUPLING_PARTIAL_BENEFIT with machine-authorized interaction_followup_allowed=true and best_condition=R3_rank4",
+  "data_regime": "4x_unique",
+  "state_layout": "local_10x4",
+  "total_state_dim": 40,
+  "local_state_dim": 4,
+  "message_dim": 4,
+  "coupling_rank": 4,
+  "coupling_mode": "low_rank_cross_block_only",
+  "coupling_scaling": 1.0,
+  "conditions": {
+    "S0_local_no_modulation": {
+      "global_coupling": false,
+      "state_modulation_mode": "none"
+    },
+    "S1_local_dynamic_scalar": {
+      "global_coupling": false,
+      "state_modulation_mode": "dynamic_scalar_candidate"
+    },
+    "S2_rank4_no_modulation": {
+      "global_coupling": true,
+      "state_modulation_mode": "none"
+    },
+    "S3_rank4_dynamic_scalar": {
+      "global_coupling": true,
+      "state_modulation_mode": "dynamic_scalar_candidate"
+    },
+    "S3C_rank4_matched_dynamic_additive": {
+      "global_coupling": true,
+      "state_modulation_mode": "dynamic_scalar_matched_additive"
+    }
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "steps": 192,
+    "development_seed_range": [10000, 10511],
+    "validation_seed_range": [20000, 20127],
+    "train_episodes": 512,
+    "validation_episodes": 128,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "replicates": 5,
+    "curve_steps": [0, 32, 64, 96, 128, 160, 192],
+    "initialization_seed_namespace": "v837j-primary-init",
+    "coupling_seed_namespace": "v837r-coupling-init",
+    "coupling_seed_condition_key": "R3_rank4"
+  },
+  "representation_gate": {
+    "families_required": 4,
+    "development_success": 0.9,
+    "validation_success": 0.85
+  },
+  "required_v837r_diagnosis": "GLOBAL_COUPLING_PARTIAL_BENEFIT",
+  "required_v837r_best_condition": "R3_rank4",
+  "v837r_result_sha256": "763bdc00d61f0b206b1888480c9e381f715e1b113e7c028a70496b083b5fd555",
+  "v837p_result_sha256": "d3acf0e14db50a45106fd8595fe4870bf09409f6ae1d5b59d136fcbd9f81e7b1",
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "fresh_audit_allowed": false,
+  "fresh_audit_consumed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "task_family_label_allowed": false,
+  "v838_allowed": false
+}

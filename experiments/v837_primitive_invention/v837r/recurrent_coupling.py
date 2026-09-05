@@ -137,6 +137,7 @@ class CouplingTrace:
     matched_local_terms: torch.Tensor  # parameter-matched local branch terms [B,T,N,4]
     message_terms: torch.Tensor  # [B,T,N,4]
     input_terms: torch.Tensor  # [B,T,N,4]
+    state_modulators: torch.Tensor | None = None  # [B,T,N,1] for V837s dynamic-scalar factorial
 
 
 class GloballyCoupledNeutralGraphModel(nn.Module):
@@ -147,10 +148,19 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
     Historical message ordering and the 40-wide readout are preserved.
     """
 
-    def __init__(self, graph: GraphSpec, coupling: RecurrentCouplingSpec, *, obs_dim: int = 6):
+    def __init__(
+        self,
+        graph: GraphSpec,
+        coupling: RecurrentCouplingSpec,
+        *,
+        obs_dim: int = 6,
+        state_modulation_mode: str = "none",
+    ):
         super().__init__()
         graph.validate()
         coupling.validate()
+        if state_modulation_mode not in {"none", "dynamic_scalar_candidate", "dynamic_scalar_matched_additive"}:
+            raise ValueError(f"unsupported state modulation mode: {state_modulation_mode}")
         if len(graph.cells) != NUM_CELLS:
             raise ValueError("V837r requires the calibrated ten-cell graph")
         self.graph = graph.clone()
@@ -158,6 +168,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
         self.obs_dim = int(obs_dim)
         self.state_dim = LOCAL_STATE_DIM
         self.message_dim = MESSAGE_DIM
+        self.state_modulation_mode = state_modulation_mode
         self.base = NeutralGraphModel(
             self.graph,
             obs_dim=self.obs_dim,
@@ -165,7 +176,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
             message_dim=MESSAGE_DIM,
             state_update_mode="direct",
             interaction_mode="none",
-            state_modulation_mode="none",
+            state_modulation_mode=state_modulation_mode,
         )
         self.register_buffer("cross_block_mask", cross_block_mask(), persistent=True)
 
@@ -215,6 +226,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
         return {
             "coupling": self.coupling.to_dict(),
             "state_layout": "local_10x4",
+            "state_modulation_mode": self.state_modulation_mode,
             "total_state_dim": TOTAL_STATE_DIM,
             "readout_input_width": self.readout_input_width,
             "parameter_count": self.parameter_count(),
@@ -324,6 +336,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
                 matched_local_terms=zeros,
                 message_terms=trace.message_terms,
                 input_terms=trace.input_terms,
+                state_modulators=trace.state_modulators,
             )
         if observations.ndim != 3:
             raise ValueError("observations must be [B,T,D]")
@@ -335,7 +348,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
         prev_states = [torch.zeros(batch, LOCAL_STATE_DIM, device=device, dtype=dtype) for _ in range(NUM_CELLS)]
         prev_outputs = [torch.zeros(batch, MESSAGE_DIM, device=device, dtype=dtype) for _ in range(NUM_CELLS)]
         traces: dict[str, list[torch.Tensor]] = {name: [] for name in (
-            "states", "candidates", "outputs", "messages", "local", "global", "matched", "message_terms", "input_terms"
+            "states", "candidates", "outputs", "messages", "local", "global", "matched", "message_terms", "input_terms", "modulators"
         )}
         for t in range(steps):
             x_t = observations[:, t, :]
@@ -349,6 +362,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
             current_local_terms: list[torch.Tensor] = []
             current_message_terms: list[torch.Tensor] = []
             current_input_terms: list[torch.Tensor] = []
+            current_modulators: list[torch.Tensor] = []
             for cell_index in range(NUM_CELLS):
                 message = torch.zeros(batch, MESSAGE_DIM, device=device, dtype=dtype)
                 if not disable_messages:
@@ -361,10 +375,25 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
                             source = current_outputs[edge.src]
                         message = message + self.base.edge_weights[edge_index] * source
                 visible_x = self._visible_input(x_t, cell_index)
-                local_term = snapshot_states[cell_index] @ self.base.cell_ws[cell_index].T
+                if self.state_modulation_mode != "none":
+                    modulator_pre = (
+                        torch.sum(snapshot_states[cell_index] * self.base.cell_gs[cell_index].view(1, -1), dim=1, keepdim=True)
+                        + torch.sum(message * self.base.cell_gm[cell_index].view(1, -1), dim=1, keepdim=True)
+                        + torch.sum(visible_x * self.base.cell_gx[cell_index].view(1, -1), dim=1, keepdim=True)
+                        + self.base.cell_gb[cell_index]
+                    )
+                    state_modulator = torch.sigmoid(modulator_pre)
+                else:
+                    state_modulator = torch.ones(batch, 1, device=device, dtype=dtype)
+                recurrent_source = (
+                    state_modulator * snapshot_states[cell_index]
+                    if self.state_modulation_mode == "dynamic_scalar_candidate"
+                    else snapshot_states[cell_index]
+                )
+                local_term = recurrent_source @ self.base.cell_ws[cell_index].T
                 message_term = message @ self.base.cell_wm[cell_index].T
                 input_term = visible_x @ self.base.cell_wx[cell_index].T
-                candidate = torch.tanh(
+                preactivation = (
                     local_term
                     + message_term
                     + input_term
@@ -372,6 +401,9 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
                     + matched_terms[cell_index]
                     + self.base.cell_b[cell_index]
                 )
+                if self.state_modulation_mode == "dynamic_scalar_matched_additive":
+                    preactivation = preactivation + state_modulator
+                candidate = torch.tanh(preactivation)
                 proposed_output = candidate @ self.base.cell_wo[cell_index].T
                 if lengths is not None:
                     active = (t < lengths).to(dtype).unsqueeze(1)
@@ -383,6 +415,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
                     matched_for_trace = active * matched_terms[cell_index]
                     message_term_for_trace = active * message_term
                     input_for_trace = active * input_term
+                    modulator_for_trace = active * state_modulator + (1.0 - active)
                 else:
                     state = candidate
                     output = proposed_output
@@ -392,6 +425,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
                     matched_for_trace = matched_terms[cell_index]
                     message_term_for_trace = message_term
                     input_for_trace = input_term
+                    modulator_for_trace = state_modulator
                 current_states.append(state)
                 current_candidates.append(candidate)
                 current_outputs.append(output)
@@ -399,6 +433,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
                 current_local_terms.append(local_for_trace)
                 current_message_terms.append(message_term_for_trace)
                 current_input_terms.append(input_for_trace)
+                current_modulators.append(modulator_for_trace)
                 if return_trace:
                     # global/matched traces are added below from the snapshotted recurrent sources
                     pass
@@ -420,6 +455,7 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
                 ], dim=1))
                 traces["message_terms"].append(torch.stack(current_message_terms, dim=1))
                 traces["input_terms"].append(torch.stack(current_input_terms, dim=1))
+                traces["modulators"].append(torch.stack(current_modulators, dim=1))
         prediction = torch.tanh(self.base.readout(torch.cat(prev_states, dim=1))).squeeze(-1)
         if not return_trace:
             return prediction
@@ -433,4 +469,5 @@ class GloballyCoupledNeutralGraphModel(nn.Module):
             matched_local_terms=torch.stack(traces["matched"], dim=1),
             message_terms=torch.stack(traces["message_terms"], dim=1),
             input_terms=torch.stack(traces["input_terms"], dim=1),
+            state_modulators=torch.stack(traces["modulators"], dim=1),
         )
