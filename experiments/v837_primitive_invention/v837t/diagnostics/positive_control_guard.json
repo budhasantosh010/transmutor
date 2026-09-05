@@ -1,0 +1,79 @@
+{
+  "historical_absolute_drift": {
+    "T0_full_vector_gru": {
+      "conditional_routing": 0.0,
+      "delayed_recall": 0.0,
+      "iterative_state": 0.0,
+      "partial_observation": 0.0,
+      "variable_composition": 0.0
+    },
+    "T1_vector_update_no_reset": {
+      "conditional_routing": 0.0,
+      "delayed_recall": 0.0,
+      "iterative_state": 0.0,
+      "partial_observation": 0.0,
+      "variable_composition": 0.0
+    },
+    "T3_no_update_vector_reset": {
+      "conditional_routing": 0.0,
+      "delayed_recall": 0.0,
+      "iterative_state": 0.0,
+      "partial_observation": 0.0,
+      "variable_composition": 0.0
+    }
+  },
+  "positive_controls_pass": true,
+  "summaries": {
+    "T0_full_vector_gru": {
+      "families_passing": 5,
+      "family_development_medians": {
+        "conditional_routing": 0.994140625,
+        "delayed_recall": 1.0,
+        "iterative_state": 0.994140625,
+        "partial_observation": 0.9140625,
+        "variable_composition": 0.96484375
+      },
+      "family_validation_medians": {
+        "conditional_routing": 0.9375,
+        "delayed_recall": 0.984375,
+        "iterative_state": 1.0,
+        "partial_observation": 0.890625,
+        "variable_composition": 0.8828125
+      }
+    },
+    "T1_vector_update_no_reset": {
+      "families_passing": 5,
+      "family_development_medians": {
+        "conditional_routing": 0.9921875,
+        "delayed_recall": 1.0,
+        "iterative_state": 0.994140625,
+        "partial_observation": 0.919921875,
+        "variable_composition": 0.953125
+      },
+      "family_validation_medians": {
+        "conditional_routing": 0.90625,
+        "delayed_recall": 0.9921875,
+        "iterative_state": 1.0,
+        "partial_observation": 0.890625,
+        "variable_composition": 0.859375
+      }
+    },
+    "T3_no_update_vector_reset": {
+      "families_passing": 5,
+      "family_development_medians": {
+        "conditional_routing": 0.9765625,
+        "delayed_recall": 0.99609375,
+        "iterative_state": 0.98828125,
+        "partial_observation": 0.9140625,
+        "variable_composition": 0.982421875
+      },
+      "family_validation_medians": {
+        "conditional_routing": 0.859375,
+        "delayed_recall": 0.984375,
+        "iterative_state": 0.984375,
+        "partial_observation": 0.8828125,
+        "variable_composition": 0.9453125
+      }
+    }
+  }
+}

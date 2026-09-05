@@ -1,0 +1,17 @@
+{
+  "authorized_v837u_mode": "DYNAMIC_SCALAR_CARRY",
+  "diagnosis": "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED",
+  "fresh_audit_consumed": false,
+  "neutral_followup_allowed": true,
+  "positive_controls_pass": true,
+  "primitive_mining_allowed": false,
+  "structural_search_allowed": false,
+  "t0_full_vector": 5,
+  "t1_vector_update_no_reset": 5,
+  "t2_scalarized_update_no_reset": 4,
+  "t3_no_update_vector_reset": 5,
+  "t4_no_update_scalarized_reset": 3,
+  "t5_dual_scalarized": 3,
+  "v837t_complete": true,
+  "v838_started": false
+}
