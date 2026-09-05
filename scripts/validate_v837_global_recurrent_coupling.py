@@ -185,6 +185,15 @@ def validate_v837_global_recurrent_coupling() -> None:
     report = ROOT / "docs" / "V837_GLOBAL_RECURRENT_COUPLING_REPORT.md"
     if report.exists() and not report.read_text(encoding="utf-8").strip():
         raise ValueError("V837r report is empty")
+    program_resources = load_json(BASE / "global_recurrent_coupling_resource_accounting.json")
+    unique = program_resources.get("unique_seed_defined_episodes", {})
+    if int(unique.get("development_per_family", -1)) != 512 or int(unique.get("validation_per_family", -1)) != 128:
+        raise ValueError("V837r/V837s unique seed-defined episode accounting changed")
+    if int(unique.get("task_families", -1)) != 5 or int(unique.get("total_family_seed_pairs", -1)) != 3200:
+        raise ValueError("V837r/V837s unique family/seed episode total changed")
+    program_status = load_json(BASE / "global_recurrent_coupling_status.json")
+    if int(program_status.get("unique_seed_defined_episodes", -1)) != 3200:
+        raise ValueError("V837r/V837s status unique episode total changed")
 
 
 if __name__ == "__main__":

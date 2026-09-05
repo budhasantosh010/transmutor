@@ -111,6 +111,8 @@ Blocked. Primitive mining remains false; fresh-audit episodes consumed remain 0;
 The next isolated variable is **dynamic vector-valued state modulation**. V837p/V837s tested only one scalar adaptive coefficient per cell, while the successful GRU reference uses dimension-wise adaptive control. Global density, state sharing and scalar modulation have now each been localized as insufficient alone, and the scalar x rank4 interaction is also insufficient. Any next test must keep the established 4x regime and science locks and must not reopen structural search or primitive mining.
 
 ## Resource accounting
+The frozen paired benchmark contains 512 development plus 128 validation seed-defined episodes per task family. Across five families this is 3,200 unique `(family, seed)` episodes. These same paired episodes are intentionally reused across conditions and replicates; `examples_processed` below counts repeated optimization/evaluation use rather than additional unique seed-defined episodes.
+
 V837r: 275 fits, 52800 optimizer steps, 27033600 examples, 1223475 environment interactions, 61475 forward calls, 14330.484 worker CPU seconds, 15364.706 summed worker wall seconds, GPU 0.
 V837s: 125 fits, 24000 optimizer steps, 12288000 examples, 556125 environment interactions, 26875 forward calls, 8242.641 worker CPU seconds, 10239.576 summed worker wall seconds, GPU 0.
 Combined V837r+s: 400 fits, 76800 optimizer steps, 39321600 examples, 1779600 environment interactions, 88350 forward calls, 22573.125 worker CPU seconds, 25604.282 summed worker wall seconds, GPU 0.

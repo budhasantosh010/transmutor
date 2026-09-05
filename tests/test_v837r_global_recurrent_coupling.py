@@ -224,6 +224,16 @@ class ScientificBoundaryTests(unittest.TestCase):
         audit = json.loads((BASE / "audit" / "audit_results.json").read_text(encoding="utf-8"))
         self.assertEqual(audit["episodes_consumed"], 0)
 
+    def test_unique_seed_defined_episode_accounting_is_explicit(self):
+        resources = json.loads((BASE / "global_recurrent_coupling_resource_accounting.json").read_text(encoding="utf-8"))
+        unique = resources["unique_seed_defined_episodes"]
+        self.assertEqual(unique["development_per_family"], 512)
+        self.assertEqual(unique["validation_per_family"], 128)
+        self.assertEqual(unique["task_families"], 5)
+        self.assertEqual(unique["total_family_seed_pairs"], 3200)
+        status = json.loads((BASE / "global_recurrent_coupling_status.json").read_text(encoding="utf-8"))
+        self.assertEqual(status["unique_seed_defined_episodes"], 3200)
+
     def test_v838_not_started(self):
         self.assertFalse((BASE / "v838").exists())
 

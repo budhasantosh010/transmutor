@@ -38,6 +38,7 @@
   "full_structural_search_allowed": false,
   "primitive_mining_allowed": false,
   "fresh_audit_episodes_consumed": 0,
+  "unique_seed_defined_episodes": 3200,
   "primitives_promoted": 0,
   "v838_started": false,
   "next_single_variable": "dynamic vector-valued state modulation, isolated before any further coupling or search expansion"

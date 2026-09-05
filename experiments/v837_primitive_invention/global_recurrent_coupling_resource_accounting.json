@@ -1,6 +1,13 @@
 {
   "program": "V837R+ global recurrent coupling localization and authorized V837s interaction",
   "scope": "V837r R0-R5 plus exact matched local controls, followed only by the machine-authorized V837s rank4 coupling x frozen dynamic-scalar interaction",
+  "unique_seed_defined_episodes": {
+    "development_per_family": 512,
+    "validation_per_family": 128,
+    "task_families": 5,
+    "total_family_seed_pairs": 3200,
+    "reuse_policy": "The same paired family/seed episodes are reused across conditions and replicates; examples_processed counts repeated optimization/evaluation use rather than new unique seed-defined episodes."
+  },
   "v837r": {
     "cpu_seconds_sum_workers": 14330.484375,
     "environment_interactions": 1223475,
