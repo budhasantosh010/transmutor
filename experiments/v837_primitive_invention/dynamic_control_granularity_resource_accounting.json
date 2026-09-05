@@ -1,0 +1,46 @@
+{
+  "program": "V837t/V837u dynamic control granularity localization",
+  "unique_seed_defined_episodes": {
+    "development_per_family": 512,
+    "validation_per_family": 128,
+    "task_families": 5,
+    "total_family_seed_pairs": 3200,
+    "reuse_policy": "The same frozen family/seed episodes are reused across all conditions and replicates; repeated optimization/evaluation processing is not counted as new unique data."
+  },
+  "v837t": {
+    "model_fits": 150,
+    "optimizer_steps": 28800,
+    "processed_examples": 14745600,
+    "environment_interactions": 667350,
+    "forward_calls": 32525,
+    "cpu_seconds": 695.921875,
+    "wall_seconds_sum_workers": 756.5403424991528,
+    "gpu_seconds": 0.0
+  },
+  "v837u": {
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_examples": 9830400,
+    "environment_interactions": 444900,
+    "forward_calls": 21500,
+    "cpu_seconds": 6527.078125,
+    "wall_seconds_sum_workers": 7825.524756399565,
+    "gpu_seconds": 0.0
+  },
+  "combined": {
+    "model_fits": 250,
+    "optimizer_steps": 48000,
+    "processed_examples": 24576000,
+    "environment_interactions": 1112250,
+    "forward_calls": 54025,
+    "cpu_seconds": 7222.999999999999,
+    "wall_seconds_sum_workers": 8582.065098898718,
+    "gpu_seconds": 0.0,
+    "unique_seed_defined_episodes": 3200
+  },
+  "fresh_audit_episodes_consumed": 0,
+  "structural_search_runs": 0,
+  "primitive_mining_runs": 0,
+  "primitives_promoted": 0,
+  "v838_started": false
+}

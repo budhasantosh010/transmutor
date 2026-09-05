@@ -98,5 +98,10 @@ class DynamicGranularityTests(unittest.TestCase):
         paths=["archive","registry"]+[f"experiments/v837_primitive_invention/{v}" for v in ["v837","v837b","v837c","v837d","v837g","v837h","v837j","v837k","v837l","v837m","v837n","v837o","v837p","v837q","v837r","v837s"]]
         out=subprocess.check_output(["git","diff","--name-only",START,"--",*paths],cwd=ROOT,text=True).strip(); self.assertEqual(out,"")
 
+    def test_v837t_result_decision_is_machine_authorized_scalar_carry(self):
+        result=json.loads((HERE/"results.json").read_text(encoding="utf-8")); decision=json.loads((HERE/"diagnostics/decision_state.json").read_text(encoding="utf-8"))
+        self.assertEqual({name:int(row["families_passing"]) for name,row in result["conditions"].items()},{"T0_full_vector_gru":5,"T1_vector_update_no_reset":5,"T2_scalarized_update_no_reset":4,"T3_no_update_vector_reset":5,"T4_no_update_scalarized_reset":3,"T5_dual_scalarized":3})
+        self.assertEqual(result["diagnosis"],"DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED"); self.assertEqual(decision["authorized_v837u_mode"],"DYNAMIC_SCALAR_CARRY")
+
 
 if __name__ == "__main__": unittest.main()

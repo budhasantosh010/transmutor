@@ -40,5 +40,10 @@ class V837uTests(unittest.TestCase):
     def test_science_locks(self):
         self.assertFalse(CONFIG["structural_search_allowed"]); self.assertFalse(CONFIG["primitive_mining_allowed"]); self.assertFalse(CONFIG["fresh_audit_consumed"]); self.assertFalse(CONFIG["v838_started"])
 
+    def test_v837u_result_closes_scalar_carry_as_insufficient(self):
+        result=json.loads((HERE/"results.json").read_text(encoding="utf-8")); decision=json.loads((HERE/"diagnostics/decision_state.json").read_text(encoding="utf-8"))
+        self.assertEqual({name:int(row["families_passing"]) for name,row in result["conditions"].items()},{"U0_historical_direct":2,"U1_v837p_scalar_candidate":3,"U2_dynamic_scalar_carry":2,"U2C_scalar_scale_candidate_control":3})
+        self.assertEqual(result["diagnosis"],"DYNAMIC_SCALAR_CARRY_INSUFFICIENT"); self.assertFalse(result["representation_adequacy_pass"]); self.assertEqual(decision["diagnosis"],result["diagnosis"])
+
 
 if __name__=="__main__": unittest.main()

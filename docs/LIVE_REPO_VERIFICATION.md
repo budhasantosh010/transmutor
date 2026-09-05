@@ -1,206 +1,143 @@
 # Live Repository Verification Index
 
-This file is the compact entry point for independent review of the live public repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery, learned-reference calibration, successful-GRU mechanism localization, V837o factorial shared-property localization, the single authorized V837p neutral transfer, the V837q shared-state organization diagnostic, V837r global recurrent coupling localization, and the single machine-authorized V837s interaction. Use `git rev-parse HEAD` for the exact container commit; the machine-readable manifest records the scientific research-state SHA that the verification-only commit wraps.
+This file is the compact entry point for independent review of the live public repository `budhasantosh010/transmutor`. The current verification package indexes the V837 representation-recovery lineage through the V837t successful-reference dynamic-granularity study and its single machine-authorized V837u neutral follow-up. Use `git rev-parse HEAD` for the exact live commit; `verification/live_repo_manifest.json` and `verification/active_research_sha256.txt` provide machine-readable artifact and canonical Git-blob SHA coverage.
 
 ## Historical boundary
 
-- V836 historical status: **PASS**.
-- Exact V836 reproduction status: **CANNOT_REPRODUCE_MISSING_SOURCE**.
-- V837 is an independent post-V836 lineage, not a V836 repair.
+- V836 historical status: **PASS**; exact historical source reproduction remains separately documented.
 - V837/V837b/V837c historical results remain immutable.
-- V837d/V837g/V837h representation-recovery results remain preserved failures.
-- V837j–V837m learned-reference calibration/cell-law results remain preserved.
-- V837n is frozen successful-reference mechanism localization evidence.
-- V837o is factorial shared-property localization inside the successful reference.
-- V837p is the one neutral transfer authorized by V837o; learned references are never Transmutor primitives.
-- V837q is the shared-state organization diagnostic; it preserves 40 total recurrent dimensions while varying state ownership from 10 local groups to one fully shared state.
-- V837r isolates direct cross-dimensional recurrent coupling with exact local-capacity controls.
-- V837s is the single interaction follow-up authorized by the V837r decision state; it reuses the frozen V837p scalar mechanism without redesign.
+- V837d/V837g/V837h representation-recovery failures remain frozen.
+- V837j–V837m calibration/cell-law results remain frozen.
+- V837n/V837o freeze the successful-reference mechanism evidence.
+- V837p is the frozen scalar-modulator neutral transfer.
+- V837q freezes state-ownership localization.
+- V837r/V837s freeze global-coupling localization and its authorized scalar-modulation interaction.
+- V837t interrogates gate-output granularity inside the successful GRU before any larger neutral controller is transferred.
+- V837u exists only because the V837t decision state authorized exactly `DYNAMIC_SCALAR_CARRY`; no fallback mechanism was run.
 
-## Primary evidence paths
+## Current V837t/V837u evidence
 
-| Evidence | Repository path |
+| Artifact | Repository path |
 | --- | --- |
-| V837 original results | `experiments/v837_primitive_invention/v837/results.json` |
-| V837b results | `experiments/v837_primitive_invention/v837b/results.json` |
-| V837c results | `experiments/v837_primitive_invention/v837c/results.json` |
-| V837d sparse-input recovery | `experiments/v837_primitive_invention/v837d/results.json` |
-| V837g state-update recovery | `experiments/v837_primitive_invention/v837g/results.json` |
-| V837h interaction-basis recovery | `experiments/v837_primitive_invention/v837h/results.json` |
-| V837j learned-reference calibration | `experiments/v837_primitive_invention/v837j/results.json` |
-| V837k optimizer-budget calibration | `experiments/v837_primitive_invention/v837k/results.json` |
-| V837l unique-data calibration | `experiments/v837_primitive_invention/v837l/results.json` |
-| V837m linear-state-transport diagnostic | `experiments/v837_primitive_invention/v837m/results.json` |
-| V837n GRU mechanism localization | `experiments/v837_primitive_invention/v837n/results.json` |
-| V837n explicit GRU implementation | `experiments/v837_primitive_invention/v837n/gru_reference_explicit.py` |
-| V837n raw full-GRU runs | `experiments/v837_primitive_invention/v837n/raw/full_gru.json` |
-| V837n raw ablation runs | `experiments/v837_primitive_invention/v837n/raw/ablations.json` |
-| V837o factorial localization results | `experiments/v837_primitive_invention/v837o/results.json` |
-| V837o raw factorial runs | `experiments/v837_primitive_invention/v837o/raw/factorial_runs.json` |
-| V837p dynamic-modulator transfer results | `experiments/v837_primitive_invention/v837p/results.json` |
-| V837p raw neutral-transfer runs | `experiments/v837_primitive_invention/v837p/raw/runs.json` |
-| V837q shared-state organization results | `experiments/v837_primitive_invention/v837q/results.json` |
-| V837q shared-state model implementation | `experiments/v837_primitive_invention/v837q/state_organization_models.py` |
-| V837q raw baseline runs | `experiments/v837_primitive_invention/v837q/raw/baseline_runs.json` |
-| V837q raw primary/reference runs | `experiments/v837_primitive_invention/v837q/raw/primary_runs.json` |
-| V837q decision state | `experiments/v837_primitive_invention/v837q/diagnostics/decision_state.json` |
-| V837Q+ program status | `experiments/v837_primitive_invention/shared_state_organization_status.json` |
-| V837Q+ resource accounting | `experiments/v837_primitive_invention/shared_state_organization_resource_accounting.json` |
-| V837Q+ final report | `docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md` |
-| V837O+ program status | `experiments/v837_primitive_invention/shared_state_path_localization_status.json` |
-| V837O+ resource accounting | `experiments/v837_primitive_invention/shared_state_path_localization_resource_accounting.json` |
-| V837O+ final report | `docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md` |
-| Frozen V837 gates | `experiments/v837_primitive_invention/frozen_gates.json` |
-| V837n frozen mechanism gate | `experiments/v837_primitive_invention/v837n/frozen_mechanism_gate.json` |
-| V837 lineage status | `experiments/v837_primitive_invention/lineage_status.json` |
-| Original V837 blocker analysis | `experiments/v837_primitive_invention/BLOCKER_ANALYSIS.md` |
-| Representation blocker analysis | `experiments/v837_primitive_invention/REPRESENTATION_BLOCKER_ANALYSIS.md` |
-| Original V837 resources | `experiments/v837_primitive_invention/final_resource_accounting.json` |
-| Representation-recovery resources | `experiments/v837_primitive_invention/representation_recovery_resource_accounting.json` |
-| Learned-reference calibration status | `experiments/v837_primitive_invention/learned_reference_calibration_status.json` |
-| Learned-reference calibration resources | `experiments/v837_primitive_invention/learned_reference_calibration_resource_accounting.json` |
-| GRU-localization status | `experiments/v837_primitive_invention/gru_mechanism_localization_status.json` |
-| GRU-localization resources | `experiments/v837_primitive_invention/gru_mechanism_localization_resource_accounting.json` |
-| Learned-reference report | `docs/V837_LEARNED_REFERENCE_CALIBRATION_REPORT.md` |
-| GRU-localization report | `docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md` |
+| V837t config | `experiments/v837_primitive_invention/v837t/config.json` |
+| V837t frozen gate | `experiments/v837_primitive_invention/v837t/frozen_dynamic_granularity_gate.json` |
+| V837t GRU implementation | `experiments/v837_primitive_invention/v837t/gru_dynamic_granularity.py` |
+| V837t runner | `experiments/v837_primitive_invention/v837t/run_dynamic_granularity.py` |
+| V837t analyzer | `experiments/v837_primitive_invention/v837t/analyze_results.py` |
+| V837t results | `experiments/v837_primitive_invention/v837t/results.json` |
+| V837t decision state | `experiments/v837_primitive_invention/v837t/diagnostics/decision_state.json` |
+| V837t raw anchor runs | `experiments/v837_primitive_invention/v837t/raw/anchor_runs.json` |
+| V837t raw scalarized runs | `experiments/v837_primitive_invention/v837t/raw/scalarized_runs.json` |
+| V837u config | `experiments/v837_primitive_invention/v837u/config.json` |
+| V837u frozen authorization gate | `experiments/v837_primitive_invention/v837u/frozen_neutral_followup_gate.json` |
+| V837u dynamic-control implementation | `experiments/v837_primitive_invention/v837u/dynamic_control.py` |
+| V837u runner | `experiments/v837_primitive_invention/v837u/run_neutral_followup.py` |
+| V837u analyzer | `experiments/v837_primitive_invention/v837u/analyze_results.py` |
+| V837u results | `experiments/v837_primitive_invention/v837u/results.json` |
+| V837u decision state | `experiments/v837_primitive_invention/v837u/diagnostics/decision_state.json` |
+| V837u raw runs | `experiments/v837_primitive_invention/v837u/raw/runs.json` |
+| Program status | `experiments/v837_primitive_invention/dynamic_control_granularity_status.json` |
+| Program resource accounting | `experiments/v837_primitive_invention/dynamic_control_granularity_resource_accounting.json` |
+| Final report | `docs/V837_DYNAMIC_CONTROL_GRANULARITY_REPORT.md` |
+| V837t validator | `scripts/validate_v837_dynamic_control_granularity.py` |
+| V837u validator | `scripts/validate_v837_neutral_dynamic_followup.py` |
 | Active validator | `scripts/validate_active_research.py` |
-| Fast live-repo verifier | `scripts/verify_live_repo.py` |
 | Reproduction dispatcher | `scripts/reproduce_v837_recovery.py` |
-| Tests | `tests/` |
-| Machine-readable verification manifest | `verification/live_repo_manifest.json` |
-| Active-file SHA-256 list | `verification/active_research_sha256.txt` |
-| Model snapshot metadata | `verification/model_snapshot_manifest.json` |
+| Machine-readable live manifest | `verification/live_repo_manifest.json` |
+| Canonical active-research SHA list | `verification/active_research_sha256.txt` |
+
+All earlier evidence remains indexed through `verification/live_repo_manifest.json`; this document emphasizes the current frontier rather than duplicating every historical path.
 
 ## Current causal sequence
 
 ```text
-V837j matched learned references
-GRU 2/5, residual RNN 2/5
+V837l
+GRU @ 4x unique data       5/5
+neutral                    2/5
         ↓
-V837k optimizer steps 1x → 2x → 4x
-GRU remains 2/5
+V837m transport            2/5
         ↓
-V837l unique development data 1x → 2x → 4x
-GRU reaches 5/5 at 4x data
-neutral reaches 2/5
-        ↓
-SAMPLE_EFFICIENCY_FAILURE established for original regime
-+ representation gap strengthened under calibrated learnable data
-        ↓
-V837m stable linear state transport
-2/5, parameter-matched additive control 1/5
-        ↓
-LINEAR_STATE_TRANSPORT_INSUFFICIENT
-        ↓
-V837n explicit successful-GRU ablations @ 4x data
-full GRU                 5/5
-no update                5/5
-no reset                 5/5
-static reset vector      5/5
-static update vector     4/5
-static update scalar     4/5
-no update + no reset     3/5
-        ↓
-MECHANISM_REDUNDANCY_OR_COMPLEMENTARITY
-        ↓
-V837o factorial shared-property localization @ 4x data
-dynamic update / no reset             5/5
-no update / dynamic reset             5/5
-all static single/dual combinations   3/5
-both off                               3/5
+V837n/V837o successful-GRU localization
+dynamic update/no reset    5/5
+no update/dynamic reset    5/5
+all-static combinations    3/5
         ↓
 DYNAMIC_STATE_MODULATION_REQUIRED
         ↓
-V837p one generic dynamic scalar neutral modulator
-historical neutral                     2/5
-scalar persistence                     2/5
-dynamic scalar state modulation        3/5
-parameter-matched dynamic additive     3/5
+V837p scalar neutral modulation        3/5
+V837q state sharing                    2/5
+V837r rank4/rank8 coupling             3/5
+V837s rank4 x scalar modulation        3/5
         ↓
-SHARED_PROPERTY_TRANSFER_FAILURE
+representation adequacy still FAIL
         ↓
-V837q state-organization localization @ 4x data
-Q0 local 10x4                         2/5
-Q1 shared 5x8                         2/5
-Q2 shared 2x20                        2/5
-Q3 fully shared 1x40                  2/5
-dense vanilla RNN 40D                 2/5
-GRU reference                         5/5
+V837t reference-side gate scalarization
+T0 full vector GRU                     5/5
+T1 vector update / no reset            5/5
+T2 scalarized update / no reset        4/5
+T3 no update / vector reset            5/5
+T4 no update / scalarized reset        3/5
+T5 dual scalarized                     3/5
         ↓
-STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED
-        ->
-V837r cross-block recurrent coupling @ 4x data
-R0 local                               2/5
-rank1                                  2/5
-rank2                                  2/5
-rank4                                  3/5
-rank8                                  3/5
-dense cross-block                      2/5
-all exact matched local controls       2/5
-        ->
-GLOBAL_COUPLING_PARTIAL_BENEFIT
-        ->
-V837s authorized rank4 x dynamic-scalar interaction
-local / no modulation                  2/5
-local / dynamic scalar                 3/5
-rank4 / no modulation                  3/5
-rank4 / dynamic scalar                 3/5
-rank4 / matched dynamic additive       3/5
-        ->
-GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT
+DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED
+        ↓
+Machine authorization: DYNAMIC_SCALAR_CARRY only
+        ↓
+V837u neutral follow-up
+U0 historical direct                   2/5
+U1 frozen V837p scalar candidate       3/5
+U2 dynamic scalar carry                2/5
+U2C same-controller scaling control    3/5
+        ↓
+DYNAMIC_SCALAR_CARRY_INSUFFICIENT
 ```
 
-The reference-side result localizes a shared property tightly: at least one temporally/state-conditioned dynamic modulation path is required for the successful dense reference, while static vector/scalar pathways are insufficient. V837p showed that one generic scalar adaptive path gives only a 3/5 neutral result. V837q then showed that state ownership itself is not the remaining bottleneck. V837r added only direct cross-dimensional recurrence to the historical local substrate: rank4 and rank8 reached 3/5 while exact matched local-capacity controls stayed 2/5, establishing a specific but partial global-coupling benefit. The single machine-authorized V837s interaction then combined rank4 coupling with the exact frozen V837p scalar modulator; it remained 3/5, and the matched dynamic-additive control also reached 3/5. Representation adequacy therefore remains closed, structural search and primitive mining remain blocked, and the next isolated variable is dimension-wise dynamic modulation rather than more density.
+The key new result is causal: successful reference computation does not require dimension-specific dynamic **update** values, because a retrained post-sigmoid mean-and-broadcast update gate remains adequate at 4/5. The no-retraining flattening counterfactuals show that already-trained vector models use gate heterogeneity, but retraining proves that heterogeneity is not necessary for successful reference computation. Consequently V837t did not authorize vector neutral control. It authorized only scalar adaptive carry, and V837u showed that this transfer is insufficient in the neutral substrate.
 
-## Historical SHA-256 anchors
+## Unique data and resources
 
-These pre-existing scientific integrity anchors remain unchanged. Canonical GitHub-stored Git-blob SHA-256 values are separately retained in `verification/live_repo_manifest.json` so verification is portable across checkout line-ending settings.
-
-- V836 result: `0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d`
-- V837 result: `5fed69cc990be5c6f64a5229f59ff7f27af0c1fc26398bdfbe80ee46255eef14`
-- V837b result: `f131110969e7700ec0cd9a82825e8554a51a9c05bb308d54625452db54e35cb0`
-- V837c result: `994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009`
-- Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
+- Development seed-defined episodes/family: **512**.
+- Validation seed-defined episodes/family: **128**.
+- Task families: **5**.
+- Total unique `(family, seed)` episodes: **3,200**.
+- The same seed-defined episodes are paired and reused across conditions/replicates; repeated processing is not counted as new unique data.
+- V837t: 150 fits, 28,800 optimizer steps, 14,745,600 processed examples.
+- V837u: 100 fits, 19,200 optimizer steps, 9,830,400 processed examples.
+- Combined: 250 fits, 48,000 optimizer steps, 24,576,000 processed examples, 0 GPU seconds.
 
 ## Locked scientific state
 
+- Representation adequacy: **FAIL**.
+- Sample-efficiency retest: **BLOCKED**.
+- Structural search: **BLOCKED**.
+- Primitive mining: **BLOCKED**.
 - Fresh-audit episodes consumed: **0**.
 - Primitives promoted: **0**.
-- Primitive mining allowed: **false**.
-- Full structural search: **blocked**.
-- V837o: **complete — DYNAMIC_STATE_MODULATION_REQUIRED**.
-- V837p: **complete — SHARED_PROPERTY_TRANSFER_FAILURE, 3/5**.
-- V837q: **complete — STATE_FRAGMENTATION_HYPOTHESIS_NOT_SUPPORTED; Q0/Q1/Q2/Q3 all 2/5**.
-- V837r: **complete ? GLOBAL_COUPLING_PARTIAL_BENEFIT; rank4/rank8 3/5, exact matched local controls 2/5**.
-- V837s: **complete ? GLOBAL_COUPLING_X_DYNAMIC_CONTROL_INSUFFICIENT; all interaction variants remain <=3/5 and multiplicative specificity is not established**.
-- V837t/u/v: **not run**.
-- V838: **not started**.
-- Current scientific frontier: **isolate dynamic vector-valued state modulation next; do not add more density, shared-state changes, structural search, primitive mining, or V838 at the same time**.
+- Large persistent storage tested: **false**.
+- V838: **NOT STARTED**.
+- No vector-neutral controller was run because the V837t decision state did not authorize it.
+- No post-transform reset transfer, global-coupling combination, shared-state variant, extra-data run, hidden-size increase, or architecture search was run in V837u.
+
+## Current scientific frontier
+
+**Dynamic vector granularity is not established as a required property. Scalar adaptive carry is also insufficient in the neutral substrate. The next experiment must localize the remaining semantic difference between the successful scalarized GRU update pathway and the neutral scalar-carry transfer, one variable at a time.**
+
+## Historical SHA anchors
+
+The established historical scientific anchors remain unchanged. Canonical committed Git-blob SHA-256 coverage is maintained in `verification/active_research_sha256.txt` and `verification/live_repo_manifest.json`.
+
+- Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
+- Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
 ## Fast verification
-
-Run:
 
 ```text
 python scripts/verify_live_repo.py
 python scripts/validate_active_research.py
 python scripts/validate_registry.py
 python -m unittest discover -s tests
+python scripts/reproduce_v837_recovery.py --variant v837t
+python scripts/reproduce_v837_recovery.py --variant v837u
 ```
 
-The fast verifier is read-only and does not rerun expensive experiments. The reproduction dispatcher is dry-run by default; pass `--execute` only when an explicit rerun is intended.
-
-## V837r/V837s verification package
-
-| Artifact | Path |
-|---|---|
-| Program status | `experiments/v837_primitive_invention/global_recurrent_coupling_status.json` |
-| Program resources | `experiments/v837_primitive_invention/global_recurrent_coupling_resource_accounting.json` |
-| Final report | `docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md` |
-| V837r result | `experiments/v837_primitive_invention/v837r/results.json` |
-| V837r decision state | `experiments/v837_primitive_invention/v837r/diagnostics/decision_state.json` |
-| V837s result | `experiments/v837_primitive_invention/v837s/results.json` |
-| V837s decision state | `experiments/v837_primitive_invention/v837s/diagnostics/decision_state.json` |
-| V837r validator | `scripts/validate_v837_global_recurrent_coupling.py` |
-| V837s validator | `scripts/validate_v837_coupling_modulation_interaction.py` |
-| Reproduction dispatcher | `scripts/reproduce_v837_recovery.py` |
+The reproduction dispatcher remains dry-run by default. V837u execution is machine-guarded by the committed V837t decision state.

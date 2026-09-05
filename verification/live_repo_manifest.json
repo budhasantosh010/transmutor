@@ -42,9 +42,29 @@
     "scripts/validate_v837_coupling_modulation_interaction.py",
     "scripts/reproduce_v837_recovery.py",
     "tests/test_v837r_global_recurrent_coupling.py",
-    "tests/test_v837s_coupling_modulation_interaction.py"
+    "tests/test_v837s_coupling_modulation_interaction.py",
+    "experiments/v837_primitive_invention/dynamic_control_granularity_status.json",
+    "experiments/v837_primitive_invention/dynamic_control_granularity_resource_accounting.json",
+    "docs/V837_DYNAMIC_CONTROL_GRANULARITY_REPORT.md",
+    "experiments/v837_primitive_invention/v837t/config.json",
+    "experiments/v837_primitive_invention/v837t/frozen_dynamic_granularity_gate.json",
+    "experiments/v837_primitive_invention/v837t/gru_dynamic_granularity.py",
+    "experiments/v837_primitive_invention/v837t/results.json",
+    "experiments/v837_primitive_invention/v837t/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837t/raw/anchor_runs.json",
+    "experiments/v837_primitive_invention/v837t/raw/scalarized_runs.json",
+    "experiments/v837_primitive_invention/v837u/config.json",
+    "experiments/v837_primitive_invention/v837u/frozen_neutral_followup_gate.json",
+    "experiments/v837_primitive_invention/v837u/dynamic_control.py",
+    "experiments/v837_primitive_invention/v837u/results.json",
+    "experiments/v837_primitive_invention/v837u/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837u/raw/runs.json",
+    "scripts/validate_v837_dynamic_control_granularity.py",
+    "scripts/validate_v837_neutral_dynamic_followup.py",
+    "tests/test_v837t_dynamic_control_granularity.py",
+    "tests/test_v837u_neutral_dynamic_followup.py"
   ],
-  "current_scientific_frontier": "moderate cross-block recurrent coupling has a specific partial benefit (rank4/rank8 3/5 vs matched local 2/5), but the authorized rank4 x frozen dynamic-scalar interaction remains 3/5 and is not multiplicatively specific; next isolate dynamic vector-valued state modulation",
+  "current_scientific_frontier": "V837t proves dimension-specific dynamic update gating is not required in the successful reference (scalarized update/no-reset 4/5); the machine-authorized V837u scalar preserve-vs-replace carry transfer is insufficient at 2/5, so vector gating is not licensed and the next variable must localize the remaining GRU update-pathway semantic difference.",
   "current_variants": {
     "V837d": {
       "config": "experiments/v837_primitive_invention/v837d/config.json",
@@ -416,6 +436,72 @@
         "experiments/v837_primitive_invention/v837s/analyze_results.py"
       ],
       "status": "DIAGNOSTIC_FAIL_INTERACTION_INSUFFICIENT"
+    },
+    "V837t": {
+      "config": "experiments/v837_primitive_invention/v837t/config.json",
+      "frozen_gate": "experiments/v837_primitive_invention/v837t/frozen_dynamic_granularity_gate.json",
+      "diagnosis": "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED",
+      "source": [
+        "experiments/v837_primitive_invention/v837t/gru_dynamic_granularity.py",
+        "experiments/v837_primitive_invention/v837t/run_dynamic_granularity.py",
+        "experiments/v837_primitive_invention/v837t/analyze_results.py"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837t/README.md",
+        "experiments/v837_primitive_invention/v837t/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837t/PASS.md"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837t/raw/anchor_runs.json",
+        "experiments/v837_primitive_invention/v837t/raw/scalarized_runs.json"
+      ],
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837t/diagnostics/condition_summaries.json",
+        "experiments/v837_primitive_invention/v837t/diagnostics/decision_state.json",
+        "experiments/v837_primitive_invention/v837t/diagnostics/positive_control_guard.json"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837t/plots/families_passing_by_dynamic_granularity.png",
+        "experiments/v837_primitive_invention/v837t/plots/family_scores_vector_vs_scalarized.png",
+        "experiments/v837_primitive_invention/v837t/plots/update_scalarization_effect.png",
+        "experiments/v837_primitive_invention/v837t/plots/reset_scalarization_effect.png",
+        "experiments/v837_primitive_invention/v837t/plots/dual_scalarized_effect.png",
+        "experiments/v837_primitive_invention/v837t/plots/gate_interdimensional_variance.png",
+        "experiments/v837_primitive_invention/v837t/plots/gate_temporal_variance.png",
+        "experiments/v837_primitive_invention/v837t/plots/counterfactual_flattening_effect.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837t/results.json",
+      "status": "DIAGNOSTIC_PASS_VECTOR_GRANULARITY_NOT_REQUIRED"
+    },
+    "V837u": {
+      "config": "experiments/v837_primitive_invention/v837u/config.json",
+      "frozen_gate": "experiments/v837_primitive_invention/v837u/frozen_neutral_followup_gate.json",
+      "diagnosis": "DYNAMIC_SCALAR_CARRY_INSUFFICIENT",
+      "source": [
+        "experiments/v837_primitive_invention/v837u/dynamic_control.py",
+        "experiments/v837_primitive_invention/v837u/run_neutral_followup.py",
+        "experiments/v837_primitive_invention/v837u/analyze_results.py"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837u/README.md",
+        "experiments/v837_primitive_invention/v837u/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837u/FAILURE.md"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837u/raw/runs.json"
+      ],
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837u/diagnostics/condition_summaries.json",
+        "experiments/v837_primitive_invention/v837u/diagnostics/decision_state.json"
+      ],
+      "plots": [
+        "experiments/v837_primitive_invention/v837u/plots/neutral_followup_family_scores.png",
+        "experiments/v837_primitive_invention/v837u/plots/families_passing_neutral_followup.png",
+        "experiments/v837_primitive_invention/v837u/plots/capability_vs_parameter_count.png",
+        "experiments/v837_primitive_invention/v837u/plots/capability_vs_recurrent_controller_macs.png"
+      ],
+      "results": "experiments/v837_primitive_invention/v837u/results.json",
+      "status": "FAIL_REPRESENTATION_INADEQUATE"
     }
   },
   "fresh_audit_consumed": false,
@@ -439,8 +525,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "c5822b4",
-  "main_sha_semantics": "V837s scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
+  "main_sha": "032de08",
+  "main_sha_semantics": "V837u scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -457,11 +543,12 @@
     "docs/V837_GRU_MECHANISM_LOCALIZATION_REPORT.md",
     "docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md",
     "docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md",
-    "docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md"
+    "docs/V837_GLOBAL_RECURRENT_COUPLING_REPORT.md",
+    "docs/V837_DYNAMIC_CONTROL_GRANULARITY_REPORT.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 global recurrent coupling localization followed by the single machine-authorized V837s coupling x frozen dynamic-scalar interaction",
-  "research_sha": "c5822b4",
+  "research_lineage": "V837 dynamic-control granularity localization in the successful GRU followed by exactly one machine-authorized V837u neutral scalar-carry transfer",
+  "research_sha": "032de08",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
@@ -480,7 +567,9 @@
     "tests/test_v837p_dynamic_state_modulator.py",
     "tests/test_v837q_state_organization.py",
     "tests/test_v837r_global_recurrent_coupling.py",
-    "tests/test_v837s_coupling_modulation_interaction.py"
+    "tests/test_v837s_coupling_modulation_interaction.py",
+    "tests/test_v837t_dynamic_control_granularity.py",
+    "tests/test_v837u_neutral_dynamic_followup.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",
@@ -489,6 +578,8 @@
     "scripts/verify_live_repo.py",
     "scripts/validate_v837_shared_state_organization.py",
     "scripts/validate_v837_global_recurrent_coupling.py",
-    "scripts/validate_v837_coupling_modulation_interaction.py"
+    "scripts/validate_v837_coupling_modulation_interaction.py",
+    "scripts/validate_v837_dynamic_control_granularity.py",
+    "scripts/validate_v837_neutral_dynamic_followup.py"
   ]
 }

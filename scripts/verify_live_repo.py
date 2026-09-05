@@ -352,6 +352,52 @@ def main() -> int:
     if coupling_status.get("fresh_audit_episodes_consumed") != 0 or coupling_status.get("primitives_promoted") != 0 or coupling_status.get("v838_started") is not False:
         raise RuntimeError("global recurrent coupling status violated audit/primitive/V838 locks")
 
+    # Dynamic-control granularity localization and exactly one machine-authorized neutral follow-up.
+    for variant_name in ("V837t", "V837u"):
+        record = manifest["current_variants"].get(variant_name)
+        if not isinstance(record, dict):
+            raise RuntimeError(f"verification manifest missing {variant_name}")
+        for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+            for relative in record.get(key, []):
+                require_path(relative)
+        require_path(record["config"])
+        require_path(record["frozen_gate"])
+        require_path(record["results"])
+
+    v837t = load_json(manifest["current_variants"]["V837t"]["results"])
+    if v837t.get("version") != "V837t" or v837t.get("diagnosis") != "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED":
+        raise RuntimeError("V837t dynamic-granularity diagnosis changed")
+    expected_t = {"T0_full_vector_gru": 5, "T1_vector_update_no_reset": 5, "T2_scalarized_update_no_reset": 4, "T3_no_update_vector_reset": 5, "T4_no_update_scalarized_reset": 3, "T5_dual_scalarized": 3}
+    actual_t = {name: int(row.get("families_passing", -1)) for name, row in v837t.get("conditions", {}).items()}
+    if actual_t != expected_t:
+        raise RuntimeError("V837t family-count outcome changed")
+    if v837t.get("positive_controls_pass") is not True or v837t.get("authorized_v837u_mode") != "DYNAMIC_SCALAR_CARRY":
+        raise RuntimeError("V837t positive-control/authorization decision changed")
+    if int(v837t.get("unique_seed_defined_episodes", -1)) != 3200 or v837t.get("fresh_audit_consumed") is not False or v837t.get("structural_search_allowed") is not False or v837t.get("primitive_mining_allowed") is not False or v837t.get("v838_started") is not False:
+        raise RuntimeError("V837t data/science locks changed")
+
+    v837u = load_json(manifest["current_variants"]["V837u"]["results"])
+    if v837u.get("version") != "V837u" or v837u.get("authorized_mode") != "DYNAMIC_SCALAR_CARRY" or v837u.get("diagnosis") != "DYNAMIC_SCALAR_CARRY_INSUFFICIENT":
+        raise RuntimeError("V837u scalar-carry diagnosis changed")
+    expected_u = {"U0_historical_direct": 2, "U1_v837p_scalar_candidate": 3, "U2_dynamic_scalar_carry": 2, "U2C_scalar_scale_candidate_control": 3}
+    actual_u = {name: int(row.get("families_passing", -1)) for name, row in v837u.get("conditions", {}).items()}
+    if actual_u != expected_u:
+        raise RuntimeError("V837u family-count outcome changed")
+    if int(v837u["conditions"]["U2_dynamic_scalar_carry"].get("parameter_count", -1)) != 1006 or int(v837u["conditions"]["U2C_scalar_scale_candidate_control"].get("parameter_count", -1)) != 1006:
+        raise RuntimeError("V837u scalar-carry matched-control parameter count changed")
+    if v837u.get("representation_adequacy_pass") is not False or v837u.get("sample_efficiency_retest_allowed") is not False or v837u.get("fresh_audit_consumed") is not False or v837u.get("structural_search_allowed") is not False or v837u.get("primitive_mining_allowed") is not False or v837u.get("v838_started") is not False:
+        raise RuntimeError("V837u adequacy/science locks changed")
+
+    dynamic_status = load_json("experiments/v837_primitive_invention/dynamic_control_granularity_status.json")
+    dynamic_resources = load_json("experiments/v837_primitive_invention/dynamic_control_granularity_resource_accounting.json")
+    if dynamic_status.get("v837t", {}).get("diagnosis") != "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED" or dynamic_status.get("v837u", {}).get("diagnosis") != "DYNAMIC_SCALAR_CARRY_INSUFFICIENT":
+        raise RuntimeError("dynamic-control program status changed")
+    if dynamic_status.get("v837u", {}).get("representation_adequacy") != "FAIL" or dynamic_status.get("fresh_audit_episodes_consumed") != 0 or dynamic_status.get("primitives_promoted") != 0 or dynamic_status.get("v838_started") is not False:
+        raise RuntimeError("dynamic-control program lock state changed")
+    combined = dynamic_resources.get("combined", {})
+    if int(combined.get("model_fits", -1)) != 250 or int(combined.get("optimizer_steps", -1)) != 48000 or int(combined.get("processed_examples", -1)) != 24576000 or int(combined.get("unique_seed_defined_episodes", -1)) != 3200:
+        raise RuntimeError("dynamic-control combined resource accounting changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

@@ -51,6 +51,11 @@ def validate():
         u=ROOT/"experiments/v837_primitive_invention/v837u"
         if u.exists():
             assert d["neutral_followup_allowed"] is True and d["authorized_v837u_mode"] in MODES
+        assert r["diagnosis"] == "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED"
+        assert r["authorized_v837u_mode"] == "DYNAMIC_SCALAR_CARRY"
+        expected_counts={"T0_full_vector_gru":5,"T1_vector_update_no_reset":5,"T2_scalarized_update_no_reset":4,"T3_no_update_vector_reset":5,"T4_no_update_scalarized_reset":3,"T5_dual_scalarized":3}
+        assert {name:int(row["families_passing"]) for name,row in r["conditions"].items()} == expected_counts
+        assert d["diagnosis"] == r["diagnosis"] and d["authorized_v837u_mode"] == r["authorized_v837u_mode"]
     print("V837 dynamic control granularity validation: PASS")
 
 

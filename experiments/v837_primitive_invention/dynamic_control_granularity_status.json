@@ -1,0 +1,40 @@
+{
+  "program": "V837t/V837u dynamic control granularity localization",
+  "start_sha": "c1023ea12d1d70f00770b1cde78859cef6443364",
+  "v837t": {
+    "complete": true,
+    "diagnosis": "DYNAMIC_VECTOR_GRANULARITY_NOT_REQUIRED",
+    "families_passing": {
+      "T0_full_vector_gru": 5,
+      "T1_vector_update_no_reset": 5,
+      "T2_scalarized_update_no_reset": 4,
+      "T3_no_update_vector_reset": 5,
+      "T4_no_update_scalarized_reset": 3,
+      "T5_dual_scalarized": 3
+    },
+    "positive_controls_pass": true,
+    "authorized_v837u_mode": "DYNAMIC_SCALAR_CARRY"
+  },
+  "v837u": {
+    "complete": true,
+    "authorized_mode": "DYNAMIC_SCALAR_CARRY",
+    "diagnosis": "DYNAMIC_SCALAR_CARRY_INSUFFICIENT",
+    "families_passing": {
+      "U0_historical_direct": 2,
+      "U1_v837p_scalar_candidate": 3,
+      "U2_dynamic_scalar_carry": 2,
+      "U2C_scalar_scale_candidate_control": 3
+    },
+    "representation_adequacy": "FAIL"
+  },
+  "unique_seed_defined_episodes": 3200,
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "large_persistent_storage_tested": false,
+  "v838_started": false,
+  "next_single_variable": "LOCALIZE_WHICH_GRU_UPDATE_PATHWAY_PROPERTY_BEYOND_SCALAR_GATE_GRANULARITY_IS_MISSING",
+  "next_single_variable_rationale": "Reference-side post-sigmoid scalarization proves dimension-specific update gating is not required, but transferring the scalar preserve-vs-replace carry operation into the neutral substrate falls to 2/5. The next experiment should therefore localize the remaining update-pathway semantic difference rather than add vector gating, global coupling, more data, or search."
+}
