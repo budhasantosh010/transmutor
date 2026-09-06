@@ -856,6 +856,12 @@ def main() -> int:
     global_scalar_validator = ROOT / "scripts" / "validate_v837_global_scalar_control.py"
     if global_scalar_validator.exists():
         runpy.run_path(str(global_scalar_validator), run_name="__main__")
+    candidate_interaction_validator = ROOT / "scripts" / "validate_v837_candidate_interaction.py"
+    if candidate_interaction_validator.exists():
+        runpy.run_path(str(candidate_interaction_validator), run_name="__main__")
+    candidate_stage_validator = ROOT / "scripts" / "validate_v837_candidate_stage.py"
+    if candidate_stage_validator.exists():
+        runpy.run_path(str(candidate_stage_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

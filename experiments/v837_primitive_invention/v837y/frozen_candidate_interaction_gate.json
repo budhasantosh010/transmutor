@@ -1,0 +1,19 @@
+{
+  "version": "V837y",
+  "parent": "V837x",
+  "single_new_scientific_condition": "Y3_global_control_rank4_candidate",
+  "mandatory_matched_control": "Y3C_global_control_matched_local",
+  "global_controller_source": "V837x X2 JOINT_INPUT_STATE_GLOBAL_SCALAR",
+  "candidate_coupling_source": "V837r R3_rank4",
+  "matched_local_source": "V837r C3_rank4_local",
+  "candidate_coupling_rank": 4,
+  "representation_family_gate": 4,
+  "baseline_drift_absolute_validation": 0.10,
+  "baseline_drift_families_required": 2,
+  "v837z_only_if_v837y_fails_with_valid_anchors": true,
+  "no_rank_sweep": true,
+  "fresh_audit_consumed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v838_started": false
+}
