@@ -1,0 +1,30 @@
+{
+  "Z0_historical_candidate_stage": {
+    "active_params": 1223,
+    "controller_params": 47,
+    "cpu_seconds": 1519.0,
+    "families_passing": 3,
+    "gpu_seconds": 0.0,
+    "mean_family_validation_median": 0.8828125,
+    "processed_examples": 2457600,
+    "rank4_params": 320,
+    "recurrent_controller_macs": 846,
+    "trainable_params": 1223,
+    "unique_episodes": 3200,
+    "wall_seconds_sum_workers": 1732.9360076998128
+  },
+  "Z1_synchronous_candidate_stage": {
+    "active_params": 1223,
+    "controller_params": 47,
+    "cpu_seconds": 1435.875,
+    "families_passing": 2,
+    "gpu_seconds": 0.0,
+    "mean_family_validation_median": 0.8671875,
+    "processed_examples": 2457600,
+    "rank4_params": 320,
+    "recurrent_controller_macs": 846,
+    "trainable_params": 1223,
+    "unique_episodes": 3200,
+    "wall_seconds_sum_workers": 1813.8747383001028
+  }
+}

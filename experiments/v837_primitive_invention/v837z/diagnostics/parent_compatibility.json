@@ -1,0 +1,27 @@
+{
+  "absolute_deltas": {
+    "conditional_routing": 0.0,
+    "delayed_recall": 0.0,
+    "iterative_state": 0.0,
+    "partial_observation": 0.0,
+    "variable_composition": 0.0
+  },
+  "compatible": true,
+  "expected_families_passing": 3,
+  "expected_family_medians": {
+    "conditional_routing": 0.84375,
+    "delayed_recall": 0.953125,
+    "iterative_state": 0.9921875,
+    "partial_observation": 0.7734375,
+    "variable_composition": 0.8515625
+  },
+  "materially_drifted_families": [],
+  "observed_families_passing": 3,
+  "observed_family_medians": {
+    "conditional_routing": 0.84375,
+    "delayed_recall": 0.953125,
+    "iterative_state": 0.9921875,
+    "partial_observation": 0.7734375,
+    "variable_composition": 0.8515625
+  }
+}

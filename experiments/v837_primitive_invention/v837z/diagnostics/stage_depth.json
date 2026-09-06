@@ -1,0 +1,36 @@
+{
+  "Z0_historical_candidate_stage": {
+    "max": 10,
+    "median": 5.5,
+    "min": 1,
+    "per_cell": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "Z1_synchronous_candidate_stage": {
+    "max": 1,
+    "median": 1.0,
+    "min": 1,
+    "per_cell": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

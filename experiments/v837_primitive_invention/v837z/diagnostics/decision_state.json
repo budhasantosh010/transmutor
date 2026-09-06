@@ -1,0 +1,16 @@
+{
+  "diagnosis": "HISTORICAL_WITHIN_STEP_CASCADE_BENEFICIAL",
+  "families_passing": {
+    "Z0_historical_candidate_stage": 3,
+    "Z1_synchronous_candidate_stage": 2
+  },
+  "fresh_audit_consumed": false,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "selected_parent": "Y3_global_control_rank4_candidate",
+  "structural_search_allowed": false,
+  "v837z_complete": true,
+  "v838_started": false
+}

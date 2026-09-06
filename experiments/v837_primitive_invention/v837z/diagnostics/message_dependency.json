@@ -1,0 +1,16 @@
+{
+  "Z0_historical_candidate_stage": {
+    "max": 0.515625,
+    "mean": 0.2359375,
+    "median": 0.2578125,
+    "min": -0.0234375,
+    "std": 0.17033400093639556
+  },
+  "Z1_synchronous_candidate_stage": {
+    "max": 0.640625,
+    "mean": 0.2553125,
+    "median": 0.2421875,
+    "min": 0.0,
+    "std": 0.17751705463842057
+  }
+}
