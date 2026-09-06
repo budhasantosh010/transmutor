@@ -1,0 +1,11 @@
+{
+  "version": "V837z",
+  "authorization": "V837y decision_state must be complete, representation_adequacy_pass=false, v837z_allowed=true, selected_v837z_parent=Y3_global_control_rank4_candidate",
+  "single_variable": "historical mixed same-step/recurrent message schedule versus fully synchronous previous-output-only message schedule",
+  "representation_gate": ">=4/5 task families at frozen 4x unique data",
+  "z1_rule": "all 55 graph edges read only previous-timestep outputs; no edge deletion or parameter change",
+  "fresh_audit_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v838_started": false
+}
