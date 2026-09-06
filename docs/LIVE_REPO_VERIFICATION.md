@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837v control-scope localization, V837w successful-reference controller-information localization, and the single machine-authorized V837x global-scalar neutral transfer. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837y candidate-interaction localization and the single machine-authorized V837z candidate-stage synchronization diagnostic. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -17,6 +17,8 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837v changes only control-domain output scope with fixed local source controllers; no gate pooling is permitted.
 - V837w is reference-only and exists only because V837v failed representation adequacy.
 - V837x exists only because V837w authorized exactly `JOINT_INPUT_STATE_GLOBAL_SCALAR`.
+- V837y tests exactly the frozen V837x global scalar controller × frozen V837r rank-4 candidate branch, plus the mandatory matched-local capacity control.
+- V837z exists only because V837y failed representation adequacy and machine-selected Y3; it changes only historical mixed-stage message timing versus fully synchronous previous-output-only timing.
 - V838 has not started.
 
 ## Current causal sequence
@@ -67,9 +69,26 @@ X2C same global controller / no carry      3/5
         ↓
 GLOBAL_SCALAR_CONTROL_PARTIAL_BENEFIT
         ↓
-scalar-control hard stop
-next single variable:
-CANDIDATE TRANSFORMATION ORGANIZATION
+V837y candidate interaction
+Y0 historical                               2/5
+Y1 global scalar control                    3/5
+Y2 rank4 candidate coupling                 3/5
+Y3 global control + rank4 candidate         3/5
+Y3C global control + matched local capacity 2/5
+        ↓
+GLOBAL_CONTROL_X_CANDIDATE_MIXING_INSUFFICIENT
+        ↓
+Machine authorization: Y3 parent only
+        ↓
+V837z candidate-stage organization
+Z0 historical mixed-stage                   3/5
+Z1 fully synchronous previous-output-only   2/5
+        ↓
+HISTORICAL_WITHIN_STEP_CASCADE_BENEFICIAL
+        ↓
+candidate-organization hard stop
+next documented single variable:
+CANDIDATE PARAMETER SHARING
 ```
 
 ## Current V837v evidence
@@ -131,27 +150,66 @@ g_t = sigmoid(w_s^T S_t + w_x^T x_t + b)
 
 It has 47 parameters and about 46 controller MACs/timestep. It is computed once before cell execution and never reads partially updated same-timestep states, messages, outputs, or candidates.
 
+## Current V837y evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837y/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837y/frozen_candidate_interaction_gate.json` |
+| Implementation | `experiments/v837_primitive_invention/v837y/candidate_interaction.py` |
+| Runner | `experiments/v837_primitive_invention/v837y/run_candidate_interaction.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837y/analyze_results.py` |
+| Raw anchors | `experiments/v837_primitive_invention/v837y/raw/anchor_runs.json` |
+| Raw interaction | `experiments/v837_primitive_invention/v837y/raw/interaction_runs.json` |
+| Results | `experiments/v837_primitive_invention/v837y/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837y/diagnostics/decision_state.json` |
+| Validator | `scripts/validate_v837_candidate_interaction.py` |
+| Tests | `tests/test_v837y_candidate_interaction.py` |
+
+Y0 and Y1 reproduce their V837x anchors exactly. Y2 remains compatible with V837r R3. Y3 reaches 3/5 while Y3C reaches 2/5. Cross-cell interventions confirm genuine causal use of the rank-4 branch, but the combination does not restore the frozen >=4/5 representation gate.
+
+## Current V837z evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837z/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837z/frozen_candidate_stage_gate.json` |
+| Implementation | `experiments/v837_primitive_invention/v837z/candidate_stage.py` |
+| Runner | `experiments/v837_primitive_invention/v837z/run_candidate_stage.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837z/analyze_results.py` |
+| Z0 raw | `experiments/v837_primitive_invention/v837z/raw/z0_runs.json` |
+| Z1 raw | `experiments/v837_primitive_invention/v837z/raw/z1_runs.json` |
+| Results | `experiments/v837_primitive_invention/v837z/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837z/diagnostics/decision_state.json` |
+| Validator | `scripts/validate_v837_candidate_stage.py` |
+| Tests | `tests/test_v837z_candidate_stage.py` |
+
+Z0 reproduces Y3 with zero family-median drift. Z1 preserves all 55 graph edges and every parameterized mechanism but forces all messages to read previous outputs. It falls from 3/5 to 2/5, while effective candidate depth changes from historical 1..10 (median 5.5) to uniformly 1.
+
 ## Program reports and accounting
 
-- Final report: `docs/V837_CONTROL_SCOPE_AND_INFORMATION_REPORT.md`
-- Scalar-control blocker comparison: `docs/V837_SCALAR_CONTROL_TRANSFER_BLOCKER_ANALYSIS.md`
-- Combined resource accounting: `experiments/v837_primitive_invention/control_scope_program_resource_accounting.json`
-- Program status: `experiments/v837_primitive_invention/control_scope_program_status.json`
+- Candidate-interaction/stage report: `docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md`
+- Candidate-organization blocker analysis: `docs/V837_CANDIDATE_ORGANIZATION_BLOCKER_ANALYSIS.md`
+- V837y accounting: `experiments/v837_primitive_invention/v837y_resource_accounting.json`
+- V837z accounting: `experiments/v837_primitive_invention/v837z_resource_accounting.json`
+- Combined candidate-organization accounting: `experiments/v837_primitive_invention/candidate_organization_program_resource_accounting.json`
+- Candidate-organization status: `experiments/v837_primitive_invention/candidate_organization_program_status.json`
 
-Resource totals for V837v+V837w+V837x:
+Resource totals for V837y+V837z:
 
 ```text
-model fits                    300
-optimizer steps               57,600
-processed examples            29,491,200
+model fits                    175
+optimizer steps               33,600
+processed examples            17,203,200
 unique seed-defined episodes  3,200
-environment interactions      1,334,700
-forward calls                 64,775
-CPU seconds                   11,564.984375
+environment interactions      778,575
+forward calls                 39,175
+CPU seconds                   9,840.375
+wall seconds (worker sum)     10,630.135340699227
 GPU seconds                   0
 ```
 
-The 3,200 unique family/seed episodes are reused across conditions, replicates, and variants; repeated processing is not counted as new unique data.
+The same 512 development + 128 validation episodes per family are reused across all conditions, variants, and replicates. Unique data therefore remains exactly 3,200 family/seed episodes.
 
 ## Locked scientific state
 
@@ -166,13 +224,13 @@ large persistent storage      NOT TESTED
 V838                          NOT STARTED
 ```
 
-Reserved fresh-audit seeds 90000–90499 remain unused.
+Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-A low-bandwidth global control plane helps but is not sufficient. The smallest reference-justified global scalar observer—joint current input plus the complete previous neutral state—improves the neutral substrate from 2/5 to 3/5, yet does not recover the 4/5 scalarized-GRU reference. Output scope and controller-information scope have therefore both been localized and are not, by themselves, the missing representation property.
+Joint global temporal control and rank-4 cross-cell candidate integration are both causally active and preserve complementary routing/composition competence, but their combination remains below the frozen >=4/5 representation-adequacy gate. The exact parameter-matched local candidate branch performs worse than cross-cell rank-4 under the same controller, so the cross-cell organization is doing genuine work. However, fully synchronizing candidate stages reduces the selected Y3 parent from 3/5 to 2/5, showing that the historical within-step cascade is beneficial in the present substrate rather than the source of the remaining failure.
 
-The next single variable is **candidate transformation organization**: one shared/dense candidate transformation versus ten local candidate transformations, while keeping the V837x joint global scalar controller fixed and keeping input-projection placement unchanged.
+The next single variable is documented only as **candidate parameter sharing**: one shared candidate parameterization versus independently parameterized per-cell candidate transformations. It is not implemented in this program.
 
 ## Fast verification
 
@@ -181,12 +239,11 @@ python scripts/verify_live_repo.py
 python scripts/validate_active_research.py
 python scripts/validate_registry.py
 python -m unittest discover -s tests
-python scripts/reproduce_v837_recovery.py --variant v837v
-python scripts/reproduce_v837_recovery.py --variant v837w
-python scripts/reproduce_v837_recovery.py --variant v837x
+python scripts/reproduce_v837_recovery.py --variant v837y
+python scripts/reproduce_v837_recovery.py --variant v837z
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837v→V837w→V837x authorization tree.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z authorization chain.
 
 ## Historical SHA anchors
 

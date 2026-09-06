@@ -1,0 +1,36 @@
+{
+  "v837y": {
+    "model_fits": 125,
+    "optimizer_steps": 24000,
+    "processed_examples": 12288000,
+    "unique_seed_defined_episodes": 3200,
+    "environment_interactions": 556125,
+    "forward_calls": 27675,
+    "cpu_seconds": 6885.5,
+    "wall_seconds_sum_workers": 7083.324594699312,
+    "gpu_seconds": 0.0
+  },
+  "v837z": {
+    "model_fits": 50,
+    "optimizer_steps": 9600,
+    "processed_examples": 4915200,
+    "unique_seed_defined_episodes": 3200,
+    "environment_interactions": 222450,
+    "forward_calls": 11500,
+    "cpu_seconds": 2954.875,
+    "wall_seconds_sum_workers": 3546.8107459999155,
+    "gpu_seconds": 0.0
+  },
+  "combined": {
+    "model_fits": 175,
+    "optimizer_steps": 33600,
+    "processed_examples": 17203200,
+    "unique_seed_defined_episodes": 3200,
+    "environment_interactions": 778575,
+    "forward_calls": 39175,
+    "cpu_seconds": 9840.375,
+    "wall_seconds_sum_workers": 10630.135340699227,
+    "gpu_seconds": 0.0
+  },
+  "unique_data_semantics": "The same 3,200 family/seed episodes are reused across conditions, variants, and replicates; repeated processing is not new unique data."
+}

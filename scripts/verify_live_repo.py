@@ -438,6 +438,45 @@ def main() -> int:
     if int(scope_combined.get("model_fits", -1)) != 300 or int(scope_combined.get("optimizer_steps", -1)) != 57600 or int(scope_combined.get("processed_examples", -1)) != 29491200 or int(scope_combined.get("unique_seed_defined_episodes", -1)) != 3200:
         raise RuntimeError("control-scope program resource accounting changed")
 
+    # Candidate-interaction and machine-authorized candidate-stage localization.
+    for variant_name in ("V837y", "V837z"):
+        record = manifest["current_variants"].get(variant_name)
+        if not isinstance(record, dict):
+            raise RuntimeError(f"verification manifest missing {variant_name}")
+        for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+            for relative in record.get(key, []):
+                require_path(relative)
+        require_path(record["config"])
+        require_path(record["frozen_gate"])
+        require_path(record["results"])
+
+    v837y = load_json(manifest["current_variants"]["V837y"]["results"])
+    expected_y = {"Y0_historical": 2, "Y1_global_control": 3, "Y2_rank4_candidate": 3, "Y3_global_control_rank4_candidate": 3, "Y3C_global_control_matched_local": 2}
+    actual_y = {name: int(row.get("families_passing", -1)) for name, row in v837y.get("conditions", {}).items()}
+    if v837y.get("diagnosis") != "GLOBAL_CONTROL_X_CANDIDATE_MIXING_INSUFFICIENT" or actual_y != expected_y or v837y.get("representation_adequacy_pass") is not False or v837y.get("v837z_allowed") is not True:
+        raise RuntimeError("V837y candidate-interaction outcome changed")
+    if v837y.get("selected_v837z_parent") != "Y3_global_control_rank4_candidate":
+        raise RuntimeError("V837y selected V837z parent changed")
+
+    v837z = load_json(manifest["current_variants"]["V837z"]["results"])
+    expected_z = {"Z0_historical_candidate_stage": 3, "Z1_synchronous_candidate_stage": 2}
+    actual_z = {name: int(row.get("families_passing", -1)) for name, row in v837z.get("conditions", {}).items()}
+    if v837z.get("diagnosis") != "HISTORICAL_WITHIN_STEP_CASCADE_BENEFICIAL" or actual_z != expected_z or v837z.get("representation_adequacy_pass") is not False:
+        raise RuntimeError("V837z candidate-stage outcome changed")
+    zdepth = v837z.get("candidate_stage_depth", {})
+    if zdepth.get("Z1_synchronous_candidate_stage", {}).get("per_cell") != [1] * 10:
+        raise RuntimeError("V837z synchronous stage depth changed")
+
+    candidate_status = load_json("experiments/v837_primitive_invention/candidate_organization_program_status.json")
+    candidate_resources = load_json("experiments/v837_primitive_invention/candidate_organization_program_resource_accounting.json")
+    if candidate_status.get("v837y_diagnosis") != "GLOBAL_CONTROL_X_CANDIDATE_MIXING_INSUFFICIENT" or candidate_status.get("v837z_diagnosis") != "HISTORICAL_WITHIN_STEP_CASCADE_BENEFICIAL" or candidate_status.get("representation_adequacy") != "FAIL":
+        raise RuntimeError("candidate-organization program status changed")
+    if candidate_status.get("fresh_audit_episodes_consumed") != 0 or candidate_status.get("primitives_promoted") != 0 or candidate_status.get("v838_started") is not False:
+        raise RuntimeError("candidate-organization program lock state changed")
+    candidate_combined = candidate_resources.get("combined", {})
+    if int(candidate_combined.get("model_fits", -1)) != 175 or int(candidate_combined.get("optimizer_steps", -1)) != 33600 or int(candidate_combined.get("processed_examples", -1)) != 17203200 or int(candidate_combined.get("unique_seed_defined_episodes", -1)) != 3200:
+        raise RuntimeError("candidate-organization combined resource accounting changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

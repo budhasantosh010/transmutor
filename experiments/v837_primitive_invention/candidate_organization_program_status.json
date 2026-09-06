@@ -1,0 +1,27 @@
+{
+  "program": "V837y/V837z candidate transformation interaction and stage organization",
+  "v837y_diagnosis": "GLOBAL_CONTROL_X_CANDIDATE_MIXING_INSUFFICIENT",
+  "v837y_families_passing": {
+    "Y0_historical": 2,
+    "Y1_global_control": 3,
+    "Y2_rank4_candidate": 3,
+    "Y3_global_control_rank4_candidate": 3,
+    "Y3C_global_control_matched_local": 2
+  },
+  "v837z_run": true,
+  "v837z_selected_parent": "Y3_global_control_rank4_candidate",
+  "v837z_families_passing": {
+    "Z0_historical_candidate_stage": 3,
+    "Z1_synchronous_candidate_stage": 2
+  },
+  "v837z_diagnosis": "HISTORICAL_WITHIN_STEP_CASCADE_BENEFICIAL",
+  "representation_adequacy": "FAIL",
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "large_persistent_storage_tested": false,
+  "v838_started": false,
+  "next_single_variable_documented_only": "candidate parameter sharing: one shared candidate parameterization versus independently parameterized per-cell candidate transformations"
+}

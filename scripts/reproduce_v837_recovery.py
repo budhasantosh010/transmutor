@@ -87,6 +87,16 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837x/run_global_scalar_control.py"],
         [sys.executable, "experiments/v837_primitive_invention/v837x/analyze_results.py"],
     ],
+    "v837y": [
+        [sys.executable, "experiments/v837_primitive_invention/v837y/run_candidate_interaction.py", "--phase", "anchors"],
+        [sys.executable, "experiments/v837_primitive_invention/v837y/run_candidate_interaction.py", "--phase", "interaction"],
+        [sys.executable, "experiments/v837_primitive_invention/v837y/analyze_results.py"],
+    ],
+    "v837z": [
+        [sys.executable, "experiments/v837_primitive_invention/v837z/run_candidate_stage.py", "--phase", "z0"],
+        [sys.executable, "experiments/v837_primitive_invention/v837z/run_candidate_stage.py", "--phase", "z1"],
+        [sys.executable, "experiments/v837_primitive_invention/v837z/analyze_results.py"],
+    ],
 }
 
 
@@ -152,6 +162,25 @@ def enforce_variant_guard(variant: str) -> None:
         config = json.loads((ROOT / "experiments" / "v837_primitive_invention" / "v837x" / "config.json").read_text(encoding="utf-8"))
         if decision.get("authorized_v837x_mode") != config.get("authorized_controller_mode"):
             raise SystemExit("V837x blocked: config mode differs from V837w authorization")
+        return
+    if variant == "v837y":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837x" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837y blocked: V837x decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        if decision.get("v837x_complete") is not True or decision.get("representation_adequacy_pass") is not False:
+            raise SystemExit("V837y blocked: V837x frontier is incompatible")
+        return
+    if variant == "v837z":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837y" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837z blocked: V837y decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        if decision.get("v837y_complete") is not True or decision.get("representation_adequacy_pass") is not False or decision.get("v837z_allowed") is not True:
+            raise SystemExit("V837z blocked: V837y did not authorize the stage diagnostic")
+        config = json.loads((ROOT / "experiments" / "v837_primitive_invention" / "v837z" / "config.json").read_text(encoding="utf-8"))
+        if decision.get("selected_v837z_parent") != config.get("selected_parent"):
+            raise SystemExit("V837z blocked: selected parent differs from V837y decision")
         return
 
 

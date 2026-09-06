@@ -1,0 +1,12 @@
+{
+  "model_fits": 125,
+  "optimizer_steps": 24000,
+  "processed_examples": 12288000,
+  "unique_seed_defined_episodes": 3200,
+  "environment_interactions": 556125,
+  "forward_calls": 27675,
+  "cpu_seconds": 6885.5,
+  "wall_seconds_sum_workers": 7083.324594699312,
+  "gpu_seconds": 0.0,
+  "unique_data_semantics": "The same 3,200 family/seed episodes are reused across all V837y conditions and replicates; repeated processing is not new unique data."
+}
