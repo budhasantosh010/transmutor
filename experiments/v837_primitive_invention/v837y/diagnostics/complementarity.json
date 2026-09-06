@@ -1,0 +1,77 @@
+{
+  "conditional_routing": {
+    "global_control_delta_vs_y0": 0.3671875,
+    "larger_parent_improvement": "global_control",
+    "rank4_candidate_delta_vs_y0": 0.1015625,
+    "validation_medians": {
+      "Y0_historical": 0.4921875,
+      "Y1_global_control": 0.859375,
+      "Y2_rank4_candidate": 0.59375,
+      "Y3C_global_control_matched_local": 0.7265625,
+      "Y3_global_control_rank4_candidate": 0.84375
+    },
+    "y3_delta_vs_best_parent": -0.015625,
+    "y3_retains_best_parent": true,
+    "y3c_delta_vs_best_parent": -0.1328125
+  },
+  "delayed_recall": {
+    "global_control_delta_vs_y0": 0.0234375,
+    "larger_parent_improvement": "rank4_candidate",
+    "rank4_candidate_delta_vs_y0": 0.0703125,
+    "validation_medians": {
+      "Y0_historical": 0.90625,
+      "Y1_global_control": 0.9296875,
+      "Y2_rank4_candidate": 0.9765625,
+      "Y3C_global_control_matched_local": 0.9609375,
+      "Y3_global_control_rank4_candidate": 0.953125
+    },
+    "y3_delta_vs_best_parent": -0.0234375,
+    "y3_retains_best_parent": false,
+    "y3c_delta_vs_best_parent": -0.015625
+  },
+  "iterative_state": {
+    "global_control_delta_vs_y0": 0.0078125,
+    "larger_parent_improvement": "tie",
+    "rank4_candidate_delta_vs_y0": 0.0078125,
+    "validation_medians": {
+      "Y0_historical": 0.984375,
+      "Y1_global_control": 0.9921875,
+      "Y2_rank4_candidate": 0.9921875,
+      "Y3C_global_control_matched_local": 1.0,
+      "Y3_global_control_rank4_candidate": 0.9921875
+    },
+    "y3_delta_vs_best_parent": 0.0,
+    "y3_retains_best_parent": true,
+    "y3c_delta_vs_best_parent": 0.0078125
+  },
+  "partial_observation": {
+    "global_control_delta_vs_y0": 0.0078125,
+    "larger_parent_improvement": "global_control",
+    "rank4_candidate_delta_vs_y0": -0.03125,
+    "validation_medians": {
+      "Y0_historical": 0.8125,
+      "Y1_global_control": 0.8203125,
+      "Y2_rank4_candidate": 0.78125,
+      "Y3C_global_control_matched_local": 0.8046875,
+      "Y3_global_control_rank4_candidate": 0.7734375
+    },
+    "y3_delta_vs_best_parent": -0.046875,
+    "y3_retains_best_parent": false,
+    "y3c_delta_vs_best_parent": -0.015625
+  },
+  "variable_composition": {
+    "global_control_delta_vs_y0": 0.015625,
+    "larger_parent_improvement": "rank4_candidate",
+    "rank4_candidate_delta_vs_y0": 0.0859375,
+    "validation_medians": {
+      "Y0_historical": 0.7890625,
+      "Y1_global_control": 0.8046875,
+      "Y2_rank4_candidate": 0.875,
+      "Y3C_global_control_matched_local": 0.8203125,
+      "Y3_global_control_rank4_candidate": 0.8515625
+    },
+    "y3_delta_vs_best_parent": -0.0234375,
+    "y3_retains_best_parent": false,
+    "y3c_delta_vs_best_parent": -0.0546875
+  }
+}
