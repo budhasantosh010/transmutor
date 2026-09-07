@@ -1,0 +1,37 @@
+{
+  "version": "V837ad",
+  "representation_family_gate": 4,
+  "family_development_threshold": 0.90,
+  "family_validation_threshold": 0.85,
+  "anchor_validation_median_drift_tolerance": 0.10,
+  "width_gate": {
+    "ad0_required_families": 4,
+    "ad1_required_families": 4,
+    "geometry_stage_requires_ad1": true
+  },
+  "candidate_geometry": {
+    "dense_h40_active_candidate_weights": 1600,
+    "two_by_twenty_active_candidate_weights": 800,
+    "five_by_eight_active_candidate_weights": 320,
+    "ten_by_four_active_candidate_weights": 160,
+    "degree4_global_sparse_active_candidate_weights": 160,
+    "mask_rescaling": false,
+    "update_recurrence_always_dense": true,
+    "reset": "OFF",
+    "post_sigmoid_update_scalarization": "mean_then_broadcast"
+  },
+  "sparse_robustness_trigger": {
+    "ad4_local_families_max": 3,
+    "ad4s_s0_families_min": 4
+  },
+  "sparse_robustness_pass": {
+    "required_passing_topologies": 4,
+    "total_predeclared_topologies": 5
+  },
+  "authorized_v837ae_diagnosis": "GLOBAL_SPARSE_CANDIDATE_GEOMETRY_SUFFICIENT",
+  "authorized_v837ae_mode": "DIRECT_GLOBAL_SPARSE_CANDIDATE_RECURRENCE",
+  "fresh_audit_consumed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v838_started": false
+}

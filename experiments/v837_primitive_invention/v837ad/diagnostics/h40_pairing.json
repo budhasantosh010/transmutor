@@ -1,0 +1,356 @@
+{
+  "checks": [
+    {
+      "family": "delayed_recall",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 0
+    },
+    {
+      "family": "delayed_recall",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 1
+    },
+    {
+      "family": "delayed_recall",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 2
+    },
+    {
+      "family": "delayed_recall",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 3
+    },
+    {
+      "family": "delayed_recall",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 4
+    },
+    {
+      "family": "conditional_routing",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 0
+    },
+    {
+      "family": "conditional_routing",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 1
+    },
+    {
+      "family": "conditional_routing",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 2
+    },
+    {
+      "family": "conditional_routing",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 3
+    },
+    {
+      "family": "conditional_routing",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 4
+    },
+    {
+      "family": "iterative_state",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 0
+    },
+    {
+      "family": "iterative_state",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 1
+    },
+    {
+      "family": "iterative_state",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 2
+    },
+    {
+      "family": "iterative_state",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 3
+    },
+    {
+      "family": "iterative_state",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 4
+    },
+    {
+      "family": "variable_composition",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 0
+    },
+    {
+      "family": "variable_composition",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 1
+    },
+    {
+      "family": "variable_composition",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 2
+    },
+    {
+      "family": "variable_composition",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 3
+    },
+    {
+      "family": "variable_composition",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 4
+    },
+    {
+      "family": "partial_observation",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 0
+    },
+    {
+      "family": "partial_observation",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 1
+    },
+    {
+      "family": "partial_observation",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 2
+    },
+    {
+      "family": "partial_observation",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 3
+    },
+    {
+      "family": "partial_observation",
+      "raw_initialization_equal": {
+        "AD2_H40_2x20": true,
+        "AD3_H40_5x8": true,
+        "AD4S_S0": true,
+        "AD4S_S1": true,
+        "AD4S_S2": true,
+        "AD4S_S3": true,
+        "AD4S_S4": true,
+        "AD4_H40_10x4": true
+      },
+      "replicate_id": 4
+    }
+  ],
+  "only_candidate_mask_differs": true,
+  "valid": true
+}
