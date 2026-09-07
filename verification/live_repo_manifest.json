@@ -105,10 +105,78 @@
     "scripts/verify_live_repo.py",
     "tests/test_v837y_candidate_interaction.py",
     "tests/test_v837z_candidate_stage.py",
-    "experiments/v837_primitive_invention/v837y_resource_accounting.json"
+    "experiments/v837_primitive_invention/v837y_resource_accounting.json",
+    "experiments/v837_primitive_invention/v837aa/config.json",
+    "experiments/v837_primitive_invention/v837aa/frozen_candidate_law_gate.json",
+    "experiments/v837_primitive_invention/v837aa/candidate_law_alignment.py",
+    "experiments/v837_primitive_invention/v837aa/run_candidate_law_audit.py",
+    "experiments/v837_primitive_invention/v837aa/analyze_results.py",
+    "experiments/v837_primitive_invention/v837aa/results.json",
+    "experiments/v837_primitive_invention/v837aa/raw/runs.json",
+    "experiments/v837_primitive_invention/v837aa/raw/initial_parameter_snapshots.json",
+    "experiments/v837_primitive_invention/v837aa/raw/trained_parameter_snapshots.json",
+    "experiments/v837_primitive_invention/v837aa/diagnostics/parent_reproduction.json",
+    "experiments/v837_primitive_invention/v837aa/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837aa/diagnostics/functional_similarity_synthetic.json",
+    "experiments/v837_primitive_invention/v837aa/diagnostics/functional_similarity_empirical.json",
+    "experiments/v837_primitive_invention/v837aa/diagnostics/initialization_null_control.json",
+    "experiments/v837_primitive_invention/v837aa/diagnostics/gradient_alignment.json",
+    "experiments/v837_primitive_invention/v837aa/diagnostics/cell_type_clustering.json",
+    "experiments/v837_primitive_invention/v837aa_resource_accounting.json",
+    "experiments/v837_primitive_invention/candidate_law_alignment_program_status.json",
+    "experiments/v837_primitive_invention/candidate_law_alignment_program_resource_accounting.json",
+    "docs/V837_CANDIDATE_LAW_ALIGNMENT_AUDIT.md",
+    "scripts/validate_v837_candidate_law_alignment.py",
+    "tests/test_v837aa_candidate_law_alignment.py"
   ],
-  "current_scientific_frontier": "V837y combined the V837x joint global scalar temporal controller with the V837r rank-4 cross-cell candidate branch and reached 3/5 versus matched-local 2/5; V837z then forced fully synchronous previous-output-only candidate staging and fell from 3/5 to 2/5. Candidate organization remains inadequate and the historical within-step cascade is beneficial under the current substrate.",
+  "current_scientific_frontier": "V837aa reproduced the frozen V837y Y3 parent exactly at 3/5 and audited whether its ten local candidate laws are reusable. Raw and signed-permutation-aligned functional similarity both remain far below the frozen common-law gate, trained aligned similarity is worse than the matched untrained null, no stable 2-5 cell-type vocabulary passes, and gradient compatibility is mixed. Diagnosis: GENUINELY_DIVERSE_CANDIDATE_LAWS; next axis: shared input representation.",
   "current_variants": {
+    "V837aa": {
+      "config": "experiments/v837_primitive_invention/v837aa/config.json",
+      "diagnosis": "GENUINELY_DIVERSE_CANDIDATE_LAWS",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837aa/diagnostics/aligned_parameter_similarity.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/cell_type_clustering.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/decision_state.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/functional_similarity_empirical.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/functional_similarity_synthetic.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/global_coupling_alignment.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/gradient_alignment.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/initialization_null_control.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/parent_reproduction.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/raw_parameter_similarity.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/relative_basis_stability.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/signed_permutation_assignments.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/snapshot_hashes.json",
+        "experiments/v837_primitive_invention/v837aa/diagnostics/training_resource_accounting.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837aa/README.md",
+        "experiments/v837_primitive_invention/v837aa/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837aa/VERDICT.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837aa/frozen_candidate_law_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837aa/plots/cell_type_consensus.png",
+        "experiments/v837_primitive_invention/v837aa/plots/functional_alignment_gain.png",
+        "experiments/v837_primitive_invention/v837aa/plots/gradient_cosine_matrix.png",
+        "experiments/v837_primitive_invention/v837aa/plots/raw_vs_aligned_similarity.png",
+        "experiments/v837_primitive_invention/v837aa/plots/relative_basis_stability.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837aa/raw/initial_parameter_snapshots.json",
+        "experiments/v837_primitive_invention/v837aa/raw/runs.json",
+        "experiments/v837_primitive_invention/v837aa/raw/trained_parameter_snapshots.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837aa/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837aa/analyze_results.py",
+        "experiments/v837_primitive_invention/v837aa/candidate_law_alignment.py",
+        "experiments/v837_primitive_invention/v837aa/run_candidate_law_audit.py"
+      ],
+      "status": "AUDIT_VALID_GENUINELY_DIVERSE_CANDIDATE_LAWS"
+    },
     "V837d": {
       "config": "experiments/v837_primitive_invention/v837d/config.json",
       "diagnostics": [
@@ -754,8 +822,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "afb34f7",
-  "main_sha_semantics": "V837z scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
+  "main_sha": "bf2fd5c25c0dc6d01f8ee00502ec78a2d1eab60e",
+  "main_sha_semantics": "V837aa scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -777,11 +845,12 @@
     "docs/V837_CONTROL_SCOPE_AND_INFORMATION_REPORT.md",
     "docs/V837_SCALAR_CONTROL_TRANSFER_BLOCKER_ANALYSIS.md",
     "docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md",
-    "docs/V837_CANDIDATE_ORGANIZATION_BLOCKER_ANALYSIS.md"
+    "docs/V837_CANDIDATE_ORGANIZATION_BLOCKER_ANALYSIS.md",
+    "docs/V837_CANDIDATE_LAW_ALIGNMENT_AUDIT.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 candidate-transformation interaction (V837y) followed by exactly one machine-authorized candidate-stage synchronization diagnostic (V837z)",
-  "research_sha": "afb34f7",
+  "research_lineage": "V837 candidate-transformation interaction (V837y), candidate-stage localization (V837z), then diagnosis-only candidate-law alignment audit (V837aa)",
+  "research_sha": "bf2fd5c25c0dc6d01f8ee00502ec78a2d1eab60e",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
@@ -807,7 +876,8 @@
     "tests/test_v837w_controller_information.py",
     "tests/test_v837x_global_scalar_control.py",
     "tests/test_v837y_candidate_interaction.py",
-    "tests/test_v837z_candidate_stage.py"
+    "tests/test_v837z_candidate_stage.py",
+    "tests/test_v837aa_candidate_law_alignment.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",
@@ -823,6 +893,7 @@
     "scripts/validate_v837_controller_information.py",
     "scripts/validate_v837_global_scalar_control.py",
     "scripts/validate_v837_candidate_interaction.py",
-    "scripts/validate_v837_candidate_stage.py"
+    "scripts/validate_v837_candidate_stage.py",
+    "scripts/validate_v837_candidate_law_alignment.py"
   ]
 }

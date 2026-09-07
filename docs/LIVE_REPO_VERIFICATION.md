@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837y candidate-interaction localization and the single machine-authorized V837z candidate-stage synchronization diagnostic. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837aa, a diagnosis-only candidate-law alignment audit of the frozen V837y Y3 parent after the V837z candidate-stage closure. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -19,6 +19,7 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837x exists only because V837w authorized exactly `JOINT_INPUT_STATE_GLOBAL_SCALAR`.
 - V837y tests exactly the frozen V837x global scalar controller × frozen V837r rank-4 candidate branch, plus the mandatory matched-local capacity control.
 - V837z exists only because V837y failed representation adequacy and machine-selected Y3; it changes only historical mixed-stage message timing versus fully synchronous previous-output-only timing.
+- V837aa is diagnosis-only: it reruns only the frozen Y3 parent, audits local candidate-law similarity under exact signed-permutation symmetries, and does not implement sharing or any new architecture.
 - V838 has not started.
 
 ## Current causal sequence
@@ -87,8 +88,18 @@ Z1 fully synchronous previous-output-only   2/5
 HISTORICAL_WITHIN_STEP_CASCADE_BENEFICIAL
         ↓
 candidate-organization hard stop
-next documented single variable:
-CANDIDATE PARAMETER SHARING
+        ↓
+V837aa diagnosis-only candidate-law audit
+Y3 parent reproduction                         PASS / exact 3/5
+raw common-law threshold fits                  0/25
+signed-permutation common-law threshold fits   0/25
+stable 2-5 cell-type vocabulary                NONE
+gradient compatibility                         MIXED
+        ↓
+GENUINELY_DIVERSE_CANDIDATE_LAWS
+        ↓
+next documented axis:
+SHARED INPUT REPRESENTATION
 ```
 
 ## Current V837v evidence
@@ -186,6 +197,25 @@ Y0 and Y1 reproduce their V837x anchors exactly. Y2 remains compatible with V837
 
 Z0 reproduces Y3 with zero family-median drift. Z1 preserves all 55 graph edges and every parameterized mechanism but forces all messages to read previous outputs. It falls from 3/5 to 2/5, while effective candidate depth changes from historical 1..10 (median 5.5) to uniformly 1.
 
+## Current V837aa evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837aa/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837aa/frozen_candidate_law_gate.json` |
+| Alignment implementation | `experiments/v837_primitive_invention/v837aa/candidate_law_alignment.py` |
+| Runner | `experiments/v837_primitive_invention/v837aa/run_candidate_law_audit.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837aa/analyze_results.py` |
+| Initial snapshots | `experiments/v837_primitive_invention/v837aa/raw/initial_parameter_snapshots.json` |
+| Trained snapshots | `experiments/v837_primitive_invention/v837aa/raw/trained_parameter_snapshots.json` |
+| Rerun rows | `experiments/v837_primitive_invention/v837aa/raw/runs.json` |
+| Results | `experiments/v837_primitive_invention/v837aa/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837aa/diagnostics/decision_state.json` |
+| Validator | `scripts/validate_v837_candidate_law_alignment.py` |
+| Tests | `tests/test_v837aa_candidate_law_alignment.py` |
+
+The 25 regenerated Y3 fits reproduce the committed parent exactly and retain 3/5. The primary recurrent/message candidate core has median raw synthetic cosine/NRMSE 0.5070/0.5373 and empirical 0.4433/0.5709. Exhaustive 384-way signed-permutation alignment improves these only to 0.6121/0.4669 synthetic and 0.6489/0.4317 empirical, still far from the frozen 0.95/0.20 common-law gate. Trained aligned similarity is worse than the aligned initialization null, relative bases are unstable, no k=2..5 reusable type vocabulary passes, and aligned core gradients are mixed. Diagnosis: `GENUINELY_DIVERSE_CANDIDATE_LAWS`.
+
 ## Program reports and accounting
 
 - Candidate-interaction/stage report: `docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md`
@@ -194,6 +224,10 @@ Z0 reproduces Y3 with zero family-median drift. Z1 preserves all 55 graph edges 
 - V837z accounting: `experiments/v837_primitive_invention/v837z_resource_accounting.json`
 - Combined candidate-organization accounting: `experiments/v837_primitive_invention/candidate_organization_program_resource_accounting.json`
 - Candidate-organization status: `experiments/v837_primitive_invention/candidate_organization_program_status.json`
+- Candidate-law alignment audit report: `docs/V837_CANDIDATE_LAW_ALIGNMENT_AUDIT.md`
+- V837aa resource accounting: `experiments/v837_primitive_invention/v837aa_resource_accounting.json`
+- Candidate-law audit program accounting: `experiments/v837_primitive_invention/candidate_law_alignment_program_resource_accounting.json`
+- Candidate-law audit status: `experiments/v837_primitive_invention/candidate_law_alignment_program_status.json`
 
 Resource totals for V837y+V837z:
 
@@ -210,6 +244,25 @@ GPU seconds                   0
 ```
 
 The same 512 development + 128 validation episodes per family are reused across all conditions, variants, and replicates. Unique data therefore remains exactly 3,200 family/seed episodes.
+
+V837aa adds diagnosis-only work on the same frozen Y3 data regime:
+
+```text
+model fits                    25
+optimizer steps               4,800
+processed training examples   2,457,600
+unique task episodes          3,200
+synthetic probes              102,400
+empirical probes              102,400
+training forward calls        5,300
+diagnostic forward calls      50
+diagnostic backward calls     25
+CPU seconds (training workers) 1,459.734375
+CPU seconds (audit process)   92.21875
+GPU seconds                   0
+```
+
+Synthetic probes are deterministic non-task diagnostics; empirical probes are drawn only from frozen development trajectories. Neither adds fresh task episodes.
 
 ## Locked scientific state
 
@@ -228,9 +281,9 @@ Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-Joint global temporal control and rank-4 cross-cell candidate integration are both causally active and preserve complementary routing/composition competence, but their combination remains below the frozen >=4/5 representation-adequacy gate. The exact parameter-matched local candidate branch performs worse than cross-cell rank-4 under the same controller, so the cross-cell organization is doing genuine work. However, fully synchronizing candidate stages reduces the selected Y3 parent from 3/5 to 2/5, showing that the historical within-step cascade is beneficial in the present substrate rather than the source of the remaining failure.
+V837aa shows that candidate parameter sharing is not currently justified by the learned Y3 internals. The exact Y3 parent reproduces at 3/5, but its ten local recurrent/message candidate cores remain substantially heterogeneous even after exhaustive exact tanh-compatible signed-permutation alignment. No fit reaches the frozen universal common-law threshold, aligned trained similarity is worse than the matched aligned initialization null, relative coordinate relations are unstable, and no deterministic k=2..5 type vocabulary passes. Gradient direction compatibility is mixed rather than strongly pooling-compatible.
 
-The next single variable is documented only as **candidate parameter sharing**: one shared candidate parameterization versus independently parameterized per-cell candidate transformations. It is not implemented in this program.
+The next documented axis is therefore **shared input representation / input organization**. V837aa is diagnosis-only and does not implement that future architecture.
 
 ## Fast verification
 
@@ -241,13 +294,14 @@ python scripts/validate_registry.py
 python -m unittest discover -s tests
 python scripts/reproduce_v837_recovery.py --variant v837y
 python scripts/reproduce_v837_recovery.py --variant v837z
+python scripts/reproduce_v837_recovery.py --variant v837aa
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z authorization chain.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> diagnosis-only V837aa frontier.
 
 ## Historical SHA anchors
 
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837x scientific closure commit separately from later verification-integration commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837aa scientific closure commit separately from later verification-integration commits.

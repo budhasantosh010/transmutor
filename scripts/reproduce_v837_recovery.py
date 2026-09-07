@@ -97,6 +97,10 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837z/run_candidate_stage.py", "--phase", "z1"],
         [sys.executable, "experiments/v837_primitive_invention/v837z/analyze_results.py"],
     ],
+    "v837aa": [
+        [sys.executable, "experiments/v837_primitive_invention/v837aa/run_candidate_law_audit.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837aa/analyze_results.py"],
+    ],
 }
 
 
@@ -181,6 +185,16 @@ def enforce_variant_guard(variant: str) -> None:
         config = json.loads((ROOT / "experiments" / "v837_primitive_invention" / "v837z" / "config.json").read_text(encoding="utf-8"))
         if decision.get("selected_v837z_parent") != config.get("selected_parent"):
             raise SystemExit("V837z blocked: selected parent differs from V837y decision")
+        return
+    if variant == "v837aa":
+        status_path = ROOT / "experiments" / "v837_primitive_invention" / "candidate_organization_program_status.json"
+        if not status_path.is_file():
+            raise SystemExit("V837aa blocked: candidate-organization closure status is missing")
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        if status.get("v837y_diagnosis") != "GLOBAL_CONTROL_X_CANDIDATE_MIXING_INSUFFICIENT" or status.get("v837z_diagnosis") != "HISTORICAL_WITHIN_STEP_CASCADE_BENEFICIAL" or status.get("representation_adequacy") != "FAIL":
+            raise SystemExit("V837aa blocked: V837y/V837z frontier is incompatible")
+        if status.get("fresh_audit_episodes_consumed") != 0 or status.get("v838_started") is not False:
+            raise SystemExit("V837aa blocked: fresh-audit/V838 lock changed")
         return
 
 

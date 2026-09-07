@@ -477,6 +477,32 @@ def main() -> int:
     if int(candidate_combined.get("model_fits", -1)) != 175 or int(candidate_combined.get("optimizer_steps", -1)) != 33600 or int(candidate_combined.get("processed_examples", -1)) != 17203200 or int(candidate_combined.get("unique_seed_defined_episodes", -1)) != 3200:
         raise RuntimeError("candidate-organization combined resource accounting changed")
 
+    # V837aa diagnosis-only candidate-law alignment audit.
+    aa_record = manifest["current_variants"].get("V837aa")
+    if not isinstance(aa_record, dict):
+        raise RuntimeError("verification manifest missing V837aa")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in aa_record.get(key, []):
+            require_path(relative)
+    require_path(aa_record["config"])
+    require_path(aa_record["frozen_gate"])
+    require_path(aa_record["results"])
+    aa = load_json(aa_record["results"])
+    if aa.get("candidate_law_diagnosis") != "GENUINELY_DIVERSE_CANDIDATE_LAWS" or aa.get("recommended_next_axis") != "NEXT_AXIS_SHARED_INPUT_REPRESENTATION":
+        raise RuntimeError("V837aa diagnosis/recommendation changed")
+    if aa.get("parent_reproduction_valid") is not True or aa.get("representation_adequacy") != "still_3_of_5_parent":
+        raise RuntimeError("V837aa parent reproduction/representation state changed")
+    if aa.get("direct_common_basis") is not False or aa.get("common_law_after_signed_permutation") is not False or aa.get("stable_small_type_vocabulary") is not False:
+        raise RuntimeError("V837aa candidate-law classification changed")
+    if aa.get("gradient_compatibility") != "mixed" or aa.get("fresh_audit_consumed") is not False or aa.get("primitive_count") != 0 or aa.get("v837ab_implemented") is not False or aa.get("v838_started") is not False:
+        raise RuntimeError("V837aa lock/gradient state changed")
+    aa_status = load_json("experiments/v837_primitive_invention/candidate_law_alignment_program_status.json")
+    aa_resources = load_json("experiments/v837_primitive_invention/candidate_law_alignment_program_resource_accounting.json")
+    if aa_status.get("candidate_law_diagnosis") != "GENUINELY_DIVERSE_CANDIDATE_LAWS" or aa_status.get("recommended_next_axis") != "NEXT_AXIS_SHARED_INPUT_REPRESENTATION":
+        raise RuntimeError("candidate-law program status changed")
+    if int(aa_resources.get("model_fits", -1)) != 25 or int(aa_resources.get("optimizer_steps", -1)) != 4800 or int(aa_resources.get("processed_training_examples", -1)) != 2457600 or int(aa_resources.get("unique_seed_defined_task_episodes", -1)) != 3200:
+        raise RuntimeError("candidate-law program resource accounting changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")
