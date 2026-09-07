@@ -101,6 +101,18 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837aa/run_candidate_law_audit.py"],
         [sys.executable, "experiments/v837_primitive_invention/v837aa/analyze_results.py"],
     ],
+    "v837ab": [
+        [sys.executable, "experiments/v837_primitive_invention/v837ab/run_input_factorization.py", "--phase", "preflight"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ab/run_input_factorization.py", "--phase", "ab0"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ab/run_input_factorization.py", "--phase", "others"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ab/analyze_results.py"],
+    ],
+    "v837ac": [
+        [sys.executable, "experiments/v837_primitive_invention/v837ac/run_input_transfer.py", "--phase", "preflight"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ac/run_input_transfer.py", "--phase", "ac0"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ac/run_input_transfer.py", "--phase", "transfer"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ac/analyze_results.py"],
+    ],
 }
 
 
@@ -195,6 +207,27 @@ def enforce_variant_guard(variant: str) -> None:
             raise SystemExit("V837aa blocked: V837y/V837z frontier is incompatible")
         if status.get("fresh_audit_episodes_consumed") != 0 or status.get("v838_started") is not False:
             raise SystemExit("V837aa blocked: fresh-audit/V838 lock changed")
+        return
+    if variant == "v837ab":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837aa" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837ab blocked: V837aa decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        if decision.get("candidate_law_diagnosis") != "GENUINELY_DIVERSE_CANDIDATE_LAWS" or decision.get("recommended_next_axis") != "NEXT_AXIS_SHARED_INPUT_REPRESENTATION":
+            raise SystemExit("V837ab blocked: V837aa did not authorize the input axis")
+        if decision.get("fresh_audit_consumed") is not False or decision.get("v838_started") is not False:
+            raise SystemExit("V837ab blocked: fresh-audit/V838 lock changed")
+        return
+    if variant == "v837ac":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837ab" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837ac blocked: V837ab decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        config = json.loads((ROOT / "experiments" / "v837_primitive_invention" / "v837ac" / "config.json").read_text(encoding="utf-8"))
+        if decision.get("neutral_transfer_allowed") is not True or decision.get("authorized_v837ac_mode") != config.get("authorized_mode"):
+            raise SystemExit("V837ac blocked: V837ab authorization does not match V837ac config")
+        if decision.get("fresh_audit_consumed") is not False or decision.get("v838_started") is not False:
+            raise SystemExit("V837ac blocked: fresh-audit/V838 lock changed")
         return
 
 

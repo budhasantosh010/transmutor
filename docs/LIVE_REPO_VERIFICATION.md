@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837aa, a diagnosis-only candidate-law alignment audit of the frozen V837y Y3 parent after the V837z candidate-stage closure. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837ab reference-side input-factorization localization and the exactly authorized V837ac minimal neutral controller-input transfer. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -20,6 +20,8 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837y tests exactly the frozen V837x global scalar controller × frozen V837r rank-4 candidate branch, plus the mandatory matched-local capacity control.
 - V837z exists only because V837y failed representation adequacy and machine-selected Y3; it changes only historical mixed-stage message timing versus fully synchronous previous-output-only timing.
 - V837aa is diagnosis-only: it reruns only the frozen Y3 parent, audits local candidate-law similarity under exact signed-permutation symmetries, and does not implement sharing or any new architecture.
+- V837ab proves the T2 6→6 input projection is exactly linearly foldable and then localizes which trainable factorized input pathway is optimization-relevant under matched step-zero functions.
+- V837ac exists only because V837ab authorized `TRAINABLE_CONTROLLER_INPUT_FACTORIZATION`; it transfers only that property into the frozen Y3 neutral parent and includes the exact folded control.
 - V838 has not started.
 
 ## Current causal sequence
@@ -98,8 +100,29 @@ gradient compatibility                         MIXED
         ↓
 GENUINELY_DIVERSE_CANDIDATE_LAWS
         ↓
-next documented axis:
-SHARED INPUT REPRESENTATION
+V837ab reference input-factorization localization
+AB0 exact factorized T2                         4/5
+AB1 same-function fully folded                 3/5
+AB2 candidate factorized / update folded       4/5
+AB3 candidate folded / update factorized       4/5
+AB4 frozen shared projection                   2/5
+AB5 naive direct                               3/5
+        ↓
+SINGLE_PATH_INPUT_FACTORIZATION_SUFFICIENT
+        ↓
+Machine authorization:
+TRAINABLE_CONTROLLER_INPUT_FACTORIZATION only
+        ↓
+V837ac neutral minimal transfer
+AC0 exact Y3 parent                            3/5
+AC1 controller-input factorization             3/5
+AC1F folded control                            3/5
+        ↓
+INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT
+        ↓
+input axis closed
+next documented single variable:
+CANDIDATE_STATE_GEOMETRY_LOCALIZATION
 ```
 
 ## Current V837v evidence
@@ -216,6 +239,38 @@ Z0 reproduces Y3 with zero family-median drift. Z1 preserves all 55 graph edges 
 
 The 25 regenerated Y3 fits reproduce the committed parent exactly and retain 3/5. The primary recurrent/message candidate core has median raw synthetic cosine/NRMSE 0.5070/0.5373 and empirical 0.4433/0.5709. Exhaustive 384-way signed-permutation alignment improves these only to 0.6121/0.4669 synthetic and 0.6489/0.4317 empirical, still far from the frozen 0.95/0.20 common-law gate. Trained aligned similarity is worse than the aligned initialization null, relative bases are unstable, no k=2..5 reusable type vocabulary passes, and aligned core gradients are mixed. Diagnosis: `GENUINELY_DIVERSE_CANDIDATE_LAWS`.
 
+## Current V837ab evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837ab/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837ab/frozen_input_factorization_gate.json` |
+| Implementation | `experiments/v837_primitive_invention/v837ab/input_factorization.py` |
+| Runner | `experiments/v837_primitive_invention/v837ab/run_input_factorization.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837ab/analyze_results.py` |
+| Results | `experiments/v837_primitive_invention/v837ab/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837ab/diagnostics/decision_state.json` |
+| Validator | `scripts/validate_v837_input_factorization.py` |
+| Tests | `tests/test_v837ab_input_factorization.py` |
+
+The full trained T2 projection folds exactly with maximum trace error `1.1920928955078125e-07`. AB0 reproduces T2 at 4/5. AB1 starts from the same effective input function but drops to 3/5, while AB2 and AB3 each recover 4/5. AB4 frozen projection is 2/5 and AB5 naive direct is 3/5. Diagnosis: `SINGLE_PATH_INPUT_FACTORIZATION_SUFFICIENT`; authorized neutral transfer: `TRAINABLE_CONTROLLER_INPUT_FACTORIZATION`.
+
+## Current V837ac evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837ac/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837ac/frozen_input_transfer_gate.json` |
+| Implementation | `experiments/v837_primitive_invention/v837ac/shared_input_transfer.py` |
+| Runner | `experiments/v837_primitive_invention/v837ac/run_input_transfer.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837ac/analyze_results.py` |
+| Results | `experiments/v837_primitive_invention/v837ac/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837ac/diagnostics/decision_state.json` |
+| Validator | `scripts/validate_v837_input_transfer.py` |
+| Tests | `tests/test_v837ac_input_transfer.py` |
+
+AC0 reproduces Y3 exactly at 3/5. AC1 and AC1F are step-zero equivalent within `7.897615432739258e-07`. AC1 remains 3/5, with composition improving from 0.851562 to 0.882812 but partial observation unchanged at 0.773438. AC1F remains exactly at the Y3 family medians. Diagnosis: `INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT`; the input axis is closed.
+
 ## Program reports and accounting
 
 - Candidate-interaction/stage report: `docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md`
@@ -228,6 +283,13 @@ The 25 regenerated Y3 fits reproduce the committed parent exactly and retain 3/5
 - V837aa resource accounting: `experiments/v837_primitive_invention/v837aa_resource_accounting.json`
 - Candidate-law audit program accounting: `experiments/v837_primitive_invention/candidate_law_alignment_program_resource_accounting.json`
 - Candidate-law audit status: `experiments/v837_primitive_invention/candidate_law_alignment_program_status.json`
+- Input-factorization localization report: `docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md`
+- Input-organization transfer report: `docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md`
+- Post-input-axis blocker analysis: `docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md`
+- V837ab accounting: `experiments/v837_primitive_invention/v837ab_resource_accounting.json`
+- V837ac accounting: `experiments/v837_primitive_invention/v837ac_resource_accounting.json`
+- Combined input-factorization accounting: `experiments/v837_primitive_invention/input_factorization_program_resource_accounting.json`
+- Input-factorization program status: `experiments/v837_primitive_invention/input_factorization_program_status.json`
 
 Resource totals for V837y+V837z:
 
@@ -264,6 +326,23 @@ GPU seconds                   0
 
 Synthetic probes are deterministic non-task diagnostics; empirical probes are drawn only from frozen development trajectories. Neither adds fresh task episodes.
 
+V837ab+V837ac combined resource totals:
+
+```text
+model fits                    225
+optimizer steps               43,200
+processed training examples   22,118,400
+unique task episodes          3,200
+environment interactions      1,001,025
+forward calls                 46,575
+backward calls                43,275
+CPU seconds (worker sum)      5,684.40625
+wall seconds (worker sum)     6,984.907963900245
+GPU seconds                   0
+```
+
+The same 3,200 family/seed episodes are reused across every V837ab/V837ac condition and replicate.
+
 ## Locked scientific state
 
 ```text
@@ -281,9 +360,11 @@ Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-V837aa shows that candidate parameter sharing is not currently justified by the learned Y3 internals. The exact Y3 parent reproduces at 3/5, but its ten local recurrent/message candidate cores remain substantially heterogeneous even after exhaustive exact tanh-compatible signed-permutation alignment. No fit reaches the frozen universal common-law threshold, aligned trained similarity is worse than the matched aligned initialization null, relative coordinate relations are unstable, and no deterministic k=2..5 type vocabulary passes. Gradient direction compatibility is mixed rather than strongly pooling-compatible.
+V837ab shows that T2's learned 6→6 projection is not a function-class requirement: it folds exactly into the downstream GRU input matrix. However, the matched step-zero comparison demonstrates an optimization effect: exact factorized T2 reaches 4/5 while its fully folded same-function counterpart reaches 3/5, and either candidate-only or controller/update-only trainable factorization independently recovers 4/5. Frozen preconditioning and naive direct initialization are insufficient.
 
-The next documented axis is therefore **shared input representation / input organization**. V837aa is diagnosis-only and does not implement that future architecture.
+V837ac then transfers the smallest supported property—trainable controller-input factorization—to the best neutral Y3 substrate. The transfer changes the learned controller input geometry and improves composition, but remains 3/5 and leaves partial observation unchanged. Therefore input organization is not the remaining representation blocker for Y3.
+
+The next documented single variable is **candidate/state geometry localization**: one dense 13D candidate/state coordinate geometry versus the partitioned 10×4 local geometry, designed so it does not simply repeat V837q shared-state-only testing. It is not implemented in this program.
 
 ## Fast verification
 
@@ -295,13 +376,15 @@ python -m unittest discover -s tests
 python scripts/reproduce_v837_recovery.py --variant v837y
 python scripts/reproduce_v837_recovery.py --variant v837z
 python scripts/reproduce_v837_recovery.py --variant v837aa
+python scripts/reproduce_v837_recovery.py --variant v837ab
+python scripts/reproduce_v837_recovery.py --variant v837ac
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> diagnosis-only V837aa frontier.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> authorized V837ac frontier.
 
 ## Historical SHA anchors
 
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837aa scientific closure commit separately from later verification-integration commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837ac scientific closure commit separately from later verification-integration commits.

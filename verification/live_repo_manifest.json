@@ -127,9 +127,50 @@
     "experiments/v837_primitive_invention/candidate_law_alignment_program_resource_accounting.json",
     "docs/V837_CANDIDATE_LAW_ALIGNMENT_AUDIT.md",
     "scripts/validate_v837_candidate_law_alignment.py",
-    "tests/test_v837aa_candidate_law_alignment.py"
+    "tests/test_v837aa_candidate_law_alignment.py",
+    "experiments/v837_primitive_invention/v837ab/config.json",
+    "experiments/v837_primitive_invention/v837ab/frozen_input_factorization_gate.json",
+    "experiments/v837_primitive_invention/v837ab/results.json",
+    "experiments/v837_primitive_invention/v837ab/analyze_results.py",
+    "experiments/v837_primitive_invention/v837ab/input_factorization.py",
+    "experiments/v837_primitive_invention/v837ab/run_input_factorization.py",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/reference_equivalence.json",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/step0_equivalence.json",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/reference_baseline_guard.json",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/factorization_trajectory.json",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/projection_diagnostics.json",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/projection_gradient_decomposition.json",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/compute_efficiency.json",
+    "experiments/v837_primitive_invention/v837ab/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837ab/raw/ab0_runs.json",
+    "experiments/v837_primitive_invention/v837ab/raw/factorization_runs.json",
+    "experiments/v837_primitive_invention/v837ac/config.json",
+    "experiments/v837_primitive_invention/v837ac/frozen_input_transfer_gate.json",
+    "experiments/v837_primitive_invention/v837ac/results.json",
+    "experiments/v837_primitive_invention/v837ac/analyze_results.py",
+    "experiments/v837_primitive_invention/v837ac/shared_input_transfer.py",
+    "experiments/v837_primitive_invention/v837ac/run_input_transfer.py",
+    "experiments/v837_primitive_invention/v837ac/diagnostics/step0_equivalence.json",
+    "experiments/v837_primitive_invention/v837ac/diagnostics/parent_compatibility.json",
+    "experiments/v837_primitive_invention/v837ac/diagnostics/input_path_diagnostics.json",
+    "experiments/v837_primitive_invention/v837ac/diagnostics/input_projection_dynamics.json",
+    "experiments/v837_primitive_invention/v837ac/diagnostics/compute_efficiency.json",
+    "experiments/v837_primitive_invention/v837ac/diagnostics/decision_state.json",
+    "experiments/v837_primitive_invention/v837ac/raw/ac0_runs.json",
+    "experiments/v837_primitive_invention/v837ac/raw/transfer_runs.json",
+    "experiments/v837_primitive_invention/v837ab_resource_accounting.json",
+    "experiments/v837_primitive_invention/v837ac_resource_accounting.json",
+    "experiments/v837_primitive_invention/input_factorization_program_status.json",
+    "experiments/v837_primitive_invention/input_factorization_program_resource_accounting.json",
+    "docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md",
+    "docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md",
+    "docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md",
+    "scripts/validate_v837_input_factorization.py",
+    "scripts/validate_v837_input_transfer.py",
+    "tests/test_v837ab_input_factorization.py",
+    "tests/test_v837ac_input_transfer.py"
   ],
-  "current_scientific_frontier": "V837aa reproduced the frozen V837y Y3 parent exactly at 3/5 and audited whether its ten local candidate laws are reusable. Raw and signed-permutation-aligned functional similarity both remain far below the frozen common-law gate, trained aligned similarity is worse than the matched untrained null, no stable 2-5 cell-type vocabulary passes, and gradient compatibility is mixed. Diagnosis: GENUINELY_DIVERSE_CANDIDATE_LAWS; next axis: shared input representation.",
+  "current_scientific_frontier": "V837ab proved the T2 6->6 projection is exactly foldable yet localized a genuine optimization benefit: AB0 factorized T2=4/5, same-function AB1 folded=3/5, AB2 candidate-only factorized=4/5, AB3 controller/update-only factorized=4/5, frozen projection=2/5, naive direct=3/5. V837ac transferred the smallest supported property, trainable controller-input factorization, into Y3; AC0=3/5, AC1=3/5, AC1F=3/5. Diagnosis: INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT; input axis closed; next single variable is candidate/state geometry localization.",
   "current_variants": {
     "V837aa": {
       "config": "experiments/v837_primitive_invention/v837aa/config.json",
@@ -799,6 +840,84 @@
         "experiments/v837_primitive_invention/v837z/run_candidate_stage.py"
       ],
       "status": "FAIL_REPRESENTATION_INADEQUATE_CANDIDATE_ORGANIZATION_CLOSED"
+    },
+    "V837ab": {
+      "config": "experiments/v837_primitive_invention/v837ab/config.json",
+      "diagnosis": "SINGLE_PATH_INPUT_FACTORIZATION_SUFFICIENT",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837ab/diagnostics/reference_equivalence.json",
+        "experiments/v837_primitive_invention/v837ab/diagnostics/step0_equivalence.json",
+        "experiments/v837_primitive_invention/v837ab/diagnostics/reference_baseline_guard.json",
+        "experiments/v837_primitive_invention/v837ab/diagnostics/factorization_trajectory.json",
+        "experiments/v837_primitive_invention/v837ab/diagnostics/projection_diagnostics.json",
+        "experiments/v837_primitive_invention/v837ab/diagnostics/projection_gradient_decomposition.json",
+        "experiments/v837_primitive_invention/v837ab/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837ab/diagnostics/decision_state.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837ab/README.md",
+        "experiments/v837_primitive_invention/v837ab/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837ab/PASS.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837ab/frozen_input_factorization_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837ab/plots/families_passing_by_input_factorization.png",
+        "experiments/v837_primitive_invention/v837ab/plots/family_scores_by_factorization.png",
+        "experiments/v837_primitive_invention/v837ab/plots/factorized_vs_folded.png",
+        "experiments/v837_primitive_invention/v837ab/plots/candidate_vs_update_factorization.png",
+        "experiments/v837_primitive_invention/v837ab/plots/projection_singular_values.png",
+        "experiments/v837_primitive_invention/v837ab/plots/effective_input_map_trajectory.png",
+        "experiments/v837_primitive_invention/v837ab/plots/projection_gradient_alignment.png",
+        "experiments/v837_primitive_invention/v837ab/plots/capability_vs_projection_macs.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837ab/raw/ab0_runs.json",
+        "experiments/v837_primitive_invention/v837ab/raw/factorization_runs.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837ab/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837ab/analyze_results.py",
+        "experiments/v837_primitive_invention/v837ab/input_factorization.py",
+        "experiments/v837_primitive_invention/v837ab/run_input_factorization.py"
+      ],
+      "status": "REFERENCE_FACTORIZATION_LOCALIZED_TRANSFER_AUTHORIZED"
+    },
+    "V837ac": {
+      "config": "experiments/v837_primitive_invention/v837ac/config.json",
+      "diagnosis": "INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837ac/diagnostics/step0_equivalence.json",
+        "experiments/v837_primitive_invention/v837ac/diagnostics/parent_compatibility.json",
+        "experiments/v837_primitive_invention/v837ac/diagnostics/input_path_diagnostics.json",
+        "experiments/v837_primitive_invention/v837ac/diagnostics/input_projection_dynamics.json",
+        "experiments/v837_primitive_invention/v837ac/diagnostics/compute_efficiency.json",
+        "experiments/v837_primitive_invention/v837ac/diagnostics/decision_state.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837ac/README.md",
+        "experiments/v837_primitive_invention/v837ac/RESEARCH_SPEC.md",
+        "experiments/v837_primitive_invention/v837ac/FAILURE.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837ac/frozen_input_transfer_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837ac/plots/neutral_input_transfer_family_scores.png",
+        "experiments/v837_primitive_invention/v837ac/plots/routing_partial_composition_deltas.png",
+        "experiments/v837_primitive_invention/v837ac/plots/shared_vs_folded_control.png",
+        "experiments/v837_primitive_invention/v837ac/plots/shared_vs_deshared_projection.png",
+        "experiments/v837_primitive_invention/v837ac/plots/projection_dynamics.png",
+        "experiments/v837_primitive_invention/v837ac/plots/capability_vs_active_macs.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837ac/raw/ac0_runs.json",
+        "experiments/v837_primitive_invention/v837ac/raw/transfer_runs.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837ac/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837ac/analyze_results.py",
+        "experiments/v837_primitive_invention/v837ac/shared_input_transfer.py",
+        "experiments/v837_primitive_invention/v837ac/run_input_transfer.py"
+      ],
+      "status": "FAIL_REPRESENTATION_INADEQUATE_INPUT_AXIS_CLOSED"
     }
   },
   "fresh_audit_consumed": false,
@@ -822,8 +941,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "bf2fd5c25c0dc6d01f8ee00502ec78a2d1eab60e",
-  "main_sha_semantics": "V837aa scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
+  "main_sha": "a3d845505e2c6871683b6c9176bc2f121600b0e4",
+  "main_sha_semantics": "V837ac scientific result commit indexed by this verification package. Verification/report/hash integration commits may have later SHAs; use git rev-parse HEAD for the final repository commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -846,11 +965,14 @@
     "docs/V837_SCALAR_CONTROL_TRANSFER_BLOCKER_ANALYSIS.md",
     "docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md",
     "docs/V837_CANDIDATE_ORGANIZATION_BLOCKER_ANALYSIS.md",
-    "docs/V837_CANDIDATE_LAW_ALIGNMENT_AUDIT.md"
+    "docs/V837_CANDIDATE_LAW_ALIGNMENT_AUDIT.md",
+    "docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md",
+    "docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md",
+    "docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 candidate-transformation interaction (V837y), candidate-stage localization (V837z), then diagnosis-only candidate-law alignment audit (V837aa)",
-  "research_sha": "bf2fd5c25c0dc6d01f8ee00502ec78a2d1eab60e",
+  "research_lineage": "V837 candidate interaction/stage localization -> V837aa candidate-law audit -> V837ab reference input-factorization localization -> V837ac minimal controller-input transfer",
+  "research_sha": "a3d845505e2c6871683b6c9176bc2f121600b0e4",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_representation_recovery_outcome.py",
@@ -877,7 +999,9 @@
     "tests/test_v837x_global_scalar_control.py",
     "tests/test_v837y_candidate_interaction.py",
     "tests/test_v837z_candidate_stage.py",
-    "tests/test_v837aa_candidate_law_alignment.py"
+    "tests/test_v837aa_candidate_law_alignment.py",
+    "tests/test_v837ab_input_factorization.py",
+    "tests/test_v837ac_input_transfer.py"
   ],
   "validators": [
     "scripts/validate_active_research.py",
@@ -894,6 +1018,8 @@
     "scripts/validate_v837_global_scalar_control.py",
     "scripts/validate_v837_candidate_interaction.py",
     "scripts/validate_v837_candidate_stage.py",
-    "scripts/validate_v837_candidate_law_alignment.py"
+    "scripts/validate_v837_candidate_law_alignment.py",
+    "scripts/validate_v837_input_factorization.py",
+    "scripts/validate_v837_input_transfer.py"
   ]
 }

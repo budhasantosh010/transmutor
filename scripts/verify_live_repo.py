@@ -503,6 +503,51 @@ def main() -> int:
     if int(aa_resources.get("model_fits", -1)) != 25 or int(aa_resources.get("optimizer_steps", -1)) != 4800 or int(aa_resources.get("processed_training_examples", -1)) != 2457600 or int(aa_resources.get("unique_seed_defined_task_episodes", -1)) != 3200:
         raise RuntimeError("candidate-law program resource accounting changed")
 
+    # V837ab reference-side input-factorization localization and V837ac minimal neutral transfer.
+    for variant_name in ("V837ab", "V837ac"):
+        record = manifest["current_variants"].get(variant_name)
+        if not isinstance(record, dict):
+            raise RuntimeError(f"verification manifest missing {variant_name}")
+        for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+            for relative in record.get(key, []):
+                require_path(relative)
+        require_path(record["config"])
+        require_path(record["frozen_gate"])
+        require_path(record["results"])
+
+    ab = load_json(manifest["current_variants"]["V837ab"]["results"])
+    expected_ab = {
+        "AB0_exact_factorized_t2": 4,
+        "AB1_fully_folded_equivalent": 3,
+        "AB2_candidate_factorized_update_folded": 4,
+        "AB3_candidate_folded_update_factorized": 4,
+        "AB4_frozen_shared_projection": 2,
+        "AB5_naive_projection_free": 3,
+    }
+    actual_ab = {name: int(row.get("families_passing", -1)) for name, row in ab.get("conditions", {}).items()}
+    if actual_ab != expected_ab or ab.get("diagnosis") != "SINGLE_PATH_INPUT_FACTORIZATION_SUFFICIENT" or ab.get("authorized_v837ac_mode") != "TRAINABLE_CONTROLLER_INPUT_FACTORIZATION":
+        raise RuntimeError("V837ab input-factorization outcome changed")
+    if ab.get("function_class_equivalence_proven") is not True or ab.get("step0_equivalence_proven") is not True or ab.get("fresh_audit_consumed") is not False or ab.get("v838_started") is not False:
+        raise RuntimeError("V837ab equivalence/lock state changed")
+
+    ac = load_json(manifest["current_variants"]["V837ac"]["results"])
+    expected_ac = {"AC0_y3_parent": 3, "AC1_controller_input_factorization": 3, "AC1F_folded_control": 3}
+    actual_ac = {name: int(row.get("families_passing", -1)) for name, row in ac.get("conditions", {}).items()}
+    if actual_ac != expected_ac or ac.get("diagnosis") != "INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT" or ac.get("representation_adequacy_pass") is not False:
+        raise RuntimeError("V837ac input-transfer outcome changed")
+    if ac.get("authorized_mode") != "TRAINABLE_CONTROLLER_INPUT_FACTORIZATION" or ac.get("parent_reproduced") is not True or ac.get("step0_equivalence_proven") is not True:
+        raise RuntimeError("V837ac authorization/compatibility changed")
+    if ac.get("sample_efficiency_retest_allowed") is not False or ac.get("structural_search_allowed") is not False or ac.get("primitive_mining_allowed") is not False or ac.get("fresh_audit_consumed") is not False or ac.get("v838_started") is not False:
+        raise RuntimeError("V837ac science lock state changed")
+
+    input_status = load_json("experiments/v837_primitive_invention/input_factorization_program_status.json")
+    input_resources = load_json("experiments/v837_primitive_invention/input_factorization_program_resource_accounting.json")
+    if input_status.get("v837ab_diagnosis") != "SINGLE_PATH_INPUT_FACTORIZATION_SUFFICIENT" or input_status.get("v837ac_diagnosis") != "INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT" or input_status.get("representation_adequacy") != "FAIL" or input_status.get("input_axis_closed") is not True:
+        raise RuntimeError("input-factorization program status changed")
+    combined_input = input_resources.get("combined", {})
+    if int(combined_input.get("model_fits", -1)) != 225 or int(combined_input.get("optimizer_steps", -1)) != 43200 or int(combined_input.get("processed_training_examples", -1)) != 22118400 or int(combined_input.get("unique_seed_defined_episodes", -1)) != 3200:
+        raise RuntimeError("input-factorization program resource accounting changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

@@ -1,0 +1,44 @@
+{
+  "version": "V837ab+V837ac",
+  "combined": {
+    "model_fits": 225,
+    "optimizer_steps": 43200,
+    "processed_training_examples": 22118400,
+    "unique_seed_defined_episodes": 3200,
+    "environment_interactions": 1001025,
+    "forward_calls": 46575,
+    "backward_calls": 43275,
+    "cpu_seconds_worker_sum": 5684.40625,
+    "wall_seconds_worker_sum": 6984.907963900245,
+    "gpu_seconds": 0.0
+  },
+  "v837ab": {
+    "model_fits": 150,
+    "optimizer_steps": 28800,
+    "processed_training_examples": 14745600,
+    "environment_interactions": 667350,
+    "forward_calls": 30975,
+    "backward_calls": 28875,
+    "cpu_seconds_worker_sum": 811.375,
+    "wall_seconds_worker_sum": 870.556023300509,
+    "gpu_seconds": 0.0
+  },
+  "v837ac": {
+    "model_fits": 75,
+    "optimizer_steps": 14400,
+    "processed_training_examples": 7372800,
+    "environment_interactions": 333675,
+    "forward_calls": 15600,
+    "backward_calls": 14400,
+    "cpu_seconds_worker_sum": 4873.03125,
+    "wall_seconds_worker_sum": 6114.351940599736,
+    "gpu_seconds": 0.0
+  },
+  "data_policy": {
+    "development_per_family": 512,
+    "validation_per_family": 128,
+    "families": 5,
+    "unique_family_seed_episodes": 3200,
+    "reuse": "the same 3200 family/seed episodes are reused across all conditions and replicates"
+  }
+}
