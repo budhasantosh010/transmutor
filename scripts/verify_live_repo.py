@@ -531,11 +531,12 @@ def main() -> int:
         raise RuntimeError("V837ab equivalence/lock state changed")
 
     ac = load_json(manifest["current_variants"]["V837ac"]["results"])
+    ac_decision = load_json("experiments/v837_primitive_invention/v837ac/diagnostics/decision_state.json")
     expected_ac = {"AC0_y3_parent": 3, "AC1_controller_input_factorization": 3, "AC1F_folded_control": 3}
     actual_ac = {name: int(row.get("families_passing", -1)) for name, row in ac.get("conditions", {}).items()}
     if actual_ac != expected_ac or ac.get("diagnosis") != "INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT" or ac.get("representation_adequacy_pass") is not False:
         raise RuntimeError("V837ac input-transfer outcome changed")
-    if ac.get("authorized_mode") != "TRAINABLE_CONTROLLER_INPUT_FACTORIZATION" or ac.get("parent_reproduced") is not True or ac.get("step0_equivalence_proven") is not True:
+    if ac.get("authorized_mode") != "TRAINABLE_CONTROLLER_INPUT_FACTORIZATION" or ac_decision.get("parent_reproduced") is not True or ac_decision.get("step0_equivalence_proven") is not True:
         raise RuntimeError("V837ac authorization/compatibility changed")
     if ac.get("sample_efficiency_retest_allowed") is not False or ac.get("structural_search_allowed") is not False or ac.get("primitive_mining_allowed") is not False or ac.get("fresh_audit_consumed") is not False or ac.get("v838_started") is not False:
         raise RuntimeError("V837ac science lock state changed")
