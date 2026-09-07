@@ -1,0 +1,21 @@
+{
+  "authorized_mode": "TRAINABLE_CONTROLLER_INPUT_FACTORIZATION",
+  "best_passing_condition": null,
+  "diagnosis": "INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT",
+  "families_passing": {
+    "AC0_y3_parent": 3,
+    "AC1F_folded_control": 3,
+    "AC1_controller_input_factorization": 3
+  },
+  "fresh_audit_consumed": false,
+  "large_persistent_storage_tested": false,
+  "parent_reproduced": true,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "step0_equivalence_proven": true,
+  "structural_search_allowed": false,
+  "v837ac_complete": true,
+  "v838_started": false
+}

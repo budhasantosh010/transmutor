@@ -1,0 +1,26 @@
+{
+  "AC0_y3_parent": {
+    "candidate_input_map_pairwise_cosine_median": 0.004938761171009458,
+    "candidate_jacobian_norm_approx_median": 0.8033842776409912,
+    "controller_effective_input_norm_median": 0.28673210740089417,
+    "input_term_norm_median": 0.5150985807180405,
+    "input_term_temporal_variance_median": 0.0848615050315857,
+    "message_success_drop_median": 0.2578125
+  },
+  "AC1F_folded_control": {
+    "candidate_input_map_pairwise_cosine_median": 0.004938761171009458,
+    "candidate_jacobian_norm_approx_median": 0.8033842776409912,
+    "controller_effective_input_norm_median": 0.28673210740089417,
+    "input_term_norm_median": 0.5150985807180405,
+    "input_term_temporal_variance_median": 0.0848615050315857,
+    "message_success_drop_median": 0.2578125
+  },
+  "AC1_controller_input_factorization": {
+    "candidate_input_map_pairwise_cosine_median": 0.02066371261093472,
+    "candidate_jacobian_norm_approx_median": 0.7810533271168172,
+    "controller_effective_input_norm_median": 0.6884090304374695,
+    "input_term_norm_median": 0.5051144689321518,
+    "input_term_temporal_variance_median": 0.08499194458127021,
+    "message_success_drop_median": 0.296875
+  }
+}

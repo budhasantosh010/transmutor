@@ -1,0 +1,122 @@
+{
+  "AC0_y3_parent": {
+    "0": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.18119217455387115,
+      "fits": 25
+    },
+    "144": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.29504019021987915,
+      "fits": 25
+    },
+    "192": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.28673210740089417,
+      "fits": 25
+    },
+    "24": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.22338655591011047,
+      "fits": 25
+    },
+    "48": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.27249664068222046,
+      "fits": 25
+    },
+    "96": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.3267132639884949,
+      "fits": 25
+    }
+  },
+  "AC1F_folded_control": {
+    "0": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.18119217455387115,
+      "fits": 25
+    },
+    "144": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.29504019021987915,
+      "fits": 25
+    },
+    "192": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.28673210740089417,
+      "fits": 25
+    },
+    "24": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.22338655591011047,
+      "fits": 25
+    },
+    "48": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.27249664068222046,
+      "fits": 25
+    },
+    "96": {
+      "active_projection_fits": 0,
+      "effective_controller_input_norm_median": 0.3267132639884949,
+      "fits": 25
+    }
+  },
+  "AC1_controller_input_factorization": {
+    "0": {
+      "active_projection_fits": 25,
+      "effective_controller_input_norm_median": 0.18119217455387115,
+      "fits": 25,
+      "projection_bias_drift_median": 0.0,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_drift_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585
+    },
+    "144": {
+      "active_projection_fits": 25,
+      "effective_controller_input_norm_median": 0.7002010941505432,
+      "fits": 25,
+      "projection_bias_drift_median": 0.3295288383960724,
+      "projection_condition_number_median": 20.933256448621457,
+      "projection_drift_median": 0.5448664426803589,
+      "projection_frobenius_median": 1.4980604648590088
+    },
+    "192": {
+      "active_projection_fits": 25,
+      "effective_controller_input_norm_median": 0.6884090304374695,
+      "fits": 25,
+      "projection_bias_drift_median": 0.34358349442481995,
+      "projection_condition_number_median": 15.141846820018648,
+      "projection_drift_median": 0.5202405452728271,
+      "projection_frobenius_median": 1.5137683153152466
+    },
+    "24": {
+      "active_projection_fits": 25,
+      "effective_controller_input_norm_median": 0.3974452018737793,
+      "fits": 25,
+      "projection_bias_drift_median": 0.10209786891937256,
+      "projection_condition_number_median": 19.123291421342515,
+      "projection_drift_median": 0.301798552274704,
+      "projection_frobenius_median": 1.4318541288375854
+    },
+    "48": {
+      "active_projection_fits": 25,
+      "effective_controller_input_norm_median": 0.5858120322227478,
+      "fits": 25,
+      "projection_bias_drift_median": 0.19467727839946747,
+      "projection_condition_number_median": 13.854500318996612,
+      "projection_drift_median": 0.4113328754901886,
+      "projection_frobenius_median": 1.477880597114563
+    },
+    "96": {
+      "active_projection_fits": 25,
+      "effective_controller_input_norm_median": 0.7108544707298279,
+      "fits": 25,
+      "projection_bias_drift_median": 0.28637513518333435,
+      "projection_condition_number_median": 15.733895788649058,
+      "projection_drift_median": 0.5132496356964111,
+      "projection_frobenius_median": 1.5039535760879517
+    }
+  }
+}
