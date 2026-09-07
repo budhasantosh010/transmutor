@@ -1,0 +1,13 @@
+{
+  "version": "V837ac",
+  "frozen_before_results": true,
+  "authorized_v837ab_mode": "TRAINABLE_CONTROLLER_INPUT_FACTORIZATION",
+  "conditions": ["AC0_y3_parent", "AC1_controller_input_factorization", "AC1F_folded_control"],
+  "ac1d_required": false,
+  "ac1d_reason": "one controller consumer only",
+  "step0_equivalence": "AC1 and AC1F candidate input terms, controller effective input, global gate, candidate states, next states, and prediction <=1e-6",
+  "representation_gate": ">=4/5 families",
+  "diagnoses": ["SHARED_INPUT_FACTORIZATION_SPECIFICALLY_SUFFICIENT", "INPUT_EFFECTIVE_MAPPING_SUFFICIENT", "INPUT_FACTORIZATION_SUFFICIENT_SHAREDNESS_NOT_ESTABLISHED", "INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT", "INPUT_ORGANIZATION_TRANSFER_HARMFUL"],
+  "fresh_audit_consumed": false,
+  "v838_started": false
+}
