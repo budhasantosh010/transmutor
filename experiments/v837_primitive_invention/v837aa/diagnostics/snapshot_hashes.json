@@ -1,0 +1,16 @@
+{
+  "frozen_parent_git_blob_sha256_verified": {
+    "experiments/v837_primitive_invention/audit/audit_results.json": "48c937f20d9f27ac0b57df5d48134bfad7ba9a3eac857848714ae10d802f77e7",
+    "experiments/v837_primitive_invention/common/gates.py": "a23671c88d8e66bdfe261844e86472d4b7a9f4e17c8189db873840059787e557",
+    "experiments/v837_primitive_invention/frozen_gates.json": "29c4eb79e8b50ce08891122b7498ee531a57082ca4f6de0c0f1ae18624de3180",
+    "experiments/v837_primitive_invention/v837y/candidate_interaction.py": "55669e520a4fbcabca550ec220b61de357e7aa5c0227d151243343a45fca500b",
+    "experiments/v837_primitive_invention/v837y/config.json": "049d44b695a9e772f2bc634a77d2a5860f0598addf8ae15d3bbc4c5a7c754cc2",
+    "experiments/v837_primitive_invention/v837y/raw/interaction_runs.json": "57c71844e74cede81e2f1d12cd5437437103ec578ec4a52dd0efe3d2563584fc",
+    "experiments/v837_primitive_invention/v837y/results.json": "e4cb9004c7c68a25d5feb84cb6c25263459a0610a74350f08b3f1d3b999fa7e6",
+    "experiments/v837_primitive_invention/v837z/diagnostics/decision_state.json": "2ed035fdbab7283e0125dcff97a4897b0d8826965b3312e13c6b40d5e4fe7e01",
+    "experiments/v837_primitive_invention/v837z/results.json": "b50018be06275a2fb1e5f53e516188ca2131e80b2454e70a4da3af4b60dc7b1e"
+  },
+  "initial_parameter_snapshots_sha256": "4ee1733018f6b69f40f70ec97a3127cd48c81550df164243709d547db04f60e7",
+  "runs_sha256": "d6c5154d5572c6c9d750b3c499d83fa285bc9a8d8d741eb264d4940fdc06b007",
+  "trained_parameter_snapshots_sha256": "943d3175af984a6f3178974eeecd109533e38af4858d85b8e8c680c51e37b430"
+}

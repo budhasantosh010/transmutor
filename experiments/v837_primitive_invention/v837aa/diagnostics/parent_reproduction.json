@@ -1,0 +1,354 @@
+{
+  "condition": "Y3_global_control_rank4_candidate",
+  "data_regime": "4x_unique",
+  "expected_families_passing": 3,
+  "expected_family_medians": {
+    "conditional_routing": {
+      "capacity_demonstrated": false,
+      "development": 1.0,
+      "validation": 0.84375
+    },
+    "delayed_recall": {
+      "capacity_demonstrated": true,
+      "development": 0.998046875,
+      "validation": 0.953125
+    },
+    "iterative_state": {
+      "capacity_demonstrated": true,
+      "development": 0.998046875,
+      "validation": 0.9921875
+    },
+    "partial_observation": {
+      "capacity_demonstrated": false,
+      "development": 0.98828125,
+      "validation": 0.7734375
+    },
+    "variable_composition": {
+      "capacity_demonstrated": true,
+      "development": 0.986328125,
+      "validation": 0.8515625
+    }
+  },
+  "family_validation_median_abs_deltas": {
+    "conditional_routing": 0.0,
+    "delayed_recall": 0.0,
+    "iterative_state": 0.0,
+    "partial_observation": 0.0,
+    "variable_composition": 0.0
+  },
+  "observed_families_passing": 3,
+  "observed_family_medians": {
+    "conditional_routing": {
+      "capacity_demonstrated": false,
+      "development": 1.0,
+      "validation": 0.84375
+    },
+    "delayed_recall": {
+      "capacity_demonstrated": true,
+      "development": 0.998046875,
+      "validation": 0.953125
+    },
+    "iterative_state": {
+      "capacity_demonstrated": true,
+      "development": 0.998046875,
+      "validation": 0.9921875
+    },
+    "partial_observation": {
+      "capacity_demonstrated": false,
+      "development": 0.98828125,
+      "validation": 0.7734375
+    },
+    "variable_composition": {
+      "capacity_demonstrated": true,
+      "development": 0.986328125,
+      "validation": 0.8515625
+    }
+  },
+  "parent_reproduction_valid": true,
+  "per_run": [
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.998046875,
+      "expected_validation_success": 0.6328125,
+      "family": "conditional_routing",
+      "observed_development_success": 0.998046875,
+      "observed_validation_success": 0.6328125,
+      "replicate_id": 0,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.9140625,
+      "family": "conditional_routing",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.9140625,
+      "replicate_id": 1,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.90625,
+      "family": "conditional_routing",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.90625,
+      "replicate_id": 2,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.84375,
+      "family": "conditional_routing",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.84375,
+      "replicate_id": 3,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.8046875,
+      "family": "conditional_routing",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.8046875,
+      "replicate_id": 4,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.9453125,
+      "family": "delayed_recall",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.9453125,
+      "replicate_id": 0,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.998046875,
+      "expected_validation_success": 0.9609375,
+      "family": "delayed_recall",
+      "observed_development_success": 0.998046875,
+      "observed_validation_success": 0.9609375,
+      "replicate_id": 1,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.9609375,
+      "family": "delayed_recall",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.9609375,
+      "replicate_id": 2,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.998046875,
+      "expected_validation_success": 0.953125,
+      "family": "delayed_recall",
+      "observed_development_success": 0.998046875,
+      "observed_validation_success": 0.953125,
+      "replicate_id": 3,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.962890625,
+      "expected_validation_success": 0.953125,
+      "family": "delayed_recall",
+      "observed_development_success": 0.962890625,
+      "observed_validation_success": 0.953125,
+      "replicate_id": 4,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.998046875,
+      "expected_validation_success": 1.0,
+      "family": "iterative_state",
+      "observed_development_success": 0.998046875,
+      "observed_validation_success": 1.0,
+      "replicate_id": 0,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.998046875,
+      "expected_validation_success": 0.9921875,
+      "family": "iterative_state",
+      "observed_development_success": 0.998046875,
+      "observed_validation_success": 0.9921875,
+      "replicate_id": 1,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.998046875,
+      "expected_validation_success": 1.0,
+      "family": "iterative_state",
+      "observed_development_success": 0.998046875,
+      "observed_validation_success": 1.0,
+      "replicate_id": 2,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.99609375,
+      "expected_validation_success": 0.9921875,
+      "family": "iterative_state",
+      "observed_development_success": 0.99609375,
+      "observed_validation_success": 0.9921875,
+      "replicate_id": 3,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.9921875,
+      "family": "iterative_state",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.9921875,
+      "replicate_id": 4,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 1.0,
+      "expected_validation_success": 0.703125,
+      "family": "partial_observation",
+      "observed_development_success": 1.0,
+      "observed_validation_success": 0.703125,
+      "replicate_id": 0,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.99609375,
+      "expected_validation_success": 0.7734375,
+      "family": "partial_observation",
+      "observed_development_success": 0.99609375,
+      "observed_validation_success": 0.7734375,
+      "replicate_id": 1,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.98828125,
+      "expected_validation_success": 0.6953125,
+      "family": "partial_observation",
+      "observed_development_success": 0.98828125,
+      "observed_validation_success": 0.6953125,
+      "replicate_id": 2,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.984375,
+      "expected_validation_success": 0.8359375,
+      "family": "partial_observation",
+      "observed_development_success": 0.984375,
+      "observed_validation_success": 0.8359375,
+      "replicate_id": 3,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.98828125,
+      "expected_validation_success": 0.8125,
+      "family": "partial_observation",
+      "observed_development_success": 0.98828125,
+      "observed_validation_success": 0.8125,
+      "replicate_id": 4,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.986328125,
+      "expected_validation_success": 0.8125,
+      "family": "variable_composition",
+      "observed_development_success": 0.986328125,
+      "observed_validation_success": 0.8125,
+      "replicate_id": 0,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.994140625,
+      "expected_validation_success": 0.859375,
+      "family": "variable_composition",
+      "observed_development_success": 0.994140625,
+      "observed_validation_success": 0.859375,
+      "replicate_id": 1,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.98828125,
+      "expected_validation_success": 0.8046875,
+      "family": "variable_composition",
+      "observed_development_success": 0.98828125,
+      "observed_validation_success": 0.8046875,
+      "replicate_id": 2,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.984375,
+      "expected_validation_success": 0.859375,
+      "family": "variable_composition",
+      "observed_development_success": 0.984375,
+      "observed_validation_success": 0.859375,
+      "replicate_id": 3,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "expected_development_success": 0.986328125,
+      "expected_validation_success": 0.8515625,
+      "family": "variable_composition",
+      "observed_development_success": 0.986328125,
+      "observed_validation_success": 0.8515625,
+      "replicate_id": 4,
+      "valid": true,
+      "validation_abs_delta": 0.0
+    }
+  ],
+  "tolerances": {
+    "development_success": 0.001953125,
+    "family_median_validation": 0.015625,
+    "parameter_count": 1223,
+    "recurrent_controller_macs": 846,
+    "required_family_pass_count": 3,
+    "validation_success": 0.0078125
+  },
+  "unique_task_episodes": 3200
+}

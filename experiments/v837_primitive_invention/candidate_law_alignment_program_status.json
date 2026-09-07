@@ -1,0 +1,22 @@
+{
+  "program": "V837aa candidate-law alignment audit",
+  "version": "V837aa",
+  "parent": "Y3_global_control_rank4_candidate",
+  "parent_reproduction": "PASS",
+  "parent_families_passing": 3,
+  "audit_valid": true,
+  "candidate_law_diagnosis": "GENUINELY_DIVERSE_CANDIDATE_LAWS",
+  "recommended_next_axis": "NEXT_AXIS_SHARED_INPUT_REPRESENTATION",
+  "direct_common_basis": false,
+  "common_law_after_signed_permutation": false,
+  "relative_basis_stable": false,
+  "stable_small_type_vocabulary": false,
+  "gradient_compatibility": "mixed",
+  "representation_adequacy": "still_3_of_5_parent",
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v837ab_implemented": false,
+  "v838_started": false
+}

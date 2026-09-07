@@ -123,10 +123,12 @@ def validate_runs() -> None:
                 raise ValueError(f"{filename} contains incompatible Y3 snapshot")
             keys = snapshot.get("state_dict", {})
             required = [f"base.cell_{name}.{i}" for name in ("ws","wm","wx","b","wo") for i in range(10)]
-            required += ["base.edge_weights", "global_u", "global_v", "global_ws", "global_wx", "global_b", "base.readout.weight", "base.readout.bias"]
+            required += ["global_u", "global_v", "global_ws", "global_wx", "global_b", "base.readout.weight", "base.readout.bias"]
             missing = [key for key in required if key not in keys]
-            if missing:
-                raise ValueError(f"snapshot missing required parameters: {missing[:5]}")
+            edge_keys = [f"base.edge_weights.{i}" for i in range(55)]
+            missing_edges = [key for key in edge_keys if key not in keys]
+            if missing or missing_edges:
+                raise ValueError(f"snapshot missing required parameters: {(missing + missing_edges)[:5]}")
     reproduction = load(HERE / "diagnostics/parent_reproduction.json")
     if reproduction.get("parent_reproduction_valid") is not True:
         result_path = HERE / "results.json"

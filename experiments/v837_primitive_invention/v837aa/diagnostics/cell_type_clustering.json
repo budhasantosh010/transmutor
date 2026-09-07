@@ -1,0 +1,4087 @@
+{
+  "k_results": {
+    "2": {
+      "candidate_stage_depth_distance_cocluster_correlation": 0.19372168458563785,
+      "consensus_agreement_fit_count": 10,
+      "consensus_assignments": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "consensus_matrix": [
+        [
+          1.0,
+          0.76,
+          0.72,
+          0.4,
+          0.68,
+          0.96,
+          0.88,
+          0.84,
+          0.92,
+          0.72
+        ],
+        [
+          0.76,
+          1.0,
+          0.64,
+          0.48,
+          0.68,
+          0.72,
+          0.72,
+          0.76,
+          0.76,
+          0.72
+        ],
+        [
+          0.72,
+          0.64,
+          1.0,
+          0.36,
+          0.56,
+          0.76,
+          0.68,
+          0.64,
+          0.72,
+          0.68
+        ],
+        [
+          0.4,
+          0.48,
+          0.36,
+          1.0,
+          0.4,
+          0.36,
+          0.44,
+          0.32,
+          0.32,
+          0.36
+        ],
+        [
+          0.68,
+          0.68,
+          0.56,
+          0.4,
+          1.0,
+          0.72,
+          0.72,
+          0.68,
+          0.68,
+          0.72
+        ],
+        [
+          0.96,
+          0.72,
+          0.76,
+          0.36,
+          0.72,
+          1.0,
+          0.84,
+          0.88,
+          0.88,
+          0.76
+        ],
+        [
+          0.88,
+          0.72,
+          0.68,
+          0.44,
+          0.72,
+          0.84,
+          1.0,
+          0.72,
+          0.8,
+          0.6
+        ],
+        [
+          0.84,
+          0.76,
+          0.64,
+          0.32,
+          0.68,
+          0.88,
+          0.72,
+          1.0,
+          0.76,
+          0.72
+        ],
+        [
+          0.92,
+          0.76,
+          0.72,
+          0.32,
+          0.68,
+          0.88,
+          0.8,
+          0.76,
+          1.0,
+          0.72
+        ],
+        [
+          0.72,
+          0.72,
+          0.68,
+          0.36,
+          0.72,
+          0.76,
+          0.6,
+          0.72,
+          0.72,
+          1.0
+        ]
+      ],
+      "family_median_consensus_agreement": {
+        "conditional_routing": 0.5333333333333333,
+        "delayed_recall": 1.0,
+        "iterative_state": 0.6444444444444445,
+        "partial_observation": 0.6444444444444445,
+        "variable_composition": 0.8
+      },
+      "family_quality_fit_count": {
+        "conditional_routing": 0,
+        "delayed_recall": 0,
+        "iterative_state": 0,
+        "partial_observation": 0,
+        "variable_composition": 0
+      },
+      "fits": [
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            8,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.5333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.6415851719375001,
+            "within_median_nrmse": 0.4267274074090648
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.18432098615986892,
+          "synthetic": {
+            "within_median_cosine": 0.6031301175762179,
+            "within_median_nrmse": 0.46262029968391655
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            8,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.5333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.7060207206456425,
+            "within_median_nrmse": 0.3900138084407199
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.10612994472985984,
+          "synthetic": {
+            "within_median_cosine": 0.6320161977852213,
+            "within_median_nrmse": 0.4321519846204386
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.6109808306174673,
+            "within_median_nrmse": 0.4504273218565852
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.3147175115830079,
+          "synthetic": {
+            "within_median_cosine": 0.5445407522387946,
+            "within_median_nrmse": 0.48039434889080423
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            7,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.4666666666666667,
+          "empirical": {
+            "within_median_cosine": 0.5623260962668257,
+            "within_median_nrmse": 0.4812761414613236
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.1498904750921623,
+          "synthetic": {
+            "within_median_cosine": 0.561107952514795,
+            "within_median_nrmse": 0.4846461945637578
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.7025127877799641,
+            "within_median_nrmse": 0.39116804602197247
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.31038872130052864,
+          "synthetic": {
+            "within_median_cosine": 0.6444659242169452,
+            "within_median_nrmse": 0.4267353741493489
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.741709628113119,
+            "within_median_nrmse": 0.37743495987848114
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.36332315349126165,
+          "synthetic": {
+            "within_median_cosine": 0.6553827976677917,
+            "within_median_nrmse": 0.43119679121014154
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.7612707853695169,
+            "within_median_nrmse": 0.357021971818093
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.31553827063371936,
+          "synthetic": {
+            "within_median_cosine": 0.731951763281376,
+            "within_median_nrmse": 0.3720775380417302
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.7378247560607216,
+            "within_median_nrmse": 0.37890091771648793
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.2734053022909707,
+          "synthetic": {
+            "within_median_cosine": 0.6570149868080004,
+            "within_median_nrmse": 0.4549110829180397
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            5,
+            5
+          ],
+          "consensus_pairwise_agreement": 0.4666666666666667,
+          "empirical": {
+            "within_median_cosine": 0.735240179000582,
+            "within_median_nrmse": 0.37875947310972913
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.11521625902920278,
+          "synthetic": {
+            "within_median_cosine": 0.6707834590480395,
+            "within_median_nrmse": 0.41300059954959534
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.7041848980139843,
+            "within_median_nrmse": 0.39542013381857644
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.37374771050633954,
+          "synthetic": {
+            "within_median_cosine": 0.7564996561983028,
+            "within_median_nrmse": 0.35971138889723714
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.76510432153301,
+            "within_median_nrmse": 0.3639949652177881
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.37077688224510497,
+          "synthetic": {
+            "within_median_cosine": 0.6449147295908095,
+            "within_median_nrmse": 0.4496972733647623
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.7760196157973895,
+            "within_median_nrmse": 0.3459785013083806
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.3667419010307542,
+          "synthetic": {
+            "within_median_cosine": 0.7357780665584845,
+            "within_median_nrmse": 0.3662853202470388
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            5,
+            5
+          ],
+          "consensus_pairwise_agreement": 0.4666666666666667,
+          "empirical": {
+            "within_median_cosine": 0.7407314650280458,
+            "within_median_nrmse": 0.3806883300814633
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.19955321604893905,
+          "synthetic": {
+            "within_median_cosine": 0.7519664025363495,
+            "within_median_nrmse": 0.35760884604193377
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            5,
+            5
+          ],
+          "consensus_pairwise_agreement": 0.4666666666666667,
+          "empirical": {
+            "within_median_cosine": 0.7329131222421912,
+            "within_median_nrmse": 0.3998356092318172
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.1559515426118157,
+          "synthetic": {
+            "within_median_cosine": 0.6993638961282294,
+            "within_median_nrmse": 0.3884373636548468
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.8610227690078418,
+            "within_median_nrmse": 0.3053176960174211
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.45030388067385135,
+          "synthetic": {
+            "within_median_cosine": 0.7982120870641578,
+            "within_median_nrmse": 0.35469379687709635
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            8,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.5333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.7235896393824744,
+            "within_median_nrmse": 0.42768644662639677
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.22276476456412525,
+          "synthetic": {
+            "within_median_cosine": 0.6498467521480263,
+            "within_median_nrmse": 0.4648980944683693
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            7,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.4666666666666667,
+          "empirical": {
+            "within_median_cosine": 0.7761061643008199,
+            "within_median_nrmse": 0.34303144206601577
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.10707749780961158,
+          "synthetic": {
+            "within_median_cosine": 0.7419900811222311,
+            "within_median_nrmse": 0.3657661905574679
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.7003411785299638,
+            "within_median_nrmse": 0.4233317818675877
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.3783638546580312,
+          "synthetic": {
+            "within_median_cosine": 0.6746999195443815,
+            "within_median_nrmse": 0.4409096420026706
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            7,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.7351939922612611,
+            "within_median_nrmse": 0.38426057623074983
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.13945993657366149,
+          "synthetic": {
+            "within_median_cosine": 0.7304611679879274,
+            "within_median_nrmse": 0.3923029284774999
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.8060377895077743,
+            "within_median_nrmse": 0.3284626125263338
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.518634200224892,
+          "synthetic": {
+            "within_median_cosine": 0.7761087819972177,
+            "within_median_nrmse": 0.34944537338336645
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            8,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.8,
+          "empirical": {
+            "within_median_cosine": 0.6035563394458422,
+            "within_median_nrmse": 0.4473212764798757
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.19029885779610373,
+          "synthetic": {
+            "within_median_cosine": 0.6218879543828622,
+            "within_median_nrmse": 0.4411465564392223
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            8,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.8,
+          "empirical": {
+            "within_median_cosine": 0.6403009760882231,
+            "within_median_nrmse": 0.4273014169555551
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.10958075291407847,
+          "synthetic": {
+            "within_median_cosine": 0.593708738520005,
+            "within_median_nrmse": 0.45707247584672034
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            7,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.5944475086030755,
+            "within_median_nrmse": 0.4702263589737094
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.17005455803877417,
+          "synthetic": {
+            "within_median_cosine": 0.6241653940053637,
+            "within_median_nrmse": 0.46499564703365837
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            6,
+            4
+          ],
+          "consensus_pairwise_agreement": 0.5333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.6835828992604851,
+            "within_median_nrmse": 0.4008743052306075
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.17751829514616307,
+          "synthetic": {
+            "within_median_cosine": 0.677281379776221,
+            "within_median_nrmse": 0.4019196431805297
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 2,
+          "cluster_sizes": [
+            9,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.5396051934820498,
+            "within_median_nrmse": 0.5054155133695782
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.316496769285073,
+          "synthetic": {
+            "within_median_cosine": 0.6209225282696298,
+            "within_median_nrmse": 0.45930108096463435
+          }
+        }
+      ],
+      "mean_silhouette_like": 0.255210209777516,
+      "median_consensus_pairwise_agreement": 0.6444444444444445,
+      "passes": false,
+      "quality_fit_count": 0
+    },
+    "3": {
+      "candidate_stage_depth_distance_cocluster_correlation": 0.08561451617065786,
+      "consensus_agreement_fit_count": 4,
+      "consensus_assignments": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "consensus_matrix": [
+        [
+          1.0,
+          0.56,
+          0.44,
+          0.28,
+          0.6,
+          0.72,
+          0.56,
+          0.56,
+          0.68,
+          0.4
+        ],
+        [
+          0.56,
+          1.0,
+          0.44,
+          0.28,
+          0.48,
+          0.52,
+          0.6,
+          0.48,
+          0.56,
+          0.4
+        ],
+        [
+          0.44,
+          0.44,
+          1.0,
+          0.28,
+          0.28,
+          0.56,
+          0.48,
+          0.4,
+          0.64,
+          0.48
+        ],
+        [
+          0.28,
+          0.28,
+          0.28,
+          1.0,
+          0.24,
+          0.24,
+          0.28,
+          0.2,
+          0.2,
+          0.16
+        ],
+        [
+          0.6,
+          0.48,
+          0.28,
+          0.24,
+          1.0,
+          0.44,
+          0.48,
+          0.44,
+          0.44,
+          0.28
+        ],
+        [
+          0.72,
+          0.52,
+          0.56,
+          0.24,
+          0.44,
+          1.0,
+          0.6,
+          0.76,
+          0.72,
+          0.44
+        ],
+        [
+          0.56,
+          0.6,
+          0.48,
+          0.28,
+          0.48,
+          0.6,
+          1.0,
+          0.48,
+          0.48,
+          0.24
+        ],
+        [
+          0.56,
+          0.48,
+          0.4,
+          0.2,
+          0.44,
+          0.76,
+          0.48,
+          1.0,
+          0.6,
+          0.44
+        ],
+        [
+          0.68,
+          0.56,
+          0.64,
+          0.2,
+          0.44,
+          0.72,
+          0.48,
+          0.6,
+          1.0,
+          0.6
+        ],
+        [
+          0.4,
+          0.4,
+          0.48,
+          0.16,
+          0.28,
+          0.44,
+          0.24,
+          0.44,
+          0.6,
+          1.0
+        ]
+      ],
+      "family_median_consensus_agreement": {
+        "conditional_routing": 0.6,
+        "delayed_recall": 0.5555555555555556,
+        "iterative_state": 0.5555555555555556,
+        "partial_observation": 0.6888888888888889,
+        "variable_composition": 0.6
+      },
+      "family_quality_fit_count": {
+        "conditional_routing": 0,
+        "delayed_recall": 0,
+        "iterative_state": 0,
+        "partial_observation": 0,
+        "variable_composition": 0
+      },
+      "fits": [
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            8,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.8222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.6601142712384023,
+            "within_median_nrmse": 0.4183219519110951
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.3673384268347231,
+          "synthetic": {
+            "within_median_cosine": 0.6158957807644373,
+            "within_median_nrmse": 0.449562058893185
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            8,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.37777777777777777,
+          "empirical": {
+            "within_median_cosine": 0.7080500518467798,
+            "within_median_nrmse": 0.38751208910415463
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.2666405221434705,
+          "synthetic": {
+            "within_median_cosine": 0.6342099868676766,
+            "within_median_nrmse": 0.4293842277914135
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            6,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.4666666666666667,
+          "empirical": {
+            "within_median_cosine": 0.6412701031732562,
+            "within_median_nrmse": 0.42938783645070117
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.20627237416692706,
+          "synthetic": {
+            "within_median_cosine": 0.6569122183022851,
+            "within_median_nrmse": 0.4195420660006344
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            6,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.5781824132094939,
+            "within_median_nrmse": 0.4758622743616717
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.2151353055705015,
+          "synthetic": {
+            "within_median_cosine": 0.6149346086256832,
+            "within_median_nrmse": 0.4574880483600682
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            5,
+            4,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6888888888888889,
+          "empirical": {
+            "within_median_cosine": 0.7350570532003008,
+            "within_median_nrmse": 0.36556000795377086
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.17780251171083053,
+          "synthetic": {
+            "within_median_cosine": 0.6990936753955692,
+            "within_median_nrmse": 0.3896253618864378
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            6,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.8222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.8196278359728479,
+            "within_median_nrmse": 0.3104519759906038
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.2942810344986492,
+          "synthetic": {
+            "within_median_cosine": 0.8317605425603091,
+            "within_median_nrmse": 0.2934290315674507
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            4,
+            5,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.7987583915693233,
+            "within_median_nrmse": 0.33395551646014066
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.1693822473379431,
+          "synthetic": {
+            "within_median_cosine": 0.7424103935859208,
+            "within_median_nrmse": 0.36956468292369005
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            8,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.37777777777777777,
+          "empirical": {
+            "within_median_cosine": 0.7793487889117763,
+            "within_median_nrmse": 0.35636212116508426
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.35853804735365813,
+          "synthetic": {
+            "within_median_cosine": 0.685793653700935,
+            "within_median_nrmse": 0.43309661468670335
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            2,
+            0,
+            2,
+            0,
+            2
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            5,
+            2,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.5111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.774746690662452,
+            "within_median_nrmse": 0.35136349908097575
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.10295805554809545,
+          "synthetic": {
+            "within_median_cosine": 0.6884596727565542,
+            "within_median_nrmse": 0.411437764319336
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            2,
+            7,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.5555555555555556,
+          "empirical": {
+            "within_median_cosine": 0.7515343847985735,
+            "within_median_nrmse": 0.3841878164668973
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.2576744332752828,
+          "synthetic": {
+            "within_median_cosine": 0.8314440749316948,
+            "within_median_nrmse": 0.2967352231305249
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            7,
+            2,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6888888888888889,
+          "empirical": {
+            "within_median_cosine": 0.781677255622747,
+            "within_median_nrmse": 0.35048099869046745
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.2710568513072417,
+          "synthetic": {
+            "within_median_cosine": 0.7053110277458673,
+            "within_median_nrmse": 0.41342346578834466
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            8,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.8028934365246654,
+            "within_median_nrmse": 0.325121213829965
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.3410586269367586,
+          "synthetic": {
+            "within_median_cosine": 0.7757674543216238,
+            "within_median_nrmse": 0.3423875103069869
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            2,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            5,
+            2,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.5111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.7699692707958569,
+            "within_median_nrmse": 0.3435597998668283
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.2096586107935959,
+          "synthetic": {
+            "within_median_cosine": 0.7927756629685322,
+            "within_median_nrmse": 0.3225497775258618
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            2
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            5,
+            4,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.5555555555555556,
+          "empirical": {
+            "within_median_cosine": 0.750414617690325,
+            "within_median_nrmse": 0.3963515479105524
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.23410598129729046,
+          "synthetic": {
+            "within_median_cosine": 0.7336372778779321,
+            "within_median_nrmse": 0.3817444089823172
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            2,
+            7,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.5555555555555556,
+          "empirical": {
+            "within_median_cosine": 0.8824518199375084,
+            "within_median_nrmse": 0.27615663977506644
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.2592916914502566,
+          "synthetic": {
+            "within_median_cosine": 0.8343582945242682,
+            "within_median_nrmse": 0.30059731062913086
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            7,
+            2,
+            1
+          ],
+          "consensus_pairwise_agreement": 1.0,
+          "empirical": {
+            "within_median_cosine": 0.7573517271455055,
+            "within_median_nrmse": 0.38930269015214636
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.3558988115270723,
+          "synthetic": {
+            "within_median_cosine": 0.6985233884098179,
+            "within_median_nrmse": 0.42378090008901603
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            6,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.4222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.7888556234757418,
+            "within_median_nrmse": 0.33643089659934355
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.1877528236133767,
+          "synthetic": {
+            "within_median_cosine": 0.7529588100394264,
+            "within_median_nrmse": 0.35201180355511885
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            8,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.37777777777777777,
+          "empirical": {
+            "within_median_cosine": 0.712164272572697,
+            "within_median_nrmse": 0.3824058907292389
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.39083533315440916,
+          "synthetic": {
+            "within_median_cosine": 0.7263712203111636,
+            "within_median_nrmse": 0.4070372157460088
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            7,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.6888888888888889,
+          "empirical": {
+            "within_median_cosine": 0.7640519665195962,
+            "within_median_nrmse": 0.36639116149256257
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.23722210692464354,
+          "synthetic": {
+            "within_median_cosine": 0.7402679015170388,
+            "within_median_nrmse": 0.3811106911256458
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            2,
+            7,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6888888888888889,
+          "empirical": {
+            "within_median_cosine": 0.8266777788152189,
+            "within_median_nrmse": 0.3062615178015945
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.25990987085175615,
+          "synthetic": {
+            "within_median_cosine": 0.8138029449911739,
+            "within_median_nrmse": 0.31665893690790703
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            6,
+            2,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.8,
+          "empirical": {
+            "within_median_cosine": 0.6879152249320231,
+            "within_median_nrmse": 0.4012364038868329
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.20439632195162058,
+          "synthetic": {
+            "within_median_cosine": 0.7521011595557793,
+            "within_median_nrmse": 0.3525640780425357
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            2,
+            2,
+            2,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            5,
+            2,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.6617579144167962,
+            "within_median_nrmse": 0.4220031521729207
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.06133964065079748,
+          "synthetic": {
+            "within_median_cosine": 0.5983478138031402,
+            "within_median_nrmse": 0.4534040743232073
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            2,
+            0,
+            2
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            5,
+            3,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.5111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.6621765322276357,
+            "within_median_nrmse": 0.4377133302089604
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.09894010598094118,
+          "synthetic": {
+            "within_median_cosine": 0.6570237616253956,
+            "within_median_nrmse": 0.4404058804542749
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            6,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.6980688838556668,
+            "within_median_nrmse": 0.3961715588675824
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.25529093488297416,
+          "synthetic": {
+            "within_median_cosine": 0.7269525229445037,
+            "within_median_nrmse": 0.39456303608309695
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 3,
+          "cluster_sizes": [
+            8,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.5889125310957913,
+            "within_median_nrmse": 0.4829727392143015
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.3113700209166928,
+          "synthetic": {
+            "within_median_cosine": 0.6417367807112966,
+            "within_median_nrmse": 0.4552470124445181
+          }
+        }
+      ],
+      "mean_silhouette_like": 0.2437660276271803,
+      "median_consensus_pairwise_agreement": 0.6,
+      "passes": false,
+      "quality_fit_count": 0
+    },
+    "4": {
+      "candidate_stage_depth_distance_cocluster_correlation": -0.015939193474043958,
+      "consensus_agreement_fit_count": 2,
+      "consensus_assignments": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "consensus_matrix": [
+        [
+          1.0,
+          0.32,
+          0.32,
+          0.08,
+          0.44,
+          0.68,
+          0.4,
+          0.44,
+          0.4,
+          0.24
+        ],
+        [
+          0.32,
+          1.0,
+          0.36,
+          0.2,
+          0.32,
+          0.4,
+          0.4,
+          0.44,
+          0.4,
+          0.2
+        ],
+        [
+          0.32,
+          0.36,
+          1.0,
+          0.16,
+          0.2,
+          0.48,
+          0.44,
+          0.32,
+          0.56,
+          0.4
+        ],
+        [
+          0.08,
+          0.2,
+          0.16,
+          1.0,
+          0.12,
+          0.08,
+          0.2,
+          0.04,
+          0.04,
+          0.04
+        ],
+        [
+          0.44,
+          0.32,
+          0.2,
+          0.12,
+          1.0,
+          0.4,
+          0.28,
+          0.36,
+          0.2,
+          0.12
+        ],
+        [
+          0.68,
+          0.4,
+          0.48,
+          0.08,
+          0.4,
+          1.0,
+          0.48,
+          0.68,
+          0.56,
+          0.36
+        ],
+        [
+          0.4,
+          0.4,
+          0.44,
+          0.2,
+          0.28,
+          0.48,
+          1.0,
+          0.4,
+          0.4,
+          0.24
+        ],
+        [
+          0.44,
+          0.44,
+          0.32,
+          0.04,
+          0.36,
+          0.68,
+          0.4,
+          1.0,
+          0.48,
+          0.36
+        ],
+        [
+          0.4,
+          0.4,
+          0.56,
+          0.04,
+          0.2,
+          0.56,
+          0.4,
+          0.48,
+          1.0,
+          0.52
+        ],
+        [
+          0.24,
+          0.2,
+          0.4,
+          0.04,
+          0.12,
+          0.36,
+          0.24,
+          0.36,
+          0.52,
+          1.0
+        ]
+      ],
+      "family_median_consensus_agreement": {
+        "conditional_routing": 0.6222222222222222,
+        "delayed_recall": 0.6444444444444445,
+        "iterative_state": 0.6444444444444445,
+        "partial_observation": 0.6444444444444445,
+        "variable_composition": 0.6666666666666666
+      },
+      "family_quality_fit_count": {
+        "conditional_routing": 0,
+        "delayed_recall": 0,
+        "iterative_state": 0,
+        "partial_observation": 0,
+        "variable_composition": 0
+      },
+      "fits": [
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            7,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6888888888888889,
+          "empirical": {
+            "within_median_cosine": 0.7013229116128675,
+            "within_median_nrmse": 0.3930006137547525
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.42514149476376273,
+          "synthetic": {
+            "within_median_cosine": 0.6429332771624388,
+            "within_median_nrmse": 0.4262167247223213
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            0,
+            2,
+            3,
+            2,
+            2
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            3,
+            1,
+            5,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.7146841720074384,
+            "within_median_nrmse": 0.38235560123288287
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.24847873101546547,
+          "synthetic": {
+            "within_median_cosine": 0.6634332105936195,
+            "within_median_nrmse": 0.4155041625129872
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            6,
+            2,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.6557341829703254,
+            "within_median_nrmse": 0.4192436636781439
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.29918462714724275,
+          "synthetic": {
+            "within_median_cosine": 0.671539817217066,
+            "within_median_nrmse": 0.4089085316719172
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            0,
+            2,
+            0,
+            0,
+            2,
+            1,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            4,
+            3,
+            2,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.5854818159794457,
+            "within_median_nrmse": 0.4693383654480986
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.21071682566265423,
+          "synthetic": {
+            "within_median_cosine": 0.6472079708336308,
+            "within_median_nrmse": 0.42932936762132545
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            1,
+            3,
+            3,
+            1
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            1,
+            4,
+            1,
+            4
+          ],
+          "consensus_pairwise_agreement": 0.5777777777777777,
+          "empirical": {
+            "within_median_cosine": 0.7641022920690592,
+            "within_median_nrmse": 0.3452689244204604
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.2936233037064643,
+          "synthetic": {
+            "within_median_cosine": 0.7520595732217923,
+            "within_median_nrmse": 0.3618988527319904
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            3,
+            0,
+            1,
+            1
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            5,
+            3,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.8222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.8566521654519429,
+            "within_median_nrmse": 0.27503356823726377
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.408020735009222,
+          "synthetic": {
+            "within_median_cosine": 0.8661538116312749,
+            "within_median_nrmse": 0.2677337869456158
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            0,
+            3,
+            1,
+            1
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            4,
+            4,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.8285013397422265,
+            "within_median_nrmse": 0.2997900436322313
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.26830830454052895,
+          "synthetic": {
+            "within_median_cosine": 0.7586511516224754,
+            "within_median_nrmse": 0.3529018960037599
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            5,
+            3,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.8311355313426437,
+            "within_median_nrmse": 0.2906112513416745
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.3937544893816715,
+          "synthetic": {
+            "within_median_cosine": 0.8093232861057045,
+            "within_median_nrmse": 0.31192676505948497
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            3,
+            0,
+            3,
+            0,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.6222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.7972849206228745,
+            "within_median_nrmse": 0.3440347847791255
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.09329289814934237,
+          "synthetic": {
+            "within_median_cosine": 0.7224041434778297,
+            "within_median_nrmse": 0.3953578957842607
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            1,
+            7,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.7542913446084578,
+            "within_median_nrmse": 0.3810457138898462
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.3661490920181564,
+          "synthetic": {
+            "within_median_cosine": 0.8316448574577651,
+            "within_median_nrmse": 0.29104496107865024
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            3,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            5,
+            2,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.7555555555555555,
+          "empirical": {
+            "within_median_cosine": 0.864786857195874,
+            "within_median_nrmse": 0.2700715752161371
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.35822625847464823,
+          "synthetic": {
+            "within_median_cosine": 0.8493068794833192,
+            "within_median_nrmse": 0.28403596689358773
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3,
+            1,
+            0
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            6,
+            2,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.5333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.8330108222427653,
+            "within_median_nrmse": 0.31710124408764356
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.2758291541131984,
+          "synthetic": {
+            "within_median_cosine": 0.8205983333302531,
+            "within_median_nrmse": 0.3256198120684801
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            2,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            5,
+            1,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6,
+          "empirical": {
+            "within_median_cosine": 0.7709784984174649,
+            "within_median_nrmse": 0.3428927435716183
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.3578522404057068,
+          "synthetic": {
+            "within_median_cosine": 0.8009347841837426,
+            "within_median_nrmse": 0.31612833492743003
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            5,
+            2,
+            2,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.7947445328199971,
+            "within_median_nrmse": 0.338037263207917
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.24852551945031287,
+          "synthetic": {
+            "within_median_cosine": 0.7508663502661064,
+            "within_median_nrmse": 0.3653190574085862
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            1,
+            7,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.8835639366660288,
+            "within_median_nrmse": 0.2663084790641097
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.4208329891823162,
+          "synthetic": {
+            "within_median_cosine": 0.8383877795737996,
+            "within_median_nrmse": 0.2953878307823098
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            7,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6888888888888889,
+          "empirical": {
+            "within_median_cosine": 0.7797158528329279,
+            "within_median_nrmse": 0.3811179377028752
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.5223048584869316,
+          "synthetic": {
+            "within_median_cosine": 0.7010680903602513,
+            "within_median_nrmse": 0.4016969298514636
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0,
+            1,
+            3,
+            2,
+            2
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.810056010607179,
+            "within_median_nrmse": 0.33508198633025726
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.17443254353967982,
+          "synthetic": {
+            "within_median_cosine": 0.7820962145961501,
+            "within_median_nrmse": 0.3357539664471211
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            7,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6444444444444445,
+          "empirical": {
+            "within_median_cosine": 0.7615329865041923,
+            "within_median_nrmse": 0.3481747745011767
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.4860312833057323,
+          "synthetic": {
+            "within_median_cosine": 0.7570875780940011,
+            "within_median_nrmse": 0.37856302360504296
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            7,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.5555555555555556,
+          "empirical": {
+            "within_median_cosine": 0.7814998996662883,
+            "within_median_nrmse": 0.36172166496349906
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.4104144077883965,
+          "synthetic": {
+            "within_median_cosine": 0.7447811077209648,
+            "within_median_nrmse": 0.380562166865912
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            1,
+            7,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.5555555555555556,
+          "empirical": {
+            "within_median_cosine": 0.8270572515065261,
+            "within_median_nrmse": 0.3042193043935425
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.4355098316716465,
+          "synthetic": {
+            "within_median_cosine": 0.8192963626643396,
+            "within_median_nrmse": 0.30811682975874416
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            6,
+            1,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.8444444444444444,
+          "empirical": {
+            "within_median_cosine": 0.6894853212577718,
+            "within_median_nrmse": 0.39946929471934217
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.4045438146416738,
+          "synthetic": {
+            "within_median_cosine": 0.7587115614093528,
+            "within_median_nrmse": 0.35109162929367876
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3,
+            3,
+            3,
+            1,
+            0
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.7243271456439967,
+            "within_median_nrmse": 0.37469072600418474
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.07401417167946082,
+          "synthetic": {
+            "within_median_cosine": 0.691032153236756,
+            "within_median_nrmse": 0.4042686612535932
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            0,
+            1,
+            3,
+            0,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            5,
+            2,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.6222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.6720499749342672,
+            "within_median_nrmse": 0.4336261690517566
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.19053902879142265,
+          "synthetic": {
+            "within_median_cosine": 0.6853682119714977,
+            "within_median_nrmse": 0.4135092306108824
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            6,
+            2,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.7052735566495216,
+            "within_median_nrmse": 0.39167153643145225
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.3479225143215981,
+          "synthetic": {
+            "within_median_cosine": 0.744890952561711,
+            "within_median_nrmse": 0.38370508936777514
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "cluster_count": 4,
+          "cluster_sizes": [
+            2,
+            6,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.6324408784785083,
+            "within_median_nrmse": 0.4380569004172687
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.3083933352525738,
+          "synthetic": {
+            "within_median_cosine": 0.6603214897130749,
+            "within_median_nrmse": 0.42083130371370836
+          }
+        }
+      ],
+      "mean_silhouette_like": 0.32088169809999234,
+      "median_consensus_pairwise_agreement": 0.6444444444444445,
+      "passes": false,
+      "quality_fit_count": 0
+    },
+    "5": {
+      "candidate_stage_depth_distance_cocluster_correlation": 0.00364432358088236,
+      "consensus_agreement_fit_count": 6,
+      "consensus_assignments": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        0,
+        2,
+        0,
+        4,
+        4
+      ],
+      "consensus_matrix": [
+        [
+          1.0,
+          0.2,
+          0.28,
+          0.04,
+          0.36,
+          0.68,
+          0.28,
+          0.4,
+          0.32,
+          0.2
+        ],
+        [
+          0.2,
+          1.0,
+          0.24,
+          0.12,
+          0.28,
+          0.28,
+          0.2,
+          0.4,
+          0.12,
+          0.04
+        ],
+        [
+          0.28,
+          0.24,
+          1.0,
+          0.08,
+          0.12,
+          0.44,
+          0.4,
+          0.24,
+          0.32,
+          0.24
+        ],
+        [
+          0.04,
+          0.12,
+          0.08,
+          1.0,
+          0.04,
+          0.04,
+          0.16,
+          0.0,
+          0.04,
+          0.04
+        ],
+        [
+          0.36,
+          0.28,
+          0.12,
+          0.04,
+          1.0,
+          0.36,
+          0.12,
+          0.32,
+          0.08,
+          0.12
+        ],
+        [
+          0.68,
+          0.28,
+          0.44,
+          0.04,
+          0.36,
+          1.0,
+          0.32,
+          0.6,
+          0.32,
+          0.28
+        ],
+        [
+          0.28,
+          0.2,
+          0.4,
+          0.16,
+          0.12,
+          0.32,
+          1.0,
+          0.24,
+          0.28,
+          0.12
+        ],
+        [
+          0.4,
+          0.4,
+          0.24,
+          0.0,
+          0.32,
+          0.6,
+          0.24,
+          1.0,
+          0.28,
+          0.2
+        ],
+        [
+          0.32,
+          0.12,
+          0.32,
+          0.04,
+          0.08,
+          0.32,
+          0.28,
+          0.28,
+          1.0,
+          0.36
+        ],
+        [
+          0.2,
+          0.04,
+          0.24,
+          0.04,
+          0.12,
+          0.28,
+          0.12,
+          0.2,
+          0.36,
+          1.0
+        ]
+      ],
+      "family_median_consensus_agreement": {
+        "conditional_routing": 0.7333333333333333,
+        "delayed_recall": 0.7111111111111111,
+        "iterative_state": 0.7333333333333333,
+        "partial_observation": 0.6666666666666666,
+        "variable_composition": 0.7333333333333333
+      },
+      "family_quality_fit_count": {
+        "conditional_routing": 0,
+        "delayed_recall": 0,
+        "iterative_state": 0,
+        "partial_observation": 0,
+        "variable_composition": 0
+      },
+      "fits": [
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            2,
+            0,
+            3,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            1,
+            2,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.8444444444444444,
+          "empirical": {
+            "within_median_cosine": 0.7307931006075225,
+            "within_median_nrmse": 0.3687317784002832
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.4179788199982298,
+          "synthetic": {
+            "within_median_cosine": 0.7726020826524986,
+            "within_median_nrmse": 0.3384700389255565
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            0,
+            2,
+            4,
+            2,
+            2
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            2,
+            1,
+            5,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.72475721021782,
+            "within_median_nrmse": 0.37120011140830783
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.3517920695049427,
+          "synthetic": {
+            "within_median_cosine": 0.6634332105936195,
+            "within_median_nrmse": 0.4155041625129872
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0,
+            3,
+            0,
+            0,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            2,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.7345876365978299,
+            "within_median_nrmse": 0.36444335805518896
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.36799195586243016,
+          "synthetic": {
+            "within_median_cosine": 0.6680906107981579,
+            "within_median_nrmse": 0.4131234849426355
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            0,
+            3,
+            0,
+            0,
+            3,
+            2,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            4,
+            1,
+            2,
+            2,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.5874939696046307,
+            "within_median_nrmse": 0.45855159509838594
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.30917632973421627,
+          "synthetic": {
+            "within_median_cosine": 0.6810776105847748,
+            "within_median_nrmse": 0.4023125035518623
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            1,
+            3,
+            4,
+            1
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            1,
+            4,
+            1,
+            3,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.8,
+          "empirical": {
+            "within_median_cosine": 0.7865919723148674,
+            "within_median_nrmse": 0.33115222110826104
+          },
+          "family": "conditional_routing",
+          "fit_key": "conditional_routing::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.4061181530646114,
+          "synthetic": {
+            "within_median_cosine": 0.7740249947624798,
+            "within_median_nrmse": 0.34908495092280883
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            3,
+            0,
+            4,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            1,
+            1,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.8888888888888888,
+          "empirical": {
+            "within_median_cosine": 0.8817816682484936,
+            "within_median_nrmse": 0.2733920522832498
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.4989283134276918,
+          "synthetic": {
+            "within_median_cosine": 0.874028027229603,
+            "within_median_nrmse": 0.2663789542382731
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            2,
+            0,
+            4,
+            2,
+            2
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            2,
+            2,
+            4,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6888888888888889,
+          "empirical": {
+            "within_median_cosine": 0.8349245892004844,
+            "within_median_nrmse": 0.2930832907794041
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.279012882967953,
+          "synthetic": {
+            "within_median_cosine": 0.7678169848890097,
+            "within_median_nrmse": 0.3472314349948035
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            2,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7555555555555555,
+          "empirical": {
+            "within_median_cosine": 0.8367735975032189,
+            "within_median_nrmse": 0.28628914846237985
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.48921078410041463,
+          "synthetic": {
+            "within_median_cosine": 0.8186495424176778,
+            "within_median_nrmse": 0.30142701086601753
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            4,
+            0,
+            4,
+            0,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            3,
+            2,
+            1,
+            1,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.7111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.80644260925467,
+            "within_median_nrmse": 0.34363699905799
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.29737615852286453,
+          "synthetic": {
+            "within_median_cosine": 0.7429417516891378,
+            "within_median_nrmse": 0.3914908014760038
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            1,
+            4,
+            3,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6222222222222222,
+          "empirical": {
+            "within_median_cosine": 0.8086912177017512,
+            "within_median_nrmse": 0.317045760891875
+          },
+          "family": "delayed_recall",
+          "fit_key": "delayed_recall::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.37368884295522553,
+          "synthetic": {
+            "within_median_cosine": 0.8617606392844397,
+            "within_median_nrmse": 0.285325975320803
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            3,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            2,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.8888888888888888,
+          "empirical": {
+            "within_median_cosine": 0.8701192016625215,
+            "within_median_nrmse": 0.26643460607982516
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.5260646564032102,
+          "synthetic": {
+            "within_median_cosine": 0.8517068997021248,
+            "within_median_nrmse": 0.28122109526206607
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3,
+            4,
+            0
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            6,
+            1,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.8395780883070216,
+            "within_median_nrmse": 0.31702770317098344
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.46451921272625984,
+          "synthetic": {
+            "within_median_cosine": 0.8295002358496695,
+            "within_median_nrmse": 0.3186548637383073
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            2,
+            3,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            1,
+            2,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7555555555555555,
+          "empirical": {
+            "within_median_cosine": 0.834226936244391,
+            "within_median_nrmse": 0.2947632531522219
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.4578193862599095,
+          "synthetic": {
+            "within_median_cosine": 0.808310817578827,
+            "within_median_nrmse": 0.3155597409797988
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            0,
+            0,
+            1,
+            3,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            4,
+            2,
+            2,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.8244107015246942,
+            "within_median_nrmse": 0.30822957667576906
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.3221253064594896,
+          "synthetic": {
+            "within_median_cosine": 0.746429191452439,
+            "within_median_nrmse": 0.36392357025991107
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            1,
+            1,
+            1,
+            4,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            1,
+            5,
+            1,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.7111111111111111,
+          "empirical": {
+            "within_median_cosine": 0.906685107714026,
+            "within_median_nrmse": 0.2207355469957686
+          },
+          "family": "iterative_state",
+          "fit_key": "iterative_state::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.39999987878768933,
+          "synthetic": {
+            "within_median_cosine": 0.8391498843869443,
+            "within_median_nrmse": 0.294575050370413
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            3,
+            0,
+            3,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            1,
+            1,
+            2,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.8444444444444444,
+          "empirical": {
+            "within_median_cosine": 0.8927795363388449,
+            "within_median_nrmse": 0.23497791912473748
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.5343773369876945,
+          "synthetic": {
+            "within_median_cosine": 0.8836645235570971,
+            "within_median_nrmse": 0.24118112982697235
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0,
+            3,
+            4,
+            2,
+            2
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            3,
+            2,
+            3,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.7555555555555555,
+          "empirical": {
+            "within_median_cosine": 0.8107719449447529,
+            "within_median_nrmse": 0.33337932265531406
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.2543048788095725,
+          "synthetic": {
+            "within_median_cosine": 0.7859451782614367,
+            "within_median_nrmse": 0.3348255558200689
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            6,
+            1,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.7913500983858562,
+            "within_median_nrmse": 0.3454608364219356
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.5238410596583496,
+          "synthetic": {
+            "within_median_cosine": 0.7712936670650419,
+            "within_median_nrmse": 0.34425724830791105
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            3,
+            0,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            6,
+            1,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.7912842858005499,
+            "within_median_nrmse": 0.32891337124194236
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.48670616863233285,
+          "synthetic": {
+            "within_median_cosine": 0.7730069634325254,
+            "within_median_nrmse": 0.357360634064015
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            3,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            1,
+            6,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.8458229125596936,
+            "within_median_nrmse": 0.3006143117283876
+          },
+          "family": "partial_observation",
+          "fit_key": "partial_observation::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.46082693893530535,
+          "synthetic": {
+            "within_median_cosine": 0.840057572466213,
+            "within_median_nrmse": 0.2913841531203065
+          }
+        },
+        {
+          "assignments": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            3,
+            0,
+            4,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            5,
+            1,
+            1,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.8888888888888888,
+          "empirical": {
+            "within_median_cosine": 0.7102397361861587,
+            "within_median_nrmse": 0.38586970167334766
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r0",
+          "passes_within_type_threshold": false,
+          "replicate_id": 0,
+          "silhouette_like": 0.43513734768517487,
+          "synthetic": {
+            "within_median_cosine": 0.7872447216715148,
+            "within_median_nrmse": 0.32760643674901296
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            2,
+            3,
+            0,
+            4,
+            4,
+            4,
+            1,
+            0
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            3,
+            2,
+            1,
+            1,
+            3
+          ],
+          "consensus_pairwise_agreement": 0.7555555555555555,
+          "empirical": {
+            "within_median_cosine": 0.7326095479778737,
+            "within_median_nrmse": 0.371221182225524
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r1",
+          "passes_within_type_threshold": false,
+          "replicate_id": 1,
+          "silhouette_like": 0.274755896410274,
+          "synthetic": {
+            "within_median_cosine": 0.6956384567227025,
+            "within_median_nrmse": 0.399097051628607
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            3,
+            0,
+            2,
+            4,
+            0,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            3,
+            2,
+            2,
+            1,
+            2
+          ],
+          "consensus_pairwise_agreement": 0.7333333333333333,
+          "empirical": {
+            "within_median_cosine": 0.707685426479947,
+            "within_median_nrmse": 0.38852153624157326
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r2",
+          "passes_within_type_threshold": false,
+          "replicate_id": 2,
+          "silhouette_like": 0.17653497116782607,
+          "synthetic": {
+            "within_median_cosine": 0.6853682119714977,
+            "within_median_nrmse": 0.40091276656890923
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            0,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            6,
+            1,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.7065985324927734,
+            "within_median_nrmse": 0.3889331023339829
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r3",
+          "passes_within_type_threshold": false,
+          "replicate_id": 3,
+          "silhouette_like": 0.5172416647742548,
+          "synthetic": {
+            "within_median_cosine": 0.7479338399445206,
+            "within_median_nrmse": 0.37507705570393757
+          }
+        },
+        {
+          "assignments": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            3,
+            1,
+            1,
+            1,
+            4
+          ],
+          "cluster_count": 5,
+          "cluster_sizes": [
+            2,
+            5,
+            1,
+            1,
+            1
+          ],
+          "consensus_pairwise_agreement": 0.6666666666666666,
+          "empirical": {
+            "within_median_cosine": 0.627118195038708,
+            "within_median_nrmse": 0.4361362020296137
+          },
+          "family": "variable_composition",
+          "fit_key": "variable_composition::r4",
+          "passes_within_type_threshold": false,
+          "replicate_id": 4,
+          "silhouette_like": 0.3753633616577564,
+          "synthetic": {
+            "within_median_cosine": 0.7115618517392216,
+            "within_median_nrmse": 0.3801711792694537
+          }
+        }
+      ],
+      "mean_silhouette_like": 0.4000356950197472,
+      "median_consensus_pairwise_agreement": 0.7333333333333333,
+      "passes": false,
+      "quality_fit_count": 0
+    }
+  },
+  "lowest_passing_k": null
+}

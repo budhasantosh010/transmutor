@@ -1,0 +1,2440 @@
+{
+  "basis_stability_subdiagnosis": "VARIABLE_RELATIVE_BASES",
+  "family_median_exact_agreement": {
+    "conditional_routing": 0.2,
+    "delayed_recall": 0.2,
+    "iterative_state": 0.2,
+    "partial_observation": 0.2,
+    "variable_composition": 0.2
+  },
+  "median_pair_entropy_bits": 4.563856189774725,
+  "median_pair_exact_agreement": 0.08,
+  "pair_exact_agreement_matrix": [
+    [
+      1.0,
+      0.08,
+      0.04,
+      0.04,
+      0.08,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04
+    ],
+    [
+      0.08,
+      1.0,
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.04,
+      0.08,
+      0.08
+    ],
+    [
+      0.04,
+      0.08,
+      1.0,
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      0.04
+    ],
+    [
+      0.04,
+      0.08,
+      0.08,
+      1.0,
+      0.08,
+      0.08,
+      0.04,
+      0.08,
+      0.04,
+      0.04
+    ],
+    [
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      1.0,
+      0.08,
+      0.04,
+      0.04,
+      0.08,
+      0.08
+    ],
+    [
+      0.04,
+      0.08,
+      0.08,
+      0.08,
+      0.08,
+      1.0,
+      0.08,
+      0.04,
+      0.08,
+      0.08
+    ],
+    [
+      0.04,
+      0.08,
+      0.08,
+      0.04,
+      0.04,
+      0.08,
+      1.0,
+      0.08,
+      0.04,
+      0.08
+    ],
+    [
+      0.04,
+      0.04,
+      0.08,
+      0.08,
+      0.04,
+      0.04,
+      0.08,
+      1.0,
+      0.04,
+      0.04
+    ],
+    [
+      0.04,
+      0.08,
+      0.08,
+      0.04,
+      0.08,
+      0.08,
+      0.04,
+      0.04,
+      1.0,
+      0.08
+    ],
+    [
+      0.04,
+      0.08,
+      0.04,
+      0.04,
+      0.08,
+      0.08,
+      0.08,
+      0.04,
+      0.08,
+      1.0
+    ]
+  ],
+  "pair_fraction_meeting_exact_agreement_threshold": 0.0,
+  "pairs": [
+    {
+      "cell_i": 0,
+      "cell_j": 1,
+      "entropy_bits": 4.483856189774723,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 164,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 2,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 4,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 3,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 7,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 4,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 289,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 5,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 43,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 6,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 5,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 7,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 16,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 8,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 1,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 0,
+      "cell_j": 9,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 2,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 2,
+      "entropy_bits": 4.483856189774723,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 126,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 3,
+      "entropy_bits": 4.483856189774723,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 26,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 4,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 126,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 5,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 151,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 6,
+      "entropy_bits": 4.483856189774723,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 228,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 7,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 6,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 8,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 185,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 1,
+      "cell_j": 9,
+      "entropy_bits": 4.483856189774723,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 78,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 2,
+      "cell_j": 3,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 2,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 2,
+      "cell_j": 4,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 296,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 2,
+      "cell_j": 5,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 21,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 2,
+      "cell_j": 6,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 246,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 2,
+      "cell_j": 7,
+      "entropy_bits": 4.483856189774723,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 27,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 2,
+      "cell_j": 8,
+      "entropy_bits": 4.403856189774724,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 46,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 2,
+      "cell_j": 9,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 10,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 3,
+      "cell_j": 4,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 118,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 3,
+      "cell_j": 5,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 140,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 3,
+      "cell_j": 6,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 77,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 3,
+      "cell_j": 7,
+      "entropy_bits": 4.403856189774724,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 255,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 3,
+      "cell_j": 8,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 3,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 3,
+      "cell_j": 9,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 20,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 4,
+      "cell_j": 5,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        }
+      },
+      "mode_relative_transform_index": 296,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 4,
+      "cell_j": 6,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 8,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 4,
+      "cell_j": 7,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 13,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 4,
+      "cell_j": 8,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 72,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 4,
+      "cell_j": 9,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 9,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 5,
+      "cell_j": 6,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 264,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 5,
+      "cell_j": 7,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 11,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 5,
+      "cell_j": 8,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 363,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 5,
+      "cell_j": 9,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 92,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 6,
+      "cell_j": 7,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 184,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 6,
+      "cell_j": 8,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 6,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 6,
+      "cell_j": 9,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 101,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 7,
+      "cell_j": 8,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 0,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 7,
+      "cell_j": 9,
+      "entropy_bits": 4.643856189774724,
+      "exact_transform_agreement_frequency": 0.04,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 4,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    },
+    {
+      "cell_i": 8,
+      "cell_j": 9,
+      "entropy_bits": 4.563856189774725,
+      "exact_transform_agreement_frequency": 0.08,
+      "family_specific": {
+        "conditional_routing": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "delayed_recall": {
+          "entropy_bits": 1.9219280948873623,
+          "exact_agreement_frequency": 0.4
+        },
+        "iterative_state": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "partial_observation": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "variable_composition": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      },
+      "mode_relative_transform_index": 2,
+      "replicate_specific": {
+        "0": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "1": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "2": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "3": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        },
+        "4": {
+          "entropy_bits": 2.321928094887362,
+          "exact_agreement_frequency": 0.2
+        }
+      }
+    }
+  ],
+  "relative_basis_stable": false,
+  "replicate_median_exact_agreement": {
+    "0": 0.2,
+    "1": 0.2,
+    "2": 0.2,
+    "3": 0.2,
+    "4": 0.2
+  }
+}
