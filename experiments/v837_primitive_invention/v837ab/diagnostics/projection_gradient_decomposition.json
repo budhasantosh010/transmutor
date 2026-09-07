@@ -1,0 +1,343 @@
+{
+  "all_sum_identity_within_1e_5_relative": true,
+  "candidate_update_cosine": {
+    "mean": -0.0022520537861133614,
+    "median": -0.0012704682000243455,
+    "p10": -0.3767659524988229,
+    "p90": 0.2776706338331601
+  },
+  "fits": 25,
+  "grad_candidate_norm": {
+    "mean": 0.005086015512933955,
+    "median": 0.0008312865975312889,
+    "p10": 0.00032365545048378407,
+    "p90": 0.011095844767987735
+  },
+  "grad_full_norm": {
+    "mean": 0.005115362174692563,
+    "median": 0.0008785810205154121,
+    "p10": 0.00033073832164518533,
+    "p90": 0.011112798936665065
+  },
+  "grad_update_norm": {
+    "mean": 0.0005986751049931627,
+    "median": 0.00022514825104735792,
+    "p10": 5.2732723270310094e-05,
+    "p90": 0.001153786131180824
+  },
+  "median_relationship": "approximately_orthogonal_or_mixed",
+  "per_fit": [
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.5386667535726652,
+      "family": "conditional_routing",
+      "grad_candidate_norm": 0.006209607236087322,
+      "grad_full_norm": 0.005250225774943829,
+      "grad_update_norm": 0.0029043667018413544,
+      "replicate_id": 0,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 5.1326298766696254e-09,
+      "sum_residual_relative": 9.776017445125089e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.14602306843944773,
+      "family": "conditional_routing",
+      "grad_candidate_norm": 0.0049844710156321526,
+      "grad_full_norm": 0.0049819438718259335,
+      "grad_update_norm": 0.0014381844084709883,
+      "replicate_id": 1,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 2.1779282821654533e-09,
+      "sum_residual_relative": 4.3716435556051744e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.07722418838539975,
+      "family": "conditional_routing",
+      "grad_candidate_norm": 0.0036836506333202124,
+      "grad_full_norm": 0.0037565981037914753,
+      "grad_update_norm": 0.0005052592605352402,
+      "replicate_id": 2,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 2.143782484864687e-09,
+      "sum_residual_relative": 5.70671236484148e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.0034465859387912126,
+      "family": "conditional_routing",
+      "grad_candidate_norm": 0.025722919031977654,
+      "grad_full_norm": 0.025728564709424973,
+      "grad_update_norm": 0.0006347269518300891,
+      "replicate_id": 3,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 2.4083348648673564e-09,
+      "sum_residual_relative": 9.360548837709268e-08
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.054917313751381966,
+      "family": "conditional_routing",
+      "grad_candidate_norm": 0.008160811848938465,
+      "grad_full_norm": 0.008153271861374378,
+      "grad_update_norm": 0.0007271887152455747,
+      "replicate_id": 4,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 4.038202217060416e-09,
+      "sum_residual_relative": 4.952860993377578e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.24266001896438733,
+      "family": "delayed_recall",
+      "grad_candidate_norm": 0.004896016791462898,
+      "grad_full_norm": 0.005071425810456276,
+      "grad_update_norm": 0.0005895395879633725,
+      "replicate_id": 0,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.002674387962088e-09,
+      "sum_residual_relative": 1.9771055033374874e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.3882722209994611,
+      "family": "delayed_recall",
+      "grad_candidate_norm": 0.0005032311310060322,
+      "grad_full_norm": 0.0004645175358746201,
+      "grad_update_norm": 0.0002220829192083329,
+      "replicate_id": 1,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.8652003552777074e-10,
+      "sum_residual_relative": 4.0153497149807316e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.16598028845172638,
+      "family": "delayed_recall",
+      "grad_candidate_norm": 0.047158993780612946,
+      "grad_full_norm": 0.04829797148704529,
+      "grad_update_norm": 0.005210661329329014,
+      "replicate_id": 2,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 4.143478005147472e-09,
+      "sum_residual_relative": 8.578989712350249e-08
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.3010110437456751,
+      "family": "delayed_recall",
+      "grad_candidate_norm": 0.0005326493410393596,
+      "grad_full_norm": 0.0006436027470044792,
+      "grad_update_norm": 0.00023490830790251493,
+      "replicate_id": 3,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.475992383870306e-10,
+      "sum_residual_relative": 2.2933282847843933e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.5521768348325125,
+      "family": "delayed_recall",
+      "grad_candidate_norm": 0.0009819656843319535,
+      "grad_full_norm": 0.001125058624893427,
+      "grad_update_norm": 0.00022946871467866004,
+      "replicate_id": 4,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.4197701347917757e-10,
+      "sum_residual_relative": 1.261952135984261e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.35950654974786556,
+      "family": "iterative_state",
+      "grad_candidate_norm": 0.0003372283244971186,
+      "grad_full_norm": 0.00032957366784103215,
+      "grad_update_norm": 2.3287087969947606e-05,
+      "replicate_id": 0,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 5.890373744321664e-10,
+      "sum_residual_relative": 1.7872707437181693e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.12923814797004216,
+      "family": "iterative_state",
+      "grad_candidate_norm": 0.0003219882200937718,
+      "grad_full_norm": 0.0003390453930478543,
+      "grad_update_norm": 7.243530853884295e-05,
+      "replicate_id": 1,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 4.4538603360955165e-10,
+      "sum_residual_relative": 1.3136472069587684e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.28133494985419777,
+      "family": "iterative_state",
+      "grad_candidate_norm": 0.0004443680227268487,
+      "grad_full_norm": 0.0004383058985695243,
+      "grad_update_norm": 2.3634867829969153e-05,
+      "replicate_id": 2,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 6.348449543835955e-10,
+      "sum_residual_relative": 1.448406139309339e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.6694804466042064,
+      "family": "iterative_state",
+      "grad_candidate_norm": 0.0006897393031977117,
+      "grad_full_norm": 0.0007677474641241133,
+      "grad_update_norm": 0.00011000609811162576,
+      "replicate_id": 3,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 4.0675643409038287e-10,
+      "sum_residual_relative": 5.298049854901598e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.06075834381582771,
+      "family": "iterative_state",
+      "grad_candidate_norm": 0.0003261562960688025,
+      "grad_full_norm": 0.00033248530235141516,
+      "grad_update_norm": 4.771990279550664e-05,
+      "replicate_id": 4,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 4.728595293101989e-10,
+      "sum_residual_relative": 1.4221967887483262e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.07508069590175229,
+      "family": "partial_observation",
+      "grad_candidate_norm": 0.000346992164850235,
+      "grad_full_norm": 0.0003497952420730144,
+      "grad_update_norm": 7.735643885098398e-05,
+      "replicate_id": 0,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.9127366357452047e-09,
+      "sum_residual_relative": 5.468160814337064e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.098160424936993,
+      "family": "partial_observation",
+      "grad_candidate_norm": 0.0006222756346687675,
+      "grad_full_norm": 0.000637817953247577,
+      "grad_update_norm": 9.161273919744417e-05,
+      "replicate_id": 1,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.013784389769512e-09,
+      "sum_residual_relative": 1.5894572810433246e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.0012704682000243455,
+      "family": "partial_observation",
+      "grad_candidate_norm": 0.0003467389615252614,
+      "grad_full_norm": 0.00036559757427312434,
+      "grad_update_norm": 0.00011634587281150743,
+      "replicate_id": 2,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.1630554297425988e-09,
+      "sum_residual_relative": 3.1812449304538422e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.1836992325139834,
+      "family": "partial_observation",
+      "grad_candidate_norm": 0.00017774489242583513,
+      "grad_full_norm": 0.00019741668074857444,
+      "grad_update_norm": 0.00012455490650609136,
+      "replicate_id": 3,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 6.703121946394219e-10,
+      "sum_residual_relative": 3.395418219461996e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.08295364015319835,
+      "family": "partial_observation",
+      "grad_candidate_norm": 0.0002494480286259204,
+      "grad_full_norm": 0.00026143479044549167,
+      "grad_update_norm": 6.025195398251526e-05,
+      "replicate_id": 4,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 9.121882138529713e-10,
+      "sum_residual_relative": 3.489161531633104e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.10551548458794234,
+      "family": "variable_composition",
+      "grad_candidate_norm": 0.0033386140130460262,
+      "grad_full_norm": 0.003320729359984398,
+      "grad_update_norm": 0.0002815843326970935,
+      "replicate_id": 0,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.3478060889582366e-09,
+      "sum_residual_relative": 4.058765237539771e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.13939870140823696,
+      "family": "variable_composition",
+      "grad_candidate_norm": 0.013052533380687237,
+      "grad_full_norm": 0.013085816986858845,
+      "grad_update_norm": 0.00022514825104735792,
+      "replicate_id": 1,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 2.2817339129233005e-09,
+      "sum_residual_relative": 1.7436694363177198e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.2584646730562411,
+      "family": "variable_composition",
+      "grad_candidate_norm": 0.002269555116072297,
+      "grad_full_norm": 0.0022090680431574583,
+      "grad_update_norm": 0.0003160489723086357,
+      "replicate_id": 2,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.5085285243188196e-09,
+      "sum_residual_relative": 6.828800629258365e-07
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": -0.3966574563496333,
+      "family": "variable_composition",
+      "grad_candidate_norm": 0.0009614023729227483,
+      "grad_full_norm": 0.0008974584634415805,
+      "grad_update_norm": 0.0005443294649012387,
+      "replicate_id": 3,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.369899971237487e-09,
+      "sum_residual_relative": 1.5264215861135057e-06
+    },
+    {
+      "applicable": true,
+      "candidate_update_cosine": 0.21751202899234773,
+      "family": "variable_composition",
+      "grad_candidate_norm": 0.0008312865975312889,
+      "grad_full_norm": 0.0008785810205154121,
+      "grad_update_norm": 0.00015617453027516603,
+      "replicate_id": 4,
+      "sum_identity_within_1e_5_relative": true,
+      "sum_residual_norm": 1.6149852566371692e-09,
+      "sum_residual_relative": 1.8381745324862035e-06
+    }
+  ],
+  "sum_residual_norm": {
+    "mean": 1.5146816539912677e-09,
+    "median": 1.1630554297425988e-09,
+    "p10": 2.746145949528157e-10,
+    "p90": 3.3862552761831946e-09
+  },
+  "sum_residual_relative": {
+    "mean": 1.2746952270147841e-06,
+    "median": 6.828800629258365e-07,
+    "p10": 1.4546390561176447e-07,
+    "p90": 3.309748903858735e-06
+  }
+}

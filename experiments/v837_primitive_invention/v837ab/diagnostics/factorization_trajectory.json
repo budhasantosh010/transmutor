@@ -1,0 +1,386 @@
+{
+  "AB0_exact_factorized_t2": {
+    "0": {
+      "candidate_downstream_weight_norm_median": 1.424295425415039,
+      "candidate_effective_distance_median": 0.0,
+      "candidate_effective_frobenius_median": 0.8196337819099426,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 1.4185683727264404,
+      "update_effective_distance_median": 0.0,
+      "update_effective_frobenius_median": 0.8074502348899841
+    },
+    "144": {
+      "candidate_downstream_weight_norm_median": 2.3997013568878174,
+      "candidate_effective_distance_median": 2.4164011478424072,
+      "candidate_effective_frobenius_median": 2.526965618133545,
+      "fits": 25,
+      "projection_condition_number_median": 17.474905473399833,
+      "projection_distance_median": 1.3445550203323364,
+      "projection_frobenius_median": 1.856751799583435,
+      "update_downstream_weight_norm_median": 2.413189172744751,
+      "update_effective_distance_median": 2.295285701751709,
+      "update_effective_frobenius_median": 2.457324981689453
+    },
+    "192": {
+      "candidate_downstream_weight_norm_median": 2.423900604248047,
+      "candidate_effective_distance_median": 2.387542724609375,
+      "candidate_effective_frobenius_median": 2.550194025039673,
+      "fits": 25,
+      "projection_condition_number_median": 21.68760980475744,
+      "projection_distance_median": 1.3813024759292603,
+      "projection_frobenius_median": 1.851699709892273,
+      "update_downstream_weight_norm_median": 2.487433910369873,
+      "update_effective_distance_median": 2.3094451427459717,
+      "update_effective_frobenius_median": 2.509258508682251
+    },
+    "24": {
+      "candidate_downstream_weight_norm_median": 1.5886121988296509,
+      "candidate_effective_distance_median": 0.7439968585968018,
+      "candidate_effective_frobenius_median": 1.12247633934021,
+      "fits": 25,
+      "projection_condition_number_median": 8.828993954852297,
+      "projection_distance_median": 0.5259729623794556,
+      "projection_frobenius_median": 1.4811917543411255,
+      "update_downstream_weight_norm_median": 1.5292681455612183,
+      "update_effective_distance_median": 0.5198644399642944,
+      "update_effective_frobenius_median": 0.9530346393585205
+    },
+    "48": {
+      "candidate_downstream_weight_norm_median": 1.8610368967056274,
+      "candidate_effective_distance_median": 1.2287359237670898,
+      "candidate_effective_frobenius_median": 1.5086420774459839,
+      "fits": 25,
+      "projection_condition_number_median": 8.690197222636671,
+      "projection_distance_median": 0.8502705097198486,
+      "projection_frobenius_median": 1.6558630466461182,
+      "update_downstream_weight_norm_median": 1.7748374938964844,
+      "update_effective_distance_median": 0.88643479347229,
+      "update_effective_frobenius_median": 1.121201515197754
+    },
+    "96": {
+      "candidate_downstream_weight_norm_median": 2.131774425506592,
+      "candidate_effective_distance_median": 2.1218948364257812,
+      "candidate_effective_frobenius_median": 2.3496298789978027,
+      "fits": 25,
+      "projection_condition_number_median": 12.510535262045225,
+      "projection_distance_median": 1.1307367086410522,
+      "projection_frobenius_median": 1.8545351028442383,
+      "update_downstream_weight_norm_median": 2.3047142028808594,
+      "update_effective_distance_median": 1.5658504962921143,
+      "update_effective_frobenius_median": 1.8490204811096191
+    }
+  },
+  "AB1_fully_folded_equivalent": {
+    "0": {
+      "candidate_effective_distance_median": 0.0,
+      "candidate_effective_frobenius_median": 0.8196337819099426,
+      "fits": 25,
+      "update_effective_distance_median": 0.0,
+      "update_effective_frobenius_median": 0.8074502348899841
+    },
+    "144": {
+      "candidate_effective_distance_median": 1.9144078493118286,
+      "candidate_effective_frobenius_median": 1.9636540412902832,
+      "fits": 25,
+      "update_effective_distance_median": 2.3776278495788574,
+      "update_effective_frobenius_median": 2.4545176029205322
+    },
+    "192": {
+      "candidate_effective_distance_median": 1.893775224685669,
+      "candidate_effective_frobenius_median": 1.957059383392334,
+      "fits": 25,
+      "update_effective_distance_median": 2.394566774368286,
+      "update_effective_frobenius_median": 2.5092499256134033
+    },
+    "24": {
+      "candidate_effective_distance_median": 0.779259443283081,
+      "candidate_effective_frobenius_median": 1.1014714241027832,
+      "fits": 25,
+      "update_effective_distance_median": 0.6113856434822083,
+      "update_effective_frobenius_median": 0.9768768548965454
+    },
+    "48": {
+      "candidate_effective_distance_median": 1.1337107419967651,
+      "candidate_effective_frobenius_median": 1.4239307641983032,
+      "fits": 25,
+      "update_effective_distance_median": 1.0298678874969482,
+      "update_effective_frobenius_median": 1.2667709589004517
+    },
+    "96": {
+      "candidate_effective_distance_median": 1.6260592937469482,
+      "candidate_effective_frobenius_median": 1.8614290952682495,
+      "fits": 25,
+      "update_effective_distance_median": 1.8816936016082764,
+      "update_effective_frobenius_median": 2.075037956237793
+    }
+  },
+  "AB2_candidate_factorized_update_folded": {
+    "0": {
+      "candidate_downstream_weight_norm_median": 1.424295425415039,
+      "candidate_effective_distance_median": 0.0,
+      "candidate_effective_frobenius_median": 0.8196337819099426,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 0.8074502348899841,
+      "update_effective_distance_median": 0.0,
+      "update_effective_frobenius_median": 0.8074502348899841
+    },
+    "144": {
+      "candidate_downstream_weight_norm_median": 2.402299165725708,
+      "candidate_effective_distance_median": 2.5949082374572754,
+      "candidate_effective_frobenius_median": 2.8883936405181885,
+      "fits": 25,
+      "projection_condition_number_median": 16.44975832424836,
+      "projection_distance_median": 1.2771825790405273,
+      "projection_frobenius_median": 1.8355324268341064,
+      "update_downstream_weight_norm_median": 2.4245827198028564,
+      "update_effective_distance_median": 2.2819206714630127,
+      "update_effective_frobenius_median": 2.4245827198028564
+    },
+    "192": {
+      "candidate_downstream_weight_norm_median": 2.4371554851531982,
+      "candidate_effective_distance_median": 2.619612216949463,
+      "candidate_effective_frobenius_median": 2.8676931858062744,
+      "fits": 25,
+      "projection_condition_number_median": 15.847712106267807,
+      "projection_distance_median": 1.4183965921401978,
+      "projection_frobenius_median": 1.8849297761917114,
+      "update_downstream_weight_norm_median": 2.447941780090332,
+      "update_effective_distance_median": 2.258023738861084,
+      "update_effective_frobenius_median": 2.447941780090332
+    },
+    "24": {
+      "candidate_downstream_weight_norm_median": 1.589604139328003,
+      "candidate_effective_distance_median": 0.7423958778381348,
+      "candidate_effective_frobenius_median": 1.1252989768981934,
+      "fits": 25,
+      "projection_condition_number_median": 9.639273873733979,
+      "projection_distance_median": 0.5281805396080017,
+      "projection_frobenius_median": 1.4783203601837158,
+      "update_downstream_weight_norm_median": 0.9925485253334045,
+      "update_effective_distance_median": 0.5972414016723633,
+      "update_effective_frobenius_median": 0.9925485253334045
+    },
+    "48": {
+      "candidate_downstream_weight_norm_median": 1.8665666580200195,
+      "candidate_effective_distance_median": 1.249719500541687,
+      "candidate_effective_frobenius_median": 1.5583722591400146,
+      "fits": 25,
+      "projection_condition_number_median": 8.873980314408763,
+      "projection_distance_median": 0.8478187918663025,
+      "projection_frobenius_median": 1.6626042127609253,
+      "update_downstream_weight_norm_median": 1.2742643356323242,
+      "update_effective_distance_median": 1.0513008832931519,
+      "update_effective_frobenius_median": 1.2742643356323242
+    },
+    "96": {
+      "candidate_downstream_weight_norm_median": 2.173614025115967,
+      "candidate_effective_distance_median": 2.155701160430908,
+      "candidate_effective_frobenius_median": 2.2978785037994385,
+      "fits": 25,
+      "projection_condition_number_median": 14.467101446409028,
+      "projection_distance_median": 1.129185676574707,
+      "projection_frobenius_median": 1.9090948104858398,
+      "update_downstream_weight_norm_median": 1.7589662075042725,
+      "update_effective_distance_median": 1.4741685390472412,
+      "update_effective_frobenius_median": 1.7589662075042725
+    }
+  },
+  "AB3_candidate_folded_update_factorized": {
+    "0": {
+      "candidate_downstream_weight_norm_median": 0.8196337819099426,
+      "candidate_effective_distance_median": 0.0,
+      "candidate_effective_frobenius_median": 0.8196337819099426,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 1.4185683727264404,
+      "update_effective_distance_median": 0.0,
+      "update_effective_frobenius_median": 0.8074502348899841
+    },
+    "144": {
+      "candidate_downstream_weight_norm_median": 1.9414552450180054,
+      "candidate_effective_distance_median": 1.9110476970672607,
+      "candidate_effective_frobenius_median": 1.9414552450180054,
+      "fits": 25,
+      "projection_condition_number_median": 25.223894503694893,
+      "projection_distance_median": 1.6216881275177002,
+      "projection_frobenius_median": 2.2411675453186035,
+      "update_downstream_weight_norm_median": 2.592266798019409,
+      "update_effective_distance_median": 4.353899002075195,
+      "update_effective_frobenius_median": 4.327065944671631
+    },
+    "192": {
+      "candidate_downstream_weight_norm_median": 2.0285592079162598,
+      "candidate_effective_distance_median": 1.8918675184249878,
+      "candidate_effective_frobenius_median": 2.0285592079162598,
+      "fits": 25,
+      "projection_condition_number_median": 31.732334059203243,
+      "projection_distance_median": 1.6957045793533325,
+      "projection_frobenius_median": 2.349130392074585,
+      "update_downstream_weight_norm_median": 2.792017698287964,
+      "update_effective_distance_median": 4.431817531585693,
+      "update_effective_frobenius_median": 4.506856918334961
+    },
+    "24": {
+      "candidate_downstream_weight_norm_median": 1.1066762208938599,
+      "candidate_effective_distance_median": 0.78200364112854,
+      "candidate_effective_frobenius_median": 1.1066762208938599,
+      "fits": 25,
+      "projection_condition_number_median": 16.052095194924743,
+      "projection_distance_median": 0.4002099633216858,
+      "projection_frobenius_median": 1.4198139905929565,
+      "update_downstream_weight_norm_median": 1.553399920463562,
+      "update_effective_distance_median": 0.5264248251914978,
+      "update_effective_frobenius_median": 0.9848926067352295
+    },
+    "48": {
+      "candidate_downstream_weight_norm_median": 1.393591284751892,
+      "candidate_effective_distance_median": 1.1111340522766113,
+      "candidate_effective_frobenius_median": 1.393591284751892,
+      "fits": 25,
+      "projection_condition_number_median": 15.802975693202034,
+      "projection_distance_median": 0.7251431941986084,
+      "projection_frobenius_median": 1.5480886697769165,
+      "update_downstream_weight_norm_median": 1.9391082525253296,
+      "update_effective_distance_median": 1.2587788105010986,
+      "update_effective_frobenius_median": 1.412166953086853
+    },
+    "96": {
+      "candidate_downstream_weight_norm_median": 1.7976094484329224,
+      "candidate_effective_distance_median": 1.575208067893982,
+      "candidate_effective_frobenius_median": 1.7976094484329224,
+      "fits": 25,
+      "projection_condition_number_median": 25.560633546673742,
+      "projection_distance_median": 1.3195207118988037,
+      "projection_frobenius_median": 2.008850574493408,
+      "update_downstream_weight_norm_median": 2.505009174346924,
+      "update_effective_distance_median": 3.2980868816375732,
+      "update_effective_frobenius_median": 3.494216203689575
+    }
+  },
+  "AB4_frozen_shared_projection": {
+    "0": {
+      "candidate_downstream_weight_norm_median": 1.424295425415039,
+      "candidate_effective_distance_median": 0.0,
+      "candidate_effective_frobenius_median": 0.8196337819099426,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 1.4185683727264404,
+      "update_effective_distance_median": 0.0,
+      "update_effective_frobenius_median": 0.8074502348899841
+    },
+    "144": {
+      "candidate_downstream_weight_norm_median": 2.3335506916046143,
+      "candidate_effective_distance_median": 1.0042290687561035,
+      "candidate_effective_frobenius_median": 1.355351209640503,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 2.713428020477295,
+      "update_effective_distance_median": 1.3746562004089355,
+      "update_effective_frobenius_median": 1.6103547811508179
+    },
+    "192": {
+      "candidate_downstream_weight_norm_median": 2.4096767902374268,
+      "candidate_effective_distance_median": 1.004673719406128,
+      "candidate_effective_frobenius_median": 1.4130455255508423,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 2.9170286655426025,
+      "update_effective_distance_median": 1.7328882217407227,
+      "update_effective_frobenius_median": 1.8498785495758057
+    },
+    "24": {
+      "candidate_downstream_weight_norm_median": 1.575300693511963,
+      "candidate_effective_distance_median": 0.5141327381134033,
+      "candidate_effective_frobenius_median": 0.971764862537384,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 1.5262409448623657,
+      "update_effective_distance_median": 0.3550322949886322,
+      "update_effective_frobenius_median": 0.9008450508117676
+    },
+    "48": {
+      "candidate_downstream_weight_norm_median": 1.8915694952011108,
+      "candidate_effective_distance_median": 0.6846814751625061,
+      "candidate_effective_frobenius_median": 1.1237461566925049,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 1.8238115310668945,
+      "update_effective_distance_median": 0.7572708129882812,
+      "update_effective_frobenius_median": 1.1279348134994507
+    },
+    "96": {
+      "candidate_downstream_weight_norm_median": 2.1334168910980225,
+      "candidate_effective_distance_median": 0.8991857171058655,
+      "candidate_effective_frobenius_median": 1.236403226852417,
+      "fits": 25,
+      "projection_condition_number_median": 17.778775326991564,
+      "projection_distance_median": 0.0,
+      "projection_frobenius_median": 1.3827890157699585,
+      "update_downstream_weight_norm_median": 2.418750047683716,
+      "update_effective_distance_median": 1.1944888830184937,
+      "update_effective_frobenius_median": 1.4107401371002197
+    }
+  },
+  "AB5_naive_projection_free": {
+    "0": {
+      "candidate_effective_distance_median": 0.0,
+      "candidate_effective_frobenius_median": 1.424295425415039,
+      "fits": 25,
+      "update_effective_distance_median": 0.0,
+      "update_effective_frobenius_median": 1.4185683727264404
+    },
+    "144": {
+      "candidate_effective_distance_median": 1.920068621635437,
+      "candidate_effective_frobenius_median": 2.328308343887329,
+      "fits": 25,
+      "update_effective_distance_median": 2.479196786880493,
+      "update_effective_frobenius_median": 2.763292074203491
+    },
+    "192": {
+      "candidate_effective_distance_median": 1.995291829109192,
+      "candidate_effective_frobenius_median": 2.3343045711517334,
+      "fits": 25,
+      "update_effective_distance_median": 2.7585501670837402,
+      "update_effective_frobenius_median": 3.0523712635040283
+    },
+    "24": {
+      "candidate_effective_distance_median": 0.7694970965385437,
+      "candidate_effective_frobenius_median": 1.5514917373657227,
+      "fits": 25,
+      "update_effective_distance_median": 0.544620156288147,
+      "update_effective_frobenius_median": 1.5387706756591797
+    },
+    "48": {
+      "candidate_effective_distance_median": 1.0869046449661255,
+      "candidate_effective_frobenius_median": 1.7518644332885742,
+      "fits": 25,
+      "update_effective_distance_median": 0.892845869064331,
+      "update_effective_frobenius_median": 1.7160522937774658
+    },
+    "96": {
+      "candidate_effective_distance_median": 1.7088634967803955,
+      "candidate_effective_frobenius_median": 2.183058738708496,
+      "fits": 25,
+      "update_effective_distance_median": 1.6155046224594116,
+      "update_effective_frobenius_median": 2.3625781536102295
+    }
+  }
+}

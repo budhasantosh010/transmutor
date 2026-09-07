@@ -1,0 +1,18 @@
+{
+  "backward_calls": 28875,
+  "cpu_seconds_worker_sum": 811.375,
+  "diagnostic_backward_calls": 75,
+  "diagnostic_forward_calls": 75,
+  "environment_interactions": 667350,
+  "forward_calls": 30975,
+  "fresh_audit_consumed": false,
+  "gpu_seconds": 0.0,
+  "model_fits": 150,
+  "optimizer_steps": 28800,
+  "processed_training_examples": 14745600,
+  "training_backward_calls": 28800,
+  "training_forward_calls": 30900,
+  "unique_seed_defined_episodes": 3200,
+  "version": "V837ab",
+  "wall_seconds_worker_sum": 870.556023300509
+}

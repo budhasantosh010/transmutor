@@ -1,0 +1,25 @@
+{
+  "authorized_v837ac_mode": "TRAINABLE_CONTROLLER_INPUT_FACTORIZATION",
+  "diagnosis": "SINGLE_PATH_INPUT_FACTORIZATION_SUFFICIENT",
+  "families_passing": {
+    "AB0_exact_factorized_t2": 4,
+    "AB1_fully_folded_equivalent": 3,
+    "AB2_candidate_factorized_update_folded": 4,
+    "AB3_candidate_folded_update_factorized": 4,
+    "AB4_frozen_shared_projection": 2,
+    "AB5_naive_projection_free": 3
+  },
+  "folding_equivalence_valid": true,
+  "fresh_audit_consumed": false,
+  "large_persistent_storage_tested": false,
+  "neutral_transfer_allowed": true,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "reference_baseline_valid": true,
+  "representation_adequacy_pass": false,
+  "sample_efficiency_retest_allowed": false,
+  "step0_equivalence_valid": true,
+  "structural_search_allowed": false,
+  "v837ab_complete": true,
+  "v838_started": false
+}
