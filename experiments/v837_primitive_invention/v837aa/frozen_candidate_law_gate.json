@@ -1,0 +1,60 @@
+{
+  "version": "V837aa",
+  "frozen_before_results": true,
+  "primary_parameter_view": "core",
+  "primary_functional_view": "core",
+  "component_distance": "||A-B||F/(||A||F+||B||F+1e-12), averaged equally across bundle components",
+  "balanced_bundle_cosine": "concatenate independently unit-normalized components with equal 1/sqrt(K) component weight",
+  "functional_nrmse": "sqrt(mean((a-b)^2))/(rms(a)+rms(b)+1e-12)",
+  "alignment": {
+    "symmetry_group": "all 4! * 2^4 signed permutation matrices",
+    "count": 384,
+    "objective": "core parameter distance over Ws,Wm,b only",
+    "medoid": "minimum deterministic sum of pairwise best signed-permutation distances",
+    "tie_break": "lowest signed-permutation index then lowest cell index",
+    "centroid_iterations_max": 10
+  },
+  "classification": {
+    "required_fit_count": 20,
+    "cosine_min": 0.95,
+    "nrmse_max": 0.20,
+    "alignment_relative_nrmse_reduction_min": 0.40,
+    "null_nrmse_ratio_max": 0.80,
+    "null_cosine_absolute_gain_min": 0.05,
+    "diverse_required_fit_count": 13,
+    "diverse_cosine_max": 0.90,
+    "diverse_nrmse_min": 0.25
+  },
+  "relative_basis_stability": {
+    "pair_exact_agreement_min": 0.80,
+    "required_pair_fraction": 0.80,
+    "family_min_median_agreement": 0.80,
+    "stable_label": "STABLE_RELATIVE_BASES",
+    "variable_label": "VARIABLE_RELATIVE_BASES"
+  },
+  "small_type_vocabulary": {
+    "k_values": [2,3,4,5],
+    "within_type_cosine_min": 0.95,
+    "within_type_nrmse_max": 0.20,
+    "required_fit_count": 20,
+    "consensus_pairwise_agreement_min": 0.80,
+    "required_consensus_fit_count": 20,
+    "minimum_family_quality_fit_count": 4,
+    "minimum_family_median_consensus": 0.80
+  },
+  "gradient_compatibility": {
+    "compatible_median_cosine_min": 0.25,
+    "compatible_strong_negative_fraction_max": 0.10,
+    "conflicted_median_cosine_max": 0.0,
+    "conflicted_strong_negative_fraction_min": 0.25,
+    "strong_negative_threshold": -0.25
+  },
+  "parent_reproduction": {
+    "validation_success_max_abs_delta": 0.0078125,
+    "development_success_max_abs_delta": 0.001953125,
+    "family_median_validation_max_abs_delta": 0.015625,
+    "family_pass_count": 3,
+    "parameter_count": 1223,
+    "recurrent_controller_macs": 846
+  }
+}
