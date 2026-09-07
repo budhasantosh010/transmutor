@@ -1,0 +1,31 @@
+{
+  "program": "V837ad+ candidate recurrent geometry localization",
+  "v837ad": {
+    "model_fits": 150,
+    "optimizer_steps": 28800,
+    "processed_training_examples": 14745600,
+    "unique_seed_defined_episodes": 3200,
+    "environment_interactions": 667350,
+    "forward_calls": 31050,
+    "backward_calls": 28800,
+    "cpu_seconds_worker_sum": 1383.65625,
+    "wall_seconds_worker_sum": 2148.0203952004667,
+    "gpu_seconds": 0.0
+  },
+  "v837ae": null,
+  "combined": {
+    "model_fits": 150,
+    "optimizer_steps": 28800,
+    "processed_training_examples": 14745600,
+    "unique_seed_defined_episodes": 3200,
+    "environment_interactions": 667350,
+    "forward_calls": 31050,
+    "backward_calls": 28800,
+    "cpu_seconds_worker_sum": 1383.65625,
+    "wall_seconds_worker_sum": 2148.0203952004667,
+    "gpu_seconds": 0.0
+  },
+  "fresh_audit_consumed": false,
+  "large_persistent_storage_tested": false,
+  "v838_started": false
+}

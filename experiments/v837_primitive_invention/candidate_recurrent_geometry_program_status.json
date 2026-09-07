@@ -1,0 +1,19 @@
+{
+  "v837ad_complete": true,
+  "v837ad_diagnosis": "TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE",
+  "ad0_anchor_valid": true,
+  "ad1_dense_h40_families": 4,
+  "geometry_stage_run": true,
+  "ad4s_robustness_run": false,
+  "authorized_v837ae_mode": null,
+  "v837ae_run": false,
+  "final_neutral_representation_adequacy": "FAIL_3_OF_5_HISTORICAL_Y3",
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "fresh_audit_episodes_consumed": 0,
+  "primitives_promoted": 0,
+  "large_persistent_storage_tested": false,
+  "v838_started": false,
+  "next_single_variable": "GRAPH_MESSAGE_OUTPUT_INTERFACE_ORGANIZATION"
+}

@@ -113,6 +113,13 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837ac/run_input_transfer.py", "--phase", "transfer"],
         [sys.executable, "experiments/v837_primitive_invention/v837ac/analyze_results.py"],
     ],
+    "v837ad": [
+        [sys.executable, "experiments/v837_primitive_invention/v837ad/run_candidate_geometry.py", "--phase", "preflight"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ad/run_candidate_geometry.py", "--phase", "ad0"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ad/run_candidate_geometry.py", "--phase", "ad1"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ad/run_candidate_geometry.py", "--phase", "geometry"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ad/analyze_results.py"],
+    ],
 }
 
 
@@ -228,6 +235,16 @@ def enforce_variant_guard(variant: str) -> None:
             raise SystemExit("V837ac blocked: V837ab authorization does not match V837ac config")
         if decision.get("fresh_audit_consumed") is not False or decision.get("v838_started") is not False:
             raise SystemExit("V837ac blocked: fresh-audit/V838 lock changed")
+        return
+    if variant == "v837ad":
+        status_path = ROOT / "experiments" / "v837_primitive_invention" / "input_factorization_program_status.json"
+        if not status_path.is_file():
+            raise SystemExit("V837ad blocked: input-factorization closure status is missing")
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        if status.get("v837ab_diagnosis") != "SINGLE_PATH_INPUT_FACTORIZATION_SUFFICIENT" or status.get("v837ac_diagnosis") != "INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT" or status.get("input_axis_closed") is not True:
+            raise SystemExit("V837ad blocked: V837ab/V837ac frontier is incompatible")
+        if status.get("fresh_audit_episodes_consumed") != 0 or status.get("v838_started") is not False:
+            raise SystemExit("V837ad blocked: fresh-audit/V838 lock changed")
         return
 
 

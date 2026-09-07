@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837ab reference-side input-factorization localization and the exactly authorized V837ac minimal neutral controller-input transfer. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837ad candidate recurrent geometry localization. V837ab/V837ac closed input organization as the neutral blocker; V837ad then passed the H40 width gate and showed that even 10x4 block-local candidate recurrence remains adequate in the successful reference. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -22,6 +22,8 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837aa is diagnosis-only: it reruns only the frozen Y3 parent, audits local candidate-law similarity under exact signed-permutation symmetries, and does not implement sharing or any new architecture.
 - V837ab proves the T2 6→6 input projection is exactly linearly foldable and then localizes which trainable factorized input pathway is optimization-relevant under matched step-zero functions.
 - V837ac exists only because V837ab authorized `TRAINABLE_CONTROLLER_INPUT_FACTORIZATION`; it transfers only that property into the frozen Y3 neutral parent and includes the exact folded control.
+- V837ad separates H13 versus H40 width first, then masks only the H40 candidate hidden recurrent slice; all H40 raw tensors are paired before masking.
+- V837ae was not authorized because AD4 10x4 block-local recurrence already reached 4/5.
 - V838 has not started.
 
 ## Current causal sequence
@@ -271,6 +273,24 @@ The full trained T2 projection folds exactly with maximum trace error `1.1920928
 
 AC0 reproduces Y3 exactly at 3/5. AC1 and AC1F are step-zero equivalent within `7.897615432739258e-07`. AC1 remains 3/5, with composition improving from 0.851562 to 0.882812 but partial observation unchanged at 0.773438. AC1F remains exactly at the Y3 family medians. Diagnosis: `INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT`; the input axis is closed.
 
+## Current V837ad evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837ad/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837ad/frozen_candidate_geometry_gate.json` |
+| Implementation | `experiments/v837_primitive_invention/v837ad/candidate_recurrent_geometry.py` |
+| Runner | `experiments/v837_primitive_invention/v837ad/run_candidate_geometry.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837ad/analyze_results.py` |
+| Results | `experiments/v837_primitive_invention/v837ad/results.json` |
+| Width gate | `experiments/v837_primitive_invention/v837ad/diagnostics/width_gate.json` |
+| Mask integrity | `experiments/v837_primitive_invention/v837ad/diagnostics/mask_integrity.json` |
+| Decision | `experiments/v837_primitive_invention/v837ad/diagnostics/decision_state.json` |
+| Validator | `scripts/validate_v837_candidate_recurrent_geometry.py` |
+| Tests | `tests/test_v837ad_candidate_recurrent_geometry.py` |
+
+AD0 H13 dense reproduces T2 exactly at 4/5. AD1 H40 dense also reaches 4/5, opening geometry interpretation. At fixed H40, AD2 2x20, AD3 5x8, AD4 10x4, and AD4S-S0 global degree-4 sparse all reach 4/5. AD4 and AD4S each use exactly 160 candidate recurrent weights and 2276 active MACs/timestep. Diagnosis: `TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE`. Sparse robustness did not trigger and V837ae was not authorized.
+
 ## Program reports and accounting
 
 - Candidate-interaction/stage report: `docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md`
@@ -283,6 +303,10 @@ AC0 reproduces Y3 exactly at 3/5. AC1 and AC1F are step-zero equivalent within `
 - V837aa resource accounting: `experiments/v837_primitive_invention/v837aa_resource_accounting.json`
 - Candidate-law audit program accounting: `experiments/v837_primitive_invention/candidate_law_alignment_program_resource_accounting.json`
 - Candidate-law audit status: `experiments/v837_primitive_invention/candidate_law_alignment_program_status.json`
+- Candidate recurrent geometry report: `docs/V837_CANDIDATE_RECURRENT_GEOMETRY_REPORT.md`
+- V837ad resource accounting: `experiments/v837_primitive_invention/v837ad_resource_accounting.json`
+- Candidate recurrent geometry program accounting: `experiments/v837_primitive_invention/candidate_recurrent_geometry_program_resource_accounting.json`
+- Candidate recurrent geometry program status: `experiments/v837_primitive_invention/candidate_recurrent_geometry_program_status.json`
 - Input-factorization localization report: `docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md`
 - Input-organization transfer report: `docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md`
 - Post-input-axis blocker analysis: `docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md`
@@ -343,6 +367,23 @@ GPU seconds                   0
 
 The same 3,200 family/seed episodes are reused across every V837ab/V837ac condition and replicate.
 
+V837ad resource totals:
+
+```text
+model fits                    150
+optimizer steps               28,800
+processed training examples   14,745,600
+unique task episodes          3,200
+environment interactions      667,350
+forward calls                 31,050
+backward calls                28,800
+CPU seconds (worker sum)      1,383.65625
+wall seconds (worker sum)     2,148.0203952004667
+GPU seconds                   0
+```
+
+Sparse robustness and V837ae consumed zero additional fits because their frozen triggers were not satisfied.
+
 ## Locked scientific state
 
 ```text
@@ -360,11 +401,9 @@ Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-V837ab shows that T2's learned 6→6 projection is not a function-class requirement: it folds exactly into the downstream GRU input matrix. However, the matched step-zero comparison demonstrates an optimization effect: exact factorized T2 reaches 4/5 while its fully folded same-function counterpart reaches 3/5, and either candidate-only or controller/update-only trainable factorization independently recovers 4/5. Frozen preconditioning and naive direct initialization are insufficient.
+V837ad removes hidden width as a confound: H40 dense T2 remains 4/5 under the frozen regime. At that same width, candidate recurrence can be reduced from 1,600 dense recurrent weights to ten independent 4D blocks with only 160 active recurrent weights and still remain 4/5. The degree-matched globally sparse S0 control also remains 4/5, but it establishes no sparse-over-local specificity because the local block condition already succeeds.
 
-V837ac then transfers the smallest supported property—trainable controller-input factorization—to the best neutral Y3 substrate. The transfer changes the learned controller input geometry and improves composition, but remains 3/5 and leaves partial observation unchanged. Therefore input organization is not the remaining representation blocker for Y3.
-
-The next documented single variable is **candidate/state geometry localization**: one dense 13D candidate/state coordinate geometry versus the partitioned 10×4 local geometry, designed so it does not simply repeat V837q shared-state-only testing. It is not implemented in this program.
+Therefore narrow 4D candidate recurrent geometry and four-input candidate fan-in are not, by themselves, sufficient explanations for Y3's remaining 3/5 neutral representation result. The machine decision is `TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE`; V837ae is not authorized. The next single variable is **graph/message/output-interface organization**.
 
 ## Fast verification
 
@@ -378,13 +417,14 @@ python scripts/reproduce_v837_recovery.py --variant v837z
 python scripts/reproduce_v837_recovery.py --variant v837aa
 python scripts/reproduce_v837_recovery.py --variant v837ab
 python scripts/reproduce_v837_recovery.py --variant v837ac
+python scripts/reproduce_v837_recovery.py --variant v837ad
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> authorized V837ac frontier.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad frontier. V837ae has no dispatcher entry because it was not authorized or run.
 
 ## Historical SHA anchors
 
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837ac scientific closure commit separately from later verification-integration commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837ad scientific closure commit separately from later verification-integration commits.

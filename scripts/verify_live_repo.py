@@ -549,6 +549,48 @@ def main() -> int:
     if int(combined_input.get("model_fits", -1)) != 225 or int(combined_input.get("optimizer_steps", -1)) != 43200 or int(combined_input.get("processed_training_examples", -1)) != 22118400 or int(combined_input.get("unique_seed_defined_episodes", -1)) != 3200:
         raise RuntimeError("input-factorization program resource accounting changed")
 
+    ad_record = manifest["current_variants"].get("V837ad")
+    if not isinstance(ad_record, dict):
+        raise RuntimeError("verification manifest missing V837ad")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in ad_record.get(key, []):
+            require_path(relative)
+    require_path(ad_record["config"])
+    require_path(ad_record["frozen_gate"])
+    require_path(ad_record["results"])
+    ad = load_json(ad_record["results"])
+    ad_decision = ad.get("decision", {})
+    expected_ad = {
+        "AD0_H13_dense": 4,
+        "AD1_H40_dense": 4,
+        "AD2_H40_2x20": 4,
+        "AD3_H40_5x8": 4,
+        "AD4_H40_10x4": 4,
+        "AD4S_S0": 4,
+    }
+    actual_ad = {name: int(row.get("families_passing", -1)) for name, row in ad.get("conditions", {}).items()}
+    if actual_ad != expected_ad:
+        raise RuntimeError("V837ad candidate-geometry outcomes changed")
+    if ad_decision.get("diagnosis") != "TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE" or ad_decision.get("ad0_anchor_valid") is not True or int(ad_decision.get("ad1_dense_h40_families", -1)) != 4 or ad_decision.get("geometry_stage_run") is not True:
+        raise RuntimeError("V837ad width/geometry decision changed")
+    if ad_decision.get("authorized_v837ae_mode") is not None or ad_decision.get("ad4s_robustness_run") is not False or ad_decision.get("next_axis") != "GRAPH_MESSAGE_OUTPUT_INTERFACE_ORGANIZATION":
+        raise RuntimeError("V837ad transfer/next-axis decision changed")
+    if ad_decision.get("sample_efficiency_retest_allowed") is not False or ad_decision.get("structural_search_allowed") is not False or ad_decision.get("primitive_mining_allowed") is not False or ad_decision.get("fresh_audit_consumed") is not False or ad_decision.get("v838_started") is not False:
+        raise RuntimeError("V837ad science lock state changed")
+    ad4 = ad["conditions"]["AD4_H40_10x4"]
+    ad4s = ad["conditions"]["AD4S_S0"]
+    if int(ad4.get("active_candidate_recurrent_weights", -1)) != 160 or int(ad4s.get("active_candidate_recurrent_weights", -1)) != 160 or int(ad4.get("total_active_macs_per_timestep", -1)) != int(ad4s.get("total_active_macs_per_timestep", -2)):
+        raise RuntimeError("V837ad degree-matched geometry control changed")
+    if (ROOT / "experiments/v837_primitive_invention/v837ad/raw/robustness_runs.json").exists() or (ROOT / "experiments/v837_primitive_invention/v837ae").exists():
+        raise RuntimeError("V837ad executed an unauthorized robustness/transfer stage")
+    geometry_status = load_json("experiments/v837_primitive_invention/candidate_recurrent_geometry_program_status.json")
+    geometry_resources = load_json("experiments/v837_primitive_invention/candidate_recurrent_geometry_program_resource_accounting.json")
+    if geometry_status.get("v837ad_diagnosis") != "TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE" or geometry_status.get("v837ae_run") is not False or geometry_status.get("next_single_variable") != "GRAPH_MESSAGE_OUTPUT_INTERFACE_ORGANIZATION":
+        raise RuntimeError("candidate-recurrent-geometry program status changed")
+    combined_geometry = geometry_resources.get("combined", {})
+    if int(combined_geometry.get("model_fits", -1)) != 150 or int(combined_geometry.get("optimizer_steps", -1)) != 28800 or int(combined_geometry.get("processed_training_examples", -1)) != 14745600 or int(combined_geometry.get("unique_seed_defined_episodes", -1)) != 3200:
+        raise RuntimeError("candidate-recurrent-geometry program resource accounting changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")
