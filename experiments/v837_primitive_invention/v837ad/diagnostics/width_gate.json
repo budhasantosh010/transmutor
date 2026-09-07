@@ -1,0 +1,24 @@
+{
+  "ad0_anchor_valid": true,
+  "ad1_dense_h40": {
+    "families_passing": 4,
+    "family_development_medians": {
+      "conditional_routing": 1.0,
+      "delayed_recall": 1.0,
+      "iterative_state": 0.990234375,
+      "partial_observation": 0.927734375,
+      "variable_composition": 0.9296875
+    },
+    "family_validation_medians": {
+      "conditional_routing": 0.9921875,
+      "delayed_recall": 1.0,
+      "iterative_state": 0.9921875,
+      "partial_observation": 0.859375,
+      "variable_composition": 0.8203125
+    }
+  },
+  "ad1_dense_h40_families": 4,
+  "diagnosis": "WIDTH_GATE_PASS",
+  "geometry_stage_allowed": true,
+  "next_axis": null
+}
