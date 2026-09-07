@@ -1,0 +1,62 @@
+{
+  "AD0_H13_dense": {
+    "carry_fraction_mean": 0.3284177780151367,
+    "near_one_fraction": 0.0,
+    "near_zero_fraction": 0.0,
+    "p10": 0.15178032219409943,
+    "p90": 0.46951577067375183,
+    "rewrite_fraction_mean": 0.6715822219848633,
+    "temporal_variance": 0.019371388480067253,
+    "update_hidden_norm_mean_median": 2.3079631328582764
+  },
+  "AD1_H40_dense": {
+    "carry_fraction_mean": 0.4143390357494354,
+    "near_one_fraction": 0.0,
+    "near_zero_fraction": 0.0,
+    "p10": 0.2527529001235962,
+    "p90": 0.5960890650749207,
+    "rewrite_fraction_mean": 0.585660994052887,
+    "temporal_variance": 0.015975015237927437,
+    "update_hidden_norm_mean_median": 3.2887210845947266
+  },
+  "AD2_H40_2x20": {
+    "carry_fraction_mean": 0.40836194157600403,
+    "near_one_fraction": 0.0,
+    "near_zero_fraction": 0.0,
+    "p10": 0.21730808913707733,
+    "p90": 0.58940589427948,
+    "rewrite_fraction_mean": 0.5916381478309631,
+    "temporal_variance": 0.02377856709063053,
+    "update_hidden_norm_mean_median": 4.003232955932617
+  },
+  "AD3_H40_5x8": {
+    "carry_fraction_mean": 0.44194239377975464,
+    "near_one_fraction": 0.0,
+    "near_zero_fraction": 0.0,
+    "p10": 0.2536243498325348,
+    "p90": 0.6204104423522949,
+    "rewrite_fraction_mean": 0.5580576062202454,
+    "temporal_variance": 0.02621782012283802,
+    "update_hidden_norm_mean_median": 4.514563083648682
+  },
+  "AD4S_S0": {
+    "carry_fraction_mean": 0.42965173721313477,
+    "near_one_fraction": 0.0,
+    "near_zero_fraction": 0.0,
+    "p10": 0.27199509739875793,
+    "p90": 0.6241633892059326,
+    "rewrite_fraction_mean": 0.57034832239151,
+    "temporal_variance": 0.032479625195264816,
+    "update_hidden_norm_mean_median": 5.260444164276123
+  },
+  "AD4_H40_10x4": {
+    "carry_fraction_mean": 0.41171249747276306,
+    "near_one_fraction": 0.0,
+    "near_zero_fraction": 0.0,
+    "p10": 0.28508538007736206,
+    "p90": 0.6136868000030518,
+    "rewrite_fraction_mean": 0.5882874727249146,
+    "temporal_variance": 0.030367324128746986,
+    "update_hidden_norm_mean_median": 4.943393707275391
+  }
+}

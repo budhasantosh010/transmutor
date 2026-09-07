@@ -1,0 +1,843 @@
+{
+  "conditions": {
+    "AD0_H13_dense": {
+      "active_candidate_recurrent_weights": 169,
+      "active_parameters": 602,
+      "candidate_recurrent_macs": 169,
+      "families_passing": 4,
+      "family_results": {
+        "conditional_routing": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.966796875,
+            "values": [
+              0.724609375,
+              0.966796875,
+              0.990234375,
+              0.9921875,
+              0.88671875
+            ]
+          },
+          "validation": {
+            "median": 0.875,
+            "values": [
+              0.6171875,
+              0.875,
+              0.9375,
+              0.9296875,
+              0.84375
+            ]
+          }
+        },
+        "delayed_recall": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.998046875,
+            "values": [
+              0.994140625,
+              0.99609375,
+              0.998046875,
+              1.0,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 0.9765625,
+            "values": [
+              0.9609375,
+              0.9765625,
+              0.9609375,
+              0.984375,
+              1.0
+            ]
+          }
+        },
+        "iterative_state": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.98828125,
+            "values": [
+              0.98828125,
+              0.986328125,
+              0.986328125,
+              0.994140625,
+              0.9921875
+            ]
+          },
+          "validation": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              1.0,
+              0.9921875,
+              0.9921875,
+              1.0
+            ]
+          }
+        },
+        "partial_observation": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.912109375,
+            "values": [
+              0.90625,
+              0.916015625,
+              0.90625,
+              0.9140625,
+              0.912109375
+            ]
+          },
+          "validation": {
+            "median": 0.875,
+            "values": [
+              0.8671875,
+              0.8671875,
+              0.875,
+              0.8984375,
+              0.890625
+            ]
+          }
+        },
+        "variable_composition": {
+          "capacity_demonstrated": false,
+          "development": {
+            "median": 0.91796875,
+            "values": [
+              0.9140625,
+              0.939453125,
+              0.91796875,
+              0.91796875,
+              0.931640625
+            ]
+          },
+          "validation": {
+            "median": 0.8203125,
+            "values": [
+              0.84375,
+              0.84375,
+              0.8203125,
+              0.8203125,
+              0.796875
+            ]
+          }
+        }
+      },
+      "masked_candidate_recurrent_weights": 0,
+      "mean_family_validation_median": 0.909375,
+      "nominal_parameters": 875,
+      "parameter_bytes": 4176,
+      "total_active_macs_per_timestep": 530
+    },
+    "AD1_H40_dense": {
+      "active_candidate_recurrent_weights": 1600,
+      "active_parameters": 3923,
+      "candidate_recurrent_macs": 1600,
+      "families_passing": 4,
+      "family_results": {
+        "conditional_routing": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 1.0,
+            "values": [
+              0.9921875,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 0.9921875,
+            "values": [
+              0.9765625,
+              0.9921875,
+              0.9921875,
+              0.9921875,
+              1.0
+            ]
+          }
+        },
+        "delayed_recall": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 1.0,
+            "values": [
+              0.9765625,
+              1.0,
+              0.9921875,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "iterative_state": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.990234375,
+            "values": [
+              0.9921875,
+              0.994140625,
+              0.990234375,
+              0.990234375,
+              0.990234375
+            ]
+          },
+          "validation": {
+            "median": 0.9921875,
+            "values": [
+              0.9921875,
+              0.9921875,
+              0.9921875,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "partial_observation": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.927734375,
+            "values": [
+              0.921875,
+              0.91796875,
+              0.927734375,
+              0.93359375,
+              0.93359375
+            ]
+          },
+          "validation": {
+            "median": 0.859375,
+            "values": [
+              0.859375,
+              0.84375,
+              0.8671875,
+              0.859375,
+              0.875
+            ]
+          }
+        },
+        "variable_composition": {
+          "capacity_demonstrated": false,
+          "development": {
+            "median": 0.9296875,
+            "values": [
+              0.912109375,
+              0.939453125,
+              0.9296875,
+              0.92578125,
+              0.9453125
+            ]
+          },
+          "validation": {
+            "median": 0.8203125,
+            "values": [
+              0.828125,
+              0.8203125,
+              0.8203125,
+              0.8203125,
+              0.859375
+            ]
+          }
+        }
+      },
+      "masked_candidate_recurrent_weights": 0,
+      "mean_family_validation_median": 0.9328125,
+      "nominal_parameters": 5843,
+      "parameter_bytes": 29772,
+      "total_active_macs_per_timestep": 3716
+    },
+    "AD2_H40_2x20": {
+      "active_candidate_recurrent_weights": 800,
+      "active_parameters": 3123,
+      "candidate_recurrent_macs": 800,
+      "families_passing": 4,
+      "family_results": {
+        "conditional_routing": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              0.998046875,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              0.9921875,
+              0.9921875,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "delayed_recall": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 0.9921875,
+            "values": [
+              0.9921875,
+              0.9921875,
+              0.984375,
+              1.0,
+              0.9921875
+            ]
+          }
+        },
+        "iterative_state": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.990234375,
+            "values": [
+              0.990234375,
+              0.9921875,
+              0.98828125,
+              0.990234375,
+              0.990234375
+            ]
+          },
+          "validation": {
+            "median": 0.9921875,
+            "values": [
+              0.9921875,
+              1.0,
+              0.9921875,
+              1.0,
+              0.9921875
+            ]
+          }
+        },
+        "partial_observation": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.91796875,
+            "values": [
+              0.91796875,
+              0.923828125,
+              0.919921875,
+              0.91015625,
+              0.91796875
+            ]
+          },
+          "validation": {
+            "median": 0.875,
+            "values": [
+              0.875,
+              0.8671875,
+              0.8515625,
+              0.8984375,
+              0.875
+            ]
+          }
+        },
+        "variable_composition": {
+          "capacity_demonstrated": false,
+          "development": {
+            "median": 0.921875,
+            "values": [
+              0.904296875,
+              0.921875,
+              0.921875,
+              0.91796875,
+              0.9453125
+            ]
+          },
+          "validation": {
+            "median": 0.8203125,
+            "values": [
+              0.8203125,
+              0.828125,
+              0.8203125,
+              0.8125,
+              0.8515625
+            ]
+          }
+        }
+      },
+      "masked_candidate_recurrent_weights": 800,
+      "mean_family_validation_median": 0.9359375,
+      "nominal_parameters": 5843,
+      "parameter_bytes": 29772,
+      "total_active_macs_per_timestep": 2916
+    },
+    "AD3_H40_5x8": {
+      "active_candidate_recurrent_weights": 320,
+      "active_parameters": 2643,
+      "candidate_recurrent_macs": 320,
+      "families_passing": 4,
+      "family_results": {
+        "conditional_routing": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.9921875,
+            "values": [
+              0.99609375,
+              0.953125,
+              0.990234375,
+              0.9921875,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 0.96875,
+            "values": [
+              0.96875,
+              0.921875,
+              0.984375,
+              0.921875,
+              0.9921875
+            ]
+          }
+        },
+        "delayed_recall": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              1.0,
+              0.994140625,
+              1.0,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 0.9921875,
+            "values": [
+              0.9921875,
+              0.9921875,
+              0.9609375,
+              1.0,
+              0.9609375
+            ]
+          }
+        },
+        "iterative_state": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.990234375,
+            "values": [
+              0.990234375,
+              0.990234375,
+              0.990234375,
+              0.990234375,
+              0.98828125
+            ]
+          },
+          "validation": {
+            "median": 0.9921875,
+            "values": [
+              0.984375,
+              0.9921875,
+              0.9921875,
+              0.984375,
+              0.9921875
+            ]
+          }
+        },
+        "partial_observation": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.912109375,
+            "values": [
+              0.912109375,
+              0.916015625,
+              0.912109375,
+              0.90625,
+              0.921875
+            ]
+          },
+          "validation": {
+            "median": 0.890625,
+            "values": [
+              0.8984375,
+              0.890625,
+              0.890625,
+              0.90625,
+              0.890625
+            ]
+          }
+        },
+        "variable_composition": {
+          "capacity_demonstrated": false,
+          "development": {
+            "median": 0.904296875,
+            "values": [
+              0.904296875,
+              0.904296875,
+              0.912109375,
+              0.900390625,
+              0.908203125
+            ]
+          },
+          "validation": {
+            "median": 0.84375,
+            "values": [
+              0.828125,
+              0.8515625,
+              0.8515625,
+              0.8359375,
+              0.84375
+            ]
+          }
+        }
+      },
+      "masked_candidate_recurrent_weights": 1280,
+      "mean_family_validation_median": 0.9375,
+      "nominal_parameters": 5843,
+      "parameter_bytes": 29772,
+      "total_active_macs_per_timestep": 2436
+    },
+    "AD4S_S0": {
+      "active_candidate_recurrent_weights": 160,
+      "active_parameters": 2483,
+      "candidate_recurrent_macs": 160,
+      "families_passing": 4,
+      "family_results": {
+        "conditional_routing": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.974609375,
+            "values": [
+              0.794921875,
+              0.796875,
+              0.974609375,
+              0.986328125,
+              0.982421875
+            ]
+          },
+          "validation": {
+            "median": 0.921875,
+            "values": [
+              0.578125,
+              0.7890625,
+              0.921875,
+              0.921875,
+              0.953125
+            ]
+          }
+        },
+        "delayed_recall": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 0.984375,
+            "values": [
+              0.984375,
+              0.984375,
+              0.984375,
+              0.984375,
+              0.9609375
+            ]
+          }
+        },
+        "iterative_state": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.98828125,
+            "values": [
+              0.986328125,
+              0.990234375,
+              0.98828125,
+              0.98828125,
+              0.990234375
+            ]
+          },
+          "validation": {
+            "median": 0.984375,
+            "values": [
+              0.9921875,
+              0.9921875,
+              0.984375,
+              0.984375,
+              0.984375
+            ]
+          }
+        },
+        "partial_observation": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.912109375,
+            "values": [
+              0.912109375,
+              0.916015625,
+              0.912109375,
+              0.912109375,
+              0.919921875
+            ]
+          },
+          "validation": {
+            "median": 0.890625,
+            "values": [
+              0.8984375,
+              0.890625,
+              0.890625,
+              0.90625,
+              0.890625
+            ]
+          }
+        },
+        "variable_composition": {
+          "capacity_demonstrated": false,
+          "development": {
+            "median": 0.8984375,
+            "values": [
+              0.8984375,
+              0.904296875,
+              0.8984375,
+              0.890625,
+              0.90234375
+            ]
+          },
+          "validation": {
+            "median": 0.8359375,
+            "values": [
+              0.8203125,
+              0.8359375,
+              0.8203125,
+              0.8359375,
+              0.8515625
+            ]
+          }
+        }
+      },
+      "masked_candidate_recurrent_weights": 1440,
+      "mean_family_validation_median": 0.9234375,
+      "nominal_parameters": 5843,
+      "parameter_bytes": 29772,
+      "total_active_macs_per_timestep": 2276
+    },
+    "AD4_H40_10x4": {
+      "active_candidate_recurrent_weights": 160,
+      "active_parameters": 2483,
+      "candidate_recurrent_macs": 160,
+      "families_passing": 4,
+      "family_results": {
+        "conditional_routing": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.95703125,
+            "values": [
+              0.80859375,
+              0.80078125,
+              0.95703125,
+              0.96875,
+              0.994140625
+            ]
+          },
+          "validation": {
+            "median": 0.875,
+            "values": [
+              0.7265625,
+              0.7890625,
+              0.9453125,
+              0.875,
+              0.9921875
+            ]
+          }
+        },
+        "delayed_recall": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 1.0,
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "validation": {
+            "median": 0.9765625,
+            "values": [
+              0.9765625,
+              0.984375,
+              0.9765625,
+              0.984375,
+              0.9609375
+            ]
+          }
+        },
+        "iterative_state": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.990234375,
+            "values": [
+              0.986328125,
+              0.990234375,
+              0.990234375,
+              0.990234375,
+              0.990234375
+            ]
+          },
+          "validation": {
+            "median": 0.984375,
+            "values": [
+              0.9921875,
+              0.984375,
+              0.984375,
+              0.984375,
+              0.984375
+            ]
+          }
+        },
+        "partial_observation": {
+          "capacity_demonstrated": true,
+          "development": {
+            "median": 0.9140625,
+            "values": [
+              0.912109375,
+              0.91796875,
+              0.9140625,
+              0.912109375,
+              0.921875
+            ]
+          },
+          "validation": {
+            "median": 0.890625,
+            "values": [
+              0.90625,
+              0.890625,
+              0.890625,
+              0.8984375,
+              0.890625
+            ]
+          }
+        },
+        "variable_composition": {
+          "capacity_demonstrated": false,
+          "development": {
+            "median": 0.900390625,
+            "values": [
+              0.89453125,
+              0.91015625,
+              0.896484375,
+              0.900390625,
+              0.90625
+            ]
+          },
+          "validation": {
+            "median": 0.828125,
+            "values": [
+              0.828125,
+              0.8359375,
+              0.8125,
+              0.828125,
+              0.8515625
+            ]
+          }
+        }
+      },
+      "masked_candidate_recurrent_weights": 1440,
+      "mean_family_validation_median": 0.9109375,
+      "nominal_parameters": 5843,
+      "parameter_bytes": 29772,
+      "total_active_macs_per_timestep": 2276
+    }
+  },
+  "decision": {
+    "ad0_anchor_valid": true,
+    "ad1_dense_h40_families": 4,
+    "ad4s_robustness_run": false,
+    "ad4s_topology_pass_count": null,
+    "authorized_v837ae_mode": null,
+    "diagnosis": "TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE",
+    "families_passing": {
+      "AD0_H13_dense": 4,
+      "AD1_H40_dense": 4,
+      "AD2_H40_2x20": 4,
+      "AD3_H40_5x8": 4,
+      "AD4S_S0": 4,
+      "AD4_H40_10x4": 4
+    },
+    "fresh_audit_consumed": false,
+    "geometry_stage_run": true,
+    "large_persistent_storage_tested": false,
+    "next_axis": "GRAPH_MESSAGE_OUTPUT_INTERFACE_ORGANIZATION",
+    "primitive_mining_allowed": false,
+    "primitives_promoted": 0,
+    "representation_recovery_in_reference": true,
+    "sample_efficiency_retest_allowed": false,
+    "structural_search_allowed": false,
+    "v837ad_complete": true,
+    "v838_started": false
+  },
+  "fresh_audit_consumed": false,
+  "large_persistent_storage_tested": false,
+  "question": "Does successful scalarized recurrent computation require candidate-state integration across a sufficiently broad recurrent coordinate geometry, or can candidate recurrence be partitioned into narrow local blocks?",
+  "resource_accounting": {
+    "backward_calls": 28800,
+    "cpu_seconds_worker_sum": 1383.65625,
+    "environment_interactions": 667350,
+    "forward_calls": 31050,
+    "fresh_audit_consumed": false,
+    "gpu_seconds": 0.0,
+    "model_fits": 150,
+    "optimizer_steps": 28800,
+    "processed_training_examples": 14745600,
+    "unique_seed_defined_episodes": 3200,
+    "version": "V837ad",
+    "wall_seconds_worker_sum": 2148.0203952004667
+  },
+  "unique_seed_defined_episodes": 3200,
+  "v838_started": false,
+  "version": "V837ad",
+  "width_gate": {
+    "ad0_anchor_valid": true,
+    "ad1_dense_h40": {
+      "families_passing": 4,
+      "family_development_medians": {
+        "conditional_routing": 1.0,
+        "delayed_recall": 1.0,
+        "iterative_state": 0.990234375,
+        "partial_observation": 0.927734375,
+        "variable_composition": 0.9296875
+      },
+      "family_validation_medians": {
+        "conditional_routing": 0.9921875,
+        "delayed_recall": 1.0,
+        "iterative_state": 0.9921875,
+        "partial_observation": 0.859375,
+        "variable_composition": 0.8203125
+      }
+    },
+    "ad1_dense_h40_families": 4,
+    "diagnosis": "WIDTH_GATE_PASS",
+    "geometry_stage_allowed": true,
+    "next_axis": null
+  }
+}

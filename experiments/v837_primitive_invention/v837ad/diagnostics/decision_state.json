@@ -1,0 +1,27 @@
+{
+  "ad0_anchor_valid": true,
+  "ad1_dense_h40_families": 4,
+  "ad4s_robustness_run": false,
+  "ad4s_topology_pass_count": null,
+  "authorized_v837ae_mode": null,
+  "diagnosis": "TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE",
+  "families_passing": {
+    "AD0_H13_dense": 4,
+    "AD1_H40_dense": 4,
+    "AD2_H40_2x20": 4,
+    "AD3_H40_5x8": 4,
+    "AD4S_S0": 4,
+    "AD4_H40_10x4": 4
+  },
+  "fresh_audit_consumed": false,
+  "geometry_stage_run": true,
+  "large_persistent_storage_tested": false,
+  "next_axis": "GRAPH_MESSAGE_OUTPUT_INTERFACE_ORGANIZATION",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_recovery_in_reference": true,
+  "sample_efficiency_retest_allowed": false,
+  "structural_search_allowed": false,
+  "v837ad_complete": true,
+  "v838_started": false
+}

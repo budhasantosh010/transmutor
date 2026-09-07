@@ -1,0 +1,302 @@
+{
+  "AD0_H13_dense": {
+    "0": {
+      "candidate_effective_rank_median": 12.0,
+      "candidate_matrix_norm_median": 2.0742597579956055,
+      "development_loss_median": 0.24611246585845947,
+      "development_success_median": 0.28515625,
+      "gate_carry_median": 0.5002244710922241,
+      "state_effective_rank_median": 11.0
+    },
+    "144": {
+      "candidate_effective_rank_median": 11.0,
+      "candidate_matrix_norm_median": 3.243807315826416,
+      "development_loss_median": 0.013804265297949314,
+      "development_success_median": 0.916015625,
+      "gate_carry_median": 0.353777676820755,
+      "state_effective_rank_median": 10.0
+    },
+    "192": {
+      "candidate_effective_rank_median": 11.0,
+      "candidate_matrix_norm_median": 3.4998912811279297,
+      "development_loss_median": 0.008733391761779785,
+      "development_success_median": 0.966796875,
+      "gate_carry_median": 0.3284177780151367,
+      "state_effective_rank_median": 11.0
+    },
+    "24": {
+      "candidate_effective_rank_median": 11.0,
+      "candidate_matrix_norm_median": 2.157454013824463,
+      "development_loss_median": 0.06760590523481369,
+      "development_success_median": 0.42578125,
+      "gate_carry_median": 0.45558157563209534,
+      "state_effective_rank_median": 11.0
+    },
+    "48": {
+      "candidate_effective_rank_median": 10.0,
+      "candidate_matrix_norm_median": 2.244582176208496,
+      "development_loss_median": 0.03403744101524353,
+      "development_success_median": 0.6328125,
+      "gate_carry_median": 0.3975287079811096,
+      "state_effective_rank_median": 10.0
+    },
+    "96": {
+      "candidate_effective_rank_median": 12.0,
+      "candidate_matrix_norm_median": 2.8550407886505127,
+      "development_loss_median": 0.014881511218845844,
+      "development_success_median": 0.87109375,
+      "gate_carry_median": 0.35859063267707825,
+      "state_effective_rank_median": 11.0
+    }
+  },
+  "AD1_H40_dense": {
+    "0": {
+      "candidate_effective_rank_median": 16.0,
+      "candidate_matrix_norm_median": 3.6594114303588867,
+      "development_loss_median": 0.23690524697303772,
+      "development_success_median": 0.298828125,
+      "gate_carry_median": 0.4986424446105957,
+      "state_effective_rank_median": 15.0
+    },
+    "144": {
+      "candidate_effective_rank_median": 15.0,
+      "candidate_matrix_norm_median": 5.404139041900635,
+      "development_loss_median": 0.007797541096806526,
+      "development_success_median": 0.974609375,
+      "gate_carry_median": 0.4363560378551483,
+      "state_effective_rank_median": 14.0
+    },
+    "192": {
+      "candidate_effective_rank_median": 16.0,
+      "candidate_matrix_norm_median": 5.61489725112915,
+      "development_loss_median": 0.003527590073645115,
+      "development_success_median": 0.990234375,
+      "gate_carry_median": 0.4143390357494354,
+      "state_effective_rank_median": 15.0
+    },
+    "24": {
+      "candidate_effective_rank_median": 13.0,
+      "candidate_matrix_norm_median": 3.905947685241699,
+      "development_loss_median": 0.05500471964478493,
+      "development_success_median": 0.494140625,
+      "gate_carry_median": 0.41647252440452576,
+      "state_effective_rank_median": 13.0
+    },
+    "48": {
+      "candidate_effective_rank_median": 13.0,
+      "candidate_matrix_norm_median": 4.246944427490234,
+      "development_loss_median": 0.02857149764895439,
+      "development_success_median": 0.73046875,
+      "gate_carry_median": 0.4344465136528015,
+      "state_effective_rank_median": 12.0
+    },
+    "96": {
+      "candidate_effective_rank_median": 14.0,
+      "candidate_matrix_norm_median": 5.040706157684326,
+      "development_loss_median": 0.009611719287931919,
+      "development_success_median": 0.916015625,
+      "gate_carry_median": 0.4446404278278351,
+      "state_effective_rank_median": 13.0
+    }
+  },
+  "AD2_H40_2x20": {
+    "0": {
+      "candidate_effective_rank_median": 13.0,
+      "candidate_matrix_norm_median": 2.6025519371032715,
+      "development_loss_median": 0.2367856353521347,
+      "development_success_median": 0.298828125,
+      "gate_carry_median": 0.49875837564468384,
+      "state_effective_rank_median": 13.0
+    },
+    "144": {
+      "candidate_effective_rank_median": 13.0,
+      "candidate_matrix_norm_median": 4.429381370544434,
+      "development_loss_median": 0.008466946892440319,
+      "development_success_median": 0.984375,
+      "gate_carry_median": 0.41351398825645447,
+      "state_effective_rank_median": 12.0
+    },
+    "192": {
+      "candidate_effective_rank_median": 14.0,
+      "candidate_matrix_norm_median": 4.778136253356934,
+      "development_loss_median": 0.003772502299398184,
+      "development_success_median": 0.990234375,
+      "gate_carry_median": 0.40836194157600403,
+      "state_effective_rank_median": 13.0
+    },
+    "24": {
+      "candidate_effective_rank_median": 11.0,
+      "candidate_matrix_norm_median": 2.850003480911255,
+      "development_loss_median": 0.052217353135347366,
+      "development_success_median": 0.498046875,
+      "gate_carry_median": 0.39246731996536255,
+      "state_effective_rank_median": 11.0
+    },
+    "48": {
+      "candidate_effective_rank_median": 11.0,
+      "candidate_matrix_norm_median": 3.2566351890563965,
+      "development_loss_median": 0.029879746958613396,
+      "development_success_median": 0.6796875,
+      "gate_carry_median": 0.40647315979003906,
+      "state_effective_rank_median": 11.0
+    },
+    "96": {
+      "candidate_effective_rank_median": 12.0,
+      "candidate_matrix_norm_median": 4.2399163246154785,
+      "development_loss_median": 0.011254060082137585,
+      "development_success_median": 0.912109375,
+      "gate_carry_median": 0.41442692279815674,
+      "state_effective_rank_median": 12.0
+    }
+  },
+  "AD3_H40_5x8": {
+    "0": {
+      "candidate_effective_rank_median": 11.0,
+      "candidate_matrix_norm_median": 1.6403396129608154,
+      "development_loss_median": 0.2242215871810913,
+      "development_success_median": 0.298828125,
+      "gate_carry_median": 0.49859851598739624,
+      "state_effective_rank_median": 11.0
+    },
+    "144": {
+      "candidate_effective_rank_median": 13.0,
+      "candidate_matrix_norm_median": 3.804164171218872,
+      "development_loss_median": 0.009608123451471329,
+      "development_success_median": 0.91796875,
+      "gate_carry_median": 0.44336843490600586,
+      "state_effective_rank_median": 12.0
+    },
+    "192": {
+      "candidate_effective_rank_median": 13.0,
+      "candidate_matrix_norm_median": 4.025230884552002,
+      "development_loss_median": 0.008430048823356628,
+      "development_success_median": 0.990234375,
+      "gate_carry_median": 0.44194239377975464,
+      "state_effective_rank_median": 11.0
+    },
+    "24": {
+      "candidate_effective_rank_median": 10.0,
+      "candidate_matrix_norm_median": 1.887589693069458,
+      "development_loss_median": 0.052004825323820114,
+      "development_success_median": 0.48828125,
+      "gate_carry_median": 0.4092808663845062,
+      "state_effective_rank_median": 10.0
+    },
+    "48": {
+      "candidate_effective_rank_median": 10.0,
+      "candidate_matrix_norm_median": 2.122649669647217,
+      "development_loss_median": 0.03234516829252243,
+      "development_success_median": 0.62890625,
+      "gate_carry_median": 0.39977580308914185,
+      "state_effective_rank_median": 10.0
+    },
+    "96": {
+      "candidate_effective_rank_median": 12.0,
+      "candidate_matrix_norm_median": 3.420264720916748,
+      "development_loss_median": 0.01403740607202053,
+      "development_success_median": 0.91796875,
+      "gate_carry_median": 0.4533786475658417,
+      "state_effective_rank_median": 13.0
+    }
+  },
+  "AD4S_S0": {
+    "0": {
+      "candidate_effective_rank_median": 10.0,
+      "candidate_matrix_norm_median": 1.1347912549972534,
+      "development_loss_median": 0.21610677242279053,
+      "development_success_median": 0.298828125,
+      "gate_carry_median": 0.4987197816371918,
+      "state_effective_rank_median": 11.0
+    },
+    "144": {
+      "candidate_effective_rank_median": 14.0,
+      "candidate_matrix_norm_median": 3.4329967498779297,
+      "development_loss_median": 0.011585842818021774,
+      "development_success_median": 0.916015625,
+      "gate_carry_median": 0.4398350119590759,
+      "state_effective_rank_median": 12.0
+    },
+    "192": {
+      "candidate_effective_rank_median": 14.0,
+      "candidate_matrix_norm_median": 3.669466733932495,
+      "development_loss_median": 0.009466610848903656,
+      "development_success_median": 0.974609375,
+      "gate_carry_median": 0.42965173721313477,
+      "state_effective_rank_median": 13.0
+    },
+    "24": {
+      "candidate_effective_rank_median": 9.0,
+      "candidate_matrix_norm_median": 1.3579572439193726,
+      "development_loss_median": 0.0527624636888504,
+      "development_success_median": 0.5,
+      "gate_carry_median": 0.42538079619407654,
+      "state_effective_rank_median": 8.0
+    },
+    "48": {
+      "candidate_effective_rank_median": 9.0,
+      "candidate_matrix_norm_median": 1.6341304779052734,
+      "development_loss_median": 0.035355497151613235,
+      "development_success_median": 0.599609375,
+      "gate_carry_median": 0.3922862112522125,
+      "state_effective_rank_median": 9.0
+    },
+    "96": {
+      "candidate_effective_rank_median": 12.0,
+      "candidate_matrix_norm_median": 2.6037404537200928,
+      "development_loss_median": 0.017314163967967033,
+      "development_success_median": 0.83984375,
+      "gate_carry_median": 0.45382630825042725,
+      "state_effective_rank_median": 12.0
+    }
+  },
+  "AD4_H40_10x4": {
+    "0": {
+      "candidate_effective_rank_median": 10.0,
+      "candidate_matrix_norm_median": 1.1452016830444336,
+      "development_loss_median": 0.21957899630069733,
+      "development_success_median": 0.298828125,
+      "gate_carry_median": 0.4986186921596527,
+      "state_effective_rank_median": 10.0
+    },
+    "144": {
+      "candidate_effective_rank_median": 14.0,
+      "candidate_matrix_norm_median": 3.47395658493042,
+      "development_loss_median": 0.01277459692209959,
+      "development_success_median": 0.91796875,
+      "gate_carry_median": 0.4251481592655182,
+      "state_effective_rank_median": 13.0
+    },
+    "192": {
+      "candidate_effective_rank_median": 14.0,
+      "candidate_matrix_norm_median": 3.8102645874023438,
+      "development_loss_median": 0.009111488237977028,
+      "development_success_median": 0.95703125,
+      "gate_carry_median": 0.41171249747276306,
+      "state_effective_rank_median": 12.0
+    },
+    "24": {
+      "candidate_effective_rank_median": 9.0,
+      "candidate_matrix_norm_median": 1.376751184463501,
+      "development_loss_median": 0.05276062339544296,
+      "development_success_median": 0.494140625,
+      "gate_carry_median": 0.42155587673187256,
+      "state_effective_rank_median": 9.0
+    },
+    "48": {
+      "candidate_effective_rank_median": 9.0,
+      "candidate_matrix_norm_median": 1.611899495124817,
+      "development_loss_median": 0.03443985432386398,
+      "development_success_median": 0.609375,
+      "gate_carry_median": 0.398237407207489,
+      "state_effective_rank_median": 8.0
+    },
+    "96": {
+      "candidate_effective_rank_median": 12.0,
+      "candidate_matrix_norm_median": 2.615525245666504,
+      "development_loss_median": 0.01836627908051014,
+      "development_success_median": 0.849609375,
+      "gate_carry_median": 0.41748523712158203,
+      "state_effective_rank_median": 11.0
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "AD0_H13_dense": {
+    "candidate_input_slice_norm": 0.0008135871030390263,
+    "candidate_recurrent_active_grad_norm": 0.0008934548823162913,
+    "candidate_recurrent_masked_grad_max_abs": 0.0,
+    "candidate_recurrent_masked_grad_norm": 0.0,
+    "input_projection_grad_norm": 0.0008944378350861371,
+    "readout_grad_norm": 0.0017405584221705794,
+    "update_input_slice_norm": 9.530196257401258e-05,
+    "update_recurrent_slice_norm": 0.00010921322973445058
+  },
+  "AD1_H40_dense": {
+    "candidate_input_slice_norm": 0.0003941349859815091,
+    "candidate_recurrent_active_grad_norm": 0.00046023656614124775,
+    "candidate_recurrent_masked_grad_max_abs": 0.0,
+    "candidate_recurrent_masked_grad_norm": 0.0,
+    "input_projection_grad_norm": 0.00046613242011517286,
+    "readout_grad_norm": 0.0004855753213632852,
+    "update_input_slice_norm": 4.146295759710483e-05,
+    "update_recurrent_slice_norm": 6.358468817779794e-05
+  },
+  "AD2_H40_2x20": {
+    "candidate_input_slice_norm": 0.0003798420657403767,
+    "candidate_recurrent_active_grad_norm": 0.0004577830550260842,
+    "candidate_recurrent_masked_grad_max_abs": 0.0,
+    "candidate_recurrent_masked_grad_norm": 0.0,
+    "input_projection_grad_norm": 0.0003744435962289572,
+    "readout_grad_norm": 0.00048486265586689115,
+    "update_input_slice_norm": 3.12124248011969e-05,
+    "update_recurrent_slice_norm": 5.175044134375639e-05
+  },
+  "AD3_H40_5x8": {
+    "candidate_input_slice_norm": 0.00032329093664884567,
+    "candidate_recurrent_active_grad_norm": 0.0003051405947189778,
+    "candidate_recurrent_masked_grad_max_abs": 0.0,
+    "candidate_recurrent_masked_grad_norm": 0.0,
+    "input_projection_grad_norm": 0.0004592670884449035,
+    "readout_grad_norm": 0.0006732006440870464,
+    "update_input_slice_norm": 2.9435146643663757e-05,
+    "update_recurrent_slice_norm": 4.287582851247862e-05
+  },
+  "AD4S_S0": {
+    "candidate_input_slice_norm": 0.0004751329543069005,
+    "candidate_recurrent_active_grad_norm": 0.0004308024363126606,
+    "candidate_recurrent_masked_grad_max_abs": 0.0,
+    "candidate_recurrent_masked_grad_norm": 0.0,
+    "input_projection_grad_norm": 0.0006339901592582464,
+    "readout_grad_norm": 0.0005135639221407473,
+    "update_input_slice_norm": 3.354600994498469e-05,
+    "update_recurrent_slice_norm": 4.45825353381224e-05
+  },
+  "AD4_H40_10x4": {
+    "candidate_input_slice_norm": 0.00062610674649477,
+    "candidate_recurrent_active_grad_norm": 0.00042538202251307666,
+    "candidate_recurrent_masked_grad_max_abs": 0.0,
+    "candidate_recurrent_masked_grad_norm": 0.0,
+    "input_projection_grad_norm": 0.0007966903503984213,
+    "readout_grad_norm": 0.0008207748760469258,
+    "update_input_slice_norm": 8.104205335257575e-05,
+    "update_recurrent_slice_norm": 4.332660319050774e-05
+  }
+}
