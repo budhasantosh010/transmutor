@@ -1,0 +1,45 @@
+{
+  "expected": {
+    "families_passing": 4,
+    "family_development_medians": {
+      "conditional_routing": 0.966796875,
+      "delayed_recall": 0.99609375,
+      "iterative_state": 0.98828125,
+      "partial_observation": 0.912109375,
+      "variable_composition": 0.91796875
+    },
+    "family_validation_medians": {
+      "conditional_routing": 0.875,
+      "delayed_recall": 0.9765625,
+      "iterative_state": 1.0,
+      "partial_observation": 0.875,
+      "variable_composition": 0.8203125
+    }
+  },
+  "max_validation_median_absolute_delta": 0.0,
+  "observed": {
+    "families_passing": 4,
+    "family_development_medians": {
+      "conditional_routing": 0.966796875,
+      "delayed_recall": 0.99609375,
+      "iterative_state": 0.98828125,
+      "partial_observation": 0.912109375,
+      "variable_composition": 0.91796875
+    },
+    "family_validation_medians": {
+      "conditional_routing": 0.875,
+      "delayed_recall": 0.9765625,
+      "iterative_state": 1.0,
+      "partial_observation": 0.875,
+      "variable_composition": 0.8203125
+    }
+  },
+  "reference_baseline_valid": true,
+  "validation_median_absolute_deltas": {
+    "conditional_routing": 0.0,
+    "delayed_recall": 0.0,
+    "iterative_state": 0.0,
+    "partial_observation": 0.0,
+    "variable_composition": 0.0
+  }
+}
