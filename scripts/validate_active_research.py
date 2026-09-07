@@ -865,6 +865,12 @@ def main() -> int:
     candidate_law_validator = ROOT / "scripts" / "validate_v837_candidate_law_alignment.py"
     if candidate_law_validator.exists():
         runpy.run_path(str(candidate_law_validator), run_name="__main__")
+    input_factorization_validator = ROOT / "scripts" / "validate_v837_input_factorization.py"
+    if input_factorization_validator.exists():
+        runpy.run_path(str(input_factorization_validator), run_name="__main__")
+    input_transfer_validator = ROOT / "scripts" / "validate_v837_input_transfer.py"
+    if input_transfer_validator.exists():
+        runpy.run_path(str(input_transfer_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 
