@@ -122,9 +122,21 @@ AC1F folded control                            3/5
         ↓
 INPUT_ORGANIZATION_TRANSFER_INSUFFICIENT
         ↓
-input axis closed
+V837ad candidate recurrent geometry
+AD0 H13 dense reference                       4/5
+AD1 H40 dense width control                   4/5
+AD2 H40 2×20 candidate blocks                 4/5
+AD3 H40 5×8 candidate blocks                  4/5
+AD4 H40 10×4 candidate blocks                 4/5
+AD4S-S0 H40 degree-4 global sparse            4/5
+        ↓
+TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE
+        ↓
+sparse robustness NOT TRIGGERED
+V837ae NOT AUTHORIZED / NOT RUN
+        ↓
 next documented single variable:
-CANDIDATE_STATE_GEOMETRY_LOCALIZATION
+GRAPH_MESSAGE_OUTPUT_INTERFACE_ORGANIZATION
 ```
 
 ## Current V837v evidence
