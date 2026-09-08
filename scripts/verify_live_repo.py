@@ -694,6 +694,53 @@ def main() -> int:
         if (ROOT / "experiments" / "v837_primitive_invention" / forbidden).exists():
             raise RuntimeError(f"unauthorized {forbidden} directory exists after V837ai")
 
+    # V837aj reopens only message-topology search on the exact AF1D substrate.
+    # Stage B is legal only after the calibrated proxy passes the frozen Reality Gate.
+    aj_record = manifest["current_variants"].get("V837aj")
+    if not isinstance(aj_record, dict):
+        raise RuntimeError("verification manifest missing V837aj")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in aj_record.get(key, []):
+            require_path(relative)
+    require_path(aj_record["config"])
+    require_path(aj_record["frozen_gate"])
+    require_path(aj_record["results"])
+    aj = load_json(aj_record["results"])
+    aj_decision = load_json("experiments/v837_primitive_invention/v837aj/diagnostics/decision_state.json")
+    aj_anchor = load_json("experiments/v837_primitive_invention/v837aj/diagnostics/anchor_reproduction.json")
+    aj_fidelity = load_json("experiments/v837_primitive_invention/v837aj/diagnostics/fidelity_decision.json")
+    if aj_anchor.get("anchor_reproduced") is not True or int(aj_anchor.get("families_passing", -1)) != 4:
+        raise RuntimeError("V837aj AF1D anchor reproduction changed")
+    if float(aj_anchor.get("max_development_delta", 1.0)) != 0.0 or float(aj_anchor.get("max_validation_delta", 1.0)) != 0.0:
+        raise RuntimeError("V837aj AF1D anchor drift changed")
+    if aj_fidelity.get("calibration_complete") is not True or aj_fidelity.get("proxy_valid") is not True or aj_fidelity.get("selected_search_fidelity") != "F3":
+        raise RuntimeError("V837aj frozen search-fidelity decision changed")
+    f3 = aj_fidelity.get("metrics", {}).get("F3", {})
+    if f3.get("passes_frozen_gate") is not True or float(f3.get("median_spearman_rho", 0.0)) < 0.75 or float(f3.get("median_kendall_tau", 0.0)) < 0.60 or float(f3.get("minimum_family_kendall_tau", 0.0)) < 0.35 or float(f3.get("median_pairwise_order_accuracy", 0.0)) < 0.72 or float(f3.get("minimum_family_top4_recall", 0.0)) < 0.50:
+        raise RuntimeError("V837aj F3 Reality Gate no longer passes")
+    if aj.get("stage_b_run") is not True or aj_decision.get("constructive_search_run") is not True or aj_decision.get("search_stage_allowed") is not True:
+        raise RuntimeError("V837aj authorized Stage-B execution changed")
+    budget = load_json("experiments/v837_primitive_invention/v837aj/diagnostics/search_random_budget_match.json")
+    if budget.get("all_exact_64") is not True or budget.get("all_slot_matched") is not True:
+        raise RuntimeError("V837aj directed/random budget pairing changed")
+    allowed_aj_diagnoses = {
+        "STRUCTURAL_SEARCH_RECOVERED",
+        "RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT",
+        "STRUCTURAL_SELECTION_OVERFIT",
+        "STRUCTURAL_DISCOVERY_NOT_RECOVERED",
+        "STRUCTURAL_DISCOVERY_SUPERIORITY_INCONCLUSIVE",
+    }
+    if aj.get("diagnosis") not in allowed_aj_diagnoses or aj_decision.get("diagnosis") != aj.get("diagnosis"):
+        raise RuntimeError("V837aj final diagnosis changed or is invalid")
+    mining_expected = aj.get("diagnosis") in {"STRUCTURAL_SEARCH_RECOVERED", "RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT"}
+    if aj.get("primitive_mining_allowed_next") is not mining_expected or aj_decision.get("primitive_mining_allowed_next") is not mining_expected:
+        raise RuntimeError("V837aj primitive-mining authorization disagrees with diagnosis")
+    if aj.get("fresh_audit_consumed") is not False or aj.get("primitives_promoted") != 0 or aj.get("v838_started") is not False:
+        raise RuntimeError("V837aj violated fresh-audit/primitive/V838 locks")
+    aj_status = load_json("experiments/v837_primitive_invention/structural_search_recovery_program_status.json")
+    if aj_status.get("diagnosis") != aj.get("diagnosis") or aj_status.get("fresh_audit_episodes_consumed") != 0 or aj_status.get("primitives_promoted") != 0 or aj_status.get("v838_started") is not False:
+        raise RuntimeError("V837aj program status disagrees with results")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")
