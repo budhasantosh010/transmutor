@@ -40,6 +40,12 @@ def _random_worker(directed_run: dict, fidelity: str) -> dict:
     return run_random_sampler(directed_run, fidelity, checkpoint=True)
 
 
+def _paired_worker(family: str, run_index: int, fidelity: str) -> tuple[dict, dict]:
+    directed = run_directed_search(family, run_index, fidelity, checkpoint=True)
+    random = run_random_sampler(directed, fidelity, checkpoint=True)
+    return directed, random
+
+
 def _cache_path(engine: str, family: str, run_index: int) -> Path:
     return CACHE / f"{engine}_{family}_{int(run_index)}.json"
 
@@ -116,10 +122,39 @@ def run_random(extension: bool) -> int:
     return 0
 
 
+def run_paired(extension: bool) -> int:
+    fidelity = require_valid_proxy()
+    if extension and not _extension_allowed():
+        raise SystemExit("V837aj robustness paired search blocked: primary machine trigger absent")
+    CACHE.mkdir(parents=True, exist_ok=True)
+    jobs = []
+    for family in FAMILIES:
+        for run_index in _run_indices(extension):
+            if _load_complete("random", family, run_index) is None:
+                jobs.append((family, run_index, fidelity))
+    if jobs:
+        with ProcessPoolExecutor(max_workers=25) as pool:
+            futures = {pool.submit(_paired_worker, *job): job for job in jobs}
+            for future in as_completed(futures):
+                directed, random = future.result()
+                write_json(_cache_path("search", directed["family"], directed["run_index"]), directed)
+                write_json(_cache_path("random", random["family"], random["run_index"]), random)
+                print(
+                    f"paired {directed['family']} r{directed['run_index']}: "
+                    f"directed sel={directed['champion']['search_selection_success']:.6f} "
+                    f"random sel={random['champion']['search_selection_success']:.6f}",
+                    flush=True,
+                )
+    _aggregate_proxy("search")
+    _aggregate_proxy("random")
+    return 0
+
+
 def main() -> int:
-    parser = argparse.ArgumentParser(); parser.add_argument("--phase", choices=("directed","random"), required=True); parser.add_argument("--extension", action="store_true")
+    parser = argparse.ArgumentParser(); parser.add_argument("--phase", choices=("directed","random","paired"), required=True); parser.add_argument("--extension", action="store_true")
     args = parser.parse_args()
     if args.phase == "directed": return run_directed(bool(args.extension))
-    return run_random(bool(args.extension))
+    if args.phase == "random": return run_random(bool(args.extension))
+    return run_paired(bool(args.extension))
 
 if __name__ == "__main__": raise SystemExit(main())
