@@ -1,0 +1,36 @@
+{
+  "absolute_deltas": {
+    "conditional_routing": 0.0,
+    "delayed_recall": 0.0,
+    "iterative_state": 0.0,
+    "partial_observation": 0.0,
+    "variable_composition": 0.0
+  },
+  "expected_families_passing": 3,
+  "expected_family_validation_medians": {
+    "conditional_routing": 0.84375,
+    "delayed_recall": 0.953125,
+    "iterative_state": 0.9921875,
+    "partial_observation": 0.7734375,
+    "variable_composition": 0.8515625
+  },
+  "max_absolute_delta": 0.0,
+  "observed": {
+    "families_passing": 3,
+    "family_development_medians": {
+      "conditional_routing": 1.0,
+      "delayed_recall": 0.998046875,
+      "iterative_state": 0.998046875,
+      "partial_observation": 0.98828125,
+      "variable_composition": 0.986328125
+    },
+    "family_validation_medians": {
+      "conditional_routing": 0.84375,
+      "delayed_recall": 0.953125,
+      "iterative_state": 0.9921875,
+      "partial_observation": 0.7734375,
+      "variable_composition": 0.8515625
+    }
+  },
+  "parent_reproduced": true
+}
