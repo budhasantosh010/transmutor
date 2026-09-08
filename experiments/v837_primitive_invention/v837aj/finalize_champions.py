@@ -192,7 +192,7 @@ def run_finalization(engine: str, *, extension: bool) -> int:
         if not path.is_file():
             jobs.append(run)
     if jobs:
-        with ProcessPoolExecutor(max_workers=min(10, os.cpu_count() or 1)) as pool:
+        with ProcessPoolExecutor(max_workers=25) as pool:
             futures = {pool.submit(finalize_champion, run, engine=engine): run for run in jobs}
             for future in as_completed(futures):
                 row = future.result()

@@ -880,6 +880,9 @@ def main() -> int:
     af1d_sample_efficiency_validator = ROOT / "scripts" / "validate_v837_af1d_sample_efficiency.py"
     if af1d_sample_efficiency_validator.exists():
         runpy.run_path(str(af1d_sample_efficiency_validator), run_name="__main__")
+    structural_search_recovery_validator = ROOT / "scripts" / "validate_v837_structural_search_recovery.py"
+    if structural_search_recovery_validator.exists():
+        runpy.run_path(str(structural_search_recovery_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

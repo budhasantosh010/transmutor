@@ -132,6 +132,19 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837ai/run_sample_efficiency.py", "--phase", "2x"],
         [sys.executable, "experiments/v837_primitive_invention/v837ai/analyze_results.py"],
     ],
+    "v837aj": [
+        [sys.executable, "experiments/v837_primitive_invention/v837aj/run_fidelity_calibration.py", "--phase", "anchor"],
+        *[
+            [sys.executable, "experiments/v837_primitive_invention/v837aj/run_fidelity_calibration.py", "--phase", "fidelity", "--fidelity", fidelity]
+            for fidelity in ("F_LEGACY", "F0", "F1", "F2", "F3", "F4")
+        ],
+        [sys.executable, "experiments/v837_primitive_invention/v837aj/run_fidelity_calibration.py", "--phase", "decision"],
+        [sys.executable, "experiments/v837_primitive_invention/v837aj/run_structural_search.py", "--phase", "directed"],
+        [sys.executable, "experiments/v837_primitive_invention/v837aj/run_structural_search.py", "--phase", "random"],
+        [sys.executable, "experiments/v837_primitive_invention/v837aj/finalize_champions.py", "--engine", "search"],
+        [sys.executable, "experiments/v837_primitive_invention/v837aj/finalize_champions.py", "--engine", "random"],
+        [sys.executable, "experiments/v837_primitive_invention/v837aj/analyze_results.py"],
+    ],
 }
 
 
@@ -283,6 +296,18 @@ def enforce_variant_guard(variant: str) -> None:
             if (ROOT / "experiments" / "v837_primitive_invention" / forbidden).exists():
                 raise SystemExit(f"V837ai blocked: unauthorized {forbidden} directory exists")
         return
+    if variant == "v837aj":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837ai" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837aj blocked: V837ai decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        if decision.get("structural_search_recovery_allowed") is not True:
+            raise SystemExit("V837aj blocked: V837ai did not authorize structural-search recovery")
+        if int(decision.get("recommended_structural_search_multiplier", -1)) != 4:
+            raise SystemExit("V837aj blocked: V837ai recommended multiplier is not 4x")
+        if decision.get("fresh_audit_consumed") is not False or decision.get("v838_started") is not False:
+            raise SystemExit("V837aj blocked: fresh-audit/V838 lock changed")
+        return
 
 
 def main() -> int:
@@ -304,6 +329,11 @@ def main() -> int:
         help="For V837ai only, select only the combined analyzer.",
     )
     parser.add_argument(
+        "--stage",
+        choices=("anchor", "fidelity", "search", "finalize", "analyze"),
+        help="For V837aj only, select one preserved hard-gated stage.",
+    )
+    parser.add_argument(
         "--execute",
         action="store_true",
         help="Actually run the variant. Without this flag, only print the preserved commands.",
@@ -313,14 +343,41 @@ def main() -> int:
 
     commands = VARIANT_COMMANDS[args.variant]
     if args.variant == "v837ai":
+        if args.stage:
+            raise SystemExit("--stage is only valid with --variant v837aj")
         if args.regime and args.analyze:
             raise SystemExit("V837ai accepts either --regime or --analyze, not both")
         if args.regime:
             commands = [[sys.executable, "experiments/v837_primitive_invention/v837ai/run_sample_efficiency.py", "--phase", args.regime]]
         elif args.analyze:
             commands = [[sys.executable, "experiments/v837_primitive_invention/v837ai/analyze_results.py"]]
-    elif args.regime or args.analyze:
-        raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
+    elif args.variant == "v837aj":
+        if args.regime or args.analyze:
+            raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
+        if args.stage == "anchor":
+            commands = [[sys.executable, "experiments/v837_primitive_invention/v837aj/run_fidelity_calibration.py", "--phase", "anchor"]]
+        elif args.stage == "fidelity":
+            commands = [
+                *[
+                    [sys.executable, "experiments/v837_primitive_invention/v837aj/run_fidelity_calibration.py", "--phase", "fidelity", "--fidelity", fidelity]
+                    for fidelity in ("F_LEGACY", "F0", "F1", "F2", "F3", "F4")
+                ],
+                [sys.executable, "experiments/v837_primitive_invention/v837aj/run_fidelity_calibration.py", "--phase", "decision"],
+            ]
+        elif args.stage == "search":
+            commands = [
+                [sys.executable, "experiments/v837_primitive_invention/v837aj/run_structural_search.py", "--phase", "directed"],
+                [sys.executable, "experiments/v837_primitive_invention/v837aj/run_structural_search.py", "--phase", "random"],
+            ]
+        elif args.stage == "finalize":
+            commands = [
+                [sys.executable, "experiments/v837_primitive_invention/v837aj/finalize_champions.py", "--engine", "search"],
+                [sys.executable, "experiments/v837_primitive_invention/v837aj/finalize_champions.py", "--engine", "random"],
+            ]
+        elif args.stage == "analyze":
+            commands = [[sys.executable, "experiments/v837_primitive_invention/v837aj/analyze_results.py"]]
+    elif args.regime or args.analyze or args.stage:
+        raise SystemExit("--regime/--analyze are only valid with --variant v837ai; --stage is only valid with --variant v837aj")
     config = ROOT / "experiments" / "v837_primitive_invention" / args.variant / "config.json"
     if not config.is_file():
         raise SystemExit(f"missing preserved config: {config.relative_to(ROOT)}")
