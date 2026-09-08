@@ -126,6 +126,12 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837af/run_candidate_input_transfer.py", "--phase", "transfer"],
         [sys.executable, "experiments/v837_primitive_invention/v837af/analyze_results.py"],
     ],
+    "v837ai": [
+        [sys.executable, "experiments/v837_primitive_invention/v837ai/run_sample_efficiency.py", "--phase", "preflight"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ai/run_sample_efficiency.py", "--phase", "1x"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ai/run_sample_efficiency.py", "--phase", "2x"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ai/analyze_results.py"],
+    ],
 }
 
 
@@ -264,6 +270,19 @@ def enforce_variant_guard(variant: str) -> None:
         if (ROOT / "experiments" / "v837_primitive_invention" / "v837ae").exists():
             raise SystemExit("V837af blocked: unauthorized V837ae directory exists")
         return
+    if variant == "v837ai":
+        decision_path = ROOT / "experiments" / "v837_primitive_invention" / "v837af" / "diagnostics" / "decision_state.json"
+        if not decision_path.is_file():
+            raise SystemExit("V837ai blocked: V837af decision state is missing")
+        decision = json.loads(decision_path.read_text(encoding="utf-8"))
+        if decision.get("representation_adequacy_pass") is not True or decision.get("sample_efficiency_retest_allowed") is not True:
+            raise SystemExit("V837ai blocked: V837af did not authorize sample-efficiency characterization")
+        if decision.get("best_passing_condition") != "AF1D_deshared_candidate_input_factorization":
+            raise SystemExit("V837ai blocked: V837af winner is not AF1D")
+        for forbidden in ("v837ae", "v837ag", "v837ah", "v838"):
+            if (ROOT / "experiments" / "v837_primitive_invention" / forbidden).exists():
+                raise SystemExit(f"V837ai blocked: unauthorized {forbidden} directory exists")
+        return
 
 
 def main() -> int:
@@ -275,6 +294,16 @@ def main() -> int:
     )
     parser.add_argument("--variant", choices=sorted(VARIANT_COMMANDS), required=True)
     parser.add_argument(
+        "--regime",
+        choices=("1x", "2x"),
+        help="For V837ai only, select one newly executable regime. The accepted 4x anchor is reuse-only.",
+    )
+    parser.add_argument(
+        "--analyze",
+        action="store_true",
+        help="For V837ai only, select only the combined analyzer.",
+    )
+    parser.add_argument(
         "--execute",
         action="store_true",
         help="Actually run the variant. Without this flag, only print the preserved commands.",
@@ -283,6 +312,15 @@ def main() -> int:
     enforce_variant_guard(args.variant)
 
     commands = VARIANT_COMMANDS[args.variant]
+    if args.variant == "v837ai":
+        if args.regime and args.analyze:
+            raise SystemExit("V837ai accepts either --regime or --analyze, not both")
+        if args.regime:
+            commands = [[sys.executable, "experiments/v837_primitive_invention/v837ai/run_sample_efficiency.py", "--phase", args.regime]]
+        elif args.analyze:
+            commands = [[sys.executable, "experiments/v837_primitive_invention/v837ai/analyze_results.py"]]
+    elif args.regime or args.analyze:
+        raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
     config = ROOT / "experiments" / "v837_primitive_invention" / args.variant / "config.json"
     if not config.is_file():
         raise SystemExit(f"missing preserved config: {config.relative_to(ROOT)}")

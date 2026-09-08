@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837af candidate-input sibling closure. V837ad showed that 10x4 block-local candidate recurrence remains adequate in the successful reference; V837af then closed the untested candidate-side input-factorization sibling and restored neutral representation adequacy with de-shared candidate-input factorization at 4/5. This triggers the architecture-localization hard stop, so V837ag/V837ah are not authorized or run. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837ai AF1D sample-efficiency characterization. V837af restored neutral representation adequacy with de-shared candidate-input factorization at 4/5 and hard-stopped architecture localization. V837ai then froze AF1D exactly, reused the accepted 4x anchor, and measured the historical 1x/2x/4x unique-development curve: 2/5 -> 2/5 -> 4/5. The minimum tested sufficient multiplier is therefore 4x, matching the historical GRU threshold multiplier; structural-search recovery is now authorized at 4x while primitive mining remains blocked. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -26,6 +26,8 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837ae was not authorized because AD4 10x4 block-local recurrence already reached 4/5.
 - V837af closes the remaining candidate-input factorization sibling on exact Y3 and compares shared, folded, and de-shared parameterizations from a paired step-zero function.
 - V837af AF1D restores neutral representation adequacy at 4/5, so the architecture-localization hard stop fires.
+- V837ai freezes exact AF1D and characterizes only nested 1x/2x/4x unique development data, reusing the accepted V837af 4x rows rather than retraining them.
+- V837ai closes at 2/5 -> 2/5 -> 4/5 with diagnosis `AF1D_REQUIRES_4X_UNIQUE_DATA`; structural-search recovery is authorized at 4x.
 - V837ag and V837ah are not authorized and are not created or run.
 - V838 has not started.
 
@@ -153,8 +155,20 @@ ARCHITECTURE LOCALIZATION HARD STOP
 V837ag NOT AUTHORIZED / NOT RUN
 V837ah NOT AUTHORIZED / NOT RUN
         ↓
-next experiment class:
-AF1D SAMPLE EFFICIENCY @ 1x / 2x / 4x UNIQUE DATA
+V837ai frozen AF1D sample efficiency
+AI1 1x unique development data             2/5
+AI2 2x unique development data             2/5
+AI4 reused accepted 4x anchor              4/5
+        ↓
+AF1D_REQUIRES_4X_UNIQUE_DATA
+qualifier: SAMPLE_EFFICIENCY_THRESHOLD_NOT_IMPROVED_VS_HISTORICAL_GRU
+        ↓
+minimum tested sufficient multiplier = 4x
+structural-search recovery AUTHORIZED @ 4x
+primitive mining remains BLOCKED
+        ↓
+next program:
+V837aj_STRUCTURAL_SEARCH_RECOVERY
 ```
 
 ## Current V837v evidence
@@ -339,7 +353,27 @@ AD0 H13 dense reproduces T2 exactly at 4/5. AD1 H40 dense also reaches 4/5, open
 
 AF0 reproduces Y3 exactly at 3/5. AF1 shared candidate-input factorization and AF1F folded control each remain 3/5. AF1D starts from ten bit-identical projection copies, allows them to specialize independently, and reaches 4/5: routing 0.9375, recall 0.984375, iterative 1.0, partial observation 0.8125, and composition 0.875. Diagnosis: `DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT`, qualifier `SHARED_INPUT_BASIS_HARMFUL`. The paired AF1/AF1F/AF1D step-zero maximum error is `1.791228837477732e-07` under the frozen `1e-6` gate.
 
-This restores neutral representation adequacy and hard-stops the architecture-localization program. V837ag and V837ah are therefore not authorized or run. The next authorized experiment class is AF1D sample-efficiency characterization at 1x/2x/4x unique data.
+This restores neutral representation adequacy and hard-stops the architecture-localization program. V837ag and V837ah are therefore not authorized or run. V837ai is the resulting sample-efficiency characterization.
+
+## Current V837ai evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837ai/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837ai/frozen_sample_efficiency_gate.json` |
+| Protocol/locks | `experiments/v837_primitive_invention/v837ai/af1d_sample_efficiency.py` |
+| Runner | `experiments/v837_primitive_invention/v837ai/run_sample_efficiency.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837ai/analyze_results.py` |
+| Raw AI1 | `experiments/v837_primitive_invention/v837ai/raw/ai1_runs.json` |
+| Raw AI2 | `experiments/v837_primitive_invention/v837ai/raw/ai2_runs.json` |
+| Reused AI4 | `experiments/v837_primitive_invention/v837ai/raw/ai4_reused_anchor.json` |
+| Results | `experiments/v837_primitive_invention/v837ai/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837ai/diagnostics/decision_state.json` |
+| Report | `docs/V837_AF1D_SAMPLE_EFFICIENCY_REPORT.md` |
+| Validator | `scripts/validate_v837_af1d_sample_efficiency.py` |
+| Tests | `tests/test_v837ai_af1d_sample_efficiency.py` |
+
+V837ai freezes exact AF1D at 1,643 active parameters and 1,206 recurrent/controller/projection MACs/timestep. AI1 (128 development episodes/family) reaches 2/5, AI2 (256/family) reaches 2/5, and the independently reanalyzed accepted AI4 anchor (512/family) reaches 4/5. The pass-count curve 2 -> 2 -> 4 is monotonic. Diagnosis: `AF1D_REQUIRES_4X_UNIQUE_DATA`, qualifier `SAMPLE_EFFICIENCY_THRESHOLD_NOT_IMPROVED_VS_HISTORICAL_GRU`. The minimum tested sufficient multiplier is 4x, matching the historical GRU threshold multiplier, so structural-search recovery is authorized at 4x. Primitive mining and fresh-audit use remain blocked.
 
 ## Program reports and accounting
 
@@ -361,6 +395,10 @@ This restores neutral representation adequacy and hard-stops the architecture-lo
 - V837af resource accounting: `experiments/v837_primitive_invention/v837af_resource_accounting.json`
 - Input-sibling/controller-basis program accounting: `experiments/v837_primitive_invention/input_sibling_controller_basis_program_resource_accounting.json`
 - Input-sibling/controller-basis program status: `experiments/v837_primitive_invention/input_sibling_controller_basis_program_status.json`
+- AF1D sample-efficiency report: `docs/V837_AF1D_SAMPLE_EFFICIENCY_REPORT.md`
+- V837ai resource accounting: `experiments/v837_primitive_invention/v837ai_resource_accounting.json`
+- AF1D sample-efficiency program accounting: `experiments/v837_primitive_invention/af1d_sample_efficiency_program_resource_accounting.json`
+- AF1D sample-efficiency program status: `experiments/v837_primitive_invention/af1d_sample_efficiency_program_status.json`
 - Input-factorization localization report: `docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md`
 - Input-organization transfer report: `docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md`
 - Post-input-axis blocker analysis: `docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md`
@@ -455,19 +493,38 @@ GPU seconds                   0
 
 V837ag and V837ah consumed zero fits because V837af restored representation adequacy and triggered the architecture-localization hard stop.
 
+V837ai new execution resources:
+
+```text
+new model fits                50
+reused accepted 4x fits       25
+new optimizer steps           9,600
+new processed examples        1,843,200
+union unique task episodes    3,200
+environment interactions      110,170
+forward calls                 10,500
+backward calls                9,600
+CPU seconds (worker sum)      2,891.3125
+wall seconds (worker sum)     3,586.5145802007755
+GPU seconds                   0
+```
+
+The reused AI4 evidence contributes 25 historical fits, 4,800 historical optimizer steps, and 2,457,600 historical processed examples, but none of that compute is counted as newly consumed by V837ai.
+
 ## Locked scientific state
 
 ```text
-representation adequacy       PASS 4/5 (AF1D)
-sample-efficiency retest      ALLOWED — AF1D 1x/2x/4x
+representation adequacy       CONFIRMED PASS 4/5 at AF1D 4x
+sample efficiency             CHARACTERIZED — 2/5 -> 2/5 -> 4/5
+minimum sufficient multiplier 4x
 architecture localization     HARD STOP
-structural search             BLOCKED
+structural search recovery    AUTHORIZED at 4x
 primitive mining              BLOCKED
 fresh-audit episodes consumed 0
 primitives promoted           0
 large persistent storage      NOT TESTED
-V837ag                        NOT AUTHORIZED / NOT RUN
-V837ah                        NOT AUTHORIZED / NOT RUN
+V837ag                        NOT RUN
+V837ah                        NOT RUN
 V838                          NOT STARTED
 ```
 
@@ -475,11 +532,11 @@ Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-V837af closes the remaining input-factorization sibling under exact Y3 parent controls. Shared candidate-input factorization (AF1) and its folded effective-map control (AF1F) each remain 3/5, but ten independently trainable candidate-input projections initialized bit-identically (AF1D) reach 4/5.
+V837af establishes that the fixed AF1D neutral substrate is representation-adequate at 4x unique development data. V837ai then freezes that exact 1,643-parameter architecture and measures only the nested historical data multiplier. AF1D reaches 2/5 at 128 development episodes/family, 2/5 at 256/family, and 4/5 at 512/family.
 
-The safe causal conclusion is that candidate-side trainable input factorization is sufficient for neutral representation adequacy only when candidate consumers are allowed to develop distinct input bases. Shared tying is harmful under the frozen regime. The machine decision is `DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT` with qualifier `SHARED_INPUT_BASIS_HARMFUL`.
+The safe sample-efficiency conclusion is therefore `AF1D_REQUIRES_4X_UNIQUE_DATA`: under the tested architectures and frozen 192-step protocol, AF1D does not lower the minimum tested unique-development multiplier relative to the historical GRU calibration, which also first crosses the representation gate at 4x. This is not a parameter-matched comparison: AF1D has 1,643 active parameters versus 875 for the historical GRU.
 
-Because neutral adequacy is now restored, no further architecture-localization stage is authorized. The next experiment is **AF1D sample-efficiency characterization at 1x/2x/4x unique data**.
+Because fixed-substrate competence and its data requirement are now both established, the next program is **`V837aj_STRUCTURAL_SEARCH_RECOVERY` at 4x**. Primitive mining remains blocked until structural search itself demonstrates competence.
 
 ## Fast verification
 
@@ -495,13 +552,17 @@ python scripts/reproduce_v837_recovery.py --variant v837ab
 python scripts/reproduce_v837_recovery.py --variant v837ac
 python scripts/reproduce_v837_recovery.py --variant v837ad
 python scripts/reproduce_v837_recovery.py --variant v837af
+python scripts/reproduce_v837_recovery.py --variant v837ai
+python scripts/reproduce_v837_recovery.py --variant v837ai --regime 1x
+python scripts/reproduce_v837_recovery.py --variant v837ai --regime 2x
+python scripts/reproduce_v837_recovery.py --variant v837ai --analyze
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af frontier. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah have no dispatcher entries because V837af restored neutral representation adequacy and hard-stopped architecture localization.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai frontier. V837ai exposes only newly executable 1x/2x regimes plus analysis; the accepted 4x evidence remains reuse-only. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah have no dispatcher entries because V837af restored neutral representation adequacy and hard-stopped architecture localization.
 
 ## Historical SHA anchors
 
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837af scientific closure commit separately from later verification-integration commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837ai scientific closure commit separately from later verification-integration commits.

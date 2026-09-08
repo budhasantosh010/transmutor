@@ -877,6 +877,9 @@ def main() -> int:
     candidate_input_sibling_validator = ROOT / "scripts" / "validate_v837_candidate_input_sibling.py"
     if candidate_input_sibling_validator.exists():
         runpy.run_path(str(candidate_input_sibling_validator), run_name="__main__")
+    af1d_sample_efficiency_validator = ROOT / "scripts" / "validate_v837_af1d_sample_efficiency.py"
+    if af1d_sample_efficiency_validator.exists():
+        runpy.run_path(str(af1d_sample_efficiency_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

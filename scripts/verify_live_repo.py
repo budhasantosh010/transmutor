@@ -638,6 +638,62 @@ def main() -> int:
     if int(combined_sibling.get("model_fits", -1)) != 100 or int(combined_sibling.get("optimizer_steps", -1)) != 19200 or int(combined_sibling.get("processed_training_examples", -1)) != 9830400 or int(combined_sibling.get("unique_seed_defined_episodes", -1)) != 3200:
         raise RuntimeError("input-sibling program resource accounting changed")
 
+    # V837ai freezes AF1D and characterizes only the historical 1x/2x/4x
+    # unique-development regimes. AI4 must be reused, never silently retrained.
+    ai_record = manifest["current_variants"].get("V837ai")
+    if not isinstance(ai_record, dict):
+        raise RuntimeError("verification manifest missing V837ai")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in ai_record.get(key, []):
+            require_path(relative)
+    require_path(ai_record["config"])
+    require_path(ai_record["frozen_gate"])
+    require_path(ai_record["results"])
+    ai = load_json(ai_record["results"])
+    ai_decision = load_json("experiments/v837_primitive_invention/v837ai/diagnostics/decision_state.json")
+    expected_ai = {"1x": 2, "2x": 2, "4x": 4}
+    actual_ai = {label: int(row.get("families_passing", -1)) for label, row in ai.get("conditions", {}).items()}
+    if actual_ai != expected_ai:
+        raise RuntimeError("V837ai data-frontier outcomes changed")
+    if ai.get("architecture") != "AF1D_deshared_candidate_input_factorization" or ai.get("architecture_frozen") is not True:
+        raise RuntimeError("V837ai frozen architecture changed")
+    if ai.get("diagnosis") != "AF1D_REQUIRES_4X_UNIQUE_DATA" or ai.get("diagnosis_qualifiers") != ["SAMPLE_EFFICIENCY_THRESHOLD_NOT_IMPROVED_VS_HISTORICAL_GRU"]:
+        raise RuntimeError("V837ai diagnosis changed")
+    if ai.get("minimum_tested_sufficient_multiplier") != 4 or ai.get("pass_count_monotonic") is not True or ai.get("sample_efficiency_claim_allowed") is not True:
+        raise RuntimeError("V837ai minimum/monotonic sample-efficiency decision changed")
+    if ai.get("representation_adequacy_confirmed") is not True or ai.get("structural_search_recovery_allowed") is not True or ai.get("recommended_structural_search_multiplier") != 4:
+        raise RuntimeError("V837ai structural-search recovery authorization changed")
+    if ai.get("next_program") != "V837aj_STRUCTURAL_SEARCH_RECOVERY" or ai.get("primitive_mining_allowed") is not False or ai.get("fresh_audit_consumed") is not False or ai.get("v838_started") is not False:
+        raise RuntimeError("V837ai downstream science locks changed")
+    ai_anchor = load_json("experiments/v837_primitive_invention/v837ai/diagnostics/ai4_anchor_reuse.json")
+    ai_nesting = load_json("experiments/v837_primitive_invention/v837ai/diagnostics/data_nesting.json")
+    ai_pairing = load_json("experiments/v837_primitive_invention/v837ai/diagnostics/initialization_pairing.json")
+    ai_historical = load_json("experiments/v837_primitive_invention/v837ai/diagnostics/historical_v837l_comparison.json")
+    if ai_anchor.get("compatible") is not True or int(ai_anchor.get("rows_reused", -1)) != 25 or ai_anchor.get("reanalyzed", {}).get("families_passing") != 4:
+        raise RuntimeError("V837ai reused 4x anchor changed")
+    if ai_nesting.get("exact") is not True or ai_nesting.get("strict_nesting") is not True or ai_nesting.get("development_validation_overlap") != 0 or ai_nesting.get("total_unique_family_seed_episodes", {}).get("union") != 3200:
+        raise RuntimeError("V837ai nested-data proof changed")
+    if ai_pairing.get("pairing_exact") is not True or ai_pairing.get("parameter_count_constant") is not True or ai_pairing.get("macs_constant") is not True:
+        raise RuntimeError("V837ai initialization/architecture pairing changed")
+    if ai_historical.get("families_passing") != {"1x": {"gru_reference": 2, "neutral_high_capacity": 1, "residual_rnn_reference": 2}, "2x": {"gru_reference": 3, "neutral_high_capacity": 1, "residual_rnn_reference": 2}, "4x": {"gru_reference": 5, "neutral_high_capacity": 2, "residual_rnn_reference": 3}}:
+        raise RuntimeError("V837ai historical V837l comparator changed")
+    for raw_name, expected_rows in (("ai1_runs.json", 25), ("ai2_runs.json", 25), ("ai4_reused_anchor.json", 25)):
+        raw = load_json(f"experiments/v837_primitive_invention/v837ai/raw/{raw_name}")
+        if len(raw.get("rows", [])) != expected_rows:
+            raise RuntimeError(f"V837ai {raw_name} row count changed")
+    ai_resources = load_json("experiments/v837_primitive_invention/af1d_sample_efficiency_program_resource_accounting.json")
+    new_resources = ai_resources.get("new_execution_resources", {})
+    if int(ai_resources.get("new_model_fits", -1)) != 50 or int(ai_resources.get("reused_accepted_4x_fits", -1)) != 25 or int(ai_resources.get("union_unique_task_episodes", -1)) != 3200:
+        raise RuntimeError("V837ai new-vs-reused accounting changed")
+    if int(new_resources.get("optimizer_steps", -1)) != 9600 or int(new_resources.get("processed_training_examples", -1)) != 1843200 or int(ai_resources.get("active_parameters", -1)) != 1643 or int(ai_resources.get("af1d_macs_per_timestep", -1)) != 1206:
+        raise RuntimeError("V837ai execution/architecture resource accounting changed")
+    ai_status = load_json("experiments/v837_primitive_invention/af1d_sample_efficiency_program_status.json")
+    if ai_status.get("v837ai_complete") is not True or ai_status.get("diagnosis") != "AF1D_REQUIRES_4X_UNIQUE_DATA" or ai_status.get("structural_search_recovery_allowed") is not True or ai_status.get("recommended_structural_search_multiplier") != 4:
+        raise RuntimeError("V837ai program status changed")
+    for forbidden in ("v837ae", "v837ag", "v837ah", "v838"):
+        if (ROOT / "experiments" / "v837_primitive_invention" / forbidden).exists():
+            raise RuntimeError(f"unauthorized {forbidden} directory exists after V837ai")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")
