@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 from pathlib import Path
 
 from experiments.v837_primitive_invention.v837aj.fidelity_calibration import STAGE_RANDOM_SEARCH, train_proxy_candidate
@@ -21,7 +22,14 @@ def _atomic_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_name(f".{path.name}.{os.getpid()}.tmp")
     temp.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    temp.replace(path)
+    for attempt in range(40):
+        try:
+            temp.replace(path)
+            return
+        except PermissionError:
+            if attempt == 39:
+                raise
+            time.sleep(0.05)
 
 
 def _save_progress(path: Path | None, payload: dict) -> None:

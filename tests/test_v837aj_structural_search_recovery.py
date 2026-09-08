@@ -257,6 +257,26 @@ class TestV837ajEqualBudget(unittest.TestCase):
             with patch.object(search_mod,"PROGRESS_DIR",Path(tmp)), patch.object(search_mod,"train_proxy_candidate",side_effect=fake_proxy):
                 search_mod.run_directed_search("conditional_routing",2,"F0")
             self.assertEqual(list(Path(tmp).glob("progress_search_*.json")),[])
+    def test_directed_atomic_checkpoint_retries_transient_permission_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target=Path(tmp)/"progress.json"; calls={"n":0}; real_replace=Path.replace
+            def flaky_replace(path_obj,target_path):
+                calls["n"]+=1
+                if calls["n"]<3: raise PermissionError(5,"synthetic Windows file lock")
+                return real_replace(path_obj,target_path)
+            with patch.object(Path,"replace",autospec=True,side_effect=flaky_replace), patch.object(search_mod.time,"sleep",return_value=None):
+                search_mod._atomic_json(target,{"ok":True})
+            self.assertEqual(json.loads(target.read_text()),{"ok":True}); self.assertEqual(calls["n"],3)
+    def test_random_atomic_checkpoint_retries_transient_permission_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target=Path(tmp)/"progress.json"; calls={"n":0}; real_replace=Path.replace
+            def flaky_replace(path_obj,target_path):
+                calls["n"]+=1
+                if calls["n"]<3: raise PermissionError(5,"synthetic Windows file lock")
+                return real_replace(path_obj,target_path)
+            with patch.object(Path,"replace",autospec=True,side_effect=flaky_replace), patch.object(random_mod.time,"sleep",return_value=None):
+                random_mod._atomic_json(target,{"ok":True})
+            self.assertEqual(json.loads(target.read_text()),{"ok":True}); self.assertEqual(calls["n"],3)
     def test_directed_checkpoint_resume_preserves_exact_trajectory(self):
         with patch.object(search_mod,"train_proxy_candidate",side_effect=fake_proxy):
             baseline=search_mod.run_directed_search("delayed_recall",3,"F0")
