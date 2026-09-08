@@ -33,11 +33,11 @@ def _run_indices(extension: bool) -> range:
 
 
 def _directed_worker(family: str, run_index: int, fidelity: str) -> dict:
-    return run_directed_search(family, run_index, fidelity)
+    return run_directed_search(family, run_index, fidelity, checkpoint=True)
 
 
 def _random_worker(directed_run: dict, fidelity: str) -> dict:
-    return run_random_sampler(directed_run, fidelity)
+    return run_random_sampler(directed_run, fidelity, checkpoint=True)
 
 
 def _cache_path(engine: str, family: str, run_index: int) -> Path:
