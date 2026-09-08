@@ -874,6 +874,9 @@ def main() -> int:
     candidate_geometry_validator = ROOT / "scripts" / "validate_v837_candidate_recurrent_geometry.py"
     if candidate_geometry_validator.exists():
         runpy.run_path(str(candidate_geometry_validator), run_name="__main__")
+    candidate_input_sibling_validator = ROOT / "scripts" / "validate_v837_candidate_input_sibling.py"
+    if candidate_input_sibling_validator.exists():
+        runpy.run_path(str(candidate_input_sibling_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

@@ -1,0 +1,728 @@
+{
+  "comparisons": [
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "delayed_recall",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "conditional_routing",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "iterative_state",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "variable_composition",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 0
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 1
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 2
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 3
+    },
+    {
+      "comparison": "AF1_vs_AF1F",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 4
+    },
+    {
+      "comparison": "AF1_vs_AF1D",
+      "errors": {
+        "candidate": 0.0,
+        "candidate_input_term": 0.0,
+        "global_gate": 0.0,
+        "next_state": 0.0,
+        "output": 0.0,
+        "prediction": 0.0,
+        "projected_visible_input": 0.0
+      },
+      "family": "partial_observation",
+      "replicate_id": 4
+    }
+  ],
+  "equivalence_precision": "float64 replay of exact stored float32 initialization",
+  "max_errors": {
+    "AF1_vs_AF1D": {
+      "candidate": 0.0,
+      "candidate_input_term": 0.0,
+      "global_gate": 0.0,
+      "next_state": 0.0,
+      "output": 0.0,
+      "prediction": 0.0,
+      "projected_visible_input": 0.0
+    },
+    "AF1_vs_AF1F": {
+      "candidate": 0.0,
+      "candidate_input_term": 0.0,
+      "global_gate": 0.0,
+      "next_state": 0.0,
+      "output": 0.0,
+      "prediction": 0.0,
+      "projected_visible_input": 0.0
+    }
+  },
+  "maximum_error": 0.0,
+  "step0_equivalence_proven": true,
+  "tolerance": 1e-06
+}

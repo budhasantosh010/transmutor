@@ -1,0 +1,26 @@
+{
+  "version": "V837af",
+  "parent": "Y3_global_control_rank4_candidate",
+  "representation_family_gate": 4,
+  "step0_tolerance": 1e-6,
+  "required_conditions": [
+    "AF0_y3_parent",
+    "AF1_shared_candidate_input_factorization",
+    "AF1F_folded_candidate_input_control",
+    "AF1D_deshared_candidate_input_factorization"
+  ],
+  "decision_order": [
+    "CANDIDATE_COMPOSED_EFFECTIVE_INPUT_MAPPING_SUFFICIENT",
+    "SHARED_CANDIDATE_INPUT_FACTORIZATION_SPECIFICALLY_SUFFICIENT",
+    "CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT_SHAREDNESS_NOT_ESTABLISHED",
+    "DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT_SHARED_INPUT_BASIS_HARMFUL",
+    "CANDIDATE_INPUT_FACTORIZATION_TRANSFER_INSUFFICIENT"
+  ],
+  "v837ag_authorized_only_if": "AF1<4 AND AF1F<4 AND AF1D<4",
+  "hard_stop_on_neutral_success": true,
+  "fresh_audit_allowed": false,
+  "structural_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "v837ae_allowed": false,
+  "v838_allowed": false
+}
