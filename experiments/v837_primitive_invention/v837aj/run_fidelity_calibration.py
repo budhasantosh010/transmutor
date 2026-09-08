@@ -292,10 +292,20 @@ def run_fidelity(fidelity: str) -> int:
             _refresh_fidelity_aggregate(); return 0
     jobs = [(fidelity, panel_id, family, replicate) for panel_id in CONFIG["calibration"]["panel_ids"] for family in FAMILIES for replicate in range(2)]
     rows = []
+    if cache.is_file():
+        payload = json.loads(cache.read_text(encoding="utf-8"))
+        rows = list(payload.get("rows", []))
+    completed = {(str(r["panel_id"]), str(r["family"]), int(r["calibration_replicate"])) for r in rows}
+    pending = [job for job in jobs if (job[1], job[2], int(job[3])) not in completed]
     with ProcessPoolExecutor(max_workers=min(10, os.cpu_count() or 1)) as pool:
-        futures = {pool.submit(_calibration_worker, *job): job for job in jobs}
+        futures = {pool.submit(_calibration_worker, *job): job for job in pending}
         for future in as_completed(futures):
-            row = future.result(); rows.append(row); print(f"{fidelity} {row['panel_id']} {row['family']} r{row['calibration_replicate']}: fit={row['fitness']:.6f} sel={row['selection_success']:.6f}", flush=True)
+            row = future.result(); rows.append(row)
+            rows.sort(key=lambda r: (r["panel_id"], r["family"], r["calibration_replicate"]))
+            # Persist every completed fit so an external interruption can only
+            # lose in-flight workers, never already finished calibration work.
+            write_json(cache, {"version":"V837aj","fidelity":fidelity,"rows":rows})
+            print(f"{fidelity} {row['panel_id']} {row['family']} r{row['calibration_replicate']}: fit={row['fitness']:.6f} sel={row['selection_success']:.6f}", flush=True)
     rows.sort(key=lambda r: (r["panel_id"], r["family"], r["calibration_replicate"]))
     write_json(cache, {"version":"V837aj","fidelity":fidelity,"rows":rows}); _refresh_fidelity_aggregate(); return 0
 
