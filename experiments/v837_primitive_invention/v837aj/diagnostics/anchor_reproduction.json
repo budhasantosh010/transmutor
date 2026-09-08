@@ -1,0 +1,210 @@
+{
+  "anchor_reproduced": true,
+  "families_passing": 4,
+  "family_results": {
+    "conditional_routing": {
+      "development_median": 1.0,
+      "pass": true,
+      "validation_median": 0.9375
+    },
+    "delayed_recall": {
+      "development_median": 1.0,
+      "pass": true,
+      "validation_median": 0.984375
+    },
+    "iterative_state": {
+      "development_median": 0.99609375,
+      "pass": true,
+      "validation_median": 1.0
+    },
+    "partial_observation": {
+      "development_median": 0.974609375,
+      "pass": false,
+      "validation_median": 0.8125
+    },
+    "variable_composition": {
+      "development_median": 0.984375,
+      "pass": true,
+      "validation_median": 0.875
+    }
+  },
+  "max_development_delta": 0.0,
+  "max_validation_delta": 0.0,
+  "per_run_compatibility": [
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 0,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 1,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 2,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 3,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 4,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 0,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 1,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 2,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 3,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 4,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 0,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 1,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 2,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 3,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 4,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 0,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 1,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 2,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 3,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 4,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 0,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 1,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 2,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 3,
+      "validation_delta": 0.0
+    },
+    {
+      "compatible": true,
+      "development_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 4,
+      "validation_delta": 0.0
+    }
+  ]
+}
