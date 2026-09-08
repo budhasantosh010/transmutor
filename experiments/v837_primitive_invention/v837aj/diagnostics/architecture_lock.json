@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "anchor_edges": true,
+    "anchor_parameters": true,
+    "condition": true,
+    "exact_model_class": true,
+    "global_controller": true,
+    "rank4_coupling": true,
+    "readout_shape": true,
+    "recurrent_controller_projection_macs": true,
+    "ten_cells": true,
+    "ten_deshared_projections": true
+  },
+  "compatible": true,
+  "model_class": "CandidateInputFactorizationY3",
+  "source_hash_lock": {
+    "compatible": true,
+    "expected": {
+      "historical_graph_gate": "29c4eb79e8b50ce08891122b7498ee531a57082ca4f6de0c0f1ae18624de3180",
+      "v837af_config": "27fb8fe01ba53799d6a5aa5effca995acc199e299c5d99a08cf16ea750c4a266",
+      "v837af_decision": "e1e2cc5dd6f16d7ff8bf2cefef7787b3e3d01e85d1a0f6c3d6262238f0f16a7e",
+      "v837af_model": "037cf3d0c2993baccda2f7930059613387e2971f90e11515b51751441c4b1034",
+      "v837af_raw_transfer": "103461f464b0fc121686ca61b02f393cd39319a204949de8334aeb911d28710d",
+      "v837af_results": "ec0f8c4476cf7f6f662f948d17a540bfe000c1d30da3c563001def910d598fa9",
+      "v837ai_config": "cf5e3b2046965976c3b3f2bb0e47ebff6c49c2f8335c581b03a649b7db0c64f6",
+      "v837ai_decision": "efd99bc92f3380b35b4bc1f63b32d4040122fb1a29c6e2cefaef30aca7b67365",
+      "v837ai_results": "d8be22de2eeb109c2b7362d011e450d67723cf142881380f2354a265b1026477",
+      "v837r_coupling": "cc8dbafecb78c647c32752bf86122cd6b48671b92526c587517df287c72791be",
+      "v837y_model": "55669e520a4fbcabca550ec220b61de357e7aa5c0227d151243343a45fca500b"
+    },
+    "observed": {
+      "historical_graph_gate": "29c4eb79e8b50ce08891122b7498ee531a57082ca4f6de0c0f1ae18624de3180",
+      "v837af_config": "27fb8fe01ba53799d6a5aa5effca995acc199e299c5d99a08cf16ea750c4a266",
+      "v837af_decision": "e1e2cc5dd6f16d7ff8bf2cefef7787b3e3d01e85d1a0f6c3d6262238f0f16a7e",
+      "v837af_model": "037cf3d0c2993baccda2f7930059613387e2971f90e11515b51751441c4b1034",
+      "v837af_raw_transfer": "103461f464b0fc121686ca61b02f393cd39319a204949de8334aeb911d28710d",
+      "v837af_results": "ec0f8c4476cf7f6f662f948d17a540bfe000c1d30da3c563001def910d598fa9",
+      "v837ai_config": "cf5e3b2046965976c3b3f2bb0e47ebff6c49c2f8335c581b03a649b7db0c64f6",
+      "v837ai_decision": "efd99bc92f3380b35b4bc1f63b32d4040122fb1a29c6e2cefaef30aca7b67365",
+      "v837ai_results": "d8be22de2eeb109c2b7362d011e450d67723cf142881380f2354a265b1026477",
+      "v837r_coupling": "cc8dbafecb78c647c32752bf86122cd6b48671b92526c587517df287c72791be",
+      "v837y_model": "55669e520a4fbcabca550ec220b61de357e7aa5c0227d151243343a45fca500b"
+    }
+  }
+}

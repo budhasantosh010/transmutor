@@ -1,0 +1,143 @@
+{
+  "af1d_source_hashes": {
+    "v837af_model": "037cf3d0c2993baccda2f7930059613387e2971f90e11515b51751441c4b1034",
+    "v837af_results": "ec0f8c4476cf7f6f662f948d17a540bfe000c1d30da3c563001def910d598fa9",
+    "v837ai_decision": "efd99bc92f3380b35b4bc1f63b32d4040122fb1a29c6e2cefaef30aca7b67365",
+    "v837ai_results": "d8be22de2eeb109c2b7362d011e450d67723cf142881380f2354a265b1026477"
+  },
+  "anchor_free_constructive_search": true,
+  "architecture": "AF1D_deshared_candidate_input_factorization",
+  "candidate_budget": 64,
+  "candidate_training_from_scratch": true,
+  "compute_semantics": {
+    "anchor_total_modeled_macs_per_timestep": 1426,
+    "frozen_af1d_recurrent_controller_projection_macs": 1206,
+    "message_edge_mac_per_timestep": 4,
+    "note": "message-edge contribution counts scalar edge weight times 4D message vector; fixed downstream message/input/output maps are not added to the historical 1206 recurrent/controller/projection baseline"
+  },
+  "data_partitions": {
+    "final_validation": [
+      20000,
+      20127
+    ],
+    "search_selection_pool": [
+      10384,
+      10511
+    ],
+    "search_train_pool": [
+      10000,
+      10383
+    ]
+  },
+  "edge_penalty": 0.0005,
+  "equal_budget_random_required": true,
+  "family_competence": {
+    "competent_run_fraction_required": 0.6,
+    "competent_runs_required": 3,
+    "development_threshold": 0.9,
+    "global_families_required": 4,
+    "validation_threshold": 0.85
+  },
+  "fidelity_ladder": {
+    "F0": [
+      24,
+      64,
+      128
+    ],
+    "F1": [
+      48,
+      128,
+      128
+    ],
+    "F2": [
+      96,
+      256,
+      128
+    ],
+    "F3": [
+      144,
+      384,
+      128
+    ],
+    "F4": [
+      192,
+      384,
+      128
+    ],
+    "F_LEGACY": [
+      24,
+      16,
+      20
+    ]
+  },
+  "fidelity_rank_gates": {
+    "median_kendall_tau": 0.6,
+    "median_pairwise_order_accuracy": 0.72,
+    "median_spearman_rho": 0.75,
+    "median_top4_recall": 0.75,
+    "minimum_family_kendall_tau": 0.35,
+    "minimum_family_top4_recall": 0.5
+  },
+  "final_validation_search_access": false,
+  "fixed_cell_count": 10,
+  "fresh_audit": false,
+  "generations": 12,
+  "lamarckian_inheritance": false,
+  "legal_mutation_operators": [
+    "ADD_SAME_STEP_EDGE",
+    "REMOVE_SAME_STEP_EDGE",
+    "ADD_RECURRENT_EDGE",
+    "REMOVE_RECURRENT_EDGE",
+    "REWIRE_SAME_STEP_EDGE",
+    "REWIRE_RECURRENT_EDGE"
+  ],
+  "max_edges": 64,
+  "mutation_probabilities": {
+    "ADD_RECURRENT_EDGE": 0.2,
+    "ADD_SAME_STEP_EDGE": 0.2,
+    "REMOVE_RECURRENT_EDGE": 0.15,
+    "REMOVE_SAME_STEP_EDGE": 0.15,
+    "REWIRE_RECURRENT_EDGE": 0.15,
+    "REWIRE_SAME_STEP_EDGE": 0.15
+  },
+  "no_early_stopping": true,
+  "offspring": 4,
+  "population": 16,
+  "primary_runs_per_family": 5,
+  "primitive_mining": false,
+  "prohibited_mutations": [
+    "PERTURB_CELL_PARAMETERS",
+    "PERTURB_EDGE_WEIGHT",
+    "ADD_CELL",
+    "REMOVE_CELL",
+    "DUPLICATE_SUBGRAPH",
+    "COUPLING_RANK_CHANGE",
+    "CONTROLLER_CHANGE",
+    "PROJECTION_SHARING_CHANGE",
+    "PROJECTION_DIMENSION_CHANGE",
+    "STATE_WIDTH_CHANGE",
+    "OPTIMIZER_CHANGE",
+    "STEP_COUNT_CHANGE",
+    "DATA_REGIME_CHANGE"
+  ],
+  "random_complexity_match": [
+    "total_edge_count",
+    "recurrent_edge_count"
+  ],
+  "robustness_runs_per_family_conditional_additional": 5,
+  "search_vs_random_superiority": {
+    "competent_hit_rate_advantage": 0.2,
+    "median_paired_final_validation_delta": 0.08,
+    "paired_permutation_one_sided_p": 0.01,
+    "sign_flip_permutations": 100000
+  },
+  "semantic_edge_initialization": {
+    "namespace": "v837aj-edge-init",
+    "recurrent_mean": 0.55,
+    "same_step_mean": 0.35,
+    "std": 0.05
+  },
+  "starting_sha": "f87f1506d9f1ee9e85ac1668bff76e03d3f20993",
+  "v838": false,
+  "version": "V837aj"
+}

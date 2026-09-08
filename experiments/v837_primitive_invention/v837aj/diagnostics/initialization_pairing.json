@@ -1,0 +1,10 @@
+{
+  "common_edge_count_tested": 2,
+  "common_edge_initialization_exact": true,
+  "common_non_edge_parameters_exact": true,
+  "edge_initialization_path_independent": true,
+  "finalization_seed_independent_from_proxy_seed": true,
+  "no_parent_weight_inheritance": true,
+  "pairing_valid": true,
+  "search_random_candidate_slot_pairing": true
+}

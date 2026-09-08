@@ -1,0 +1,3121 @@
+{
+  "created_before_training_results": true,
+  "task_independent": true,
+  "topologies": {
+    "P0": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 1.0,
+        "density": 0.3793103448275862,
+        "edge_count": 55,
+        "in_degree": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "out_degree": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 10,
+        "recurrent_graph_diameter": null,
+        "recurrent_in_degree": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "recurrent_out_degree": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 10,
+        "same_step_edge_count": 45,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 55,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 1,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 7
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 10,
+      "same_step_edge_count": 45,
+      "topology_id": "b12acf01b81625c4422a36eb25c482c12442d7fc7ca89192c608c3efcc89aa1e"
+    },
+    "P1": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 0.0,
+        "density": 0.1310344827586207,
+        "edge_count": 19,
+        "in_degree": [
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "out_degree": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 10,
+        "recurrent_graph_diameter": null,
+        "recurrent_in_degree": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "recurrent_out_degree": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 10,
+        "same_step_edge_count": 9,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 19,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 1,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 7
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 10,
+      "same_step_edge_count": 9,
+      "topology_id": "6491950eba775a54889432e4c025690eddbaec467be9bf0f92035637f4460044"
+    },
+    "P10": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 1.0,
+        "density": 0.3793103448275862,
+        "edge_count": 55,
+        "in_degree": [
+          1,
+          1,
+          2,
+          5,
+          4,
+          6,
+          8,
+          9,
+          9,
+          10
+        ],
+        "out_degree": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          4,
+          3,
+          3,
+          1,
+          4
+        ],
+        "recurrent_edge_count": 10,
+        "recurrent_graph_diameter": 3,
+        "recurrent_in_degree": [
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          2,
+          2,
+          1,
+          1
+        ],
+        "recurrent_out_degree": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          4
+        ],
+        "same_step_dag_depth": 10,
+        "same_step_edge_count": 45,
+        "strongly_connected_components": 1,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 55,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 7
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 9
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 9
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 9
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 10,
+      "same_step_edge_count": 45,
+      "topology_id": "51544e54085c80af9fedfbde491a290dbf37628778c273fd93cc1b006a6ad91d"
+    },
+    "P11": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 0.55,
+        "density": 0.19310344827586207,
+        "edge_count": 28,
+        "in_degree": [
+          1,
+          0,
+          2,
+          3,
+          2,
+          2,
+          5,
+          2,
+          5,
+          6
+        ],
+        "out_degree": [
+          6,
+          6,
+          5,
+          3,
+          3,
+          2,
+          1,
+          2,
+          0,
+          0
+        ],
+        "recurrent_edge_count": 5,
+        "recurrent_graph_diameter": 3,
+        "recurrent_in_degree": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "recurrent_out_degree": [
+          1,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "same_step_dag_depth": 6,
+        "same_step_edge_count": 23,
+        "strongly_connected_components": 7,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 28,
+      "edges": [
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 7
+        }
+      ],
+      "recurrent_edge_count": 5,
+      "same_step_edge_count": 23,
+      "topology_id": "f7ff62c4a205b4618583c8bc564a9522be8ef0363f89f8c56a9e7d256b24b62a"
+    },
+    "P2": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 0.0,
+        "density": 0.0,
+        "edge_count": 0,
+        "in_degree": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "out_degree": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "recurrent_edge_count": 0,
+        "recurrent_graph_diameter": null,
+        "recurrent_in_degree": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "recurrent_out_degree": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "same_step_dag_depth": 1,
+        "same_step_edge_count": 0,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 10
+      },
+      "edge_count": 0,
+      "edges": [],
+      "recurrent_edge_count": 0,
+      "same_step_edge_count": 0,
+      "topology_id": "439429808850703de4c786a541d20c8f4ecd04296af935980bd15ec97b81ea75"
+    },
+    "P3": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 0.8821428571428571,
+        "density": 0.32413793103448274,
+        "edge_count": 47,
+        "in_degree": [
+          1,
+          2,
+          1,
+          3,
+          4,
+          5,
+          6,
+          6,
+          9,
+          10
+        ],
+        "out_degree": [
+          8,
+          7,
+          7,
+          7,
+          5,
+          4,
+          4,
+          2,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 7,
+        "recurrent_graph_diameter": null,
+        "recurrent_in_degree": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "recurrent_out_degree": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 10,
+        "same_step_edge_count": 40,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 47,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 1,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 7,
+      "same_step_edge_count": 40,
+      "topology_id": "2de6276e05b7cf096241b1eee5ea0d67bc3794df5ec16abb6032f0bd64adc456"
+    },
+    "P4": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 0.7357142857142858,
+        "density": 0.2689655172413793,
+        "edge_count": 39,
+        "in_degree": [
+          1,
+          0,
+          2,
+          2,
+          2,
+          5,
+          4,
+          6,
+          8,
+          9
+        ],
+        "out_degree": [
+          8,
+          4,
+          5,
+          6,
+          5,
+          4,
+          2,
+          2,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 6,
+        "recurrent_graph_diameter": null,
+        "recurrent_in_degree": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "recurrent_out_degree": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 8,
+        "same_step_edge_count": 33,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 39,
+      "edges": [
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 7
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 6,
+      "same_step_edge_count": 33,
+      "topology_id": "b8e82a41c32f3054eea7173f552c722f1958ea929f4e44b411f6dc0c59b625d4"
+    },
+    "P5": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 0.5766666666666665,
+        "density": 0.20689655172413793,
+        "edge_count": 30,
+        "in_degree": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          7,
+          4,
+          4,
+          6
+        ],
+        "out_degree": [
+          5,
+          7,
+          5,
+          3,
+          2,
+          4,
+          1,
+          0,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 4,
+        "recurrent_graph_diameter": null,
+        "recurrent_in_degree": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "recurrent_out_degree": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 6,
+        "same_step_edge_count": 26,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 30,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 4,
+      "same_step_edge_count": 26,
+      "topology_id": "4a6a408589559f0df405985e4aff44b8eac60f4482cc250e0809a4b4754bc553"
+    },
+    "P6": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 0.36,
+        "density": 0.15172413793103448,
+        "edge_count": 22,
+        "in_degree": [
+          0,
+          0,
+          0,
+          2,
+          5,
+          2,
+          2,
+          2,
+          4,
+          5
+        ],
+        "out_degree": [
+          4,
+          2,
+          4,
+          2,
+          3,
+          1,
+          3,
+          0,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 4,
+        "recurrent_graph_diameter": null,
+        "recurrent_in_degree": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "recurrent_out_degree": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 7,
+        "same_step_edge_count": 18,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 22,
+      "edges": [
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 4,
+      "same_step_edge_count": 18,
+      "topology_id": "0b88b09c6aec1207b08fef80239f104ad6722f5be4b4681a1ca1efd37c834f0c"
+    },
+    "P7": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 1.0,
+        "density": 0.3793103448275862,
+        "edge_count": 55,
+        "in_degree": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "out_degree": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 18,
+        "recurrent_graph_diameter": 2,
+        "recurrent_in_degree": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3,
+          2
+        ],
+        "recurrent_out_degree": [
+          2,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 8,
+        "same_step_edge_count": 37,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 55,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 1,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 7
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 18,
+      "same_step_edge_count": 37,
+      "topology_id": "5df4cb1b5a1c5757e7053cd53b00cf90fab81da71d26bf6f35fe5253bf55efab"
+    },
+    "P8": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 1.0,
+        "density": 0.3793103448275862,
+        "edge_count": 55,
+        "in_degree": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "out_degree": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "recurrent_edge_count": 26,
+        "recurrent_graph_diameter": 2,
+        "recurrent_in_degree": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          4,
+          3,
+          4,
+          3,
+          3
+        ],
+        "recurrent_out_degree": [
+          6,
+          5,
+          3,
+          1,
+          3,
+          3,
+          2,
+          1,
+          1,
+          1
+        ],
+        "same_step_dag_depth": 8,
+        "same_step_edge_count": 29,
+        "strongly_connected_components": 10,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 55,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 1,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 1
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 2
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 4,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 6,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 7
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        },
+        {
+          "dst": 9,
+          "recurrent": true,
+          "src": 9
+        }
+      ],
+      "recurrent_edge_count": 26,
+      "same_step_edge_count": 29,
+      "topology_id": "48494751db11353b9a5fcdf891dbf46f3367d726c7da20b20b28e5dd8168de91"
+    },
+    "P9": {
+      "cell_count": 10,
+      "descriptors": {
+        "clustering_coefficient": 1.0,
+        "density": 0.3793103448275862,
+        "edge_count": 55,
+        "in_degree": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          8,
+          6,
+          8,
+          10,
+          9
+        ],
+        "out_degree": [
+          11,
+          8,
+          7,
+          7,
+          7,
+          5,
+          5,
+          3,
+          2,
+          0
+        ],
+        "recurrent_edge_count": 10,
+        "recurrent_graph_diameter": 2,
+        "recurrent_in_degree": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          3,
+          0,
+          1,
+          2,
+          0
+        ],
+        "recurrent_out_degree": [
+          2,
+          0,
+          0,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          0
+        ],
+        "same_step_dag_depth": 10,
+        "same_step_edge_count": 45,
+        "strongly_connected_components": 3,
+        "weakly_connected_components": 1
+      },
+      "edge_count": 55,
+      "edges": [
+        {
+          "dst": 1,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 0
+        },
+        {
+          "dst": 2,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 1
+        },
+        {
+          "dst": 3,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 2
+        },
+        {
+          "dst": 4,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 3
+        },
+        {
+          "dst": 5,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 4
+        },
+        {
+          "dst": 6,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 7
+        },
+        {
+          "dst": 9,
+          "recurrent": false,
+          "src": 8
+        },
+        {
+          "dst": 3,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 0
+        },
+        {
+          "dst": 0,
+          "recurrent": true,
+          "src": 3
+        },
+        {
+          "dst": 1,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 4
+        },
+        {
+          "dst": 5,
+          "recurrent": true,
+          "src": 5
+        },
+        {
+          "dst": 7,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 6
+        },
+        {
+          "dst": 2,
+          "recurrent": true,
+          "src": 7
+        },
+        {
+          "dst": 8,
+          "recurrent": true,
+          "src": 8
+        }
+      ],
+      "recurrent_edge_count": 10,
+      "same_step_edge_count": 45,
+      "topology_id": "527c5e2cc82bb6a70af1f5ca3a2c0b6620adc0ceb296166be680bfb4a089f9c1"
+    }
+  }
+}

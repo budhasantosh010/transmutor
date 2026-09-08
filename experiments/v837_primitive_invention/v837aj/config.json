@@ -1,0 +1,181 @@
+{
+  "active_parameters_without_message_edges": 1588,
+  "anchor_active_macs_per_timestep": 1206,
+  "anchor_active_parameters": 1643,
+  "anchor_total_modeled_macs_per_timestep": 1426,
+  "architecture": "AF1D_deshared_candidate_input_factorization",
+  "branch": "research/v837-structural-search-recovery",
+  "calibration": {
+    "initialization_replicates": 2,
+    "panel_ids": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11"
+    ],
+    "topology_count": 12
+  },
+  "candidate_projection_count": 10,
+  "candidate_projection_dim": 6,
+  "cell_count": 10,
+  "data": {
+    "final_validation": [
+      20000,
+      20127
+    ],
+    "full_development": [
+      10000,
+      10511
+    ],
+    "search_selection_pool": [
+      10384,
+      10511
+    ],
+    "search_train_pool": [
+      10000,
+      10383
+    ],
+    "union_unique_family_seed_episodes": 3200
+  },
+  "fidelities": {
+    "F0": {
+      "eligible": true,
+      "selection_count": 128,
+      "steps": 24,
+      "train_count": 64
+    },
+    "F1": {
+      "eligible": true,
+      "selection_count": 128,
+      "steps": 48,
+      "train_count": 128
+    },
+    "F2": {
+      "eligible": true,
+      "selection_count": 128,
+      "steps": 96,
+      "train_count": 256
+    },
+    "F3": {
+      "eligible": true,
+      "selection_count": 128,
+      "steps": 144,
+      "train_count": 384
+    },
+    "F4": {
+      "eligible": false,
+      "selection_count": 128,
+      "steps": 192,
+      "target": true,
+      "train_count": 384
+    },
+    "F_LEGACY": {
+      "eligible": false,
+      "selection_count": 20,
+      "steps": 24,
+      "train_count": 16
+    }
+  },
+  "fidelity_gates": {
+    "median_kendall_tau": 0.6,
+    "median_pairwise_order_accuracy": 0.72,
+    "median_spearman_rho": 0.75,
+    "median_top4_recall": 0.75,
+    "minimum_family_kendall_tau": 0.35,
+    "minimum_family_top4_recall": 0.5
+  },
+  "fresh_audit_allowed": false,
+  "frozen_af1d_recurrent_controller_projection_macs": 1206,
+  "lambda_edges": 0.0005,
+  "large_persistent_storage_tested": false,
+  "max_message_edges": 64,
+  "message_edge_mac_per_timestep": 4,
+  "model_class": "CandidateInputFactorizationY3",
+  "mutation_probabilities": {
+    "ADD_RECURRENT_EDGE": 0.2,
+    "ADD_SAME_STEP_EDGE": 0.2,
+    "REMOVE_RECURRENT_EDGE": 0.15,
+    "REMOVE_SAME_STEP_EDGE": 0.15,
+    "REWIRE_RECURRENT_EDGE": 0.15,
+    "REWIRE_SAME_STEP_EDGE": 0.15
+  },
+  "primitive_mining_allowed_during_v837aj": false,
+  "recurrent_legal_edges": 100,
+  "required_start_sha": "f87f1506d9f1ee9e85ac1668bff76e03d3f20993",
+  "robustness_triggers": {
+    "competent_hit_advantage_high": 0.2,
+    "competent_hit_advantage_low": 0.1,
+    "directed_family_passes_exact": 3,
+    "paired_p_high": 0.1,
+    "paired_p_low": 0.01,
+    "paired_validation_delta_high": 0.08,
+    "paired_validation_delta_low": 0.04
+  },
+  "same_step_legal_edges": 45,
+  "search": {
+    "candidate_budget": 64,
+    "generations": 12,
+    "initial_mutations_max": 3,
+    "initial_mutations_min": 1,
+    "mutation_retry_limit": 128,
+    "offspring_per_generation": 4,
+    "parent_pool_size": 8,
+    "population_size": 16,
+    "primary_runs_per_family": 5,
+    "proxy_threshold": 0.85,
+    "robustness_additional_runs_per_family": 5
+  },
+  "search_process_family_gate": {
+    "competent_champions_required": 3,
+    "competent_run_fraction_required": 0.6,
+    "global_families_required": 4,
+    "median_development": 0.9,
+    "median_validation": 0.85
+  },
+  "semantic_edge_initialization": {
+    "namespace": "v837aj-edge-init",
+    "recurrent_mean": 0.55,
+    "same_step_mean": 0.35,
+    "std": 0.05
+  },
+  "source_hashes": {
+    "historical_graph_gate": "29c4eb79e8b50ce08891122b7498ee531a57082ca4f6de0c0f1ae18624de3180",
+    "v837af_config": "27fb8fe01ba53799d6a5aa5effca995acc199e299c5d99a08cf16ea750c4a266",
+    "v837af_decision": "e1e2cc5dd6f16d7ff8bf2cefef7787b3e3d01e85d1a0f6c3d6262238f0f16a7e",
+    "v837af_model": "037cf3d0c2993baccda2f7930059613387e2971f90e11515b51751441c4b1034",
+    "v837af_raw_transfer": "103461f464b0fc121686ca61b02f393cd39319a204949de8334aeb911d28710d",
+    "v837af_results": "ec0f8c4476cf7f6f662f948d17a540bfe000c1d30da3c563001def910d598fa9",
+    "v837ai_config": "cf5e3b2046965976c3b3f2bb0e47ebff6c49c2f8335c581b03a649b7db0c64f6",
+    "v837ai_decision": "efd99bc92f3380b35b4bc1f63b32d4040122fb1a29c6e2cefaef30aca7b67365",
+    "v837ai_results": "d8be22de2eeb109c2b7362d011e450d67723cf142881380f2354a265b1026477",
+    "v837r_coupling": "cc8dbafecb78c647c32752bf86122cd6b48671b92526c587517df287c72791be",
+    "v837y_model": "55669e520a4fbcabca550ec220b61de357e7aa5c0227d151243343a45fca500b"
+  },
+  "state_dim_per_cell": 4,
+  "superiority_gate": {
+    "competent_hit_rate_advantage": 0.2,
+    "median_paired_final_validation_delta": 0.08,
+    "paired_permutation_one_sided_p": 0.01,
+    "permutations": 100000
+  },
+  "total_state_dim": 40,
+  "training": {
+    "family_development_threshold": 0.9,
+    "family_validation_threshold": 0.85,
+    "full_steps": 192,
+    "gradient_clip": 5.0,
+    "learning_rate": 0.005,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001
+  },
+  "v838_started": false,
+  "version": "V837aj"
+}

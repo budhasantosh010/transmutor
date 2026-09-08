@@ -1,0 +1,7 @@
+{
+  "anchor_reproduction_allowed": true,
+  "calibration_blocked": true,
+  "guard_valid": true,
+  "random_search_blocked": true,
+  "search_blocked": true
+}

@@ -1,0 +1,23 @@
+{
+  "development_final_disjoint": true,
+  "exact": true,
+  "final_validation": [
+    20000,
+    20127
+  ],
+  "final_validation_count_per_family": 128,
+  "fresh_audit_overlap": 0,
+  "full_development_exact": true,
+  "search_selection_count_per_family": 128,
+  "search_selection_pool": [
+    10384,
+    10511
+  ],
+  "search_train_count_per_family": 384,
+  "search_train_pool": [
+    10000,
+    10383
+  ],
+  "train_selection_disjoint": true,
+  "union_unique_family_seed_episodes": 3200
+}
