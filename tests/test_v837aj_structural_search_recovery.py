@@ -146,6 +146,44 @@ class TestV837ajMutationRestrictions(unittest.TestCase):
         with self.assertRaises(ValueError): SearchTopology((e,e))
 
 
+class TestV837ajFastRuntimeParity(unittest.TestCase):
+    def _models_and_batch(self):
+        topology=sample_topology_with_counts(11,18,namespace="fast-runtime-test",parts=(1,))
+        reference=build_candidate_model(topology,"variable_composition",4,22)
+        optimized=build_candidate_model(topology,"variable_composition",4,22)
+        generator=torch.Generator().manual_seed(771)
+        observations=torch.randn(32,8,6,generator=generator)
+        lengths=torch.randint(2,9,(32,),generator=generator)
+        targets=torch.randn(32,generator=generator)
+        return reference,optimized,observations,lengths,targets
+    def test_fast_runtime_output_bit_exact(self):
+        reference,optimized,observations,lengths,_=self._models_and_batch()
+        expected=CandidateInputFactorizationY3.forward(reference,observations,lengths)
+        actual=optimized(observations,lengths)
+        self.assertTrue(torch.equal(expected,actual))
+    def test_fast_runtime_gradient_and_optimizer_bit_exact(self):
+        reference,optimized,observations,lengths,targets=self._models_and_batch()
+        reference_optimizer=torch.optim.AdamW(reference.parameters(),lr=.005,weight_decay=.0001)
+        optimized_optimizer=torch.optim.AdamW(optimized.parameters(),lr=.005,weight_decay=.0001,foreach=True)
+        for _ in range(3):
+            reference_optimizer.zero_grad(set_to_none=True); optimized_optimizer.zero_grad(set_to_none=True)
+            expected=CandidateInputFactorizationY3.forward(reference,observations,lengths)
+            actual=optimized(observations,lengths)
+            torch.nn.functional.mse_loss(expected,targets).backward(); torch.nn.functional.mse_loss(actual,targets).backward()
+            for a,b in zip(reference.parameters(),optimized.parameters()): self.assertTrue(torch.equal(a.grad,b.grad))
+            torch.nn.utils.clip_grad_norm_(reference.parameters(),5.0)
+            torch.nn.utils.clip_grad_norm_(optimized.parameters(),5.0,foreach=True)
+            reference_optimizer.step(); optimized_optimizer.step()
+            for a,b in zip(reference.parameters(),optimized.parameters()): self.assertTrue(torch.equal(a,b))
+    def test_fast_runtime_trace_falls_back_bit_exact(self):
+        reference,optimized,observations,lengths,_=self._models_and_batch()
+        expected_prediction,expected_trace=CandidateInputFactorizationY3.forward(reference,observations,lengths,return_trace=True)
+        actual_prediction,actual_trace=optimized(observations,lengths,return_trace=True)
+        self.assertTrue(torch.equal(expected_prediction,actual_prediction))
+        self.assertTrue(torch.equal(expected_trace.states,actual_trace.states))
+        self.assertTrue(torch.equal(expected_trace.messages,actual_trace.messages))
+
+
 class TestV837ajInitializationPairing(unittest.TestCase):
     def test_common_parameters_identical_across_topologies(self):
         a=build_candidate_model(minimal_topology(),"conditional_routing",3,9); b=build_candidate_model(sample_topology_with_counts(9,10,namespace="test-other",parts=(1,)),"conditional_routing",3,9); self.assertTrue(common_initialization_equal(a,b))

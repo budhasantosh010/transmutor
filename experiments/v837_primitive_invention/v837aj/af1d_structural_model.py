@@ -15,6 +15,7 @@ from experiments.v837_primitive_invention.v837ai.af1d_sample_efficiency import (
     coupling_seed as historical_coupling_seed,
     projection_seed as historical_projection_seed,
 )
+from experiments.v837_primitive_invention.v837aj.fast_runtime import enable_fast_runtime
 from experiments.v837_primitive_invention.v837aj.topology import (
     NUM_CELLS,
     SearchTopology,
@@ -98,12 +99,12 @@ def build_candidate_model(topology: SearchTopology, family: str, run_index: int,
     torch.manual_seed(int(common))
     np.random.seed(int(common) % (2**32 - 1))
     graph = _graph_for_topology(topology, family=family, run_index=run_index, slot=slot, finalization=False)
-    return CandidateInputFactorizationY3(
+    return enable_fast_runtime(CandidateInputFactorizationY3(
         graph,
         condition=CONDITION,
         coupling_initialization_seed=int(candidate_coupling_seed(family, run_index, slot)),
         projection_seed=int(candidate_projection_seed(family, run_index, slot)),
-    )
+    ))
 
 
 def build_finalization_model(topology: SearchTopology, family: str, run_index: int) -> CandidateInputFactorizationY3:
@@ -111,12 +112,12 @@ def build_finalization_model(topology: SearchTopology, family: str, run_index: i
     torch.manual_seed(int(common))
     np.random.seed(int(common) % (2**32 - 1))
     graph = _graph_for_topology(topology, family=family, run_index=run_index, slot=None, finalization=True)
-    return CandidateInputFactorizationY3(
+    return enable_fast_runtime(CandidateInputFactorizationY3(
         graph,
         condition=CONDITION,
         coupling_initialization_seed=int(finalization_coupling_seed(family, run_index)),
         projection_seed=int(finalization_projection_seed(family, run_index)),
-    )
+    ))
 
 
 def build_exact_anchor_model(family: str, replicate: int) -> CandidateInputFactorizationY3:

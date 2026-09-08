@@ -73,6 +73,7 @@ def finalize_champion(champion_record: dict, *, engine: str) -> dict:
         model.parameters(),
         lr=float(CONFIG["training"]["learning_rate"]),
         weight_decay=float(CONFIG["training"]["weight_decay"]),
+        foreach=True,
     )
     loss_fn = nn.MSELoss()
     start_wall = time.perf_counter(); start_cpu = time.process_time()
@@ -81,7 +82,7 @@ def finalize_champion(champion_record: dict, *, engine: str) -> dict:
         model.train(); optimizer.zero_grad(set_to_none=True)
         prediction = model(observations, lengths); forward_calls += 1
         loss = loss_fn(prediction, targets); loss.backward(); backward_calls += 1
-        torch.nn.utils.clip_grad_norm_(model.parameters(), float(CONFIG["training"]["gradient_clip"]))
+        torch.nn.utils.clip_grad_norm_(model.parameters(), float(CONFIG["training"]["gradient_clip"]), foreach=True)
         optimizer.step()
     development = evaluate_sequence_model(model, task, train_episodes); forward_calls += 1
     val_observations, val_lengths, val_targets = episodes_to_batch(validation_episodes)
