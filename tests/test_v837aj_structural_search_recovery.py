@@ -213,6 +213,43 @@ class TestV837ajEqualBudget(unittest.TestCase):
     def test_random_matches_recurrent_count_per_slot(self): self.assertTrue(all(a["topology"]["recurrent_edge_count"]==b["topology"]["recurrent_edge_count"] for a,b in zip(self.directed["records"],self.random["records"])))
     def test_random_uses_same_candidate_initialization_slot(self): self.assertTrue(all(a["candidate_initialization_slot"]==b["candidate_initialization_slot"] for a,b in zip(self.directed["records"],self.random["records"])))
     def test_constructive_initial_population_anchor_free(self): self.assertNotIn(historical_anchor_topology().topology_id,{t.topology_id for t in constructive_initial_population("conditional_routing",0)})
+    def test_checkpointing_is_opt_in(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(search_mod,"PROGRESS_DIR",Path(tmp)), patch.object(search_mod,"train_proxy_candidate",side_effect=fake_proxy):
+                search_mod.run_directed_search("conditional_routing",2,"F0")
+            self.assertEqual(list(Path(tmp).glob("progress_search_*.json")),[])
+    def test_directed_checkpoint_resume_preserves_exact_trajectory(self):
+        with patch.object(search_mod,"train_proxy_candidate",side_effect=fake_proxy):
+            baseline=search_mod.run_directed_search("delayed_recall",3,"F0")
+        calls={"n":0}
+        def interrupting_proxy(*args,**kwargs):
+            calls["n"]+=1
+            if calls["n"]==21: raise RuntimeError("synthetic interruption")
+            return fake_proxy(*args,**kwargs)
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(search_mod,"PROGRESS_DIR",Path(tmp)), patch.object(search_mod,"train_proxy_candidate",side_effect=interrupting_proxy):
+                with self.assertRaisesRegex(RuntimeError,"synthetic interruption"):
+                    search_mod.run_directed_search("delayed_recall",3,"F0",checkpoint=True)
+            with patch.object(search_mod,"PROGRESS_DIR",Path(tmp)), patch.object(search_mod,"train_proxy_candidate",side_effect=fake_proxy):
+                resumed=search_mod.run_directed_search("delayed_recall",3,"F0",checkpoint=True)
+        self.assertEqual([r["topology_id"] for r in baseline["records"]],[r["topology_id"] for r in resumed["records"]])
+        self.assertEqual(baseline["champion"]["topology_id"],resumed["champion"]["topology_id"])
+    def test_random_checkpoint_resume_preserves_exact_trajectory(self):
+        calls={"n":0}
+        def interrupting_proxy(*args,**kwargs):
+            calls["n"]+=1
+            if calls["n"]==18: raise RuntimeError("synthetic interruption")
+            return fake_proxy(*args,**kwargs)
+        with patch.object(random_mod,"train_proxy_candidate",side_effect=fake_proxy):
+            baseline=random_mod.run_random_sampler(self.directed,"F0")
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(random_mod,"PROGRESS_DIR",Path(tmp)), patch.object(random_mod,"train_proxy_candidate",side_effect=interrupting_proxy):
+                with self.assertRaisesRegex(RuntimeError,"synthetic interruption"):
+                    random_mod.run_random_sampler(self.directed,"F0",checkpoint=True)
+            with patch.object(random_mod,"PROGRESS_DIR",Path(tmp)), patch.object(random_mod,"train_proxy_candidate",side_effect=fake_proxy):
+                resumed=random_mod.run_random_sampler(self.directed,"F0",checkpoint=True)
+        self.assertEqual([r["topology_id"] for r in baseline["records"]],[r["topology_id"] for r in resumed["records"]])
+        self.assertEqual(baseline["champion"]["topology_id"],resumed["champion"]["topology_id"])
 
 
 class TestV837ajChampionProtocol(unittest.TestCase):
