@@ -1,0 +1,27 @@
+{
+  "F0": {
+    "median_top2_recall": 0.5,
+    "median_top4_recall": 0.75,
+    "minimum_family_top4_recall": 0.25
+  },
+  "F1": {
+    "median_top2_recall": 0.5,
+    "median_top4_recall": 0.75,
+    "minimum_family_top4_recall": 0.25
+  },
+  "F2": {
+    "median_top2_recall": 1.0,
+    "median_top4_recall": 0.75,
+    "minimum_family_top4_recall": 0.25
+  },
+  "F3": {
+    "median_top2_recall": 1.0,
+    "median_top4_recall": 0.75,
+    "minimum_family_top4_recall": 0.75
+  },
+  "F_LEGACY": {
+    "median_top2_recall": 0.5,
+    "median_top4_recall": 0.75,
+    "minimum_family_top4_recall": 0.25
+  }
+}
