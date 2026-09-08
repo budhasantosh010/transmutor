@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "architecture": true,
+    "exact_reanalysis": true,
+    "rows_complete": true,
+    "training_protocol": true
+  },
+  "compatible": true,
+  "expected_validation_medians": {
+    "conditional_routing": 0.9375,
+    "delayed_recall": 0.984375,
+    "iterative_state": 1.0,
+    "partial_observation": 0.8125,
+    "variable_composition": 0.875
+  },
+  "failure_code": null,
+  "reanalyzed": {
+    "families_passing": 4,
+    "family_results": {
+      "conditional_routing": {
+        "development_median": 1.0,
+        "pass": true,
+        "validation_median": 0.9375
+      },
+      "delayed_recall": {
+        "development_median": 1.0,
+        "pass": true,
+        "validation_median": 0.984375
+      },
+      "iterative_state": {
+        "development_median": 0.99609375,
+        "pass": true,
+        "validation_median": 1.0
+      },
+      "partial_observation": {
+        "development_median": 0.974609375,
+        "pass": false,
+        "validation_median": 0.8125
+      },
+      "variable_composition": {
+        "development_median": 0.984375,
+        "pass": true,
+        "validation_median": 0.875
+      }
+    }
+  },
+  "rows_reused": 25,
+  "source_condition": "AF1D_deshared_candidate_input_factorization",
+  "source_config_sha256": "27fb8fe01ba53799d6a5aa5effca995acc199e299c5d99a08cf16ea750c4a266",
+  "source_decision_sha256": "e1e2cc5dd6f16d7ff8bf2cefef7787b3e3d01e85d1a0f6c3d6262238f0f16a7e",
+  "source_model_sha256": "037cf3d0c2993baccda2f7930059613387e2971f90e11515b51751441c4b1034",
+  "source_raw_run_sha256": "103461f464b0fc121686ca61b02f393cd39319a204949de8334aeb911d28710d",
+  "source_results_sha256": "ec0f8c4476cf7f6f662f948d17a540bfe000c1d30da3c563001def910d598fa9",
+  "source_sha": "1e2be191b39f2c624c043d47ce11fc602b95be1e",
+  "source_version": "V837af"
+}

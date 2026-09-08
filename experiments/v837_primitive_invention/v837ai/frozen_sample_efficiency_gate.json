@@ -1,0 +1,31 @@
+{
+  "version": "V837ai",
+  "architecture_source": "V837af AF1D_deshared_candidate_input_factorization",
+  "architecture_frozen": true,
+  "data_multipliers": [
+    1,
+    2,
+    4
+  ],
+  "development_per_family": {
+    "1x": 128,
+    "2x": 256,
+    "4x": 512
+  },
+  "validation_per_family": 128,
+  "steps": 192,
+  "replicates": 5,
+  "optimizer": "AdamW",
+  "learning_rate": 0.005,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5.0,
+  "family_development_threshold": 0.9,
+  "family_validation_threshold": 0.85,
+  "representation_gate_families": 4,
+  "historical_gru_threshold_multiplier": 4,
+  "fresh_audit_allowed": false,
+  "architecture_search_allowed": false,
+  "primitive_mining_allowed": false,
+  "ai4_reuse_required": true,
+  "sub_1x_sweep_allowed": false
+}

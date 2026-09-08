@@ -1,0 +1,41 @@
+{
+  "counts_per_family": {
+    "1x": 128,
+    "2x": 256,
+    "4x": 512,
+    "validation": 128
+  },
+  "development_validation_overlap": 0,
+  "duplicates": {
+    "1x": 0,
+    "2x": 0,
+    "4x": 0,
+    "validation": 0
+  },
+  "exact": true,
+  "ranges": {
+    "1x": [
+      10000,
+      10127
+    ],
+    "2x": [
+      10000,
+      10255
+    ],
+    "4x": [
+      10000,
+      10511
+    ],
+    "validation": [
+      20000,
+      20127
+    ]
+  },
+  "strict_nesting": true,
+  "total_unique_family_seed_episodes": {
+    "1x": 1280,
+    "2x": 1920,
+    "4x": 3200,
+    "union": 3200
+  }
+}

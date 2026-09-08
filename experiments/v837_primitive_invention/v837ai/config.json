@@ -1,0 +1,91 @@
+{
+  "experiment": "V837ai",
+  "parent": "V837af",
+  "architecture": "AF1D_deshared_candidate_input_factorization",
+  "question": "What is the minimum tested amount of unique development data at which the fixed AF1D neutral Transmutor substrate retains the frozen >=4/5 representation-adequacy gate?",
+  "required_start_sha": "1e2be191b39f2c624c043d47ce11fc602b95be1e",
+  "source_version": "V837af",
+  "source_condition": "AF1D_deshared_candidate_input_factorization",
+  "source_sha": "1e2be191b39f2c624c043d47ce11fc602b95be1e",
+  "data_multipliers": [
+    1,
+    2,
+    4
+  ],
+  "development_episodes_per_family": {
+    "1x": 128,
+    "2x": 256,
+    "4x": 512
+  },
+  "development_seed_ranges": {
+    "1x": [
+      10000,
+      10127
+    ],
+    "2x": [
+      10000,
+      10255
+    ],
+    "4x": [
+      10000,
+      10511
+    ]
+  },
+  "validation_episodes_per_family": 128,
+  "validation_seed_range": [
+    20000,
+    20127
+  ],
+  "training": {
+    "optimizer": "AdamW",
+    "steps": 192,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "replicates": 5,
+    "curve_steps": [
+      0,
+      32,
+      64,
+      96,
+      128,
+      160,
+      192
+    ]
+  },
+  "family_development_threshold": 0.9,
+  "family_validation_threshold": 0.85,
+  "representation_family_gate": 4,
+  "historical_gru_minimum_tested_multiplier": 4,
+  "expected_active_parameters": 1643,
+  "expected_projection_parameters": 420,
+  "expected_active_macs_per_timestep": 1206,
+  "historical_gru_parameters": 875,
+  "historical_gate_hash": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867",
+  "capacity_criterion_hash": "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa",
+  "architecture_hashes": {
+    "v837af_config": "27fb8fe01ba53799d6a5aa5effca995acc199e299c5d99a08cf16ea750c4a266",
+    "v837af_model": "037cf3d0c2993baccda2f7930059613387e2971f90e11515b51751441c4b1034",
+    "v837af_frozen_gate": "40e1d6729320a11369d70e71a966f60aa80714565204eb5dca018b2d4c26ac8c",
+    "v837af_results": "ec0f8c4476cf7f6f662f948d17a540bfe000c1d30da3c563001def910d598fa9",
+    "v837af_raw_transfer": "103461f464b0fc121686ca61b02f393cd39319a204949de8334aeb911d28710d",
+    "v837af_decision": "e1e2cc5dd6f16d7ff8bf2cefef7787b3e3d01e85d1a0f6c3d6262238f0f16a7e",
+    "v837y_parent_model": "55669e520a4fbcabca550ec220b61de357e7aa5c0227d151243343a45fca500b",
+    "v837r_rank4_coupling": "cc8dbafecb78c647c32752bf86122cd6b48671b92526c587517df287c72791be",
+    "historical_graph_gate": "29c4eb79e8b50ce08891122b7498ee531a57082ca4f6de0c0f1ae18624de3180"
+  },
+  "historical_v837l_hashes": {
+    "config": "f8f412191fb199e5fc95e0efeb9b64351b67d17bbe9c827d4eaa7506037e6d7e",
+    "results": "5e607c94b9b7632155fac7d43840ed8327272ce0bc88efffab75be8e537405d8",
+    "raw_2x": "8cede938ee31728ed104c415e400e093af77035ad62b8937462b4f3edb313196",
+    "raw_4x": "9d7dda9dcfa39bebc41a5ea6f3c452080ec47a4da4c46eb8ebdd7f4535278fd5"
+  },
+  "fresh_audit_allowed": false,
+  "structural_search_execution_allowed": false,
+  "primitive_mining_allowed": false,
+  "v837ae_absent": true,
+  "v837ag_absent": true,
+  "v837ah_absent": true,
+  "v838_started": false,
+  "cpu_only": true
+}

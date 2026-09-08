@@ -1,0 +1,31 @@
+{
+  "compatible": true,
+  "families_passing": {
+    "1x": {
+      "gru_reference": 2,
+      "neutral_high_capacity": 1,
+      "residual_rnn_reference": 2
+    },
+    "2x": {
+      "gru_reference": 3,
+      "neutral_high_capacity": 1,
+      "residual_rnn_reference": 2
+    },
+    "4x": {
+      "gru_reference": 5,
+      "neutral_high_capacity": 2,
+      "residual_rnn_reference": 3
+    }
+  },
+  "hashes": {
+    "config": "f8f412191fb199e5fc95e0efeb9b64351b67d17bbe9c827d4eaa7506037e6d7e",
+    "raw_2x": "8cede938ee31728ed104c415e400e093af77035ad62b8937462b4f3edb313196",
+    "raw_4x": "9d7dda9dcfa39bebc41a5ea6f3c452080ec47a4da4c46eb8ebdd7f4535278fd5",
+    "results": "5e607c94b9b7632155fac7d43840ed8327272ce0bc88efffab75be8e537405d8"
+  },
+  "historical_gru_macs_derivation": "6x6 input projection = 36 MACs; GRUCell 3 gates * (6*13 input + 13*13 recurrent) = 741 MACs; total matrix MACs = 777. Bias/nonlinearity/readout excluded to match recurrent/controller/projection accounting semantics.",
+  "historical_gru_macs_per_timestep": 777,
+  "historical_gru_minimum_tested_multiplier": 4,
+  "historical_gru_parameters": 875,
+  "source": "V837l"
+}
