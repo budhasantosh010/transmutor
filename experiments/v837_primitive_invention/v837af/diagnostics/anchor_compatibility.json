@@ -1,11 +1,4 @@
 {
-  "absolute_deltas": {
-    "conditional_routing": 0.0,
-    "delayed_recall": 0.0,
-    "iterative_state": 0.0,
-    "partial_observation": 0.0,
-    "variable_composition": 0.0
-  },
   "expected_families_passing": 3,
   "expected_family_validation_medians": {
     "conditional_routing": 0.84375,
@@ -14,7 +7,15 @@
     "partial_observation": 0.7734375,
     "variable_composition": 0.8515625
   },
-  "max_absolute_delta": 0.0,
+  "max_development_abs_delta": 0.0,
+  "max_validation_abs_delta": 0.0,
+  "median_absolute_deltas": {
+    "conditional_routing": 0.0,
+    "delayed_recall": 0.0,
+    "iterative_state": 0.0,
+    "partial_observation": 0.0,
+    "variable_composition": 0.0
+  },
   "observed": {
     "families_passing": 3,
     "family_development_medians": {
@@ -32,5 +33,157 @@
       "variable_composition": 0.8515625
     }
   },
-  "parent_reproduced": true
+  "parent_reproduced": true,
+  "row_level": [
+    {
+      "development_abs_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 0,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 1,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 2,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 3,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "conditional_routing",
+      "replicate_id": 4,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 0,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 1,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 2,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 3,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "delayed_recall",
+      "replicate_id": 4,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 0,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 1,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 2,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 3,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "iterative_state",
+      "replicate_id": 4,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 0,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 1,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 2,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 3,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "partial_observation",
+      "replicate_id": 4,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 0,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 1,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 2,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 3,
+      "validation_abs_delta": 0.0
+    },
+    {
+      "development_abs_delta": 0.0,
+      "family": "variable_composition",
+      "replicate_id": 4,
+      "validation_abs_delta": 0.0
+    }
+  ]
 }

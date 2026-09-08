@@ -1,0 +1,14 @@
+{
+  "backward_calls": 19200,
+  "cpu_seconds_worker_sum": 6820.5,
+  "environment_interactions": 444900,
+  "forward_calls": 20800,
+  "fresh_audit_consumed": false,
+  "gpu_seconds": 0.0,
+  "model_fits": 100,
+  "optimizer_steps": 19200,
+  "processed_training_examples": 9830400,
+  "unique_seed_defined_episodes": 3200,
+  "version": "V837af",
+  "wall_seconds_worker_sum": 8689.619448099285
+}

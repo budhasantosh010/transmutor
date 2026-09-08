@@ -1,0 +1,154 @@
+{
+  "AF0_y3_parent": {
+    "0": {
+      "fits": 25,
+      "mode": "none"
+    },
+    "144": {
+      "fits": 25,
+      "mode": "none"
+    },
+    "192": {
+      "fits": 25,
+      "mode": "none"
+    },
+    "24": {
+      "fits": 25,
+      "mode": "none"
+    },
+    "48": {
+      "fits": 25,
+      "mode": "none"
+    },
+    "96": {
+      "fits": 25,
+      "mode": "none"
+    }
+  },
+  "AF1D_deshared_candidate_input_factorization": {
+    "0": {
+      "fits": 25,
+      "mean_projection_frobenius_median": 1.3827890157699585,
+      "mode": "deshared",
+      "pairwise_weight_cosine_median": 1.0,
+      "pairwise_weight_distance_median": 0.0,
+      "projection_divergence_from_shared_initialization_mean_median": 0.0
+    },
+    "144": {
+      "fits": 25,
+      "mean_projection_frobenius_median": 1.5773335337638854,
+      "mode": "deshared",
+      "pairwise_weight_cosine_median": 0.8000393509864807,
+      "pairwise_weight_distance_median": 1.024528980255127,
+      "projection_divergence_from_shared_initialization_mean_median": 0.764658784866333
+    },
+    "192": {
+      "fits": 25,
+      "mean_projection_frobenius_median": 1.64255690574646,
+      "mode": "deshared",
+      "pairwise_weight_cosine_median": 0.7738974690437317,
+      "pairwise_weight_distance_median": 1.1804355382919312,
+      "projection_divergence_from_shared_initialization_mean_median": 0.860247278213501
+    },
+    "24": {
+      "fits": 25,
+      "mean_projection_frobenius_median": 1.4044370889663695,
+      "mode": "deshared",
+      "pairwise_weight_cosine_median": 0.9389273524284363,
+      "pairwise_weight_distance_median": 0.5124191045761108,
+      "projection_divergence_from_shared_initialization_mean_median": 0.3775051712989807
+    },
+    "48": {
+      "fits": 25,
+      "mean_projection_frobenius_median": 1.4702182173728944,
+      "mode": "deshared",
+      "pairwise_weight_cosine_median": 0.8857378363609314,
+      "pairwise_weight_distance_median": 0.6733417510986328,
+      "projection_divergence_from_shared_initialization_mean_median": 0.5217387676239014
+    },
+    "96": {
+      "fits": 25,
+      "mean_projection_frobenius_median": 1.519964611530304,
+      "mode": "deshared",
+      "pairwise_weight_cosine_median": 0.8412790894508362,
+      "pairwise_weight_distance_median": 0.8290359377861023,
+      "projection_divergence_from_shared_initialization_mean_median": 0.6505359172821045
+    }
+  },
+  "AF1F_folded_candidate_input_control": {
+    "0": {
+      "fits": 25,
+      "mode": "folded"
+    },
+    "144": {
+      "fits": 25,
+      "mode": "folded"
+    },
+    "192": {
+      "fits": 25,
+      "mode": "folded"
+    },
+    "24": {
+      "fits": 25,
+      "mode": "folded"
+    },
+    "48": {
+      "fits": 25,
+      "mode": "folded"
+    },
+    "96": {
+      "fits": 25,
+      "mode": "folded"
+    }
+  },
+  "AF1_shared_candidate_input_factorization": {
+    "0": {
+      "bias_drift_median": 0.0,
+      "condition_number_median": 17.778775326991564,
+      "fits": 25,
+      "frobenius_norm_median": 1.3827890157699585,
+      "mode": "shared",
+      "weight_drift_median": 0.0
+    },
+    "144": {
+      "bias_drift_median": 0.13914330303668976,
+      "condition_number_median": 30.2891061453893,
+      "fits": 25,
+      "frobenius_norm_median": 1.5127145051956177,
+      "mode": "shared",
+      "weight_drift_median": 0.8955996036529541
+    },
+    "192": {
+      "bias_drift_median": 0.14546474814414978,
+      "condition_number_median": 32.09740610823326,
+      "fits": 25,
+      "frobenius_norm_median": 1.564310908317566,
+      "mode": "shared",
+      "weight_drift_median": 1.010270118713379
+    },
+    "24": {
+      "bias_drift_median": 0.06817156076431274,
+      "condition_number_median": 20.819059514112237,
+      "fits": 25,
+      "frobenius_norm_median": 1.4112679958343506,
+      "mode": "shared",
+      "weight_drift_median": 0.4113219678401947
+    },
+    "48": {
+      "bias_drift_median": 0.09776722639799118,
+      "condition_number_median": 17.50498006608315,
+      "fits": 25,
+      "frobenius_norm_median": 1.4849086999893188,
+      "mode": "shared",
+      "weight_drift_median": 0.6288098692893982
+    },
+    "96": {
+      "bias_drift_median": 0.12022368609905243,
+      "condition_number_median": 26.573683532563585,
+      "fits": 25,
+      "frobenius_norm_median": 1.4918653964996338,
+      "mode": "shared",
+      "weight_drift_median": 0.7970840930938721
+    }
+  }
+}

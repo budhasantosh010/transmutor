@@ -1,0 +1,18 @@
+{
+  "AF0_y3_parent": {
+    "mean_abs_prediction_delta_median": 0.22314004600048065,
+    "success_drop_median": 0.2578125
+  },
+  "AF1D_deshared_candidate_input_factorization": {
+    "mean_abs_prediction_delta_median": 0.23562179505825043,
+    "success_drop_median": 0.453125
+  },
+  "AF1F_folded_candidate_input_control": {
+    "mean_abs_prediction_delta_median": 0.20624181628227234,
+    "success_drop_median": 0.3515625
+  },
+  "AF1_shared_candidate_input_factorization": {
+    "mean_abs_prediction_delta_median": 0.18527889251708984,
+    "success_drop_median": 0.390625
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "AF0_y3_parent": {
+      "active_parameter_count": 1223,
+      "families_passing": 3,
+      "parameter_count": 1223,
+      "projection_parameter_count": 0,
+      "projection_specific_macs": 0,
+      "recurrent_controller_projection_macs": 846
+    },
+    "AF1D_deshared_candidate_input_factorization": {
+      "active_parameter_count": 1643,
+      "families_passing": 4,
+      "parameter_count": 1643,
+      "projection_parameter_count": 420,
+      "projection_specific_macs": 360,
+      "recurrent_controller_projection_macs": 1206
+    },
+    "AF1F_folded_candidate_input_control": {
+      "active_parameter_count": 1223,
+      "families_passing": 3,
+      "parameter_count": 1223,
+      "projection_parameter_count": 0,
+      "projection_specific_macs": 0,
+      "recurrent_controller_projection_macs": 846
+    },
+    "AF1_shared_candidate_input_factorization": {
+      "active_parameter_count": 1265,
+      "families_passing": 3,
+      "parameter_count": 1265,
+      "projection_parameter_count": 42,
+      "projection_specific_macs": 36,
+      "recurrent_controller_projection_macs": 882
+    }
+  },
+  "resources": {
+    "backward_calls": 19200,
+    "cpu_seconds_worker_sum": 6820.5,
+    "environment_interactions": 444900,
+    "forward_calls": 20800,
+    "fresh_audit_consumed": false,
+    "gpu_seconds": 0.0,
+    "model_fits": 100,
+    "optimizer_steps": 19200,
+    "processed_training_examples": 9830400,
+    "unique_seed_defined_episodes": 3200,
+    "version": "V837af",
+    "wall_seconds_worker_sum": 8689.619448099285
+  }
+}

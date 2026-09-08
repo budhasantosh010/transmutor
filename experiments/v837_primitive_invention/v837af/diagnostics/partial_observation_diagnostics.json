@@ -1,0 +1,22 @@
+{
+  "AF0_y3_parent": {
+    "candidate_input_temporal_variance_median": 0.0848615050315857,
+    "candidate_input_term_norm_median": 0.5150985807180405,
+    "candidate_visible_input_jacobian_frobenius_median": 0.8192717909812928
+  },
+  "AF1D_deshared_candidate_input_factorization": {
+    "candidate_input_temporal_variance_median": 0.051327564474195245,
+    "candidate_input_term_norm_median": 0.4672776281833649,
+    "candidate_visible_input_jacobian_frobenius_median": 0.6202579528093338
+  },
+  "AF1F_folded_candidate_input_control": {
+    "candidate_input_temporal_variance_median": 0.03750156033784151,
+    "candidate_input_term_norm_median": 0.3568335220217705,
+    "candidate_visible_input_jacobian_frobenius_median": 0.6115112066268921
+  },
+  "AF1_shared_candidate_input_factorization": {
+    "candidate_input_temporal_variance_median": 0.042230417393147944,
+    "candidate_input_term_norm_median": 0.4606867253780365,
+    "candidate_visible_input_jacobian_frobenius_median": 0.5426767349243165
+  }
+}

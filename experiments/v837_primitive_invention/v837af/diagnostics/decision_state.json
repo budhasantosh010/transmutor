@@ -1,0 +1,25 @@
+{
+  "best_passing_condition": "AF1D_deshared_candidate_input_factorization",
+  "diagnosis": "DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT",
+  "diagnosis_qualifiers": [
+    "SHARED_INPUT_BASIS_HARMFUL"
+  ],
+  "families_passing": {
+    "AF0_y3_parent": 3,
+    "AF1D_deshared_candidate_input_factorization": 4,
+    "AF1F_folded_candidate_input_control": 3,
+    "AF1_shared_candidate_input_factorization": 3
+  },
+  "fresh_audit_consumed": false,
+  "large_persistent_storage_tested": false,
+  "parent_reproduced": true,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "representation_adequacy_pass": true,
+  "sample_efficiency_retest_allowed": true,
+  "structural_search_allowed": false,
+  "v837ae_created": false,
+  "v837af_complete": true,
+  "v837ag_allowed": false,
+  "v838_started": false
+}
