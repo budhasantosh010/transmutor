@@ -1,0 +1,23 @@
+{
+  "architecture_frozen": true,
+  "diagnosis": "AF1D_REQUIRES_4X_UNIQUE_DATA",
+  "families_passing": {
+    "1x": 2,
+    "2x": 2,
+    "4x": 4
+  },
+  "fresh_audit_episodes_consumed": 0,
+  "large_persistent_storage_tested": false,
+  "minimum_tested_sufficient_multiplier": 4,
+  "next_program": "V837aj_STRUCTURAL_SEARCH_RECOVERY",
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "recommended_structural_search_multiplier": 4,
+  "representation_adequacy": "PASS",
+  "sample_efficiency_claim_allowed": true,
+  "structural_search_recovery_allowed": true,
+  "v837ag_run": false,
+  "v837ah_run": false,
+  "v837ai_complete": true,
+  "v838_started": false
+}

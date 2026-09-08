@@ -1,0 +1,357 @@
+{
+  "1x": {
+    "checkpoint_note": "V837ai checkpoints 0,32,64,96,128,160,192.",
+    "timeline": {
+      "0": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.0,
+        "pairwise_cosine_median": 1.0,
+        "pairwise_frobenius_distance_median": 0.0,
+        "projection_bias_drift_median": 0.0,
+        "projection_condition_number_median": 17.778775326991564,
+        "projection_frobenius_norm_median": 1.3827890157699585,
+        "singular_values_median": [
+          0.9306859970092773,
+          0.7502077221870422,
+          0.5448259115219116,
+          0.3824690878391266,
+          0.22752925753593445,
+          0.05587492883205414
+        ]
+      },
+      "128": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.7315335512161255,
+        "pairwise_cosine_median": 0.8128986358642578,
+        "pairwise_frobenius_distance_median": 1.0128103494644165,
+        "projection_bias_drift_median": 0.100826196372509,
+        "projection_condition_number_median": 17.957478785122884,
+        "projection_frobenius_norm_median": 1.6076058387756347,
+        "singular_values_median": [
+          1.0730271339416504,
+          0.8237334489822388,
+          0.6234879791736603,
+          0.43816499412059784,
+          0.2566947788000107,
+          0.06639055907726288
+        ]
+      },
+      "160": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.7578437745571136,
+        "pairwise_cosine_median": 0.8091431856155396,
+        "pairwise_frobenius_distance_median": 1.082512617111206,
+        "projection_bias_drift_median": 0.10236882790923119,
+        "projection_condition_number_median": 17.579349407994773,
+        "projection_frobenius_norm_median": 1.6415578603744507,
+        "singular_values_median": [
+          1.0819119811058044,
+          0.8284492492675781,
+          0.6310586631298065,
+          0.43929627537727356,
+          0.255764901638031,
+          0.06871508806943893
+        ]
+      },
+      "192": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.8030704021453857,
+        "pairwise_cosine_median": 0.7863737344741821,
+        "pairwise_frobenius_distance_median": 1.1053298711776733,
+        "projection_bias_drift_median": 0.10554366558790207,
+        "projection_condition_number_median": 17.032890225640404,
+        "projection_frobenius_norm_median": 1.6787597775459289,
+        "singular_values_median": [
+          1.0908464789390564,
+          0.8367908000946045,
+          0.6346911191940308,
+          0.44115883111953735,
+          0.25594082474708557,
+          0.0707019791007042
+        ]
+      },
+      "32": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.4392119973897934,
+        "pairwise_cosine_median": 0.9220576286315918,
+        "pairwise_frobenius_distance_median": 0.601203441619873,
+        "projection_bias_drift_median": 0.06114614196121693,
+        "projection_condition_number_median": 15.307734051593805,
+        "projection_frobenius_norm_median": 1.452389907836914,
+        "singular_values_median": [
+          0.9869459271430969,
+          0.7671366631984711,
+          0.5834518671035767,
+          0.4115592688322067,
+          0.23779327422380447,
+          0.059368766844272614
+        ]
+      },
+      "64": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.5793386906385422,
+        "pairwise_cosine_median": 0.8743100166320801,
+        "pairwise_frobenius_distance_median": 0.7897888422012329,
+        "projection_bias_drift_median": 0.08646607771515846,
+        "projection_condition_number_median": 15.988277952920237,
+        "projection_frobenius_norm_median": 1.5171894669532775,
+        "singular_values_median": [
+          1.0216169953346252,
+          0.7933183312416077,
+          0.6012720763683319,
+          0.41659943759441376,
+          0.2444261983036995,
+          0.06121928244829178
+        ]
+      },
+      "96": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.6569884777069092,
+        "pairwise_cosine_median": 0.8378452062606812,
+        "pairwise_frobenius_distance_median": 0.8670899868011475,
+        "projection_bias_drift_median": 0.09794305637478828,
+        "projection_condition_number_median": 17.853626451748216,
+        "projection_frobenius_norm_median": 1.5460530281066895,
+        "singular_values_median": [
+          1.0408852696418762,
+          0.8149852454662323,
+          0.615633636713028,
+          0.4269806742668152,
+          0.25321418046951294,
+          0.0646984875202179
+        ]
+      }
+    }
+  },
+  "2x": {
+    "checkpoint_note": "V837ai checkpoints 0,32,64,96,128,160,192.",
+    "timeline": {
+      "0": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.0,
+        "pairwise_cosine_median": 1.0,
+        "pairwise_frobenius_distance_median": 0.0,
+        "projection_bias_drift_median": 0.0,
+        "projection_condition_number_median": 17.778775326991564,
+        "projection_frobenius_norm_median": 1.3827890157699585,
+        "singular_values_median": [
+          0.9306859970092773,
+          0.7502077221870422,
+          0.5448259115219116,
+          0.3824690878391266,
+          0.22752925753593445,
+          0.05587492883205414
+        ]
+      },
+      "128": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.7018092215061188,
+        "pairwise_cosine_median": 0.8190620541572571,
+        "pairwise_frobenius_distance_median": 0.923717200756073,
+        "projection_bias_drift_median": 0.10658565536141396,
+        "projection_condition_number_median": 18.37215830338199,
+        "projection_frobenius_norm_median": 1.5628207087516786,
+        "singular_values_median": [
+          1.0530640482902527,
+          0.817449152469635,
+          0.6098405718803406,
+          0.4247901886701584,
+          0.23529616743326187,
+          0.0639134980738163
+        ]
+      },
+      "160": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.7757558226585388,
+        "pairwise_cosine_median": 0.7928831577301025,
+        "pairwise_frobenius_distance_median": 1.0313763618469238,
+        "projection_bias_drift_median": 0.115967508405447,
+        "projection_condition_number_median": 18.837288053611555,
+        "projection_frobenius_norm_median": 1.642037582397461,
+        "singular_values_median": [
+          1.0714256763458252,
+          0.828134298324585,
+          0.622669130563736,
+          0.4303301274776459,
+          0.23343940824270248,
+          0.06148195639252663
+        ]
+      },
+      "192": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.8343416392803192,
+        "pairwise_cosine_median": 0.7627902626991272,
+        "pairwise_frobenius_distance_median": 1.1749318838119507,
+        "projection_bias_drift_median": 0.11594082042574883,
+        "projection_condition_number_median": 18.83993072532337,
+        "projection_frobenius_norm_median": 1.6562166929244995,
+        "singular_values_median": [
+          1.0933204293251038,
+          0.8407117128372192,
+          0.631572812795639,
+          0.4342459887266159,
+          0.23455148935317993,
+          0.06186666525900364
+        ]
+      },
+      "32": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.4343632698059082,
+        "pairwise_cosine_median": 0.9167814254760742,
+        "pairwise_frobenius_distance_median": 0.5965640544891357,
+        "projection_bias_drift_median": 0.052972907200455666,
+        "projection_condition_number_median": 14.261972694157324,
+        "projection_frobenius_norm_median": 1.4415216445922852,
+        "singular_values_median": [
+          0.9685935080051422,
+          0.7706510424613953,
+          0.5795229971408844,
+          0.4155815690755844,
+          0.23526839166879654,
+          0.06136244907975197
+        ]
+      },
+      "64": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.5846968233585358,
+        "pairwise_cosine_median": 0.8726954460144043,
+        "pairwise_frobenius_distance_median": 0.7542808651924133,
+        "projection_bias_drift_median": 0.07424267008900642,
+        "projection_condition_number_median": 14.210872612391041,
+        "projection_frobenius_norm_median": 1.4943580031394958,
+        "singular_values_median": [
+          1.0050665140151978,
+          0.7962252199649811,
+          0.5986958742141724,
+          0.42518775165081024,
+          0.23276668041944504,
+          0.0653197206556797
+        ]
+      },
+      "96": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.6363888442516327,
+        "pairwise_cosine_median": 0.8493619561195374,
+        "pairwise_frobenius_distance_median": 0.9031803011894226,
+        "projection_bias_drift_median": 0.09657840058207512,
+        "projection_condition_number_median": 16.05920804322587,
+        "projection_frobenius_norm_median": 1.5207050442695618,
+        "singular_values_median": [
+          1.0308971405029297,
+          0.8069280982017517,
+          0.6002015173435211,
+          0.4254557490348816,
+          0.2373015508055687,
+          0.06503873690962791
+        ]
+      }
+    }
+  },
+  "4x": {
+    "checkpoint_note": "AI4 uses the historical V837af checkpoints actually stored in its accepted rows; no 4x rerun was performed.",
+    "timeline": {
+      "0": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.0,
+        "pairwise_cosine_median": 1.0,
+        "pairwise_frobenius_distance_median": 0.0,
+        "projection_bias_drift_median": 0.0,
+        "projection_condition_number_median": 17.778775326991564,
+        "projection_frobenius_norm_median": 1.3827890157699585,
+        "singular_values_median": [
+          0.9306859970092773,
+          0.7502077221870422,
+          0.5448259115219116,
+          0.3824690878391266,
+          0.22752925753593445,
+          0.05587492883205414
+        ]
+      },
+      "144": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.764658784866333,
+        "pairwise_cosine_median": 0.8000393509864807,
+        "pairwise_frobenius_distance_median": 1.024528980255127,
+        "projection_bias_drift_median": 0.14513817429542542,
+        "projection_condition_number_median": 16.385011210128262,
+        "projection_frobenius_norm_median": 1.5773335337638854,
+        "singular_values_median": [
+          1.0431441068649292,
+          0.8005369901657104,
+          0.605961948633194,
+          0.42706774175167084,
+          0.24032729119062424,
+          0.061899350956082344
+        ]
+      },
+      "192": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.860247278213501,
+        "pairwise_cosine_median": 0.7738974690437317,
+        "pairwise_frobenius_distance_median": 1.1804355382919312,
+        "projection_bias_drift_median": 0.14769408851861954,
+        "projection_condition_number_median": 18.19790977143994,
+        "projection_frobenius_norm_median": 1.64255690574646,
+        "singular_values_median": [
+          1.0689675211906433,
+          0.8231451511383057,
+          0.6229754984378815,
+          0.43523095548152924,
+          0.23975762724876404,
+          0.06328197941184044
+        ]
+      },
+      "24": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.3775051712989807,
+        "pairwise_cosine_median": 0.9389273524284363,
+        "pairwise_frobenius_distance_median": 0.5124191045761108,
+        "projection_bias_drift_median": 0.050570255145430565,
+        "projection_condition_number_median": 19.399586375590616,
+        "projection_frobenius_norm_median": 1.4044370889663695,
+        "singular_values_median": [
+          0.9680598974227905,
+          0.7640184164047241,
+          0.5718900561332703,
+          0.40831851959228516,
+          0.23630782961845398,
+          0.05994774401187897
+        ]
+      },
+      "48": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.5217387676239014,
+        "pairwise_cosine_median": 0.8857378363609314,
+        "pairwise_frobenius_distance_median": 0.6733417510986328,
+        "projection_bias_drift_median": 0.07501811906695366,
+        "projection_condition_number_median": 15.172574395973697,
+        "projection_frobenius_norm_median": 1.4702182173728944,
+        "singular_values_median": [
+          0.9928880631923676,
+          0.7784567773342133,
+          0.5823681056499481,
+          0.4199983775615692,
+          0.23778021335601807,
+          0.06544362008571625
+        ]
+      },
+      "96": {
+        "fits": 25,
+        "mean_drift_from_shared_initialization_median": 0.6505359172821045,
+        "pairwise_cosine_median": 0.8412790894508362,
+        "pairwise_frobenius_distance_median": 0.8290359377861023,
+        "projection_bias_drift_median": 0.13272370398044586,
+        "projection_condition_number_median": 17.52507073242682,
+        "projection_frobenius_norm_median": 1.519964611530304,
+        "singular_values_median": [
+          1.019008457660675,
+          0.7951625883579254,
+          0.58953657746315,
+          0.4225744158029556,
+          0.23406459391117096,
+          0.058996934443712234
+        ]
+      }
+    }
+  }
+}

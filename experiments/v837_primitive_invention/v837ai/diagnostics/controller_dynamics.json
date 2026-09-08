@@ -1,0 +1,24 @@
+{
+  "1x": {
+    "carry_fraction": 0.4039540762650007,
+    "gate_mean": 0.4039540762650007,
+    "gate_median": 0.3930019289255142,
+    "p10": 0.18692665547132492,
+    "p90": 0.5351336240768433,
+    "rewrite_fraction": 0.5960459237349993,
+    "temporal_variance": 0.023338148346094927
+  },
+  "2x": {
+    "carry_fraction": 0.40309016624370875,
+    "gate_mean": 0.40309016624370875,
+    "gate_median": 0.36411480605602264,
+    "p10": 0.182997465133667,
+    "p90": 0.5344707846641541,
+    "rewrite_fraction": 0.5969098337562913,
+    "temporal_variance": 0.020270030808735125
+  },
+  "4x": {
+    "available": false,
+    "reason": "Accepted V837af AF1D raw rows do not contain global-gate summary statistics. V837ai does not rerun the 4x anchor merely to add this descriptive diagnostic."
+  }
+}

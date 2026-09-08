@@ -1,0 +1,20 @@
+{
+  "families_passing": {
+    "1x": 2,
+    "2x": 2,
+    "4x": 4
+  },
+  "historical_gru": {
+    "1x": 2,
+    "2x": 3,
+    "4x": 5
+  },
+  "historical_neutral": {
+    "1x": 1,
+    "2x": 1,
+    "4x": 2
+  },
+  "minimum_tested_sufficient_multiplier": 4,
+  "pass_count_monotonic": true,
+  "unique_development_reduction_vs_gru": 1.0
+}

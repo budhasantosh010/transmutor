@@ -1,0 +1,32 @@
+{
+  "ai4_anchor_reused": true,
+  "architecture": "AF1D_deshared_candidate_input_factorization",
+  "architecture_frozen": true,
+  "diagnosis": "AF1D_REQUIRES_4X_UNIQUE_DATA",
+  "diagnosis_qualifiers": [
+    "SAMPLE_EFFICIENCY_THRESHOLD_NOT_IMPROVED_VS_HISTORICAL_GRU"
+  ],
+  "families_passing": {
+    "1x": 2,
+    "2x": 2,
+    "4x": 4
+  },
+  "fresh_audit_consumed": false,
+  "historical_gru_minimum_tested_multiplier": 4,
+  "large_persistent_storage_tested": false,
+  "minimum_tested_sufficient_multiplier": 4,
+  "next_program": "V837aj_STRUCTURAL_SEARCH_RECOVERY",
+  "pass_count_monotonic": true,
+  "primitive_mining_allowed": false,
+  "primitives_promoted": 0,
+  "recommended_structural_search_multiplier": 4,
+  "representation_adequacy_confirmed": true,
+  "sample_efficiency_claim_allowed": true,
+  "structural_search_recovery_allowed": true,
+  "total_unique_episode_reduction_vs_gru_4x_threshold": 1.0,
+  "unique_development_reduction_vs_gru": 1.0,
+  "v837ag_run": false,
+  "v837ah_run": false,
+  "v838_started": false,
+  "version": "V837ai"
+}

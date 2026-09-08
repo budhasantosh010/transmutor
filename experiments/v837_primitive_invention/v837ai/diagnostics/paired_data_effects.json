@@ -1,0 +1,503 @@
+{
+  "AI2_minus_AI1": {
+    "overall": {
+      "mean": 0.0828125,
+      "median": 0.078125,
+      "p10": 0.0031250000000000028,
+      "p90": 0.20156250000000003
+    },
+    "pairs": [
+      {
+        "delta": 0.0859375,
+        "family": "delayed_recall",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.03125,
+        "family": "delayed_recall",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.0,
+        "family": "delayed_recall",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.09375,
+        "family": "delayed_recall",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.03125,
+        "family": "delayed_recall",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.046875,
+        "family": "conditional_routing",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.1015625,
+        "family": "conditional_routing",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.2265625,
+        "family": "conditional_routing",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.3125,
+        "family": "conditional_routing",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.2109375,
+        "family": "conditional_routing",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.0,
+        "family": "iterative_state",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.0078125,
+        "family": "iterative_state",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.0078125,
+        "family": "iterative_state",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.0234375,
+        "family": "iterative_state",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.015625,
+        "family": "iterative_state",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.078125,
+        "family": "variable_composition",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.0703125,
+        "family": "variable_composition",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.0859375,
+        "family": "variable_composition",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.1875,
+        "family": "variable_composition",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.0859375,
+        "family": "variable_composition",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.109375,
+        "family": "partial_observation",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.109375,
+        "family": "partial_observation",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.1015625,
+        "family": "partial_observation",
+        "replicate_id": 2
+      },
+      {
+        "delta": -0.0078125,
+        "family": "partial_observation",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.0546875,
+        "family": "partial_observation",
+        "replicate_id": 4
+      }
+    ],
+    "per_family": {
+      "conditional_routing": {
+        "mean": 0.1796875,
+        "median": 0.2109375,
+        "p10": 0.06875,
+        "p90": 0.278125
+      },
+      "delayed_recall": {
+        "mean": 0.0484375,
+        "median": 0.03125,
+        "p10": 0.0125,
+        "p90": 0.090625
+      },
+      "iterative_state": {
+        "mean": 0.0109375,
+        "median": 0.0078125,
+        "p10": 0.003125,
+        "p90": 0.0203125
+      },
+      "partial_observation": {
+        "mean": 0.0734375,
+        "median": 0.1015625,
+        "p10": 0.0171875,
+        "p90": 0.109375
+      },
+      "variable_composition": {
+        "mean": 0.1015625,
+        "median": 0.0859375,
+        "p10": 0.0734375,
+        "p90": 0.146875
+      }
+    }
+  },
+  "AI4_minus_AI1": {
+    "overall": {
+      "mean": 0.18875,
+      "median": 0.125,
+      "p10": 0.014062500000000006,
+      "p90": 0.5375000000000001
+    },
+    "pairs": [
+      {
+        "delta": 0.125,
+        "family": "delayed_recall",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.1015625,
+        "family": "delayed_recall",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.046875,
+        "family": "delayed_recall",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.1328125,
+        "family": "delayed_recall",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.109375,
+        "family": "delayed_recall",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.4453125,
+        "family": "conditional_routing",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.5625,
+        "family": "conditional_routing",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.5859375,
+        "family": "conditional_routing",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.5,
+        "family": "conditional_routing",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.609375,
+        "family": "conditional_routing",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.0,
+        "family": "iterative_state",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.0078125,
+        "family": "iterative_state",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.0078125,
+        "family": "iterative_state",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.0234375,
+        "family": "iterative_state",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.0234375,
+        "family": "iterative_state",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.140625,
+        "family": "variable_composition",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.15625,
+        "family": "variable_composition",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.1796875,
+        "family": "variable_composition",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.296875,
+        "family": "variable_composition",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.2109375,
+        "family": "variable_composition",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.171875,
+        "family": "partial_observation",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.125,
+        "family": "partial_observation",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.0546875,
+        "family": "partial_observation",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.0703125,
+        "family": "partial_observation",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.03125,
+        "family": "partial_observation",
+        "replicate_id": 4
+      }
+    ],
+    "per_family": {
+      "conditional_routing": {
+        "mean": 0.540625,
+        "median": 0.5625,
+        "p10": 0.4671875,
+        "p90": 0.6
+      },
+      "delayed_recall": {
+        "mean": 0.103125,
+        "median": 0.109375,
+        "p10": 0.06875,
+        "p90": 0.1296875
+      },
+      "iterative_state": {
+        "mean": 0.0125,
+        "median": 0.0078125,
+        "p10": 0.003125,
+        "p90": 0.0234375
+      },
+      "partial_observation": {
+        "mean": 0.090625,
+        "median": 0.0703125,
+        "p10": 0.040625,
+        "p90": 0.153125
+      },
+      "variable_composition": {
+        "mean": 0.196875,
+        "median": 0.1796875,
+        "p10": 0.146875,
+        "p90": 0.2625
+      }
+    }
+  },
+  "AI4_minus_AI2": {
+    "overall": {
+      "mean": 0.1059375,
+      "median": 0.0625,
+      "p10": 0.0,
+      "p90": 0.38281250000000006
+    },
+    "pairs": [
+      {
+        "delta": 0.0390625,
+        "family": "delayed_recall",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.0703125,
+        "family": "delayed_recall",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.046875,
+        "family": "delayed_recall",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.0390625,
+        "family": "delayed_recall",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.078125,
+        "family": "delayed_recall",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.3984375,
+        "family": "conditional_routing",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.4609375,
+        "family": "conditional_routing",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.359375,
+        "family": "conditional_routing",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.1875,
+        "family": "conditional_routing",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.3984375,
+        "family": "conditional_routing",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.0,
+        "family": "iterative_state",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.0,
+        "family": "iterative_state",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.0,
+        "family": "iterative_state",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.0,
+        "family": "iterative_state",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.0078125,
+        "family": "iterative_state",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.0625,
+        "family": "variable_composition",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.0859375,
+        "family": "variable_composition",
+        "replicate_id": 1
+      },
+      {
+        "delta": 0.09375,
+        "family": "variable_composition",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.109375,
+        "family": "variable_composition",
+        "replicate_id": 3
+      },
+      {
+        "delta": 0.125,
+        "family": "variable_composition",
+        "replicate_id": 4
+      },
+      {
+        "delta": 0.0625,
+        "family": "partial_observation",
+        "replicate_id": 0
+      },
+      {
+        "delta": 0.015625,
+        "family": "partial_observation",
+        "replicate_id": 1
+      },
+      {
+        "delta": -0.046875,
+        "family": "partial_observation",
+        "replicate_id": 2
+      },
+      {
+        "delta": 0.078125,
+        "family": "partial_observation",
+        "replicate_id": 3
+      },
+      {
+        "delta": -0.0234375,
+        "family": "partial_observation",
+        "replicate_id": 4
+      }
+    ],
+    "per_family": {
+      "conditional_routing": {
+        "mean": 0.3609375,
+        "median": 0.3984375,
+        "p10": 0.25625,
+        "p90": 0.4359375
+      },
+      "delayed_recall": {
+        "mean": 0.0546875,
+        "median": 0.046875,
+        "p10": 0.0390625,
+        "p90": 0.075
+      },
+      "iterative_state": {
+        "mean": 0.0015625,
+        "median": 0.0,
+        "p10": 0.0,
+        "p90": 0.004687500000000001
+      },
+      "partial_observation": {
+        "mean": 0.0171875,
+        "median": 0.015625,
+        "p10": -0.0375,
+        "p90": 0.071875
+      },
+      "variable_composition": {
+        "mean": 0.0953125,
+        "median": 0.09375,
+        "p10": 0.071875,
+        "p90": 0.11875
+      }
+    }
+  }
+}

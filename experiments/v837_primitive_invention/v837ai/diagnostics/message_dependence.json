@@ -1,0 +1,14 @@
+{
+  "1x": {
+    "mean_abs_prediction_delta_median": 0.2116757333278656,
+    "success_drop_median": 0.1171875
+  },
+  "2x": {
+    "mean_abs_prediction_delta_median": 0.17277050018310547,
+    "success_drop_median": 0.1953125
+  },
+  "4x": {
+    "mean_abs_prediction_delta_median": 0.23562179505825043,
+    "success_drop_median": 0.453125
+  }
+}

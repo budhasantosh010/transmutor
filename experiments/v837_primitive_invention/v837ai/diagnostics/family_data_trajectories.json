@@ -1,0 +1,87 @@
+{
+  "conditional_routing": {
+    "1x": {
+      "development_median": 1.0,
+      "pass": false,
+      "validation_median": 0.40625
+    },
+    "2x": {
+      "development_median": 1.0,
+      "pass": false,
+      "validation_median": 0.5546875
+    },
+    "4x": {
+      "development_median": 1.0,
+      "pass": true,
+      "validation_median": 0.9375
+    }
+  },
+  "delayed_recall": {
+    "1x": {
+      "development_median": 1.0,
+      "pass": true,
+      "validation_median": 0.8671875
+    },
+    "2x": {
+      "development_median": 0.98828125,
+      "pass": true,
+      "validation_median": 0.9296875
+    },
+    "4x": {
+      "development_median": 1.0,
+      "pass": true,
+      "validation_median": 0.984375
+    }
+  },
+  "iterative_state": {
+    "1x": {
+      "development_median": 1.0,
+      "pass": true,
+      "validation_median": 0.984375
+    },
+    "2x": {
+      "development_median": 0.99609375,
+      "pass": true,
+      "validation_median": 0.9921875
+    },
+    "4x": {
+      "development_median": 0.99609375,
+      "pass": true,
+      "validation_median": 1.0
+    }
+  },
+  "partial_observation": {
+    "1x": {
+      "development_median": 1.0,
+      "pass": false,
+      "validation_median": 0.734375
+    },
+    "2x": {
+      "development_median": 1.0,
+      "pass": false,
+      "validation_median": 0.7890625
+    },
+    "4x": {
+      "development_median": 0.974609375,
+      "pass": false,
+      "validation_median": 0.8125
+    }
+  },
+  "variable_composition": {
+    "1x": {
+      "development_median": 1.0,
+      "pass": false,
+      "validation_median": 0.703125
+    },
+    "2x": {
+      "development_median": 1.0,
+      "pass": false,
+      "validation_median": 0.7890625
+    },
+    "4x": {
+      "development_median": 0.984375,
+      "pass": true,
+      "validation_median": 0.875
+    }
+  }
+}

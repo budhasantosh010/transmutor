@@ -1,0 +1,23 @@
+{
+  "1x": {
+    "candidate_input_temporal_variance_median": 0.05106500154361129,
+    "candidate_input_term_norm_median": 0.4743392437696457,
+    "candidate_visible_input_jacobian_frobenius_median": 0.6022959232330323,
+    "pairwise_cosine_median": 0.030258262529969215,
+    "pairwise_distance_median": 1.1314719915390015
+  },
+  "2x": {
+    "candidate_input_temporal_variance_median": 0.04803677024319768,
+    "candidate_input_term_norm_median": 0.4460671365261078,
+    "candidate_visible_input_jacobian_frobenius_median": 0.6265289604663848,
+    "pairwise_cosine_median": -0.009117430076003075,
+    "pairwise_distance_median": 1.1224112510681152
+  },
+  "4x": {
+    "candidate_input_temporal_variance_median": 0.051327564474195245,
+    "candidate_input_term_norm_median": 0.4672776281833649,
+    "candidate_visible_input_jacobian_frobenius_median": 0.6202579528093338,
+    "pairwise_cosine_median": -0.0008438155637122691,
+    "pairwise_distance_median": 1.1139987707138062
+  }
+}

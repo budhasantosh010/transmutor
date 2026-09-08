@@ -1,0 +1,67 @@
+{
+  "active_parameters": 1643,
+  "af1d_macs_per_timestep": 1206,
+  "af1d_to_gru_parameter_ratio": 1.8777142857142857,
+  "historical_gru_parameters": 875,
+  "historical_referenced_optimizer_steps": 4800,
+  "historical_referenced_processed_examples": 2457600,
+  "historical_reused_ai4_resources": {
+    "backward_calls": 4800,
+    "cpu_seconds_worker_sum": 1806.640625,
+    "environment_interactions": 111225,
+    "forward_calls": 5200,
+    "gpu_seconds": 0.0,
+    "model_fits": 25,
+    "note": "historical evidence only; not newly consumed by V837ai",
+    "optimizer_steps": 4800,
+    "processed_training_examples": 2457600,
+    "wall_seconds_worker_sum": 2106.3011456000386
+  },
+  "modeled_mac_semantics": "matrix MAC volume derived from actual active training sequence timesteps; not measured energy",
+  "modeled_recurrent_mac_volume": {
+    "1x": {
+      "af1d_active_training_timesteps": 4174080,
+      "af1d_macs_per_timestep": 1206,
+      "af1d_modeled_recurrent_mac_volume": 5033940480,
+      "families_passing_af1d": 2,
+      "historical_gru_macs_per_timestep": 777,
+      "historical_gru_modeled_recurrent_mac_volume_same_episode_protocol": 3243260160
+    },
+    "2x": {
+      "af1d_active_training_timesteps": 8444160,
+      "af1d_macs_per_timestep": 1206,
+      "af1d_modeled_recurrent_mac_volume": 10183656960,
+      "families_passing_af1d": 2,
+      "historical_gru_macs_per_timestep": 777,
+      "historical_gru_modeled_recurrent_mac_volume_same_episode_protocol": 6561112320
+    },
+    "4x": {
+      "af1d_active_training_timesteps": 17088000,
+      "af1d_macs_per_timestep": 1206,
+      "af1d_modeled_recurrent_mac_volume": 20608128000,
+      "families_passing_af1d": 4,
+      "historical_gru_macs_per_timestep": 777,
+      "historical_gru_modeled_recurrent_mac_volume_same_episode_protocol": 13277376000
+    }
+  },
+  "new_execution_resources": {
+    "backward_calls": 9600,
+    "cpu_seconds_worker_sum": 2891.3125,
+    "environment_interactions": 110170,
+    "forward_calls": 10500,
+    "gpu_seconds": 0.0,
+    "model_fits": 50,
+    "modeled_active_training_timesteps": 12618240,
+    "modeled_training_recurrent_mac_volume": 15217597440,
+    "optimizer_steps": 9600,
+    "processed_training_examples": 1843200,
+    "wall_seconds_worker_sum": 3586.5145802007755
+  },
+  "new_model_fits": 50,
+  "new_optimizer_steps_expected": 9600,
+  "new_processed_examples_expected": 1843200,
+  "projection_parameters": 420,
+  "reused_accepted_4x_fits": 25,
+  "total_evidence_rows": 75,
+  "union_unique_task_episodes": 3200
+}
