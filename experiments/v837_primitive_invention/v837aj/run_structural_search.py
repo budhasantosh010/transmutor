@@ -90,7 +90,7 @@ def run_directed(extension: bool) -> int:
             if _load_complete("search", family, run_index) is None:
                 jobs.append((family, run_index, fidelity))
     if jobs:
-        with ProcessPoolExecutor(max_workers=25) as pool:
+        with ProcessPoolExecutor(max_workers=min(25, max(1, int(os.environ.get("V837AJ_MAX_WORKERS", os.cpu_count() or 1))))) as pool:
             futures = {pool.submit(_directed_worker, *job): job for job in jobs}
             for future in as_completed(futures):
                 run = future.result(); path = _cache_path("search", run["family"], run["run_index"]); write_json(path, run)
@@ -113,7 +113,7 @@ def run_random(extension: bool) -> int:
             if _load_complete("random", family, run_index) is None:
                 jobs.append((directed, fidelity))
     if jobs:
-        with ProcessPoolExecutor(max_workers=25) as pool:
+        with ProcessPoolExecutor(max_workers=min(25, max(1, int(os.environ.get("V837AJ_MAX_WORKERS", os.cpu_count() or 1))))) as pool:
             futures = {pool.submit(_random_worker, *job): job[0] for job in jobs}
             for future in as_completed(futures):
                 run = future.result(); path = _cache_path("random", run["family"], run["run_index"]); write_json(path, run)
@@ -133,7 +133,7 @@ def run_paired(extension: bool) -> int:
             if _load_complete("random", family, run_index) is None:
                 jobs.append((family, run_index, fidelity))
     if jobs:
-        with ProcessPoolExecutor(max_workers=25) as pool:
+        with ProcessPoolExecutor(max_workers=min(25, max(1, int(os.environ.get("V837AJ_MAX_WORKERS", os.cpu_count() or 1))))) as pool:
             futures = {pool.submit(_paired_worker, *job): job for job in jobs}
             for future in as_completed(futures):
                 directed, random = future.result()
