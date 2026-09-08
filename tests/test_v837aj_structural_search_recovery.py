@@ -10,6 +10,7 @@ from unittest.mock import patch
 import torch
 
 from experiments.v837_primitive_invention.v837af.candidate_input_factorization import CandidateInputFactorizationY3
+from experiments.v837_primitive_invention.v837aj import analyze_results as analyze_mod
 from experiments.v837_primitive_invention.v837aj import random_structural_sampler as random_mod
 from experiments.v837_primitive_invention.v837aj import structural_search as search_mod
 from experiments.v837_primitive_invention.v837aj.af1d_structural_model import (
@@ -302,6 +303,19 @@ class TestV837ajChampionProtocol(unittest.TestCase):
     def test_full_192_steps(self): self.assertEqual(finalization_protocol()["optimizer_steps"],192)
     def test_final_validation_evaluated_once(self): self.assertEqual(finalization_protocol()["final_validation_data_accesses"],1)
     def test_search_random_finalization_seed_paired(self): self.assertEqual(finalization_common_seed("variable_composition",4),finalization_common_seed("variable_composition",4))
+
+
+class TestV837ajAnalysisContract(unittest.TestCase):
+    def test_fixed_af1d_scoreboard_compute_contract(self):
+        board=analyze_mod._structural_efficiency_scoreboard([],[])["fixed_af1d_anchor"]
+        self.assertEqual(board["edge_count"],55)
+        self.assertEqual(board["active_parameters"],1643)
+        self.assertEqual(board["modeled_macs_per_timestep"],1426)
+        self.assertIsNone(board["search_evaluations_required"])
+    def test_resource_accounting_exposes_primary_and_robustness_breakdown(self):
+        resources=analyze_mod._resource_totals()
+        for key in ("primary_proxy_directed","primary_proxy_random","primary_final_directed","primary_final_random","primary_stage_b","robustness_proxy_directed","robustness_proxy_random","robustness_final_directed","robustness_final_random","robustness_extension"):
+            self.assertIn(key,resources)
 
 
 class TestV837ajScienceLocks(unittest.TestCase):

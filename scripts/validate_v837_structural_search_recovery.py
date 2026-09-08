@@ -88,6 +88,21 @@ def validate(preflight: bool = False) -> None:
                 raise RuntimeError("V837aj final validation access count changed")
             if int(row.get("optimizer_steps", -1)) != 192 or int(row.get("processed_examples", -1)) != 98304:
                 raise RuntimeError("V837aj full finalization protocol changed")
+        scoreboard = load(HERE / "diagnostics/structural_efficiency_scoreboard.json")
+        anchor_board = scoreboard.get("fixed_af1d_anchor", {})
+        if scoreboard.get("run") is not True or int(anchor_board.get("edge_count", -1)) != 55 or int(anchor_board.get("active_parameters", -1)) != 1643 or int(anchor_board.get("modeled_macs_per_timestep", -1)) != 1426:
+            raise RuntimeError("V837aj capability/structure/compute scoreboard is missing or inconsistent")
+        resource = results.get("resource_accounting", {})
+        if int(resource.get("primary_stage_b", {}).get("fits", -1)) != 3250:
+            raise RuntimeError("V837aj primary Stage-B resource accounting is not exactly 3,250 fits")
+        expected_robustness_fits = 3250 if len(sruns) == 50 else 0
+        if int(resource.get("robustness_extension", {}).get("fits", -1)) != expected_robustness_fits:
+            raise RuntimeError("V837aj robustness-extension resource accounting changed")
+        for plot_name in (
+            "calibration_order_stability.png","calibration_topology_ranking.png","fidelity_spearman_vs_cost.png","fidelity_kendall_vs_cost.png","fidelity_top4_recall_vs_cost.png","proxy_vs_target_scatter.png","legacy_proxy_vs_target.png","best_so_far_search_vs_random.png","final_validation_search_vs_random.png","competent_hit_rate_by_family.png","search_random_paired_deltas.png","champion_edge_counts.png","champion_recurrent_fraction.png","champion_topology_similarity.png","message_dependence_champions.png","candidate_evaluations_to_threshold.png","capability_vs_search_compute.png",
+        ):
+            if not (HERE / "plots" / plot_name).is_file():
+                raise RuntimeError(f"missing V837aj required plot: {plot_name}")
     else:
         if decision.get("search_stage_allowed") is not False or decision.get("constructive_search_run") is not False or decision.get("diagnosis") != "SEARCH_FIDELITY_PROXY_INVALID":
             raise RuntimeError("V837aj failed proxy but did not hard-stop Stage B")

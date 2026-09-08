@@ -16,6 +16,7 @@ if str(ROOT) not in sys.path:
 
 from experiments.v837_primitive_invention.common.seeds import deterministic_int
 from experiments.v837_primitive_invention.common.serialization import write_json
+from experiments.v837_primitive_invention.v837aj.af1d_structural_model import model_compute
 from experiments.v837_primitive_invention.v837aj.fidelity_calibration import CONFIG, FAMILIES
 from experiments.v837_primitive_invention.v837aj.topology import SearchTopology, degree_cosine, edge_jaccard, historical_anchor_topology, topology_edit_distance
 
@@ -220,6 +221,82 @@ def _message_dependence(search_rows: list[dict], random_rows: list[dict]) -> dic
     return {"directed":summary(search_rows),"random":summary(random_rows),"fixed_af1d_anchor_4x":anchor.get("4x",{})}
 
 
+def _structural_efficiency_scoreboard(search_rows: list[dict], random_rows: list[dict]) -> dict:
+    anchor_payload = load(HERE / "raw/anchor_reproduction.json", {}) or {}
+    anchor_rows = list(anchor_payload.get("rows", []))
+    anchor_topology = historical_anchor_topology()
+    anchor_compute = model_compute(anchor_topology)
+    anchor_message = load(ROOT / "experiments/v837_primitive_invention/v837ai/diagnostics/message_dependence.json", {}) or {}
+    anchor_message_4x = anchor_message.get("4x", {})
+
+    anchor_family_rows = []
+    for family in FAMILIES:
+        rows = [row for row in anchor_rows if row.get("family") == family]
+        values = [float(row["validation_success"]) for row in rows]
+        anchor_family_rows.append({
+            "family": family,
+            "replicates": len(values),
+            "median_final_validation_success": float(np.median(values)) if values else None,
+        })
+    anchor_family_medians = [
+        row["median_final_validation_success"]
+        for row in anchor_family_rows
+        if row["median_final_validation_success"] is not None
+    ]
+
+    def champion_block(rows: list[dict], engine: str) -> dict:
+        entries = []
+        for row in sorted(rows, key=lambda item: (item["family"], int(item["run_index"]))):
+            compute = row["compute"]
+            entries.append({
+                "engine": engine,
+                "family": row["family"],
+                "run_index": int(row["run_index"]),
+                "competent": bool(row["competent"]),
+                "final_validation_success": float(row["final_validation_success"]),
+                "message_ablation_success_drop": float(row["message_dependence"]["success_drop"]),
+                "edge_count": int(row["topology"]["edge_count"]),
+                "active_parameters": int(compute["active_parameters"]),
+                "modeled_macs_per_timestep": int(compute["total_modeled_macs_per_timestep"]),
+                "search_evaluations_required": int(row["champion_selected_evaluation_index"]) + 1,
+            })
+
+        def median(key: str):
+            values = [float(entry[key]) for entry in entries]
+            return float(np.median(values)) if values else None
+
+        return {
+            "engine": engine,
+            "champions": len(entries),
+            "competent_champions": sum(int(entry["competent"]) for entry in entries),
+            "median_final_validation_success": median("final_validation_success"),
+            "median_message_ablation_success_drop": median("message_ablation_success_drop"),
+            "median_edge_count": median("edge_count"),
+            "median_active_parameters": median("active_parameters"),
+            "median_modeled_macs_per_timestep": median("modeled_macs_per_timestep"),
+            "median_search_evaluations_required": median("search_evaluations_required"),
+            "rows": entries,
+        }
+
+    return {
+        "run": bool(search_rows and random_rows),
+        "fixed_af1d_anchor": {
+            "engine": "FIXED_AF1D_ANCHOR",
+            "families": anchor_family_rows,
+            "median_final_validation_success": float(np.median(anchor_family_medians)) if anchor_family_medians else None,
+            "message_ablation_success_drop": float(anchor_message_4x["success_drop_median"]) if "success_drop_median" in anchor_message_4x else None,
+            "message_ablation_scope": "V837ai 4x global median; family-specific anchor ablation was not rerun in V837aj",
+            "edge_count": int(anchor_topology.edge_count),
+            "active_parameters": int(anchor_compute["active_parameters"]),
+            "modeled_macs_per_timestep": int(anchor_compute["total_modeled_macs_per_timestep"]),
+            "search_evaluations_required": None,
+            "search_evaluations_required_semantics": "fixed predeclared AF1D anchor; no structural-search evaluations required",
+        },
+        "directed": champion_block(search_rows, "DIRECTED_STRUCTURAL_SEARCH"),
+        "random": champion_block(random_rows, "RANDOM_STRUCTURAL_SAMPLER"),
+    }
+
+
 def _resource_totals() -> dict:
     anchor = load(HERE / "raw/anchor_reproduction.json", {}) or {}
     fidelity = load(HERE / "raw/fidelity_runs.json", {}) or {}
@@ -232,9 +309,22 @@ def _resource_totals() -> dict:
             for key in keys: out[key]+=row.get(key,0)
         out["fits"]=len(rows); return out
     anchor_rows=anchor.get("rows",[]); fidelity_rows=fidelity.get("rows",[])
-    search_proxy=[row for run in search_runs for row in run.get("records",[])]; random_proxy=[row for run in random_runs for row in run.get("records",[])]
+    def flatten(runs): return [row for run in runs for row in run.get("records",[])]
+    search_proxy=flatten(search_runs); random_proxy=flatten(random_runs)
+    primary_search_proxy=flatten([run for run in search_runs if int(run.get("run_index", -1)) < 5])
+    primary_random_proxy=flatten([run for run in random_runs if int(run.get("run_index", -1)) < 5])
+    extension_search_proxy=flatten([run for run in search_runs if int(run.get("run_index", -1)) >= 5])
+    extension_random_proxy=flatten([run for run in random_runs if int(run.get("run_index", -1)) >= 5])
+    primary_search_final=[row for row in search_final if int(row.get("run_index", -1)) < 5]
+    primary_random_final=[row for row in random_final if int(row.get("run_index", -1)) < 5]
+    extension_search_final=[row for row in search_final if int(row.get("run_index", -1)) >= 5]
+    extension_random_final=[row for row in random_final if int(row.get("run_index", -1)) >= 5]
     return {
         "anchor":aggregate(anchor_rows),"calibration":aggregate(fidelity_rows),"proxy_directed":aggregate(search_proxy),"proxy_random":aggregate(random_proxy),"final_directed":aggregate(search_final),"final_random":aggregate(random_final),
+        "primary_proxy_directed":aggregate(primary_search_proxy),"primary_proxy_random":aggregate(primary_random_proxy),"primary_final_directed":aggregate(primary_search_final),"primary_final_random":aggregate(primary_random_final),
+        "robustness_proxy_directed":aggregate(extension_search_proxy),"robustness_proxy_random":aggregate(extension_random_proxy),"robustness_final_directed":aggregate(extension_search_final),"robustness_final_random":aggregate(extension_random_final),
+        "primary_stage_b":aggregate(primary_search_proxy + primary_random_proxy + primary_search_final + primary_random_final),
+        "robustness_extension":aggregate(extension_search_proxy + extension_random_proxy + extension_search_final + extension_random_final),
         "candidate_evaluations":{"calibration":len(fidelity_rows),"directed":len(search_proxy),"random":len(random_proxy)},
         "union_unique_task_episodes":3200,
     }
@@ -292,9 +382,19 @@ def _fidelity_plots() -> None:
     costs=[24*16,24*64,48*128,96*256,144*384]
     for key,name,title in (("median_spearman_rho","fidelity_spearman_vs_cost.png","Median Spearman vs proxy cost"),("median_kendall_tau","fidelity_kendall_vs_cost.png","Median Kendall tau-b vs proxy cost"),("median_top4_recall","fidelity_top4_recall_vs_cost.png","Median top-4 recall vs proxy cost")):
         fig=plt.figure(figsize=(7,5)); plt.plot(costs,[metrics.get(f,{}).get(key,np.nan) for f in labels],marker="o"); plt.xscale("log"); plt.xlabel("steps × training episodes"); plt.ylabel(key); plt.title(title); fig.tight_layout(); fig.savefig(PLOTS/name,dpi=160); plt.close(fig)
+    fig=plt.figure(figsize=(8,5)); x=np.arange(len(labels)); plt.plot(x,[metrics.get(f,{}).get("median_spearman_rho",np.nan) for f in labels],marker="o",label="median Spearman"); plt.plot(x,[metrics.get(f,{}).get("median_kendall_tau",np.nan) for f in labels],marker="o",label="median Kendall"); plt.plot(x,[metrics.get(f,{}).get("median_pairwise_order_accuracy",np.nan) for f in labels],marker="o",label="pairwise order accuracy"); plt.xticks(x,labels); plt.ylim(-1.0,1.05); plt.ylabel("order-stability metric"); plt.title("Calibration order stability across fidelities"); plt.legend(); fig.tight_layout(); fig.savefig(PLOTS/"calibration_order_stability.png",dpi=160); plt.close(fig)
     raw=load(HERE/"diagnostics/fidelity_raw_scores.json",{}) or {}; agg=raw.get("aggregated_fitness",{})
     panel_ids=CONFIG["calibration"]["panel_ids"]
-    for fidelity,name,title in ((decision.get("selected_search_fidelity") or "F0","proxy_vs_target_scatter.png","Selected proxy vs F4 target"),("F_LEGACY","legacy_proxy_vs_target.png","Legacy proxy vs F4 target")):
+    selected=decision.get("selected_search_fidelity") or "F0"
+    fig=plt.figure(figsize=(7,7)); plotted=False
+    for family in FAMILIES:
+        if selected not in agg or "F4" not in agg or family not in agg[selected] or family not in agg["F4"]: continue
+        proxy=np.asarray([agg[selected][family][panel] for panel in panel_ids],dtype=float); target=np.asarray([agg["F4"][family][panel] for panel in panel_ids],dtype=float)
+        proxy_rank=np.argsort(np.argsort(-proxy))+1; target_rank=np.argsort(np.argsort(-target))+1
+        plt.scatter(target_rank,proxy_rank,label=family); plotted=True
+    if plotted: plt.plot([1,len(panel_ids)],[1,len(panel_ids)],linestyle="--"); plt.legend()
+    plt.xlabel("F4 target topology rank"); plt.ylabel(f"{selected} proxy topology rank"); plt.title("Calibration topology ranking preservation"); fig.tight_layout(); fig.savefig(PLOTS/"calibration_topology_ranking.png",dpi=160); plt.close(fig)
+    for fidelity,name,title in ((selected,"proxy_vs_target_scatter.png","Selected proxy vs F4 target"),("F_LEGACY","legacy_proxy_vs_target.png","Legacy proxy vs F4 target")):
         x=[]; y=[]
         for family in FAMILIES:
             if fidelity not in agg or "F4" not in agg: continue
@@ -332,7 +432,7 @@ def _search_plots(search_rows: list[dict], random_rows: list[dict], search_runs:
 
 def _write_report(results: dict) -> None:
     fidelity=results["fidelity"]; decision=results.get("structural_discovery")
-    lines=["# V837 Structural Search Recovery Report","","## 1. Why structural search reopened","","V837ai confirmed AF1D representation adequacy at 4x and explicitly authorized structural-search recovery.","","## 2. Why old V837 search was confounded","","Historical search failure coincided with an inadequate substrate. V837aj fixes the substrate first.","","## 3. Frozen AF1D mechanism","","Exact AF1D: ten 4D cells, rank-4 candidate coupling, one global joint input+state scalar carry controller, and ten independent 6->6 candidate projections.","","## 4. Searchable structural axis","","Only message-edge existence and SAME_STEP/RECURRENT timing are searchable; cell count and all learned mechanisms remain frozen.","","## 5. Validation-leakage correction","","Search fitness never reads seeds 20000-20127. Final validation becomes accessible only after champion topology freeze (plus the isolated AJ0 anchor reproduction control).","","## 6. Initialization-confound correction","","All common non-edge parameters are bit-identical within paired topology evaluations; common semantic edges receive path-independent initialization.","","## 7. Calibration panel","",f"The fixed task-independent panel contains {results['calibration_panel_size']} topologies.","","## 8. Fidelity ladder","","F_LEGACY, F0, F1, F2, F3 are compared against F4 target ranking with two initialization replicates per topology/family/fidelity.","","## 9. Proxy rank results","",json.dumps(fidelity.get("metrics",{}),indent=2),"","## 10. Selected search fidelity","",str(fidelity.get("selected_search_fidelity")),"","## 11. Constructive search design","","Anchor-free (mu+lambda) search starts from the 19-edge minimal topology and evaluates exactly 64 unique candidates/run.","","## 12. Equal-budget random design","","Random sampling matches directed candidate total-edge and recurrent-edge counts slot by slot, with identical initialization slots.","","## 13. Directed search results","",json.dumps(decision.get("directed",{}) if decision else {"run":False},indent=2),"","## 14. Random results","",json.dumps(decision.get("random",{}) if decision else {"run":False},indent=2),"","## 15. Finalized validation results","",json.dumps(decision.get("paired",[]) if decision else [],indent=2),"","## 16. Competent hit rates","",json.dumps({"directed":decision.get("directed_competent_hit_rate") if decision else None,"random":decision.get("random_competent_hit_rate") if decision else None},indent=2),"","## 17. Search-vs-random statistics","",json.dumps(decision.get("permutation",{}) if decision else {},indent=2),"","## 18. Structural diversity","",json.dumps(results.get("topology_diversity",{}),indent=2),"","## 19. Message dependence","",json.dumps(results.get("message_dependence",{}),indent=2),"","## 20. Compute/resource comparison","",json.dumps(results.get("resource_accounting",{}),indent=2),"","## 21. V837aj diagnosis","",results["diagnosis"],"","## 22. Primitive-mining authorization","",str(results["primitive_mining_allowed_next"]),"","## 23. Strongest scientific claim","",results["strongest_scientific_claim"],"","## 24. Next single program","",results["next_program"],""]
+    lines=["# V837 Structural Search Recovery Report","","## 1. Why structural search reopened","","V837ai confirmed AF1D representation adequacy at 4x and explicitly authorized structural-search recovery.","","## 2. Why old V837 search was confounded","","Historical search failure coincided with an inadequate substrate. V837aj fixes the substrate first.","","## 3. Frozen AF1D mechanism","","Exact AF1D: ten 4D cells, rank-4 candidate coupling, one global joint input+state scalar carry controller, and ten independent 6->6 candidate projections.","","## 4. Searchable structural axis","","Only message-edge existence and SAME_STEP/RECURRENT timing are searchable; cell count and all learned mechanisms remain frozen.","","## 5. Validation-leakage correction","","Search fitness never reads seeds 20000-20127. Final validation becomes accessible only after champion topology freeze (plus the isolated AJ0 anchor reproduction control).","","## 6. Initialization-confound correction","","All common non-edge parameters are bit-identical within paired topology evaluations; common semantic edges receive path-independent initialization.","","## 7. Calibration panel","",f"The fixed task-independent panel contains {results['calibration_panel_size']} topologies.","","## 8. Fidelity ladder","","F_LEGACY, F0, F1, F2, F3 are compared against F4 target ranking with two initialization replicates per topology/family/fidelity.","","## 9. Proxy rank results","",json.dumps(fidelity.get("metrics",{}),indent=2),"","## 10. Selected search fidelity","",str(fidelity.get("selected_search_fidelity")),"","## 11. Constructive search design","","Anchor-free (mu+lambda) search starts from the 19-edge minimal topology and evaluates exactly 64 unique candidates/run.","","## 12. Equal-budget random design","","Random sampling matches directed candidate total-edge and recurrent-edge counts slot by slot, with identical initialization slots.","","## 13. Directed search results","",json.dumps(decision.get("directed",{}) if decision else {"run":False},indent=2),"","## 14. Random results","",json.dumps(decision.get("random",{}) if decision else {"run":False},indent=2),"","## 15. Finalized validation results","",json.dumps(decision.get("paired",[]) if decision else [],indent=2),"","## 16. Competent hit rates","",json.dumps({"directed":decision.get("directed_competent_hit_rate") if decision else None,"random":decision.get("random_competent_hit_rate") if decision else None},indent=2),"","## 17. Search-vs-random statistics","",json.dumps(decision.get("permutation",{}) if decision else {},indent=2),"","## 18. Structural diversity","",json.dumps(results.get("topology_diversity",{}),indent=2),"","## 19. Message dependence","",json.dumps(results.get("message_dependence",{}),indent=2),"","## 20. Compute/resource comparison","",json.dumps(results.get("resource_accounting",{}),indent=2),"","## 21. Capability / structure / compute scoreboard","",json.dumps(results.get("capability_structure_compute_scoreboard",{}),indent=2),"","## 22. V837aj diagnosis","",results["diagnosis"],"","## 23. Primitive-mining authorization","",str(results["primitive_mining_allowed_next"]),"","## 24. Strongest scientific claim","",results["strongest_scientific_claim"],"","## 25. Next single program","",results["next_program"],""]
     (ROOT/"docs/V837_STRUCTURAL_SEARCH_RECOVERY_REPORT.md").write_text("\n".join(lines),encoding="utf-8")
 
 
@@ -349,8 +449,8 @@ def analyze(phase: str) -> int:
         _placeholder_stage_b("SEARCH_FIDELITY_PROXY_INVALID")
         diagnosis="SEARCH_FIDELITY_PROXY_INVALID"; next_program="V837ak_SEARCH_FIDELITY_REDESIGN"; mining=False
         results={"version":"V837aj","af1d_anchor":anchor,"fidelity":fidelity,"calibration_panel_size":12,"stage_b_run":False,"structural_discovery":None,"diagnosis":diagnosis,"automated_structural_discovery":False,"evolutionary_search_superiority":False,"primitive_mining_allowed_next":False,"fresh_audit_consumed":False,"primitives_promoted":0,"large_persistent_storage_tested":False,"v838_started":False,"next_program":next_program,"strongest_scientific_claim":"No cheaper ranking-preserving search proxy among F0-F3 passed the frozen fidelity gate against F4, so structural discovery was correctly not attempted."}
-        resource=_resource_totals(); results["resource_accounting"]=resource; results["topology_diversity"]={"run":False}; results["message_dependence"]={"run":False}
-        _search_plots([],[],[],[],None); write_json(HERE/"diagnostics/search_random_budget_match.json",{"run":False,"reason":diagnosis}); write_json(HERE/"diagnostics/topology_diversity.json",results["topology_diversity"]); write_json(HERE/"diagnostics/search_vs_random.json",{"run":False,"reason":diagnosis}); write_json(HERE/"diagnostics/message_dependence.json",results["message_dependence"]); write_json(HERE/"diagnostics/compute_efficiency.json",resource)
+        resource=_resource_totals(); results["resource_accounting"]=resource; results["topology_diversity"]={"run":False}; results["message_dependence"]={"run":False}; results["capability_structure_compute_scoreboard"]={"run":False,"reason":diagnosis}
+        _search_plots([],[],[],[],None); write_json(HERE/"diagnostics/search_random_budget_match.json",{"run":False,"reason":diagnosis}); write_json(HERE/"diagnostics/topology_diversity.json",results["topology_diversity"]); write_json(HERE/"diagnostics/search_vs_random.json",{"run":False,"reason":diagnosis}); write_json(HERE/"diagnostics/message_dependence.json",results["message_dependence"]); write_json(HERE/"diagnostics/compute_efficiency.json",resource); write_json(HERE/"diagnostics/structural_efficiency_scoreboard.json",results["capability_structure_compute_scoreboard"])
         state={"version":"V837aj","af1d_anchor_valid":True,"fidelity_calibration_complete":True,"selected_search_fidelity":None,"search_stage_allowed":False,"constructive_search_run":False,"primary_runs_per_family":5,"robustness_extension_run":False,"directed_family_passes":None,"random_family_passes":None,"directed_competent_hit_rate":None,"random_competent_hit_rate":None,"paired_validation_delta":None,"paired_permutation_p":None,"automated_structural_discovery":False,"evolutionary_search_superiority":False,"diagnosis":diagnosis,"primitive_mining_allowed_next":False,"fresh_audit_consumed":False,"primitives_promoted":0,"v838_started":False,"next_program":next_program}; write_json(HERE/"diagnostics/decision_state.json",state)
     else:
         search_runs=_proxy_runs("search_proxy_runs.json"); random_runs=_proxy_runs("random_proxy_runs.json"); search_rows=_rows("search_finalized.json"); random_rows=_rows("random_finalized.json")
@@ -360,11 +460,11 @@ def analyze(phase: str) -> int:
         decision=_decision(search_rows,random_rows,search_runs,random_runs)
         if phase=="primary": write_json(HERE/"diagnostics/primary_decision.json",decision)
         elif decision["robustness_extension_required"] and target_runs==25: raise SystemExit("final analysis blocked: robustness extension required but absent")
-        budget=_budget_match(search_runs,random_runs); diversity=_topology_diversity(search_rows,random_rows); classifier={"directed":_family_classifier(search_rows),"random":_family_classifier(random_rows)}; message=_message_dependence(search_rows,random_rows); resource=_resource_totals()
+        budget=_budget_match(search_runs,random_runs); diversity=_topology_diversity(search_rows,random_rows); classifier={"directed":_family_classifier(search_rows),"random":_family_classifier(random_rows)}; message=_message_dependence(search_rows,random_rows); resource=_resource_totals(); scoreboard=_structural_efficiency_scoreboard(search_rows,random_rows)
         diagnosis=decision["diagnosis"]; mining=decision["primitive_mining_allowed_next"]; next_program=decision["next_program"]
         strongest=("Automated structural discovery is established on the frozen AF1D substrate." if decision["automated_structural_discovery"] else "Automated structural discovery was not established under the frozen V837aj search design.") + f" Diagnosis: {diagnosis}."
-        results={"version":"V837aj","af1d_anchor":anchor,"fidelity":fidelity,"calibration_panel_size":12,"stage_b_run":True,"runs_per_family":target_runs//5,"structural_discovery":decision,"diagnosis":diagnosis,"automated_structural_discovery":decision["automated_structural_discovery"],"evolutionary_search_superiority":decision["evolutionary_search_superiority"],"primitive_mining_allowed_next":mining,"fresh_audit_consumed":False,"primitives_promoted":0,"large_persistent_storage_tested":False,"v838_started":False,"next_program":next_program,"search_random_budget_match":budget,"topology_diversity":diversity,"topology_family_classifier":classifier,"message_dependence":message,"resource_accounting":resource,"strongest_scientific_claim":strongest}
-        _search_plots(search_rows,random_rows,search_runs,random_runs,decision); write_json(HERE/"diagnostics/search_random_budget_match.json",budget); write_json(HERE/"diagnostics/topology_diversity.json",{**diversity,"family_classifier":classifier}); write_json(HERE/"diagnostics/search_vs_random.json",decision); write_json(HERE/"diagnostics/message_dependence.json",message); write_json(HERE/"diagnostics/compute_efficiency.json",resource)
+        results={"version":"V837aj","af1d_anchor":anchor,"fidelity":fidelity,"calibration_panel_size":12,"stage_b_run":True,"runs_per_family":target_runs//5,"structural_discovery":decision,"diagnosis":diagnosis,"automated_structural_discovery":decision["automated_structural_discovery"],"evolutionary_search_superiority":decision["evolutionary_search_superiority"],"primitive_mining_allowed_next":mining,"fresh_audit_consumed":False,"primitives_promoted":0,"large_persistent_storage_tested":False,"v838_started":False,"next_program":next_program,"search_random_budget_match":budget,"topology_diversity":diversity,"topology_family_classifier":classifier,"message_dependence":message,"capability_structure_compute_scoreboard":scoreboard,"resource_accounting":resource,"strongest_scientific_claim":strongest}
+        _search_plots(search_rows,random_rows,search_runs,random_runs,decision); write_json(HERE/"diagnostics/search_random_budget_match.json",budget); write_json(HERE/"diagnostics/topology_diversity.json",{**diversity,"family_classifier":classifier}); write_json(HERE/"diagnostics/search_vs_random.json",decision); write_json(HERE/"diagnostics/message_dependence.json",message); write_json(HERE/"diagnostics/compute_efficiency.json",resource); write_json(HERE/"diagnostics/structural_efficiency_scoreboard.json",scoreboard)
         state={"version":"V837aj","af1d_anchor_valid":True,"fidelity_calibration_complete":True,"selected_search_fidelity":fidelity["selected_search_fidelity"],"search_stage_allowed":True,"constructive_search_run":True,"primary_runs_per_family":5,"robustness_extension_run":target_runs==50,"directed_family_passes":decision["directed"]["families_passing"],"random_family_passes":decision["random"]["families_passing"],"directed_competent_hit_rate":decision["directed_competent_hit_rate"],"random_competent_hit_rate":decision["random_competent_hit_rate"],"paired_validation_delta":decision["median_paired_final_validation_delta"],"paired_permutation_p":decision["permutation"]["one_sided_search_gt_random_p"],"automated_structural_discovery":decision["automated_structural_discovery"],"evolutionary_search_superiority":decision["evolutionary_search_superiority"],"diagnosis":diagnosis,"primitive_mining_allowed_next":mining,"fresh_audit_consumed":False,"primitives_promoted":0,"v838_started":False,"next_program":next_program}; write_json(HERE/"diagnostics/decision_state.json",state)
     write_json(HERE/"results.json",results); write_json(HERE/"v837aj_resource_accounting.json",results["resource_accounting"]); write_json(ROOT/"experiments/v837_primitive_invention/v837aj_resource_accounting.json",results["resource_accounting"]); write_json(ROOT/"experiments/v837_primitive_invention/structural_search_recovery_program_resource_accounting.json",results["resource_accounting"]); write_json(ROOT/"experiments/v837_primitive_invention/structural_search_recovery_program_status.json",{"version":"V837aj","diagnosis":results["diagnosis"],"automated_structural_discovery":results["automated_structural_discovery"],"evolutionary_search_superiority":results["evolutionary_search_superiority"],"primitive_mining_allowed_next":results["primitive_mining_allowed_next"],"fresh_audit_episodes_consumed":0,"primitives_promoted":0,"large_persistent_storage_tested":False,"v838_started":False,"next_program":results["next_program"]})
     _write_report(results)
