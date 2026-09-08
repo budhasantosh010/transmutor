@@ -591,6 +591,53 @@ def main() -> int:
     if int(combined_geometry.get("model_fits", -1)) != 150 or int(combined_geometry.get("optimizer_steps", -1)) != 28800 or int(combined_geometry.get("processed_training_examples", -1)) != 14745600 or int(combined_geometry.get("unique_seed_defined_episodes", -1)) != 3200:
         raise RuntimeError("candidate-recurrent-geometry program resource accounting changed")
 
+    # V837af remaining candidate-input sibling closure. A neutral >=4/5 result
+    # hard-stops the conditional V837ag/V837ah architecture-localization stages.
+    af_record = manifest["current_variants"].get("V837af")
+    if not isinstance(af_record, dict):
+        raise RuntimeError("verification manifest missing V837af")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in af_record.get(key, []):
+            require_path(relative)
+    require_path(af_record["config"])
+    require_path(af_record["frozen_gate"])
+    require_path(af_record["results"])
+    af = load_json(af_record["results"])
+    af_decision = load_json("experiments/v837_primitive_invention/v837af/diagnostics/decision_state.json")
+    expected_af = {
+        "AF0_y3_parent": 3,
+        "AF1_shared_candidate_input_factorization": 3,
+        "AF1F_folded_candidate_input_control": 3,
+        "AF1D_deshared_candidate_input_factorization": 4,
+    }
+    actual_af = {name: int(row.get("families_passing", -1)) for name, row in af.get("conditions", {}).items()}
+    if actual_af != expected_af:
+        raise RuntimeError("V837af candidate-input sibling outcomes changed")
+    if af.get("diagnosis") != "DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT" or af.get("diagnosis_qualifiers") != ["SHARED_INPUT_BASIS_HARMFUL"]:
+        raise RuntimeError("V837af diagnosis/qualifier changed")
+    if af.get("best_passing_condition") != "AF1D_deshared_candidate_input_factorization" or af.get("representation_adequacy_pass") is not True or af.get("sample_efficiency_retest_allowed") is not True:
+        raise RuntimeError("V837af adequacy/sample-efficiency gate changed")
+    step0 = load_json("experiments/v837_primitive_invention/v837af/diagnostics/step0_equivalence.json")
+    anchor = load_json("experiments/v837_primitive_invention/v837af/diagnostics/anchor_compatibility.json")
+    if step0.get("step0_equivalence_proven") is not True or float(step0.get("maximum_error", 1.0)) > 1e-6 or anchor.get("parent_reproduced") is not True:
+        raise RuntimeError("V837af equivalence/parent guard changed")
+    if af_decision.get("v837ag_allowed") is not False or af.get("v837ag_allowed") is not False:
+        raise RuntimeError("V837af improperly authorized V837ag after neutral success")
+    if af.get("structural_search_allowed") is not False or af.get("primitive_mining_allowed") is not False or af.get("fresh_audit_consumed") is not False or af.get("v838_started") is not False:
+        raise RuntimeError("V837af science lock state changed")
+    for forbidden in ("v837ae", "v837ag", "v837ah", "v838"):
+        if (ROOT / "experiments" / "v837_primitive_invention" / forbidden).exists():
+            raise RuntimeError(f"unauthorized {forbidden} directory exists after V837af hard stop")
+    sibling_status = load_json("experiments/v837_primitive_invention/input_sibling_controller_basis_program_status.json")
+    sibling_resources = load_json("experiments/v837_primitive_invention/input_sibling_controller_basis_program_resource_accounting.json")
+    if sibling_status.get("v837af_diagnosis") != "DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT" or sibling_status.get("architecture_localization_hard_stop_triggered") is not True or sibling_status.get("representation_adequacy") != "PASS_4_OF_5_AF1D":
+        raise RuntimeError("input-sibling program status changed")
+    if sibling_status.get("v837ag_run") is not False or sibling_status.get("v837ah_run") is not False or sibling_status.get("sample_efficiency_retest_allowed") is not True:
+        raise RuntimeError("input-sibling program continuation gate changed")
+    combined_sibling = sibling_resources.get("combined", {})
+    if int(combined_sibling.get("model_fits", -1)) != 100 or int(combined_sibling.get("optimizer_steps", -1)) != 19200 or int(combined_sibling.get("processed_training_examples", -1)) != 9830400 or int(combined_sibling.get("unique_seed_defined_episodes", -1)) != 3200:
+        raise RuntimeError("input-sibling program resource accounting changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

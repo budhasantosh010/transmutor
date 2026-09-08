@@ -120,6 +120,12 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837ad/run_candidate_geometry.py", "--phase", "geometry"],
         [sys.executable, "experiments/v837_primitive_invention/v837ad/analyze_results.py"],
     ],
+    "v837af": [
+        [sys.executable, "experiments/v837_primitive_invention/v837af/run_candidate_input_transfer.py", "--phase", "preflight"],
+        [sys.executable, "experiments/v837_primitive_invention/v837af/run_candidate_input_transfer.py", "--phase", "af0"],
+        [sys.executable, "experiments/v837_primitive_invention/v837af/run_candidate_input_transfer.py", "--phase", "transfer"],
+        [sys.executable, "experiments/v837_primitive_invention/v837af/analyze_results.py"],
+    ],
 }
 
 
@@ -245,6 +251,18 @@ def enforce_variant_guard(variant: str) -> None:
             raise SystemExit("V837ad blocked: V837ab/V837ac frontier is incompatible")
         if status.get("fresh_audit_episodes_consumed") != 0 or status.get("v838_started") is not False:
             raise SystemExit("V837ad blocked: fresh-audit/V838 lock changed")
+        return
+    if variant == "v837af":
+        status_path = ROOT / "experiments" / "v837_primitive_invention" / "candidate_recurrent_geometry_program_status.json"
+        if not status_path.is_file():
+            raise SystemExit("V837af blocked: candidate-recurrent-geometry closure status is missing")
+        status = json.loads(status_path.read_text(encoding="utf-8"))
+        if status.get("v837ad_diagnosis") != "TEN_BY_FOUR_CANDIDATE_GEOMETRY_SUFFICIENT_IN_REFERENCE" or status.get("v837ae_run") is not False:
+            raise SystemExit("V837af blocked: V837ad/V837ae frontier is incompatible")
+        if status.get("fresh_audit_episodes_consumed") != 0 or status.get("v838_started") is not False:
+            raise SystemExit("V837af blocked: fresh-audit/V838 lock changed")
+        if (ROOT / "experiments" / "v837_primitive_invention" / "v837ae").exists():
+            raise SystemExit("V837af blocked: unauthorized V837ae directory exists")
         return
 
 
