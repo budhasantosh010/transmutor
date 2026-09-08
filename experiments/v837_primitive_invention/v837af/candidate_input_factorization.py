@@ -22,6 +22,14 @@ CONDITIONS = {
 }
 
 
+def exact_t2_projection_from_seed(seed: int) -> tuple[torch.Tensor, torch.Tensor]:
+    """Reproduce the frozen 6->6 T2 input-projection initialization law."""
+    with torch.random.fork_rng(devices=[]):
+        torch.manual_seed(int(seed))
+        layer = nn.Linear(INPUT_DIM, INPUT_DIM)
+        return layer.weight.detach().clone(), layer.bias.detach().clone()
+
+
 @dataclass
 class CandidateInputProjectionSnapshot:
     singular_values: list[float]
@@ -67,28 +75,21 @@ class CandidateInputFactorizationY3(ControlledCandidateInteractionModel):
             obs_dim=INPUT_DIM,
         )
 
-        # Historical high-capacity/Y3 graph uses broadcast input. Keep generic
-        # support for masked access by projecting only _visible_input output.
-        # Freeze a parent-preserving deep-linear split. Identity/zero makes
-        # AF1, AF1F and AF1D exactly the same historical Y3 function at step
-        # zero while still exposing the full trainable 6x6+bias factorization.
+        # Historical Y3 uses broadcast input, but preserve generic visibility
+        # semantics by always projecting only the already-visible vector. AF1
+        # is initialized normally: exact historical Y3 downstream W_x/b plus
+        # one ordinary 6x6+bias Linear projection. AF1F is then derived by
+        # algebraically folding this exact AF1; AF1D clones the same projection
+        # ten ways. No inverse solve or parent-function preservation is imposed.
         self.projection_initialization_seed = int(projection_seed)
-        A = torch.eye(INPUT_DIM, dtype=self.base.cell_wx[0].dtype)
-        a = torch.zeros(INPUT_DIM, dtype=self.base.cell_wx[0].dtype)
+        A, a = exact_t2_projection_from_seed(self.projection_initialization_seed)
+        A = A.to(dtype=self.base.cell_wx[0].dtype)
+        a = a.to(dtype=self.base.cell_wx[0].dtype)
         self.register_buffer("diagnostic_projection_weight", A.clone(), persistent=False)
         self.register_buffer("diagnostic_projection_bias", a.clone(), persistent=False)
 
         original_w = [p.detach().clone() for p in self.base.cell_wx]
         original_b = [p.detach().clone() for p in self.base.cell_b]
-        downstream_w: list[torch.Tensor] = []
-        downstream_b: list[torch.Tensor] = []
-        for W, b in zip(original_w, original_b):
-            # Q A = W, d + Q a = b.
-            Q = torch.linalg.solve(A.T, W.T).T
-            d = b - Q @ a
-            downstream_w.append(Q)
-            downstream_b.append(d)
-
         self.shared_candidate_projection: nn.Linear | None = None
         self.cell_candidate_projections: nn.ModuleList | None = None
 
@@ -97,9 +98,6 @@ class CandidateInputFactorizationY3(ControlledCandidateInteractionModel):
             with torch.no_grad():
                 layer.weight.copy_(A)
                 layer.bias.copy_(a)
-                for i in range(NUM_CELLS):
-                    self.base.cell_wx[i].copy_(downstream_w[i])
-                    self.base.cell_b[i].copy_(downstream_b[i])
             self.shared_candidate_projection = layer
             self.register_buffer("initial_shared_projection_weight", A.clone(), persistent=False)
             self.register_buffer("initial_shared_projection_bias", a.clone(), persistent=False)
@@ -111,8 +109,6 @@ class CandidateInputFactorizationY3(ControlledCandidateInteractionModel):
                     layer.weight.copy_(A)
                     layer.bias.copy_(a)
                     layers.append(layer)
-                    self.base.cell_wx[i].copy_(downstream_w[i])
-                    self.base.cell_b[i].copy_(downstream_b[i])
             self.cell_candidate_projections = layers
             self.register_buffer("initial_shared_projection_weight", A.clone(), persistent=False)
             self.register_buffer("initial_shared_projection_bias", a.clone(), persistent=False)
@@ -120,8 +116,8 @@ class CandidateInputFactorizationY3(ControlledCandidateInteractionModel):
             # Derive AF1 first, then algebraically fold it. No runtime projection.
             with torch.no_grad():
                 for i in range(NUM_CELLS):
-                    folded_w = downstream_w[i] @ A
-                    folded_b = downstream_b[i] + downstream_w[i] @ a
+                    folded_w = original_w[i] @ A
+                    folded_b = original_b[i] + original_w[i] @ a
                     self.base.cell_wx[i].copy_(folded_w)
                     self.base.cell_b[i].copy_(folded_b)
             self.register_buffer("initial_shared_projection_weight", A.clone(), persistent=False)
@@ -165,6 +161,19 @@ class CandidateInputFactorizationY3(ControlledCandidateInteractionModel):
         if self.projection_mode == "deshared":
             return 420
         return 0
+
+    def historical_visible_input(self, x_t: torch.Tensor, cell_index: int) -> torch.Tensor:
+        """Return the frozen Y3 visible vector before any V837af projection."""
+        return super()._visible_input(x_t, cell_index)
+
+    def candidate_input_affine_term(self, visible_x: torch.Tensor, cell_index: int) -> torch.Tensor:
+        """Full runtime candidate-input affine contribution, including bias."""
+        runtime_input = (
+            self.diagnostic_projected_visible_input(visible_x, cell_index)
+            if self.projection_mode in {"shared", "deshared"}
+            else visible_x
+        )
+        return F.linear(runtime_input, self.base.cell_wx[cell_index], self.base.cell_b[cell_index])
 
     def diagnostic_projected_visible_input(self, visible_x: torch.Tensor, cell_index: int) -> torch.Tensor:
         """Projection intermediate for paired step-zero diagnostics.

@@ -25,9 +25,9 @@
     "base_initialization_namespace": "v837p-init",
     "coupling_seed_namespace": "v837r-coupling-init",
     "coupling_seed_condition": "R3_rank4",
-    "projection_initialization_namespace": "v837af-identity-zero-provenance"
+    "projection_initialization_namespace": "v837j-primary-init"
   },
-  "candidate_projection_initialization": "identity_weight_zero_bias_parent_preserving",
+  "candidate_projection_initialization": "exact_frozen_t2_linear_6x6_law_applied_before_historical_y3_candidate_input_maps",
   "representation_family_gate": 4,
   "step0_tolerance": 1e-6,
   "parent_drift_threshold": 0.0,

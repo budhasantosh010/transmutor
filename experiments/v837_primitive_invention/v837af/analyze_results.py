@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
+import matplotlib.pyplot as plt
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -17,205 +19,119 @@ from experiments.v837_primitive_invention.tasks import all_tasks
 HERE = Path(__file__).resolve().parent
 CONFIG = json.loads((HERE / "config.json").read_text(encoding="utf-8"))
 FAMILIES = [task.name for task in all_tasks()]
-CONDITIONS = list(CONFIG["conditions"])
+CONDITIONS = CONFIG["conditions"]
+AF0, AF1, AF1F, AF1D = CONDITIONS
 
 
-def _load_rows(name: str) -> list[dict]:
-    path = HERE / "raw" / name
-    if not path.exists():
-        return []
-    return json.loads(path.read_text(encoding="utf-8"))["rows"]
+def _load(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def _rows() -> list[dict]:
-    return _load_rows("af0_runs.json") + _load_rows("transfer_runs.json")
+    rows = []
+    for name in ("af0_runs.json", "transfer_runs.json"):
+        rows.extend(_load(HERE / "raw" / name)["rows"])
+    return sorted(rows, key=lambda r: (r["condition"], r["family"], r["replicate_id"]))
 
 
 def _summary(rows: list[dict], condition: str) -> dict:
-    out = {"families_passing": 0, "family_results": {}}
+    result = {"families_passing": 0, "family_results": {}, "mean_family_validation_median": 0.0}
+    vals = []
+    rr_condition = [r for r in rows if r["condition"] == condition]
     for family in FAMILIES:
-        fr = [r for r in rows if r["condition"] == condition and r["family"] == family]
-        if not fr:
-            continue
-        dev_values = [float(r["development_success"]) for r in fr]
-        val_values = [float(r["validation_success"]) for r in fr]
-        dev = float(np.median(dev_values))
-        val = float(np.median(val_values))
-        passed = bool(capacity_demonstrated(dev, val))
-        out["families_passing"] += int(passed)
-        out["family_results"][family] = {
-            "development": {"median": dev, "values": dev_values},
-            "validation": {"median": val, "values": val_values},
-            "capacity_demonstrated": passed,
+        rr = [r for r in rr_condition if r["family"] == family]
+        dev = float(np.median([r["development_success"] for r in rr]))
+        val = float(np.median([r["validation_success"] for r in rr]))
+        passed = capacity_demonstrated(dev, val)
+        result["families_passing"] += int(passed)
+        vals.append(val)
+        result["family_results"][family] = {
+            "development": {"median": dev},
+            "validation": {"median": val},
+            "capacity_demonstrated": bool(passed),
         }
-    return out
-
-
-def _median(rows: list[dict], path: tuple[str, ...], default: float = 0.0) -> float:
-    values = []
-    for row in rows:
-        current = row
-        try:
-            for key in path:
-                current = current[key]
-            values.append(float(current))
-        except (KeyError, TypeError, ValueError):
-            pass
-    return float(np.median(values)) if values else default
+    first = rr_condition[0]
+    result["mean_family_validation_median"] = float(np.mean(vals))
+    result["parameter_count"] = int(first["parameter_count"])
+    result["active_parameter_count"] = int(first["active_parameter_count"])
+    result["projection_parameter_count"] = int(first["projection_parameter_count"])
+    result["projection_specific_macs"] = int(first["projection_specific_macs"])
+    result["recurrent_controller_projection_macs"] = int(first["recurrent_controller_projection_macs"])
+    return result
 
 
 def _projection_dynamics(rows: list[dict]) -> dict:
     output = {}
     for condition in CONDITIONS:
-        cr = [r for r in rows if r["condition"] == condition]
-        if not cr:
-            continue
-        steps = {}
-        for step in CONFIG["training"]["curve_steps"]:
-            snapshots = []
-            for row in cr:
-                snapshots.extend([x for x in row["projection_trajectory"] if int(x["step"]) == int(step)])
-            if not snapshots:
-                continue
-            modes = [x["projection"].get("mode") for x in snapshots]
-            shared_like = [x["projection"] for x in snapshots if "frobenius_norm" in x["projection"]]
-            deshared = [x["projection"] for x in snapshots if x["projection"].get("mode") == "deshared"]
-            steps[str(step)] = {
-                "mode": modes[0] if modes else None,
-                "frobenius_norm_median": float(np.median([x.get("frobenius_norm", 0.0) for x in shared_like])) if shared_like else 0.0,
-                "condition_number_median": float(np.median([x["condition_number"] for x in shared_like if x.get("condition_number") is not None])) if any(x.get("condition_number") is not None for x in shared_like) else None,
-                "projection_weight_drift_median": float(np.median([x.get("weight_drift", 0.0) for x in shared_like])) if shared_like else 0.0,
-                "projection_bias_drift_median": float(np.median([x.get("bias_drift", 0.0) for x in shared_like])) if shared_like else 0.0,
-                "deshared_pairwise_distance_median": float(np.median([x.get("pairwise_weight_distance_median", 0.0) for x in deshared])) if deshared else 0.0,
-                "deshared_pairwise_cosine_median": float(np.median([x.get("pairwise_weight_cosine_median", 1.0) for x in deshared])) if deshared else 1.0,
-                "deshared_divergence_from_shared_initialization_mean_median": float(np.median([x.get("projection_divergence_from_shared_initialization_mean", 0.0) for x in deshared])) if deshared else 0.0,
-            }
-        output[condition] = steps
+        grouped: dict[int, list[dict]] = defaultdict(list)
+        for row in [r for r in rows if r["condition"] == condition]:
+            for point in row["projection_trajectory"]:
+                grouped[int(point["step"])].append(point["projection"])
+        condition_rows = {}
+        for step, projections in sorted(grouped.items()):
+            mode = projections[0]["mode"]
+            entry = {"fits": len(projections), "mode": mode}
+            if mode == "shared":
+                entry.update({
+                    "frobenius_norm_median": float(np.median([p["frobenius_norm"] for p in projections])),
+                    "condition_number_median": float(np.median([p["condition_number"] for p in projections])),
+                    "weight_drift_median": float(np.median([p["weight_drift"] for p in projections])),
+                    "bias_drift_median": float(np.median([p["bias_drift"] for p in projections])),
+                })
+            elif mode == "deshared":
+                entry.update({
+                    "pairwise_weight_distance_median": float(np.median([p["pairwise_weight_distance_median"] for p in projections])),
+                    "pairwise_weight_cosine_median": float(np.median([p["pairwise_weight_cosine_median"] for p in projections])),
+                    "projection_divergence_from_shared_initialization_mean_median": float(np.median([p["projection_divergence_from_shared_initialization_mean"] for p in projections])),
+                    "mean_projection_frobenius_median": float(np.median([np.mean([q["frobenius_norm"] for q in p["per_cell"]]) for p in projections])),
+                })
+            condition_rows[str(step)] = entry
+        output[condition] = condition_rows
     return output
 
 
-def _effective_maps(rows: list[dict]) -> dict:
+def _effective_input_maps(rows: list[dict]) -> dict:
     output = {}
     for condition in CONDITIONS:
-        cr = [r for r in rows if r["condition"] == condition]
-        if not cr:
-            continue
+        rr = [r for r in rows if r["condition"] == condition]
         output[condition] = {
-            "pairwise_effective_input_map_cosine_median": _median(cr, ("diagnostics", "effective_input_maps", "pairwise_cosine_median")),
-            "pairwise_effective_input_map_distance_median": _median(cr, ("diagnostics", "effective_input_maps", "pairwise_distance_median")),
-            "effective_input_weight_norm_per_cell_median": [
-                float(np.median([r["diagnostics"]["effective_input_maps"]["per_cell"][cell]["weight_norm"] for r in cr]))
-                for cell in range(10)
+            "pairwise_cosine_median": float(np.median([r["diagnostics"]["effective_input_maps"]["pairwise_cosine_median"] for r in rr])),
+            "pairwise_distance_median": float(np.median([r["diagnostics"]["effective_input_maps"]["pairwise_distance_median"] for r in rr])),
+            "per_fit": [
+                {
+                    "family": r["family"],
+                    "replicate_id": r["replicate_id"],
+                    **r["diagnostics"]["effective_input_maps"],
+                }
+                for r in rr
             ],
         }
     return output
 
 
-def _partial_observation(rows: list[dict], summaries: dict[str, dict]) -> dict:
-    output = {}
+def _path_diagnostics(rows: list[dict]) -> tuple[dict, dict]:
+    partial = {}
+    message = {}
     for condition in CONDITIONS:
-        cr = [r for r in rows if r["condition"] == condition]
-        if not cr:
-            continue
-        family_results = summaries[condition]["family_results"]
-        output[condition] = {
-            "conditional_routing_validation_median": family_results["conditional_routing"]["validation"]["median"],
-            "partial_observation_validation_median": family_results["partial_observation"]["validation"]["median"],
-            "variable_composition_validation_median": family_results["variable_composition"]["validation"]["median"],
-            "candidate_input_term_norm_median": _median(cr, ("diagnostics", "candidate_input_term", "mean_norm")),
-            "candidate_input_temporal_variance_median": _median(cr, ("diagnostics", "candidate_input_term", "mean_temporal_variance")),
-            "candidate_jacobian_wrt_visible_input_frobenius_median": _median(cr, ("diagnostics", "candidate_input_term", "candidate_jacobian_wrt_visible_input_frobenius_mean")),
+        rr = [r for r in rows if r["condition"] == condition]
+        partial[condition] = {
+            "candidate_input_term_norm_median": float(np.median([r["diagnostics"]["candidate_input"]["mean_input_term_norm"] for r in rr])),
+            "candidate_input_temporal_variance_median": float(np.median([r["diagnostics"]["candidate_input"]["mean_temporal_variance"] for r in rr])),
+            "candidate_visible_input_jacobian_frobenius_median": float(np.median([r["diagnostics"]["candidate_input"]["mean_candidate_visible_input_jacobian_frobenius"] for r in rr])),
         }
-    return output
-
-
-def _message_dependence(rows: list[dict]) -> dict:
-    output = {}
-    for condition in CONDITIONS:
-        cr = [r for r in rows if r["condition"] == condition]
-        if not cr:
-            continue
-        output[condition] = {
-            "message_ablation_success_drop_median": _median(cr, ("diagnostics", "message_dependency", "success_drop")),
-            "message_ablation_prediction_delta_median": _median(cr, ("diagnostics", "message_dependency", "mean_abs_prediction_delta")),
+        message[condition] = {
+            "success_drop_median": float(np.median([r["diagnostics"]["message_dependency"]["success_drop"] for r in rr])),
+            "mean_abs_prediction_delta_median": float(np.median([r["diagnostics"]["message_dependency"]["mean_abs_prediction_delta"] for r in rr])),
         }
-    return output
+    return partial, message
 
 
-def _compute_efficiency(rows: list[dict]) -> dict:
-    output = {}
-    for condition in CONDITIONS:
-        cr = [r for r in rows if r["condition"] == condition]
-        if not cr:
-            continue
-        row = cr[0]
-        output[condition] = {
-            "parameter_count": int(row["parameter_count"]),
-            "projection_parameter_count": int(row["projection_parameter_count"]),
-            "projection_macs_per_timestep": int(row["projection_specific_macs"]),
-            "recurrent_controller_macs_per_timestep": int(row["recurrent_controller_macs"]),
-            "total_recurrent_controller_projection_macs_per_timestep": int(row["total_recurrent_controller_projection_macs"]),
-        }
-    return output
-
-
-def _decision(summaries: dict[str, dict]) -> dict:
-    af0 = int(summaries["AF0_y3_parent"]["families_passing"])
-    af1 = int(summaries["AF1_shared_candidate_input_factorization"]["families_passing"])
-    af1f = int(summaries["AF1F_folded_candidate_input_control"]["families_passing"])
-    af1d = int(summaries["AF1D_deshared_candidate_input_factorization"]["families_passing"])
-    base = {
-        "v837af_complete": True,
-        "parent_reproduced": af0 == 3,
-        "families_passing": {condition: int(summary["families_passing"]) for condition, summary in summaries.items()},
-        "diagnosis": "",
-        "qualifiers": [],
-        "preferred_condition": None,
-        "representation_adequacy_pass": False,
-        "v837ag_allowed": False,
-        "sample_efficiency_retest_allowed": False,
-        "structural_search_allowed": False,
-        "primitive_mining_allowed": False,
-        "fresh_audit_consumed": False,
-        "primitives_promoted": 0,
-        "large_persistent_storage_tested": False,
-        "v837ae_created": False,
-        "v838_started": False,
-    }
-    if af1f >= 4:
-        base["diagnosis"] = "CANDIDATE_COMPOSED_EFFECTIVE_INPUT_MAPPING_SUFFICIENT"
-        base["preferred_condition"] = "AF1F_folded_candidate_input_control"
-        base["representation_adequacy_pass"] = True
-    elif af1 >= 4 and af1d < 4:
-        base["diagnosis"] = "SHARED_CANDIDATE_INPUT_FACTORIZATION_SPECIFICALLY_SUFFICIENT"
-        base["preferred_condition"] = "AF1_shared_candidate_input_factorization"
-        base["representation_adequacy_pass"] = True
-    elif af1 >= 4 and af1d >= 4:
-        base["diagnosis"] = "CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT"
-        base["qualifiers"] = ["SHAREDNESS_NOT_ESTABLISHED"]
-        base["preferred_condition"] = "AF1_shared_candidate_input_factorization"
-        base["representation_adequacy_pass"] = True
-    elif af1 < 4 and af1d >= 4:
-        base["diagnosis"] = "DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT"
-        base["qualifiers"] = ["SHARED_INPUT_BASIS_HARMFUL"]
-        base["preferred_condition"] = "AF1D_deshared_candidate_input_factorization"
-        base["representation_adequacy_pass"] = True
-    elif af1 < 4 and af1f < 4 and af1d < 4:
-        base["diagnosis"] = "CANDIDATE_INPUT_FACTORIZATION_TRANSFER_INSUFFICIENT"
-        base["v837ag_allowed"] = True
-    else:
-        base["diagnosis"] = "V837AF_UNCLASSIFIED_RESULT"
-        base["v837af_complete"] = False
-    base["sample_efficiency_retest_allowed"] = bool(base["representation_adequacy_pass"])
-    return base
-
-
-def _resources(rows: list[dict]) -> dict:
+def _resource_accounting(rows: list[dict]) -> dict:
     return {
         "version": "V837af",
         "model_fits": len(rows),
         "optimizer_steps": sum(int(r["resources"]["optimizer_steps"]) for r in rows),
-        "processed_training_examples": sum(int(r["resources"]["examples_processed"]) for r in rows),
+        "processed_training_examples": sum(int(r["processed_examples"]) for r in rows),
         "unique_seed_defined_episodes": 3200,
         "environment_interactions": sum(int(r["resources"]["environment_steps"]) for r in rows),
         "forward_calls": sum(int(r["resources"]["forward_calls"]) for r in rows),
@@ -227,96 +143,162 @@ def _resources(rows: list[dict]) -> dict:
     }
 
 
-def _plots(summaries: dict[str, dict], projection: dict, effective: dict, partial: dict, compute: dict) -> None:
-    import matplotlib.pyplot as plt
+def _decision(summaries: dict) -> tuple[str, list[str], bool, str | None, bool]:
+    shared = summaries[AF1]["families_passing"]
+    folded = summaries[AF1F]["families_passing"]
+    deshared = summaries[AF1D]["families_passing"]
+    if folded >= 4:
+        return "CANDIDATE_COMPOSED_EFFECTIVE_INPUT_MAPPING_SUFFICIENT", [], True, AF1F, False
+    if shared >= 4 and deshared >= 4:
+        return "CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT", ["SHAREDNESS_NOT_ESTABLISHED"], True, AF1, False
+    if shared >= 4 and deshared < 4:
+        return "SHARED_CANDIDATE_INPUT_FACTORIZATION_SPECIFICALLY_SUFFICIENT", [], True, AF1, False
+    if shared < 4 and deshared >= 4:
+        return "DESHARED_CANDIDATE_INPUT_FACTORIZATION_SUFFICIENT", ["SHARED_INPUT_BASIS_HARMFUL"], True, AF1D, False
+    return "CANDIDATE_INPUT_FACTORIZATION_TRANSFER_INSUFFICIENT", [], False, None, True
 
-    names = [condition for condition in CONDITIONS if condition in summaries]
-    labels = [name.replace("AF0_y3_parent", "AF0").replace("AF1_shared_candidate_input_factorization", "AF1 shared").replace("AF1F_folded_candidate_input_control", "AF1F folded").replace("AF1D_deshared_candidate_input_factorization", "AF1D deshared") for name in names]
 
-    fig = plt.figure(figsize=(9, 4)); ax = fig.add_subplot(111)
-    for family in FAMILIES:
-        ax.plot(range(len(names)), [summaries[n]["family_results"][family]["validation"]["median"] for n in names], marker="o", label=family)
-    ax.set_xticks(range(len(names)), labels, rotation=20, ha="right"); ax.set_ylabel("Validation median"); ax.legend(fontsize=7); fig.tight_layout(); fig.savefig(HERE / "plots" / "candidate_factorization_family_scores.png", dpi=120); plt.close(fig)
+def _plots(summaries: dict, dynamics: dict, effective: dict) -> None:
+    plots = HERE / "plots"
+    plots.mkdir(exist_ok=True)
+    labels = ["AF0", "AF1", "AF1F", "AF1D"]
+    x = np.arange(len(FAMILIES))
+    width = 0.2
+    fig, ax = plt.subplots(figsize=(10, 5))
+    for j, condition in enumerate(CONDITIONS):
+        ax.bar(x + (j - 1.5) * width, [summaries[condition]["family_results"][f]["validation"]["median"] for f in FAMILIES], width, label=labels[j])
+    ax.set_xticks(x); ax.set_xticklabels(FAMILIES, rotation=25, ha="right"); ax.legend(); fig.tight_layout()
+    fig.savefig(plots / "candidate_factorization_family_scores.png", dpi=150); plt.close(fig)
 
-    fig = plt.figure(figsize=(8, 4)); ax = fig.add_subplot(111)
-    ax.bar(range(len(names)), [summaries[n]["families_passing"] for n in names]); ax.set_xticks(range(len(names)), labels, rotation=20, ha="right"); ax.set_ylim(0, 5); ax.set_ylabel("Families passing"); fig.tight_layout(); fig.savefig(HERE / "plots" / "shared_vs_folded_vs_deshared.png", dpi=120); plt.close(fig)
+    fig, ax = plt.subplots(figsize=(6, 4))
+    ax.bar(labels[1:], [summaries[c]["families_passing"] for c in CONDITIONS[1:]])
+    ax.axhline(4, linestyle="--"); ax.set_ylim(0, 5.2); ax.set_ylabel("families passing"); fig.tight_layout()
+    fig.savefig(plots / "shared_vs_folded_vs_deshared.png", dpi=150); plt.close(fig)
 
-    fig = plt.figure(figsize=(8, 4)); ax = fig.add_subplot(111)
-    ax.bar(range(len(names)), [partial[n]["partial_observation_validation_median"] for n in names]); ax.set_xticks(range(len(names)), labels, rotation=20, ha="right"); ax.set_ylabel("Partial observation median"); fig.tight_layout(); fig.savefig(HERE / "plots" / "partial_observation_candidate_input.png", dpi=120); plt.close(fig)
+    key_families = ["conditional_routing", "partial_observation", "variable_composition"]
+    fig, ax = plt.subplots(figsize=(8, 4))
+    for condition in CONDITIONS:
+        ax.plot(key_families, [summaries[condition]["family_results"][f]["validation"]["median"] for f in key_families], marker="o", label=labels[CONDITIONS.index(condition)])
+    ax.legend(); ax.tick_params(axis="x", rotation=20); fig.tight_layout()
+    fig.savefig(plots / "partial_observation_candidate_input.png", dpi=150); plt.close(fig)
 
-    fig = plt.figure(figsize=(8, 4)); ax = fig.add_subplot(111)
-    drift = []
-    for n in names:
-        final = projection.get(n, {}).get(str(CONFIG["training"]["steps"]), {})
-        drift.append(final.get("projection_weight_drift_median", final.get("deshared_divergence_from_shared_initialization_mean_median", 0.0)))
-    ax.bar(range(len(names)), drift); ax.set_xticks(range(len(names)), labels, rotation=20, ha="right"); ax.set_ylabel("Projection drift"); fig.tight_layout(); fig.savefig(HERE / "plots" / "candidate_projection_drift.png", dpi=120); plt.close(fig)
+    fig, ax = plt.subplots(figsize=(7, 4))
+    for condition in (AF1, AF1D):
+        steps = sorted(int(s) for s in dynamics[condition])
+        if condition == AF1:
+            y = [dynamics[condition][str(s)].get("weight_drift_median", 0.0) for s in steps]
+        else:
+            y = [dynamics[condition][str(s)].get("projection_divergence_from_shared_initialization_mean_median", 0.0) for s in steps]
+        ax.plot(steps, y, marker="o", label=labels[CONDITIONS.index(condition)])
+    ax.set_xlabel("optimizer step"); ax.set_ylabel("projection drift"); ax.legend(); fig.tight_layout()
+    fig.savefig(plots / "candidate_projection_drift.png", dpi=150); plt.close(fig)
 
-    fig = plt.figure(figsize=(8, 4)); ax = fig.add_subplot(111)
-    ax.bar(range(len(names)), [effective[n]["pairwise_effective_input_map_cosine_median"] for n in names]); ax.set_xticks(range(len(names)), labels, rotation=20, ha="right"); ax.set_ylabel("Median pairwise cosine"); fig.tight_layout(); fig.savefig(HERE / "plots" / "effective_input_map_similarity.png", dpi=120); plt.close(fig)
+    fig, ax = plt.subplots(figsize=(6, 4))
+    ax.bar(labels, [effective[c]["pairwise_cosine_median"] for c in CONDITIONS])
+    ax.set_ylabel("median pairwise effective input-map cosine"); fig.tight_layout()
+    fig.savefig(plots / "effective_input_map_similarity.png", dpi=150); plt.close(fig)
 
-    fig = plt.figure(figsize=(8, 4)); ax = fig.add_subplot(111)
-    ax.scatter([compute[n]["projection_macs_per_timestep"] for n in names], [summaries[n]["families_passing"] for n in names]);
-    for n, label in zip(names, labels): ax.annotate(label, (compute[n]["projection_macs_per_timestep"], summaries[n]["families_passing"]))
-    ax.set_xlabel("Candidate projection MACs/timestep"); ax.set_ylabel("Families passing"); ax.set_ylim(0, 5); fig.tight_layout(); fig.savefig(HERE / "plots" / "capability_vs_candidate_projection_macs.png", dpi=120); plt.close(fig)
+    fig, ax = plt.subplots(figsize=(6, 4))
+    ax.scatter([summaries[c]["projection_specific_macs"] for c in CONDITIONS], [summaries[c]["families_passing"] for c in CONDITIONS])
+    for i, condition in enumerate(CONDITIONS):
+        ax.annotate(labels[i], (summaries[condition]["projection_specific_macs"], summaries[condition]["families_passing"]))
+    ax.set_xlabel("candidate projection MACs/timestep"); ax.set_ylabel("families passing"); ax.set_ylim(0, 5.2); fig.tight_layout()
+    fig.savefig(plots / "capability_vs_candidate_projection_macs.png", dpi=150); plt.close(fig)
 
 
 def main() -> int:
-    for directory in ("diagnostics", "plots"):
-        (HERE / directory).mkdir(exist_ok=True)
     rows = _rows()
-    if not rows:
-        raise SystemExit("V837af raw runs are missing")
-    summaries = {condition: _summary(rows, condition) for condition in CONDITIONS if any(r["condition"] == condition for r in rows)}
-    if set(summaries) != set(CONDITIONS):
-        raise SystemExit("V837af analysis requires AF0/AF1/AF1F/AF1D")
-    projection = _projection_dynamics(rows)
-    effective = _effective_maps(rows)
-    partial = _partial_observation(rows, summaries)
-    message = _message_dependence(rows)
-    compute = _compute_efficiency(rows)
-    decision = _decision(summaries)
-    resources = _resources(rows)
-    write_json(HERE / "diagnostics" / "projection_dynamics.json", projection)
+    if len(rows) != 100:
+        raise SystemExit(f"expected 100 V837af fits, found {len(rows)}")
+    parent = _load(HERE / "diagnostics" / "anchor_compatibility.json")
+    step0 = _load(HERE / "diagnostics" / "step0_equivalence.json")
+    if not parent.get("parent_reproduced") or not step0.get("step0_equivalence_proven"):
+        raise SystemExit("V837af interpretation blocked by failed parent/equivalence guard")
+    summaries = {condition: _summary(rows, condition) for condition in CONDITIONS}
+    dynamics = _projection_dynamics(rows)
+    effective = _effective_input_maps(rows)
+    partial, message = _path_diagnostics(rows)
+    resources = _resource_accounting(rows)
+    diagnosis, qualifiers, representation_pass, winner, v837ag_allowed = _decision(summaries)
+
+    write_json(HERE / "diagnostics" / "projection_dynamics.json", dynamics)
     write_json(HERE / "diagnostics" / "effective_input_maps.json", effective)
     write_json(HERE / "diagnostics" / "partial_observation_diagnostics.json", partial)
     write_json(HERE / "diagnostics" / "message_dependence.json", message)
+    compute = {
+        "conditions": {
+            condition: {
+                "families_passing": summaries[condition]["families_passing"],
+                "parameter_count": summaries[condition]["parameter_count"],
+                "active_parameter_count": summaries[condition]["active_parameter_count"],
+                "projection_parameter_count": summaries[condition]["projection_parameter_count"],
+                "projection_specific_macs": summaries[condition]["projection_specific_macs"],
+                "recurrent_controller_projection_macs": summaries[condition]["recurrent_controller_projection_macs"],
+            }
+            for condition in CONDITIONS
+        },
+        "resources": resources,
+    }
     write_json(HERE / "diagnostics" / "compute_efficiency.json", compute)
-    write_json(HERE / "diagnostics" / "decision_state.json", decision)
-    write_json(HERE.parent / "v837af_resource_accounting.json", resources)
-    step0 = json.loads((HERE / "diagnostics" / "step0_equivalence.json").read_text(encoding="utf-8"))
-    anchor = json.loads((HERE / "diagnostics" / "anchor_compatibility.json").read_text(encoding="utf-8"))
-    results = {
-        "version": "V837af",
-        "question": CONFIG["question"],
-        "conditions": summaries,
-        "parent_compatibility": anchor,
-        "step0_equivalence": step0,
-        "diagnosis": decision["diagnosis"],
-        "qualifiers": decision["qualifiers"],
-        "representation_adequacy_pass": decision["representation_adequacy_pass"],
-        "v837ag_allowed": decision["v837ag_allowed"],
-        "sample_efficiency_retest_allowed": decision["sample_efficiency_retest_allowed"],
-        "resource_accounting": resources,
-        "unique_seed_defined_episodes": 3200,
-        "fresh_audit_consumed": False,
+
+    decision_state = {
+        "v837af_complete": True,
+        "parent_reproduced": True,
+        "families_passing": {condition: summaries[condition]["families_passing"] for condition in CONDITIONS},
+        "diagnosis": diagnosis,
+        "diagnosis_qualifiers": qualifiers,
+        "best_passing_condition": winner,
+        "representation_adequacy_pass": representation_pass,
+        "v837ag_allowed": v837ag_allowed,
+        "sample_efficiency_retest_allowed": representation_pass,
         "structural_search_allowed": False,
         "primitive_mining_allowed": False,
+        "fresh_audit_consumed": False,
         "primitives_promoted": 0,
         "large_persistent_storage_tested": False,
         "v837ae_created": False,
         "v838_started": False,
     }
+    write_json(HERE / "diagnostics" / "decision_state.json", decision_state)
+    results = {
+        "version": "V837af",
+        "parent": "Y3_global_control_rank4_candidate",
+        "question": CONFIG["question"],
+        "conditions": summaries,
+        "projection_dynamics": dynamics,
+        "effective_input_maps_summary": {c: {k: v for k, v in effective[c].items() if k != "per_fit"} for c in CONDITIONS},
+        "partial_observation_diagnostics": partial,
+        "message_dependence": message,
+        "diagnosis": diagnosis,
+        "diagnosis_qualifiers": qualifiers,
+        "best_passing_condition": winner,
+        "representation_adequacy_pass": representation_pass,
+        "v837ag_allowed": v837ag_allowed,
+        "sample_efficiency_retest_allowed": representation_pass,
+        "structural_search_allowed": False,
+        "primitive_mining_allowed": False,
+        "fresh_audit_consumed": False,
+        "primitives_promoted": 0,
+        "large_persistent_storage_tested": False,
+        "v837ae_created": False,
+        "v838_started": False,
+        "resource_accounting": resources,
+    }
     write_json(HERE / "results.json", results)
-    _plots(summaries, projection, effective, partial, compute)
-    if decision["representation_adequacy_pass"]:
-        (HERE / "PASS.md").write_text(f"# V837af PASS\n\nDiagnosis: `{decision['diagnosis']}`. Neutral representation adequacy restored at >=4/5. Architecture localization must stop; sample-efficiency characterization is next.\n", encoding="utf-8")
-        failure = HERE / "FAILURE.md"
-        if failure.exists(): failure.unlink()
-    else:
-        (HERE / "FAILURE.md").write_text(f"# V837af candidate-input transfer insufficient\n\nDiagnosis: `{decision['diagnosis']}`. Controller-side and candidate-side input factorization have now both failed neutral transfer. V837ag is authorized.\n", encoding="utf-8")
-        passed = HERE / "PASS.md"
-        if passed.exists(): passed.unlink()
-    print(json.dumps(decision, indent=2))
+    write_json(ROOT / "experiments/v837_primitive_invention/v837af_resource_accounting.json", resources)
+    _plots(summaries, dynamics, effective)
+    status_file = "PASS.md" if representation_pass else "FAILURE.md"
+    (HERE / status_file).write_text(
+        f"# V837af — {diagnosis}\n\n"
+        f"AF0 Y3: {summaries[AF0]['families_passing']}/5.\n"
+        f"AF1 shared: {summaries[AF1]['families_passing']}/5.\n"
+        f"AF1F folded: {summaries[AF1F]['families_passing']}/5.\n"
+        f"AF1D de-shared: {summaries[AF1D]['families_passing']}/5.\n\n"
+        f"Representation adequacy: {'PASS' if representation_pass else 'FAIL'}.\n"
+        f"V837ag allowed: {v837ag_allowed}.\n",
+        encoding="utf-8",
+    )
+    print(json.dumps(decision_state, indent=2))
     return 0
 
 
