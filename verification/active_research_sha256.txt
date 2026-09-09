@@ -1,5 +1,5 @@
 # SHA-256 manifest for scientifically critical active research files.
-# Hash semantics: canonical committed Git blob bytes (portable across checkout line-ending settings).
+# Hash semantics: canonical committed Git blob bytes (portable across checkout line-ending settings); this manifest excludes itself to avoid recursive self-hashing.
 fdcf2143620e3c7f5ca59a804fea9ff85ae85977955cca333eb65c9dcb6c6728  docs/LIVE_REPO_VERIFICATION.md
 daf3e118ef5ec36dc4504b8d8ed0565f5de8e6ffdbbcc202757adb8b8884175e  docs/POST_V836_FRONTIER_AUDIT.md
 66a18304b156764a0f1af57fbda3babf29abb83981f9abdcab832588f0de87b0  docs/V837_AF1D_SAMPLE_EFFICIENCY_REPORT.md
@@ -1699,6 +1699,5 @@ c7e1c0a1dc57693b3dece6efe9623eb87e0a76112689d4435face8d2cdaba493  tests/test_v83
 c5a497c8540e6ba8a51c4eecefe8226202d2dcfe8278ea71a3e3f3444cd0c0af  tests/test_v837x_global_scalar_control.py
 34f05def06be08659070ac15f2de5890fc214546d75504cd5514ac4d4020efc0  tests/test_v837y_candidate_interaction.py
 8eab2b6d31e97ffdd801b13f696983756582a96e42367ad3f7f4a32b701246c9  tests/test_v837z_candidate_stage.py
-176d28fad757e6fac76372e0945c0be6eb936038a69368e869ccafd3c78095d7  verification/active_research_sha256.txt
 6014421c806184723cbd5f45d62d893c3b3cc8d1a346ae4582f7a93eabbb4e31  verification/live_repo_manifest.json
 836efd56cfabc705e9909173f8beb824dbea6d7c2d2859dd495fef5b5dc7ede9  verification/model_snapshot_manifest.json
