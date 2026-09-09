@@ -1,0 +1,102 @@
+{
+  "class_count": 11,
+  "classes": [
+    {
+      "class_id": "7fedb7f2cde70f01e87f5acb20bfe9b3e40fea85168072b6b7f0e40fc87517a4",
+      "confirmed": false,
+      "retention_fraction": 0.23529411764705882,
+      "size": 1,
+      "status": "DISCOVERY_ONLY_MOTIF",
+      "stream": "S"
+    },
+    {
+      "class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f",
+      "confirmed": false,
+      "retention_fraction": 0.6,
+      "size": 1,
+      "status": "DISCOVERY_ONLY_MOTIF",
+      "stream": "S"
+    },
+    {
+      "class_id": "ab04ad014b4d390c7eb93c4313c2f2bf47a80d1f1288b34252278d96998e73c3",
+      "confirmed": false,
+      "retention_fraction": 0.5555555555555556,
+      "size": 1,
+      "status": "DISCOVERY_ONLY_MOTIF",
+      "stream": "S"
+    },
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "confirmed": true,
+      "retention_fraction": 1.0,
+      "size": 1,
+      "status": "CONFIRMED",
+      "stream": "S"
+    },
+    {
+      "class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e",
+      "confirmed": false,
+      "retention_fraction": 0.5,
+      "size": 1,
+      "status": "DISCOVERY_ONLY_MOTIF",
+      "stream": "S"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "confirmed": true,
+      "retention_fraction": 0.975,
+      "size": 3,
+      "status": "CONFIRMED",
+      "stream": "D"
+    },
+    {
+      "class_id": "0ed27f961153639a171d41ee14ca8c64e9d9d298444eacc8ebe6471150cca7d8",
+      "confirmed": false,
+      "retention_fraction": 0.6956521739130435,
+      "size": 4,
+      "status": "DISCOVERY_ONLY_MOTIF",
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "confirmed": true,
+      "retention_fraction": 1.0,
+      "size": 5,
+      "status": "CONFIRMED",
+      "stream": "D"
+    },
+    {
+      "class_id": "ee70b6b00598cb4f5555e42f46a766e3921a8731e75bca146d9633d019bb18ad",
+      "confirmed": true,
+      "retention_fraction": 1.0,
+      "size": 7,
+      "status": "CONFIRMED",
+      "stream": "D"
+    },
+    {
+      "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+      "confirmed": true,
+      "retention_fraction": 1.0,
+      "size": 7,
+      "status": "CONFIRMED",
+      "stream": "D"
+    },
+    {
+      "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+      "confirmed": true,
+      "retention_fraction": 1.0,
+      "size": 7,
+      "status": "CONFIRMED",
+      "stream": "D"
+    }
+  ],
+  "confirmed_count": 6,
+  "thresholds": {
+    "1": 0.7095555342209601,
+    "3": 0.9518732502717504,
+    "4": 0.585919102877051,
+    "5": 0.5721232420943485,
+    "7": 0.6705293502748022
+  },
+  "version": "V837ak"
+}

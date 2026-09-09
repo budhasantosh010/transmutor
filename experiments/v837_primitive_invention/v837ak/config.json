@@ -1,0 +1,87 @@
+{
+  "version": "V837ak",
+  "starting_sha": "4e989e474b4d93cd04246219457990746015c33f",
+  "source": {
+    "directed_finalized": "experiments/v837_primitive_invention/v837aj/raw/search_finalized.json",
+    "random_finalized": "experiments/v837_primitive_invention/v837aj/raw/random_finalized.json",
+    "decision": "experiments/v837_primitive_invention/v837aj/diagnostics/decision_state.json",
+    "decision_sha256": "36d2e9ff5c6b4b1b07d930a85a1658f6326562f287c240b48d015400bcec98e2",
+    "organisms": 50,
+    "directed": 25,
+    "random": 25,
+    "competent": 40,
+    "incompetent": 10
+  },
+  "reconstruction": {
+    "development_seeds": [10000, 10511],
+    "development_episodes": 512,
+    "steps": 192,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "validation_seeds": [20000, 20127],
+    "validation_episodes": 128,
+    "max_workers": 8
+  },
+  "probes": {
+    "discovery": [20000, 20063],
+    "d1": [20000, 20031],
+    "d2": [20032, 20063],
+    "confirmation": [20064, 20127],
+    "c1": [20064, 20095],
+    "c2": [20096, 20127],
+    "fresh_audit": [90000, 90499]
+  },
+  "subsets": {"min_size": 1, "max_size": 10, "all_nonempty": true, "count_per_organism": 1023},
+  "replay": {"calibration_occurrences": 20, "episodes": 16, "max_abs_error": 1e-6},
+  "fingerprint": {
+    "ridge": 1e-6,
+    "reliability_auc": 0.80,
+    "median_self_ratio": 0.60,
+    "p90_self_vs_median_nonself": 1.0,
+    "tau_self_percentile": 95,
+    "neighbors": 64
+  },
+  "candidate": {
+    "general_min_support": 6,
+    "general_min_directed": 2,
+    "general_min_random": 2,
+    "general_min_families": 3,
+    "family_fraction": 0.60,
+    "family_min_support": 3,
+    "expensive_cap_structural": 6,
+    "expensive_cap_dynamic": 6,
+    "expensive_cap_total": 12,
+    "dedup_jaccard": 0.80,
+    "confirmation_retention": 0.70
+  },
+  "causal": {
+    "representatives_per_class": 8,
+    "shams_per_representative": 5,
+    "median_specificity": 0.03,
+    "positive_fraction": 0.60,
+    "p_value": 0.05,
+    "distribution_shift_ratio": 2.0
+  },
+  "boundary": {
+    "output_ratio": 0.75,
+    "state_ratio": 0.85,
+    "beat_both_fraction": 0.60,
+    "p_value": 0.01
+  },
+  "closed_loop": {
+    "max_median_drop": 0.05,
+    "retain_success_threshold": 0.85,
+    "retain_fraction": 0.60,
+    "control_margin": 0.10,
+    "p_value": 0.01
+  },
+  "science_locks": {
+    "new_structure_search": false,
+    "archive_population": false,
+    "primitives_promoted": 0,
+    "fresh_audit_consumed": false,
+    "large_persistent_storage_tested": false,
+    "v838_started": false
+  }
+}

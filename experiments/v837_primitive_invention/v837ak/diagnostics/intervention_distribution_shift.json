@@ -1,0 +1,35 @@
+{
+  "classes": [
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "distribution_shift_fraction": 0.125,
+      "flag": false
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "distribution_shift_fraction": 0.0,
+      "flag": false
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "distribution_shift_fraction": 0.0,
+      "flag": false
+    },
+    {
+      "class_id": "ee70b6b00598cb4f5555e42f46a766e3921a8731e75bca146d9633d019bb18ad",
+      "distribution_shift_fraction": 0.0,
+      "flag": false
+    },
+    {
+      "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+      "distribution_shift_fraction": 0.0,
+      "flag": false
+    },
+    {
+      "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+      "distribution_shift_fraction": 0.0,
+      "flag": false
+    }
+  ],
+  "version": "V837ak"
+}

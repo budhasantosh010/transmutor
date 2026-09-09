@@ -1,0 +1,6109 @@
+{
+  "causally_specific_count": 1,
+  "classes": [
+    {
+      "causal_evidence_downgraded": false,
+      "causal_specificity_pass": false,
+      "causal_status": "CAUSAL_GATE_FAIL",
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "distribution_shift_fraction": 0.125,
+      "intervention_distribution_shift": false,
+      "matched_sham_controls_complete": true,
+      "median_causal_specificity": -0.015625,
+      "median_real_lesion_drop": 0.015625,
+      "one_sided_p": 0.45703125,
+      "positive_fraction": 0.25,
+      "representatives": [
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": -0.03125,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.03125,
+          "median_sham_outside_state_divergence": 0.18281666921019335,
+          "message_divergence": 0.12784048447525637,
+          "nodes": [
+            5
+          ],
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "real_lesion_drop": 0.0,
+          "real_lesion_success": 0.984375,
+          "real_outside_state_divergence": 0.12338615867795558,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.5548043251037598,
+              "boundary_degree": 1,
+              "drop": 0.0,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.12883797980842873,
+              "nodes": [
+                4
+              ],
+              "outside_state_divergence": 0.18281666921019335,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.984375
+            },
+            {
+              "activity_norm": 0.61395263671875,
+              "boundary_degree": 2,
+              "drop": 0.078125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.29810881796388483,
+              "nodes": [
+                1
+              ],
+              "outside_state_divergence": 0.1524416944600468,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.90625
+            },
+            {
+              "activity_norm": 0.338574081659317,
+              "boundary_degree": 2,
+              "drop": 0.03125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.20326852319249195,
+              "nodes": [
+                9
+              ],
+              "outside_state_divergence": 0.09307077532103904,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.953125
+            },
+            {
+              "activity_norm": 0.6853395700454712,
+              "boundary_degree": 2,
+              "drop": 0.09375,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.49312444389332327,
+              "nodes": [
+                6
+              ],
+              "outside_state_divergence": 0.3287378906785467,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.890625
+            },
+            {
+              "activity_norm": 0.7641180753707886,
+              "boundary_degree": 2,
+              "drop": 0.03125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.42804553663363554,
+              "nodes": [
+                0
+              ],
+              "outside_state_divergence": 0.3643644466879666,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.953125
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.234375,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.078125,
+          "median_sham_outside_state_divergence": 0.3302465967910016,
+          "message_divergence": 0.5257657001225474,
+          "nodes": [
+            0
+          ],
+          "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+          "real_lesion_drop": 0.3125,
+          "real_lesion_success": 0.671875,
+          "real_outside_state_divergence": 0.5267386839639305,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.2241101264953613,
+              "boundary_degree": 2,
+              "drop": 0.078125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.3150260901440551,
+              "nodes": [
+                7
+              ],
+              "outside_state_divergence": 0.3302465967910016,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.90625
+            },
+            {
+              "activity_norm": 1.118438959121704,
+              "boundary_degree": 3,
+              "drop": 0.234375,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.45384997313140096,
+              "nodes": [
+                2
+              ],
+              "outside_state_divergence": 0.42272911899724247,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.75
+            },
+            {
+              "activity_norm": 1.3590397834777832,
+              "boundary_degree": 4,
+              "drop": 0.078125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.48884479987294416,
+              "nodes": [
+                4
+              ],
+              "outside_state_divergence": 0.23550179229061077,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.90625
+            },
+            {
+              "activity_norm": 1.4922274351119995,
+              "boundary_degree": 4,
+              "drop": 0.296875,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.8790829195540997,
+              "nodes": [
+                1
+              ],
+              "outside_state_divergence": 0.9017250417322585,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.6875
+            },
+            {
+              "activity_norm": 1.3011598587036133,
+              "boundary_degree": 4,
+              "drop": 0.0,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.46496324835549735,
+              "nodes": [
+                9
+              ],
+              "outside_state_divergence": 0.24063783306709835,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.984375
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.875,
+          "causal_specificity": -0.15625,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "partial_observation",
+          "intervention_distribution_shift": true,
+          "median_sham_drop": 0.203125,
+          "median_sham_outside_state_divergence": 0.25727118009564015,
+          "message_divergence": 0.6792928857709616,
+          "nodes": [
+            7
+          ],
+          "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+          "real_lesion_drop": 0.046875,
+          "real_lesion_success": 0.828125,
+          "real_outside_state_divergence": 0.6369008810793413,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.5812584161758423,
+              "boundary_degree": 2,
+              "drop": 0.265625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.30545504941138946,
+              "nodes": [
+                1
+              ],
+              "outside_state_divergence": 0.19897650934653868,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.609375
+            },
+            {
+              "activity_norm": 0.5366629362106323,
+              "boundary_degree": 2,
+              "drop": 0.0625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.3521093726245042,
+              "nodes": [
+                2
+              ],
+              "outside_state_divergence": 0.30305304153119555,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.8125
+            },
+            {
+              "activity_norm": 1.0833481550216675,
+              "boundary_degree": 3,
+              "drop": 0.203125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.6572116797300018,
+              "nodes": [
+                8
+              ],
+              "outside_state_divergence": 0.572296081204086,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.671875
+            },
+            {
+              "activity_norm": 0.5225939750671387,
+              "boundary_degree": 3,
+              "drop": 0.125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.2649110371929627,
+              "nodes": [
+                0
+              ],
+              "outside_state_divergence": 0.19496766493746218,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.75
+            },
+            {
+              "activity_norm": 0.8786323070526123,
+              "boundary_degree": 4,
+              "drop": 0.21875,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.5226180152550509,
+              "nodes": [
+                4
+              ],
+              "outside_state_divergence": 0.25727118009564015,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.65625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": -0.015625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.015625,
+          "median_sham_outside_state_divergence": 0.28709705223179655,
+          "message_divergence": 0.29797302672954873,
+          "nodes": [
+            0
+          ],
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "real_lesion_drop": 0.0,
+          "real_lesion_success": 0.984375,
+          "real_outside_state_divergence": 0.30604469153555564,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.4110841453075409,
+              "boundary_degree": 1,
+              "drop": 0.03125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.21616102300606982,
+              "nodes": [
+                3
+              ],
+              "outside_state_divergence": 0.2326928169078837,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.953125
+            },
+            {
+              "activity_norm": 0.43591853976249695,
+              "boundary_degree": 2,
+              "drop": 0.015625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.2841289518406931,
+              "nodes": [
+                7
+              ],
+              "outside_state_divergence": 0.22952846861381404,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.96875
+            },
+            {
+              "activity_norm": 0.5936667323112488,
+              "boundary_degree": 1,
+              "drop": 0.09375,
+              "edge_count_delta": 1,
+              "internal_edges": 1,
+              "message_divergence": 0.30394517000534327,
+              "nodes": [
+                6
+              ],
+              "outside_state_divergence": 0.3227909227400613,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 1,
+              "relaxation_level": 1,
+              "success": 0.890625
+            },
+            {
+              "activity_norm": 0.6210507750511169,
+              "boundary_degree": 1,
+              "drop": 0.0,
+              "edge_count_delta": 1,
+              "internal_edges": 1,
+              "message_divergence": 0.3727755766175549,
+              "nodes": [
+                2
+              ],
+              "outside_state_divergence": 0.3275445733555124,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 1,
+              "relaxation_level": 1,
+              "success": 0.984375
+            },
+            {
+              "activity_norm": 0.43972063064575195,
+              "boundary_degree": 1,
+              "drop": 0.015625,
+              "edge_count_delta": 1,
+              "internal_edges": 1,
+              "message_divergence": 0.28807846595397274,
+              "nodes": [
+                4
+              ],
+              "outside_state_divergence": 0.28709705223179655,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 1,
+              "relaxation_level": 1,
+              "success": 0.96875
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": -0.015625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.03125,
+          "median_sham_outside_state_divergence": 0.20573057965816338,
+          "message_divergence": 0.2587969532101695,
+          "nodes": [
+            0
+          ],
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "real_lesion_drop": 0.015625,
+          "real_lesion_success": 0.984375,
+          "real_outside_state_divergence": 0.16969990786517972,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.3156367540359497,
+              "boundary_degree": 1,
+              "drop": 0.0,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.1206048950016693,
+              "nodes": [
+                9
+              ],
+              "outside_state_divergence": 0.10905451122890068,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 1.0
+            },
+            {
+              "activity_norm": 0.3346829414367676,
+              "boundary_degree": 2,
+              "drop": 0.0,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.19121935415440525,
+              "nodes": [
+                1
+              ],
+              "outside_state_divergence": 0.11530979688173909,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 1.0
+            },
+            {
+              "activity_norm": 0.4390554130077362,
+              "boundary_degree": 2,
+              "drop": 0.03125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.3270715962831127,
+              "nodes": [
+                4
+              ],
+              "outside_state_divergence": 0.22444421020868946,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.96875
+            },
+            {
+              "activity_norm": 0.45476004481315613,
+              "boundary_degree": 2,
+              "drop": 0.046875,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.32516892980173967,
+              "nodes": [
+                3
+              ],
+              "outside_state_divergence": 0.2648246162572836,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.953125
+            },
+            {
+              "activity_norm": 0.46510985493659973,
+              "boundary_degree": 2,
+              "drop": 0.046875,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.3463291440571735,
+              "nodes": [
+                7
+              ],
+              "outside_state_divergence": 0.20573057965816338,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.953125
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": -0.046875,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.0625,
+          "median_sham_outside_state_divergence": 0.20630071196292296,
+          "message_divergence": 0.26599896234361514,
+          "nodes": [
+            3
+          ],
+          "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+          "real_lesion_drop": 0.015625,
+          "real_lesion_success": 0.984375,
+          "real_outside_state_divergence": 0.21561981405039873,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.4518735408782959,
+              "boundary_degree": 1,
+              "drop": 0.0625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.21229519231016028,
+              "nodes": [
+                6
+              ],
+              "outside_state_divergence": 0.18524796526346,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.9375
+            },
+            {
+              "activity_norm": 0.5273890495300293,
+              "boundary_degree": 0,
+              "drop": 0.015625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.173178536983854,
+              "nodes": [
+                5
+              ],
+              "outside_state_divergence": 0.1777549429745541,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.984375
+            },
+            {
+              "activity_norm": 0.5287520885467529,
+              "boundary_degree": 3,
+              "drop": 0.078125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.4065957640981068,
+              "nodes": [
+                2
+              ],
+              "outside_state_divergence": 0.2435905454123559,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.921875
+            },
+            {
+              "activity_norm": 0.5666003823280334,
+              "boundary_degree": 3,
+              "drop": 0.140625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.592384110181766,
+              "nodes": [
+                0
+              ],
+              "outside_state_divergence": 0.26565994525380193,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.859375
+            },
+            {
+              "activity_norm": 0.5997796654701233,
+              "boundary_degree": 3,
+              "drop": 0.046875,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.42245257912711004,
+              "nodes": [
+                8
+              ],
+              "outside_state_divergence": 0.20630071196292296,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.953125
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": 0.09375,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.015625,
+          "median_sham_outside_state_divergence": 0.22733894895285683,
+          "message_divergence": 0.3630491699259447,
+          "nodes": [
+            0
+          ],
+          "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+          "real_lesion_drop": 0.109375,
+          "real_lesion_success": 0.890625,
+          "real_outside_state_divergence": 0.2123063896926441,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.5703722834587097,
+              "boundary_degree": 1,
+              "drop": 0.03125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.31781723120134076,
+              "nodes": [
+                8
+              ],
+              "outside_state_divergence": 0.3017336084535712,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.96875
+            },
+            {
+              "activity_norm": 0.5659266114234924,
+              "boundary_degree": 2,
+              "drop": 0.0,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.3118129190188512,
+              "nodes": [
+                1
+              ],
+              "outside_state_divergence": 0.17364969738253,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 1.0
+            },
+            {
+              "activity_norm": 0.5922800898551941,
+              "boundary_degree": 2,
+              "drop": 0.015625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.35189509535024915,
+              "nodes": [
+                4
+              ],
+              "outside_state_divergence": 0.2628603945167204,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.984375
+            },
+            {
+              "activity_norm": 0.5016642808914185,
+              "boundary_degree": 1,
+              "drop": 0.015625,
+              "edge_count_delta": 1,
+              "internal_edges": 1,
+              "message_divergence": 0.36086729108849974,
+              "nodes": [
+                6
+              ],
+              "outside_state_divergence": 0.21794433940166616,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 1,
+              "relaxation_level": 1,
+              "success": 0.984375
+            },
+            {
+              "activity_norm": 0.482315331697464,
+              "boundary_degree": 1,
+              "drop": 0.015625,
+              "edge_count_delta": 1,
+              "internal_edges": 1,
+              "message_divergence": 0.2443908018310084,
+              "nodes": [
+                7
+              ],
+              "outside_state_divergence": 0.22733894895285683,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 1,
+              "relaxation_level": 1,
+              "success": 0.984375
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": -0.015625,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.03125,
+          "median_sham_outside_state_divergence": 0.1816317600870239,
+          "message_divergence": 0.44854470406478736,
+          "nodes": [
+            6
+          ],
+          "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+          "real_lesion_drop": 0.015625,
+          "real_lesion_success": 0.984375,
+          "real_outside_state_divergence": 0.3568103790684138,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.5078431367874146,
+              "boundary_degree": 1,
+              "drop": 0.015625,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.4037480533255275,
+              "nodes": [
+                0
+              ],
+              "outside_state_divergence": 0.2595287968312323,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.984375
+            },
+            {
+              "activity_norm": 0.6000005602836609,
+              "boundary_degree": 2,
+              "drop": 0.3125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.5597011474962915,
+              "nodes": [
+                2
+              ],
+              "outside_state_divergence": 0.3165142948079574,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.6875
+            },
+            {
+              "activity_norm": 0.4191049635410309,
+              "boundary_degree": 2,
+              "drop": 0.03125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.16522283124933831,
+              "nodes": [
+                4
+              ],
+              "outside_state_divergence": 0.1816317600870239,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.96875
+            },
+            {
+              "activity_norm": 0.40101358294487,
+              "boundary_degree": 2,
+              "drop": 0.03125,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.11947452817203935,
+              "nodes": [
+                8
+              ],
+              "outside_state_divergence": 0.12450004800765425,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 0.96875
+            },
+            {
+              "activity_norm": 0.397599995136261,
+              "boundary_degree": 2,
+              "drop": 0.0,
+              "edge_count_delta": 0,
+              "internal_edges": 0,
+              "message_divergence": 0.31039617801353153,
+              "nodes": [
+                1
+              ],
+              "outside_state_divergence": 0.13870092191226302,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 0,
+              "relaxation_level": 0,
+              "success": 1.0
+            }
+          ]
+        }
+      ],
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "causal_evidence_downgraded": false,
+      "causal_specificity_pass": true,
+      "causal_status": "PASS",
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "distribution_shift_fraction": 0.0,
+      "intervention_distribution_shift": false,
+      "matched_sham_controls_complete": true,
+      "median_causal_specificity": 0.0703125,
+      "median_real_lesion_drop": 0.5078125,
+      "one_sided_p": 0.015625,
+      "positive_fraction": 0.75,
+      "representatives": [
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.21875,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.265625,
+          "median_sham_outside_state_divergence": 0.25367385727493164,
+          "message_divergence": 0.8349783137625183,
+          "nodes": [
+            2,
+            6,
+            7
+          ],
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "real_lesion_drop": 0.484375,
+          "real_lesion_success": 0.5,
+          "real_outside_state_divergence": 0.3850276032543866,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.9348912835121155,
+              "boundary_degree": 7,
+              "drop": 0.046875,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.4509033734025204,
+              "nodes": [
+                4,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.25367385727493164,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.9375
+            },
+            {
+              "activity_norm": 0.8780426979064941,
+              "boundary_degree": 7,
+              "drop": 0.265625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.23571962154824963,
+              "nodes": [
+                3,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.2862310576442055,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.71875
+            },
+            {
+              "activity_norm": 0.8224121332168579,
+              "boundary_degree": 7,
+              "drop": 0.34375,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.26405960091352043,
+              "nodes": [
+                1,
+                3,
+                7
+              ],
+              "outside_state_divergence": 0.22718967455599112,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.640625
+            },
+            {
+              "activity_norm": 0.6374551653862,
+              "boundary_degree": 7,
+              "drop": 0.140625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.1504314884580557,
+              "nodes": [
+                3,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.14845952263943535,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.84375
+            },
+            {
+              "activity_norm": 1.070483684539795,
+              "boundary_degree": 8,
+              "drop": 0.34375,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.6439561945465936,
+              "nodes": [
+                0,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.4126101574157505,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.640625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.921875,
+          "causal_specificity": 0.09375,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.46875,
+          "median_sham_outside_state_divergence": 0.4314250974050886,
+          "message_divergence": 0.4642394229126403,
+          "nodes": [
+            1,
+            2,
+            7
+          ],
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "real_lesion_drop": 0.5625,
+          "real_lesion_success": 0.359375,
+          "real_outside_state_divergence": 0.42792336895285277,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.5606187582015991,
+              "boundary_degree": 4,
+              "drop": 0.46875,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.5091214250578836,
+              "nodes": [
+                1,
+                2,
+                4
+              ],
+              "outside_state_divergence": 0.4314250974050886,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.453125
+            },
+            {
+              "activity_norm": 1.5620083808898926,
+              "boundary_degree": 4,
+              "drop": 0.625,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.5504141884948877,
+              "nodes": [
+                2,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.5523882007627935,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.296875
+            },
+            {
+              "activity_norm": 1.5752583742141724,
+              "boundary_degree": 4,
+              "drop": 0.359375,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.43406597546312903,
+              "nodes": [
+                2,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.3844876582034675,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.5625
+            },
+            {
+              "activity_norm": 1.620723009109497,
+              "boundary_degree": 4,
+              "drop": 0.625,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.5859011720996922,
+              "nodes": [
+                1,
+                2,
+                8
+              ],
+              "outside_state_divergence": 0.5671212959891547,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.296875
+            },
+            {
+              "activity_norm": 1.6365710496902466,
+              "boundary_degree": 4,
+              "drop": 0.390625,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.3690972386768183,
+              "nodes": [
+                1,
+                2,
+                6
+              ],
+              "outside_state_divergence": 0.3514517240237483,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.53125
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "causal_specificity": 0.0,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.53125,
+          "median_sham_outside_state_divergence": 0.9084629432908502,
+          "message_divergence": 1.0544135961348917,
+          "nodes": [
+            0,
+            7,
+            8
+          ],
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "real_lesion_drop": 0.53125,
+          "real_lesion_success": 0.4375,
+          "real_outside_state_divergence": 1.06983446042042,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.242938280105591,
+              "boundary_degree": 1,
+              "drop": 0.53125,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.8865820323662482,
+              "nodes": [
+                3,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.9197291334682848,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.4375
+            },
+            {
+              "activity_norm": 2.090519428253174,
+              "boundary_degree": 1,
+              "drop": 0.5,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.8751186664501532,
+              "nodes": [
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9084629432908502,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.46875
+            },
+            {
+              "activity_norm": 2.3015170097351074,
+              "boundary_degree": 1,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.8636814439843338,
+              "nodes": [
+                2,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8834205528095329,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.194124698638916,
+              "boundary_degree": 2,
+              "drop": 0.703125,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.8822810210635037,
+              "nodes": [
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.9425794077387796,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 2.163003921508789,
+              "boundary_degree": 2,
+              "drop": 0.5,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.69394820403473,
+              "nodes": [
+                3,
+                4,
+                9
+              ],
+              "outside_state_divergence": 0.721432085667928,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.46875
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "causal_specificity": 0.046875,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.546875,
+          "median_sham_outside_state_divergence": 0.31254916670081345,
+          "message_divergence": 0.6130002308728023,
+          "nodes": [
+            4,
+            7,
+            8
+          ],
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "real_lesion_drop": 0.59375,
+          "real_lesion_success": 0.296875,
+          "real_outside_state_divergence": 0.47409906874850627,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.5085947513580322,
+              "boundary_degree": 5,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.6695115240120327,
+              "nodes": [
+                2,
+                4,
+                5
+              ],
+              "outside_state_divergence": 0.5078791333568092,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 1.4523416757583618,
+              "boundary_degree": 5,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.4300496878913494,
+              "nodes": [
+                4,
+                5,
+                9
+              ],
+              "outside_state_divergence": 0.31254916670081345,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.25
+            },
+            {
+              "activity_norm": 1.4230026006698608,
+              "boundary_degree": 5,
+              "drop": 0.578125,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.5215276174708663,
+              "nodes": [
+                3,
+                5,
+                7
+              ],
+              "outside_state_divergence": 0.3477230874240791,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.3125
+            },
+            {
+              "activity_norm": 1.4168422222137451,
+              "boundary_degree": 5,
+              "drop": 0.546875,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.6183742057856018,
+              "nodes": [
+                2,
+                3,
+                5
+              ],
+              "outside_state_divergence": 0.30995733841780776,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 1.3835121393203735,
+              "boundary_degree": 5,
+              "drop": 0.34375,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.23684280620805467,
+              "nodes": [
+                1,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.22025699639964114,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.546875
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.90625,
+          "causal_specificity": 0.0625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "partial_observation",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.203125,
+          "median_sham_outside_state_divergence": 0.4322600536729192,
+          "message_divergence": 0.3998438725094006,
+          "nodes": [
+            3,
+            4,
+            7
+          ],
+          "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+          "real_lesion_drop": 0.265625,
+          "real_lesion_success": 0.640625,
+          "real_outside_state_divergence": 0.3682888502025518,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.018540620803833,
+              "boundary_degree": 3,
+              "drop": 0.1875,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.42721561166046684,
+              "nodes": [
+                0,
+                3,
+                4
+              ],
+              "outside_state_divergence": 0.4322600536729192,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.71875
+            },
+            {
+              "activity_norm": 1.0180141925811768,
+              "boundary_degree": 3,
+              "drop": 0.21875,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.38690254681282105,
+              "nodes": [
+                3,
+                4,
+                9
+              ],
+              "outside_state_divergence": 0.3792485178273873,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.6875
+            },
+            {
+              "activity_norm": 1.0080469846725464,
+              "boundary_degree": 3,
+              "drop": 0.1875,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.3713868171485465,
+              "nodes": [
+                1,
+                3,
+                4
+              ],
+              "outside_state_divergence": 0.41228418272242096,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.71875
+            },
+            {
+              "activity_norm": 0.9635692238807678,
+              "boundary_degree": 3,
+              "drop": 0.203125,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.4910732194848523,
+              "nodes": [
+                0,
+                3,
+                8
+              ],
+              "outside_state_divergence": 0.5370077988866467,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.703125
+            },
+            {
+              "activity_norm": 0.9634897708892822,
+              "boundary_degree": 3,
+              "drop": 0.25,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.4251658061336264,
+              "nodes": [
+                3,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.47704225347345236,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.65625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.953125,
+          "causal_specificity": 0.0,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.640625,
+          "median_sham_outside_state_divergence": 0.5425953302325071,
+          "message_divergence": 0.7703836734993544,
+          "nodes": [
+            0,
+            3,
+            7
+          ],
+          "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+          "real_lesion_drop": 0.640625,
+          "real_lesion_success": 0.3125,
+          "real_outside_state_divergence": 0.5470407955378938,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.5106596946716309,
+              "boundary_degree": 8,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.7570333859790926,
+              "nodes": [
+                2,
+                5,
+                7
+              ],
+              "outside_state_divergence": 0.3894496676356458,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.3125
+            },
+            {
+              "activity_norm": 1.661399483680725,
+              "boundary_degree": 8,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.7723953314696147,
+              "nodes": [
+                0,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.5425953302325071,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.3125
+            },
+            {
+              "activity_norm": 1.8679076433181763,
+              "boundary_degree": 8,
+              "drop": 0.625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.7812139136095667,
+              "nodes": [
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.637756077864309,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.328125
+            },
+            {
+              "activity_norm": 1.5539436340332031,
+              "boundary_degree": 7,
+              "drop": 0.59375,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.7339986771365352,
+              "nodes": [
+                2,
+                4,
+                7
+              ],
+              "outside_state_divergence": 0.3764093097789937,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 1.5807780027389526,
+              "boundary_degree": 9,
+              "drop": 0.71875,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.8265527680802568,
+              "nodes": [
+                0,
+                3,
+                9
+              ],
+              "outside_state_divergence": 0.663060135191783,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.234375
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.078125,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.296875,
+          "median_sham_outside_state_divergence": 0.37498111739601553,
+          "message_divergence": 0.27830131023732646,
+          "nodes": [
+            1,
+            3,
+            9
+          ],
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "real_lesion_drop": 0.375,
+          "real_lesion_success": 0.609375,
+          "real_outside_state_divergence": 0.2921546087920574,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.7733850479125977,
+              "boundary_degree": 3,
+              "drop": 0.296875,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.28512249121135885,
+              "nodes": [
+                3,
+                5,
+                9
+              ],
+              "outside_state_divergence": 0.3198297484079713,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.6875
+            },
+            {
+              "activity_norm": 0.8234151005744934,
+              "boundary_degree": 3,
+              "drop": 0.15625,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.5038137482381111,
+              "nodes": [
+                4,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.47824751401045074,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.828125
+            },
+            {
+              "activity_norm": 0.838042140007019,
+              "boundary_degree": 3,
+              "drop": 0.046875,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.3344538431704341,
+              "nodes": [
+                0,
+                5,
+                9
+              ],
+              "outside_state_divergence": 0.37498111739601553,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.9375
+            },
+            {
+              "activity_norm": 0.7343911528587341,
+              "boundary_degree": 3,
+              "drop": 0.3125,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.276027572353939,
+              "nodes": [
+                1,
+                3,
+                7
+              ],
+              "outside_state_divergence": 0.281833770544895,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.671875
+            },
+            {
+              "activity_norm": 0.862135648727417,
+              "boundary_degree": 3,
+              "drop": 0.421875,
+              "edge_count_delta": 0,
+              "internal_edges": 2,
+              "message_divergence": 0.4202617112233356,
+              "nodes": [
+                3,
+                4,
+                6
+              ],
+              "outside_state_divergence": 0.45247968914916387,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.5625
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": 0.125,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.265625,
+          "median_sham_outside_state_divergence": 0.3657856019726465,
+          "message_divergence": 0.3964037149245945,
+          "nodes": [
+            1,
+            2,
+            3
+          ],
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "real_lesion_drop": 0.390625,
+          "real_lesion_success": 0.609375,
+          "real_outside_state_divergence": 0.3658160091820606,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 0.9217888712882996,
+              "boundary_degree": 2,
+              "drop": 0.5,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.5014352421400711,
+              "nodes": [
+                2,
+                3,
+                4
+              ],
+              "outside_state_divergence": 0.5193937772827789,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.5
+            },
+            {
+              "activity_norm": 0.7364235520362854,
+              "boundary_degree": 2,
+              "drop": 0.453125,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.39693615631435825,
+              "nodes": [
+                3,
+                4,
+                5
+              ],
+              "outside_state_divergence": 0.39327491785568985,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.546875
+            },
+            {
+              "activity_norm": 0.8197515606880188,
+              "boundary_degree": 1,
+              "drop": 0.265625,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.3941413845786966,
+              "nodes": [
+                0,
+                1,
+                2
+              ],
+              "outside_state_divergence": 0.3657856019726465,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.734375
+            },
+            {
+              "activity_norm": 0.7448562979698181,
+              "boundary_degree": 1,
+              "drop": 0.265625,
+              "edge_count_delta": 0,
+              "internal_edges": 3,
+              "message_divergence": 0.312734526047973,
+              "nodes": [
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.3106801617482877,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 0,
+              "success": 0.734375
+            },
+            {
+              "activity_norm": 0.6818549036979675,
+              "boundary_degree": 2,
+              "drop": 0.09375,
+              "edge_count_delta": 1,
+              "internal_edges": 2,
+              "message_divergence": 0.3219675847280093,
+              "nodes": [
+                0,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.20808787108225327,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 1,
+              "relaxation_level": 1,
+              "success": 0.90625
+            }
+          ]
+        }
+      ],
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "causal_evidence_downgraded": false,
+      "causal_specificity_pass": false,
+      "causal_status": "CAUSAL_GATE_FAIL",
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "distribution_shift_fraction": 0.0,
+      "intervention_distribution_shift": false,
+      "matched_sham_controls_complete": true,
+      "median_causal_specificity": -0.0078125,
+      "median_real_lesion_drop": 0.4453125,
+      "one_sided_p": 0.90625,
+      "positive_fraction": 0.25,
+      "representatives": [
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.0,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.40625,
+          "median_sham_outside_state_divergence": 0.3715642265794473,
+          "message_divergence": 0.4677821194430822,
+          "nodes": [
+            1,
+            5,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "real_lesion_drop": 0.40625,
+          "real_lesion_success": 0.578125,
+          "real_outside_state_divergence": 0.34241759686871687,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.3419913053512573,
+              "boundary_degree": 5,
+              "drop": 0.453125,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.7087865941679876,
+              "nodes": [
+                0,
+                1,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.48048237015315276,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.53125
+            },
+            {
+              "activity_norm": 1.235388994216919,
+              "boundary_degree": 4,
+              "drop": 0.40625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.5304061364965283,
+              "nodes": [
+                1,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.3542595221746659,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.578125
+            },
+            {
+              "activity_norm": 1.3697988986968994,
+              "boundary_degree": 6,
+              "drop": 0.390625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.9632580036884958,
+              "nodes": [
+                1,
+                2,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.3715642265794473,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.59375
+            },
+            {
+              "activity_norm": 1.3223495483398438,
+              "boundary_degree": 7,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.9361210042882586,
+              "nodes": [
+                1,
+                2,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.44220602831330436,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.46875
+            },
+            {
+              "activity_norm": 1.1479343175888062,
+              "boundary_degree": 5,
+              "drop": 0.21875,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.22981239155108385,
+              "nodes": [
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.28790642749223605,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 4,
+              "relaxation_level": 1,
+              "success": 0.765625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.90625,
+          "causal_specificity": 0.015625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "partial_observation",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.328125,
+          "median_sham_outside_state_divergence": 0.7309045732423026,
+          "message_divergence": 0.6664401000808982,
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            7
+          ],
+          "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+          "real_lesion_drop": 0.34375,
+          "real_lesion_success": 0.5625,
+          "real_outside_state_divergence": 0.6339760372703852,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.367105484008789,
+              "boundary_degree": 4,
+              "drop": 0.296875,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.6323007676242535,
+              "nodes": [
+                2,
+                3,
+                4,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.5827573836958893,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.609375
+            },
+            {
+              "activity_norm": 1.3278549909591675,
+              "boundary_degree": 4,
+              "drop": 0.390625,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.7870253440506798,
+              "nodes": [
+                0,
+                2,
+                3,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8521643679921211,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.515625
+            },
+            {
+              "activity_norm": 1.3276180028915405,
+              "boundary_degree": 4,
+              "drop": 0.34375,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.7386651466293835,
+              "nodes": [
+                2,
+                3,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8125991260255645,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.5625
+            },
+            {
+              "activity_norm": 1.3199347257614136,
+              "boundary_degree": 4,
+              "drop": 0.28125,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.6787790843415299,
+              "nodes": [
+                1,
+                2,
+                3,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.7309045732423026,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.625
+            },
+            {
+              "activity_norm": 1.3064053058624268,
+              "boundary_degree": 4,
+              "drop": 0.328125,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.6060415405253755,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                9
+              ],
+              "outside_state_divergence": 0.6739413625483796,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.578125
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": -0.21875,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.46875,
+          "median_sham_outside_state_divergence": 0.5791502386196679,
+          "message_divergence": 0.6005402060659218,
+          "nodes": [
+            0,
+            1,
+            2,
+            5,
+            6
+          ],
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "real_lesion_drop": 0.25,
+          "real_lesion_success": 0.734375,
+          "real_outside_state_divergence": 0.7428028099353782,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.1346005201339722,
+              "boundary_degree": 3,
+              "drop": 0.53125,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.657796348661159,
+              "nodes": [
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.6680335873395233,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.453125
+            },
+            {
+              "activity_norm": 1.1177294254302979,
+              "boundary_degree": 3,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.4762367119512934,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "outside_state_divergence": 0.6035761112959217,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.46875
+            },
+            {
+              "activity_norm": 1.2195208072662354,
+              "boundary_degree": 3,
+              "drop": 0.21875,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.6453898803700144,
+              "nodes": [
+                0,
+                1,
+                4,
+                5,
+                8
+              ],
+              "outside_state_divergence": 0.5791502386196679,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.765625
+            },
+            {
+              "activity_norm": 1.0866833925247192,
+              "boundary_degree": 3,
+              "drop": 0.234375,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.4678864118506811,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                5
+              ],
+              "outside_state_divergence": 0.47407172758038424,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.75
+            },
+            {
+              "activity_norm": 1.0432322025299072,
+              "boundary_degree": 3,
+              "drop": 0.46875,
+              "edge_count_delta": 0,
+              "internal_edges": 6,
+              "message_divergence": 0.36693530396203133,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "outside_state_divergence": 0.4079384056187933,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.515625
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": -0.015625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.53125,
+          "median_sham_outside_state_divergence": 0.5355294490439744,
+          "message_divergence": 0.8058286159962375,
+          "nodes": [
+            3,
+            6,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "real_lesion_drop": 0.515625,
+          "real_lesion_success": 0.484375,
+          "real_outside_state_divergence": 0.6982131000127305,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.100711464881897,
+              "boundary_degree": 3,
+              "drop": 0.53125,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.6133500775604418,
+              "nodes": [
+                2,
+                3,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5183484293368152,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.46875
+            },
+            {
+              "activity_norm": 1.0983918905258179,
+              "boundary_degree": 3,
+              "drop": 0.546875,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.7606234255277666,
+              "nodes": [
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5854073476634288,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.453125
+            },
+            {
+              "activity_norm": 1.0894111394882202,
+              "boundary_degree": 3,
+              "drop": 0.65625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.5349717117753459,
+              "nodes": [
+                2,
+                3,
+                4,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.44943969050867616,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 1.0729777812957764,
+              "boundary_degree": 3,
+              "drop": 0.390625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.6503403673036203,
+              "nodes": [
+                0,
+                1,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.5488433526101415,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.609375
+            },
+            {
+              "activity_norm": 1.0721608400344849,
+              "boundary_degree": 3,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.6413750594439768,
+              "nodes": [
+                0,
+                4,
+                5,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.5355294490439744,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 2,
+              "relaxation_level": 0,
+              "success": 0.484375
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": -0.015625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.5,
+          "median_sham_outside_state_divergence": 0.49071623974507805,
+          "message_divergence": 0.5655125823382369,
+          "nodes": [
+            0,
+            3,
+            6,
+            7,
+            8
+          ],
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "real_lesion_drop": 0.484375,
+          "real_lesion_success": 0.515625,
+          "real_outside_state_divergence": 0.4844414289192872,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.3277685642242432,
+              "boundary_degree": 2,
+              "drop": 0.546875,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.682005265916448,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                8
+              ],
+              "outside_state_divergence": 0.7050993010977955,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.453125
+            },
+            {
+              "activity_norm": 1.3394272327423096,
+              "boundary_degree": 2,
+              "drop": 0.390625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.5151227570034888,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6
+              ],
+              "outside_state_divergence": 0.5071374971686825,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.609375
+            },
+            {
+              "activity_norm": 1.3268964290618896,
+              "boundary_degree": 2,
+              "drop": 0.5,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.403993774010331,
+              "nodes": [
+                1,
+                2,
+                3,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.4284798037400514,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.5
+            },
+            {
+              "activity_norm": 1.32585608959198,
+              "boundary_degree": 2,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.42948627520482446,
+              "nodes": [
+                0,
+                2,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.4443447458566275,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 1.3408867120742798,
+              "boundary_degree": 2,
+              "drop": 0.453125,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.5686159929131173,
+              "nodes": [
+                1,
+                2,
+                4,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.49071623974507805,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.546875
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.015625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.4375,
+          "median_sham_outside_state_divergence": 0.3414804571022338,
+          "message_divergence": 0.4522943967432099,
+          "nodes": [
+            0,
+            2,
+            6,
+            7,
+            8
+          ],
+          "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+          "real_lesion_drop": 0.453125,
+          "real_lesion_success": 0.53125,
+          "real_outside_state_divergence": 0.3357970677543543,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.471240520477295,
+              "boundary_degree": 4,
+              "drop": 0.71875,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.3487296610060531,
+              "nodes": [
+                2,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.2929361173395869,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 1.413658857345581,
+              "boundary_degree": 3,
+              "drop": 0.4375,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.672933376020461,
+              "nodes": [
+                0,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.4029266982977951,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.546875
+            },
+            {
+              "activity_norm": 1.3971577882766724,
+              "boundary_degree": 3,
+              "drop": 0.4375,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.43621663201684474,
+              "nodes": [
+                0,
+                2,
+                3,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.2605411206646957,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.546875
+            },
+            {
+              "activity_norm": 1.4338297843933105,
+              "boundary_degree": 3,
+              "drop": 0.4375,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.4736147261352382,
+              "nodes": [
+                0,
+                1,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.4157446619711158,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.546875
+            },
+            {
+              "activity_norm": 1.455325722694397,
+              "boundary_degree": 3,
+              "drop": 0.53125,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.41150977631883606,
+              "nodes": [
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.3414804571022338,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.453125
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": -0.015625,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.5625,
+          "median_sham_outside_state_divergence": 0.42434684097795194,
+          "message_divergence": 0.7008294076649241,
+          "nodes": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ],
+          "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+          "real_lesion_drop": 0.546875,
+          "real_lesion_success": 0.453125,
+          "real_outside_state_divergence": 0.492757982812869,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.6327133178710938,
+              "boundary_degree": 6,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.8122144856084202,
+              "nodes": [
+                0,
+                3,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.503002884184025,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.390625
+            },
+            {
+              "activity_norm": 1.7127277851104736,
+              "boundary_degree": 6,
+              "drop": 0.484375,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.5820834989121002,
+              "nodes": [
+                1,
+                3,
+                4,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.469676754154234,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.515625
+            },
+            {
+              "activity_norm": 1.7167611122131348,
+              "boundary_degree": 6,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.6329147683333951,
+              "nodes": [
+                3,
+                4,
+                5,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.40729883390775257,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.390625
+            },
+            {
+              "activity_norm": 1.7314351797103882,
+              "boundary_degree": 6,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.6864405787660489,
+              "nodes": [
+                0,
+                1,
+                3,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.42434684097795194,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.4375
+            },
+            {
+              "activity_norm": 1.7665009498596191,
+              "boundary_degree": 6,
+              "drop": 0.296875,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.5546739976956147,
+              "nodes": [
+                0,
+                4,
+                5,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.40138529700393916,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.703125
+            }
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "causal_specificity": 0.0,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.4375,
+          "median_sham_outside_state_divergence": 0.45409199845731557,
+          "message_divergence": 0.9922810779258922,
+          "nodes": [
+            1,
+            2,
+            5,
+            8,
+            9
+          ],
+          "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+          "real_lesion_drop": 0.4375,
+          "real_lesion_success": 0.5625,
+          "real_outside_state_divergence": 0.635052529049035,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 1.2625153064727783,
+              "boundary_degree": 10,
+              "drop": 0.4375,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.9234038752104927,
+              "nodes": [
+                0,
+                2,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.37348861644566067,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.5625
+            },
+            {
+              "activity_norm": 1.3638406991958618,
+              "boundary_degree": 9,
+              "drop": 0.296875,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.82348380705907,
+              "nodes": [
+                0,
+                2,
+                4,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.5045758995740435,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.703125
+            },
+            {
+              "activity_norm": 1.1950169801712036,
+              "boundary_degree": 9,
+              "drop": 0.484375,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.9559544287632649,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                9
+              ],
+              "outside_state_divergence": 0.5751393090451021,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.515625
+            },
+            {
+              "activity_norm": 1.4269468784332275,
+              "boundary_degree": 9,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.9682682905690531,
+              "nodes": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.45409199845731557,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.484375
+            },
+            {
+              "activity_norm": 1.1377747058868408,
+              "boundary_degree": 9,
+              "drop": 0.171875,
+              "edge_count_delta": 0,
+              "internal_edges": 4,
+              "message_divergence": 0.7843371569631012,
+              "nodes": [
+                0,
+                1,
+                2,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.3367136332038386,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.828125
+            }
+          ]
+        }
+      ],
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "causal_evidence_downgraded": false,
+      "causal_specificity_pass": false,
+      "causal_status": "CAUSAL_GATE_FAIL",
+      "class_id": "ee70b6b00598cb4f5555e42f46a766e3921a8731e75bca146d9633d019bb18ad",
+      "distribution_shift_fraction": 0.0,
+      "intervention_distribution_shift": false,
+      "matched_sham_controls_complete": true,
+      "median_causal_specificity": 0.0,
+      "median_real_lesion_drop": 0.96875,
+      "one_sided_p": 0.5,
+      "positive_fraction": 0.125,
+      "representatives": [
+        {
+          "baseline_success": 0.96875,
+          "causal_specificity": 0.0,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.96875,
+          "median_sham_outside_state_divergence": 0.8703629296196664,
+          "message_divergence": 0.8748812710728923,
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9
+          ],
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "real_lesion_drop": 0.96875,
+          "real_lesion_success": 0.0,
+          "real_outside_state_divergence": 0.9509789591548624,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.488502025604248,
+              "boundary_degree": 4,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.7944780674446029,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.746542852333984,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.495917558670044,
+              "boundary_degree": 4,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8622188843508645,
+              "nodes": [
+                1,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8703629296196664,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.50744366645813,
+              "boundary_degree": 4,
+              "drop": 0.953125,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8901504298033015,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.796979914475896,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.015625
+            },
+            {
+              "activity_norm": 3.4598329067230225,
+              "boundary_degree": 4,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.887274978835549,
+              "nodes": [
+                0,
+                1,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8745682789324478,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.5152857303619385,
+              "boundary_degree": 4,
+              "drop": 0.90625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9680239063056337,
+              "nodes": [
+                1,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9070870664406608,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "causal_specificity": 0.0,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.96875,
+          "median_sham_outside_state_divergence": 0.9689907552203882,
+          "message_divergence": 0.8655688132075715,
+          "nodes": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "real_lesion_drop": 0.96875,
+          "real_lesion_success": 0.0,
+          "real_outside_state_divergence": 1.0066279543726426,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.584843397140503,
+              "boundary_degree": 4,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9925125190827188,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                5,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9001488422514962,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.5931410789489746,
+              "boundary_degree": 4,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 1.0487463903991159,
+              "nodes": [
+                0,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.9689907552203882,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 3.5272793769836426,
+              "boundary_degree": 5,
+              "drop": 0.953125,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 1.09070476242529,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 1.1013242007067752,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.015625
+            },
+            {
+              "activity_norm": 3.6363604068756104,
+              "boundary_degree": 5,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 1.0271092659535506,
+              "nodes": [
+                0,
+                1,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 1.1207357514775866,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.5389456748962402,
+              "boundary_degree": 6,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 1.0303927730666482,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9688179804934828,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.265625,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.71875,
+          "median_sham_outside_state_divergence": 0.815140234031268,
+          "message_divergence": 1.0468569165977701,
+          "nodes": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+          "real_lesion_drop": 0.984375,
+          "real_lesion_success": 0.0,
+          "real_outside_state_divergence": 0.6937448401398886,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.527007579803467,
+              "boundary_degree": 5,
+              "drop": 0.71875,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 1.0122558146666085,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8591290962696059,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 3.601010322570801,
+              "boundary_degree": 6,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.9326590884246672,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9660169297452863,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.421875
+            },
+            {
+              "activity_norm": 3.5555732250213623,
+              "boundary_degree": 7,
+              "drop": 0.984375,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 1.0004719225151772,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7330574240976899,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.5760977268218994,
+              "boundary_degree": 7,
+              "drop": 0.984375,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 1.0009322006565478,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.815140234031268,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.4361190795898438,
+              "boundary_degree": 5,
+              "drop": 0.65625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.9702866297566067,
+              "nodes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.688825244735228,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 7,
+              "relaxation_level": 1,
+              "success": 0.328125
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "causal_specificity": 0.0,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.96875,
+          "median_sham_outside_state_divergence": 1.0217224791283732,
+          "message_divergence": 0.988311896649533,
+          "nodes": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+          "real_lesion_drop": 0.96875,
+          "real_lesion_success": 0.0,
+          "real_outside_state_divergence": 1.0781771348041629,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.361551523208618,
+              "boundary_degree": 5,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 1.029229463680527,
+              "nodes": [
+                0,
+                2,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.121305113968917,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.40625
+            },
+            {
+              "activity_norm": 3.3269600868225098,
+              "boundary_degree": 5,
+              "drop": 0.796875,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9582523402141873,
+              "nodes": [
+                0,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9780121023428525,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.171875
+            },
+            {
+              "activity_norm": 3.394836664199829,
+              "boundary_degree": 5,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9340361800922128,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9180536276724741,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.3131263256073,
+              "boundary_degree": 5,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9809304759690541,
+              "nodes": [
+                0,
+                2,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.054315868322205,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.2778408527374268,
+              "boundary_degree": 5,
+              "drop": 0.96875,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9656088494647649,
+              "nodes": [
+                0,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.0217224791283732,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.0
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": -0.046875,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.875,
+          "median_sham_outside_state_divergence": 0.8068182825701393,
+          "message_divergence": 1.3505024778406176,
+          "nodes": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+          "real_lesion_drop": 0.828125,
+          "real_lesion_success": 0.15625,
+          "real_outside_state_divergence": 1.3252572993764007,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.4329490661621094,
+              "boundary_degree": 3,
+              "drop": 0.59375,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 1.113679481834418,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 1.1102715382496129,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.390625
+            },
+            {
+              "activity_norm": 3.4627230167388916,
+              "boundary_degree": 3,
+              "drop": 0.875,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9128264658082911,
+              "nodes": [
+                0,
+                1,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8702240836238658,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.109375
+            },
+            {
+              "activity_norm": 3.467055320739746,
+              "boundary_degree": 3,
+              "drop": 0.890625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.7734442093600739,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.7607877655113354,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.09375
+            },
+            {
+              "activity_norm": 3.467103958129883,
+              "boundary_degree": 3,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8334883958274817,
+              "nodes": [
+                0,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7786628972184372,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.46875
+            },
+            {
+              "activity_norm": 3.4714839458465576,
+              "boundary_degree": 3,
+              "drop": 0.953125,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8021223801319152,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.8068182825701393,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.03125
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.9375,
+          "causal_specificity": 0.0,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.9375,
+          "median_sham_outside_state_divergence": 0.915876994623333,
+          "message_divergence": 0.972645882383478,
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+          "real_lesion_drop": 0.9375,
+          "real_lesion_success": 0.0,
+          "real_outside_state_divergence": 0.9481556353352356,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.49000883102417,
+              "boundary_degree": 4,
+              "drop": 0.9375,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.8821180473827905,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8110369422744605,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.499156951904297,
+              "boundary_degree": 4,
+              "drop": 0.921875,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.8591446641116919,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                5,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.8512907834659865,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.015625
+            },
+            {
+              "activity_norm": 3.4830710887908936,
+              "boundary_degree": 4,
+              "drop": 0.9375,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.9213606088821853,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.9601317237170645,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.5093424320220947,
+              "boundary_degree": 4,
+              "drop": 0.9375,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.8934941599881849,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.915876994623333,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.5193490982055664,
+              "boundary_degree": 4,
+              "drop": 0.9375,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.9067107656983673,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.9364900974379757,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.0
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.953125,
+          "causal_specificity": 0.0,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.953125,
+          "median_sham_outside_state_divergence": 1.095103333854781,
+          "message_divergence": 0.9646233492037797,
+          "nodes": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+          "real_lesion_drop": 0.953125,
+          "real_lesion_success": 0.0,
+          "real_outside_state_divergence": 1.0401183453044556,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.3693220615386963,
+              "boundary_degree": 5,
+              "drop": 0.9375,
+              "edge_count_delta": 1,
+              "internal_edges": 13,
+              "message_divergence": 1.0052706988645885,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.095103333854781,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 8,
+              "relaxation_level": 1,
+              "success": 0.015625
+            },
+            {
+              "activity_norm": 3.476909875869751,
+              "boundary_degree": 5,
+              "drop": 0.953125,
+              "edge_count_delta": 1,
+              "internal_edges": 13,
+              "message_divergence": 1.0068421410714947,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                7,
+                9
+              ],
+              "outside_state_divergence": 1.1375278865626195,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 8,
+              "relaxation_level": 1,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.3998279571533203,
+              "boundary_degree": 4,
+              "drop": 0.953125,
+              "edge_count_delta": 1,
+              "internal_edges": 13,
+              "message_divergence": 0.928485252538326,
+              "nodes": [
+                0,
+                1,
+                2,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.0527111689804967,
+              "recurrent_count_delta": 2,
+              "recurrent_edges": 7,
+              "relaxation_level": 2,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.3976283073425293,
+              "boundary_degree": 5,
+              "drop": 0.9375,
+              "edge_count_delta": 2,
+              "internal_edges": 12,
+              "message_divergence": 1.0485035442923043,
+              "nodes": [
+                0,
+                2,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.1546367802329047,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 8,
+              "relaxation_level": 2,
+              "success": 0.015625
+            },
+            {
+              "activity_norm": 3.437948226928711,
+              "boundary_degree": 5,
+              "drop": 0.953125,
+              "edge_count_delta": 2,
+              "internal_edges": 12,
+              "message_divergence": 0.9082607648081935,
+              "nodes": [
+                1,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8875021593965541,
+              "recurrent_count_delta": 2,
+              "recurrent_edges": 7,
+              "relaxation_level": 2,
+              "success": 0.0
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.0,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.984375,
+          "median_sham_outside_state_divergence": 0.9296393093126315,
+          "message_divergence": 0.9493278394278807,
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+          "real_lesion_drop": 0.984375,
+          "real_lesion_success": 0.0,
+          "real_outside_state_divergence": 0.9803065814119436,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.8090271949768066,
+              "boundary_degree": 4,
+              "drop": 0.984375,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9946882142272216,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.0361872912541126,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.820488214492798,
+              "boundary_degree": 4,
+              "drop": 0.984375,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 1.028487010344217,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 1.0480268074013837,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.82308292388916,
+              "boundary_degree": 4,
+              "drop": 0.984375,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.7920498502348484,
+              "nodes": [
+                1,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.794626022410137,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.774662494659424,
+              "boundary_degree": 4,
+              "drop": 0.984375,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9573083113550929,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.9296393093126315,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            },
+            {
+              "activity_norm": 3.7716124057769775,
+              "boundary_degree": 4,
+              "drop": 0.984375,
+              "edge_count_delta": 0,
+              "internal_edges": 8,
+              "message_divergence": 0.9356717446030076,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.9102369933088679,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.0
+            }
+          ]
+        }
+      ],
+      "size": 7,
+      "stream": "D"
+    },
+    {
+      "causal_evidence_downgraded": false,
+      "causal_specificity_pass": false,
+      "causal_status": "CAUSAL_GATE_FAIL",
+      "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+      "distribution_shift_fraction": 0.0,
+      "intervention_distribution_shift": false,
+      "matched_sham_controls_complete": true,
+      "median_causal_specificity": -0.0390625,
+      "median_real_lesion_drop": 0.625,
+      "one_sided_p": 0.6015625,
+      "positive_fraction": 0.375,
+      "representatives": [
+        {
+          "baseline_success": 0.921875,
+          "causal_specificity": -0.078125,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.578125,
+          "median_sham_outside_state_divergence": 0.7919853788391271,
+          "message_divergence": 0.9120554073279773,
+          "nodes": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8
+          ],
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "real_lesion_drop": 0.5,
+          "real_lesion_success": 0.421875,
+          "real_outside_state_divergence": 0.8336635963313236,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.5474369525909424,
+              "boundary_degree": 4,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.56945844084399,
+              "nodes": [
+                2,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.6277795452451395,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.523747444152832,
+              "boundary_degree": 4,
+              "drop": 0.625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.8810810084690958,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.8358868606263339,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.296875
+            },
+            {
+              "activity_norm": 2.513136863708496,
+              "boundary_degree": 4,
+              "drop": 0.59375,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.574458277516403,
+              "nodes": [
+                1,
+                2,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5946945666096922,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.328125
+            },
+            {
+              "activity_norm": 2.511556625366211,
+              "boundary_degree": 4,
+              "drop": 0.484375,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 1.047407052769461,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                7,
+                8
+              ],
+              "outside_state_divergence": 1.0562584414978324,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.4375
+            },
+            {
+              "activity_norm": 2.552302360534668,
+              "boundary_degree": 5,
+              "drop": 0.578125,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.7598166390900523,
+              "nodes": [
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7919853788391271,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.34375
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.953125,
+          "causal_specificity": -0.015625,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.609375,
+          "median_sham_outside_state_divergence": 0.867264370698289,
+          "message_divergence": 0.8925347062654851,
+          "nodes": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+          "real_lesion_drop": 0.59375,
+          "real_lesion_success": 0.359375,
+          "real_outside_state_divergence": 0.8019976793279988,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.5650532245635986,
+              "boundary_degree": 8,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8921144695005424,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.7712123902912482,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.4375
+            },
+            {
+              "activity_norm": 2.5925779342651367,
+              "boundary_degree": 10,
+              "drop": 0.625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 1.016894839711826,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.7697410378687138,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 0,
+              "success": 0.328125
+            },
+            {
+              "activity_norm": 2.6036527156829834,
+              "boundary_degree": 7,
+              "drop": 0.65625,
+              "edge_count_delta": 1,
+              "internal_edges": 10,
+              "message_divergence": 0.9153129794722886,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9237810016340793,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 3,
+              "relaxation_level": 1,
+              "success": 0.296875
+            },
+            {
+              "activity_norm": 2.62970232963562,
+              "boundary_degree": 8,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9673004236932586,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.998370130132854,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 4,
+              "relaxation_level": 1,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 2.534940481185913,
+              "boundary_degree": 8,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9884620136079385,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.867264370698289,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 4,
+              "relaxation_level": 1,
+              "success": 0.34375
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": 0.125,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.59375,
+          "median_sham_outside_state_divergence": 0.7294444736532506,
+          "message_divergence": 0.9832442348961999,
+          "nodes": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "real_lesion_drop": 0.71875,
+          "real_lesion_success": 0.265625,
+          "real_outside_state_divergence": 0.8527044406041709,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.8591315746307373,
+              "boundary_degree": 8,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.9103740367018467,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                9
+              ],
+              "outside_state_divergence": 1.016024007345589,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 2.9519059658050537,
+              "boundary_degree": 7,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.9043404114022673,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.6603243337738778,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 2.9611644744873047,
+              "boundary_degree": 7,
+              "drop": 0.578125,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.8370131200212262,
+              "nodes": [
+                0,
+                1,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.1421250113409653,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.40625
+            },
+            {
+              "activity_norm": 2.983579397201538,
+              "boundary_degree": 9,
+              "drop": 0.59375,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.8326119604284229,
+              "nodes": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.6180500243762614,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.390625
+            },
+            {
+              "activity_norm": 2.8460710048675537,
+              "boundary_degree": 8,
+              "drop": 0.59375,
+              "edge_count_delta": 1,
+              "internal_edges": 9,
+              "message_divergence": 1.031767023195062,
+              "nodes": [
+                2,
+                3,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7294444736532506,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 1,
+              "success": 0.390625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "causal_specificity": -0.0625,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.71875,
+          "median_sham_outside_state_divergence": 0.8913268405438546,
+          "message_divergence": 0.9637453280588408,
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9
+          ],
+          "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+          "real_lesion_drop": 0.65625,
+          "real_lesion_success": 0.328125,
+          "real_outside_state_divergence": 0.9553185468960101,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.9462766647338867,
+              "boundary_degree": 7,
+              "drop": 0.71875,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.9811314376679269,
+              "nodes": [
+                0,
+                2,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8083237251287706,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 3.0094547271728516,
+              "boundary_degree": 8,
+              "drop": 0.75,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 1.0443425209153512,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                7,
+                9
+              ],
+              "outside_state_divergence": 1.17981443736582,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.234375
+            },
+            {
+              "activity_norm": 3.076798439025879,
+              "boundary_degree": 6,
+              "drop": 0.703125,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.996519570898324,
+              "nodes": [
+                0,
+                1,
+                4,
+                5,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.9058267060162716,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.28125
+            },
+            {
+              "activity_norm": 3.053191900253296,
+              "boundary_degree": 7,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 10,
+              "message_divergence": 0.9567311183001318,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.8704635098433287,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 6,
+              "relaxation_level": 1,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 3.069943904876709,
+              "boundary_degree": 7,
+              "drop": 0.765625,
+              "edge_count_delta": 1,
+              "internal_edges": 9,
+              "message_divergence": 1.0127868193525253,
+              "nodes": [
+                0,
+                1,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8913268405438546,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 1,
+              "success": 0.21875
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.9375,
+          "causal_specificity": -0.0625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.640625,
+          "median_sham_outside_state_divergence": 0.9134537348247432,
+          "message_divergence": 0.9931482959907197,
+          "nodes": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+          "real_lesion_drop": 0.578125,
+          "real_lesion_success": 0.359375,
+          "real_outside_state_divergence": 1.1465750448038696,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.836317777633667,
+              "boundary_degree": 3,
+              "drop": 0.59375,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.7819839281774437,
+              "nodes": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.964894800326876,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 2.856853485107422,
+              "boundary_degree": 3,
+              "drop": 0.671875,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.8737650120010445,
+              "nodes": [
+                0,
+                1,
+                2,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.6562550653599819,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 2.821500778198242,
+              "boundary_degree": 3,
+              "drop": 0.59375,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.8668978895353899,
+              "nodes": [
+                2,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9134537348247432,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 2.869548797607422,
+              "boundary_degree": 3,
+              "drop": 0.671875,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.6588579031223806,
+              "nodes": [
+                0,
+                1,
+                3,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7009333549601084,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 2.874408721923828,
+              "boundary_degree": 3,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.9728692522169334,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9495012050637086,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.296875
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.921875,
+          "causal_specificity": 0.078125,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.578125,
+          "median_sham_outside_state_divergence": 0.605954757496984,
+          "message_divergence": 0.726613993503458,
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+          "real_lesion_drop": 0.65625,
+          "real_lesion_success": 0.265625,
+          "real_outside_state_divergence": 0.5469490452632954,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.6142258644104004,
+              "boundary_degree": 3,
+              "drop": 0.578125,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.7692038278044079,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.5946929651551185,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 2.620258092880249,
+              "boundary_degree": 3,
+              "drop": 0.578125,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.8479895690767562,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.4205974290005753,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 2.6705210208892822,
+              "boundary_degree": 3,
+              "drop": 0.65625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.8763016434273434,
+              "nodes": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.605954757496984,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 2.732036590576172,
+              "boundary_degree": 3,
+              "drop": 0.546875,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.5776934752229935,
+              "nodes": [
+                1,
+                2,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.6230912868791751,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 2.753758430480957,
+              "boundary_degree": 3,
+              "drop": 0.671875,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.9813054630322968,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.6449374097652721,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.25
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "causal_specificity": 0.046875,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.609375,
+          "median_sham_outside_state_divergence": 0.7272028622867582,
+          "message_divergence": 0.7020514653975611,
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+          "real_lesion_drop": 0.65625,
+          "real_lesion_success": 0.3125,
+          "real_outside_state_divergence": 0.4355442029741823,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.837209939956665,
+              "boundary_degree": 6,
+              "drop": 0.703125,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.7605162671994533,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7272028622867582,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 2.907482862472534,
+              "boundary_degree": 6,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.9348483415169839,
+              "nodes": [
+                2,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8563476074390057,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.73795747756958,
+              "boundary_degree": 5,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.7310576658386806,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                5,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.6136519680351832,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.7889063358306885,
+              "boundary_degree": 7,
+              "drop": 0.765625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 1.007649077242381,
+              "nodes": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.546234167628322,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.203125
+            },
+            {
+              "activity_norm": 2.7989790439605713,
+              "boundary_degree": 7,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.9342581739212987,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6,
+                7
+              ],
+              "outside_state_divergence": 0.7844051955221211,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.40625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.953125,
+          "causal_specificity": -0.0625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.609375,
+          "median_sham_outside_state_divergence": 0.9549504903478884,
+          "message_divergence": 0.7986286557686452,
+          "nodes": [
+            0,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+          "real_lesion_drop": 0.546875,
+          "real_lesion_success": 0.40625,
+          "real_outside_state_divergence": 0.7382341539644712,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 3.0608248710632324,
+              "boundary_degree": 5,
+              "drop": 0.703125,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.8128694743874466,
+              "nodes": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.99981374084603,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.25
+            },
+            {
+              "activity_norm": 3.0784707069396973,
+              "boundary_degree": 5,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.9215059917339827,
+              "nodes": [
+                0,
+                1,
+                2,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9802847270369354,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 3.0790016651153564,
+              "boundary_degree": 5,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.7512281342093998,
+              "nodes": [
+                0,
+                1,
+                2,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9549504903478884,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.4375
+            },
+            {
+              "activity_norm": 3.0979440212249756,
+              "boundary_degree": 5,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.8803005475472481,
+              "nodes": [
+                1,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8019958040365135,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.34375
+            },
+            {
+              "activity_norm": 3.102795362472534,
+              "boundary_degree": 5,
+              "drop": 0.546875,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.8020459347007022,
+              "nodes": [
+                1,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.7173893401456372,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.40625
+            }
+          ]
+        }
+      ],
+      "size": 7,
+      "stream": "D"
+    },
+    {
+      "causal_evidence_downgraded": false,
+      "causal_specificity_pass": false,
+      "causal_status": "CAUSAL_GATE_FAIL",
+      "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+      "distribution_shift_fraction": 0.0,
+      "intervention_distribution_shift": false,
+      "matched_sham_controls_complete": true,
+      "median_causal_specificity": -0.0546875,
+      "median_real_lesion_drop": 0.4921875,
+      "one_sided_p": 0.8515625,
+      "positive_fraction": 0.375,
+      "representatives": [
+        {
+          "baseline_success": 0.890625,
+          "causal_specificity": -0.046875,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.515625,
+          "median_sham_outside_state_divergence": 0.5872655425457822,
+          "message_divergence": 0.876833842536771,
+          "nodes": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            8,
+            9
+          ],
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "real_lesion_drop": 0.46875,
+          "real_lesion_success": 0.421875,
+          "real_outside_state_divergence": 0.6519370528102384,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.140761137008667,
+              "boundary_degree": 6,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.9719559060987583,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                5,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.5658566582458233,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 2.1578989028930664,
+              "boundary_degree": 6,
+              "drop": 0.484375,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.8502524439625836,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.7243973384289455,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.40625
+            },
+            {
+              "activity_norm": 2.196981191635132,
+              "boundary_degree": 6,
+              "drop": 0.53125,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.9090143050706622,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.6970454293396205,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.095158338546753,
+              "boundary_degree": 7,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.9645153907838526,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5872655425457822,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.328125
+            },
+            {
+              "activity_norm": 2.0870416164398193,
+              "boundary_degree": 7,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 7,
+              "message_divergence": 0.7480630589299316,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.48348247264650746,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.375
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.9375,
+          "causal_specificity": -0.125,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.578125,
+          "median_sham_outside_state_divergence": 0.7163569958376211,
+          "message_divergence": 0.8009462298169713,
+          "nodes": [
+            0,
+            1,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+          "real_lesion_drop": 0.453125,
+          "real_lesion_success": 0.484375,
+          "real_outside_state_divergence": 0.7201555963550939,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.175469160079956,
+              "boundary_degree": 5,
+              "drop": 0.484375,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.710224270668864,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.5377312790571981,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.453125
+            },
+            {
+              "activity_norm": 2.170391082763672,
+              "boundary_degree": 5,
+              "drop": 0.578125,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.718389101012713,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.765979781192613,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.189578056335449,
+              "boundary_degree": 5,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.7465641611482415,
+              "nodes": [
+                0,
+                1,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5503329449529284,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 2.1909563541412354,
+              "boundary_degree": 5,
+              "drop": 0.578125,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.8356889745689486,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                5,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.7212734101520775,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.158639907836914,
+              "boundary_degree": 5,
+              "drop": 0.671875,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.7036019096744536,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.7163569958376211,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.265625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.953125,
+          "causal_specificity": 0.109375,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.578125,
+          "median_sham_outside_state_divergence": 0.6734866812300474,
+          "message_divergence": 0.8889803375582864,
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+          "real_lesion_drop": 0.6875,
+          "real_lesion_success": 0.265625,
+          "real_outside_state_divergence": 0.7025663718268229,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.21878981590271,
+              "boundary_degree": 12,
+              "drop": 0.53125,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 0.9908453350220046,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.6060858242370487,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 0,
+              "success": 0.421875
+            },
+            {
+              "activity_norm": 2.147357225418091,
+              "boundary_degree": 11,
+              "drop": 0.578125,
+              "edge_count_delta": 1,
+              "internal_edges": 6,
+              "message_divergence": 1.009826976791509,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.5120439516847592,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 1,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 2.2339463233947754,
+              "boundary_degree": 11,
+              "drop": 0.625,
+              "edge_count_delta": 0,
+              "internal_edges": 5,
+              "message_divergence": 1.05275546795859,
+              "nodes": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8254050798893752,
+              "recurrent_count_delta": 1,
+              "recurrent_edges": 5,
+              "relaxation_level": 1,
+              "success": 0.328125
+            },
+            {
+              "activity_norm": 2.29935884475708,
+              "boundary_degree": 11,
+              "drop": 0.578125,
+              "edge_count_delta": 1,
+              "internal_edges": 6,
+              "message_divergence": 1.0896111749417363,
+              "nodes": [
+                2,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.8484452932551836,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 1,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 2.2134220600128174,
+              "boundary_degree": 12,
+              "drop": 0.65625,
+              "edge_count_delta": 1,
+              "internal_edges": 4,
+              "message_divergence": 0.9896077865452653,
+              "nodes": [
+                0,
+                2,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.6734866812300474,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 4,
+              "relaxation_level": 1,
+              "success": 0.296875
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "causal_specificity": 0.03125,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.5,
+          "median_sham_outside_state_divergence": 0.6896759554146021,
+          "message_divergence": 1.005711884056121,
+          "nodes": [
+            0,
+            1,
+            2,
+            4,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+          "real_lesion_drop": 0.53125,
+          "real_lesion_success": 0.359375,
+          "real_outside_state_divergence": 0.69195519402636,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.2048182487487793,
+              "boundary_degree": 8,
+              "drop": 0.59375,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 1.0003021254787487,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8236161265739249,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.296875
+            },
+            {
+              "activity_norm": 2.2220776081085205,
+              "boundary_degree": 8,
+              "drop": 0.484375,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.9455289359103165,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.6896759554146021,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.40625
+            },
+            {
+              "activity_norm": 2.234626293182373,
+              "boundary_degree": 8,
+              "drop": 0.5,
+              "edge_count_delta": 0,
+              "internal_edges": 12,
+              "message_divergence": 0.9797723864766391,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                8
+              ],
+              "outside_state_divergence": 0.672629273748232,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 0,
+              "success": 0.390625
+            },
+            {
+              "activity_norm": 2.13584041595459,
+              "boundary_degree": 9,
+              "drop": 0.515625,
+              "edge_count_delta": 1,
+              "internal_edges": 11,
+              "message_divergence": 0.9646546962517341,
+              "nodes": [
+                1,
+                2,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7373233961748571,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 1,
+              "success": 0.375
+            },
+            {
+              "activity_norm": 2.1501035690307617,
+              "boundary_degree": 9,
+              "drop": 0.40625,
+              "edge_count_delta": 1,
+              "internal_edges": 11,
+              "message_divergence": 0.939852813155414,
+              "nodes": [
+                2,
+                3,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5969096907792032,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 8,
+              "relaxation_level": 1,
+              "success": 0.484375
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "causal_specificity": -0.15625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.609375,
+          "median_sham_outside_state_divergence": 0.6574003169966435,
+          "message_divergence": 0.7165932382914243,
+          "nodes": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9
+          ],
+          "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+          "real_lesion_drop": 0.453125,
+          "real_lesion_success": 0.515625,
+          "real_outside_state_divergence": 0.6206650769626125,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.2471652030944824,
+              "boundary_degree": 5,
+              "drop": 0.734375,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8319374270245511,
+              "nodes": [
+                1,
+                2,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.7881870049057502,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.234375
+            },
+            {
+              "activity_norm": 2.255099296569824,
+              "boundary_degree": 5,
+              "drop": 0.53125,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.7837245115190058,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                6,
+                7,
+                9
+              ],
+              "outside_state_divergence": 0.6574003169966435,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.4375
+            },
+            {
+              "activity_norm": 2.2416815757751465,
+              "boundary_degree": 5,
+              "drop": 0.609375,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9369285410388228,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.6519858776761611,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.24060320854187,
+              "boundary_degree": 5,
+              "drop": 0.5625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9495978162631195,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5914035944341466,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.40625
+            },
+            {
+              "activity_norm": 2.258523464202881,
+              "boundary_degree": 5,
+              "drop": 0.671875,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8526443957747315,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.659101860715702,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.296875
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.859375,
+          "causal_specificity": -0.0625,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.453125,
+          "median_sham_outside_state_divergence": 0.5921178457833609,
+          "message_divergence": 0.6339533139323573,
+          "nodes": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+          "real_lesion_drop": 0.390625,
+          "real_lesion_success": 0.46875,
+          "real_outside_state_divergence": 0.47468926851303905,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.1979024410247803,
+              "boundary_degree": 7,
+              "drop": 0.390625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.7099785269428259,
+              "nodes": [
+                0,
+                2,
+                3,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5562354080865836,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.46875
+            },
+            {
+              "activity_norm": 2.303760051727295,
+              "boundary_degree": 7,
+              "drop": 0.453125,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9794053808082854,
+              "nodes": [
+                0,
+                2,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8586078096928826,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.40625
+            },
+            {
+              "activity_norm": 2.223327875137329,
+              "boundary_degree": 6,
+              "drop": 0.5,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.7137320613922761,
+              "nodes": [
+                0,
+                2,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.6774942900916885,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.197705030441284,
+              "boundary_degree": 6,
+              "drop": 0.421875,
+              "edge_count_delta": 1,
+              "internal_edges": 10,
+              "message_divergence": 0.6575153812964817,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.4663095381768701,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 1,
+              "success": 0.4375
+            },
+            {
+              "activity_norm": 2.2043068408966064,
+              "boundary_degree": 6,
+              "drop": 0.46875,
+              "edge_count_delta": 1,
+              "internal_edges": 10,
+              "message_divergence": 0.7242604681651753,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5921178457833609,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 7,
+              "relaxation_level": 1,
+              "success": 0.390625
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.90625,
+          "causal_specificity": -0.109375,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.625,
+          "median_sham_outside_state_divergence": 0.9191666170426953,
+          "message_divergence": 0.6479412052175698,
+          "nodes": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+          "real_lesion_drop": 0.515625,
+          "real_lesion_success": 0.390625,
+          "real_outside_state_divergence": 0.6487631698192488,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.227158308029175,
+              "boundary_degree": 3,
+              "drop": 0.703125,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.6282266868193616,
+              "nodes": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.6956505006867224,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.203125
+            },
+            {
+              "activity_norm": 2.0737810134887695,
+              "boundary_degree": 3,
+              "drop": 0.640625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.9255348429682844,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.9191666170426953,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.265625
+            },
+            {
+              "activity_norm": 2.1697616577148438,
+              "boundary_degree": 4,
+              "drop": 0.625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 0.984996867774674,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.8392364938162192,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.28125
+            },
+            {
+              "activity_norm": 2.1706130504608154,
+              "boundary_degree": 4,
+              "drop": 0.390625,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 1.0688334370310864,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                5,
+                6,
+                9
+              ],
+              "outside_state_divergence": 0.9974816957333114,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.515625
+            },
+            {
+              "activity_norm": 2.116168260574341,
+              "boundary_degree": 4,
+              "drop": 0.546875,
+              "edge_count_delta": 0,
+              "internal_edges": 11,
+              "message_divergence": 1.1549542115750058,
+              "nodes": [
+                0,
+                1,
+                2,
+                4,
+                5,
+                8,
+                9
+              ],
+              "outside_state_divergence": 1.0594713192889584,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 6,
+              "relaxation_level": 0,
+              "success": 0.359375
+            }
+          ]
+        },
+        {
+          "baseline_success": 0.875,
+          "causal_specificity": 0.078125,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "intervention_distribution_shift": false,
+          "median_sham_drop": 0.453125,
+          "median_sham_outside_state_divergence": 0.782818097078721,
+          "message_divergence": 0.9732618005026932,
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9
+          ],
+          "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0",
+          "real_lesion_drop": 0.53125,
+          "real_lesion_success": 0.34375,
+          "real_outside_state_divergence": 0.6018063372605245,
+          "sham_control_complete": true,
+          "sham_count": 5,
+          "shams": [
+            {
+              "activity_norm": 2.237382173538208,
+              "boundary_degree": 8,
+              "drop": 0.46875,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 1.0040222065601874,
+              "nodes": [
+                0,
+                1,
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.782818097078721,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.40625
+            },
+            {
+              "activity_norm": 2.2420406341552734,
+              "boundary_degree": 8,
+              "drop": 0.421875,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.9802273636029429,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8037186975154709,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.453125
+            },
+            {
+              "activity_norm": 2.213513135910034,
+              "boundary_degree": 7,
+              "drop": 0.515625,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 1.0017878973321388,
+              "nodes": [
+                0,
+                1,
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "outside_state_divergence": 0.8256629595869271,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.359375
+            },
+            {
+              "activity_norm": 2.1828153133392334,
+              "boundary_degree": 9,
+              "drop": 0.453125,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8681545044060661,
+              "nodes": [
+                0,
+                1,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "outside_state_divergence": 0.5470209808034889,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.421875
+            },
+            {
+              "activity_norm": 2.1459579467773438,
+              "boundary_degree": 9,
+              "drop": 0.359375,
+              "edge_count_delta": 0,
+              "internal_edges": 9,
+              "message_divergence": 0.8064180693948709,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8
+              ],
+              "outside_state_divergence": 0.6144295705409158,
+              "recurrent_count_delta": 0,
+              "recurrent_edges": 5,
+              "relaxation_level": 0,
+              "success": 0.515625
+            }
+          ]
+        }
+      ],
+      "size": 7,
+      "stream": "D"
+    }
+  ],
+  "stage": "AK7",
+  "version": "V837ak"
+}

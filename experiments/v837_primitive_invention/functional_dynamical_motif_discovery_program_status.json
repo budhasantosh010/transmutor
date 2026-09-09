@@ -1,0 +1,12 @@
+{
+  "diagnosis": "CONTEXT_BOUND_COMPUTATIONAL_MOTIFS",
+  "diagnosis_qualifier": "BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED",
+  "fresh_audit_episodes_consumed": 0,
+  "large_persistent_storage_tested": false,
+  "next_program": "V837al_PRIMITIVE_INTERFACE_ALIGNMENT",
+  "primitive_archive_allowed_next": false,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "validated_primitive_classes": 0,
+  "version": "V837ak"
+}

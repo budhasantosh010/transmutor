@@ -1,0 +1,257 @@
+{
+  "all_sizes_failed": false,
+  "eligible_sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10
+  ],
+  "sizes": {
+    "1": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 51,
+      "median_nonself_distance": 1.1652605687938047,
+      "median_self_distance": 0.37851374133662663,
+      "nonself_distance_summary": {
+        "p10": 0.8318000467060669,
+        "p50": 1.1652605687938047,
+        "p90": 1.9656618693605898
+      },
+      "occurrences": 400,
+      "p90_self_distance": 0.6878269852811713,
+      "self_distance_summary": {
+        "max": 5.926598257949768,
+        "p50": 0.37851374133662663,
+        "p90": 0.6878269852811713,
+        "p95": 0.936794285266334
+      },
+      "self_to_nonself_ratio": 0.3248318457462585,
+      "self_vs_nonself_roc_auc": 0.9627500000000001,
+      "size": 1,
+      "tau": 0.936794285266334
+    },
+    "10": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 375,
+      "median_nonself_distance": 1.1221014919359975,
+      "median_self_distance": 0.30172139359766326,
+      "nonself_distance_summary": {
+        "p10": 0.47772328638566847,
+        "p50": 1.1221014919359975,
+        "p90": 1.834055967523917
+      },
+      "occurrences": 40,
+      "p90_self_distance": 0.4836207394553339,
+      "self_distance_summary": {
+        "max": 0.5505402221456656,
+        "p50": 0.30172139359766326,
+        "p90": 0.4836207394553339,
+        "p95": 0.5018292427545854
+      },
+      "self_to_nonself_ratio": 0.2688895752888571,
+      "self_vs_nonself_roc_auc": 0.97125,
+      "size": 10,
+      "tau": 0.5018292427545854
+    },
+    "2": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 87,
+      "median_nonself_distance": 1.1067930534493629,
+      "median_self_distance": 0.44585003120675404,
+      "nonself_distance_summary": {
+        "p10": 0.7912042903656191,
+        "p50": 1.1067930534493629,
+        "p90": 1.48140348801299
+      },
+      "occurrences": 1800,
+      "p90_self_distance": 0.6756259353312364,
+      "self_distance_summary": {
+        "max": 3.122070208584433,
+        "p50": 0.44585003120675404,
+        "p90": 0.6756259353312364,
+        "p95": 0.7553523425163677
+      },
+      "self_to_nonself_ratio": 0.40283052899297245,
+      "self_vs_nonself_roc_auc": 0.9814762345679012,
+      "size": 2,
+      "tau": 0.7553523425163677
+    },
+    "3": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 123,
+      "median_nonself_distance": 1.1532922468240434,
+      "median_self_distance": 0.4370162781933611,
+      "nonself_distance_summary": {
+        "p10": 0.776446527162725,
+        "p50": 1.1532922468240434,
+        "p90": 1.6584438397693528
+      },
+      "occurrences": 4800,
+      "p90_self_distance": 0.7778655907447304,
+      "self_distance_summary": {
+        "max": 3.223246071733425,
+        "p50": 0.4370162781933611,
+        "p90": 0.7778655907447304,
+        "p95": 1.0037251165212187
+      },
+      "self_to_nonself_ratio": 0.3789293471770267,
+      "self_vs_nonself_roc_auc": 0.9494959201388888,
+      "size": 3,
+      "tau": 1.0037251165212187
+    },
+    "4": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 159,
+      "median_nonself_distance": 1.0746573540502167,
+      "median_self_distance": 0.3865516730260232,
+      "nonself_distance_summary": {
+        "p10": 0.730236774259579,
+        "p50": 1.0746573540502167,
+        "p90": 1.4832904745657751
+      },
+      "occurrences": 8400,
+      "p90_self_distance": 0.561481223205877,
+      "self_distance_summary": {
+        "max": 3.1668743894182594,
+        "p50": 0.3865516730260232,
+        "p90": 0.561481223205877,
+        "p95": 0.6155146590254166
+      },
+      "self_to_nonself_ratio": 0.35969760181621613,
+      "self_vs_nonself_roc_auc": 0.9900183815192743,
+      "size": 4,
+      "tau": 0.6155146590254166
+    },
+    "5": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 195,
+      "median_nonself_distance": 1.074044170326314,
+      "median_self_distance": 0.3667840157104887,
+      "nonself_distance_summary": {
+        "p10": 0.6866495437342623,
+        "p50": 1.074044170326314,
+        "p90": 1.5248019129321266
+      },
+      "occurrences": 10080,
+      "p90_self_distance": 0.5290744202967218,
+      "self_distance_summary": {
+        "max": 3.2914708724668746,
+        "p50": 0.3667840157104887,
+        "p90": 0.5290744202967218,
+        "p95": 0.5845185699665824
+      },
+      "self_to_nonself_ratio": 0.34149807414256816,
+      "self_vs_nonself_roc_auc": 0.9874549536249685,
+      "size": 5,
+      "tau": 0.5845185699665824
+    },
+    "6": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 231,
+      "median_nonself_distance": 1.1025773480626144,
+      "median_self_distance": 0.3579023499588483,
+      "nonself_distance_summary": {
+        "p10": 0.6446581809331545,
+        "p50": 1.1025773480626144,
+        "p90": 1.6664256413671377
+      },
+      "occurrences": 8400,
+      "p90_self_distance": 0.5172904951469108,
+      "self_distance_summary": {
+        "max": 4.520074043174611,
+        "p50": 0.3579023499588483,
+        "p90": 0.5172904951469108,
+        "p95": 0.5791605221596684
+      },
+      "self_to_nonself_ratio": 0.32460520850327074,
+      "self_vs_nonself_roc_auc": 0.9783351757369615,
+      "size": 6,
+      "tau": 0.5791605221596684
+    },
+    "7": {
+      "eligible": true,
+      "failure_code": null,
+      "fingerprint_dimension": 267,
+      "median_nonself_distance": 1.1446390242841555,
+      "median_self_distance": 0.3491468406054393,
+      "nonself_distance_summary": {
+        "p10": 0.6128511869122301,
+        "p50": 1.1446390242841555,
+        "p90": 1.7964768489633491
+      },
+      "occurrences": 4800,
+      "p90_self_distance": 0.5119708301748622,
+      "self_distance_summary": {
+        "max": 6.3238057927901945,
+        "p50": 0.3491468406054393,
+        "p90": 0.5119708301748622,
+        "p95": 0.5922326408137853
+      },
+      "self_to_nonself_ratio": 0.30502790241997196,
+      "self_vs_nonself_roc_auc": 0.9751495225694444,
+      "size": 7,
+      "tau": 0.5922326408137853
+    },
+    "8": {
+      "eligible": false,
+      "failure_code": "DYNAMIC_FINGERPRINT_UNRELIABLE_SIZE_8",
+      "fingerprint_dimension": 303,
+      "median_nonself_distance": 1.4702025932351686,
+      "median_self_distance": 0.3730781176412704,
+      "nonself_distance_summary": {
+        "p10": 0.6464985810824174,
+        "p50": 1.4702025932351686,
+        "p90": 14.801495999155156
+      },
+      "occurrences": 1800,
+      "p90_self_distance": 1.8503102134511153,
+      "self_distance_summary": {
+        "max": 22.452334405119462,
+        "p50": 0.3730781176412704,
+        "p90": 1.8503102134511153,
+        "p95": 3.2585689982455506
+      },
+      "self_to_nonself_ratio": 0.25375966506787007,
+      "self_vs_nonself_roc_auc": 0.8913299382716049,
+      "size": 8,
+      "tau": 3.2585689982455506
+    },
+    "9": {
+      "eligible": false,
+      "failure_code": "DYNAMIC_FINGERPRINT_UNRELIABLE_SIZE_9",
+      "fingerprint_dimension": 339,
+      "median_nonself_distance": 1.520491361237665,
+      "median_self_distance": 0.3807487373921562,
+      "nonself_distance_summary": {
+        "p10": 0.644834344555091,
+        "p50": 1.520491361237665,
+        "p90": 14.135985129089274
+      },
+      "occurrences": 400,
+      "p90_self_distance": 1.8629800182447733,
+      "self_distance_summary": {
+        "max": 13.798823341006164,
+        "p50": 0.3807487373921562,
+        "p90": 1.8629800182447733,
+        "p95": 3.3987525581957625
+      },
+      "self_to_nonself_ratio": 0.25041164132772875,
+      "self_vs_nonself_roc_auc": 0.8907875,
+      "size": 9,
+      "tau": 3.3987525581957625
+    }
+  },
+  "stage": "AK4",
+  "version": "V837ak"
+}

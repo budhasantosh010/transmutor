@@ -883,6 +883,9 @@ def main() -> int:
     structural_search_recovery_validator = ROOT / "scripts" / "validate_v837_structural_search_recovery.py"
     if structural_search_recovery_validator.exists():
         runpy.run_path(str(structural_search_recovery_validator), run_name="__main__")
+    functional_motif_validator = ROOT / "scripts" / "validate_v837_functional_dynamical_motifs.py"
+    if functional_motif_validator.exists():
+        runpy.run_path(str(functional_motif_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

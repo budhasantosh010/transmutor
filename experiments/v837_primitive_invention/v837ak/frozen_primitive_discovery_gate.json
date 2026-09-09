@@ -1,0 +1,33 @@
+{
+  "version": "V837ak",
+  "starting_sha": "4e989e474b4d93cd04246219457990746015c33f",
+  "v837aj_decision_sha256": "36d2e9ff5c6b4b1b07d930a85a1658f6326562f287c240b48d015400bcec98e2",
+  "source_population_count": 50,
+  "competent_count": 40,
+  "incompetent_count": 10,
+  "discovery_probe_seeds": [20000, 20063],
+  "confirmation_probe_seeds": [20064, 20127],
+  "subset_universe": [1, 10],
+  "all_subsets_enumeration": true,
+  "fingerprint_reliability": {
+    "self_vs_nonself_roc_auc_min": 0.8,
+    "median_self_distance_max_fraction_nonself": 0.6,
+    "p90_self_distance_max_fraction_median_nonself": 1.0,
+    "tau_percentile_of_self_distance": 95
+  },
+  "general_support_min": 6,
+  "engine_balance_min_directed": 2,
+  "engine_balance_min_random": 2,
+  "general_family_min": 3,
+  "family_specific_fraction": 0.6,
+  "family_specific_min": 3,
+  "confirmation_retention_min": 0.7,
+  "candidate_cap": 12,
+  "causal": {"median_specificity_min": 0.03, "positive_fraction_min": 0.6, "p_max": 0.05},
+  "boundary_substitution": {"output_ratio_max": 0.75, "state_ratio_max": 0.85, "beat_both_fraction_min": 0.6, "p_max": 0.01},
+  "closed_loop": {"median_drop_max": 0.05, "retain_success_min": 0.85, "retain_fraction_min": 0.6, "control_margin_min": 0.1, "p_max": 0.01},
+  "fresh_audit_consumed": false,
+  "archive_promotion": false,
+  "primitives_promoted": 0,
+  "v838_started": false
+}

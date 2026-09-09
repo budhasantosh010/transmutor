@@ -1,0 +1,26 @@
+{
+  "candidate_class_count": 11,
+  "causal_forward_calls": 336,
+  "cpu_seconds": 2790.328125,
+  "fingerprint_count": 102300,
+  "fresh_audit_episodes": 0,
+  "gpu_seconds": 0.0,
+  "large_persistent_storage_tested": false,
+  "new_model_fits": 50,
+  "occurrence_count": 51150,
+  "optimizer_steps": 9600,
+  "organism_reconstruction": {
+    "fits": 50,
+    "optimizer_steps": 9600,
+    "processed_examples": 4915200
+  },
+  "primitives_promoted": 0,
+  "probe_forward_calls": 110,
+  "processed_training_examples": 4915200,
+  "replay_forward_calls": 580,
+  "substitution_forward_calls": 0,
+  "unique_historical_family_seed_episodes": 3200,
+  "validated_primitive_classes": 0,
+  "version": "V837ak",
+  "wall_seconds": 3358.7854944000046
+}

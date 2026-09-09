@@ -1,0 +1,3978 @@
+{
+  "basis_alignment_rescue_count": 0,
+  "boundary_interchangeable_count": 0,
+  "classes": [
+    {
+      "basis_alignment_rescues": false,
+      "boundary_interchangeability": {
+        "beat_both_fraction": 1.0,
+        "different_median_output": 0.6983835238773686,
+        "different_median_state": 0.6736271108887524,
+        "median_output": 0.5312033566326,
+        "median_state": 0.4872347633890809,
+        "p": 0.00390625,
+        "pass": false,
+        "randomized_median_output": 1.1342909789016178,
+        "randomized_median_state": 0.6072810048144424
+      },
+      "boundary_interchangeable": false,
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "orthogonal_alignment": {
+        "beat_both_fraction": 1.0,
+        "different_median_output": 0.8762862452143095,
+        "different_median_state": 0.8524564779847494,
+        "median_output": 0.37971529523273495,
+        "median_state": 0.3556635945083117,
+        "p": 0.015625,
+        "pass": false,
+        "randomized_median_output": 1.1342909789016178,
+        "randomized_median_state": 0.7319508842638073
+      },
+      "pairs": [
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.3861494228197963,
+            "output_nrmse": 0.2520486214232855,
+            "state_nrmse": 0.23374784861772085
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 1.2435589617119431,
+            "output_nrmse": 0.7300560710724016,
+            "state_nrmse": 0.744089248821264
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.16752958998606016,
+            "class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.7879597692047625,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              4
+            ],
+            "occurrence_id": "4aaf7882dbded5b9b1ed19ca9614568bfeed7b6427af825f80ebfa4997d74c80",
+            "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+            "run_index": 1,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f"
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9564435178509876,
+            "output_nrmse": 1.3809461184879115,
+            "state_nrmse": 0.569047485699655
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              5
+            ],
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c"
+          },
+          "same": {
+            "candidate_nrmse": 0.8107324377663164,
+            "output_nrmse": 0.5535224885460942,
+            "state_nrmse": 0.4866449018176579
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.13744992571208492,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.659138196388977,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              0
+            ],
+            "occurrence_id": "d0ce6be75d8fcefa071f823bab7e68715a7300e01648f525fa1e5b9b6e0b1748",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "run_index": 0,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": null,
+          "alignment_available": false,
+          "different": {
+            "candidate_nrmse": 0.350318172618722,
+            "output_nrmse": 0.3962425301495618,
+            "state_nrmse": 0.23095960918885383
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.32397575882875174,
+            "class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8381989524345276,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              7
+            ],
+            "occurrence_id": "b7f481695910d08a0d6fb91925dbea56729041da605027088705689c498ff991",
+            "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+            "run_index": 1,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f"
+          },
+          "randomized": {
+            "candidate_nrmse": 0.5098639064744581,
+            "output_nrmse": 1.3658215309953736,
+            "state_nrmse": 0.31238741719792723
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0
+            ],
+            "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45"
+          },
+          "same": {
+            "candidate_nrmse": 0.2832127704817206,
+            "output_nrmse": 0.29037257944149963,
+            "state_nrmse": 0.18605744425904214
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.13744992571208492,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.659138196388977,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              0
+            ],
+            "occurrence_id": "d0ce6be75d8fcefa071f823bab7e68715a7300e01648f525fa1e5b9b6e0b1748",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "run_index": 0,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": null,
+          "alignment_available": false,
+          "different": {
+            "candidate_nrmse": 0.4866852810038574,
+            "output_nrmse": 0.44351199286010584,
+            "state_nrmse": 0.3343985929553667
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.2870173687035906,
+            "class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.7450201231954877,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "partial_observation",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              3
+            ],
+            "occurrence_id": "dc318d10680878b60d016f7a98f114c1cd06540e15f1041c8e41174cc435ded8",
+            "organism_id": "f7244938fb48422ae1949f1f36302389b7131fa9d2f60417510e51257abe0727",
+            "run_index": 2,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e"
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7991267616307861,
+            "output_nrmse": 0.9256629415515761,
+            "state_nrmse": 0.6113071998477528
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "partial_observation",
+            "nodes": [
+              7
+            ],
+            "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65"
+          },
+          "same": {
+            "candidate_nrmse": 0.5123563915861661,
+            "output_nrmse": 0.3063955608414394,
+            "state_nrmse": 0.33959553558653743
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.13744992571208492,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.659138196388977,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              0
+            ],
+            "occurrence_id": "d0ce6be75d8fcefa071f823bab7e68715a7300e01648f525fa1e5b9b6e0b1748",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "run_index": 0,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.5187685998579921,
+            "output_nrmse": 0.3505735948752325,
+            "state_nrmse": 0.337725178514049
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 1.9040589223368456,
+            "output_nrmse": 1.3266538331576907,
+            "state_nrmse": 1.2501555341135266
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.19918209613177212,
+            "class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8078048302532828,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              3
+            ],
+            "occurrence_id": "7e056e0aa6e1d147441c2070ff2a39d80126324946ee323a9bec268537c53447",
+            "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+            "run_index": 3,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e"
+          },
+          "randomized": {
+            "candidate_nrmse": 1.6413736887590282,
+            "output_nrmse": 1.5658109432872793,
+            "state_nrmse": 1.0819076762731807
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0
+            ],
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b"
+          },
+          "same": {
+            "candidate_nrmse": 1.0243945056918016,
+            "output_nrmse": 0.7417169185152884,
+            "state_nrmse": 0.6658032046908241
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.2379976066225018,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8925744061504958,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              5
+            ],
+            "occurrence_id": "0fe85b56a481cbc78686694c32d01269e271a1ffb5db9c4623022545aeba6878",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "run_index": 4,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.870130742261727,
+            "output_nrmse": 0.537956217173047,
+            "state_nrmse": 0.6075684837686295
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 1.3792657412574016,
+            "output_nrmse": 1.0225164193562175,
+            "state_nrmse": 0.9608237071482347
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.19918209613177212,
+            "class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8078048302532828,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              3
+            ],
+            "occurrence_id": "7e056e0aa6e1d147441c2070ff2a39d80126324946ee323a9bec268537c53447",
+            "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+            "run_index": 3,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e"
+          },
+          "randomized": {
+            "candidate_nrmse": 1.2304891586410969,
+            "output_nrmse": 1.0853245519694017,
+            "state_nrmse": 0.8606469587464827
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0
+            ],
+            "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3"
+          },
+          "same": {
+            "candidate_nrmse": 1.089895364444514,
+            "output_nrmse": 0.7312437490172777,
+            "state_nrmse": 0.7604888416996453
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.2379976066225018,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8925744061504958,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              5
+            ],
+            "occurrence_id": "0fe85b56a481cbc78686694c32d01269e271a1ffb5db9c4623022545aeba6878",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "run_index": 4,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.5729136295365231,
+            "output_nrmse": 0.4088569955902374,
+            "state_nrmse": 0.3736020105025744
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.9236985355683963,
+            "output_nrmse": 0.6667109766823357,
+            "state_nrmse": 0.6031649729562407
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.16752958998606016,
+            "class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.7879597692047625,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              4
+            ],
+            "occurrence_id": "4aaf7882dbded5b9b1ed19ca9614568bfeed7b6427af825f80ebfa4997d74c80",
+            "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+            "run_index": 1,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f"
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9086889689002534,
+            "output_nrmse": 0.9998250758770026,
+            "state_nrmse": 0.6032548097811319
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              3
+            ],
+            "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af"
+          },
+          "same": {
+            "candidate_nrmse": 0.7563055789575788,
+            "output_nrmse": 0.5088842247191058,
+            "state_nrmse": 0.48782462496050394
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.13744992571208492,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.659138196388977,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              0
+            ],
+            "occurrence_id": "d0ce6be75d8fcefa071f823bab7e68715a7300e01648f525fa1e5b9b6e0b1748",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "run_index": 0,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.8133183465329553,
+            "output_nrmse": 0.6149861147518292,
+            "state_nrmse": 0.6391927686673584
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 1.3979824481398693,
+            "output_nrmse": 1.0974017792321404,
+            "state_nrmse": 1.097816607227395
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.19918209613177212,
+            "class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8078048302532828,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              3
+            ],
+            "occurrence_id": "7e056e0aa6e1d147441c2070ff2a39d80126324946ee323a9bec268537c53447",
+            "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+            "run_index": 3,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "716bab992afeaba0f19032ade2d80582f1755249b6d9e3100e82d94a8a6c238e"
+          },
+          "randomized": {
+            "candidate_nrmse": 1.1568318945515867,
+            "output_nrmse": 1.1832574058338339,
+            "state_nrmse": 0.9201713110946925
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0
+            ],
+            "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38"
+          },
+          "same": {
+            "candidate_nrmse": 1.0129336121630204,
+            "output_nrmse": 0.8272006111514127,
+            "state_nrmse": 0.7932169757299701
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.2379976066225018,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8925744061504958,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              5
+            ],
+            "occurrence_id": "0fe85b56a481cbc78686694c32d01269e271a1ffb5db9c4623022545aeba6878",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "run_index": 4,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.323933561849604,
+            "output_nrmse": 0.3202441012214445,
+            "state_nrmse": 0.1960084318040716
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8112907385802093,
+            "output_nrmse": 0.5360506750331737,
+            "state_nrmse": 0.4926185693763989
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.16752958998606016,
+            "class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.7879597692047625,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              4
+            ],
+            "occurrence_id": "4aaf7882dbded5b9b1ed19ca9614568bfeed7b6427af825f80ebfa4997d74c80",
+            "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+            "run_index": 1,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "2e79b072108c05130738512dc3bbac68dbd6a379672970d19fd651862df4355f"
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7977819535142257,
+            "output_nrmse": 1.0768800372351954,
+            "state_nrmse": 0.48129362710721024
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              6
+            ],
+            "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62"
+          },
+          "same": {
+            "candidate_nrmse": 0.7051425927038948,
+            "output_nrmse": 0.409435306976315,
+            "state_nrmse": 0.42948873805921484
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.13744992571208492,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.659138196388977,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "internal_edge_count": 0,
+            "internal_recurrent_edge_count": 0,
+            "message_connected": false,
+            "nodes": [
+              0
+            ],
+            "occurrence_id": "d0ce6be75d8fcefa071f823bab7e68715a7300e01648f525fa1e5b9b6e0b1748",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "run_index": 0,
+            "size": 1,
+            "size_category": "MICRO",
+            "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        }
+      ],
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "basis_alignment_rescues": false,
+      "boundary_interchangeability": {
+        "beat_both_fraction": 0.125,
+        "different_median_output": 0.5893844523695448,
+        "different_median_state": 0.5351035339387327,
+        "median_output": 0.7867869432404746,
+        "median_state": 0.6239587933047993,
+        "p": 0.9453125,
+        "pass": false,
+        "randomized_median_output": 1.287809270951899,
+        "randomized_median_state": 0.6666871974227699
+      },
+      "boundary_interchangeable": false,
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "orthogonal_alignment": {
+        "beat_both_fraction": 0.5,
+        "different_median_output": 0.5893844523695448,
+        "different_median_state": 0.5351035339387327,
+        "median_output": 0.6470710287889851,
+        "median_state": 0.5457306617587492,
+        "p": 0.421875,
+        "pass": false,
+        "randomized_median_output": 1.287809270951899,
+        "randomized_median_state": 0.6666871974227699
+      },
+      "pairs": [
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.6717247448283157,
+            "output_nrmse": 0.4356164154147197,
+            "state_nrmse": 0.4039289610966184
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.7909205069811571,
+            "output_nrmse": 0.48082962001309826,
+            "state_nrmse": 0.47524081849886507
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              8
+            ],
+            "occurrence_id": "016a1837d216ebe23a9d403d974ba1b782c101c2c4eac9a6e99dbe94da9dad7c",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8630732265675163,
+            "output_nrmse": 1.2471957757294287,
+            "state_nrmse": 0.5179144081713976
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              2,
+              6,
+              7
+            ],
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c"
+          },
+          "same": {
+            "candidate_nrmse": 0.8177101061470304,
+            "output_nrmse": 0.5075137062533608,
+            "state_nrmse": 0.49325966041206654
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.2975150298708018,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.6465151114304334,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              3,
+              9
+            ],
+            "occurrence_id": "650f782442e75a889799de7c6d3ba3203035abaf3b386e38b21380e04b736543",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 2.9802322387695312e-08,
+            "output_max_abs_error": 1.4901161193847656e-08,
+            "state_max_abs_error": 1.4901161193847656e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.8704120767620948,
+            "output_nrmse": 0.8201121180958098,
+            "state_nrmse": 0.7599009324656867
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.6933515880654814,
+            "output_nrmse": 0.7233506008187308,
+            "state_nrmse": 0.6254151387571579
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              1,
+              3,
+              7
+            ],
+            "occurrence_id": "004e459b5481d753091943f358d81999a7f0216c5f47a7a71ae2387d6cdaa126",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8901533730603023,
+            "output_nrmse": 1.2364255471647758,
+            "state_nrmse": 0.8056806927017365
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              1,
+              2,
+              7
+            ],
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a"
+          },
+          "same": {
+            "candidate_nrmse": 0.7727663396138204,
+            "output_nrmse": 0.7745875190666992,
+            "state_nrmse": 0.7004428808841431
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.4998477125706177,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.7741099734749133,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              3,
+              7
+            ],
+            "occurrence_id": "f07fbfd54ef534dd27343ebacc46564f0958f6222063654bc607b6e742c28e01",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.4806051794309385,
+            "output_nrmse": 0.32369224173388517,
+            "state_nrmse": 0.30726944552106367
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.4303761100184187,
+            "output_nrmse": 0.4506145840051055,
+            "state_nrmse": 0.2797955564074988
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              3,
+              4,
+              9
+            ],
+            "occurrence_id": "0af97e372bab8f9ddb8429eb3e67e0d75f5992dec28a9970b811e19a46e0b9bd",
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 0.6302351037597347,
+            "output_nrmse": 1.4595696567263166,
+            "state_nrmse": 0.4062232181810226
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              7,
+              8
+            ],
+            "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280"
+          },
+          "same": {
+            "candidate_nrmse": 0.5366659816991333,
+            "output_nrmse": 0.46363741016857857,
+            "state_nrmse": 0.35556227769465576
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.40406655427432375,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.6343760847964843,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              3,
+              5,
+              7
+            ],
+            "occurrence_id": "35856b7ce9e526b9a37d274b8608a55408105156a6d4a477f7c698740bdf3386",
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.739046108595581,
+            "output_nrmse": 0.6397424857256611,
+            "state_nrmse": 0.5755129908359864
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8727093159125537,
+            "output_nrmse": 0.739571668991007,
+            "state_nrmse": 0.679061954879722
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              2,
+              5,
+              7
+            ],
+            "occurrence_id": "022b0a93efe47cce2e56ccf831e6e1214ff8b9ed6c608f1da79276c0cacd4f1d",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8590282701375594,
+            "output_nrmse": 1.2703410884971078,
+            "state_nrmse": 0.6660542404133405
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              4,
+              7,
+              8
+            ],
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8"
+          },
+          "same": {
+            "candidate_nrmse": 0.883642441550059,
+            "output_nrmse": 0.8712366989792528,
+            "state_nrmse": 0.6927459705768431
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.31325583072179713,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3959111347520341,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              5
+            ],
+            "occurrence_id": "e69a68a37c1a314f679a31cf79421c7943ee95e44d3e09a3834460a92b43d1bc",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.763220888034798,
+            "output_nrmse": 0.5674082762569396,
+            "state_nrmse": 0.521572724601039
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.7935735807859354,
+            "output_nrmse": 0.5567023460173532,
+            "state_nrmse": 0.5204589670380393
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "partial_observation",
+            "nodes": [
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "34f3986b30a711f8b7033bef6c2968288f6ec0bfdb3ee6ff56b96f83ac7b6a37",
+            "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9701056337047036,
+            "output_nrmse": 1.259297277682454,
+            "state_nrmse": 0.6673201544321993
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "partial_observation",
+            "nodes": [
+              3,
+              4,
+              7
+            ],
+            "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c"
+          },
+          "same": {
+            "candidate_nrmse": 0.8668392250915293,
+            "output_nrmse": 0.5869902630566035,
+            "state_nrmse": 0.5746489304856502
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.30504871159357244,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5770829234412665,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "partial_observation",
+            "nodes": [
+              0,
+              4,
+              7
+            ],
+            "occurrence_id": "97bf160eaa894408d305fb2fc64afc89fb556757831b5ed387735d55de560e6e",
+            "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.8709789712297449,
+            "output_nrmse": 0.8415884131594185,
+            "state_nrmse": 0.7121114631212964
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8637977544921784,
+            "output_nrmse": 0.9003110706951655,
+            "state_nrmse": 0.735750996728484
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              2,
+              3,
+              4
+            ],
+            "occurrence_id": "096a0db902529fedf54de2e539ee5d736c92d5f2f93692b1415f4fb310624bbf",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7849935279441629,
+            "output_nrmse": 1.3860403590278545,
+            "state_nrmse": 0.6558211791671417
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              3,
+              7
+            ],
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1"
+          },
+          "same": {
+            "candidate_nrmse": 0.671473757227411,
+            "output_nrmse": 0.8035793669080605,
+            "state_nrmse": 0.5580678845971331
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.42686051349329995,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.8807274142187941,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              1,
+              2,
+              7
+            ],
+            "occurrence_id": "b5ff1223406ed51900c7c451b56db527f7e50738a88a40953c0b2611d14c69d0",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.8074915574573107,
+            "output_nrmse": 0.6543995718523093,
+            "state_nrmse": 0.5698885989164594
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.7160312916737515,
+            "output_nrmse": 0.5430009109190551,
+            "state_nrmse": 0.503467171421335
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              7
+            ],
+            "occurrence_id": "6fd019e5eba2eb041d0bfa4c7562311aa8e1b228a00532a2118159fa65c99ab3",
+            "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 1.0827421758712676,
+            "output_nrmse": 1.30527745340669,
+            "state_nrmse": 0.7618533867604065
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              3,
+              9
+            ],
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b"
+          },
+          "same": {
+            "candidate_nrmse": 1.0674847358778055,
+            "output_nrmse": 0.79898636741425,
+            "state_nrmse": 0.7521029958007662
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.24110652919305875,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.6554965211126942,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              2,
+              6,
+              7
+            ],
+            "occurrence_id": "c919e8103a99204740c3c88ff2b3f4abcf2aa75be78a5783213d4487d4019317",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 2.9802322387695312e-08,
+            "state_max_abs_error": 2.9802322387695312e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7794859982066294,
+            "output_nrmse": 0.6835276996200695,
+            "state_nrmse": 0.5125310098462103
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8368434811810248,
+            "output_nrmse": 0.6220665587217363,
+            "state_nrmse": 0.549748100839426
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              7
+            ],
+            "occurrence_id": "6fd019e5eba2eb041d0bfa4c7562311aa8e1b228a00532a2118159fa65c99ab3",
+            "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+            "size": 3
+          },
+          "randomized": {
+            "candidate_nrmse": 1.0252581474941815,
+            "output_nrmse": 1.561169528951644,
+            "state_nrmse": 0.6725744690203486
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              2,
+              3
+            ],
+            "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3"
+          },
+          "same": {
+            "candidate_nrmse": 1.0247272441717024,
+            "output_nrmse": 0.8174123800306419,
+            "state_nrmse": 0.6732686561239484
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.24110652919305875,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.6554965211126942,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              2,
+              6,
+              7
+            ],
+            "occurrence_id": "c919e8103a99204740c3c88ff2b3f4abcf2aa75be78a5783213d4487d4019317",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 3
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        }
+      ],
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "basis_alignment_rescues": false,
+      "boundary_interchangeability": {
+        "beat_both_fraction": 0.5,
+        "different_median_output": 0.6064030214516453,
+        "different_median_state": 0.5753810051112369,
+        "median_output": 0.6138602217851639,
+        "median_state": 0.5807356400430708,
+        "p": 0.6171875,
+        "pass": false,
+        "randomized_median_output": 1.2923428924866494,
+        "randomized_median_state": 0.6688944372566968
+      },
+      "boundary_interchangeable": false,
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "orthogonal_alignment": {
+        "beat_both_fraction": 1.0,
+        "different_median_output": 0.6064030214516453,
+        "different_median_state": 0.5753810051112369,
+        "median_output": 0.46748163394589487,
+        "median_state": 0.45463337588070385,
+        "p": 0.00390625,
+        "pass": false,
+        "randomized_median_output": 1.2923428924866494,
+        "randomized_median_state": 0.6688944372566968
+      },
+      "pairs": [
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.728320413057412,
+            "output_nrmse": 0.4515554060683072,
+            "state_nrmse": 0.4580054155485668
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.9158601523227806,
+            "output_nrmse": 0.6132717917544068,
+            "state_nrmse": 0.5765634005183661
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              3,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "0db4b7a63f05896dfdbf5764cb97252572a3082fc520ad2e74370aabd879f325",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 1.0843367935916473,
+            "output_nrmse": 1.41771338959023,
+            "state_nrmse": 0.6787938507619289
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c"
+          },
+          "same": {
+            "candidate_nrmse": 1.023163295336168,
+            "output_nrmse": 0.6667595420120795,
+            "state_nrmse": 0.6418879226036285
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.41067483532987104,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.27928044461306734,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0,
+              1,
+              2,
+              5,
+              6
+            ],
+            "occurrence_id": "891defe8253aea5328b2ff9ef1419fe406ece5832867b660ec020b528fac7811",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 2.9802322387695312e-08,
+            "state_max_abs_error": 2.9802322387695312e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7696542632747956,
+            "output_nrmse": 0.548270141852545,
+            "state_nrmse": 0.5160802472721693
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.926978499949135,
+            "output_nrmse": 0.6024850258116102,
+            "state_nrmse": 0.618125538229143
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "partial_observation",
+            "nodes": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "0266c320e5959f613d6e31eeb2746dbdbcb37179c4de555292101b4affeb41e4",
+            "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9715112810081837,
+            "output_nrmse": 1.112770704377562,
+            "state_nrmse": 0.6654407169252301
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "partial_observation",
+            "nodes": [
+              0,
+              2,
+              3,
+              4,
+              7
+            ],
+            "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c"
+          },
+          "same": {
+            "candidate_nrmse": 0.8019291211438484,
+            "output_nrmse": 0.5600164390804621,
+            "state_nrmse": 0.5189239428982878
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.26132198858758215,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5437546219438559,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "partial_observation",
+            "nodes": [
+              0,
+              1,
+              2,
+              6,
+              7
+            ],
+            "occurrence_id": "374f29a2579e78dac6fc42aea7fe68bce4bd644e4aa3481f5fb9c1b5baa85a1e",
+            "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.786984750566627,
+            "output_nrmse": 0.5192948810649656,
+            "state_nrmse": 0.50395235963713
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8899770786133773,
+            "output_nrmse": 0.6551890958653727,
+            "state_nrmse": 0.5741986097041076
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              2,
+              3,
+              5,
+              6,
+              7
+            ],
+            "occurrence_id": "0657c98a993f8b5a3350379c3baba755d5d7b582dcda066348775c76e796b046",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 1.1153188014355477,
+            "output_nrmse": 1.150485548993454,
+            "state_nrmse": 0.7148894812523896
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0,
+              1,
+              2,
+              5,
+              6
+            ],
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b"
+          },
+          "same": {
+            "candidate_nrmse": 1.0360591476994576,
+            "output_nrmse": 0.691071738665696,
+            "state_nrmse": 0.665108085970882
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.26383588806671976,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.35741353694011296,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "a435448d0033e64fb270911614e167d26b68a41c203fc04ebcfc2f19d6c80fdb",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.6781625047224794,
+            "output_nrmse": 0.46745030882377975,
+            "state_nrmse": 0.45559897740356414
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8701302408492193,
+            "output_nrmse": 0.6310105716993853,
+            "state_nrmse": 0.5874272062543834
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              2,
+              3,
+              5,
+              6,
+              7
+            ],
+            "occurrence_id": "0657c98a993f8b5a3350379c3baba755d5d7b582dcda066348775c76e796b046",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 1.04481870478556,
+            "output_nrmse": 1.3951221011685868,
+            "state_nrmse": 0.7087691601812834
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              3,
+              6,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3"
+          },
+          "same": {
+            "candidate_nrmse": 1.0601320937754075,
+            "output_nrmse": 0.7451892150880295,
+            "state_nrmse": 0.7141693654425406
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.26383588806671976,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.35741353694011296,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "a435448d0033e64fb270911614e167d26b68a41c203fc04ebcfc2f19d6c80fdb",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7152344667609174,
+            "output_nrmse": 0.5027013332710306,
+            "state_nrmse": 0.4536677743578436
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8666056531146472,
+            "output_nrmse": 0.5769420662828431,
+            "state_nrmse": 0.5509033621766787
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              2,
+              3,
+              5,
+              6,
+              7
+            ],
+            "occurrence_id": "0657c98a993f8b5a3350379c3baba755d5d7b582dcda066348775c76e796b046",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 1.0552589714125975,
+            "output_nrmse": 1.3775174926457938,
+            "state_nrmse": 0.6723481575881636
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0,
+              3,
+              6,
+              7,
+              8
+            ],
+            "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2"
+          },
+          "same": {
+            "candidate_nrmse": 0.9192429841746381,
+            "output_nrmse": 0.6282655171443882,
+            "state_nrmse": 0.5876841923956825
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.26383588806671976,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.35741353694011296,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "a435448d0033e64fb270911614e167d26b68a41c203fc04ebcfc2f19d6c80fdb",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7105748613684706,
+            "output_nrmse": 0.46751295906801,
+            "state_nrmse": 0.4409116956215388
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8917461265641423,
+            "output_nrmse": 0.6103210170916803,
+            "state_nrmse": 0.5554650000413649
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              2,
+              3,
+              5,
+              6,
+              7
+            ],
+            "occurrence_id": "0657c98a993f8b5a3350379c3baba755d5d7b582dcda066348775c76e796b046",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 1.0130498147875149,
+            "output_nrmse": 1.100281764044168,
+            "state_nrmse": 0.6287742178030943
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0,
+              2,
+              6,
+              7,
+              8
+            ],
+            "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf"
+          },
+          "same": {
+            "candidate_nrmse": 0.9241968544260415,
+            "output_nrmse": 0.5994549264259396,
+            "state_nrmse": 0.5737870876904589
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.26383588806671976,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.35741353694011296,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "a435448d0033e64fb270911614e167d26b68a41c203fc04ebcfc2f19d6c80fdb",
+            "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 2.9802322387695312e-08,
+            "output_max_abs_error": 1.4901161193847656e-08,
+            "state_max_abs_error": 1.4901161193847656e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.4621577315341089,
+            "output_nrmse": 0.3118208590442631,
+            "state_nrmse": 0.29883057409515834
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.5697292954538776,
+            "output_nrmse": 0.4315695237589027,
+            "state_nrmse": 0.3660949474675843
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              3,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "0db4b7a63f05896dfdbf5764cb97252572a3082fc520ad2e74370aabd879f325",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8358474742587088,
+            "output_nrmse": 1.4119510933194026,
+            "state_nrmse": 0.546910428142558
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              0,
+              3,
+              4,
+              5,
+              6
+            ],
+            "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac"
+          },
+          "same": {
+            "candidate_nrmse": 0.42500275818176064,
+            "output_nrmse": 0.2964060396709784,
+            "state_nrmse": 0.2757252227220297
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.41067483532987104,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.27928044461306734,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0,
+              1,
+              2,
+              5,
+              6
+            ],
+            "occurrence_id": "891defe8253aea5328b2ff9ef1419fe406ece5832867b660ec020b528fac7811",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7145965838457039,
+            "output_nrmse": 0.46139188564140715,
+            "state_nrmse": 0.4500917946065769
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.9390823149786272,
+            "output_nrmse": 0.5916753901200069,
+            "state_nrmse": 0.592605862467617
+          },
+          "different_class_donor": {
+            "class_id": "OUTSIDE_FROZEN_DYNAMIC_CLASS",
+            "competent": true,
+            "control_source": "full_census_outside_dynamic_radius",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              3,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "0db4b7a63f05896dfdbf5764cb97252572a3082fc520ad2e74370aabd879f325",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 5
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9797041962881352,
+            "output_nrmse": 1.2071682923275049,
+            "state_nrmse": 0.6166397005030739
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "iterative_state",
+            "nodes": [
+              1,
+              2,
+              5,
+              8,
+              9
+            ],
+            "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7"
+          },
+          "same": {
+            "candidate_nrmse": 0.8247689818660572,
+            "output_nrmse": 0.5844158053653676,
+            "state_nrmse": 0.5206162429257861
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.41067483532987104,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.27928044461306734,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "iterative_state",
+            "nodes": [
+              0,
+              1,
+              2,
+              5,
+              6
+            ],
+            "occurrence_id": "891defe8253aea5328b2ff9ef1419fe406ece5832867b660ec020b528fac7811",
+            "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "size": 5
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        }
+      ],
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "basis_alignment_rescues": false,
+      "boundary_interchangeability": {
+        "beat_both_fraction": 1.0,
+        "different_median_output": 0.5593958343440906,
+        "different_median_state": 0.4224979841430982,
+        "median_output": 0.4214654380473345,
+        "median_state": 0.29394837203881596,
+        "p": 0.00390625,
+        "pass": false,
+        "randomized_median_output": 1.4629140556456528,
+        "randomized_median_state": 0.5038835444554858
+      },
+      "boundary_interchangeable": false,
+      "class_id": "ee70b6b00598cb4f5555e42f46a766e3921a8731e75bca146d9633d019bb18ad",
+      "orthogonal_alignment": {
+        "beat_both_fraction": 1.0,
+        "different_median_output": 0.5593958343440906,
+        "different_median_state": 0.4224979841430982,
+        "median_output": 0.4374991137051508,
+        "median_state": 0.3811786622089582,
+        "p": 0.00390625,
+        "pass": false,
+        "randomized_median_output": 1.4629140556456528,
+        "randomized_median_state": 0.5038835444554858
+      },
+      "pairs": [
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.564611887686295,
+            "output_nrmse": 0.4114322124118789,
+            "state_nrmse": 0.3653857929739814
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.5502628431461544,
+            "output_nrmse": 0.5351403445045926,
+            "state_nrmse": 0.35974228198593894
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.6281919333015096,
+            "output_nrmse": 1.328465560672728,
+            "state_nrmse": 0.4098695720465657
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              9
+            ],
+            "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280"
+          },
+          "same": {
+            "candidate_nrmse": 0.44856857308104703,
+            "output_nrmse": 0.3935561331016118,
+            "state_nrmse": 0.2970508527570266
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3357813269661768,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.2662399204152244,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "occurrence_id": "88bb29423f1a881cff1bceec910f0e1b156cb9a90f9ac5c197701a5b7aa07bf5",
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.5239565177732105,
+            "output_nrmse": 0.44558686744705694,
+            "state_nrmse": 0.40756870363408015
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.7518078877625474,
+            "output_nrmse": 0.8023372509539504,
+            "state_nrmse": 0.6185280918504409
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.6478657464258766,
+            "output_nrmse": 1.4645397243951415,
+            "state_nrmse": 0.5257758098886017
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656"
+          },
+          "same": {
+            "candidate_nrmse": 0.5028364948851202,
+            "output_nrmse": 0.4513072681065243,
+            "state_nrmse": 0.40862355882519763
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.255826369347877,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.25944711112655827,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              9
+            ],
+            "occurrence_id": "ad9772dbf6f09d7f43abd49f2eabbadd792ab34e773c72392d89a11aacd9da27",
+            "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 5.960464477539063e-08,
+            "state_max_abs_error": 5.960464477539063e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.42464330349022705,
+            "output_nrmse": 0.3521533450686308,
+            "state_nrmse": 0.2765670367620007
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.6903446619102092,
+            "output_nrmse": 0.7076357338241749,
+            "state_nrmse": 0.44068704962342137
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.5777871319910055,
+            "output_nrmse": 1.5253397673992457,
+            "state_nrmse": 0.3676444755812203
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              6,
+              8,
+              9
+            ],
+            "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45"
+          },
+          "same": {
+            "candidate_nrmse": 0.44798422511408525,
+            "output_nrmse": 0.3612661204256124,
+            "state_nrmse": 0.2908458913206054
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.255826369347877,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.25944711112655827,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              9
+            ],
+            "occurrence_id": "ad9772dbf6f09d7f43abd49f2eabbadd792ab34e773c72392d89a11aacd9da27",
+            "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 5.960464477539063e-08,
+            "state_max_abs_error": 5.960464477539063e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.5182682878834353,
+            "output_nrmse": 0.4621545691754217,
+            "state_nrmse": 0.37058721864719546
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.5727042427089795,
+            "output_nrmse": 0.5434523176346525,
+            "state_nrmse": 0.40977954945267847
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7946767358263156,
+            "output_nrmse": 1.4612883868961641,
+            "state_nrmse": 0.5613127975911651
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              1,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8"
+          },
+          "same": {
+            "candidate_nrmse": 0.5384396871279747,
+            "output_nrmse": 0.5077370351542604,
+            "state_nrmse": 0.40335849337928886
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3357813269661768,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.2662399204152244,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "occurrence_id": "88bb29423f1a881cff1bceec910f0e1b156cb9a90f9ac5c197701a5b7aa07bf5",
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.5806101377767424,
+            "output_nrmse": 0.43265895460643183,
+            "state_nrmse": 0.3917701057707209
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.5862965307427197,
+            "output_nrmse": 0.5332564472066754,
+            "state_nrmse": 0.39712447432823433
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7215923072722971,
+            "output_nrmse": 1.298063305885742,
+            "state_nrmse": 0.4819912790223698
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf"
+          },
+          "same": {
+            "candidate_nrmse": 0.48306363190259155,
+            "output_nrmse": 0.41839912077695846,
+            "state_nrmse": 0.32308871664709776
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3357813269661768,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.2662399204152244,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "occurrence_id": "88bb29423f1a881cff1bceec910f0e1b156cb9a90f9ac5c197701a5b7aa07bf5",
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.5333560231458143,
+            "output_nrmse": 0.44233927280386975,
+            "state_nrmse": 0.3982479953261255
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.4921108678342482,
+            "output_nrmse": 0.49289656121541575,
+            "state_nrmse": 0.33639978179122076
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.6265663323531204,
+            "output_nrmse": 1.5035722040268598,
+            "state_nrmse": 0.4531342967572664
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9"
+          },
+          "same": {
+            "candidate_nrmse": 0.43567203080048716,
+            "output_nrmse": 0.443512884015478,
+            "state_nrmse": 0.28254217984391267
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3357813269661768,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.2662399204152244,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "occurrence_id": "88bb29423f1a881cff1bceec910f0e1b156cb9a90f9ac5c197701a5b7aa07bf5",
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.46146154834431174,
+            "output_nrmse": 0.38558867231753385,
+            "state_nrmse": 0.3137297722625658
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.6666145417407664,
+            "output_nrmse": 0.7222364769516298,
+            "state_nrmse": 0.5167652811435094
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.664063268354913,
+            "output_nrmse": 1.5134460037234565,
+            "state_nrmse": 0.535642907316402
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              1,
+              2,
+              3,
+              5,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53"
+          },
+          "same": {
+            "candidate_nrmse": 0.31396179911193844,
+            "output_nrmse": 0.3580073259847924,
+            "state_nrmse": 0.2356439457817934
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.255826369347877,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.25944711112655827,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              9
+            ],
+            "occurrence_id": "ad9772dbf6f09d7f43abd49f2eabbadd792ab34e773c72392d89a11aacd9da27",
+            "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 1.1920928955078125e-07,
+            "state_max_abs_error": 5.960464477539063e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.5366486687468431,
+            "output_nrmse": 0.45297081292692265,
+            "state_nrmse": 0.42181911379441267
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.5658660452904686,
+            "output_nrmse": 0.5753393510535286,
+            "state_nrmse": 0.4352164188335179
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7048965231610071,
+            "output_nrmse": 1.224014564368982,
+            "state_nrmse": 0.5571835285085223
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a"
+          },
+          "same": {
+            "candidate_nrmse": 0.35124841748674623,
+            "output_nrmse": 0.4245317553177106,
+            "state_nrmse": 0.2762925069258382
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3357813269661768,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.2662399204152244,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "nodes": [
+              0,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "occurrence_id": "88bb29423f1a881cff1bceec910f0e1b156cb9a90f9ac5c197701a5b7aa07bf5",
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        }
+      ],
+      "size": 7,
+      "stream": "D"
+    },
+    {
+      "basis_alignment_rescues": false,
+      "boundary_interchangeability": {
+        "beat_both_fraction": 0.375,
+        "different_median_output": 0.8254025999847348,
+        "different_median_state": 0.6995782667448073,
+        "median_output": 0.8114512015557789,
+        "median_state": 0.6887864675130109,
+        "p": 0.78515625,
+        "pass": false,
+        "randomized_median_output": 1.3599627085437334,
+        "randomized_median_state": 0.7849782293903661
+      },
+      "boundary_interchangeable": false,
+      "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+      "orthogonal_alignment": {
+        "beat_both_fraction": 0.5,
+        "different_median_output": 0.8254025999847348,
+        "different_median_state": 0.6995782667448073,
+        "median_output": 0.7686102843844487,
+        "median_state": 0.6563055591493596,
+        "p": 0.14453125,
+        "pass": false,
+        "randomized_median_output": 1.3599627085437334,
+        "randomized_median_state": 0.7849782293903661
+      },
+      "pairs": [
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7571500227013994,
+            "output_nrmse": 0.724829092329801,
+            "state_nrmse": 0.6366889513369588
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8783300791016574,
+            "output_nrmse": 0.8214770553659068,
+            "state_nrmse": 0.7595364262860891
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 1.0439118723692395,
+            "output_nrmse": 1.1820689442185044,
+            "state_nrmse": 0.9002924233076381
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a"
+          },
+          "same": {
+            "candidate_nrmse": 0.7579211593308232,
+            "output_nrmse": 0.7569162658575366,
+            "state_nrmse": 0.649005336413149
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7708430689597829,
+            "output_nrmse": 0.8195367547679275,
+            "state_nrmse": 0.6415066436948325
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8221073839554961,
+            "output_nrmse": 0.8606766429818142,
+            "state_nrmse": 0.7072505810073736
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.91351955045857,
+            "output_nrmse": 1.418739769873176,
+            "state_nrmse": 0.7650261169599569
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1"
+          },
+          "same": {
+            "candidate_nrmse": 0.7589957063491073,
+            "output_nrmse": 0.8181072572368083,
+            "state_nrmse": 0.6472712209540609
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7525361457056075,
+            "output_nrmse": 0.7768474446160475,
+            "state_nrmse": 0.6315848604471637
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.6983657443762092,
+            "output_nrmse": 0.7673210690026067,
+            "state_nrmse": 0.5818517618038134
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9240968640165572,
+            "output_nrmse": 1.2802100302734325,
+            "state_nrmse": 0.7826408134448524
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              2,
+              4,
+              5,
+              6,
+              7,
+              9
+            ],
+            "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726"
+          },
+          "same": {
+            "candidate_nrmse": 0.8116454375791771,
+            "output_nrmse": 0.8047951458747495,
+            "state_nrmse": 0.6690504058909768
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 5.960464477539063e-08,
+            "state_max_abs_error": 5.960464477539063e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.834322316479969,
+            "output_nrmse": 0.8955479058951208,
+            "state_nrmse": 0.7182600398396785
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8391255926484567,
+            "output_nrmse": 0.8293281446035626,
+            "state_nrmse": 0.7284685645728194
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9328619177482528,
+            "output_nrmse": 1.5634501973794777,
+            "state_nrmse": 0.8205924086338237
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              7,
+              9
+            ],
+            "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e"
+          },
+          "same": {
+            "candidate_nrmse": 0.8789312043832059,
+            "output_nrmse": 0.929767843979577,
+            "state_nrmse": 0.7707851366212756
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 1.1920928955078125e-07,
+            "output_max_abs_error": 1.1920928955078125e-07,
+            "state_max_abs_error": 8.940696716308594e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7619229647225165,
+            "output_nrmse": 0.7515022002576769,
+            "state_nrmse": 0.6733846017095693
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.7958975864479529,
+            "output_nrmse": 0.7360960754205622,
+            "state_nrmse": 0.6892503336048112
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8894616087982633,
+            "output_nrmse": 1.1715534047308913,
+            "state_nrmse": 0.7863699712452846
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0"
+          },
+          "same": {
+            "candidate_nrmse": 0.8906421671097491,
+            "output_nrmse": 0.8297209917833744,
+            "state_nrmse": 0.7788872363672968
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 5.960464477539063e-08,
+            "state_max_abs_error": 5.960464477539063e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7992336434098812,
+            "output_nrmse": 0.7603731241528499,
+            "state_nrmse": 0.6711044746038868
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8937909285355101,
+            "output_nrmse": 0.8562934785094677,
+            "state_nrmse": 0.7387321025278133
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9356892418474867,
+            "output_nrmse": 1.4371267614055105,
+            "state_nrmse": 0.7835864875354476
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61"
+          },
+          "same": {
+            "candidate_nrmse": 0.8719238211993451,
+            "output_nrmse": 0.789821686300048,
+            "state_nrmse": 0.708522529135045
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.8283756542897386,
+            "output_nrmse": 0.9075784576955626,
+            "state_nrmse": 0.7209292602385744
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.797916279063748,
+            "output_nrmse": 0.8779326897701466,
+            "state_nrmse": 0.691905952482241
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9594238607610365,
+            "output_nrmse": 1.5458222648579454,
+            "state_nrmse": 0.8562382538152049
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6"
+          },
+          "same": {
+            "candidate_nrmse": 0.8872633941497396,
+            "output_nrmse": 0.9390764656154071,
+            "state_nrmse": 0.7494171683678301
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.6835742000112943,
+            "output_nrmse": 0.6200551155774918,
+            "state_nrmse": 0.5786837058471336
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.7567291038379014,
+            "output_nrmse": 0.704463911529483,
+            "state_nrmse": 0.6514870171561344
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8314366784337337,
+            "output_nrmse": 1.3011856472142904,
+            "state_nrmse": 0.7223516140073254
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              2,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775"
+          },
+          "same": {
+            "candidate_nrmse": 0.7482391628754713,
+            "output_nrmse": 0.7432550695147534,
+            "state_nrmse": 0.636366789963209
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        }
+      ],
+      "size": 7,
+      "stream": "D"
+    },
+    {
+      "basis_alignment_rescues": false,
+      "boundary_interchangeability": {
+        "beat_both_fraction": 0.875,
+        "different_median_output": 0.9063183959411087,
+        "different_median_state": 0.7141517398635293,
+        "median_output": 0.794328170046351,
+        "median_state": 0.6463451417100271,
+        "p": 0.01171875,
+        "pass": false,
+        "randomized_median_output": 1.294205958512679,
+        "randomized_median_state": 0.6748288069581332
+      },
+      "boundary_interchangeable": false,
+      "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+      "orthogonal_alignment": {
+        "beat_both_fraction": 1.0,
+        "different_median_output": 0.9063183959411087,
+        "different_median_state": 0.7141517398635293,
+        "median_output": 0.6714526851956686,
+        "median_state": 0.5940623317521929,
+        "p": 0.00390625,
+        "pass": false,
+        "randomized_median_output": 1.294205958512679,
+        "randomized_median_state": 0.6748288069581332
+      },
+      "pairs": [
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7995733973743555,
+            "output_nrmse": 0.7151498072529574,
+            "state_nrmse": 0.6290093761843796
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 1.0245002092653344,
+            "output_nrmse": 0.9479868401442476,
+            "state_nrmse": 0.8089327646830159
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9780560405138883,
+            "output_nrmse": 1.2570316609700254,
+            "state_nrmse": 0.7748806230119857
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8"
+          },
+          "same": {
+            "candidate_nrmse": 0.8766229424279753,
+            "output_nrmse": 0.8350502129945503,
+            "state_nrmse": 0.6851047468011148
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 2.9802322387695312e-08,
+            "output_max_abs_error": 2.9802322387695312e-08,
+            "state_max_abs_error": 2.9802322387695312e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7363998561088765,
+            "output_nrmse": 0.6406270153862981,
+            "state_nrmse": 0.6127150849688245
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8325428719101858,
+            "output_nrmse": 0.8335167245322997,
+            "state_nrmse": 0.6955829685761024
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.773617205271341,
+            "output_nrmse": 1.2048552044891987,
+            "state_nrmse": 0.6447607743417517
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0"
+          },
+          "same": {
+            "candidate_nrmse": 0.7782768997471723,
+            "output_nrmse": 0.768149436964511,
+            "state_nrmse": 0.6488371115120358
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 1.043081283569336e-07,
+            "output_max_abs_error": 1.1920928955078125e-07,
+            "state_max_abs_error": 6.705522537231445e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.6583421954901953,
+            "output_nrmse": 0.7219948956681588,
+            "state_nrmse": 0.5494400928304745
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8614149320315403,
+            "output_nrmse": 0.9311334182456068,
+            "state_nrmse": 0.7088188678926877
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8127653594534702,
+            "output_nrmse": 1.2157460581052486,
+            "state_nrmse": 0.6790926356706899
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8
+            ],
+            "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3"
+          },
+          "same": {
+            "candidate_nrmse": 0.7621233418236207,
+            "output_nrmse": 0.8617466666403254,
+            "state_nrmse": 0.6504717095461855
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7564519138441733,
+            "output_nrmse": 0.7209833478894255,
+            "state_nrmse": 0.6196112529868572
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.9364422474123387,
+            "output_nrmse": 0.9388732209518602,
+            "state_nrmse": 0.7629378362206091
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8306436048751203,
+            "output_nrmse": 1.3463841992196837,
+            "state_nrmse": 0.6705649782455765
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              2,
+              4,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771"
+          },
+          "same": {
+            "candidate_nrmse": 0.8264983150527169,
+            "output_nrmse": 0.8256413880578289,
+            "state_nrmse": 0.6732415231072592
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 1.1920928955078125e-07,
+            "state_max_abs_error": 1.1920928955078125e-07
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7435346923047308,
+            "output_nrmse": 0.6847090298008776,
+            "state_nrmse": 0.5956038237732123
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8496693021912961,
+            "output_nrmse": 0.7431005528021996,
+            "state_nrmse": 0.6772927263644515
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7738808173302631,
+            "output_nrmse": 1.4290041788542713,
+            "state_nrmse": 0.6194063473504161
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              2,
+              3,
+              5,
+              6,
+              7,
+              9
+            ],
+            "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f"
+          },
+          "same": {
+            "candidate_nrmse": 0.7794035919825844,
+            "output_nrmse": 0.8121760615540028,
+            "state_nrmse": 0.6136499347648672
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 0.0,
+            "output_max_abs_error": 0.0,
+            "state_max_abs_error": 0.0
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.6869357783249419,
+            "output_nrmse": 0.6499120676135567,
+            "state_nrmse": 0.5535662593397117
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8679694357822383,
+            "output_nrmse": 0.8748505276547909,
+            "state_nrmse": 0.7029246018554123
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.7961333180592034,
+            "output_nrmse": 1.351861586772554,
+            "state_nrmse": 0.6407095557796316
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              5,
+              6,
+              8,
+              9
+            ],
+            "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc"
+          },
+          "same": {
+            "candidate_nrmse": 0.7418394678745265,
+            "output_nrmse": 0.7761211054392881,
+            "state_nrmse": 0.6003169004464589
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 5.960464477539063e-08,
+            "state_max_abs_error": 5.960464477539063e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.7420128456837535,
+            "output_nrmse": 0.6277538961278333,
+            "state_nrmse": 0.5925208397311735
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 1.043010946649832,
+            "output_nrmse": 0.9581730407407353,
+            "state_nrmse": 0.8406966126294051
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.30419038581624264,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.384985145545295,
+            "control_source": "frozen_candidate",
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              6,
+              8
+            ],
+            "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.9649904698884119,
+            "output_nrmse": 1.3313802560553327,
+            "state_nrmse": 0.780335996976772
+          },
+          "recipient": {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37"
+          },
+          "same": {
+            "candidate_nrmse": 0.6421314277982784,
+            "output_nrmse": 0.7294346195036016,
+            "state_nrmse": 0.5207734838105336
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3614381717299254,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3107032743275383,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+            "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 2.9802322387695312e-08,
+            "state_max_abs_error": 2.9802322387695312e-08
+          }
+        },
+        {
+          "aligned_same": {
+            "candidate_nrmse": 0.6682655354589551,
+            "output_nrmse": 0.6581963405904595,
+            "state_nrmse": 0.5496604686511126
+          },
+          "alignment_available": true,
+          "different": {
+            "candidate_nrmse": 0.8894265441842174,
+            "output_nrmse": 0.8815033736366107,
+            "state_nrmse": 0.719484611834371
+          },
+          "different_class_donor": {
+            "c1_c2_self_distance": 0.35142902914882607,
+            "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.5143970989759497,
+            "control_source": "frozen_candidate",
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8
+            ],
+            "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "size": 7
+          },
+          "randomized": {
+            "candidate_nrmse": 0.8742037268998701,
+            "output_nrmse": 1.211950708474603,
+            "state_nrmse": 0.7157353004152484
+          },
+          "recipient": {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "variable_composition",
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              8,
+              9
+            ],
+            "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0"
+          },
+          "same": {
+            "candidate_nrmse": 0.8003601176719277,
+            "output_nrmse": 0.7764802785386993,
+            "state_nrmse": 0.6438531719080184
+          },
+          "same_class_donor": {
+            "c1_c2_self_distance": 0.3612065356534537,
+            "compatible": true,
+            "competent": true,
+            "confirmation_class_distance": 0.3369374355163697,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "variable_composition",
+            "nodes": [
+              0,
+              1,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+            "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "size": 7
+          },
+          "self_replay": {
+            "candidate_max_abs_error": 5.960464477539063e-08,
+            "output_max_abs_error": 5.960464477539063e-08,
+            "state_max_abs_error": 5.960464477539063e-08
+          }
+        }
+      ],
+      "size": 7,
+      "stream": "D"
+    }
+  ],
+  "stage": "AK8",
+  "version": "V837ak"
+}

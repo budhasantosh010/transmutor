@@ -1,0 +1,23 @@
+{
+  "all_nonempty_subsets": true,
+  "connected_occurrences": 49255,
+  "disconnected_occurrences": 1895,
+  "organisms": 50,
+  "size_distribution": {
+    "1": 500,
+    "10": 50,
+    "2": 2250,
+    "3": 6000,
+    "4": 10500,
+    "5": 12600,
+    "6": 10500,
+    "7": 6000,
+    "8": 2250,
+    "9": 500
+  },
+  "stage": "AK3",
+  "subsets_per_organism": 1023,
+  "total_occurrences": 51150,
+  "version": "V837ak",
+  "whole_system_occurrences": 50
+}

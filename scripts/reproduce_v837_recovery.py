@@ -145,6 +145,10 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837aj/finalize_champions.py", "--engine", "random"],
         [sys.executable, "experiments/v837_primitive_invention/v837aj/analyze_results.py"],
     ],
+    "v837ak": [
+        [sys.executable, "experiments/v837_primitive_invention/v837ak/reconstruct_organisms.py"],
+        [sys.executable, "experiments/v837_primitive_invention/v837ak/run_pipeline.py", "--start-at", "AK1_probe_freeze"],
+    ],
 }
 
 
@@ -307,6 +311,14 @@ def enforce_variant_guard(variant: str) -> None:
             raise SystemExit("V837aj blocked: V837ai recommended multiplier is not 4x")
         if decision.get("fresh_audit_consumed") is not False or decision.get("v838_started") is not False:
             raise SystemExit("V837aj blocked: fresh-audit/V838 lock changed")
+        return
+    if variant == "v837ak":
+        from experiments.v837_primitive_invention.v837ak.authorization import assert_v837ak_authorized
+        authorization = assert_v837ak_authorized()
+        if authorization.get("authorized") is not True:
+            raise SystemExit("V837ak blocked: V837aj did not authorize functional/dynamical motif discovery")
+        if authorization.get("fresh_audit_consumed") is not False or authorization.get("v838_started") is not False:
+            raise SystemExit("V837ak blocked: fresh-audit/V838 lock changed")
         return
 
 

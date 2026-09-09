@@ -1,0 +1,19 @@
+{
+  "authorized": true,
+  "checks": {
+    "automated_structural_discovery": true,
+    "decision_sha256": true,
+    "diagnosis": true,
+    "fresh_audit_consumed": true,
+    "primitive_mining_allowed_next": true,
+    "v838_started": true,
+    "version": true
+  },
+  "fresh_audit_consumed": false,
+  "legacy_guard_used_as_authority": false,
+  "primitive_mining_allowed_next": true,
+  "v837aj_decision_sha256": "36d2e9ff5c6b4b1b07d930a85a1658f6326562f287c240b48d015400bcec98e2",
+  "v837aj_diagnosis": "RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT",
+  "v838_started": false,
+  "version": "V837ak"
+}

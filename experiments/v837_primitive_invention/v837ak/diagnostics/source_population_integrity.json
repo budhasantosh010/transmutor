@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "competent": 40,
+    "directed": 25,
+    "incompetent": 10,
+    "random": 25,
+    "total": 50
+  },
+  "fresh_audit_consumed": false,
+  "source_population_sha256": "fe4f48710d17738dbad01ef4809ea45c8b653f51c491b7502f2611e24c0d7553",
+  "v837aj_decision_sha256": "36d2e9ff5c6b4b1b07d930a85a1658f6326562f287c240b48d015400bcec98e2",
+  "v838_started": false,
+  "valid": true,
+  "version": "V837ak"
+}

@@ -1,0 +1,1178 @@
+{
+  "classes": [
+    {
+      "class_id": "0d156095a2007a2ba438b8ef262a0ee7a2c3d6ad205c0122bbe205643f25e6ea",
+      "median_edge_cut_drop": 0.0,
+      "median_message_flow": 0.3748001754283905,
+      "rows": [
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.19442564249038696,
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "path": [
+            [
+              1,
+              8,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.921875,
+          "drop": 0.03125,
+          "edge_cut_success": 0.890625,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.9366717338562012,
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "path": [
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.3970940411090851,
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "path": [
+            [
+              0,
+              1,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.953125,
+          "drop": 0.078125,
+          "edge_cut_success": 0.875,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.5321768522262573,
+          "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+          "path": [
+            [
+              0,
+              3,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.015625,
+          "edge_cut_success": 0.96875,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.3525063097476959,
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "path": [
+            [
+              0,
+              1,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.18835900723934174,
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "path": [
+            [
+              0,
+              1,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.14096984267234802,
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "path": [
+            [
+              0,
+              1,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "drop": 0.0,
+          "edge_cut_success": 0.890625,
+          "family": "variable_composition",
+          "message_flow_magnitude": 0.4056931138038635,
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "path": [
+            [
+              2,
+              5,
+              false
+            ]
+          ]
+        }
+      ],
+      "signature": {
+        "edge_count": 1,
+        "edges": [
+          [
+            0,
+            1,
+            false
+          ]
+        ],
+        "temporal_pattern": [
+          "S"
+        ]
+      },
+      "support": 40
+    },
+    {
+      "class_id": "ac3674780649978fcc8f6a2b8fe2fe46cb08985c9a7e7bb5c27e50a80a61bde0",
+      "median_edge_cut_drop": 0.0234375,
+      "median_message_flow": 0.4748677387833595,
+      "rows": [
+        {
+          "baseline_success": 0.921875,
+          "drop": 0.171875,
+          "edge_cut_success": 0.75,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.6740103214979172,
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "path": [
+            [
+              1,
+              2,
+              false
+            ],
+            [
+              2,
+              3,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.015625,
+          "edge_cut_success": 0.953125,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.4736677557229996,
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "path": [
+            [
+              0,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.953125,
+          "drop": 0.125,
+          "edge_cut_success": 0.828125,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.5777133107185364,
+          "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+          "path": [
+            [
+              0,
+              3,
+              false
+            ],
+            [
+              3,
+              5,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.03125,
+          "edge_cut_success": 0.953125,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.5250616818666458,
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "path": [
+            [
+              0,
+              1,
+              false
+            ],
+            [
+              1,
+              4,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.10720497742295265,
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "path": [
+            [
+              4,
+              5,
+              false
+            ],
+            [
+              5,
+              6,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.12869100272655487,
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "path": [
+            [
+              0,
+              1,
+              false
+            ],
+            [
+              1,
+              2,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "drop": 0.265625,
+          "edge_cut_success": 0.625,
+          "family": "variable_composition",
+          "message_flow_magnitude": 0.4760677218437195,
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "path": [
+            [
+              2,
+              7,
+              false
+            ],
+            [
+              7,
+              8,
+              false
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.24311886727809906,
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "path": [
+            [
+              4,
+              5,
+              false
+            ],
+            [
+              5,
+              6,
+              false
+            ]
+          ]
+        }
+      ],
+      "signature": {
+        "edge_count": 2,
+        "edges": [
+          [
+            0,
+            1,
+            false
+          ],
+          [
+            1,
+            2,
+            false
+          ]
+        ],
+        "temporal_pattern": [
+          "S",
+          "S"
+        ]
+      },
+      "support": 39
+    },
+    {
+      "class_id": "f184a2a4c9f4e85246dfaa36c5b734ee799e08a0225b8e8d13ccd1a6e2cd5c78",
+      "median_edge_cut_drop": 0.0,
+      "median_message_flow": 0.41760000586509705,
+      "rows": [
+        {
+          "baseline_success": 0.921875,
+          "drop": 0.078125,
+          "edge_cut_success": 0.84375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 1.1967756748199463,
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7940440773963928,
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.4933386445045471,
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.17046600580215454,
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "path": [
+            [
+              1,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.25539693236351013,
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "drop": 0.0,
+          "edge_cut_success": 0.890625,
+          "family": "variable_composition",
+          "message_flow_magnitude": 0.3120259642601013,
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.341861367225647,
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7583554983139038,
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "signature": {
+        "edge_count": 1,
+        "edges": [
+          [
+            0,
+            0,
+            true
+          ]
+        ],
+        "temporal_pattern": [
+          "R"
+        ]
+      },
+      "support": 34
+    },
+    {
+      "class_id": "281124d8bf1b26a479889f6785e4e1997322052f7e72a68959fc050e1d391a04",
+      "median_edge_cut_drop": 0.0,
+      "median_message_flow": 0.41760000586509705,
+      "rows": [
+        {
+          "baseline_success": 0.921875,
+          "drop": 0.078125,
+          "edge_cut_success": 0.84375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 1.1967756748199463,
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7940440773963928,
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.4933386445045471,
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.17046600580215454,
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "path": [
+            [
+              1,
+              1,
+              true
+            ],
+            [
+              1,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.25539693236351013,
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "drop": 0.0,
+          "edge_cut_success": 0.890625,
+          "family": "variable_composition",
+          "message_flow_magnitude": 0.3120259642601013,
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.341861367225647,
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7583554983139038,
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "signature": {
+        "edge_count": 2,
+        "edges": [
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            true
+          ]
+        ],
+        "temporal_pattern": [
+          "R",
+          "R"
+        ]
+      },
+      "support": 34
+    },
+    {
+      "class_id": "1dc85dcf4e7eadb08e1b0556f61d69233207eccefc6b25a82c834575ade769b5",
+      "median_edge_cut_drop": 0.0,
+      "median_message_flow": 0.41760000586509705,
+      "rows": [
+        {
+          "baseline_success": 0.921875,
+          "drop": 0.078125,
+          "edge_cut_success": 0.84375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 1.1967756748199463,
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7940440773963928,
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.4933386445045471,
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.17046600580215454,
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "path": [
+            [
+              1,
+              1,
+              true
+            ],
+            [
+              1,
+              1,
+              true
+            ],
+            [
+              1,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.25539693236351013,
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "drop": 0.0,
+          "edge_cut_success": 0.890625,
+          "family": "variable_composition",
+          "message_flow_magnitude": 0.3120259642601013,
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.341861367225647,
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7583554983139038,
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "signature": {
+        "edge_count": 3,
+        "edges": [
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            true
+          ]
+        ],
+        "temporal_pattern": [
+          "R",
+          "R",
+          "R"
+        ]
+      },
+      "support": 34
+    },
+    {
+      "class_id": "5436bbbd0eaa673dbeff396ed1bc4a02f3d0a499e2f7470c377da99edfd66053",
+      "median_edge_cut_drop": 0.0,
+      "median_message_flow": 0.41760000586509705,
+      "rows": [
+        {
+          "baseline_success": 0.921875,
+          "drop": 0.078125,
+          "edge_cut_success": 0.84375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 1.1967756748199463,
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7940440773963928,
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "conditional_routing",
+          "message_flow_magnitude": 0.4933386445045471,
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.984375,
+          "drop": 0.0,
+          "edge_cut_success": 0.984375,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.17046600580215454,
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "path": [
+            [
+              1,
+              1,
+              true
+            ],
+            [
+              1,
+              1,
+              true
+            ],
+            [
+              1,
+              1,
+              true
+            ],
+            [
+              1,
+              1,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.25539693236351013,
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.890625,
+          "drop": 0.0,
+          "edge_cut_success": 0.890625,
+          "family": "variable_composition",
+          "message_flow_magnitude": 0.3120259642601013,
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 1.0,
+          "drop": 0.0,
+          "edge_cut_success": 1.0,
+          "family": "iterative_state",
+          "message_flow_magnitude": 0.341861367225647,
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "path": [
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ],
+            [
+              0,
+              0,
+              true
+            ]
+          ]
+        },
+        {
+          "baseline_success": 0.96875,
+          "drop": 0.0,
+          "edge_cut_success": 0.96875,
+          "family": "delayed_recall",
+          "message_flow_magnitude": 0.7583554983139038,
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "path": [
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ],
+            [
+              2,
+              2,
+              true
+            ]
+          ]
+        }
+      ],
+      "signature": {
+        "edge_count": 4,
+        "edges": [
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            true
+          ],
+          [
+            0,
+            0,
+            true
+          ]
+        ],
+        "temporal_pattern": [
+          "R",
+          "R",
+          "R",
+          "R"
+        ]
+      },
+      "support": 34
+    }
+  ],
+  "diagnosis": "ROUTING_PRIMITIVE_HYPOTHESIS_NOT_SUPPORTED",
+  "diagnostic_only": true,
+  "enumerated_class_count": 919,
+  "hypothesis_supported": false,
+  "tested_class_count": 6,
+  "version": "V837ak"
+}

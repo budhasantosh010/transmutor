@@ -1,0 +1,49 @@
+{
+  "stages": {
+    "AK10_analyze": {
+      "cpu_seconds": 27.546875,
+      "wall_seconds": 10.26555400000143
+    },
+    "AK1_probe_freeze": {
+      "cpu_seconds": 0.0,
+      "wall_seconds": 0.0006812999999965541
+    },
+    "AK2_replay_gate": {
+      "cpu_seconds": 4.140625,
+      "wall_seconds": 1.7194340999994893
+    },
+    "AK3_census": {
+      "cpu_seconds": 4.5625,
+      "wall_seconds": 4.172780499997316
+    },
+    "AK4_fingerprint_reliability": {
+      "cpu_seconds": 5.875,
+      "wall_seconds": 5.89139349999823
+    },
+    "AK5_candidate_freeze": {
+      "cpu_seconds": 1.640625,
+      "wall_seconds": 1.4389053000013519
+    },
+    "AK5_dynamic_clustering": {
+      "cpu_seconds": 17.03125,
+      "wall_seconds": 17.212637099997664
+    },
+    "AK6_confirmation": {
+      "cpu_seconds": 78.796875,
+      "wall_seconds": 24.61039460000029
+    },
+    "AK7_causal": {
+      "cpu_seconds": 63.296875,
+      "wall_seconds": 16.230798399999912
+    },
+    "AK8_boundary": {
+      "cpu_seconds": 37.015625,
+      "wall_seconds": 10.426937100000941
+    },
+    "AK9_closed_loop": {
+      "cpu_seconds": 0.0625,
+      "wall_seconds": 0.018509800000174437
+    }
+  },
+  "version": "V837ak"
+}
