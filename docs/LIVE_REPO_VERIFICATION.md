@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837ak functional/dynamical motif discovery on the exact reconstructed V837aj population. V837ak reconstructs all 50 finalized organisms exactly, passes the AF1D ported-primitive Reality Gate, exhaustively censuses 51,150 nonempty subsets, confirms 6/11 frozen candidate classes, and localizes one causally specific motif but zero boundary-interchangeable classes. Diagnosis: `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS`, qualifier `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`. No Level-6 primitive is validated, the PrimitiveArchive remains empty, fresh-audit seeds remain unused, and V838 has not started. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837al primitive-interface alignment over the exact frozen V837ak motif population. V837al reproduces source integrity and historical baselines, evaluates all 253 predeclared low-complexity linear interface configurations on ALIGN_SELECT, and finds no GLOBAL or CAUSAL `SELECT_PASS` configuration. Both winners are therefore frozen as null before ALIGN_TEST; AL6–AL9 correctly do not run. Diagnosis: `LINEAR_INTERFACE_ALIGNMENT_INSUFFICIENT`. PrimitiveArchive remains closed, primitives promoted remain zero, fresh-audit seeds remain unused, and V838 has not started. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -30,6 +30,7 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837ai closes at 2/5 -> 2/5 -> 4/5 with diagnosis `AF1D_REQUIRES_4X_UNIQUE_DATA`; structural-search recovery is authorized at 4x.
 - V837aj calibrates search fidelity, selects F3, runs exact 64-candidate directed vs complexity-matched random structural search, and closes with diagnosis `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`; robustness extension did not run.
 - V837ak reconstructs the exact 50-organism V837aj population, performs exhaustive 1–10-cell structural/dynamical motif discovery without further training, and closes at `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS` / `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`; no primitive is promoted.
+- V837al evaluates the exact frozen V837ak motif population across all 253 predeclared low-complexity linear interface configurations; neither GLOBAL nor CAUSAL track passes ALIGN_SELECT, so held-out selection/rescue is not attempted and the diagnosis is `LINEAR_INTERFACE_ALIGNMENT_INSUFFICIENT`.
 - V837ag and V837ah are not authorized and are not created or run.
 - V838 has not started.
 
@@ -430,6 +431,28 @@ V837aj reproduces the frozen AF1D anchor at 4/5 with zero drift, completes the f
 
 V837ak exactly reconstructs all 50 V837aj finalized organisms (25 directed, 25 random; 40 competent, 10 incompetent) and passes the ported AF1D subsystem replay gate with maximum absolute error <=1e-6. It exhaustively enumerates 51,150 nonempty 1–10-cell subsets. Dynamic fingerprints are reliable at sizes 1–7 and 10; sizes 8–9 fail the frozen reliability gate and are not relaxed. Eleven candidate classes are frozen (5 structural, 6 dynamic), six confirm on held-out probes, one passes causal specificity, zero pass unaligned boundary interchangeability, and the orthogonal basis-alignment diagnostic rescues none. AK9 closed-loop substitution is therefore correctly not run. Diagnosis: `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS`, qualifier `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`. Validated Level-6 primitives=0; PrimitiveArchive entries added=0; fresh audit remains unused; V838 remains unstarted. Next program: `V837al_PRIMITIVE_INTERFACE_ALIGNMENT`.
 
+## Current V837al evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837al/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837al/frozen_interface_alignment_gate.json` |
+| Source integrity | `experiments/v837_primitive_invention/v837al/diagnostics/source_integrity.json` |
+| Statistical power | `experiments/v837_primitive_invention/v837al/diagnostics/statistical_power.json` |
+| Legacy reproduction | `experiments/v837_primitive_invention/v837al/diagnostics/legacy_alignment_reproduction.json` |
+| Scope selection | `experiments/v837_primitive_invention/v837al/raw/scope_selection_results.json` |
+| Frozen selected interfaces | `experiments/v837_primitive_invention/v837al/raw/selected_interface_configs.json` |
+| Pairwise decision | `experiments/v837_primitive_invention/v837al/raw/pairwise_test_results.json` |
+| Canonical decision | `experiments/v837_primitive_invention/v837al/raw/canonical_test_results.json` |
+| Closed-loop decision | `experiments/v837_primitive_invention/v837al/raw/closed_loop_results.json` |
+| Results | `experiments/v837_primitive_invention/v837al/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837al/diagnostics/decision_state.json` |
+| Report | `docs/V837_PRIMITIVE_INTERFACE_ALIGNMENT_REPORT.md` |
+| Validator | `scripts/validate_v837_primitive_interface_alignment.py` |
+| Tests | `tests/test_v837al_primitive_interface_alignment.py` |
+
+V837al preserves the exact V837ak population and introduces no new model training: new model fits=0 and optimizer steps=0. Source integrity is true and both the identity and historical orthogonal diagnostics reproduce within the frozen 1e-9 tolerance. The powered causal class is statistically testable. All 253 predeclared transform-family × port-scope configurations are evaluated on ALIGN_SELECT; zero pass the GLOBAL track and zero pass the CAUSAL track. Consequently both selected interfaces are frozen as null before ALIGN_TEST, and AL6 pairwise, port necessity, AL7 canonical, AL8 closed-loop substitution, and AL9 alignment-data-frontier execution all remain machine-gated off. Diagnosis: `LINEAR_INTERFACE_ALIGNMENT_INSUFFICIENT`. Next program: `V837am_CONTEXT_CONDITIONED_INTERFACE_OR_PRIMITIVE_REDEFINITION`.
+
 ## Program reports and accounting
 
 - Candidate-interaction/stage report: `docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md`
@@ -462,6 +485,9 @@ V837ak exactly reconstructs all 50 V837aj finalized organisms (25 directed, 25 r
 - Functional/dynamical motif discovery report: `docs/V837_FUNCTIONAL_DYNAMICAL_MOTIF_DISCOVERY_REPORT.md`
 - V837ak resource accounting: `experiments/v837_primitive_invention/v837ak_resource_accounting.json`
 - Functional/dynamical motif discovery program status: `experiments/v837_primitive_invention/functional_dynamical_motif_discovery_program_status.json`
+- Primitive-interface alignment report: `docs/V837_PRIMITIVE_INTERFACE_ALIGNMENT_REPORT.md`
+- V837al resource accounting: `experiments/v837_primitive_invention/v837al_resource_accounting.json`
+- Primitive-interface alignment program status: `experiments/v837_primitive_invention/primitive_interface_alignment_program_status.json`
 - Input-factorization localization report: `docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md`
 - Input-organization transfer report: `docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md`
 - Post-input-axis blocker analysis: `docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md`
@@ -804,9 +830,9 @@ Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-Automated structural discovery remains established on the frozen AF1D substrate, and V837ak localizes a stronger downstream boundary: recurrent functional/dynamical motifs exist and at least one is causally specific, but independently learned instances are not boundary-interchangeable under the current AF1D interface.
+V837al establishes a sharper interface boundary than V837ak: the failure is not rescued by any tested context-independent signed-permutation, diagonal-affine, rigid-affine, or full-affine mapping over the six explicit boundary ports under the frozen selection gate.
 
-V837ak diagnosis is `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS` with qualifier `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`. Eleven candidate classes were frozen, six confirmed, one passed causal specificity, zero passed boundary interchangeability, and closed-loop substitution was therefore not authorized. Validated Level-6 primitives=0; PrimitiveArchive entries added=0. The next program is **`V837al_PRIMITIVE_INTERFACE_ALIGNMENT`**.
+All 253 configurations fail before ALIGN_TEST selection, so there is no post-hoc held-out rescue. The strongest current claim is therefore `LINEAR_INTERFACE_ALIGNMENT_INSUFFICIENT`, not primitive nonexistence: the next program must test context-conditioned interfaces or redefine the primitive boundary. PrimitiveArchive remains closed, primitives promoted=0, fresh audit remains unused, and V838 remains unstarted.
 
 ## Fast verification
 
@@ -833,13 +859,14 @@ python scripts/reproduce_v837_recovery.py --variant v837aj --stage search
 python scripts/reproduce_v837_recovery.py --variant v837aj --stage finalize
 python scripts/reproduce_v837_recovery.py --variant v837aj --stage analyze
 python scripts/reproduce_v837_recovery.py --variant v837ak
+python scripts/reproduce_v837_recovery.py --variant v837al --stage analyze
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj -> V837ak frontier. V837ai exposes only newly executable 1x/2x regimes plus analysis; the accepted 4x evidence remains reuse-only. V837aj exposes the preserved hard-gated anchor, fidelity, search, finalization, and analysis stages. V837ak reconstructs the exact authorized V837aj population and then runs only the frozen AK1→AK10 discovery/diagnostic pipeline; the dispatcher remains dry-run unless `--execute` is supplied. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V838 has not started.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj -> V837ak -> V837al frontier. V837al exposes the preserved hard-gated baseline, fit, select, test, canonical, transplant, data-frontier, and analysis stages; because AL5 selected no configuration, later stages short-circuit rather than using ALIGN_TEST to rescue selection. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V838 has not started.
 
 ## Historical SHA anchors
 
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837ak scientific closure commit separately from later verification-integration/hash commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837al scientific closure commit separately from later verification-integration/hash commits.

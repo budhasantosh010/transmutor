@@ -796,6 +796,54 @@ def main() -> int:
     if ak_status.get("diagnosis") != ak.get("diagnosis") or ak_status.get("validated_primitive_classes") != 0 or ak_status.get("fresh_audit_episodes_consumed") != 0 or ak_status.get("primitives_promoted") != 0 or ak_status.get("v838_started") is not False:
         raise RuntimeError("V837ak program status disagrees with results")
 
+    # V837al tests whether compact explicit linear boundary-coordinate maps
+    # can rescue interchangeability before any held-out ALIGN_TEST selection.
+    al_record = manifest["current_variants"].get("V837al")
+    if not isinstance(al_record, dict):
+        raise RuntimeError("verification manifest missing V837al")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw", "models"):
+        for relative in al_record.get(key, []):
+            require_path(relative)
+    require_path(al_record["config"])
+    require_path(al_record["frozen_gate"])
+    require_path(al_record["results"])
+    al = load_json(al_record["results"])
+    al_decision = load_json("experiments/v837_primitive_invention/v837al/diagnostics/decision_state.json")
+    al_source = load_json("experiments/v837_primitive_invention/v837al/diagnostics/source_integrity.json")
+    al_legacy = load_json("experiments/v837_primitive_invention/v837al/diagnostics/legacy_alignment_reproduction.json")
+    al_scope = load_json("experiments/v837_primitive_invention/v837al/raw/scope_selection_results.json")
+    al_selected = load_json("experiments/v837_primitive_invention/v837al/raw/selected_interface_configs.json")
+    al_pair = load_json("experiments/v837_primitive_invention/v837al/raw/pairwise_test_results.json")
+    al_canonical = load_json("experiments/v837_primitive_invention/v837al/raw/canonical_test_results.json")
+    al_closed = load_json("experiments/v837_primitive_invention/v837al/raw/closed_loop_results.json")
+    al_frontier = load_json("experiments/v837_primitive_invention/v837al/raw/alignment_data_frontier.json")
+    if al_source.get("source_integrity") is not True or al_source.get("checkpoint_count") != 50 or al_source.get("new_model_fits") != 0 or al_source.get("optimizer_steps") != 0:
+        raise RuntimeError("V837al source integrity changed")
+    if al_legacy.get("identity_reproduced") is not True or al_legacy.get("legacy_orthogonal_reproduced") is not True or float(al_legacy.get("max_identity_metric_delta", 1.0)) > 1e-9 or float(al_legacy.get("max_legacy_metric_delta", 1.0)) > 1e-9:
+        raise RuntimeError("V837al legacy reproduction changed")
+    if al_scope.get("configs_evaluated") != 253 or al_scope.get("selection_seeds") != [10064, 10127]:
+        raise RuntimeError("V837al frozen selection grid changed")
+    if al_selected.get("frozen_before_align_test") is not True or al_selected.get("global_track") is not None or al_selected.get("causal_track") is not None:
+        raise RuntimeError("V837al selected-interface outcome changed")
+    for track in ("global_track", "causal_track"):
+        if al_pair.get(track, {}).get("run") is not False or al_pair.get(track, {}).get("reason") != "NO_SELECT_PASS":
+            raise RuntimeError("V837al pairwise gate changed")
+        if al_canonical.get(track, {}).get("run") is not False or al_canonical.get(track, {}).get("reason") != "NO_SELECTED_CONFIG":
+            raise RuntimeError("V837al canonical gate changed")
+    if al_pair.get("adapter_refit_on_test") is not False or al_pair.get("align_test_seeds") != [20000, 20127]:
+        raise RuntimeError("V837al ALIGN_TEST freeze changed")
+    if al_closed.get("run") is not False or al_closed.get("reason") != "NO_POWERED_CAUSAL_PAIRWISE_PASS":
+        raise RuntimeError("V837al closed-loop gate changed")
+    if al_frontier.get("run") is not False or al_frontier.get("reason") != "CLOSED_LOOP_PASS_REQUIRED":
+        raise RuntimeError("V837al alignment-data-frontier gate changed")
+    if al.get("diagnosis") != "LINEAR_INTERFACE_ALIGNMENT_INSUFFICIENT" or al_decision.get("next_program") != "V837am_CONTEXT_CONDITIONED_INTERFACE_OR_PRIMITIVE_REDEFINITION":
+        raise RuntimeError("V837al final diagnosis changed")
+    if al_decision.get("primitive_archive_allowed_next") is not False or al_decision.get("primitives_promoted") != 0 or al_decision.get("fresh_audit_consumed") is not False or al_decision.get("large_persistent_storage_tested") is not False or al_decision.get("v838_started") is not False:
+        raise RuntimeError("V837al violated science locks")
+    al_status = load_json("experiments/v837_primitive_invention/primitive_interface_alignment_program_status.json")
+    if al_status.get("diagnosis") != al.get("diagnosis") or al_status.get("primitives_promoted") != 0 or al_status.get("fresh_audit_episodes_consumed") != 0 or al_status.get("v838_started") is not False:
+        raise RuntimeError("V837al program status disagrees with results")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")
