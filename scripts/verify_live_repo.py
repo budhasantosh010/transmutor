@@ -844,6 +844,59 @@ def main() -> int:
     if al_status.get("diagnosis") != al.get("diagnosis") or al_status.get("primitives_promoted") != 0 or al_status.get("fresh_audit_episodes_consumed") != 0 or al_status.get("v838_started") is not False:
         raise RuntimeError("V837al program status disagrees with results")
 
+    # V837am tests whether the powered recurring computation can be rescued by
+    # context-conditioned interfaces, spatial boundary redefinition, temporal
+    # history, or their frozen interaction alternatives. All branch selection
+    # happens on development data before any final-validation access.
+    am_record = manifest["current_variants"].get("V837am")
+    if not isinstance(am_record, dict):
+        raise RuntimeError("verification manifest missing V837am")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw", "models"):
+        for relative in am_record.get(key, []):
+            require_path(relative)
+    require_path(am_record["config"])
+    require_path(am_record["frozen_gate"])
+    require_path(am_record["results"])
+    require_path("docs/V837_FAILURE_LEDGER.md")
+    require_path("experiments/v837_primitive_invention/v837am/FAILURE_ANALYSIS.md")
+    am = load_json("experiments/v837_primitive_invention/v837am/results.json")
+    am_decision = load_json("experiments/v837_primitive_invention/v837am/diagnostics/decision_state.json")
+    am_source = load_json("experiments/v837_primitive_invention/v837am/diagnostics/source_integrity.json")
+    am_a = load_json("experiments/v837_primitive_invention/v837am/raw/am_a_selection.json")
+    am_b = load_json("experiments/v837_primitive_invention/v837am/raw/am_b_selection.json")
+    am_c = load_json("experiments/v837_primitive_invention/v837am/raw/am_c_selection.json")
+    am_meta = load_json("experiments/v837_primitive_invention/v837am/raw/meta_confirmation.json")
+    am_freeze = load_json("experiments/v837_primitive_invention/v837am/raw/selected_final_hypothesis.json")
+    am_dev = load_json("experiments/v837_primitive_invention/v837am/raw/final_dev_confirmation.json")
+    am_val = load_json("experiments/v837_primitive_invention/v837am/raw/final_validation.json")
+    am_closed = load_json("experiments/v837_primitive_invention/v837am/raw/closed_loop_results.json")
+    am_ledger = load_json("experiments/v837_primitive_invention/v837am/raw/failure_ledger.json")
+    if am_source.get("source_integrity") is not True or am_source.get("causal_recipient_count") != 38 or am_source.get("new_model_fits") != 0 or am_source.get("organism_optimizer_steps") != 0 or am_source.get("adapter_gradient_steps") != 0:
+        raise RuntimeError("V837am source integrity changed")
+    if am_a.get("science_schema") != 2 or am_a.get("configs_evaluated") != 126 or am_a.get("pass_count") != 0 or am_a.get("winner") is not None:
+        raise RuntimeError("V837am AM-A outcome changed")
+    if am_b.get("configs_evaluated") != 20 or am_b.get("pass_count") != 0 or am_b.get("winner") is not None or am_b.get("whole_system_effect_pass_count") != 0:
+        raise RuntimeError("V837am AM-B outcome changed")
+    if am_c.get("configs_evaluated") != 7 or am_c.get("pass_count") != 0 or am_c.get("winner") is not None or am_c.get("whole_system_effect_pass_count") != 0:
+        raise RuntimeError("V837am AM-C outcome changed")
+    if am_meta.get("pass_count") != 0 or am_meta.get("selected") is not None or am_meta.get("no_refit") is not True:
+        raise RuntimeError("V837am meta-confirmation outcome changed")
+    if am_freeze.get("selected") is not None or am_freeze.get("frozen_before_final_dev_confirm") is not True or am_freeze.get("frozen_before_final_validation") is not True:
+        raise RuntimeError("V837am final-hypothesis freeze changed")
+    if am_dev.get("run") is not False or am_val.get("run") is not False or am_closed.get("run") is not False:
+        raise RuntimeError("V837am downstream data gate changed")
+    if am.get("diagnosis") != "DYNAMICAL_RECURRENCE_NOT_OPERATOR_EQUIVALENCE" or am_decision.get("next_program") != "V837an_PRIMITIVE_REDEFINITION_CAUSAL_ROUTING_DISTRIBUTED":
+        raise RuntimeError("V837am final diagnosis changed")
+    if am_decision.get("failure_entries") != 286 or am_decision.get("scientific_failures") != 155 or am_decision.get("engineering_failures") != 5 or am_decision.get("invalidated_measurement_records") != 126:
+        raise RuntimeError("V837am failure-memory accounting changed")
+    if len(am_ledger.get("entries", [])) != 286:
+        raise RuntimeError("V837am machine failure ledger changed")
+    if am_decision.get("primitive_archive_allowed_next") is not False or am_decision.get("canonicalization_allowed_next") is not False or am_decision.get("primitives_promoted") != 0 or am_decision.get("fresh_audit_consumed") is not False or am_decision.get("large_persistent_storage_tested") is not False or am_decision.get("v838_started") is not False:
+        raise RuntimeError("V837am violated science locks")
+    am_status = load_json("experiments/v837_primitive_invention/context_interface_or_primitive_redefinition_program_status.json")
+    if am_status.get("diagnosis") != am.get("diagnosis") or am_status.get("primitives_promoted") != 0 or am_status.get("fresh_audit_episodes_consumed") != 0 or am_status.get("v838_started") is not False:
+        raise RuntimeError("V837am program status disagrees with results")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")
