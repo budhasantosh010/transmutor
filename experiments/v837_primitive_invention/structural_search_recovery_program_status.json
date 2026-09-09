@@ -1,0 +1,12 @@
+{
+  "automated_structural_discovery": true,
+  "diagnosis": "RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT",
+  "evolutionary_search_superiority": false,
+  "fresh_audit_episodes_consumed": 0,
+  "large_persistent_storage_tested": false,
+  "next_program": "V837ak_FUNCTIONAL_DYNAMICAL_MOTIF_DISCOVERY",
+  "primitive_mining_allowed_next": true,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "version": "V837aj"
+}

@@ -1,0 +1,36 @@
+{
+  "directed": {
+    "champions": 25,
+    "median_degree_cosine": 0.8714363172483459,
+    "median_edge_jaccard": 0.6111111111111112,
+    "median_recurrent_jaccard": 0.6363636363636364,
+    "median_same_step_jaccard": 0.5555555555555556,
+    "median_topology_edit_distance": 8.0,
+    "unique_topologies": 25
+  },
+  "family_classifier": {
+    "directed": {
+      "accuracy": 0.4,
+      "available": true,
+      "method": "leave-one-out nearest centroid on degree/edge descriptors",
+      "permutation_p": 0.0201979802019798,
+      "permutations": 10000
+    },
+    "random": {
+      "accuracy": 0.48,
+      "available": true,
+      "method": "leave-one-out nearest centroid on degree/edge descriptors",
+      "permutation_p": 0.0026997300269973002,
+      "permutations": 10000
+    }
+  },
+  "random": {
+    "champions": 25,
+    "median_degree_cosine": 0.6723994935181141,
+    "median_edge_jaccard": 0.0625,
+    "median_recurrent_jaccard": 0.05263157894736842,
+    "median_same_step_jaccard": 0.07142857142857142,
+    "median_topology_edit_distance": 30.0,
+    "unique_topologies": 25
+  }
+}

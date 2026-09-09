@@ -1,0 +1,4131 @@
+{
+  "champions": [
+    {
+      "edge_count": 20,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "recurrent_edge_count": 11,
+      "run_index": 0,
+      "search_development_success": 1.0,
+      "search_fitness": 0.01740571599453688,
+      "search_selection_success": 1.0,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 57,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.14285714285714285,
+          "density": 0.13793103448275862,
+          "edge_count": 20,
+          "in_degree": [
+            1,
+            3,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            3,
+            2,
+            1,
+            1,
+            3,
+            3,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 11,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            2,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 7,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 8,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 20,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 11,
+        "same_step_edge_count": 9,
+        "topology_id": "229e34b38ccd8e64ef91b919ebf6c35f38fb46481892db24d2533eacf52effdc"
+      },
+      "topology_id": "229e34b38ccd8e64ef91b919ebf6c35f38fb46481892db24d2533eacf52effdc"
+    },
+    {
+      "edge_count": 18,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "recurrent_edge_count": 10,
+      "run_index": 1,
+      "search_development_success": 1.0,
+      "search_fitness": 0.02288868596404791,
+      "search_selection_success": 0.9609375,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 48,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.12413793103448276,
+          "edge_count": 18,
+          "in_degree": [
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            1,
+            1,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 18,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 8,
+        "topology_id": "7463485fdf79a1cbb288f866f7a891b2a61a5a62b0353939570898ad1eeaafb4"
+      },
+      "topology_id": "7463485fdf79a1cbb288f866f7a891b2a61a5a62b0353939570898ad1eeaafb4"
+    },
+    {
+      "edge_count": 19,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "recurrent_edge_count": 10,
+      "run_index": 2,
+      "search_development_success": 1.0,
+      "search_fitness": 0.02199892544001341,
+      "search_selection_success": 0.96875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 19,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.4583333333333333,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            1,
+            1,
+            3,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            1,
+            3,
+            1,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 9,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 9,
+        "topology_id": "d5eeb10d0f49a6b917d37cadc8cb89cee1c4572a9582300943f02cdaa800a73d"
+      },
+      "topology_id": "d5eeb10d0f49a6b917d37cadc8cb89cee1c4572a9582300943f02cdaa800a73d"
+    },
+    {
+      "edge_count": 19,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "recurrent_edge_count": 10,
+      "run_index": 3,
+      "search_development_success": 1.0,
+      "search_fitness": 0.01950040490180254,
+      "search_selection_success": 0.9921875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 19,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.42857142857142855,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            1,
+            2,
+            3,
+            1,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            3,
+            1,
+            3,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 9,
+        "topology_id": "89045f2e8273ababfcc197644bc654e6acf0c0f8158b7a502c32620cc59eeefb"
+      },
+      "topology_id": "89045f2e8273ababfcc197644bc654e6acf0c0f8158b7a502c32620cc59eeefb"
+    },
+    {
+      "edge_count": 22,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "recurrent_edge_count": 11,
+      "run_index": 4,
+      "search_development_success": 1.0,
+      "search_fitness": 0.019210093714296817,
+      "search_selection_success": 0.9921875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 31,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.15172413793103448,
+          "edge_count": 22,
+          "in_degree": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            3,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            3,
+            2,
+            4,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            0
+          ],
+          "recurrent_edge_count": 11,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            0
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 11,
+          "strongly_connected_components": 3,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 22,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          }
+        ],
+        "recurrent_edge_count": 11,
+        "same_step_edge_count": 11,
+        "topology_id": "102d31e0006ac7c0191e0179abff16ebe2ff21d470daf803b63fa74b5d49ae50"
+      },
+      "topology_id": "102d31e0006ac7c0191e0179abff16ebe2ff21d470daf803b63fa74b5d49ae50"
+    },
+    {
+      "edge_count": 16,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "recurrent_edge_count": 9,
+      "run_index": 0,
+      "search_development_success": 1.0,
+      "search_fitness": 0.008028685735742329,
+      "search_selection_success": 1.0,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 60,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 7,
+        "topology_id": "161ad8f39f57b6999aa125ed5e757efe858f4d6be0148ff20208a83f3f8913f5"
+      },
+      "topology_id": "161ad8f39f57b6999aa125ed5e757efe858f4d6be0148ff20208a83f3f8913f5"
+    },
+    {
+      "edge_count": 15,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "recurrent_edge_count": 9,
+      "run_index": 1,
+      "search_development_success": 1.0,
+      "search_fitness": 0.00755322531069396,
+      "search_selection_success": 1.0,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 44,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.10344827586206896,
+          "edge_count": 15,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "out_degree": [
+            3,
+            2,
+            2,
+            2,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            2,
+            1,
+            0,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            2,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 6,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 15,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 6,
+        "topology_id": "bcb9ba2a2872bc1874ec8cf6a75173baebc97a40b35f781cba8de63daf9bd5c0"
+      },
+      "topology_id": "bcb9ba2a2872bc1874ec8cf6a75173baebc97a40b35f781cba8de63daf9bd5c0"
+    },
+    {
+      "edge_count": 16,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "recurrent_edge_count": 10,
+      "run_index": 2,
+      "search_development_success": 1.0,
+      "search_fitness": 0.0083310824977234,
+      "search_selection_success": 1.0,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 36,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 6,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 4
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 6,
+        "topology_id": "3bf7f6cf91e1764e1f9390a322feb015385a9b9fd720aa1af7046d057a92b232"
+      },
+      "topology_id": "3bf7f6cf91e1764e1f9390a322feb015385a9b9fd720aa1af7046d057a92b232"
+    },
+    {
+      "edge_count": 17,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "recurrent_edge_count": 9,
+      "run_index": 3,
+      "search_development_success": 1.0,
+      "search_fitness": 0.008656547030201182,
+      "search_selection_success": 1.0,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 60,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            0,
+            1
+          ],
+          "out_degree": [
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 8,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 8,
+        "topology_id": "7268633bfba4e06114fab4ed48147ea7c62b4e479524d6b1ceaeefbec9b805b5"
+      },
+      "topology_id": "7268633bfba4e06114fab4ed48147ea7c62b4e479524d6b1ceaeefbec9b805b5"
+    },
+    {
+      "edge_count": 16,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "recurrent_edge_count": 9,
+      "run_index": 4,
+      "search_development_success": 1.0,
+      "search_fitness": 0.0082844916889444,
+      "search_selection_success": 1.0,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 46,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            1,
+            2,
+            2,
+            0,
+            1,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            0,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 7,
+        "topology_id": "fe89ff3c7aef89f694825c89464a4b18e15dc9f47b6509863417c73f5aa1ec67"
+      },
+      "topology_id": "fe89ff3c7aef89f694825c89464a4b18e15dc9f47b6509863417c73f5aa1ec67"
+    },
+    {
+      "edge_count": 13,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "recurrent_edge_count": 8,
+      "run_index": 0,
+      "search_development_success": 0.9947916666666666,
+      "search_fitness": 0.009261729527264834,
+      "search_selection_success": 0.9921875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 60,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            0,
+            3,
+            1,
+            1,
+            1,
+            2,
+            2,
+            0,
+            2,
+            1
+          ],
+          "out_degree": [
+            1,
+            1,
+            2,
+            0,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 8,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            0,
+            2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 3,
+          "same_step_edge_count": 5,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 4
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 8,
+        "same_step_edge_count": 5,
+        "topology_id": "f3f55c9034cd409d73af075ce47c2bd8bf4726e12c662946cf5aa2862ae5e5b6"
+      },
+      "topology_id": "f3f55c9034cd409d73af075ce47c2bd8bf4726e12c662946cf5aa2862ae5e5b6"
+    },
+    {
+      "edge_count": 13,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "recurrent_edge_count": 4,
+      "run_index": 1,
+      "search_development_success": 0.9973958333333334,
+      "search_fitness": 0.00912049143202603,
+      "search_selection_success": 0.9921875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 60,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "out_degree": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            0
+          ],
+          "recurrent_edge_count": 4,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "recurrent_out_degree": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          }
+        ],
+        "recurrent_edge_count": 4,
+        "same_step_edge_count": 9,
+        "topology_id": "461f7871ed32a70f4587634f1e1e3bbbb7bce180eb6fe73387b51edc087122ad"
+      },
+      "topology_id": "461f7871ed32a70f4587634f1e1e3bbbb7bce180eb6fe73387b51edc087122ad"
+    },
+    {
+      "edge_count": 13,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "recurrent_edge_count": 6,
+      "run_index": 2,
+      "search_development_success": 1.0,
+      "search_fitness": 0.008770928816869855,
+      "search_selection_success": 0.9921875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 62,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            0,
+            2
+          ],
+          "out_degree": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 6,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 6,
+        "same_step_edge_count": 7,
+        "topology_id": "b4d59daa5db89acc643ee383e0added87ac72a6c7da036c9a954f3d7848afdea"
+      },
+      "topology_id": "b4d59daa5db89acc643ee383e0added87ac72a6c7da036c9a954f3d7848afdea"
+    },
+    {
+      "edge_count": 15,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "recurrent_edge_count": 9,
+      "run_index": 3,
+      "search_development_success": 0.9973958333333334,
+      "search_fitness": 0.010273847198113799,
+      "search_selection_success": 0.9921875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 60,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.41666666666666663,
+          "density": 0.10344827586206896,
+          "edge_count": 15,
+          "in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            1,
+            2
+          ],
+          "out_degree": [
+            2,
+            1,
+            2,
+            0,
+            1,
+            3,
+            2,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 6,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 4
+        },
+        "edge_count": 15,
+        "edges": [
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 6,
+        "topology_id": "2c83573abb5b4424b282c2e3ab85789cd2c100da293309aef8bdbcea9efdc2e4"
+      },
+      "topology_id": "2c83573abb5b4424b282c2e3ab85789cd2c100da293309aef8bdbcea9efdc2e4"
+    },
+    {
+      "edge_count": 13,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "recurrent_edge_count": 10,
+      "run_index": 4,
+      "search_development_success": 1.0,
+      "search_fitness": 0.009080021508038045,
+      "search_selection_success": 0.9921875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 61,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2
+          ],
+          "out_degree": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 3,
+          "same_step_edge_count": 3,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 7
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 3,
+        "topology_id": "ceccf8e644de24b8b289a350023d6e6540136e958404d8889374cc56d80ac7e8"
+      },
+      "topology_id": "ceccf8e644de24b8b289a350023d6e6540136e958404d8889374cc56d80ac7e8"
+    },
+    {
+      "edge_count": 18,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "recurrent_edge_count": 9,
+      "run_index": 0,
+      "search_development_success": 0.9505208333333334,
+      "search_fitness": 0.02654824258387089,
+      "search_selection_success": 0.875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 51,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.12413793103448276,
+          "edge_count": 18,
+          "in_degree": [
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            3,
+            2,
+            1,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 9,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 18,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 9,
+        "topology_id": "6c513a34f29290453444504130c6cb3d81ff8cdeb2c9b2e636eadd4c8423f9bf"
+      },
+      "topology_id": "6c513a34f29290453444504130c6cb3d81ff8cdeb2c9b2e636eadd4c8423f9bf"
+    },
+    {
+      "edge_count": 16,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "recurrent_edge_count": 8,
+      "run_index": 1,
+      "search_development_success": 0.96875,
+      "search_fitness": 0.026993142992258072,
+      "search_selection_success": 0.875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 13,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            0,
+            2,
+            2,
+            1,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 8,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 8,
+        "same_step_edge_count": 8,
+        "topology_id": "95a863f5464168d22ff667be421fb2593761caa3e272f4697212190007bcab40"
+      },
+      "topology_id": "95a863f5464168d22ff667be421fb2593761caa3e272f4697212190007bcab40"
+    },
+    {
+      "edge_count": 17,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "recurrent_edge_count": 10,
+      "run_index": 2,
+      "search_development_success": 0.9296875,
+      "search_fitness": 0.027469014286994935,
+      "search_selection_success": 0.8671875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 29,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 7,
+        "topology_id": "ded69c8d85ae4c70c82cfbf3d172d82ac2b37769464c864e7887b6fe5c7babf1"
+      },
+      "topology_id": "ded69c8d85ae4c70c82cfbf3d172d82ac2b37769464c864e7887b6fe5c7babf1"
+    },
+    {
+      "edge_count": 17,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "recurrent_edge_count": 8,
+      "run_index": 3,
+      "search_development_success": 0.9869791666666666,
+      "search_fitness": 0.02577982982993126,
+      "search_selection_success": 0.8671875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 58,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2
+          ],
+          "out_degree": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0
+          ],
+          "recurrent_edge_count": 8,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          }
+        ],
+        "recurrent_edge_count": 8,
+        "same_step_edge_count": 9,
+        "topology_id": "1bfcc4310719c5d91c7b7dbe826ce7d1e58ab07ad1f4f47d78a3f4147344f2b4"
+      },
+      "topology_id": "1bfcc4310719c5d91c7b7dbe826ce7d1e58ab07ad1f4f47d78a3f4147344f2b4"
+    },
+    {
+      "edge_count": 17,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "recurrent_edge_count": 9,
+      "run_index": 4,
+      "search_development_success": 0.9479166666666666,
+      "search_fitness": 0.026624204128980637,
+      "search_selection_success": 0.859375,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 59,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            2,
+            1,
+            1,
+            3,
+            0,
+            4,
+            2,
+            1,
+            2,
+            1
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            3,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            2,
+            1,
+            1,
+            2,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            2,
+            1,
+            0,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 9,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 8,
+        "topology_id": "d176895778436ab04d263e6a133e9399b6d953ddd08e1461e05171d5a48e84bd"
+      },
+      "topology_id": "d176895778436ab04d263e6a133e9399b6d953ddd08e1461e05171d5a48e84bd"
+    },
+    {
+      "edge_count": 17,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "recurrent_edge_count": 9,
+      "run_index": 0,
+      "search_development_success": 0.9947916666666666,
+      "search_fitness": 0.013927367985248566,
+      "search_selection_success": 0.984375,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 15,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 8,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 8,
+        "topology_id": "c7fb99d747cf8fb0bee8754c6dc127232cfc0189648970434a11a950638866ce"
+      },
+      "topology_id": "c7fb99d747cf8fb0bee8754c6dc127232cfc0189648970434a11a950638866ce"
+    },
+    {
+      "edge_count": 19,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "recurrent_edge_count": 9,
+      "run_index": 1,
+      "search_development_success": 0.9947916666666666,
+      "search_fitness": 0.014947152070701122,
+      "search_selection_success": 1.0,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 4,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            1,
+            3,
+            2,
+            2,
+            3,
+            1
+          ],
+          "out_degree": [
+            3,
+            2,
+            3,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 9,
+          "same_step_edge_count": 10,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 10,
+        "topology_id": "a92ce5d3f44a03c8abb5336632208b960456c67dee0b1e6bceed0bb746a2f73e"
+      },
+      "topology_id": "a92ce5d3f44a03c8abb5336632208b960456c67dee0b1e6bceed0bb746a2f73e"
+    },
+    {
+      "edge_count": 16,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "recurrent_edge_count": 9,
+      "run_index": 2,
+      "search_development_success": 0.984375,
+      "search_fitness": 0.015497915998101235,
+      "search_selection_success": 0.9375,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 49,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.5,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            2,
+            3,
+            0,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "out_degree": [
+            3,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            2,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            2,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 7,
+        "topology_id": "28c06a19bf45c5b00784e9159a355cf637cb9db0a5b000441589deb488908e9c"
+      },
+      "topology_id": "28c06a19bf45c5b00784e9159a355cf637cb9db0a5b000441589deb488908e9c"
+    },
+    {
+      "edge_count": 19,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "recurrent_edge_count": 11,
+      "run_index": 3,
+      "search_development_success": 0.9895833333333334,
+      "search_fitness": 0.015151389714330435,
+      "search_selection_success": 0.96875,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 61,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            2,
+            3,
+            2,
+            2,
+            1,
+            2,
+            1,
+            3
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 11,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 11,
+        "same_step_edge_count": 8,
+        "topology_id": "353bce0e5fd5fc2928064658146bafb6409fada4ff921a0627874c3120f95cbe"
+      },
+      "topology_id": "353bce0e5fd5fc2928064658146bafb6409fada4ff921a0627874c3120f95cbe"
+    },
+    {
+      "edge_count": 19,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "recurrent_edge_count": 10,
+      "run_index": 4,
+      "search_development_success": 0.9947916666666666,
+      "search_fitness": 0.015541989661753177,
+      "search_selection_success": 0.9609375,
+      "selected_before_final_validation": true,
+      "selected_evaluation_index": 15,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            1,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 9,
+        "topology_id": "89de21588b429664441f099890e8c560186e51af4a061d202828b19be92432e3"
+      },
+      "topology_id": "89de21588b429664441f099890e8c560186e51af4a061d202828b19be92432e3"
+    }
+  ],
+  "champions_frozen_before_final_validation": true,
+  "version": "V837aj"
+}

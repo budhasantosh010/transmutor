@@ -1,0 +1,16 @@
+{
+  "directed": {
+    "competent_champions": 20,
+    "median_abs_prediction_change": 0.12395379319787025,
+    "median_success_drop": 0.19921875
+  },
+  "fixed_af1d_anchor_4x": {
+    "mean_abs_prediction_delta_median": 0.23562179505825043,
+    "success_drop_median": 0.453125
+  },
+  "random": {
+    "competent_champions": 20,
+    "median_abs_prediction_change": 0.10005846247076988,
+    "median_success_drop": 0.140625
+  }
+}

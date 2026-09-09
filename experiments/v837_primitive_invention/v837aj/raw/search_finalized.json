@@ -1,0 +1,5231 @@
+{
+  "engine": "DIRECTED_STRUCTURAL_SEARCH",
+  "rows": [
+    {
+      "active_training_timesteps": 438720,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.01740571599453688,
+      "champion_search_selection_success": 1.0,
+      "champion_selected_evaluation_index": 57,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1608,
+        "edge_parameters": 20,
+        "message_edge_macs": 80,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1286
+      },
+      "cpu_seconds": 25.1875,
+      "development_loss": 0.0028810284566134214,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 2864,
+      "family": "conditional_routing",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.012836209498345852,
+      "final_validation_success": 0.9765625,
+      "finalization_seed": 67520863,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "d3a103448e3371d081e874b035092f1a88e098efe97964e4e0d706af5e7a8808",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.1536102145910263,
+        "messages_disabled_success": 0.7734375,
+        "messages_enabled_success": 0.9765625,
+        "per_cell_message_norm": [
+          0.4741000235080719,
+          0.7018225193023682,
+          0.9115366339683533,
+          0.8218474388122559,
+          0.789523720741272,
+          0.6080962419509888,
+          0.760615348815918,
+          1.0271024703979492,
+          1.5761713981628418,
+          0.962566077709198
+        ],
+        "success_drop": 0.203125
+      },
+      "modeled_active_mac_volume": 564193920,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 0,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.14285714285714285,
+          "density": 0.13793103448275862,
+          "edge_count": 20,
+          "in_degree": [
+            1,
+            3,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            3,
+            2,
+            1,
+            1,
+            3,
+            3,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 11,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            2,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 7,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 8,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 20,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 11,
+        "same_step_edge_count": 9,
+        "topology_id": "229e34b38ccd8e64ef91b919ebf6c35f38fb46481892db24d2533eacf52effdc"
+      },
+      "topology_id": "229e34b38ccd8e64ef91b919ebf6c35f38fb46481892db24d2533eacf52effdc",
+      "version": "V837aj",
+      "wall_seconds": 31.918864300001587
+    },
+    {
+      "active_training_timesteps": 438720,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.02288868596404791,
+      "champion_search_selection_success": 0.9609375,
+      "champion_selected_evaluation_index": 48,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1606,
+        "edge_parameters": 18,
+        "message_edge_macs": 72,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1278
+      },
+      "cpu_seconds": 25.203125,
+      "development_loss": 0.005225352011620998,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 2864,
+      "family": "conditional_routing",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.024618277326226234,
+      "final_validation_success": 0.8984375,
+      "finalization_seed": 2146740500,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "8fc9e3164d52b9a670b46f77a0542d9213f48262650dd6f7a96a30ff2eaadf91",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.290018767118454,
+        "messages_disabled_success": 0.53125,
+        "messages_enabled_success": 0.8984375,
+        "per_cell_message_norm": [
+          0.987295925617218,
+          0.8366575241088867,
+          0.5555109977722168,
+          0.6756712198257446,
+          0.3530282974243164,
+          0.631115198135376,
+          0.5194985866546631,
+          0.8153830766677856,
+          1.898297667503357,
+          1.1536431312561035
+        ],
+        "success_drop": 0.3671875
+      },
+      "modeled_active_mac_volume": 560684160,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 1,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.12413793103448276,
+          "edge_count": 18,
+          "in_degree": [
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            1,
+            1,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 18,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 8,
+        "topology_id": "7463485fdf79a1cbb288f866f7a891b2a61a5a62b0353939570898ad1eeaafb4"
+      },
+      "topology_id": "7463485fdf79a1cbb288f866f7a891b2a61a5a62b0353939570898ad1eeaafb4",
+      "version": "V837aj",
+      "wall_seconds": 32.24494270000105
+    },
+    {
+      "active_training_timesteps": 438720,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.02199892544001341,
+      "champion_search_selection_success": 0.96875,
+      "champion_selected_evaluation_index": 19,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1607,
+        "edge_parameters": 19,
+        "message_edge_macs": 76,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1282
+      },
+      "cpu_seconds": 24.421875,
+      "development_loss": 0.006428372114896774,
+      "development_success": 0.998046875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 2864,
+      "family": "conditional_routing",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.02500423789024353,
+      "final_validation_success": 0.8984375,
+      "finalization_seed": 244373941,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "864aab3b88827a3188c99e91a64cc01e6f310c2da0c33c732af02e00c33196ba",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.3248445391654968,
+        "messages_disabled_success": 0.375,
+        "messages_enabled_success": 0.8984375,
+        "per_cell_message_norm": [
+          1.1153545379638672,
+          0.5859055519104004,
+          0.9379425048828125,
+          1.0194405317306519,
+          1.3262794017791748,
+          1.460694670677185,
+          0.9159174561500549,
+          0.4411105215549469,
+          0.8873623013496399,
+          0.8258674740791321
+        ],
+        "success_drop": 0.5234375
+      },
+      "modeled_active_mac_volume": 562439040,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 2,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.4583333333333333,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            1,
+            1,
+            3,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            1,
+            3,
+            1,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 9,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 9,
+        "topology_id": "d5eeb10d0f49a6b917d37cadc8cb89cee1c4572a9582300943f02cdaa800a73d"
+      },
+      "topology_id": "d5eeb10d0f49a6b917d37cadc8cb89cee1c4572a9582300943f02cdaa800a73d",
+      "version": "V837aj",
+      "wall_seconds": 30.976793400001043
+    },
+    {
+      "active_training_timesteps": 438720,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.01950040490180254,
+      "champion_search_selection_success": 0.9921875,
+      "champion_selected_evaluation_index": 19,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1607,
+        "edge_parameters": 19,
+        "message_edge_macs": 76,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1282
+      },
+      "cpu_seconds": 24.171875,
+      "development_loss": 0.004253678489476442,
+      "development_success": 0.998046875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 2864,
+      "family": "conditional_routing",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.018143950030207634,
+      "final_validation_success": 0.9375,
+      "finalization_seed": 197902010,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "0cdf34c701c705ec695e64258bb4b3d78fd5442a0be0cee345d790a8821b1a30",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.12837497889995575,
+        "messages_disabled_success": 0.7578125,
+        "messages_enabled_success": 0.9375,
+        "per_cell_message_norm": [
+          0.5278750061988831,
+          0.8379929661750793,
+          0.6166897416114807,
+          1.4251713752746582,
+          1.1875725984573364,
+          0.6507169604301453,
+          1.1360816955566406,
+          0.9740132689476013,
+          0.550269365310669,
+          0.47182515263557434
+        ],
+        "success_drop": 0.1796875
+      },
+      "modeled_active_mac_volume": 562439040,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 3,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.42857142857142855,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            1,
+            2,
+            3,
+            1,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            3,
+            1,
+            3,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 9,
+        "topology_id": "89045f2e8273ababfcc197644bc654e6acf0c0f8158b7a502c32620cc59eeefb"
+      },
+      "topology_id": "89045f2e8273ababfcc197644bc654e6acf0c0f8158b7a502c32620cc59eeefb",
+      "version": "V837aj",
+      "wall_seconds": 30.869157900000573
+    },
+    {
+      "active_training_timesteps": 438720,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.019210093714296817,
+      "champion_search_selection_success": 0.9921875,
+      "champion_selected_evaluation_index": 31,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1610,
+        "edge_parameters": 22,
+        "message_edge_macs": 88,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1294
+      },
+      "cpu_seconds": 24.75,
+      "development_loss": 0.002825796836987138,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 2864,
+      "family": "conditional_routing",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.007500585168600082,
+      "final_validation_success": 1.0,
+      "finalization_seed": 1676665677,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "2e3e258a9ac9179581e09ae3ddd414dd61c3751215d7130b58858a73ed62491f",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.26126062870025635,
+        "messages_disabled_success": 0.5078125,
+        "messages_enabled_success": 1.0,
+        "per_cell_message_norm": [
+          1.017765760421753,
+          0.9893556237220764,
+          1.2385882139205933,
+          0.43503203988075256,
+          0.8797588348388672,
+          0.8723201751708984,
+          0.8804601430892944,
+          0.829818844795227,
+          0.8384377956390381,
+          0.4733871519565582
+        ],
+        "success_drop": 0.4921875
+      },
+      "modeled_active_mac_volume": 567703680,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 4,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.15172413793103448,
+          "edge_count": 22,
+          "in_degree": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            3,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            3,
+            2,
+            4,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            0
+          ],
+          "recurrent_edge_count": 11,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            0
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 11,
+          "strongly_connected_components": 3,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 22,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          }
+        ],
+        "recurrent_edge_count": 11,
+        "same_step_edge_count": 11,
+        "topology_id": "102d31e0006ac7c0191e0179abff16ebe2ff21d470daf803b63fa74b5d49ae50"
+      },
+      "topology_id": "102d31e0006ac7c0191e0179abff16ebe2ff21d470daf803b63fa74b5d49ae50",
+      "version": "V837aj",
+      "wall_seconds": 30.918051299999206
+    },
+    {
+      "active_training_timesteps": 1093056,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.008028685735742329,
+      "champion_search_selection_success": 1.0,
+      "champion_selected_evaluation_index": 60,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1604,
+        "edge_parameters": 16,
+        "message_edge_macs": 64,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1270
+      },
+      "cpu_seconds": 71.5625,
+      "development_loss": 5.7610232033766806e-05,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 7109,
+      "family": "delayed_recall",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.04365832358598709,
+      "final_validation_success": 0.984375,
+      "finalization_seed": 1132186341,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "8ca176d2020f8a44f125ce69551f8dccf5605f94852883d63c6bca3b2abaa651",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.05295335501432419,
+        "messages_disabled_success": 0.9609375,
+        "messages_enabled_success": 0.984375,
+        "per_cell_message_norm": [
+          0.7219752669334412,
+          0.37516024708747864,
+          1.073734998703003,
+          0.45075130462646484,
+          0.8358803391456604,
+          0.7565948367118835,
+          1.6919234991073608,
+          0.6229646801948547,
+          0.7952377200126648,
+          0.8142769932746887
+        ],
+        "success_drop": 0.0234375
+      },
+      "modeled_active_mac_volume": 1388181120,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 0,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 7,
+        "topology_id": "161ad8f39f57b6999aa125ed5e757efe858f4d6be0148ff20208a83f3f8913f5"
+      },
+      "topology_id": "161ad8f39f57b6999aa125ed5e757efe858f4d6be0148ff20208a83f3f8913f5",
+      "version": "V837aj",
+      "wall_seconds": 84.05164479999985
+    },
+    {
+      "active_training_timesteps": 1093056,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.00755322531069396,
+      "champion_search_selection_success": 1.0,
+      "champion_selected_evaluation_index": 44,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1603,
+        "edge_parameters": 15,
+        "message_edge_macs": 60,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1266
+      },
+      "cpu_seconds": 71.484375,
+      "development_loss": 0.0003060484887100756,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 7109,
+      "family": "delayed_recall",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.010285601951181889,
+      "final_validation_success": 0.9921875,
+      "finalization_seed": 612350165,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "2503a40c2f15a897cca0ac3537aca24a729b09226d70802ad0128b2a9ac8b744",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.09662570804357529,
+        "messages_disabled_success": 0.953125,
+        "messages_enabled_success": 0.9921875,
+        "per_cell_message_norm": [
+          0.8429407477378845,
+          1.041986346244812,
+          1.353893756866455,
+          1.2006391286849976,
+          0.5123916864395142,
+          0.8697386384010315,
+          0.5696380138397217,
+          0.31764909625053406,
+          0.770368754863739,
+          0.6179277896881104
+        ],
+        "success_drop": 0.0390625
+      },
+      "modeled_active_mac_volume": 1383808896,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 1,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.10344827586206896,
+          "edge_count": 15,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "out_degree": [
+            3,
+            2,
+            2,
+            2,
+            0,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            2,
+            1,
+            0,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            2,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 6,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 15,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 6,
+        "topology_id": "bcb9ba2a2872bc1874ec8cf6a75173baebc97a40b35f781cba8de63daf9bd5c0"
+      },
+      "topology_id": "bcb9ba2a2872bc1874ec8cf6a75173baebc97a40b35f781cba8de63daf9bd5c0",
+      "version": "V837aj",
+      "wall_seconds": 84.73776739999994
+    },
+    {
+      "active_training_timesteps": 1093056,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.0083310824977234,
+      "champion_search_selection_success": 1.0,
+      "champion_selected_evaluation_index": 36,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1604,
+        "edge_parameters": 16,
+        "message_edge_macs": 64,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1270
+      },
+      "cpu_seconds": 73.140625,
+      "development_loss": 7.036914030322805e-05,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 7109,
+      "family": "delayed_recall",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.05631178244948387,
+      "final_validation_success": 0.984375,
+      "finalization_seed": 1970780644,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "598e3a6b60d39d150d4755bcb0d54a00227103aa96607e923c19b372b4c4e848",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.6214189529418945,
+        "messages_disabled_success": 0.6171875,
+        "messages_enabled_success": 0.984375,
+        "per_cell_message_norm": [
+          0.9448143243789673,
+          0.9403762221336365,
+          0.661379337310791,
+          0.7461690902709961,
+          1.468809962272644,
+          0.9709476232528687,
+          0.45968055725097656,
+          0.6997191309928894,
+          0.43598800897598267,
+          0.470090389251709
+        ],
+        "success_drop": 0.3671875
+      },
+      "modeled_active_mac_volume": 1388181120,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 2,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 6,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 4
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 6,
+        "topology_id": "3bf7f6cf91e1764e1f9390a322feb015385a9b9fd720aa1af7046d057a92b232"
+      },
+      "topology_id": "3bf7f6cf91e1764e1f9390a322feb015385a9b9fd720aa1af7046d057a92b232",
+      "version": "V837aj",
+      "wall_seconds": 90.22519330000068
+    },
+    {
+      "active_training_timesteps": 1093056,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.008656547030201182,
+      "champion_search_selection_success": 1.0,
+      "champion_selected_evaluation_index": 60,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1605,
+        "edge_parameters": 17,
+        "message_edge_macs": 68,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1274
+      },
+      "cpu_seconds": 73.0625,
+      "development_loss": 0.00015416457608807832,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 7109,
+      "family": "delayed_recall",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.03747624531388283,
+      "final_validation_success": 0.96875,
+      "finalization_seed": 462919676,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "b8d58416cd01282abf42b06faf8a8f73e82df8ef671097742f31267b534b707f",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.1542634814977646,
+        "messages_disabled_success": 0.8984375,
+        "messages_enabled_success": 0.96875,
+        "per_cell_message_norm": [
+          0.8086169362068176,
+          1.1241123676300049,
+          0.7860293388366699,
+          0.7999719381332397,
+          1.2383562326431274,
+          0.536302387714386,
+          0.9186971783638,
+          0.5402901768684387,
+          0.0,
+          0.7177615165710449
+        ],
+        "success_drop": 0.0703125
+      },
+      "modeled_active_mac_volume": 1392553344,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 3,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            0,
+            1
+          ],
+          "out_degree": [
+            2,
+            2,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            0,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 8,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 8,
+        "topology_id": "7268633bfba4e06114fab4ed48147ea7c62b4e479524d6b1ceaeefbec9b805b5"
+      },
+      "topology_id": "7268633bfba4e06114fab4ed48147ea7c62b4e479524d6b1ceaeefbec9b805b5",
+      "version": "V837aj",
+      "wall_seconds": 84.82582150000053
+    },
+    {
+      "active_training_timesteps": 1093056,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.0082844916889444,
+      "champion_search_selection_success": 1.0,
+      "champion_selected_evaluation_index": 46,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1604,
+        "edge_parameters": 16,
+        "message_edge_macs": 64,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1270
+      },
+      "cpu_seconds": 73.359375,
+      "development_loss": 2.590551412140485e-05,
+      "development_success": 1.0,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 7109,
+      "family": "delayed_recall",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.01509676780551672,
+      "final_validation_success": 0.9921875,
+      "finalization_seed": 1999312065,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "28eea65979e51f5ecec67f535f9b004c6f084a43d845bdcdb507f025f8f82574",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.1470523625612259,
+        "messages_disabled_success": 0.90625,
+        "messages_enabled_success": 0.9921875,
+        "per_cell_message_norm": [
+          0.7474035024642944,
+          0.6604633927345276,
+          0.9709352850914001,
+          1.2526025772094727,
+          0.0,
+          1.071609377861023,
+          0.7758417725563049,
+          0.8201811909675598,
+          1.305436611175537,
+          0.8590750098228455
+        ],
+        "success_drop": 0.0859375
+      },
+      "modeled_active_mac_volume": 1388181120,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 4,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            1,
+            2,
+            2,
+            0,
+            1,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            0,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 7,
+        "topology_id": "fe89ff3c7aef89f694825c89464a4b18e15dc9f47b6509863417c73f5aa1ec67"
+      },
+      "topology_id": "fe89ff3c7aef89f694825c89464a4b18e15dc9f47b6509863417c73f5aa1ec67",
+      "version": "V837aj",
+      "wall_seconds": 85.25412310000138
+    },
+    {
+      "active_training_timesteps": 747264,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.009261729527264834,
+      "champion_search_selection_success": 0.9921875,
+      "champion_selected_evaluation_index": 60,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1601,
+        "edge_parameters": 13,
+        "message_edge_macs": 52,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1258
+      },
+      "cpu_seconds": 53.171875,
+      "development_loss": 0.001613166881725192,
+      "development_success": 0.998046875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 4859,
+      "family": "iterative_state",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.0019346317276358604,
+      "final_validation_success": 0.9921875,
+      "finalization_seed": 103078768,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "5bc4a8fd846e5f2eac6bf76a4c1a49018bafadb5c23cd416ad7c5d423c37b03c",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.058727048337459564,
+        "messages_disabled_success": 0.9375,
+        "messages_enabled_success": 0.9921875,
+        "per_cell_message_norm": [
+          0.0,
+          0.25721171498298645,
+          0.2347557693719864,
+          0.2036542296409607,
+          0.20622922480106354,
+          0.15931299328804016,
+          0.3892137110233307,
+          0.0,
+          0.5217962265014648,
+          0.1635638177394867
+        ],
+        "success_drop": 0.0546875
+      },
+      "modeled_active_mac_volume": 940058112,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 0,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            0,
+            3,
+            1,
+            1,
+            1,
+            2,
+            2,
+            0,
+            2,
+            1
+          ],
+          "out_degree": [
+            1,
+            1,
+            2,
+            0,
+            2,
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 8,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            0,
+            2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 3,
+          "same_step_edge_count": 5,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 4
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 8,
+        "same_step_edge_count": 5,
+        "topology_id": "f3f55c9034cd409d73af075ce47c2bd8bf4726e12c662946cf5aa2862ae5e5b6"
+      },
+      "topology_id": "f3f55c9034cd409d73af075ce47c2bd8bf4726e12c662946cf5aa2862ae5e5b6",
+      "version": "V837aj",
+      "wall_seconds": 63.884539999999106
+    },
+    {
+      "active_training_timesteps": 747264,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.00912049143202603,
+      "champion_search_selection_success": 0.9921875,
+      "champion_selected_evaluation_index": 60,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1601,
+        "edge_parameters": 13,
+        "message_edge_macs": 52,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1258
+      },
+      "cpu_seconds": 52.359375,
+      "development_loss": 0.001870953943580389,
+      "development_success": 0.99609375,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 4859,
+      "family": "iterative_state",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.001973641337826848,
+      "final_validation_success": 0.9921875,
+      "finalization_seed": 1680069879,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "8a18a44232130395f6ad58584bb78babb13c1c206e8fe10aeafc0bb6c2c1d811",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.01484245527535677,
+        "messages_disabled_success": 0.9921875,
+        "messages_enabled_success": 0.9921875,
+        "per_cell_message_norm": [
+          0.0,
+          0.129962757229805,
+          0.22560247778892517,
+          0.14713075757026672,
+          0.1417759507894516,
+          0.24819020926952362,
+          0.36680376529693604,
+          0.20089764893054962,
+          0.2951342761516571,
+          0.13775931298732758
+        ],
+        "success_drop": 0.0
+      },
+      "modeled_active_mac_volume": 940058112,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 1,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "out_degree": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            0
+          ],
+          "recurrent_edge_count": 4,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "recurrent_out_degree": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          }
+        ],
+        "recurrent_edge_count": 4,
+        "same_step_edge_count": 9,
+        "topology_id": "461f7871ed32a70f4587634f1e1e3bbbb7bce180eb6fe73387b51edc087122ad"
+      },
+      "topology_id": "461f7871ed32a70f4587634f1e1e3bbbb7bce180eb6fe73387b51edc087122ad",
+      "version": "V837aj",
+      "wall_seconds": 59.99777859999995
+    },
+    {
+      "active_training_timesteps": 747264,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.008770928816869855,
+      "champion_search_selection_success": 0.9921875,
+      "champion_selected_evaluation_index": 62,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1601,
+        "edge_parameters": 13,
+        "message_edge_macs": 52,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1258
+      },
+      "cpu_seconds": 52.90625,
+      "development_loss": 0.0018144891364499927,
+      "development_success": 0.99609375,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 4859,
+      "family": "iterative_state",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.0020251565147191286,
+      "final_validation_success": 0.9921875,
+      "finalization_seed": 1571542091,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "6c006e7eca1b535253c0303adafbfb2476a22a535a5555d2ee7a9b485eed8874",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.024766188114881516,
+        "messages_disabled_success": 0.984375,
+        "messages_enabled_success": 0.9921875,
+        "per_cell_message_norm": [
+          0.0,
+          0.21138927340507507,
+          0.27039846777915955,
+          0.21547293663024902,
+          0.13638144731521606,
+          0.2626912295818329,
+          0.21467700600624084,
+          0.3595188558101654,
+          0.0,
+          0.2675487697124481
+        ],
+        "success_drop": 0.0078125
+      },
+      "modeled_active_mac_volume": 940058112,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 2,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            0,
+            2
+          ],
+          "out_degree": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 6,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 6,
+        "same_step_edge_count": 7,
+        "topology_id": "b4d59daa5db89acc643ee383e0added87ac72a6c7da036c9a954f3d7848afdea"
+      },
+      "topology_id": "b4d59daa5db89acc643ee383e0added87ac72a6c7da036c9a954f3d7848afdea",
+      "version": "V837aj",
+      "wall_seconds": 61.16657959999975
+    },
+    {
+      "active_training_timesteps": 747264,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.010273847198113799,
+      "champion_search_selection_success": 0.9921875,
+      "champion_selected_evaluation_index": 60,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1603,
+        "edge_parameters": 15,
+        "message_edge_macs": 60,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1266
+      },
+      "cpu_seconds": 54.484375,
+      "development_loss": 0.0016821225872263312,
+      "development_success": 0.99609375,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 4859,
+      "family": "iterative_state",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.0018116100691258907,
+      "final_validation_success": 0.9921875,
+      "finalization_seed": 185933892,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "3e7281899e608b4c6d74bd6aec485c35a3d2525426821035d2ff2c0d55bcf4db",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.020501891151070595,
+        "messages_disabled_success": 1.0,
+        "messages_enabled_success": 0.9921875,
+        "per_cell_message_norm": [
+          0.20972760021686554,
+          0.26225894689559937,
+          0.17250275611877441,
+          0.11630818992853165,
+          0.3510698080062866,
+          0.2101488560438156,
+          0.36435461044311523,
+          0.5837863087654114,
+          0.23064279556274414,
+          0.2594808042049408
+        ],
+        "success_drop": -0.0078125
+      },
+      "modeled_active_mac_volume": 946036224,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 3,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.41666666666666663,
+          "density": 0.10344827586206896,
+          "edge_count": 15,
+          "in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            1,
+            2
+          ],
+          "out_degree": [
+            2,
+            1,
+            2,
+            0,
+            1,
+            3,
+            2,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 6,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 4
+        },
+        "edge_count": 15,
+        "edges": [
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 6,
+        "topology_id": "2c83573abb5b4424b282c2e3ab85789cd2c100da293309aef8bdbcea9efdc2e4"
+      },
+      "topology_id": "2c83573abb5b4424b282c2e3ab85789cd2c100da293309aef8bdbcea9efdc2e4",
+      "version": "V837aj",
+      "wall_seconds": 66.76606259999971
+    },
+    {
+      "active_training_timesteps": 747264,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.009080021508038045,
+      "champion_search_selection_success": 0.9921875,
+      "champion_selected_evaluation_index": 61,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1601,
+        "edge_parameters": 13,
+        "message_edge_macs": 52,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1258
+      },
+      "cpu_seconds": 54.296875,
+      "development_loss": 0.001470995950512588,
+      "development_success": 0.99609375,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 4859,
+      "family": "iterative_state",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.0016502279322594404,
+      "final_validation_success": 1.0,
+      "finalization_seed": 389881997,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "7f9b3f26824730dc2b7877abe97e832afa75328684e3c933340eb94456051b22",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.10468009859323502,
+        "messages_disabled_success": 0.765625,
+        "messages_enabled_success": 1.0,
+        "per_cell_message_norm": [
+          0.3054910898208618,
+          0.34453827142715454,
+          0.26574116945266724,
+          0.19326315820217133,
+          0.2403765171766281,
+          0.43329575657844543,
+          0.6036022901535034,
+          0.11475052684545517,
+          0.32318082451820374,
+          0.35899338126182556
+        ],
+        "success_drop": 0.234375
+      },
+      "modeled_active_mac_volume": 940058112,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 4,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.0896551724137931,
+          "edge_count": 13,
+          "in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2
+          ],
+          "out_degree": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 3,
+          "same_step_edge_count": 3,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 7
+        },
+        "edge_count": 13,
+        "edges": [
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 3,
+        "topology_id": "ceccf8e644de24b8b289a350023d6e6540136e958404d8889374cc56d80ac7e8"
+      },
+      "topology_id": "ceccf8e644de24b8b289a350023d6e6540136e958404d8889374cc56d80ac7e8",
+      "version": "V837aj",
+      "wall_seconds": 66.7935467999996
+    },
+    {
+      "active_training_timesteps": 840960,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.02654824258387089,
+      "champion_search_selection_success": 0.875,
+      "champion_selected_evaluation_index": 51,
+      "competent": false,
+      "compute": {
+        "active_parameters": 1606,
+        "edge_parameters": 18,
+        "message_edge_macs": 72,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1278
+      },
+      "cpu_seconds": 56.484375,
+      "development_loss": 0.009240217506885529,
+      "development_success": 0.970703125,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 5473,
+      "family": "partial_observation",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.02501657046377659,
+      "final_validation_success": 0.8203125,
+      "finalization_seed": 2008810540,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "fda0f9d785b60263fd0d8e0cdacbf0673d74e9240b3bf034fae956d0d5363833",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.08396562933921814,
+        "messages_disabled_success": 0.7578125,
+        "messages_enabled_success": 0.8203125,
+        "per_cell_message_norm": [
+          0.2566430866718292,
+          0.3060915470123291,
+          0.2988288700580597,
+          0.1696067601442337,
+          0.481414258480072,
+          0.42850565910339355,
+          0.4142581522464752,
+          0.32905563712120056,
+          0.271948903799057,
+          0.6648899912834167
+        ],
+        "success_drop": 0.0625
+      },
+      "modeled_active_mac_volume": 1074746880,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 0,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.12413793103448276,
+          "edge_count": 18,
+          "in_degree": [
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            3,
+            2,
+            1,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            3,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            0,
+            1
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 9,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 18,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 9,
+        "topology_id": "6c513a34f29290453444504130c6cb3d81ff8cdeb2c9b2e636eadd4c8423f9bf"
+      },
+      "topology_id": "6c513a34f29290453444504130c6cb3d81ff8cdeb2c9b2e636eadd4c8423f9bf",
+      "version": "V837aj",
+      "wall_seconds": 70.31298789999892
+    },
+    {
+      "active_training_timesteps": 840960,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.026993142992258072,
+      "champion_search_selection_success": 0.875,
+      "champion_selected_evaluation_index": 13,
+      "competent": false,
+      "compute": {
+        "active_parameters": 1604,
+        "edge_parameters": 16,
+        "message_edge_macs": 64,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1270
+      },
+      "cpu_seconds": 55.453125,
+      "development_loss": 0.010104932822287083,
+      "development_success": 0.9453125,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 5473,
+      "family": "partial_observation",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.02175130695104599,
+      "final_validation_success": 0.828125,
+      "finalization_seed": 1325770992,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "9e6d4de9588193e6597455e8c81b4bc3f5b3c1fd80e635090f7fe94c9e38d886",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.08431955426931381,
+        "messages_disabled_success": 0.7265625,
+        "messages_enabled_success": 0.828125,
+        "per_cell_message_norm": [
+          0.2610921263694763,
+          0.4168596863746643,
+          0.4644893407821655,
+          0.35928353667259216,
+          0.0,
+          0.3719184994697571,
+          0.35368612408638,
+          0.15511485934257507,
+          0.8805532455444336,
+          0.2769222557544708
+        ],
+        "success_drop": 0.1015625
+      },
+      "modeled_active_mac_volume": 1068019200,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 1,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            0,
+            2,
+            2,
+            1,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 8,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 8,
+        "same_step_edge_count": 8,
+        "topology_id": "95a863f5464168d22ff667be421fb2593761caa3e272f4697212190007bcab40"
+      },
+      "topology_id": "95a863f5464168d22ff667be421fb2593761caa3e272f4697212190007bcab40",
+      "version": "V837aj",
+      "wall_seconds": 68.68824750000022
+    },
+    {
+      "active_training_timesteps": 840960,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.027469014286994935,
+      "champion_search_selection_success": 0.8671875,
+      "champion_selected_evaluation_index": 29,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1605,
+        "edge_parameters": 17,
+        "message_edge_macs": 68,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1274
+      },
+      "cpu_seconds": 55.8125,
+      "development_loss": 0.012051302939653397,
+      "development_success": 0.94140625,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 5473,
+      "family": "partial_observation",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.019015807658433914,
+      "final_validation_success": 0.875,
+      "finalization_seed": 1892634994,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "eb24d28f446f32bddadedfb4c11c5aa06a76a131af3eaeb73327f7f5df0ac5bb",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.10529835522174835,
+        "messages_disabled_success": 0.6796875,
+        "messages_enabled_success": 0.875,
+        "per_cell_message_norm": [
+          0.1736443042755127,
+          0.1600494384765625,
+          0.2949233651161194,
+          0.2957160770893097,
+          0.29809972643852234,
+          0.26729220151901245,
+          0.4609183967113495,
+          0.5811619162559509,
+          0.1838795691728592,
+          0.2914026081562042
+        ],
+        "success_drop": 0.1953125
+      },
+      "modeled_active_mac_volume": 1071383040,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 2,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 7,
+        "topology_id": "ded69c8d85ae4c70c82cfbf3d172d82ac2b37769464c864e7887b6fe5c7babf1"
+      },
+      "topology_id": "ded69c8d85ae4c70c82cfbf3d172d82ac2b37769464c864e7887b6fe5c7babf1",
+      "version": "V837aj",
+      "wall_seconds": 68.50511609999921
+    },
+    {
+      "active_training_timesteps": 840960,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.02577982982993126,
+      "champion_search_selection_success": 0.8671875,
+      "champion_selected_evaluation_index": 58,
+      "competent": false,
+      "compute": {
+        "active_parameters": 1605,
+        "edge_parameters": 17,
+        "message_edge_macs": 68,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1274
+      },
+      "cpu_seconds": 55.21875,
+      "development_loss": 0.0073340535163879395,
+      "development_success": 0.98046875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 5473,
+      "family": "partial_observation",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.022774655371904373,
+      "final_validation_success": 0.8125,
+      "finalization_seed": 1641341637,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "7a0306b2270d5c60bea710359ae1d610fb4a9602849a5b8d0ce2153194136a65",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.13384521007537842,
+        "messages_disabled_success": 0.6875,
+        "messages_enabled_success": 0.8125,
+        "per_cell_message_norm": [
+          0.43344318866729736,
+          0.3291957974433899,
+          0.35301706194877625,
+          0.3694031238555908,
+          0.3705432116985321,
+          0.45350682735443115,
+          0.7180673480033875,
+          0.38528192043304443,
+          0.35214754939079285,
+          0.4962631165981293
+        ],
+        "success_drop": 0.125
+      },
+      "modeled_active_mac_volume": 1071383040,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 3,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2
+          ],
+          "out_degree": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            0
+          ],
+          "recurrent_edge_count": 8,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "recurrent_out_degree": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          }
+        ],
+        "recurrent_edge_count": 8,
+        "same_step_edge_count": 9,
+        "topology_id": "1bfcc4310719c5d91c7b7dbe826ce7d1e58ab07ad1f4f47d78a3f4147344f2b4"
+      },
+      "topology_id": "1bfcc4310719c5d91c7b7dbe826ce7d1e58ab07ad1f4f47d78a3f4147344f2b4",
+      "version": "V837aj",
+      "wall_seconds": 67.45270100000016
+    },
+    {
+      "active_training_timesteps": 840960,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.026624204128980637,
+      "champion_search_selection_success": 0.859375,
+      "champion_selected_evaluation_index": 59,
+      "competent": false,
+      "compute": {
+        "active_parameters": 1605,
+        "edge_parameters": 17,
+        "message_edge_macs": 68,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1274
+      },
+      "cpu_seconds": 50.65625,
+      "development_loss": 0.0069634937681257725,
+      "development_success": 0.9765625,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 5473,
+      "family": "partial_observation",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.02691315859556198,
+      "final_validation_success": 0.7734375,
+      "finalization_seed": 1798167635,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "a37b19aa845d37eae467ec39f442ab7a58d94565a515771bc67f547567e1a57d",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.10483201593160629,
+        "messages_disabled_success": 0.6953125,
+        "messages_enabled_success": 0.7734375,
+        "per_cell_message_norm": [
+          0.397250771522522,
+          0.2885706424713135,
+          0.38354530930519104,
+          0.5812515616416931,
+          0.0,
+          0.5570301413536072,
+          0.4071609377861023,
+          0.22173863649368286,
+          0.590712308883667,
+          0.25305086374282837
+        ],
+        "success_drop": 0.078125
+      },
+      "modeled_active_mac_volume": 1071383040,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 4,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            2,
+            1,
+            1,
+            3,
+            0,
+            4,
+            2,
+            1,
+            2,
+            1
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            3,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            2,
+            1,
+            1,
+            2,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            2,
+            1,
+            0,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 9,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 8,
+        "topology_id": "d176895778436ab04d263e6a133e9399b6d953ddd08e1461e05171d5a48e84bd"
+      },
+      "topology_id": "d176895778436ab04d263e6a133e9399b6d953ddd08e1461e05171d5a48e84bd",
+      "version": "V837aj",
+      "wall_seconds": 58.65802090000034
+    },
+    {
+      "active_training_timesteps": 297600,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.013927367985248566,
+      "champion_search_selection_success": 0.984375,
+      "champion_selected_evaluation_index": 15,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1605,
+        "edge_parameters": 17,
+        "message_edge_macs": 68,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1274
+      },
+      "cpu_seconds": 21.3125,
+      "development_loss": 0.003289096988737583,
+      "development_success": 0.998046875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 1940,
+      "family": "variable_composition",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.007029917556792498,
+      "final_validation_success": 0.9609375,
+      "finalization_seed": 2142802024,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "978b63116d49afb07beadf709b9707961a97d52906731eec65e5ec14bfac53ea",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.11953260749578476,
+        "messages_disabled_success": 0.6796875,
+        "messages_enabled_success": 0.9609375,
+        "per_cell_message_norm": [
+          0.22087766230106354,
+          0.5821035504341125,
+          0.7173077464103699,
+          0.5199853181838989,
+          0.27258554100990295,
+          0.4089360237121582,
+          0.3887186348438263,
+          0.4605740010738373,
+          0.38615918159484863,
+          0.37097182869911194
+        ],
+        "success_drop": 0.28125
+      },
+      "modeled_active_mac_volume": 379142400,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 0,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.11724137931034483,
+          "edge_count": 17,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 8,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 17,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 8,
+        "topology_id": "c7fb99d747cf8fb0bee8754c6dc127232cfc0189648970434a11a950638866ce"
+      },
+      "topology_id": "c7fb99d747cf8fb0bee8754c6dc127232cfc0189648970434a11a950638866ce",
+      "version": "V837aj",
+      "wall_seconds": 27.280257899999924
+    },
+    {
+      "active_training_timesteps": 297600,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.014947152070701122,
+      "champion_search_selection_success": 1.0,
+      "champion_selected_evaluation_index": 4,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1607,
+        "edge_parameters": 19,
+        "message_edge_macs": 76,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1282
+      },
+      "cpu_seconds": 20.5625,
+      "development_loss": 0.003834714414551854,
+      "development_success": 0.9921875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 1940,
+      "family": "variable_composition",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.008048880845308304,
+      "final_validation_success": 0.8984375,
+      "finalization_seed": 1995475403,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "1080e4af626ab39880c3255516c8cd534b822efca7f1d67f0a4ff71c0619bd20",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.1699613481760025,
+        "messages_disabled_success": 0.4140625,
+        "messages_enabled_success": 0.8984375,
+        "per_cell_message_norm": [
+          0.12984299659729004,
+          0.2938929796218872,
+          0.6064934134483337,
+          0.4903187155723572,
+          0.32750529050827026,
+          0.6778497695922852,
+          0.7773863673210144,
+          0.8784080147743225,
+          0.48641401529312134,
+          0.23241862654685974
+        ],
+        "success_drop": 0.484375
+      },
+      "modeled_active_mac_volume": 381523200,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 1,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            2,
+            2,
+            1,
+            3,
+            2,
+            2,
+            3,
+            1
+          ],
+          "out_degree": [
+            3,
+            2,
+            3,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": null,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 9,
+          "same_step_edge_count": 10,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 2
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 10,
+        "topology_id": "a92ce5d3f44a03c8abb5336632208b960456c67dee0b1e6bceed0bb746a2f73e"
+      },
+      "topology_id": "a92ce5d3f44a03c8abb5336632208b960456c67dee0b1e6bceed0bb746a2f73e",
+      "version": "V837aj",
+      "wall_seconds": 24.481955699999162
+    },
+    {
+      "active_training_timesteps": 297600,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.015497915998101235,
+      "champion_search_selection_success": 0.9375,
+      "champion_selected_evaluation_index": 49,
+      "competent": false,
+      "compute": {
+        "active_parameters": 1604,
+        "edge_parameters": 16,
+        "message_edge_macs": 64,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1270
+      },
+      "cpu_seconds": 18.3125,
+      "development_loss": 0.0049055274575948715,
+      "development_success": 0.986328125,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 1940,
+      "family": "variable_composition",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.012846024706959724,
+      "final_validation_success": 0.8125,
+      "finalization_seed": 1967700907,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "57eb05548c50d003373efb329e19b4e3171d79219e68c5de3b0c2e1259c2599b",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.12687242031097412,
+        "messages_disabled_success": 0.625,
+        "messages_enabled_success": 0.8125,
+        "per_cell_message_norm": [
+          0.5936799645423889,
+          0.7539307475090027,
+          0.8544752597808838,
+          0.0,
+          0.5622664093971252,
+          0.05647502839565277,
+          0.4743557572364807,
+          0.36925265192985535,
+          0.17007403075695038,
+          0.24387332797050476
+        ],
+        "success_drop": 0.1875
+      },
+      "modeled_active_mac_volume": 377952000,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 2,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.5,
+          "density": 0.1103448275862069,
+          "edge_count": 16,
+          "in_degree": [
+            1,
+            2,
+            3,
+            0,
+            2,
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "out_degree": [
+            3,
+            2,
+            1,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 9,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            2,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            2,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 5,
+          "same_step_edge_count": 7,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 3
+        },
+        "edge_count": 16,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 9,
+        "same_step_edge_count": 7,
+        "topology_id": "28c06a19bf45c5b00784e9159a355cf637cb9db0a5b000441589deb488908e9c"
+      },
+      "topology_id": "28c06a19bf45c5b00784e9159a355cf637cb9db0a5b000441589deb488908e9c",
+      "version": "V837aj",
+      "wall_seconds": 20.742736799998966
+    },
+    {
+      "active_training_timesteps": 297600,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.015151389714330435,
+      "champion_search_selection_success": 0.96875,
+      "champion_selected_evaluation_index": 61,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1607,
+        "edge_parameters": 19,
+        "message_edge_macs": 76,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1282
+      },
+      "cpu_seconds": 18.9375,
+      "development_loss": 0.004194330424070358,
+      "development_success": 0.98046875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 1940,
+      "family": "variable_composition",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.009850296191871166,
+      "final_validation_success": 0.875,
+      "finalization_seed": 68065652,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "6ef8f60555e28d99594fa934f989ae25bd295441af09c94dfe9540cc261c2781",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.14877460896968842,
+        "messages_disabled_success": 0.5,
+        "messages_enabled_success": 0.875,
+        "per_cell_message_norm": [
+          0.26507502794265747,
+          0.5116204619407654,
+          0.32866716384887695,
+          0.49641096591949463,
+          0.3789762854576111,
+          0.2993222773075104,
+          0.2944296896457672,
+          0.9482051730155945,
+          0.4121411442756653,
+          1.017004370689392
+        ],
+        "success_drop": 0.375
+      },
+      "modeled_active_mac_volume": 381523200,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 3,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            2,
+            3,
+            2,
+            2,
+            1,
+            2,
+            1,
+            3
+          ],
+          "out_degree": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 11,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 6,
+          "same_step_edge_count": 8,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 2,
+            "recurrent": true,
+            "src": 2
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 11,
+        "same_step_edge_count": 8,
+        "topology_id": "353bce0e5fd5fc2928064658146bafb6409fada4ff921a0627874c3120f95cbe"
+      },
+      "topology_id": "353bce0e5fd5fc2928064658146bafb6409fada4ff921a0627874c3120f95cbe",
+      "version": "V837aj",
+      "wall_seconds": 20.296607700000095
+    },
+    {
+      "active_training_timesteps": 297600,
+      "backward_calls": 192,
+      "champion_frozen_before_final_validation": true,
+      "champion_search_fitness": 0.015541989661753177,
+      "champion_search_selection_success": 0.9609375,
+      "champion_selected_evaluation_index": 15,
+      "competent": true,
+      "compute": {
+        "active_parameters": 1607,
+        "edge_parameters": 19,
+        "message_edge_macs": 76,
+        "projection_parameters": 420,
+        "recurrent_controller_projection_macs": 1206,
+        "total_modeled_macs_per_timestep": 1282
+      },
+      "cpu_seconds": 14.703125,
+      "development_loss": 0.0028410865925252438,
+      "development_success": 0.998046875,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "environment_interactions": 1940,
+      "family": "variable_composition",
+      "final_validation_data_accesses": 1,
+      "final_validation_episode_count": 128,
+      "final_validation_loss": 0.006313111633062363,
+      "final_validation_success": 0.9609375,
+      "finalization_seed": 1744799349,
+      "forward_calls": 195,
+      "gpu_seconds": 0.0,
+      "initial_parameter_hash": "7becbf4b5b9f8fd2a597bc4dd4dee9932e1c2bc951d76a97b7f22c528b1d7665",
+      "message_dependence": {
+        "mean_abs_prediction_change": 0.107944056391716,
+        "messages_disabled_success": 0.6171875,
+        "messages_enabled_success": 0.9609375,
+        "per_cell_message_norm": [
+          0.23749782145023346,
+          0.5219405889511108,
+          0.5978873372077942,
+          0.5719675421714783,
+          0.4108586311340332,
+          0.5240170359611511,
+          0.5314905643463135,
+          0.40323179960250854,
+          0.9895092844963074,
+          0.48939278721809387
+        ],
+        "success_drop": 0.34375
+      },
+      "modeled_active_mac_volume": 381523200,
+      "optimizer_steps": 192,
+      "processed_examples": 98304,
+      "proxy_weights_discarded": true,
+      "run_index": 4,
+      "topology": {
+        "cell_count": 10,
+        "descriptors": {
+          "clustering_coefficient": 0.0,
+          "density": 0.1310344827586207,
+          "edge_count": 19,
+          "in_degree": [
+            1,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2
+          ],
+          "out_degree": [
+            2,
+            2,
+            1,
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "recurrent_edge_count": 10,
+          "recurrent_graph_diameter": 1,
+          "recurrent_in_degree": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "recurrent_out_degree": [
+            1,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "same_step_dag_depth": 10,
+          "same_step_edge_count": 9,
+          "strongly_connected_components": 10,
+          "weakly_connected_components": 1
+        },
+        "edge_count": 19,
+        "edges": [
+          {
+            "dst": 1,
+            "recurrent": false,
+            "src": 0
+          },
+          {
+            "dst": 2,
+            "recurrent": false,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": false,
+            "src": 2
+          },
+          {
+            "dst": 4,
+            "recurrent": false,
+            "src": 3
+          },
+          {
+            "dst": 5,
+            "recurrent": false,
+            "src": 4
+          },
+          {
+            "dst": 6,
+            "recurrent": false,
+            "src": 5
+          },
+          {
+            "dst": 7,
+            "recurrent": false,
+            "src": 6
+          },
+          {
+            "dst": 8,
+            "recurrent": false,
+            "src": 7
+          },
+          {
+            "dst": 9,
+            "recurrent": false,
+            "src": 8
+          },
+          {
+            "dst": 0,
+            "recurrent": true,
+            "src": 0
+          },
+          {
+            "dst": 1,
+            "recurrent": true,
+            "src": 1
+          },
+          {
+            "dst": 3,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 3
+          },
+          {
+            "dst": 4,
+            "recurrent": true,
+            "src": 4
+          },
+          {
+            "dst": 5,
+            "recurrent": true,
+            "src": 5
+          },
+          {
+            "dst": 6,
+            "recurrent": true,
+            "src": 6
+          },
+          {
+            "dst": 7,
+            "recurrent": true,
+            "src": 7
+          },
+          {
+            "dst": 8,
+            "recurrent": true,
+            "src": 8
+          },
+          {
+            "dst": 9,
+            "recurrent": true,
+            "src": 9
+          }
+        ],
+        "recurrent_edge_count": 10,
+        "same_step_edge_count": 9,
+        "topology_id": "89de21588b429664441f099890e8c560186e51af4a061d202828b19be92432e3"
+      },
+      "topology_id": "89de21588b429664441f099890e8c560186e51af4a061d202828b19be92432e3",
+      "version": "V837aj",
+      "wall_seconds": 15.046172799999113
+    }
+  ],
+  "version": "V837aj"
+}

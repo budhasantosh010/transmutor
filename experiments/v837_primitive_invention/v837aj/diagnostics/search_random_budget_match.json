@@ -1,0 +1,157 @@
+{
+  "all_exact_64": true,
+  "all_slot_matched": true,
+  "paired_runs": 25,
+  "runs": [
+    {
+      "exact_64_each": true,
+      "family": "conditional_routing",
+      "run_index": 0,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "conditional_routing",
+      "run_index": 1,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "conditional_routing",
+      "run_index": 2,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "conditional_routing",
+      "run_index": 3,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "conditional_routing",
+      "run_index": 4,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "delayed_recall",
+      "run_index": 0,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "delayed_recall",
+      "run_index": 1,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "delayed_recall",
+      "run_index": 2,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "delayed_recall",
+      "run_index": 3,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "delayed_recall",
+      "run_index": 4,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "iterative_state",
+      "run_index": 0,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "iterative_state",
+      "run_index": 1,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "iterative_state",
+      "run_index": 2,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "iterative_state",
+      "run_index": 3,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "iterative_state",
+      "run_index": 4,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "partial_observation",
+      "run_index": 0,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "partial_observation",
+      "run_index": 1,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "partial_observation",
+      "run_index": 2,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "partial_observation",
+      "run_index": 3,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "partial_observation",
+      "run_index": 4,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "variable_composition",
+      "run_index": 0,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "variable_composition",
+      "run_index": 1,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "variable_composition",
+      "run_index": 2,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "variable_composition",
+      "run_index": 3,
+      "slot_complexity_and_initialization_match": true
+    },
+    {
+      "exact_64_each": true,
+      "family": "variable_composition",
+      "run_index": 4,
+      "slot_complexity_and_initialization_match": true
+    }
+  ]
+}
