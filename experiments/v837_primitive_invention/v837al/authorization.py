@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import json, subprocess
+import hashlib, json, subprocess
 from pathlib import Path
 
 from .utils import HERE, ROOT, read_json, sha256_file, sha256_json, write_json
@@ -17,6 +17,12 @@ SOURCE_FILES={
  "boundary":AK/"raw/boundary_substitution_results.json",
  "reconstruction":AK/"raw/reconstruction_results.json",
 }
+
+
+def git_blob_sha256(path: Path) -> str:
+    rel=path.relative_to(ROOT).as_posix()
+    data=subprocess.check_output(["git","show",f"HEAD:{rel}"],cwd=ROOT)
+    return hashlib.sha256(data).hexdigest()
 
 
 def _derive_source():
@@ -44,8 +50,8 @@ def freeze_gate():
         checkpoint_hashes[row["organism_id"]]=sha256_file(p)
     gate={
       "version":"V837al","starting_sha":START_SHA,
-      "source_hashes":{k:sha256_file(v) for k,v in SOURCE_FILES.items()},
-      "v837ak_decision_sha256":sha256_file(SOURCE_FILES["decision"]),
+      "source_hashes":{k:git_blob_sha256(v) for k,v in SOURCE_FILES.items()},
+      "v837ak_decision_sha256":git_blob_sha256(SOURCE_FILES["decision"]),
       "confirmed_class_ids":[c["class_id"] for c in confirmed],
       "primary_causal_class_id":causal["class_id"],
       "checkpoint_hashes":checkpoint_hashes,
@@ -69,7 +75,7 @@ def assert_authorized():
     d,confirmed,causal,rec=_derive_source()
     if gate["starting_sha"]!=START_SHA or gate["confirmed_class_ids"]!=[c["class_id"] for c in confirmed] or gate["primary_causal_class_id"]!=causal["class_id"]: raise RuntimeError("V837AL_SOURCE_INTEGRITY_FAILURE: gate drift")
     for k,p in SOURCE_FILES.items():
-        if sha256_file(p)!=gate["source_hashes"][k]: raise RuntimeError(f"V837AL_SOURCE_INTEGRITY_FAILURE: {k} drift")
+        if git_blob_sha256(p)!=gate["source_hashes"][k]: raise RuntimeError(f"V837AL_SOURCE_INTEGRITY_FAILURE: {k} drift")
     for row in rec["rows"]:
         if sha256_file(ROOT/row["checkpoint"])!=gate["checkpoint_hashes"][row["organism_id"]]: raise RuntimeError("V837AL_SOURCE_INTEGRITY_FAILURE: checkpoint drift")
     payload={"version":"V837al","authorized":True,"starting_sha":START_SHA,"confirmed_classes":6,"causal_classes":1,"primary_causal_class_id":gate["primary_causal_class_id"],"fresh_audit_consumed":False,"primitives_promoted":0,"v838_started":False}

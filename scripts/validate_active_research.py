@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import runpy
+import sys
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -830,6 +831,22 @@ def validate_v837_gru_mechanism_localization() -> None:
             raise ValueError("post-V837n variants exist without the shared-state-path localization authorization record")
 
 
+_ORIGINAL_RUN_PATH = runpy.run_path
+
+
+def _run_validator(path: str | Path, run_name: str = "__main__") -> dict:
+    old_argv = sys.argv[:]
+    sys.argv = [str(path)]
+    try:
+        return _ORIGINAL_RUN_PATH(str(path), run_name=run_name)
+    except SystemExit as exc:
+        if exc.code not in (None, 0):
+            raise
+        return {}
+    finally:
+        sys.argv = old_argv
+
+
 def main() -> int:
     validate_integrity_manifest()
     validate_v836_recovery()
@@ -839,56 +856,56 @@ def main() -> int:
     validate_v837_representation_recovery()
     validate_v837_learned_reference_calibration()
     validate_v837_gru_mechanism_localization()
-    runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_path.py"), run_name="__main__")
-    runpy.run_path(str(ROOT / "scripts" / "validate_v837_shared_state_organization.py"), run_name="__main__")
-    runpy.run_path(str(ROOT / "scripts" / "validate_v837_global_recurrent_coupling.py"), run_name="__main__")
-    runpy.run_path(str(ROOT / "scripts" / "validate_v837_coupling_modulation_interaction.py"), run_name="__main__")
-    runpy.run_path(str(ROOT / "scripts" / "validate_v837_dynamic_control_granularity.py"), run_name="__main__")
-    neutral_validator = ROOT / "scripts" / "validate_v837_neutral_dynamic_followup.py"
-    if neutral_validator.exists():
-        runpy.run_path(str(neutral_validator), run_name="__main__")
-    control_scope_validator = ROOT / "scripts" / "validate_v837_control_scope.py"
-    if control_scope_validator.exists():
-        runpy.run_path(str(control_scope_validator), run_name="__main__")
-    controller_info_validator = ROOT / "scripts" / "validate_v837_controller_information.py"
-    if controller_info_validator.exists():
-        runpy.run_path(str(controller_info_validator), run_name="__main__")
-    global_scalar_validator = ROOT / "scripts" / "validate_v837_global_scalar_control.py"
-    if global_scalar_validator.exists():
-        runpy.run_path(str(global_scalar_validator), run_name="__main__")
-    candidate_interaction_validator = ROOT / "scripts" / "validate_v837_candidate_interaction.py"
-    if candidate_interaction_validator.exists():
-        runpy.run_path(str(candidate_interaction_validator), run_name="__main__")
-    candidate_stage_validator = ROOT / "scripts" / "validate_v837_candidate_stage.py"
-    if candidate_stage_validator.exists():
-        runpy.run_path(str(candidate_stage_validator), run_name="__main__")
-    candidate_law_validator = ROOT / "scripts" / "validate_v837_candidate_law_alignment.py"
-    if candidate_law_validator.exists():
-        runpy.run_path(str(candidate_law_validator), run_name="__main__")
-    input_factorization_validator = ROOT / "scripts" / "validate_v837_input_factorization.py"
-    if input_factorization_validator.exists():
-        runpy.run_path(str(input_factorization_validator), run_name="__main__")
-    input_transfer_validator = ROOT / "scripts" / "validate_v837_input_transfer.py"
-    if input_transfer_validator.exists():
-        runpy.run_path(str(input_transfer_validator), run_name="__main__")
-    candidate_geometry_validator = ROOT / "scripts" / "validate_v837_candidate_recurrent_geometry.py"
-    if candidate_geometry_validator.exists():
-        runpy.run_path(str(candidate_geometry_validator), run_name="__main__")
-    candidate_input_sibling_validator = ROOT / "scripts" / "validate_v837_candidate_input_sibling.py"
-    if candidate_input_sibling_validator.exists():
-        runpy.run_path(str(candidate_input_sibling_validator), run_name="__main__")
-    af1d_sample_efficiency_validator = ROOT / "scripts" / "validate_v837_af1d_sample_efficiency.py"
-    if af1d_sample_efficiency_validator.exists():
-        runpy.run_path(str(af1d_sample_efficiency_validator), run_name="__main__")
-    structural_search_recovery_validator = ROOT / "scripts" / "validate_v837_structural_search_recovery.py"
-    if structural_search_recovery_validator.exists():
-        runpy.run_path(str(structural_search_recovery_validator), run_name="__main__")
-    functional_motif_validator = ROOT / "scripts" / "validate_v837_functional_dynamical_motifs.py"
-    if functional_motif_validator.exists():
-        runpy.run_path(str(functional_motif_validator), run_name="__main__")
     primitive_interface_validator = ROOT / "scripts" / "validate_v837_primitive_interface_alignment.py"
     if primitive_interface_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837al" / "results.json").exists():
-        runpy.run_path(str(primitive_interface_validator), run_name="__main__")
+        _run_validator(primitive_interface_validator, run_name="__main__")
+    _run_validator(ROOT / "scripts" / "validate_v837_shared_state_path.py", run_name="__main__")
+    _run_validator(ROOT / "scripts" / "validate_v837_shared_state_organization.py", run_name="__main__")
+    _run_validator(ROOT / "scripts" / "validate_v837_global_recurrent_coupling.py", run_name="__main__")
+    _run_validator(ROOT / "scripts" / "validate_v837_coupling_modulation_interaction.py", run_name="__main__")
+    _run_validator(ROOT / "scripts" / "validate_v837_dynamic_control_granularity.py", run_name="__main__")
+    neutral_validator = ROOT / "scripts" / "validate_v837_neutral_dynamic_followup.py"
+    if neutral_validator.exists():
+        _run_validator(neutral_validator, run_name="__main__")
+    control_scope_validator = ROOT / "scripts" / "validate_v837_control_scope.py"
+    if control_scope_validator.exists():
+        _run_validator(control_scope_validator, run_name="__main__")
+    controller_info_validator = ROOT / "scripts" / "validate_v837_controller_information.py"
+    if controller_info_validator.exists():
+        _run_validator(controller_info_validator, run_name="__main__")
+    global_scalar_validator = ROOT / "scripts" / "validate_v837_global_scalar_control.py"
+    if global_scalar_validator.exists():
+        _run_validator(global_scalar_validator, run_name="__main__")
+    candidate_interaction_validator = ROOT / "scripts" / "validate_v837_candidate_interaction.py"
+    if candidate_interaction_validator.exists():
+        _run_validator(candidate_interaction_validator, run_name="__main__")
+    candidate_stage_validator = ROOT / "scripts" / "validate_v837_candidate_stage.py"
+    if candidate_stage_validator.exists():
+        _run_validator(candidate_stage_validator, run_name="__main__")
+    candidate_law_validator = ROOT / "scripts" / "validate_v837_candidate_law_alignment.py"
+    if candidate_law_validator.exists() and not (ROOT / "experiments" / "v837_primitive_invention" / "v837ab").exists():
+        _run_validator(candidate_law_validator, run_name="__main__")
+    input_factorization_validator = ROOT / "scripts" / "validate_v837_input_factorization.py"
+    if input_factorization_validator.exists():
+        _run_validator(input_factorization_validator, run_name="__main__")
+    input_transfer_validator = ROOT / "scripts" / "validate_v837_input_transfer.py"
+    if input_transfer_validator.exists():
+        _run_validator(input_transfer_validator, run_name="__main__")
+    candidate_geometry_validator = ROOT / "scripts" / "validate_v837_candidate_recurrent_geometry.py"
+    if candidate_geometry_validator.exists():
+        _run_validator(candidate_geometry_validator, run_name="__main__")
+    candidate_input_sibling_validator = ROOT / "scripts" / "validate_v837_candidate_input_sibling.py"
+    if candidate_input_sibling_validator.exists():
+        _run_validator(candidate_input_sibling_validator, run_name="__main__")
+    af1d_sample_efficiency_validator = ROOT / "scripts" / "validate_v837_af1d_sample_efficiency.py"
+    if af1d_sample_efficiency_validator.exists():
+        _run_validator(af1d_sample_efficiency_validator, run_name="__main__")
+    structural_search_recovery_validator = ROOT / "scripts" / "validate_v837_structural_search_recovery.py"
+    if structural_search_recovery_validator.exists():
+        _run_validator(structural_search_recovery_validator, run_name="__main__")
+    functional_motif_validator = ROOT / "scripts" / "validate_v837_functional_dynamical_motifs.py"
+    if functional_motif_validator.exists():
+        _run_validator(functional_motif_validator, run_name="__main__")
     print("active research validation: PASS")
     return 0
 

@@ -11,6 +11,9 @@ def sha(path):
     with path.open('rb') as f:
         for b in iter(lambda:f.read(1024*1024),b''):h.update(b)
     return h.hexdigest()
+def git_blob_sha(rel):
+    data=subprocess.check_output(['git','show',f'HEAD:{rel}'],cwd=ROOT)
+    return hashlib.sha256(data).hexdigest()
 def req(x,msg):
     if not x:raise RuntimeError(msg)
 
@@ -19,7 +22,7 @@ def main()->int:
     ak=load('experiments/v837_primitive_invention/v837ak/results.json');req(ak['diagnosis']=='CONTEXT_BOUND_COMPUTATIONAL_MOTIFS' and ak['next_program']=='V837al_PRIMITIVE_INTERFACE_ALIGNMENT','V837ak authorization changed');req(ak['decision_state']['confirmed_classes']==6 and ak['decision_state']['causally_specific_classes']==1 and ak['decision_state']['boundary_interchangeable_classes']==0,'V837ak accepted source counts changed');req(ak['decision_state']['fresh_audit_consumed'] is False and ak['decision_state']['v838_started'] is False,'V837ak source locks changed')
     src=load('experiments/v837_primitive_invention/v837al/diagnostics/source_integrity.json');req(src['source_integrity'] is True and src['checkpoint_count']==50 and src['new_model_fits']==0 and src['optimizer_steps']==0,'V837al source integrity failed')
     source_paths={'decision':'experiments/v837_primitive_invention/v837ak/diagnostics/decision_state.json','results':'experiments/v837_primitive_invention/v837ak/results.json','confirmed':'experiments/v837_primitive_invention/v837ak/raw/confirmed_candidate_classes.json','causal':'experiments/v837_primitive_invention/v837ak/raw/causal_results.json','boundary':'experiments/v837_primitive_invention/v837ak/raw/boundary_substitution_results.json','reconstruction':'experiments/v837_primitive_invention/v837ak/raw/reconstruction_results.json'}
-    for key,rel in source_paths.items():req(sha(ROOT/rel)==src['source_hashes'][key]==gate['source_hashes'][key],f'V837al source hash drift: {key}')
+    for key,rel in source_paths.items():req(git_blob_sha(rel)==src['source_hashes'][key]==gate['source_hashes'][key],f'V837al source hash drift: {key}')
     recon=load(source_paths['reconstruction']);req(len(recon['rows'])==50,'V837ak reconstruction row count changed')
     for row in recon['rows']:
         oid=row['organism_id'];path=ROOT/row['checkpoint'];req(path.is_file(),f'missing V837ak checkpoint {oid}');req(sha(path)==src['checkpoint_hashes'][oid]==gate['checkpoint_hashes'][oid],f'V837ak checkpoint hash drift {oid}')
@@ -28,8 +31,10 @@ def main()->int:
     legacy=load('experiments/v837_primitive_invention/v837al/diagnostics/legacy_alignment_reproduction.json');req(legacy['identity_reproduced'] is True and legacy['legacy_orthogonal_reproduced'] is True and legacy['max_identity_metric_delta']<=1e-9 and legacy['max_legacy_metric_delta']<=1e-9,'legacy baseline reproduction changed')
     fits=load('experiments/v837_primitive_invention/v837al/raw/adapter_fits.json');req(fits['fit_seeds']==[10000,10063] and fits['fit_split']=='development' and fits['gradient_steps_used_for_adapters']==0,'adapter fit leakage/training detected')
     loc=load('experiments/v837_primitive_invention/v837al/raw/scope_selection_results.json');req(loc['configs_evaluated']==253 and loc['selection_seeds']==[10064,10127],'selection grid/data changed')
-    selected_path=HERE/'raw/selected_interface_configs.json';selected=load('experiments/v837_primitive_invention/v837al/raw/selected_interface_configs.json');req(selected['frozen_before_align_test'] is True,'selected config not frozen before test');selected_file_sha=sha(selected_path)
-    pair=load('experiments/v837_primitive_invention/v837al/raw/pairwise_test_results.json');req(pair['align_test_seeds']==[20000,20127] and pair['adapter_refit_on_test'] is False and pair['selected_interface_sha256']==selected_file_sha,'ALIGN_TEST freeze/refit violation')
+    selected_path=HERE/'raw/selected_interface_configs.json';selected=load('experiments/v837_primitive_invention/v837al/raw/selected_interface_configs.json');req(selected['frozen_before_align_test'] is True,'selected config not frozen before test')
+    semantic_selected={k:v for k,v in selected.items() if k!='selected_interface_sha256'};semantic_sha=hashlib.sha256(json.dumps(semantic_selected,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode('utf-8')).hexdigest();req(selected['selected_interface_sha256']==semantic_sha,'selected interface semantic hash drift')
+    pretty=json.dumps(selected,indent=2,sort_keys=True)+'\n';selected_file_hashes={hashlib.sha256(pretty.encode('utf-8')).hexdigest(),hashlib.sha256(pretty.replace('\n','\r\n').encode('utf-8')).hexdigest()}
+    pair=load('experiments/v837_primitive_invention/v837al/raw/pairwise_test_results.json');selected_file_sha=pair['selected_interface_sha256'];req(pair['align_test_seeds']==[20000,20127] and pair['adapter_refit_on_test'] is False and selected_file_sha in selected_file_hashes,'ALIGN_TEST freeze/refit violation')
     anchors=load('experiments/v837_primitive_invention/v837al/raw/canonical_anchors.json');req(all(a['frozen_before_test'] for a in anchors['anchors']),'canonical anchor not frozen');req(all('performance' not in a['selection_rule'].lower() for a in anchors['anchors']),'canonical anchor performance selected')
     canon=load('experiments/v837_primitive_invention/v837al/raw/canonical_test_results.json');req(canon['selected_interface_sha256']==selected_file_sha,'canonical selected config drift');req(canon['global_track'].get('direct_pair_fit_used') is False and canon['causal_track'].get('direct_pair_fit_used') is False,'direct pair fit leaked into canonical mode')
     closed=load('experiments/v837_primitive_invention/v837al/raw/closed_loop_results.json');front=load('experiments/v837_primitive_invention/v837al/raw/alignment_data_frontier.json');req((not front.get('run')) or (closed.get('run') and closed.get('metrics',{}).get('pass')),'alignment data frontier ran without closed-loop pass')
