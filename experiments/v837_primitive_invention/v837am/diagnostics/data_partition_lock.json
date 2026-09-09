@@ -1,0 +1,48 @@
+{
+  "all_development_disjoint": true,
+  "development_blocks": {
+    "AM_A_FIT": [
+      10000,
+      10063
+    ],
+    "AM_A_SELECT": [
+      10064,
+      10127
+    ],
+    "AM_B_FIT": [
+      10128,
+      10191
+    ],
+    "AM_B_SELECT": [
+      10192,
+      10255
+    ],
+    "AM_C_FIT": [
+      10256,
+      10319
+    ],
+    "AM_C_SELECT": [
+      10320,
+      10383
+    ],
+    "FINAL_DEV_CONFIRM": [
+      10448,
+      10511
+    ],
+    "FINAL_VALIDATION": [
+      20000,
+      20127
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ],
+    "META_CONFIRM": [
+      10384,
+      10447
+    ]
+  },
+  "final_validation_not_used_before_freeze": true,
+  "fresh_audit_consumed": false,
+  "version": "V837am"
+}

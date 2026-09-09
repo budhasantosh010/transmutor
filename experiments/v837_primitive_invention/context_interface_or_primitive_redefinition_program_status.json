@@ -1,0 +1,9 @@
+{
+  "diagnosis": "DYNAMICAL_RECURRENCE_NOT_OPERATOR_EQUIVALENCE",
+  "fresh_audit_episodes_consumed": 0,
+  "next_program": "V837an_PRIMITIVE_REDEFINITION_CAUSAL_ROUTING_DISTRIBUTED",
+  "primitive_archive_allowed_next": false,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "version": "V837am"
+}

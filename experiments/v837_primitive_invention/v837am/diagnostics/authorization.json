@@ -1,0 +1,14 @@
+{
+  "adapter_gradient_steps": 0,
+  "authorized": true,
+  "causal_recipient_count": 38,
+  "fresh_audit_consumed": false,
+  "minimum_possible_p": 3.637978807091713e-12,
+  "new_model_fits": 0,
+  "optimizer_steps": 0,
+  "primary_causal_class": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+  "primitives_promoted": 0,
+  "start_sha": "7d3b70ee6907b5502e0f229116d74eff4745c71e",
+  "v838_started": false,
+  "version": "V837am"
+}

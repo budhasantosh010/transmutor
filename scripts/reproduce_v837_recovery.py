@@ -152,6 +152,9 @@ VARIANT_COMMANDS = {
     "v837al": [
         *[[sys.executable, "experiments/v837_primitive_invention/v837al/run_pipeline.py", "--stage", stage] for stage in ("authorization","baseline","fit","select","test","canonical","transplant","data-frontier","analyze")],
     ],
+    "v837am": [
+        *[[sys.executable, "experiments/v837_primitive_invention/v837am/run_pipeline.py", "--stage", stage] for stage in ("source","context","boundary","temporal","meta","dev-confirm","final","closed-loop","analyze")],
+    ],
 }
 
 
@@ -336,6 +339,14 @@ def enforce_variant_guard(variant: str) -> None:
         if decision.get("fresh_audit_consumed") is not False or decision.get("v838_started") is not False:
             raise SystemExit("V837al blocked: fresh-audit/V838 lock changed")
         return
+    if variant == "v837am":
+        from experiments.v837_primitive_invention.v837am.authorization import assert_authorized
+        authorization = assert_authorized()
+        if authorization.get("authorized") is not True or authorization.get("causal_recipient_count") != 38:
+            raise SystemExit("V837am blocked: V837al/V837ak source authorization changed")
+        if authorization.get("fresh_audit_consumed") is not False or authorization.get("v838_started") is not False:
+            raise SystemExit("V837am blocked: fresh-audit/V838 lock changed")
+        return
 
 
 def main() -> int:
@@ -358,8 +369,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--stage",
-        choices=("anchor", "fidelity", "search", "finalize", "baseline", "fit", "select", "test", "canonical", "transplant", "data-frontier", "analyze"),
-        help="For V837aj or V837al, select one preserved hard-gated stage.",
+        choices=("anchor", "fidelity", "search", "finalize", "baseline", "fit", "select", "test", "canonical", "transplant", "data-frontier", "source", "context", "boundary", "temporal", "meta", "dev-confirm", "final", "closed-loop", "analyze"),
+        help="For V837aj, V837al, or V837am, select one preserved hard-gated stage.",
     )
     parser.add_argument(
         "--execute",
@@ -409,8 +420,13 @@ def main() -> int:
             raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
         if args.stage:
             commands = [[sys.executable, "experiments/v837_primitive_invention/v837al/run_pipeline.py", "--stage", args.stage]]
+    elif args.variant == "v837am":
+        if args.regime or args.analyze:
+            raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
+        if args.stage:
+            commands = [[sys.executable, "experiments/v837_primitive_invention/v837am/run_pipeline.py", "--stage", args.stage]]
     elif args.regime or args.analyze or args.stage:
-        raise SystemExit("--regime/--analyze are only valid with --variant v837ai; --stage is valid only with --variant v837aj or v837al")
+        raise SystemExit("--regime/--analyze are only valid with --variant v837ai; --stage is valid only with --variant v837aj, v837al, or v837am")
     config = ROOT / "experiments" / "v837_primitive_invention" / args.variant / "config.json"
     if not config.is_file():
         raise SystemExit(f"missing preserved config: {config.relative_to(ROOT)}")

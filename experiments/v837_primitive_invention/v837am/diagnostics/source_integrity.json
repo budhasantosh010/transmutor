@@ -1,0 +1,14 @@
+{
+  "adapter_gradient_steps": 0,
+  "causal_recipient_count": 38,
+  "fresh_audit_consumed": false,
+  "minimum_possible_p": 3.637978807091713e-12,
+  "new_model_fits": 0,
+  "organism_optimizer_steps": 0,
+  "primary_causal_class": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+  "source_checkpoint_count": 50,
+  "source_integrity": true,
+  "v837al_pairing_reused_unchanged": true,
+  "v838_started": false,
+  "version": "V837am"
+}

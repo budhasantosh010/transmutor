@@ -1,0 +1,34 @@
+{
+  "no_refit": true,
+  "pass_count": 0,
+  "results": [
+    {
+      "branch": "AM-A",
+      "pass": false,
+      "reason": "NO_SELECT_PASS",
+      "run": false,
+      "winner": null
+    },
+    {
+      "branch": "AM-B",
+      "pass": false,
+      "reason": "NO_SELECT_PASS",
+      "run": false,
+      "winner": null
+    },
+    {
+      "branch": "AM-C",
+      "pass": false,
+      "reason": "NO_SELECT_PASS",
+      "run": false,
+      "winner": null
+    }
+  ],
+  "seeds": [
+    10384,
+    10447
+  ],
+  "selected": null,
+  "stage": "META_CONFIRM",
+  "version": "V837am"
+}

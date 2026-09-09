@@ -1,0 +1,8 @@
+{
+  "adapter_cheating_detected": false,
+  "pass": false,
+  "reason": "FINAL_VALIDATION_PASS_REQUIRED",
+  "run": false,
+  "stage": "CLOSED_LOOP",
+  "version": "V837am"
+}
