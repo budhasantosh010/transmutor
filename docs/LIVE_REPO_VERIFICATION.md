@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837aj calibrated structural-search recovery on the frozen AF1D 4x substrate. Stage A reproduced AF1D at 4/5 with zero drift and selected F3 after the frozen Reality Gate passed. Stage B closed with directed families passing=4, matched-random families passing=4, and diagnosis `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`. Automated structural discovery=True; evolutionary-search superiority=False; primitive mining allowed next=True. Fresh-audit seeds remain unused and V838 has not started. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837ak functional/dynamical motif discovery on the exact reconstructed V837aj population. V837ak reconstructs all 50 finalized organisms exactly, passes the AF1D ported-primitive Reality Gate, exhaustively censuses 51,150 nonempty subsets, confirms 6/11 frozen candidate classes, and localizes one causally specific motif but zero boundary-interchangeable classes. Diagnosis: `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS`, qualifier `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`. No Level-6 primitive is validated, the PrimitiveArchive remains empty, fresh-audit seeds remain unused, and V838 has not started. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -29,6 +29,7 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837ai freezes exact AF1D and characterizes only nested 1x/2x/4x unique development data, reusing the accepted V837af 4x rows rather than retraining them.
 - V837ai closes at 2/5 -> 2/5 -> 4/5 with diagnosis `AF1D_REQUIRES_4X_UNIQUE_DATA`; structural-search recovery is authorized at 4x.
 - V837aj calibrates search fidelity, selects F3, runs exact 64-candidate directed vs complexity-matched random structural search, and closes with diagnosis `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`; robustness extension did not run.
+- V837ak reconstructs the exact 50-organism V837aj population, performs exhaustive 1–10-cell structural/dynamical motif discovery without further training, and closes at `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS` / `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`; no primitive is promoted.
 - V837ag and V837ah are not authorized and are not created or run.
 - V838 has not started.
 
@@ -406,6 +407,29 @@ V837ai freezes exact AF1D at 1,643 active parameters and 1,206 recurrent/control
 
 V837aj reproduces the frozen AF1D anchor at 4/5 with zero drift, completes the frozen fidelity calibration, and selects F3 as the first proxy satisfying every Reality Gate requirement. Stage B then compares exact 64-candidate directed structural search against slot-by-slot complexity-matched random controls. Final directed family passes=4/5 and random family passes=4/5. Diagnosis: `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`. Robustness extension was not triggered. Primitive mining is authorized for the next program. Fresh audit remains unused and V838 remains unstarted.
 
+## Current V837ak evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837ak/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837ak/frozen_primitive_discovery_gate.json` |
+| Reconstruction | `experiments/v837_primitive_invention/v837ak/raw/reconstruction_results.json` |
+| Ported replay gate | `experiments/v837_primitive_invention/v837ak/diagnostics/ported_replay_gate.json` |
+| Exhaustive census | `experiments/v837_primitive_invention/v837ak/raw/subset_census_summary.json` |
+| Fingerprint reliability | `experiments/v837_primitive_invention/v837ak/diagnostics/fingerprint_reliability.json` |
+| Frozen candidates | `experiments/v837_primitive_invention/v837ak/raw/frozen_candidate_classes.json` |
+| Held-out confirmation | `experiments/v837_primitive_invention/v837ak/raw/confirmed_candidate_classes.json` |
+| Causal results | `experiments/v837_primitive_invention/v837ak/raw/causal_results.json` |
+| Boundary substitution | `experiments/v837_primitive_invention/v837ak/raw/boundary_substitution_results.json` |
+| Closed-loop decision | `experiments/v837_primitive_invention/v837ak/raw/closed_loop_substitution_results.json` |
+| Results | `experiments/v837_primitive_invention/v837ak/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837ak/diagnostics/decision_state.json` |
+| Report | `docs/V837_FUNCTIONAL_DYNAMICAL_MOTIF_DISCOVERY_REPORT.md` |
+| Validator | `scripts/validate_v837_functional_dynamical_motifs.py` |
+| Tests | `tests/test_v837ak_functional_dynamical_motifs.py` |
+
+V837ak exactly reconstructs all 50 V837aj finalized organisms (25 directed, 25 random; 40 competent, 10 incompetent) and passes the ported AF1D subsystem replay gate with maximum absolute error <=1e-6. It exhaustively enumerates 51,150 nonempty 1–10-cell subsets. Dynamic fingerprints are reliable at sizes 1–7 and 10; sizes 8–9 fail the frozen reliability gate and are not relaxed. Eleven candidate classes are frozen (5 structural, 6 dynamic), six confirm on held-out probes, one passes causal specificity, zero pass unaligned boundary interchangeability, and the orthogonal basis-alignment diagnostic rescues none. AK9 closed-loop substitution is therefore correctly not run. Diagnosis: `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS`, qualifier `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`. Validated Level-6 primitives=0; PrimitiveArchive entries added=0; fresh audit remains unused; V838 remains unstarted. Next program: `V837al_PRIMITIVE_INTERFACE_ALIGNMENT`.
+
 ## Program reports and accounting
 
 - Candidate-interaction/stage report: `docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md`
@@ -435,6 +459,9 @@ V837aj reproduces the frozen AF1D anchor at 4/5 with zero drift, completes the f
 - V837aj resource accounting: `experiments/v837_primitive_invention/v837aj_resource_accounting.json`
 - Structural-search recovery program accounting: `experiments/v837_primitive_invention/structural_search_recovery_program_resource_accounting.json`
 - Structural-search recovery program status: `experiments/v837_primitive_invention/structural_search_recovery_program_status.json`
+- Functional/dynamical motif discovery report: `docs/V837_FUNCTIONAL_DYNAMICAL_MOTIF_DISCOVERY_REPORT.md`
+- V837ak resource accounting: `experiments/v837_primitive_invention/v837ak_resource_accounting.json`
+- Functional/dynamical motif discovery program status: `experiments/v837_primitive_invention/functional_dynamical_motif_discovery_program_status.json`
 - Input-factorization localization report: `docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md`
 - Input-organization transfer report: `docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md`
 - Post-input-axis blocker analysis: `docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md`
@@ -777,9 +804,9 @@ Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-Automated structural discovery is established on the frozen AF1D substrate. Diagnosis: RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT.
+Automated structural discovery remains established on the frozen AF1D substrate, and V837ak localizes a stronger downstream boundary: recurrent functional/dynamical motifs exist and at least one is causally specific, but independently learned instances are not boundary-interchangeable under the current AF1D interface.
 
-V837aj diagnosis is `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`. Directed families passing=4/5; matched-random families passing=4/5. Primitive mining is authorized only for the declared next program; the next program is **`V837ak_FUNCTIONAL_DYNAMICAL_MOTIF_DISCOVERY`**.
+V837ak diagnosis is `CONTEXT_BOUND_COMPUTATIONAL_MOTIFS` with qualifier `BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED`. Eleven candidate classes were frozen, six confirmed, one passed causal specificity, zero passed boundary interchangeability, and closed-loop substitution was therefore not authorized. Validated Level-6 primitives=0; PrimitiveArchive entries added=0. The next program is **`V837al_PRIMITIVE_INTERFACE_ALIGNMENT`**.
 
 ## Fast verification
 
@@ -805,13 +832,14 @@ python scripts/reproduce_v837_recovery.py --variant v837aj --stage fidelity
 python scripts/reproduce_v837_recovery.py --variant v837aj --stage search
 python scripts/reproduce_v837_recovery.py --variant v837aj --stage finalize
 python scripts/reproduce_v837_recovery.py --variant v837aj --stage analyze
+python scripts/reproduce_v837_recovery.py --variant v837ak
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj frontier. V837ai exposes only newly executable 1x/2x regimes plus analysis; the accepted 4x evidence remains reuse-only. V837aj exposes the preserved hard-gated anchor, fidelity, search, finalization, and analysis stages. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V838 has not started.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj -> V837ak frontier. V837ai exposes only newly executable 1x/2x regimes plus analysis; the accepted 4x evidence remains reuse-only. V837aj exposes the preserved hard-gated anchor, fidelity, search, finalization, and analysis stages. V837ak reconstructs the exact authorized V837aj population and then runs only the frozen AK1→AK10 discovery/diagnostic pipeline; the dispatcher remains dry-run unless `--execute` is supplied. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V838 has not started.
 
 ## Historical SHA anchors
 
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837ai scientific closure commit separately from later verification-integration commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837ak scientific closure commit separately from later verification-integration/hash commits.

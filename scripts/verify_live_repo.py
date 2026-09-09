@@ -741,6 +741,61 @@ def main() -> int:
     if aj_status.get("diagnosis") != aj.get("diagnosis") or aj_status.get("fresh_audit_episodes_consumed") != 0 or aj_status.get("primitives_promoted") != 0 or aj_status.get("v838_started") is not False:
         raise RuntimeError("V837aj program status disagrees with results")
 
+    # V837ak mines functional/dynamical motifs only after V837aj establishes
+    # automated structural discovery. The archive stays closed in this phase.
+    ak_record = manifest["current_variants"].get("V837ak")
+    if not isinstance(ak_record, dict):
+        raise RuntimeError("verification manifest missing V837ak")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw", "models"):
+        for relative in ak_record.get(key, []):
+            require_path(relative)
+    require_path(ak_record["config"])
+    require_path(ak_record["frozen_gate"])
+    require_path(ak_record["results"])
+    ak = load_json(ak_record["results"])
+    ak_decision = load_json("experiments/v837_primitive_invention/v837ak/diagnostics/decision_state.json")
+    ak_recon = load_json("experiments/v837_primitive_invention/v837ak/raw/reconstruction_results.json")
+    ak_replay = load_json("experiments/v837_primitive_invention/v837ak/diagnostics/ported_replay_gate.json")
+    ak_census = load_json("experiments/v837_primitive_invention/v837ak/raw/subset_census_summary.json")
+    ak_rel = load_json("experiments/v837_primitive_invention/v837ak/diagnostics/fingerprint_reliability.json")
+    ak_dynamic = load_json("experiments/v837_primitive_invention/v837ak/raw/dynamic_classes_discovery.json")
+    ak_frozen = load_json("experiments/v837_primitive_invention/v837ak/raw/frozen_candidate_classes.json")
+    ak_confirmed = load_json("experiments/v837_primitive_invention/v837ak/raw/confirmed_candidate_classes.json")
+    ak_causal = load_json("experiments/v837_primitive_invention/v837ak/raw/causal_results.json")
+    ak_boundary = load_json("experiments/v837_primitive_invention/v837ak/raw/boundary_substitution_results.json")
+    ak_closed = load_json("experiments/v837_primitive_invention/v837ak/raw/closed_loop_substitution_results.json")
+    if ak_recon.get("complete") is not True or ak_recon.get("organisms_reconstructed") != 50 or ak_recon.get("competent") != 40 or ak_recon.get("incompetent") != 10:
+        raise RuntimeError("V837ak reconstructed source population changed")
+    if ak_replay.get("pass") is not True or float(ak_replay.get("max_error", 1.0)) > 1e-6 or ak_replay.get("sizes") != list(range(1, 11)):
+        raise RuntimeError("V837ak ported-primitive Reality Gate changed")
+    if ak_census.get("total_occurrences") != 51150 or ak_census.get("subsets_per_organism") != 1023 or ak_census.get("whole_system_occurrences") != 50:
+        raise RuntimeError("V837ak exhaustive subset census changed")
+    expected_reliable = {1, 2, 3, 4, 5, 6, 7, 10}
+    if set(ak_rel.get("eligible_sizes", [])) != expected_reliable:
+        raise RuntimeError("V837ak fingerprint reliability outcome changed")
+    if len(ak_dynamic.get("classes", [])) != 21 or len(ak_dynamic.get("eligible_classes", [])) != 20 or len(ak_dynamic.get("topology_transcending_classes", [])) != 21:
+        raise RuntimeError("V837ak dynamic recurrence outcome changed")
+    frozen_classes = ak_frozen.get("classes", [])
+    if len(frozen_classes) != 11 or sum(c.get("stream") == "S" for c in frozen_classes) != 5 or sum(c.get("stream") == "D" for c in frozen_classes) != 6:
+        raise RuntimeError("V837ak frozen candidate panel changed")
+    if ak_confirmed.get("confirmed_count") != 6 or ak_confirmed.get("candidate_creation_from_confirmation") is not False:
+        raise RuntimeError("V837ak held-out confirmation outcome changed")
+    if ak_causal.get("causally_specific_count") != 1:
+        raise RuntimeError("V837ak causal-specificity outcome changed")
+    if ak_boundary.get("boundary_interchangeable_count") != 0 or ak_boundary.get("basis_alignment_rescue_count") != 0:
+        raise RuntimeError("V837ak boundary-interchangeability outcome changed")
+    if ak_closed.get("run") is not False or ak_closed.get("eligible_class_count") != 0 or ak_closed.get("non_whole_system_interchangeable_count") != 0:
+        raise RuntimeError("V837ak conditional closed-loop decision changed")
+    if ak.get("diagnosis") != "CONTEXT_BOUND_COMPUTATIONAL_MOTIFS" or ak.get("diagnosis_qualifier") != "BOUNDARY_INTERCHANGEABILITY_NOT_ESTABLISHED":
+        raise RuntimeError("V837ak final diagnosis changed")
+    if ak_decision.get("validated_primitive_classes") != 0 or ak_decision.get("primitive_archive_allowed_next") is not False or ak_decision.get("next_program") != "V837al_PRIMITIVE_INTERFACE_ALIGNMENT":
+        raise RuntimeError("V837ak archive/next-program decision changed")
+    if ak_decision.get("fresh_audit_consumed") is not False or ak_decision.get("primitives_promoted") != 0 or ak_decision.get("large_persistent_storage_tested") is not False or ak_decision.get("v838_started") is not False:
+        raise RuntimeError("V837ak violated science locks")
+    ak_status = load_json("experiments/v837_primitive_invention/functional_dynamical_motif_discovery_program_status.json")
+    if ak_status.get("diagnosis") != ak.get("diagnosis") or ak_status.get("validated_primitive_classes") != 0 or ak_status.get("fresh_audit_episodes_consumed") != 0 or ak_status.get("primitives_promoted") != 0 or ak_status.get("v838_started") is not False:
+        raise RuntimeError("V837ak program status disagrees with results")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")
