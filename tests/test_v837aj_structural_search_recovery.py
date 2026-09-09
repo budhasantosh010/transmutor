@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import dataclasses
 import json
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -312,6 +314,10 @@ class TestV837ajEqualBudget(unittest.TestCase):
 
 
 class TestV837ajChampionProtocol(unittest.TestCase):
+    def test_finalizer_script_bootstraps_repo_root(self):
+        script=ROOT/"experiments/v837_primitive_invention/v837aj/finalize_champions.py"
+        completed=subprocess.run([sys.executable,str(script),"--help"],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(completed.returncode,0,completed.stderr)
     def test_champion_selected_before_final_validation(self):
         with patch.object(search_mod,"train_proxy_candidate",side_effect=fake_proxy): run=search_mod.run_directed_search("delayed_recall",1,"F0")
         self.assertTrue(run["champion"]["selected_before_final_validation"])
