@@ -1,6 +1,6 @@
 # Live Repository Verification Index
 
-This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837ai AF1D sample-efficiency characterization. V837af restored neutral representation adequacy with de-shared candidate-input factorization at 4/5 and hard-stopped architecture localization. V837ai then froze AF1D exactly, reused the accepted 4x anchor, and measured the historical 1x/2x/4x unique-development curve: 2/5 -> 2/5 -> 4/5. The minimum tested sufficient multiplier is therefore 4x, matching the historical GRU threshold multiplier; structural-search recovery is now authorized at 4x while primitive mining remains blocked. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
+This is the compact independent-review entry point for `budhasantosh010/transmutor`. The active scientific frontier now extends through V837aj calibrated structural-search recovery on the frozen AF1D 4x substrate. Stage A reproduced AF1D at 4/5 with zero drift and selected F3 after the frozen Reality Gate passed. Stage B closed with directed families passing=4, matched-random families passing=4, and diagnosis `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`. Automated structural discovery=True; evolutionary-search superiority=False; primitive mining allowed next=True. Fresh-audit seeds remain unused and V838 has not started. Canonical committed Git-blob SHA-256 coverage is stored in `verification/active_research_sha256.txt`; the machine-readable artifact index is `verification/live_repo_manifest.json`.
 
 ## Historical boundary
 
@@ -28,6 +28,7 @@ This is the compact independent-review entry point for `budhasantosh010/transmut
 - V837af AF1D restores neutral representation adequacy at 4/5, so the architecture-localization hard stop fires.
 - V837ai freezes exact AF1D and characterizes only nested 1x/2x/4x unique development data, reusing the accepted V837af 4x rows rather than retraining them.
 - V837ai closes at 2/5 -> 2/5 -> 4/5 with diagnosis `AF1D_REQUIRES_4X_UNIQUE_DATA`; structural-search recovery is authorized at 4x.
+- V837aj calibrates search fidelity, selects F3, runs exact 64-candidate directed vs complexity-matched random structural search, and closes with diagnosis `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`; robustness extension did not run.
 - V837ag and V837ah are not authorized and are not created or run.
 - V838 has not started.
 
@@ -167,8 +168,16 @@ minimum tested sufficient multiplier = 4x
 structural-search recovery AUTHORIZED @ 4x
 primitive mining remains BLOCKED
         ↓
-next program:
-V837aj_STRUCTURAL_SEARCH_RECOVERY
+V837aj calibrated structural-search recovery
+AJ0 AF1D anchor reproduction                 4/5 / zero drift
+Reality Gate selected proxy                 F3
+directed structural-search families passing 4/5
+matched-random families passing             4/5
+robustness extension                         NOT TRIGGERED
+        ↓
+RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT
+primitive mining next                        AUTHORIZED
+next program: V837ak_FUNCTIONAL_DYNAMICAL_MOTIF_DISCOVERY
 ```
 
 ## Current V837v evidence
@@ -375,6 +384,28 @@ This restores neutral representation adequacy and hard-stops the architecture-lo
 
 V837ai freezes exact AF1D at 1,643 active parameters and 1,206 recurrent/controller/projection MACs/timestep. AI1 (128 development episodes/family) reaches 2/5, AI2 (256/family) reaches 2/5, and the independently reanalyzed accepted AI4 anchor (512/family) reaches 4/5. The pass-count curve 2 -> 2 -> 4 is monotonic. Diagnosis: `AF1D_REQUIRES_4X_UNIQUE_DATA`, qualifier `SAMPLE_EFFICIENCY_THRESHOLD_NOT_IMPROVED_VS_HISTORICAL_GRU`. The minimum tested sufficient multiplier is 4x, matching the historical GRU threshold multiplier, so structural-search recovery is authorized at 4x. Primitive mining and fresh-audit use remain blocked.
 
+## Current V837aj evidence
+
+| Artifact | Path |
+| --- | --- |
+| Config | `experiments/v837_primitive_invention/v837aj/config.json` |
+| Frozen gate | `experiments/v837_primitive_invention/v837aj/frozen_structural_search_gate.json` |
+| Search runner | `experiments/v837_primitive_invention/v837aj/run_structural_search.py` |
+| Finalizer | `experiments/v837_primitive_invention/v837aj/finalize_champions.py` |
+| Analyzer | `experiments/v837_primitive_invention/v837aj/analyze_results.py` |
+| Directed proxy runs | `experiments/v837_primitive_invention/v837aj/raw/search_proxy_runs.json` |
+| Random proxy runs | `experiments/v837_primitive_invention/v837aj/raw/random_proxy_runs.json` |
+| Directed finalization | `experiments/v837_primitive_invention/v837aj/raw/search_finalized.json` |
+| Random finalization | `experiments/v837_primitive_invention/v837aj/raw/random_finalized.json` |
+| Results | `experiments/v837_primitive_invention/v837aj/results.json` |
+| Decision | `experiments/v837_primitive_invention/v837aj/diagnostics/decision_state.json` |
+| Report | `docs/V837_STRUCTURAL_SEARCH_RECOVERY_REPORT.md` |
+| Quest tracker | `docs/V837_STRUCTURAL_SEARCH_QUEST_TRACKER.md` |
+| Validator | `scripts/validate_v837_structural_search_recovery.py` |
+| Tests | `tests/test_v837aj_structural_search_recovery.py` |
+
+V837aj reproduces the frozen AF1D anchor at 4/5 with zero drift, completes the frozen fidelity calibration, and selects F3 as the first proxy satisfying every Reality Gate requirement. Stage B then compares exact 64-candidate directed structural search against slot-by-slot complexity-matched random controls. Final directed family passes=4/5 and random family passes=4/5. Diagnosis: `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`. Robustness extension was not triggered. Primitive mining is authorized for the next program. Fresh audit remains unused and V838 remains unstarted.
+
 ## Program reports and accounting
 
 - Candidate-interaction/stage report: `docs/V837_CANDIDATE_TRANSFORMATION_INTERACTION_REPORT.md`
@@ -399,6 +430,11 @@ V837ai freezes exact AF1D at 1,643 active parameters and 1,206 recurrent/control
 - V837ai resource accounting: `experiments/v837_primitive_invention/v837ai_resource_accounting.json`
 - AF1D sample-efficiency program accounting: `experiments/v837_primitive_invention/af1d_sample_efficiency_program_resource_accounting.json`
 - AF1D sample-efficiency program status: `experiments/v837_primitive_invention/af1d_sample_efficiency_program_status.json`
+- Structural-search recovery report: `docs/V837_STRUCTURAL_SEARCH_RECOVERY_REPORT.md`
+- Structural-search quest tracker: `docs/V837_STRUCTURAL_SEARCH_QUEST_TRACKER.md`
+- V837aj resource accounting: `experiments/v837_primitive_invention/v837aj_resource_accounting.json`
+- Structural-search recovery program accounting: `experiments/v837_primitive_invention/structural_search_recovery_program_resource_accounting.json`
+- Structural-search recovery program status: `experiments/v837_primitive_invention/structural_search_recovery_program_status.json`
 - Input-factorization localization report: `docs/V837_INPUT_FACTORIZATION_LOCALIZATION_REPORT.md`
 - Input-organization transfer report: `docs/V837_INPUT_ORGANIZATION_TRANSFER_REPORT.md`
 - Post-input-axis blocker analysis: `docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md`
@@ -511,6 +547,213 @@ GPU seconds                   0
 
 The reused AI4 evidence contributes 25 historical fits, 4,800 historical optimizer steps, and 2,457,600 historical processed examples, but none of that compute is counted as newly consumed by V837ai.
 
+V837aj accepted resource accounting:
+
+```json
+{
+  "anchor": {
+    "backward_calls": 4800,
+    "cpu_seconds": 1679.0,
+    "environment_interactions": 111225,
+    "fits": 25,
+    "forward_calls": 4850,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 0,
+    "optimizer_steps": 4800,
+    "processed_examples": 2457600,
+    "wall_seconds": 2077.4327273002127
+  },
+  "calibration": {
+    "backward_calls": 63360,
+    "cpu_seconds": 18770.5625,
+    "environment_interactions": 1575240,
+    "fits": 720,
+    "forward_calls": 64800,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 182052881664,
+    "optimizer_steps": 63360,
+    "processed_examples": 19399680,
+    "wall_seconds": 29326.050889701
+  },
+  "candidate_evaluations": {
+    "calibration": 720,
+    "directed": 1600,
+    "random": 1600
+  },
+  "final_directed": {
+    "backward_calls": 4800,
+    "cpu_seconds": 1121.015625,
+    "environment_interactions": 111225,
+    "fits": 25,
+    "forward_calls": 4875,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 21723213312,
+    "optimizer_steps": 4800,
+    "processed_examples": 2457600,
+    "wall_seconds": 1346.0956716
+  },
+  "final_random": {
+    "backward_calls": 4800,
+    "cpu_seconds": 1206.3125,
+    "environment_interactions": 111225,
+    "fits": 25,
+    "forward_calls": 4875,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 21744378624,
+    "optimizer_steps": 4800,
+    "processed_examples": 2457600,
+    "wall_seconds": 1390.3697025999973
+  },
+  "primary_final_directed": {
+    "backward_calls": 4800,
+    "cpu_seconds": 1121.015625,
+    "environment_interactions": 111225,
+    "fits": 25,
+    "forward_calls": 4875,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 21723213312,
+    "optimizer_steps": 4800,
+    "processed_examples": 2457600,
+    "wall_seconds": 1346.0956716
+  },
+  "primary_final_random": {
+    "backward_calls": 4800,
+    "cpu_seconds": 1206.3125,
+    "environment_interactions": 111225,
+    "fits": 25,
+    "forward_calls": 4875,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 21744378624,
+    "optimizer_steps": 4800,
+    "processed_examples": 2457600,
+    "wall_seconds": 1390.3697025999973
+  },
+  "primary_proxy_directed": {
+    "backward_calls": 230400,
+    "cpu_seconds": 59760.78125,
+    "environment_interactions": 5696000,
+    "fits": 1600,
+    "forward_calls": 233600,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 783356501376,
+    "optimizer_steps": 230400,
+    "processed_examples": 88473600,
+    "wall_seconds": 152083.23325730092
+  },
+  "primary_proxy_random": {
+    "backward_calls": 230400,
+    "cpu_seconds": 53415.203125,
+    "environment_interactions": 5696000,
+    "fits": 1600,
+    "forward_calls": 233600,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 783356501376,
+    "optimizer_steps": 230400,
+    "processed_examples": 88473600,
+    "wall_seconds": 62209.91579289839
+  },
+  "primary_stage_b": {
+    "backward_calls": 470400,
+    "cpu_seconds": 115503.3125,
+    "environment_interactions": 11614450,
+    "fits": 3250,
+    "forward_calls": 476950,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 1610180594688,
+    "optimizer_steps": 470400,
+    "processed_examples": 181862400,
+    "wall_seconds": 217029.61442439933
+  },
+  "proxy_directed": {
+    "backward_calls": 230400,
+    "cpu_seconds": 59760.78125,
+    "environment_interactions": 5696000,
+    "fits": 1600,
+    "forward_calls": 233600,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 783356501376,
+    "optimizer_steps": 230400,
+    "processed_examples": 88473600,
+    "wall_seconds": 152083.23325730092
+  },
+  "proxy_random": {
+    "backward_calls": 230400,
+    "cpu_seconds": 53415.203125,
+    "environment_interactions": 5696000,
+    "fits": 1600,
+    "forward_calls": 233600,
+    "gpu_seconds": 0.0,
+    "modeled_active_mac_volume": 783356501376,
+    "optimizer_steps": 230400,
+    "processed_examples": 88473600,
+    "wall_seconds": 62209.91579289839
+  },
+  "robustness_extension": {
+    "backward_calls": 0,
+    "cpu_seconds": 0,
+    "environment_interactions": 0,
+    "fits": 0,
+    "forward_calls": 0,
+    "gpu_seconds": 0,
+    "modeled_active_mac_volume": 0,
+    "optimizer_steps": 0,
+    "processed_examples": 0,
+    "wall_seconds": 0
+  },
+  "robustness_final_directed": {
+    "backward_calls": 0,
+    "cpu_seconds": 0,
+    "environment_interactions": 0,
+    "fits": 0,
+    "forward_calls": 0,
+    "gpu_seconds": 0,
+    "modeled_active_mac_volume": 0,
+    "optimizer_steps": 0,
+    "processed_examples": 0,
+    "wall_seconds": 0
+  },
+  "robustness_final_random": {
+    "backward_calls": 0,
+    "cpu_seconds": 0,
+    "environment_interactions": 0,
+    "fits": 0,
+    "forward_calls": 0,
+    "gpu_seconds": 0,
+    "modeled_active_mac_volume": 0,
+    "optimizer_steps": 0,
+    "processed_examples": 0,
+    "wall_seconds": 0
+  },
+  "robustness_proxy_directed": {
+    "backward_calls": 0,
+    "cpu_seconds": 0,
+    "environment_interactions": 0,
+    "fits": 0,
+    "forward_calls": 0,
+    "gpu_seconds": 0,
+    "modeled_active_mac_volume": 0,
+    "optimizer_steps": 0,
+    "processed_examples": 0,
+    "wall_seconds": 0
+  },
+  "robustness_proxy_random": {
+    "backward_calls": 0,
+    "cpu_seconds": 0,
+    "environment_interactions": 0,
+    "fits": 0,
+    "forward_calls": 0,
+    "gpu_seconds": 0,
+    "modeled_active_mac_volume": 0,
+    "optimizer_steps": 0,
+    "processed_examples": 0,
+    "wall_seconds": 0
+  },
+  "union_unique_task_episodes": 3200
+}
+```
+
+Fresh-audit episodes contribute zero work; primitive mining and V838 also contribute zero work inside V837aj.
+
 ## Locked scientific state
 
 ```text
@@ -518,8 +761,10 @@ representation adequacy       CONFIRMED PASS 4/5 at AF1D 4x
 sample efficiency             CHARACTERIZED — 2/5 -> 2/5 -> 4/5
 minimum sufficient multiplier 4x
 architecture localization     HARD STOP
-structural search recovery    AUTHORIZED at 4x
-primitive mining              BLOCKED
+structural search recovery    CLOSED — RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT
+automated discovery           TRUE
+evolutionary superiority      FALSE
+primitive mining              AUTHORIZED NEXT
 fresh-audit episodes consumed 0
 primitives promoted           0
 large persistent storage      NOT TESTED
@@ -532,11 +777,9 @@ Reserved fresh-audit seeds 90000-90499 remain unused.
 
 ## Strongest current claim
 
-V837af establishes that the fixed AF1D neutral substrate is representation-adequate at 4x unique development data. V837ai then freezes that exact 1,643-parameter architecture and measures only the nested historical data multiplier. AF1D reaches 2/5 at 128 development episodes/family, 2/5 at 256/family, and 4/5 at 512/family.
+Automated structural discovery is established on the frozen AF1D substrate. Diagnosis: RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT.
 
-The safe sample-efficiency conclusion is therefore `AF1D_REQUIRES_4X_UNIQUE_DATA`: under the tested architectures and frozen 192-step protocol, AF1D does not lower the minimum tested unique-development multiplier relative to the historical GRU calibration, which also first crosses the representation gate at 4x. This is not a parameter-matched comparison: AF1D has 1,643 active parameters versus 875 for the historical GRU.
-
-Because fixed-substrate competence and its data requirement are now both established, the next program is **`V837aj_STRUCTURAL_SEARCH_RECOVERY` at 4x**. Primitive mining remains blocked until structural search itself demonstrates competence.
+V837aj diagnosis is `RANDOM_STRUCTURAL_DISCOVERY_SUFFICIENT`. Directed families passing=4/5; matched-random families passing=4/5. Primitive mining is authorized only for the declared next program; the next program is **`V837ak_FUNCTIONAL_DYNAMICAL_MOTIF_DISCOVERY`**.
 
 ## Fast verification
 
@@ -556,9 +799,15 @@ python scripts/reproduce_v837_recovery.py --variant v837ai
 python scripts/reproduce_v837_recovery.py --variant v837ai --regime 1x
 python scripts/reproduce_v837_recovery.py --variant v837ai --regime 2x
 python scripts/reproduce_v837_recovery.py --variant v837ai --analyze
+python scripts/reproduce_v837_recovery.py --variant v837aj
+python scripts/reproduce_v837_recovery.py --variant v837aj --stage anchor
+python scripts/reproduce_v837_recovery.py --variant v837aj --stage fidelity
+python scripts/reproduce_v837_recovery.py --variant v837aj --stage search
+python scripts/reproduce_v837_recovery.py --variant v837aj --stage finalize
+python scripts/reproduce_v837_recovery.py --variant v837aj --stage analyze
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai frontier. V837ai exposes only newly executable 1x/2x regimes plus analysis; the accepted 4x evidence remains reuse-only. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah have no dispatcher entries because V837af restored neutral representation adequacy and hard-stopped architecture localization.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj frontier. V837ai exposes only newly executable 1x/2x regimes plus analysis; the accepted 4x evidence remains reuse-only. V837aj exposes the preserved hard-gated anchor, fidelity, search, finalization, and analysis stages. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V838 has not started.
 
 ## Historical SHA anchors
 
