@@ -1,0 +1,45 @@
+{
+  "align_test_seeds": [
+    20000,
+    20127
+  ],
+  "causal_track": {
+    "classes": [],
+    "direct_pair_fit_used": false,
+    "occurrence_to_canonical_only": true,
+    "pooled": {
+      "beat_both_fraction": 0.0,
+      "median_output": null,
+      "median_state": null,
+      "p": 1.0,
+      "pass": false,
+      "row_count": 0
+    },
+    "reason": "NO_SELECTED_CONFIG",
+    "row_count": 0,
+    "run": false,
+    "track": "CAUSAL_TRACK"
+  },
+  "cpu_seconds": 0.0,
+  "global_track": {
+    "classes": [],
+    "direct_pair_fit_used": false,
+    "occurrence_to_canonical_only": true,
+    "pooled": {
+      "beat_both_fraction": 0.0,
+      "median_output": null,
+      "median_state": null,
+      "p": 1.0,
+      "pass": false,
+      "row_count": 0
+    },
+    "reason": "NO_SELECTED_CONFIG",
+    "row_count": 0,
+    "run": false,
+    "track": "GLOBAL_TRACK"
+  },
+  "selected_interface_sha256": "26ab0d86237869a3956fa230e1cc5557308bdfd70fd10b874b1d790235b7faac",
+  "stage": "AL7",
+  "version": "V837al",
+  "wall_seconds": 0.0025890000033541583
+}

@@ -1,0 +1,9 @@
+{
+  "diagnosis": "LINEAR_INTERFACE_ALIGNMENT_INSUFFICIENT",
+  "fresh_audit_episodes_consumed": 0,
+  "next_program": "V837am_CONTEXT_CONDITIONED_INTERFACE_OR_PRIMITIVE_REDEFINITION",
+  "primitive_archive_allowed_next": false,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "version": "V837al"
+}

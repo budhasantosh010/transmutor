@@ -1,0 +1,18 @@
+{
+  "version": "V837al",
+  "starting_sha": "802478151a5ab0d4cbbe099e3c18f056e8ce65bd",
+  "source_version": "V837ak",
+  "align_fit": {"seeds": [10000, 10063], "episodes_per_family": 64, "split": "development"},
+  "align_select": {"seeds": [10064, 10127], "episodes_per_family": 64, "split": "development"},
+  "align_test": {"seeds": [20000, 20127], "episodes_per_family": 128, "split": "validation", "historically_used_by_v837ak": true},
+  "ports": ["state", "external_messages", "global_term", "projected_input", "gate", "output"],
+  "transform_families": ["SIGNED_PERMUTATION", "DIAGONAL_AFFINE", "RIGID_AFFINE", "FULL_AFFINE"],
+  "ridge_lambda": 1e-6,
+  "state_condition_number_cap": 1000.0,
+  "power": {"strong_claim_min_recipients": 7, "strong_p_max": 0.01},
+  "selection": {"output_ratio": 0.75, "state_ratio": 0.85, "beat_both_fraction": 0.60},
+  "pairwise_test": {"output_ratio": 0.75, "state_ratio": 0.85, "beat_both_fraction": 0.60, "p_max": 0.01},
+  "port_necessity": {"relative_output_worsening": 0.15},
+  "closed_loop": {"max_median_success_drop": 0.05, "retain_success_threshold": 0.85, "retain_fraction": 0.60, "control_margin": 0.10, "p_max": 0.01},
+  "science_locks": {"new_model_fits": 0, "optimizer_steps": 0, "processed_training_examples": 0, "fresh_audit_consumed": false, "archive_promotion": false, "primitives_promoted": 0, "large_persistent_storage_tested": false, "v838_started": false}
+}

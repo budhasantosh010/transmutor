@@ -1,0 +1,3420 @@
+{
+  "frozen_pairs_sha256": "d76614d3a30f524004450596a5dc1a6b4be8feec6bc92627f068e2bd3f4e5a5a",
+  "pair_count": 56,
+  "pairing_frozen_before_alignment_results": true,
+  "pairs": [
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2292896f2c216dde40b8205ac1e4c71febd4f90aa84a886666017380cb93bdb2",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 1,
+        "internal_recurrent_edge_count": 1,
+        "message_connected": true,
+        "nodes": [
+          8
+        ],
+        "occurrence_id": "3d249b67557aae2b5f00144b2f66e5126888f9b1e614b4957a1b6215bdf77ff9",
+        "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "run_index": 0,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "2292896f2c216dde40b8205ac1e4c71febd4f90aa84a886666017380cb93bdb2"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.2379976066225018,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.8925744061504958,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          5
+        ],
+        "occurrence_id": "0fe85b56a481cbc78686694c32d01269e271a1ffb5db9c4623022545aeba6878",
+        "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+        "run_index": 4,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.17738849769085827,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5963613106867414,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          0
+        ],
+        "occurrence_id": "cde74eb002d7a756790c6fe420452f594640684b338b7fdfaacf85e15329320e",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2b9b40540c57da3db48bd2a07617196ff81bf343734b946a0acc009d438b47a5",
+        "control_source": "frozen_structural_census",
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          5
+        ],
+        "occurrence_id": "c19c0c4e25e74e1cf755d287566afe523b6af16e09a0af54ed8d501f6ceb08f0",
+        "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+        "run_index": 3,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "2b9b40540c57da3db48bd2a07617196ff81bf343734b946a0acc009d438b47a5"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.13744992571208492,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.659138196388977,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          0
+        ],
+        "occurrence_id": "d0ce6be75d8fcefa071f823bab7e68715a7300e01648f525fa1e5b9b6e0b1748",
+        "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "run_index": 0,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.14880759249989495,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.24434246309261584,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          3
+        ],
+        "occurrence_id": "1d01438180bacf361b77a173512851b38fc9896210a032c8ce4238e9c682972b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "run_index": 2,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2b9b40540c57da3db48bd2a07617196ff81bf343734b946a0acc009d438b47a5",
+        "control_source": "frozen_structural_census",
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          5
+        ],
+        "occurrence_id": "c19c0c4e25e74e1cf755d287566afe523b6af16e09a0af54ed8d501f6ceb08f0",
+        "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+        "run_index": 3,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "2b9b40540c57da3db48bd2a07617196ff81bf343734b946a0acc009d438b47a5"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.17738849769085827,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5963613106867414,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          0
+        ],
+        "occurrence_id": "cde74eb002d7a756790c6fe420452f594640684b338b7fdfaacf85e15329320e",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.14880759249989495,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.24434246309261584,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          3
+        ],
+        "occurrence_id": "1d01438180bacf361b77a173512851b38fc9896210a032c8ce4238e9c682972b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "run_index": 2,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2292896f2c216dde40b8205ac1e4c71febd4f90aa84a886666017380cb93bdb2",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 1,
+        "internal_recurrent_edge_count": 1,
+        "message_connected": true,
+        "nodes": [
+          8
+        ],
+        "occurrence_id": "3d249b67557aae2b5f00144b2f66e5126888f9b1e614b4957a1b6215bdf77ff9",
+        "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "run_index": 0,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "2292896f2c216dde40b8205ac1e4c71febd4f90aa84a886666017380cb93bdb2"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.14880759249989495,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.24434246309261584,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          3
+        ],
+        "occurrence_id": "1d01438180bacf361b77a173512851b38fc9896210a032c8ce4238e9c682972b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "run_index": 2,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.17738849769085827,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5963613106867414,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          0
+        ],
+        "occurrence_id": "cde74eb002d7a756790c6fe420452f594640684b338b7fdfaacf85e15329320e",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2b9b40540c57da3db48bd2a07617196ff81bf343734b946a0acc009d438b47a5",
+        "control_source": "frozen_structural_census",
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          5
+        ],
+        "occurrence_id": "c19c0c4e25e74e1cf755d287566afe523b6af16e09a0af54ed8d501f6ceb08f0",
+        "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+        "run_index": 3,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "2b9b40540c57da3db48bd2a07617196ff81bf343734b946a0acc009d438b47a5"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.2648753017216365,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7079695896097291,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          0
+        ],
+        "occurrence_id": "11ecdc792e64b6ca744516360e4353051d31c45708e479c48278cd4ff7eaaeae",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "run_index": 2,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.14880759249989495,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.24434246309261584,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          3
+        ],
+        "occurrence_id": "1d01438180bacf361b77a173512851b38fc9896210a032c8ce4238e9c682972b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "run_index": 2,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2292896f2c216dde40b8205ac1e4c71febd4f90aa84a886666017380cb93bdb2",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 1,
+        "internal_recurrent_edge_count": 1,
+        "message_connected": true,
+        "nodes": [
+          8
+        ],
+        "occurrence_id": "3d249b67557aae2b5f00144b2f66e5126888f9b1e614b4957a1b6215bdf77ff9",
+        "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "run_index": 0,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "2292896f2c216dde40b8205ac1e4c71febd4f90aa84a886666017380cb93bdb2"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.3360883650747539,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6276572631721697,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          6
+        ],
+        "occurrence_id": "4e3c8c6a6e345e976616017d8c928be939592aa260ce9f5e23bcd1b227b08406",
+        "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+        "run_index": 1,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.17738849769085827,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5963613106867414,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          0
+        ],
+        "occurrence_id": "cde74eb002d7a756790c6fe420452f594640684b338b7fdfaacf85e15329320e",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "size": 1,
+      "stream": "S"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.24110652919305875,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6554965211126942,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "c919e8103a99204740c3c88ff2b3f4abcf2aa75be78a5783213d4487d4019317",
+        "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.30056036409372383,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6303380618418283,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          2,
+          3
+        ],
+        "occurrence_id": "3bd1832ab2a149cdde7b4b1978893847bc50c4ccb89a9e4dc0580bea163d912d",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          7,
+          8
+        ],
+        "occurrence_id": "62e291dec7e35766b6dae21068b43cc3da39df13567d13750402c2052ac952af",
+        "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.42686051349329995,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.8807274142187941,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          2,
+          7
+        ],
+        "occurrence_id": "b5ff1223406ed51900c7c451b56db527f7e50738a88a40953c0b2611d14c69d0",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4217793160330363,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7402925327285967,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          3,
+          5
+        ],
+        "occurrence_id": "38726aeec3e73f88ffb0eef2e7f6338e871bf37daf10ca1084addcb52652b6b1",
+        "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 3,
+        "message_connected": true,
+        "nodes": [
+          0,
+          1,
+          3
+        ],
+        "occurrence_id": "3f0d8d90dbed69d6d727054b1373d67f562b6bd66f84dc301de99bfeaf89b5f8",
+        "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3150269139632279,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5405648591611777,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          0,
+          7,
+          8
+        ],
+        "occurrence_id": "c8360598deffd9a79710259bf3344d618f0ce4d2dfe3597f30d06f8e9c3b2021",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.38487502061418877,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5317935958751251,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          9
+        ],
+        "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "6e5cdbdc0c1561f5107f905292e5a3958b737a2ca87dc0cd7804ee9e609347fe",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.4998477125706177,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7741099734749133,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          0,
+          3,
+          7
+        ],
+        "occurrence_id": "f07fbfd54ef534dd27343ebacc46564f0958f6222063654bc607b6e742c28e01",
+        "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4564492339430486,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7378189726665461,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          3,
+          8,
+          9
+        ],
+        "occurrence_id": "fc3b23ff5a8756848e1efe7fc80d1860d25f723d85fb20d78cae82445ed8265d",
+        "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.2975150298708018,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6465151114304334,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          3,
+          9
+        ],
+        "occurrence_id": "650f782442e75a889799de7c6d3ba3203035abaf3b386e38b21380e04b736543",
+        "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2664869449378351,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5472843395709099,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          7,
+          9
+        ],
+        "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 3,
+        "message_connected": true,
+        "nodes": [
+          2,
+          4,
+          6
+        ],
+        "occurrence_id": "0cdd9cd320b1fa13fdcc7aea6c2547c1c3abfa3fbcb51e4c44b4aee3e979d7f4",
+        "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.30056036409372383,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6303380618418283,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          2,
+          3
+        ],
+        "occurrence_id": "3bd1832ab2a149cdde7b4b1978893847bc50c4ccb89a9e4dc0580bea163d912d",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2664869449378351,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5472843395709099,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          7,
+          9
+        ],
+        "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "76cabd15efd0f0f3ea6e057e7131c45de3f2d1e36f8fe2dc7954d834630b88b9",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.29029198270601797,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2682367735324534,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          4,
+          7,
+          8
+        ],
+        "occurrence_id": "e549d9c94ef07df0b01790c748e832d04aae2869caa203081feac338e8d7e541",
+        "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.5106944377224696,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.38572336953526964,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          3
+        ],
+        "occurrence_id": "3924602de3952492393f39160996bab64b48de2a16ae4403dc0f1b845d8dc19e",
+        "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3287636734047027,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6412988202622872,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          5
+        ],
+        "occurrence_id": "06af97faffabcd40bed3c38d9c0346fc05b4dcd111d25f9ef7083653749b4079",
+        "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2664869449378351,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5472843395709099,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          7,
+          9
+        ],
+        "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.40406655427432375,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6343760847964843,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          7
+        ],
+        "occurrence_id": "35856b7ce9e526b9a37d274b8608a55408105156a6d4a477f7c698740bdf3386",
+        "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.31758295519838353,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5345411797516122,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "937d04f6f9904ecc70f7bd1bced30c1cfe4303bf1a4aa7e68bb9dcfd3cd32ebe",
+        "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "6e5cdbdc0c1561f5107f905292e5a3958b737a2ca87dc0cd7804ee9e609347fe",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.5208497384436537,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.8732709039397277,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          0,
+          2,
+          6
+        ],
+        "occurrence_id": "2d72448c4aaf54d1b2f336300088f3ff030fdbba9ef60d55f017a0d6aed2cfee",
+        "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4564492339430486,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7378189726665461,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          3,
+          8,
+          9
+        ],
+        "occurrence_id": "fc3b23ff5a8756848e1efe7fc80d1860d25f723d85fb20d78cae82445ed8265d",
+        "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.29095380568400603,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6510159260963451,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          3,
+          9
+        ],
+        "occurrence_id": "35c5d93a386d952cc5456ea05070547f26c3a1e855c7ee0b7acad30baf5627fd",
+        "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2664869449378351,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5472843395709099,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          7,
+          9
+        ],
+        "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3685728301490653,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.620738370958942,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          0,
+          1,
+          7
+        ],
+        "occurrence_id": "c8e9eacb57c1d21e52ef651666f3bce730619af6c203a8b39b53db756da46ce3",
+        "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.31758295519838353,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5345411797516122,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "937d04f6f9904ecc70f7bd1bced30c1cfe4303bf1a4aa7e68bb9dcfd3cd32ebe",
+        "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "76cabd15efd0f0f3ea6e057e7131c45de3f2d1e36f8fe2dc7954d834630b88b9",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3994190717752528,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.39117251282181564,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          9
+        ],
+        "occurrence_id": "33eed996e65560c728356a73271e2413f0e2462693674b2e5e1cfa45426db2c8",
+        "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.5106944377224696,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.38572336953526964,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          3
+        ],
+        "occurrence_id": "3924602de3952492393f39160996bab64b48de2a16ae4403dc0f1b845d8dc19e",
+        "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.31758295519838353,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5345411797516122,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "937d04f6f9904ecc70f7bd1bced30c1cfe4303bf1a4aa7e68bb9dcfd3cd32ebe",
+        "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.38487502061418877,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5317935958751251,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          9
+        ],
+        "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "6e5cdbdc0c1561f5107f905292e5a3958b737a2ca87dc0cd7804ee9e609347fe",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.4564492339430486,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7378189726665461,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          3,
+          8,
+          9
+        ],
+        "occurrence_id": "fc3b23ff5a8756848e1efe7fc80d1860d25f723d85fb20d78cae82445ed8265d",
+        "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4217793160330363,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7402925327285967,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          3,
+          5
+        ],
+        "occurrence_id": "38726aeec3e73f88ffb0eef2e7f6338e871bf37daf10ca1084addcb52652b6b1",
+        "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3702579144243282,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6412759255852765,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          0,
+          8,
+          9
+        ],
+        "occurrence_id": "0fba17c090d143408d1cbb47fb13ca390bf88da709cca4800dd5d997eed48945",
+        "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.38487502061418877,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5317935958751251,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          9
+        ],
+        "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3064467215538374,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5981805138388874,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          4,
+          8
+        ],
+        "occurrence_id": "7fab963facc946393b007ed071371eb9b086252c60f3c13ad033c155f4e2d72e",
+        "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.30056036409372383,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6303380618418283,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          2,
+          3
+        ],
+        "occurrence_id": "3bd1832ab2a149cdde7b4b1978893847bc50c4ccb89a9e4dc0580bea163d912d",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.27063910185605716,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5750916739057848,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          0,
+          2,
+          9
+        ],
+        "occurrence_id": "fc3dd59e7abbab681e94ec5ddbb26f84d286b6550783364414fc1c216151d8ad",
+        "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.38487502061418877,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5317935958751251,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          9
+        ],
+        "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.2715163077353851,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6897306513648437,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          7,
+          9
+        ],
+        "occurrence_id": "3649eed85c2031621ee4f401ae2a68be5a2f68583b84baf101b44b216bf5e46b",
+        "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.30056036409372383,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6303380618418283,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          2,
+          3
+        ],
+        "occurrence_id": "3bd1832ab2a149cdde7b4b1978893847bc50c4ccb89a9e4dc0580bea163d912d",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "76cabd15efd0f0f3ea6e057e7131c45de3f2d1e36f8fe2dc7954d834630b88b9",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.4316653553497435,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5206461477349628,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          1,
+          4,
+          9
+        ],
+        "occurrence_id": "528afdda192c881a64b4878d40758c6f1793a87ba16c33b404eeb80119601b4b",
+        "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.5106944377224696,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.38572336953526964,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          3
+        ],
+        "occurrence_id": "3924602de3952492393f39160996bab64b48de2a16ae4403dc0f1b845d8dc19e",
+        "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.38487502061418877,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5317935958751251,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          9
+        ],
+        "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.31758295519838353,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5345411797516122,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "937d04f6f9904ecc70f7bd1bced30c1cfe4303bf1a4aa7e68bb9dcfd3cd32ebe",
+        "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "6e5cdbdc0c1561f5107f905292e5a3958b737a2ca87dc0cd7804ee9e609347fe",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.4136243371534536,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7618946441534045,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          4,
+          5,
+          7
+        ],
+        "occurrence_id": "20b000ea919924628df9d4505757fe45502f879dedf1ce014c6c92319e5d2c0e",
+        "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4217793160330363,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7402925327285967,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          3,
+          5
+        ],
+        "occurrence_id": "38726aeec3e73f88ffb0eef2e7f6338e871bf37daf10ca1084addcb52652b6b1",
+        "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.2664869449378351,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5472843395709099,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          7,
+          9
+        ],
+        "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.30056036409372383,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6303380618418283,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          2,
+          3
+        ],
+        "occurrence_id": "3bd1832ab2a149cdde7b4b1978893847bc50c4ccb89a9e4dc0580bea163d912d",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3851745123694333,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.685031482415315,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          3,
+          8,
+          9
+        ],
+        "occurrence_id": "7778261184cae92aafb61cf5169f4abb60816cd1e856865cf16326673fbc62e7",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2664869449378351,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5472843395709099,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          7,
+          9
+        ],
+        "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.6720835634044425,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7371044011230855,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "fdeeeb8411493e633183dcebe1639be1788c5c8fdaa5438cee2deb205a910761",
+        "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.38487502061418877,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5317935958751251,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          9
+        ],
+        "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 3,
+        "message_connected": true,
+        "nodes": [
+          0,
+          1,
+          7
+        ],
+        "occurrence_id": "20db6f1303205d97d2ccca26b158c2f8ba042a3b4e9486fba988a856d2f2e1ca",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.30504871159357244,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5770829234412665,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          4,
+          7
+        ],
+        "occurrence_id": "97bf160eaa894408d305fb2fc64afc89fb556757831b5ed387735d55de560e6e",
+        "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2470232552268118,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5890539224843214,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "nodes": [
+          3,
+          4,
+          7
+        ],
+        "occurrence_id": "f69343d16a3b2055c74558031654b6af4694d66b8c5c68fad30b89070ef40444",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "6e5cdbdc0c1561f5107f905292e5a3958b737a2ca87dc0cd7804ee9e609347fe",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.4217793160330363,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7402925327285967,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          3,
+          5
+        ],
+        "occurrence_id": "38726aeec3e73f88ffb0eef2e7f6338e871bf37daf10ca1084addcb52652b6b1",
+        "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4564492339430486,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7378189726665461,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          3,
+          8,
+          9
+        ],
+        "occurrence_id": "fc3b23ff5a8756848e1efe7fc80d1860d25f723d85fb20d78cae82445ed8265d",
+        "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.3501213891770728,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5667662344576835,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          1,
+          2,
+          8
+        ],
+        "occurrence_id": "d4b220fafcea0523fe84daaeef55758137db42204bf5cb8e4a25dd7c14add95c",
+        "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.31758295519838353,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5345411797516122,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "937d04f6f9904ecc70f7bd1bced30c1cfe4303bf1a4aa7e68bb9dcfd3cd32ebe",
+        "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5
+        ],
+        "occurrence_id": "45730fc8e8180565359d9f4eab8c7f877a7707c7e31b7a49d990af52ad3f16f5",
+        "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "run_index": 0,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.345190684136788,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6862471476958858,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          0,
+          5,
+          7
+        ],
+        "occurrence_id": "6e41ee49e8e47d243544746e2d270e4a447cca182685e7770c9b9fd2dbe6a649",
+        "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.31758295519838353,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5345411797516122,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "delayed_recall",
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "937d04f6f9904ecc70f7bd1bced30c1cfe4303bf1a4aa7e68bb9dcfd3cd32ebe",
+        "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          4,
+          6,
+          7
+        ],
+        "occurrence_id": "e6f98e6542b2a2b9d4afb8315d021e951af2310926d7387ce66d43523f3b92d4",
+        "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.31325583072179713,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.3959111347520341,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          5
+        ],
+        "occurrence_id": "e69a68a37c1a314f679a31cf79421c7943ee95e44d3e09a3834460a92b43d1bc",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.29029198270601797,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2682367735324534,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          4,
+          7,
+          8
+        ],
+        "occurrence_id": "e549d9c94ef07df0b01790c748e832d04aae2869caa203081feac338e8d7e541",
+        "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "76cabd15efd0f0f3ea6e057e7131c45de3f2d1e36f8fe2dc7954d834630b88b9",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.45402911513084343,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.4015344179916923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          1,
+          7,
+          8
+        ],
+        "occurrence_id": "08ddd8cae7a8296770162a4b694ab9507aab76745596259cde6d7117b6b2edbb",
+        "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.29029198270601797,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2682367735324534,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          4,
+          7,
+          8
+        ],
+        "occurrence_id": "e549d9c94ef07df0b01790c748e832d04aae2869caa203081feac338e8d7e541",
+        "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "6e5cdbdc0c1561f5107f905292e5a3958b737a2ca87dc0cd7804ee9e609347fe",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.627834180320363,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.9798241715956106,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          0,
+          5,
+          7
+        ],
+        "occurrence_id": "0f9d983e621fd8afbd52eaf3efbedec3209a9511c0e6aa7d71bcdae69baf93a4",
+        "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4217793160330363,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7402925327285967,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          3,
+          5
+        ],
+        "occurrence_id": "38726aeec3e73f88ffb0eef2e7f6338e871bf37daf10ca1084addcb52652b6b1",
+        "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "76cabd15efd0f0f3ea6e057e7131c45de3f2d1e36f8fe2dc7954d834630b88b9",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.5106944377224696,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.38572336953526964,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          3
+        ],
+        "occurrence_id": "3924602de3952492393f39160996bab64b48de2a16ae4403dc0f1b845d8dc19e",
+        "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.29029198270601797,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2682367735324534,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          4,
+          7,
+          8
+        ],
+        "occurrence_id": "e549d9c94ef07df0b01790c748e832d04aae2869caa203081feac338e8d7e541",
+        "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "76cabd15efd0f0f3ea6e057e7131c45de3f2d1e36f8fe2dc7954d834630b88b9",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.38447158521343766,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.43072099896367083,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          4,
+          7,
+          9
+        ],
+        "occurrence_id": "69fb972e3f5cd57e4b379633978df5aed9cad4031eb8e35fea9c31e79793a84e",
+        "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.29029198270601797,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2682367735324534,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          4,
+          7,
+          8
+        ],
+        "occurrence_id": "e549d9c94ef07df0b01790c748e832d04aae2869caa203081feac338e8d7e541",
+        "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "6e5cdbdc0c1561f5107f905292e5a3958b737a2ca87dc0cd7804ee9e609347fe",
+        "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.4065089413660787,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7404245716755495,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          3,
+          7,
+          8
+        ],
+        "occurrence_id": "7bfca3e7f2da16b35cb7d54bac0a9a2f1684f53988ef83b608f19db83301ebdd",
+        "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.4217793160330363,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7402925327285967,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          3,
+          5
+        ],
+        "occurrence_id": "38726aeec3e73f88ffb0eef2e7f6338e871bf37daf10ca1084addcb52652b6b1",
+        "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          3,
+          5,
+          6
+        ],
+        "occurrence_id": "12a233c60e57d7a085a5142ae450d49ba08622886fc5217d39d30b9ee1682c32",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.24253174117373963,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6718940308691242,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          7
+        ],
+        "occurrence_id": "9a3267197c30034d333f2d1d65da5596f752ce04c1044094b8e77ba4c7009dd3",
+        "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.30056036409372383,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6303380618418283,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          2,
+          3
+        ],
+        "occurrence_id": "3bd1832ab2a149cdde7b4b1978893847bc50c4ccb89a9e4dc0580bea163d912d",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 3,
+        "message_connected": true,
+        "nodes": [
+          0,
+          1,
+          7
+        ],
+        "occurrence_id": "20db6f1303205d97d2ccca26b158c2f8ba042a3b4e9486fba988a856d2f2e1ca",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "run_index": 2,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "08995eaf54819fede5b3fbcfba6828ccfd8826b6751a60628c1440cd3a9e220d"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.2374387126110435,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.6180253157102529,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          3,
+          7
+        ],
+        "occurrence_id": "5656538b10d07713def2a45c8fb4cce70379a5b77598e8ecd29d8e20088b72dd",
+        "organism_id": "f7244938fb48422ae1949f1f36302389b7131fa9d2f60417510e51257abe0727",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2470232552268118,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5890539224843214,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "nodes": [
+          3,
+          4,
+          7
+        ],
+        "occurrence_id": "f69343d16a3b2055c74558031654b6af4694d66b8c5c68fad30b89070ef40444",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "internal_edge_count": 3,
+        "internal_recurrent_edge_count": 2,
+        "message_connected": true,
+        "nodes": [
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "76cabd15efd0f0f3ea6e057e7131c45de3f2d1e36f8fe2dc7954d834630b88b9",
+        "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "run_index": 4,
+        "size": 3,
+        "size_category": "MICRO",
+        "structural_class_id": "080300b82d8c3cd268543beab7cea6236e1af2b1f405aa6958068dde7f0e8407"
+      },
+      "primary_causal": true,
+      "recipient": {
+        "c1_c2_self_distance": 0.40663245309922774,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.4358149859545897,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          1,
+          2,
+          5
+        ],
+        "occurrence_id": "a6310e3a45a57a8aec324b13cbaecd24ed5dd64a35fe40b5326dd23684a52e0f",
+        "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0",
+        "size": 3
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.5106944377224696,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.38572336953526964,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          3
+        ],
+        "occurrence_id": "3924602de3952492393f39160996bab64b48de2a16ae4403dc0f1b845d8dc19e",
+        "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+        "size": 3
+      },
+      "size": 3,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.26383588806671976,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.35741353694011296,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          5,
+          7,
+          8,
+          9
+        ],
+        "occurrence_id": "a435448d0033e64fb270911614e167d26b68a41c203fc04ebcfc2f19d6c80fdb",
+        "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3381652640892724,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.19221756481118923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.41067483532987104,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.27928044461306734,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          2,
+          5,
+          6
+        ],
+        "occurrence_id": "891defe8253aea5328b2ff9ef1419fe406ece5832867b660ec020b528fac7811",
+        "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3153677406642091,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2681748306488377,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          5,
+          7,
+          9
+        ],
+        "occurrence_id": "f86eb611d4c82ba4925339ab483175cbe5364de4d7319f319714e3998094d273",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "8d4c453c06304b36e60994d0eacfa80a893b35b9315632108f4f135a99b41c3f",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 7,
+        "internal_recurrent_edge_count": 5,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        "occurrence_id": "c001130ed0f70ae3590bff2189939a622e337dd59fd9a898d4b3f0bc0f50bb0f",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "run_index": 2,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "8d4c453c06304b36e60994d0eacfa80a893b35b9315632108f4f135a99b41c3f"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.37219935421310235,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.3105655680624571,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "occurrence_id": "721b9c08f5001642fe2f95a2ceb815e259784b6be1a4ebfd19c35efbbc96d7d4",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3153677406642091,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2681748306488377,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          5,
+          7,
+          9
+        ],
+        "occurrence_id": "f86eb611d4c82ba4925339ab483175cbe5364de4d7319f319714e3998094d273",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.20038763204713572,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.43908261125615256,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          3,
+          6,
+          7,
+          8
+        ],
+        "occurrence_id": "a8ac3f8504e6238edf52e54cc0aef7fc73aa7372614a91830b208fcf7a7d552a",
+        "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3153677406642091,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2681748306488377,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          5,
+          7,
+          9
+        ],
+        "occurrence_id": "f86eb611d4c82ba4925339ab483175cbe5364de4d7319f319714e3998094d273",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.2540435809034346,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.33333158894006915,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          2,
+          6,
+          7,
+          8
+        ],
+        "occurrence_id": "e4bc4a8c758fbb6cd6de7e69805c3238ac3a7081a82753b06522dc1773a9083b",
+        "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3153677406642091,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2681748306488377,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          5,
+          7,
+          9
+        ],
+        "occurrence_id": "f86eb611d4c82ba4925339ab483175cbe5364de4d7319f319714e3998094d273",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.18139749086943696,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.4131116897543078,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          3,
+          4,
+          5,
+          6
+        ],
+        "occurrence_id": "daf0e937410fa14584d76fb81b10f1cd28c6bb408c9e377a79b2993e7f2a0708",
+        "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3381652640892724,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.19221756481118923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.2678956111589545,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.37079471937957564,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          2,
+          5,
+          8,
+          9
+        ],
+        "occurrence_id": "3dd0d73963a40e0bafa912acfdd99547e5e75f856b16289b937b36184915613a",
+        "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3381652640892724,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.19221756481118923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.3153677406642091,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2681748306488377,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          5,
+          7,
+          9
+        ],
+        "occurrence_id": "f86eb611d4c82ba4925339ab483175cbe5364de4d7319f319714e3998094d273",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3381652640892724,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.19221756481118923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.3381652640892724,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.19221756481118923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3153677406642091,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2681748306488377,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          1,
+          5,
+          7,
+          9
+        ],
+        "occurrence_id": "f86eb611d4c82ba4925339ab483175cbe5364de4d7319f319714e3998094d273",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2546a3cae48b1228a0bb20dc618f2ac748402f331e160da84deb157d125bb04c",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "internal_edge_count": 7,
+        "internal_recurrent_edge_count": 5,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5,
+          6,
+          9
+        ],
+        "occurrence_id": "ad2dc3878d125dc94fa028bcb87bf266f2c9f113ab834da24371f6edcd33c9b9",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "run_index": 2,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "2546a3cae48b1228a0bb20dc618f2ac748402f331e160da84deb157d125bb04c"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.26132198858758215,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5437546219438559,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        "occurrence_id": "374f29a2579e78dac6fc42aea7fe68bce4bd644e4aa3481f5fb9c1b5baa85a1e",
+        "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2262871557306806,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.43504258295874226,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          2,
+          3,
+          4,
+          7
+        ],
+        "occurrence_id": "55a007a27b6520f1e8d811b352d39c416787f87157c01028e68e9075e4ab4155",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "internal_edge_count": 6,
+        "internal_recurrent_edge_count": 4,
+        "message_connected": true,
+        "nodes": [
+          2,
+          3,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "714caa8e69dec35fd42ccf1a7a735879b86998ec8983e0a7d8aa3cfa05235eec",
+        "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "run_index": 1,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "1a3fda16eada5d14fc55227ff51910adc701d490c4f2fd23ab924df362d43d62"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.21836266020938244,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.36813855759140995,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          1,
+          3,
+          5,
+          6,
+          7
+        ],
+        "occurrence_id": "8a81af64b2c1c16ccbcc359bbd27479f8b2a14075db775a3106e424db4c0f1ee",
+        "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.3381652640892724,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.19221756481118923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "different_class_donor": {
+        "competent": true,
+        "control_class_id": "2546a3cae48b1228a0bb20dc618f2ac748402f331e160da84deb157d125bb04c",
+        "control_source": "frozen_structural_census",
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "internal_edge_count": 7,
+        "internal_recurrent_edge_count": 5,
+        "message_connected": true,
+        "nodes": [
+          1,
+          4,
+          5,
+          6,
+          9
+        ],
+        "occurrence_id": "ad2dc3878d125dc94fa028bcb87bf266f2c9f113ab834da24371f6edcd33c9b9",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "run_index": 2,
+        "size": 5,
+        "size_category": "MESO",
+        "structural_class_id": "2546a3cae48b1228a0bb20dc618f2ac748402f331e160da84deb157d125bb04c"
+      },
+      "primary_causal": false,
+      "recipient": {
+        "c1_c2_self_distance": 0.26295762426401137,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.4689063443346013,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          2,
+          3,
+          4,
+          8
+        ],
+        "occurrence_id": "33aafef3e232172c38803e5a15d27dd6e2f25048e693ee5c78c9847f4e376751",
+        "organism_id": "f7244938fb48422ae1949f1f36302389b7131fa9d2f60417510e51257abe0727",
+        "size": 5
+      },
+      "same_class_donor": {
+        "c1_c2_self_distance": 0.2262871557306806,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.43504258295874226,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          2,
+          3,
+          4,
+          7
+        ],
+        "occurrence_id": "55a007a27b6520f1e8d811b352d39c416787f87157c01028e68e9075e4ab4155",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "size": 5
+      },
+      "size": 5,
+      "stream": "D"
+    }
+  ],
+  "version": "V837al"
+}

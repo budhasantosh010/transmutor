@@ -1,0 +1,98 @@
+{
+  "classes": [
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "engine_balance": {
+        "DIRECTED_STRUCTURAL_SEARCH": 3,
+        "RANDOM_STRUCTURAL_SAMPLER": 3
+      },
+      "family_balance": {
+        "iterative_state": 6
+      },
+      "independent_recipients": 6,
+      "minimum_possible_p": 0.015625,
+      "power_status": "STATISTICALLY_UNDERPOWERED_FOR_STRONG_INTERCHANGEABILITY_CLAIM",
+      "primary_causal": false,
+      "same_family_donor_count": 6,
+      "size": 1,
+      "strong_claim_powered": false
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "engine_balance": {
+        "DIRECTED_STRUCTURAL_SEARCH": 19,
+        "RANDOM_STRUCTURAL_SAMPLER": 19
+      },
+      "family_balance": {
+        "conditional_routing": 8,
+        "delayed_recall": 10,
+        "iterative_state": 10,
+        "partial_observation": 2,
+        "variable_composition": 8
+      },
+      "independent_recipients": 38,
+      "minimum_possible_p": 3.637978807091713e-12,
+      "power_status": "POWERED",
+      "primary_causal": true,
+      "same_family_donor_count": 38,
+      "size": 3,
+      "strong_claim_powered": true
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "engine_balance": {
+        "DIRECTED_STRUCTURAL_SEARCH": 5,
+        "RANDOM_STRUCTURAL_SAMPLER": 7
+      },
+      "family_balance": {
+        "iterative_state": 10,
+        "partial_observation": 2
+      },
+      "independent_recipients": 12,
+      "minimum_possible_p": 0.000244140625,
+      "power_status": "POWERED",
+      "primary_causal": false,
+      "same_family_donor_count": 12,
+      "size": 5,
+      "strong_claim_powered": true
+    },
+    {
+      "class_id": "ee70b6b00598cb4f5555e42f46a766e3921a8731e75bca146d9633d019bb18ad",
+      "engine_balance": {},
+      "family_balance": {},
+      "independent_recipients": 0,
+      "minimum_possible_p": 1.0,
+      "power_status": "STATISTICALLY_UNDERPOWERED_FOR_STRONG_INTERCHANGEABILITY_CLAIM",
+      "primary_causal": false,
+      "same_family_donor_count": 0,
+      "size": 7,
+      "strong_claim_powered": false
+    },
+    {
+      "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+      "engine_balance": {},
+      "family_balance": {},
+      "independent_recipients": 0,
+      "minimum_possible_p": 1.0,
+      "power_status": "STATISTICALLY_UNDERPOWERED_FOR_STRONG_INTERCHANGEABILITY_CLAIM",
+      "primary_causal": false,
+      "same_family_donor_count": 0,
+      "size": 7,
+      "strong_claim_powered": false
+    },
+    {
+      "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+      "engine_balance": {},
+      "family_balance": {},
+      "independent_recipients": 0,
+      "minimum_possible_p": 1.0,
+      "power_status": "STATISTICALLY_UNDERPOWERED_FOR_STRONG_INTERCHANGEABILITY_CLAIM",
+      "primary_causal": false,
+      "same_family_donor_count": 0,
+      "size": 7,
+      "strong_claim_powered": false
+    }
+  ],
+  "pair_count": 56,
+  "version": "V837al"
+}

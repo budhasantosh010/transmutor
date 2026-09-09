@@ -886,6 +886,9 @@ def main() -> int:
     functional_motif_validator = ROOT / "scripts" / "validate_v837_functional_dynamical_motifs.py"
     if functional_motif_validator.exists():
         runpy.run_path(str(functional_motif_validator), run_name="__main__")
+    primitive_interface_validator = ROOT / "scripts" / "validate_v837_primitive_interface_alignment.py"
+    if primitive_interface_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837al" / "results.json").exists():
+        runpy.run_path(str(primitive_interface_validator), run_name="__main__")
     print("active research validation: PASS")
     return 0
 

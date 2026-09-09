@@ -1,0 +1,17 @@
+{
+  "causal_track": {
+    "leave_one_out": [],
+    "required_ports": [],
+    "run": false,
+    "track": "CAUSAL_TRACK"
+  },
+  "data": "ALIGN_SELECT_ONLY",
+  "global_track": {
+    "leave_one_out": [],
+    "required_ports": [],
+    "run": false,
+    "track": "GLOBAL_TRACK"
+  },
+  "stage": "AL6_PORT_NECESSITY",
+  "version": "V837al"
+}

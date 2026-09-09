@@ -1,0 +1,1621 @@
+{
+  "causal_class_count": 1,
+  "classes": [
+    {
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "compatible_occurrences": [
+        {
+          "c1_c2_self_distance": 0.2379976066225018,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.8925744061504958,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            5
+          ],
+          "occurrence_id": "0fe85b56a481cbc78686694c32d01269e271a1ffb5db9c4623022545aeba6878",
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "run_index": 4,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        },
+        {
+          "c1_c2_self_distance": 0.13744992571208492,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.659138196388977,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            0
+          ],
+          "occurrence_id": "d0ce6be75d8fcefa071f823bab7e68715a7300e01648f525fa1e5b9b6e0b1748",
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "run_index": 0,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        },
+        {
+          "c1_c2_self_distance": 0.17738849769085827,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5963613106867414,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            0
+          ],
+          "occurrence_id": "cde74eb002d7a756790c6fe420452f594640684b338b7fdfaacf85e15329320e",
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "run_index": 1,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        },
+        {
+          "c1_c2_self_distance": 0.15353615217237906,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.9298441348907979,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            0
+          ],
+          "occurrence_id": "26dad77023c3acae32991e3ac5c776ddffbf9e769ea32debfcacdc50c34e2df3",
+          "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+          "run_index": 3,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        },
+        {
+          "c1_c2_self_distance": 0.14880759249989495,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.24434246309261584,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            3
+          ],
+          "occurrence_id": "1d01438180bacf361b77a173512851b38fc9896210a032c8ce4238e9c682972b",
+          "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+          "run_index": 2,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        },
+        {
+          "c1_c2_self_distance": 0.2648753017216365,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.7079695896097291,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            0
+          ],
+          "occurrence_id": "11ecdc792e64b6ca744516360e4353051d31c45708e479c48278cd4ff7eaaeae",
+          "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+          "run_index": 2,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        },
+        {
+          "c1_c2_self_distance": 0.33127135679570535,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.575443846130558,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "partial_observation",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            7
+          ],
+          "occurrence_id": "f05e1b9c8bd618e3282f14ca90398f489f7ae4e002af418dc627b6f1a5ef8616",
+          "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+          "run_index": 0,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        },
+        {
+          "c1_c2_self_distance": 0.3360883650747539,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6276572631721697,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "internal_edge_count": 0,
+          "internal_recurrent_edge_count": 0,
+          "message_connected": false,
+          "nodes": [
+            6
+          ],
+          "occurrence_id": "4e3c8c6a6e345e976616017d8c928be939592aa260ce9f5e23bcd1b227b08406",
+          "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+          "run_index": 1,
+          "size": 1,
+          "size_category": "MICRO",
+          "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+        }
+      ],
+      "primary_causal": false,
+      "size": 1,
+      "stream": "S",
+      "support": 8
+    },
+    {
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "compatible_occurrences": [
+        {
+          "c1_c2_self_distance": 0.24110652919305875,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6554965211126942,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            2,
+            6,
+            7
+          ],
+          "occurrence_id": "c919e8103a99204740c3c88ff2b3f4abcf2aa75be78a5783213d4487d4019317",
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.42686051349329995,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.8807274142187941,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            1,
+            2,
+            7
+          ],
+          "occurrence_id": "b5ff1223406ed51900c7c451b56db527f7e50738a88a40953c0b2611d14c69d0",
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3150269139632279,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5405648591611777,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            7,
+            8
+          ],
+          "occurrence_id": "c8360598deffd9a79710259bf3344d618f0ce4d2dfe3597f30d06f8e9c3b2021",
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.4998477125706177,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.7741099734749133,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            3,
+            7
+          ],
+          "occurrence_id": "f07fbfd54ef534dd27343ebacc46564f0958f6222063654bc607b6e742c28e01",
+          "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.2975150298708018,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6465151114304334,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            1,
+            3,
+            9
+          ],
+          "occurrence_id": "650f782442e75a889799de7c6d3ba3203035abaf3b386e38b21380e04b736543",
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.30056036409372383,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6303380618418283,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            1,
+            2,
+            3
+          ],
+          "occurrence_id": "3bd1832ab2a149cdde7b4b1978893847bc50c4ccb89a9e4dc0580bea163d912d",
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.29029198270601797,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.2682367735324534,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            4,
+            7,
+            8
+          ],
+          "occurrence_id": "e549d9c94ef07df0b01790c748e832d04aae2869caa203081feac338e8d7e541",
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3287636734047027,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6412988202622872,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            0,
+            1,
+            5
+          ],
+          "occurrence_id": "06af97faffabcd40bed3c38d9c0346fc05b4dcd111d25f9ef7083653749b4079",
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.40406655427432375,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6343760847964843,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            3,
+            5,
+            7
+          ],
+          "occurrence_id": "35856b7ce9e526b9a37d274b8608a55408105156a6d4a477f7c698740bdf3386",
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.5208497384436537,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.8732709039397277,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            2,
+            6
+          ],
+          "occurrence_id": "2d72448c4aaf54d1b2f336300088f3ff030fdbba9ef60d55f017a0d6aed2cfee",
+          "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.29095380568400603,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6510159260963451,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            2,
+            3,
+            9
+          ],
+          "occurrence_id": "35c5d93a386d952cc5456ea05070547f26c3a1e855c7ee0b7acad30baf5627fd",
+          "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3685728301490653,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.620738370958942,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            1,
+            7
+          ],
+          "occurrence_id": "c8e9eacb57c1d21e52ef651666f3bce730619af6c203a8b39b53db756da46ce3",
+          "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3994190717752528,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.39117251282181564,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            1,
+            9
+          ],
+          "occurrence_id": "33eed996e65560c728356a73271e2413f0e2462693674b2e5e1cfa45426db2c8",
+          "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.31758295519838353,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5345411797516122,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            2,
+            6,
+            7
+          ],
+          "occurrence_id": "937d04f6f9904ecc70f7bd1bced30c1cfe4303bf1a4aa7e68bb9dcfd3cd32ebe",
+          "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.4564492339430486,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.7378189726665461,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            3,
+            8,
+            9
+          ],
+          "occurrence_id": "fc3b23ff5a8756848e1efe7fc80d1860d25f723d85fb20d78cae82445ed8265d",
+          "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.2470232552268118,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5890539224843214,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "partial_observation",
+          "nodes": [
+            3,
+            4,
+            7
+          ],
+          "occurrence_id": "f69343d16a3b2055c74558031654b6af4694d66b8c5c68fad30b89070ef40444",
+          "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3702579144243282,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6412759255852765,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            8,
+            9
+          ],
+          "occurrence_id": "0fba17c090d143408d1cbb47fb13ca390bf88da709cca4800dd5d997eed48945",
+          "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3064467215538374,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5981805138388874,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            1,
+            4,
+            8
+          ],
+          "occurrence_id": "7fab963facc946393b007ed071371eb9b086252c60f3c13ad033c155f4e2d72e",
+          "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.27063910185605716,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5750916739057848,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            2,
+            9
+          ],
+          "occurrence_id": "fc3dd59e7abbab681e94ec5ddbb26f84d286b6550783364414fc1c216151d8ad",
+          "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.2715163077353851,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6897306513648437,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            2,
+            7,
+            9
+          ],
+          "occurrence_id": "3649eed85c2031621ee4f401ae2a68be5a2f68583b84baf101b44b216bf5e46b",
+          "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.4316653553497435,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5206461477349628,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            1,
+            4,
+            9
+          ],
+          "occurrence_id": "528afdda192c881a64b4878d40758c6f1793a87ba16c33b404eeb80119601b4b",
+          "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.38487502061418877,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5317935958751251,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            3,
+            5,
+            9
+          ],
+          "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+          "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.4136243371534536,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.7618946441534045,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            4,
+            5,
+            7
+          ],
+          "occurrence_id": "20b000ea919924628df9d4505757fe45502f879dedf1ce014c6c92319e5d2c0e",
+          "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.2664869449378351,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5472843395709099,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            0,
+            7,
+            9
+          ],
+          "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+          "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3851745123694333,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.685031482415315,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            3,
+            8,
+            9
+          ],
+          "occurrence_id": "7778261184cae92aafb61cf5169f4abb60816cd1e856865cf16326673fbc62e7",
+          "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.6720835634044425,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.7371044011230855,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            2,
+            6,
+            7
+          ],
+          "occurrence_id": "fdeeeb8411493e633183dcebe1639be1788c5c8fdaa5438cee2deb205a910761",
+          "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.30504871159357244,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5770829234412665,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "partial_observation",
+          "nodes": [
+            0,
+            4,
+            7
+          ],
+          "occurrence_id": "97bf160eaa894408d305fb2fc64afc89fb556757831b5ed387735d55de560e6e",
+          "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.4217793160330363,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.7402925327285967,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "nodes": [
+            1,
+            3,
+            5
+          ],
+          "occurrence_id": "38726aeec3e73f88ffb0eef2e7f6338e871bf37daf10ca1084addcb52652b6b1",
+          "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.3501213891770728,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5667662344576835,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            1,
+            2,
+            8
+          ],
+          "occurrence_id": "d4b220fafcea0523fe84daaeef55758137db42204bf5cb8e4a25dd7c14add95c",
+          "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.345190684136788,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6862471476958858,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            5,
+            7
+          ],
+          "occurrence_id": "6e41ee49e8e47d243544746e2d270e4a447cca182685e7770c9b9fd2dbe6a649",
+          "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.31325583072179713,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3959111347520341,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            1,
+            5
+          ],
+          "occurrence_id": "e69a68a37c1a314f679a31cf79421c7943ee95e44d3e09a3834460a92b43d1bc",
+          "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.45402911513084343,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.4015344179916923,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            1,
+            7,
+            8
+          ],
+          "occurrence_id": "08ddd8cae7a8296770162a4b694ab9507aab76745596259cde6d7117b6b2edbb",
+          "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.627834180320363,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.9798241715956106,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            5,
+            7
+          ],
+          "occurrence_id": "0f9d983e621fd8afbd52eaf3efbedec3209a9511c0e6aa7d71bcdae69baf93a4",
+          "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.5106944377224696,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.38572336953526964,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            1,
+            3
+          ],
+          "occurrence_id": "3924602de3952492393f39160996bab64b48de2a16ae4403dc0f1b845d8dc19e",
+          "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.38447158521343766,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.43072099896367083,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            4,
+            7,
+            9
+          ],
+          "occurrence_id": "69fb972e3f5cd57e4b379633978df5aed9cad4031eb8e35fea9c31e79793a84e",
+          "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.4065089413660787,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.7404245716755495,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            3,
+            7,
+            8
+          ],
+          "occurrence_id": "7bfca3e7f2da16b35cb7d54bac0a9a2f1684f53988ef83b608f19db83301ebdd",
+          "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.24253174117373963,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6718940308691242,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            2,
+            5,
+            7
+          ],
+          "occurrence_id": "9a3267197c30034d333f2d1d65da5596f752ce04c1044094b8e77ba4c7009dd3",
+          "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.2374387126110435,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.6180253157102529,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "partial_observation",
+          "nodes": [
+            0,
+            3,
+            7
+          ],
+          "occurrence_id": "5656538b10d07713def2a45c8fb4cce70379a5b77598e8ecd29d8e20088b72dd",
+          "organism_id": "f7244938fb48422ae1949f1f36302389b7131fa9d2f60417510e51257abe0727",
+          "size": 3
+        },
+        {
+          "c1_c2_self_distance": 0.40663245309922774,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.4358149859545897,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            1,
+            2,
+            5
+          ],
+          "occurrence_id": "a6310e3a45a57a8aec324b13cbaecd24ed5dd64a35fe40b5326dd23684a52e0f",
+          "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0",
+          "size": 3
+        }
+      ],
+      "primary_causal": true,
+      "size": 3,
+      "stream": "D",
+      "support": 39
+    },
+    {
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "compatible_occurrences": [
+        {
+          "c1_c2_self_distance": 0.26383588806671976,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.35741353694011296,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            1,
+            5,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "a435448d0033e64fb270911614e167d26b68a41c203fc04ebcfc2f19d6c80fdb",
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.41067483532987104,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.27928044461306734,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            0,
+            1,
+            2,
+            5,
+            6
+          ],
+          "occurrence_id": "891defe8253aea5328b2ff9ef1419fe406ece5832867b660ec020b528fac7811",
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.37219935421310235,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3105655680624571,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            3,
+            6,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "721b9c08f5001642fe2f95a2ceb815e259784b6be1a4ebfd19c35efbbc96d7d4",
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.20038763204713572,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.43908261125615256,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            0,
+            3,
+            6,
+            7,
+            8
+          ],
+          "occurrence_id": "a8ac3f8504e6238edf52e54cc0aef7fc73aa7372614a91830b208fcf7a7d552a",
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.2540435809034346,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.33333158894006915,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            0,
+            2,
+            6,
+            7,
+            8
+          ],
+          "occurrence_id": "e4bc4a8c758fbb6cd6de7e69805c3238ac3a7081a82753b06522dc1773a9083b",
+          "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.2262871557306806,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.43504258295874226,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "partial_observation",
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            7
+          ],
+          "occurrence_id": "55a007a27b6520f1e8d811b352d39c416787f87157c01028e68e9075e4ab4155",
+          "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.18139749086943696,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.4131116897543078,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ],
+          "occurrence_id": "daf0e937410fa14584d76fb81b10f1cd28c6bb408c9e377a79b2993e7f2a0708",
+          "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.2678956111589545,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.37079471937957564,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            1,
+            2,
+            5,
+            8,
+            9
+          ],
+          "occurrence_id": "3dd0d73963a40e0bafa912acfdd99547e5e75f856b16289b937b36184915613a",
+          "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.3153677406642091,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.2681748306488377,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            0,
+            1,
+            5,
+            7,
+            9
+          ],
+          "occurrence_id": "f86eb611d4c82ba4925339ab483175cbe5364de4d7319f319714e3998094d273",
+          "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.3381652640892724,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.19221756481118923,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "iterative_state",
+          "nodes": [
+            2,
+            5,
+            6,
+            8,
+            9
+          ],
+          "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+          "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.26132198858758215,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5437546219438559,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "partial_observation",
+          "nodes": [
+            0,
+            1,
+            2,
+            6,
+            7
+          ],
+          "occurrence_id": "374f29a2579e78dac6fc42aea7fe68bce4bd644e4aa3481f5fb9c1b5baa85a1e",
+          "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.21836266020938244,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.36813855759140995,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "iterative_state",
+          "nodes": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "occurrence_id": "8a81af64b2c1c16ccbcc359bbd27479f8b2a14075db775a3106e424db4c0f1ee",
+          "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+          "size": 5
+        },
+        {
+          "c1_c2_self_distance": 0.26295762426401137,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.4689063443346013,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "partial_observation",
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            8
+          ],
+          "occurrence_id": "33aafef3e232172c38803e5a15d27dd6e2f25048e693ee5c78c9847f4e376751",
+          "organism_id": "f7244938fb48422ae1949f1f36302389b7131fa9d2f60417510e51257abe0727",
+          "size": 5
+        }
+      ],
+      "primary_causal": false,
+      "size": 5,
+      "stream": "D",
+      "support": 13
+    },
+    {
+      "class_id": "ee70b6b00598cb4f5555e42f46a766e3921a8731e75bca146d9633d019bb18ad",
+      "compatible_occurrences": [
+        {
+          "c1_c2_self_distance": 0.255826369347877,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.25944711112655827,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9
+          ],
+          "occurrence_id": "ad9772dbf6f09d7f43abd49f2eabbadd792ab34e773c72392d89a11aacd9da27",
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3357813269661768,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.2662399204152244,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "occurrence_id": "88bb29423f1a881cff1bceec910f0e1b156cb9a90f9ac5c197701a5b7aa07bf5",
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3190458433888358,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.25559272801595834,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            8,
+            9
+          ],
+          "occurrence_id": "3175a8f4c0a2bb37cba53349fa3a581d67958ffee8b02923a3ba72c558596713",
+          "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.32640961436881816,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.2627493379940893,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "occurrence_id": "474270e6b2607229aecb55a10e53d083c0ec27ae40d7b7631a44f7d9ebcabb73",
+          "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.28683137416003146,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.29753255568565234,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "e8579bf5dc7fdc3b90af43f5fa9deb3d0090b4f87c6bbc8b6e1aa15b94c4a60d",
+          "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.2445103548680013,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.2902112458794153,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "occurrence_id": "6f629ebcd314b3055e65ad11f9cb49e11cc36536109820e1ecc695d4bfe5d99f",
+          "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.34986818438996636,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.1953148882145141,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "8040a1f3128c7ad69ca6284c0a7fda3bfba27e25680e8fcfbdcb8eb9d5bc41fd",
+          "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3000603948538758,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3811475958023693,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "0da361fa1912fac5b72c0cab30e08ce6a8c85b4f22dfaa637e6138f766cc5098",
+          "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3757027547650478,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.2878221217608418,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "occurrence_id": "2ec546edb36a3863b37111170f03d25cdd7ae901b9a2e27d29a3b69069e06b47",
+          "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3163115586429131,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3229154375154078,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "delayed_recall",
+          "nodes": [
+            0,
+            2,
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "5e76b29b0077b7a2b01a63241129756e6c1882733fcea38fc1744d670ed9e2dd",
+          "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b",
+          "size": 7
+        }
+      ],
+      "primary_causal": false,
+      "size": 7,
+      "stream": "D",
+      "support": 10
+    },
+    {
+      "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+      "compatible_occurrences": [
+        {
+          "c1_c2_self_distance": 0.35142902914882607,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.5143970989759497,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8
+          ],
+          "occurrence_id": "4d8b804c3c1dcb9cdc551f0af73eee1c88feaf44c892d2502312fe4124c28fdb",
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.30419038581624264,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.384985145545295,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "occurrence_id": "3d62ac1bfe7f2f8e2026250770c59dbe4c1bc43a79dbd49c5ed5e5e299327154",
+          "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.5885717038640507,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.45917185546778083,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "occurrence_id": "b30f00d901dd4690227b2673f275c1db434bd5efe8ddf332db98b1b43b44510e",
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.46485778515859855,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3963985428381922,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7,
+            9
+          ],
+          "occurrence_id": "a0706349c25944f786d0c7b063970a75e09cfdbf44b6180dbfcfac9078132dc1",
+          "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3652734601424356,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.37063780566975524,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "9a4adac28b711fcee62491a6dc3b4c668163b76edca8b32b841f3fd4270d69f9",
+          "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3222043984288944,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.45170251011693785,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "occurrence_id": "2d3528391c0de3787589454951184c276a8148b0603253976f41d54f501fd4fa",
+          "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3955594657512594,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.24030031500506163,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "conditional_routing",
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "occurrence_id": "90d40538538ffa90ff511d7be9b3126ba3f51ebc8e9c11febc41815e11cd0c46",
+          "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.45209652798693784,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.4775433945246602,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "6b4d838be981663ce3d6ce490092dfa86f414cf7bc561e8a539c01d4d80c9483",
+          "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.425456745445529,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.33342844511450054,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "conditional_routing",
+          "nodes": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7,
+            8
+          ],
+          "occurrence_id": "acfe6d3af56fbe52c721f8009890c9ddebf0a6bdab3b58d2e3f6ab8074de490e",
+          "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626",
+          "size": 7
+        }
+      ],
+      "primary_causal": false,
+      "size": 7,
+      "stream": "D",
+      "support": 9
+    },
+    {
+      "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+      "compatible_occurrences": [
+        {
+          "c1_c2_self_distance": 0.3614381717299254,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3107032743275383,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            8,
+            9
+          ],
+          "occurrence_id": "038b1ce9b7bfda79acbecd25e817e825ecc6078858be8da0bc6b600984ac8d34",
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.4177315743143769,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3823149938020473,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "occurrence_id": "496e4b197848734348f495af8a65dbd6f80bb4d2d8737eba37f5b841f3a241d9",
+          "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.4217371972593459,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.27950439329763593,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            1,
+            2,
+            4,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "459bc0a2d3ffbc2a880e66535baa1ec1d81fe40168b3e0aaad87dce131dd6ae1",
+          "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3612065356534537,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3369374355163697,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            1,
+            4,
+            5,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "1076705bd33c511d90d9908dcb600c12cfd55a6626304ff58d527815d1b4f7c8",
+          "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3650097382325489,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.3024625441187483,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9
+          ],
+          "occurrence_id": "7b6061628c27899be7c676024a69770eb752881a6f345fd84e5492836c924f2e",
+          "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.3650704917501728,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.24485729370569717,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "occurrence_id": "ddb9a171208653c589f7d7819018a0970645b4076b0c50d36e77fa93e9bc2ba2",
+          "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.2981001457790853,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.37909322088261804,
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "family": "variable_composition",
+          "nodes": [
+            0,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "occurrence_id": "06d4c17b491a4c1458da92c862709f9ffba9b2e9c28e298c09593b657269479b",
+          "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+          "size": 7
+        },
+        {
+          "c1_c2_self_distance": 0.41876527135073205,
+          "compatible": true,
+          "competent": true,
+          "confirmation_class_distance": 0.2945684745015091,
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "family": "variable_composition",
+          "nodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9
+          ],
+          "occurrence_id": "eab83c671765efaa7bd27d52f89ef93db7df7545cc7e0f02b6b2a0a3a14029c6",
+          "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0",
+          "size": 7
+        }
+      ],
+      "primary_causal": false,
+      "size": 7,
+      "stream": "D",
+      "support": 8
+    }
+  ],
+  "confirmed_class_count": 6,
+  "primary_causal_class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+  "source_checkpoint_count": 50,
+  "version": "V837al"
+}

@@ -1,0 +1,11 @@
+{
+  "authorized": true,
+  "causal_classes": 1,
+  "confirmed_classes": 6,
+  "fresh_audit_consumed": false,
+  "primary_causal_class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+  "primitives_promoted": 0,
+  "starting_sha": "802478151a5ab0d4cbbe099e3c18f056e8ce65bd",
+  "v838_started": false,
+  "version": "V837al"
+}

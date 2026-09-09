@@ -1,0 +1,22 @@
+{
+  "adapter_fitting_cpu_seconds": 108.03125,
+  "adapter_macs_per_timestep": null,
+  "adapter_primitive_compute_ratio": null,
+  "alignment_data_frontier_run": false,
+  "canonical_replay_calls": 0,
+  "closed_loop_forward_calls": 0,
+  "cpu_seconds": 7581.625,
+  "fresh_audit_episodes": 0,
+  "full_organism_trace_calls": 48,
+  "gpu_seconds": 0.0,
+  "gradient_steps_used_for_adapters": 0,
+  "large_persistent_storage_tested": false,
+  "new_model_fits": 0,
+  "optimizer_steps": 0,
+  "pairwise_replay_calls": 42120,
+  "primitive_internal_macs_per_timestep_estimate": null,
+  "primitives_promoted": 0,
+  "processed_training_examples": 0,
+  "version": "V837al",
+  "wall_seconds": 2286.842243500003
+}

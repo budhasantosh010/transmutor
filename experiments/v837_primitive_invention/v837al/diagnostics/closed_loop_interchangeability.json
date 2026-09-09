@@ -1,0 +1,9 @@
+{
+  "classes": [],
+  "cpu_seconds": 0.0,
+  "reason": "NO_POWERED_CAUSAL_PAIRWISE_PASS",
+  "run": false,
+  "stage": "AL8",
+  "version": "V837al",
+  "wall_seconds": 0.008018900000024587
+}

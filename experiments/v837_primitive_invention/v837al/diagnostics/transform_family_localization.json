@@ -1,0 +1,25 @@
+{
+  "families": {
+    "DIAGONAL_AFFINE": {
+      "causal_pass": 0,
+      "global_pass": 0
+    },
+    "FULL_AFFINE": {
+      "causal_pass": 0,
+      "global_pass": 0
+    },
+    "IDENTITY": {
+      "causal_pass": 0,
+      "global_pass": 0
+    },
+    "RIGID_AFFINE": {
+      "causal_pass": 0,
+      "global_pass": 0
+    },
+    "SIGNED_PERMUTATION": {
+      "causal_pass": 0,
+      "global_pass": 0
+    }
+  },
+  "version": "V837al"
+}

@@ -149,6 +149,9 @@ VARIANT_COMMANDS = {
         [sys.executable, "experiments/v837_primitive_invention/v837ak/reconstruct_organisms.py"],
         [sys.executable, "experiments/v837_primitive_invention/v837ak/run_pipeline.py", "--start-at", "AK1_probe_freeze"],
     ],
+    "v837al": [
+        *[[sys.executable, "experiments/v837_primitive_invention/v837al/run_pipeline.py", "--stage", stage] for stage in ("authorization","baseline","fit","select","test","canonical","transplant","data-frontier","analyze")],
+    ],
 }
 
 
@@ -320,6 +323,19 @@ def enforce_variant_guard(variant: str) -> None:
         if authorization.get("fresh_audit_consumed") is not False or authorization.get("v838_started") is not False:
             raise SystemExit("V837ak blocked: fresh-audit/V838 lock changed")
         return
+    if variant == "v837al":
+        results_path = ROOT / "experiments" / "v837_primitive_invention" / "v837ak" / "results.json"
+        if not results_path.is_file():
+            raise SystemExit("V837al blocked: V837ak results are missing")
+        results = json.loads(results_path.read_text(encoding="utf-8"))
+        decision = results.get("decision_state", {})
+        if results.get("diagnosis") != "CONTEXT_BOUND_COMPUTATIONAL_MOTIFS" or results.get("next_program") != "V837al_PRIMITIVE_INTERFACE_ALIGNMENT":
+            raise SystemExit("V837al blocked: V837ak did not authorize primitive-interface alignment")
+        if decision.get("confirmed_classes") != 6 or decision.get("causally_specific_classes") != 1 or decision.get("boundary_interchangeable_classes") != 0:
+            raise SystemExit("V837al blocked: V837ak source class state changed")
+        if decision.get("fresh_audit_consumed") is not False or decision.get("v838_started") is not False:
+            raise SystemExit("V837al blocked: fresh-audit/V838 lock changed")
+        return
 
 
 def main() -> int:
@@ -342,8 +358,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--stage",
-        choices=("anchor", "fidelity", "search", "finalize", "analyze"),
-        help="For V837aj only, select one preserved hard-gated stage.",
+        choices=("anchor", "fidelity", "search", "finalize", "baseline", "fit", "select", "test", "canonical", "transplant", "data-frontier", "analyze"),
+        help="For V837aj or V837al, select one preserved hard-gated stage.",
     )
     parser.add_argument(
         "--execute",
@@ -388,8 +404,13 @@ def main() -> int:
             ]
         elif args.stage == "analyze":
             commands = [[sys.executable, "experiments/v837_primitive_invention/v837aj/analyze_results.py"]]
+    elif args.variant == "v837al":
+        if args.regime or args.analyze:
+            raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
+        if args.stage:
+            commands = [[sys.executable, "experiments/v837_primitive_invention/v837al/run_pipeline.py", "--stage", args.stage]]
     elif args.regime or args.analyze or args.stage:
-        raise SystemExit("--regime/--analyze are only valid with --variant v837ai; --stage is only valid with --variant v837aj")
+        raise SystemExit("--regime/--analyze are only valid with --variant v837ai; --stage is valid only with --variant v837aj or v837al")
     config = ROOT / "experiments" / "v837_primitive_invention" / args.variant / "config.json"
     if not config.is_file():
         raise SystemExit(f"missing preserved config: {config.relative_to(ROOT)}")

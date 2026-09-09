@@ -1,0 +1,268 @@
+{
+  "anchors": [
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.14880759249989495,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.24434246309261584,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "internal_edge_count": 0,
+        "internal_recurrent_edge_count": 0,
+        "message_connected": false,
+        "nodes": [
+          3
+        ],
+        "occurrence_id": "1d01438180bacf361b77a173512851b38fc9896210a032c8ce4238e9c682972b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "run_index": 2,
+        "size": 1,
+        "size_category": "MICRO",
+        "structural_class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad"
+      },
+      "class_id": "dedcfa08fd975595fc6ee852da4a38c839ac71d26cd0d4be42631cd2c7d921ad",
+      "family": "iterative_state",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.4564492339430486,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.7378189726665461,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "conditional_routing",
+        "nodes": [
+          3,
+          8,
+          9
+        ],
+        "occurrence_id": "fc3b23ff5a8756848e1efe7fc80d1860d25f723d85fb20d78cae82445ed8265d",
+        "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+        "size": 3
+      },
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "family": "conditional_routing",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.38487502061418877,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5317935958751251,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          3,
+          5,
+          9
+        ],
+        "occurrence_id": "3db2bbf0a751208c13891b7558c3b1e38ffd940d50635dfe65ede14001720307",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 3
+      },
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "family": "delayed_recall",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.2664869449378351,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5472843395709099,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "iterative_state",
+        "nodes": [
+          0,
+          7,
+          9
+        ],
+        "occurrence_id": "caed4bcce20e29e414af2b4de2a85817a6f9cfb05ac0e2802dcbc9d30480469b",
+        "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "size": 3
+      },
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "family": "iterative_state",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.30504871159357244,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.5770829234412665,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          4,
+          7
+        ],
+        "occurrence_id": "97bf160eaa894408d305fb2fc64afc89fb556757831b5ed387735d55de560e6e",
+        "organism_id": "a0bbf2428778cb326ad5fed1eac779d13d4d050bb700d0aaf1b897f3d5f14c65",
+        "size": 3
+      },
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "family": "partial_observation",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.29029198270601797,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.2682367735324534,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "variable_composition",
+        "nodes": [
+          4,
+          7,
+          8
+        ],
+        "occurrence_id": "e549d9c94ef07df0b01790c748e832d04aae2869caa203081feac338e8d7e541",
+        "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+        "size": 3
+      },
+      "class_id": "c00bf9c47dc64b4f561fcb8ef2665d293d2a5a5578e8d082640d8446766e7007",
+      "family": "variable_composition",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.3381652640892724,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.19221756481118923,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "iterative_state",
+        "nodes": [
+          2,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "7acf203612189333d7b13cd18e057059277d9119dcaaab07777ac530ec46dc4b",
+        "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "size": 5
+      },
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "family": "iterative_state",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.2262871557306806,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.43504258295874226,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "partial_observation",
+        "nodes": [
+          0,
+          2,
+          3,
+          4,
+          7
+        ],
+        "occurrence_id": "55a007a27b6520f1e8d811b352d39c416787f87157c01028e68e9075e4ab4155",
+        "organism_id": "64d318b6b21b885932e30ce4c99a9787e0c0ac7533041abb1f71aa7eb462e42c",
+        "size": 5
+      },
+      "class_id": "e0f923b8cf595229767f8ceb376df486a6f9f6ce7438523ffda84d6c4da9dd5b",
+      "family": "partial_observation",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.34986818438996636,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.1953148882145141,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "delayed_recall",
+        "nodes": [
+          1,
+          2,
+          3,
+          5,
+          7,
+          8,
+          9
+        ],
+        "occurrence_id": "8040a1f3128c7ad69ca6284c0a7fda3bfba27e25680e8fcfbdcb8eb9d5bc41fd",
+        "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+        "size": 7
+      },
+      "class_id": "ee70b6b00598cb4f5555e42f46a766e3921a8731e75bca146d9633d019bb18ad",
+      "family": "delayed_recall",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.3955594657512594,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.24030031500506163,
+        "engine": "RANDOM_STRUCTURAL_SAMPLER",
+        "family": "conditional_routing",
+        "nodes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "occurrence_id": "90d40538538ffa90ff511d7be9b3126ba3f51ebc8e9c11febc41815e11cd0c46",
+        "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "size": 7
+      },
+      "class_id": "bf37e79541c0e61415501444ddbd9c8320d1a2ed93da05fe132d526f6434094c",
+      "family": "conditional_routing",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    },
+    {
+      "canonical_occurrence": {
+        "c1_c2_self_distance": 0.3650704917501728,
+        "compatible": true,
+        "competent": true,
+        "confirmation_class_distance": 0.24485729370569717,
+        "engine": "DIRECTED_STRUCTURAL_SEARCH",
+        "family": "variable_composition",
+        "nodes": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          8,
+          9
+        ],
+        "occurrence_id": "ddb9a171208653c589f7d7819018a0970645b4076b0c50d36e77fa93e9bc2ba2",
+        "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+        "size": 7
+      },
+      "class_id": "d5148c66ab5f4da9369717fe0d320268afa7fda0fdb12e3cd7e5f11bc9816283",
+      "family": "variable_composition",
+      "frozen_before_test": true,
+      "selection_rule": "confirmation-compatible; min frozen class distance; deterministic engine/organism tie-break"
+    }
+  ],
+  "sha256": "603119814c84cb8db5eee46e772f14c96ade2c79a91079ea816dc2fb55aef673",
+  "version": "V837al"
+}
