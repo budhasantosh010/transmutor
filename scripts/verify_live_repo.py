@@ -897,6 +897,43 @@ def main() -> int:
     if am_status.get("diagnosis") != am.get("diagnosis") or am_status.get("primitives_promoted") != 0 or am_status.get("fresh_audit_episodes_consumed") != 0 or am_status.get("v838_started") is not False:
         raise RuntimeError("V837am program status disagrees with results")
 
+    # V837ap global/nonlinear causal-state localization. The negative V837ao
+    # anchor is preserved exactly; good decoding alone must not be promoted to
+    # a causal state when the absolute SET/control gate fails.
+    ap_record = manifest["current_variants"].get("V837ap")
+    if not isinstance(ap_record, dict):
+        raise RuntimeError("verification manifest missing V837ap")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw", "models"):
+        for relative in ap_record.get(key, []):
+            require_path(relative)
+    require_path(ap_record["config"])
+    require_path(ap_record["frozen_gate"])
+    require_path(ap_record["results"])
+    ap = load_json(ap_record["results"])
+    ap_decision = load_json("experiments/v837_primitive_invention/v837ap/diagnostics/decision_state.json")
+    ap_anchor = load_json("experiments/v837_primitive_invention/v837ap/raw/v837ao_negative_anchor_reproduction.json")
+    ap_freeze = load_json("experiments/v837_primitive_invention/v837ap/raw/frozen_v837ap_family_geometries.json")
+    ap_heldout = load_json("experiments/v837_primitive_invention/v837ap/raw/heldout_backend_results.json")
+    ap_ledger = load_json("experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json")
+    if ap.get("version") != "V837ap" or ap.get("diagnosis") != "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED":
+        raise RuntimeError("V837ap final diagnosis changed")
+    if ap_anchor.get("pass") is not True or float(ap_anchor.get("max_abs_metric_diff", 1.0)) > 1e-9:
+        raise RuntimeError("V837ap no longer exactly reproduces the V837ao negative anchor")
+    if ap_decision.get("discovery_geometry_families") != 0 or ap_decision.get("meta_confirmed_families") != 0 or ap_decision.get("heldout_family_passes") != 0:
+        raise RuntimeError("V837ap null causal-geometry closure changed")
+    if any(value is not None for value in ap_freeze.get("families", {}).values()):
+        raise RuntimeError("V837ap frozen family geometry is no longer null")
+    if ap_heldout.get("rows") not in ([], None) or ap_heldout.get("backend_records") not in ([], None):
+        raise RuntimeError("V837ap unexpectedly opened held-out backends after null freeze")
+    if ap.get("plot_count") != 22:
+        raise RuntimeError("V837ap required plot count changed")
+    if ap.get("failure_entries") != len(ap_ledger.get("entries", [])):
+        raise RuntimeError("V837ap failure-memory accounting disagrees with the machine ledger")
+    if ap_decision.get("fresh_audit_consumed") is not False or ap_decision.get("primitives_promoted") != 0 or ap_decision.get("primitive_archive_allowed_next") is not False or ap_decision.get("v838_started") is not False:
+        raise RuntimeError("V837ap violated audit/archive/promotion/V838 locks")
+    if ap_decision.get("next_program") != "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION":
+        raise RuntimeError("V837ap next-program decision changed")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

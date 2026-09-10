@@ -879,13 +879,15 @@ python scripts/reproduce_v837_recovery.py --variant v837aj --stage finalize
 python scripts/reproduce_v837_recovery.py --variant v837aj --stage analyze
 python scripts/reproduce_v837_recovery.py --variant v837ak
 python scripts/reproduce_v837_recovery.py --variant v837al --stage analyze
+python scripts/reproduce_v837_recovery.py --variant v837ao --stage analyze
+python scripts/reproduce_v837_recovery.py --variant v837ap --stage analyze
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj -> V837ak -> V837al -> V837am -> V837an -> V837ao frontier. V837ao exposes frozen source, fold, backend, setpoint, phase, quotient, dynamics, META, freeze, held-out, agreement, robustness, law-audit, and analysis stages; null discovery winners short-circuit later scientific computation rather than using held-out evidence to rescue selection. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V837ap is recorded only as the next program and has not started. V838 has not started.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj -> V837ak -> V837al -> V837am -> V837an -> V837ao -> V837ap frontier. V837ap preserves the exact V837ao negative anchor, reconstructs the frozen K1/K2/K4/K8 carrier spaces, executes the predeclared nonlinear/projected/phase-atlas reader and causal SET/control ladder, and then short-circuits quotient/dynamics/META/held-out science when no AP7 family winner exists. Its final diagnosis is `DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED`; held-out backends remain unopened, PrimitiveArchive remains blocked, fresh audit remains unused, and V838 has not started. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V837aq is recorded only as the next program and has not started.
 
 ## Historical SHA anchors
 
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the V837am scientific closure commit separately from later verification-integration/hash commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the current V837ap scientific closure commit separately from later verification-integration/hash commits.
