@@ -1,0 +1,1891 @@
+{
+  "family_results": {
+    "conditional_routing": {
+      "engines": [
+        "DIRECTED_STRUCTURAL_SEARCH",
+        "RANDOM_STRUCTURAL_SAMPLER"
+      ],
+      "family_pass": true,
+      "median_minimum_coalition_cardinality": 7.0,
+      "organism_winners": [
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+          "synergy": {
+            "best_member_recovery": 0.14543140087556994,
+            "minimum_sufficient": {
+              "cardinality": 8,
+              "counterfactual_success": 0.9945054945054945,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.6178532174902662,
+              "median_recovery": 0.972429873200622,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.8269984723250521
+          },
+          "winner": {
+            "cardinality": 8,
+            "counterfactual_success": 0.9945054945054945,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.6178532174902662,
+            "median_recovery": 0.972429873200622,
+            "nodes": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+          "synergy": {
+            "best_member_recovery": 0.23706048674752694,
+            "minimum_sufficient": {
+              "cardinality": 7,
+              "counterfactual_success": 0.9204545454545454,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.99571438367908,
+              "median_recovery": 0.9290110811657026,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.6919505944181756
+          },
+          "winner": {
+            "cardinality": 7,
+            "counterfactual_success": 0.9204545454545454,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.99571438367908,
+            "median_recovery": 0.9290110811657026,
+            "nodes": [
+              0,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+          "synergy": {
+            "best_member_recovery": 0.1585137269382484,
+            "minimum_sufficient": {
+              "cardinality": 8,
+              "counterfactual_success": 0.9817073170731707,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.983924801105347,
+              "median_recovery": 0.9728859965638998,
+              "nodes": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.8143722696256515
+          },
+          "winner": {
+            "cardinality": 8,
+            "counterfactual_success": 0.9817073170731707,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.983924801105347,
+            "median_recovery": 0.9728859965638998,
+            "nodes": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+          "synergy": {
+            "best_member_recovery": 0.1808404782820187,
+            "minimum_sufficient": {
+              "cardinality": 8,
+              "counterfactual_success": 0.9157303370786517,
+              "direction_agreement": 0.9887640449438202,
+              "median_ood_ratio": 1.841370941116435,
+              "median_recovery": 0.869779943011092,
+              "nodes": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.6889394647290732
+          },
+          "winner": {
+            "cardinality": 8,
+            "counterfactual_success": 0.9157303370786517,
+            "direction_agreement": 0.9887640449438202,
+            "median_ood_ratio": 1.841370941116435,
+            "median_recovery": 0.869779943011092,
+            "nodes": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626",
+          "synergy": {
+            "best_member_recovery": 0.3997502790213045,
+            "minimum_sufficient": {
+              "cardinality": 7,
+              "counterfactual_success": 0.9946236559139785,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.8606292664110482,
+              "median_recovery": 0.9750263082215269,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.5752760292002224
+          },
+          "winner": {
+            "cardinality": 7,
+            "counterfactual_success": 0.9946236559139785,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.8606292664110482,
+            "median_recovery": 0.9750263082215269,
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+          "synergy": {
+            "best_member_recovery": 0.14375815573068657,
+            "minimum_sufficient": {
+              "cardinality": 6,
+              "counterfactual_success": 0.8932584269662921,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.9110397886572164,
+              "median_recovery": 0.9144984457910602,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "NON_SYNERGISTIC_OR_MODERATE_COALITION",
+            "strong_synergy": false,
+            "synergy_gain": 0.7707402900603737
+          },
+          "winner": {
+            "cardinality": 6,
+            "counterfactual_success": 0.8932584269662921,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.9110397886572164,
+            "median_recovery": 0.9144984457910602,
+            "nodes": [
+              1,
+              2,
+              3,
+              5,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+          "synergy": {
+            "best_member_recovery": 0.13794175340397807,
+            "minimum_sufficient": {
+              "cardinality": 9,
+              "counterfactual_success": 0.9939024390243902,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.551321140918701,
+              "median_recovery": 0.9826782476089093,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.8447364942049312
+          },
+          "winner": {
+            "cardinality": 9,
+            "counterfactual_success": 0.9939024390243902,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.551321140918701,
+            "median_recovery": 0.9826782476089093,
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+          "synergy": {
+            "best_member_recovery": 0.21796863056398125,
+            "minimum_sufficient": {
+              "cardinality": 7,
+              "counterfactual_success": 0.9395604395604396,
+              "direction_agreement": 0.989010989010989,
+              "median_ood_ratio": 1.6142626713728314,
+              "median_recovery": 0.9315002306896416,
+              "nodes": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.7135316001256604
+          },
+          "winner": {
+            "cardinality": 7,
+            "counterfactual_success": 0.9395604395604396,
+            "direction_agreement": 0.989010989010989,
+            "median_ood_ratio": 1.6142626713728314,
+            "median_recovery": 0.9315002306896416,
+            "nodes": [
+              1,
+              2,
+              3,
+              4,
+              6,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+          "synergy": {
+            "best_member_recovery": 0.42622935772843956,
+            "minimum_sufficient": {
+              "cardinality": 6,
+              "counterfactual_success": 0.9395604395604396,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.6598352516599721,
+              "median_recovery": 0.9225685773455371,
+              "nodes": [
+                3,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "NON_SYNERGISTIC_OR_MODERATE_COALITION",
+            "strong_synergy": false,
+            "synergy_gain": 0.49633921961709754
+          },
+          "winner": {
+            "cardinality": 6,
+            "counterfactual_success": 0.9395604395604396,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.6598352516599721,
+            "median_recovery": 0.9225685773455371,
+            "nodes": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        }
+      ],
+      "organisms_passing": 9,
+      "pass_fraction": 1.0,
+      "powered_organisms": 9,
+      "required_passes": 6,
+      "strong_synergy_family": false,
+      "trigger": {
+        "an_a_compact": true,
+        "an_a_winner": "STATE40-K1",
+        "an_b_broad_or_absent": true,
+        "an_b_winner": null,
+        "trigger": true
+      }
+    },
+    "delayed_recall": {
+      "engines": [
+        "DIRECTED_STRUCTURAL_SEARCH",
+        "RANDOM_STRUCTURAL_SAMPLER"
+      ],
+      "family_pass": true,
+      "median_minimum_coalition_cardinality": 10.0,
+      "organism_winners": [
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+          "synergy": {
+            "best_member_recovery": 0.007888127602476147,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.9921118723975239
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+          "synergy": {
+            "best_member_recovery": 0.9037480877249198,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.09625191227508023
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+          "synergy": {
+            "best_member_recovery": 0.9945665580386858,
+            "minimum_sufficient": {
+              "cardinality": 9,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.840313382259545,
+              "median_recovery": 0.9997602331696291,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.005193675130943376
+          },
+          "winner": {
+            "cardinality": 9,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.840313382259545,
+            "median_recovery": 0.9997602331696291,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+          "synergy": {
+            "best_member_recovery": 0.00480280878956757,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.9951971912104325
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+          "synergy": {
+            "best_member_recovery": 0.002479147412963234,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.9975208525870367
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+          "synergy": {
+            "best_member_recovery": 0.0018624021000404056,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.9981375978999596
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+          "synergy": {
+            "best_member_recovery": 0.015757891513659583,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.9842421084863404
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1",
+          "synergy": {
+            "best_member_recovery": 0.7058863475624011,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.2941136524375989
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+          "synergy": {
+            "best_member_recovery": 0.0060031747651853595,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.9939968252348146
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b",
+          "synergy": {
+            "best_member_recovery": 0.0018145621681317503,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.9981854378318682
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        }
+      ],
+      "organisms_passing": 10,
+      "pass_fraction": 1.0,
+      "powered_organisms": 10,
+      "required_passes": 6,
+      "strong_synergy_family": false,
+      "trigger": {
+        "an_a_compact": true,
+        "an_a_winner": "STATE40-K1",
+        "an_b_broad_or_absent": true,
+        "an_b_winner": null,
+        "trigger": true
+      }
+    },
+    "iterative_state": {
+      "engines": [
+        "DIRECTED_STRUCTURAL_SEARCH",
+        "RANDOM_STRUCTURAL_SAMPLER"
+      ],
+      "family_pass": true,
+      "median_minimum_coalition_cardinality": 10.0,
+      "organism_winners": [
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+          "synergy": {
+            "best_member_recovery": 0.33768435616375586,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.6623156438362441
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+          "synergy": {
+            "best_member_recovery": 0.24446720335405897,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.7555327966459411
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+          "synergy": {
+            "best_member_recovery": 0.3282882480084077,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.6717117519915923
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+          "synergy": {
+            "best_member_recovery": 0.1719874560964183,
+            "minimum_sufficient": {
+              "cardinality": 9,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.9791177655911523,
+              "median_recovery": 0.975296965844608,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.8033095097481897
+          },
+          "winner": {
+            "cardinality": 9,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.9791177655911523,
+            "median_recovery": 0.975296965844608,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+          "synergy": {
+            "best_member_recovery": 0.1891525737578051,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.810847426242195
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+          "synergy": {
+            "best_member_recovery": 0.28718833089532236,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.7128116691046776
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+          "synergy": {
+            "best_member_recovery": 0.22384242239838925,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.7761575776016107
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+          "synergy": {
+            "best_member_recovery": 0.2328542425568535,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.7671457574431465
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+          "synergy": {
+            "best_member_recovery": 0.18438521057669954,
+            "minimum_sufficient": {
+              "cardinality": 9,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.9979895832649217,
+              "median_recovery": 0.9774153413709599,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "ORGANISM_SCALE_DISTRIBUTED_COMPUTATION",
+            "strong_synergy": false,
+            "synergy_gain": 0.7930301307942603
+          },
+          "winner": {
+            "cardinality": 9,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.9979895832649217,
+            "median_recovery": 0.9774153413709599,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+          "synergy": {
+            "best_member_recovery": 0.19339350117573123,
+            "minimum_sufficient": {
+              "cardinality": 10,
+              "counterfactual_success": 1.0,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.0,
+              "median_recovery": 1.0,
+              "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "WHOLE_ORGANISM_CAUSAL_STATE_REQUIRED",
+            "strong_synergy": false,
+            "synergy_gain": 0.8066064988242687
+          },
+          "winner": {
+            "cardinality": 10,
+            "counterfactual_success": 1.0,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.0,
+            "median_recovery": 1.0,
+            "nodes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        }
+      ],
+      "organisms_passing": 10,
+      "pass_fraction": 1.0,
+      "powered_organisms": 10,
+      "required_passes": 6,
+      "strong_synergy_family": false,
+      "trigger": {
+        "an_a_compact": true,
+        "an_a_winner": "STATE40-K1",
+        "an_b_broad_or_absent": true,
+        "an_b_winner": null,
+        "trigger": true
+      }
+    },
+    "partial_observation": {
+      "engines": [],
+      "family_pass": false,
+      "median_minimum_coalition_cardinality": null,
+      "organism_winners": [],
+      "organisms_passing": 0,
+      "pass_fraction": 0,
+      "powered_organisms": 0,
+      "required_passes": 1,
+      "strong_synergy_family": false,
+      "trigger": {
+        "an_a_compact": false,
+        "an_a_winner": null,
+        "an_b_broad_or_absent": true,
+        "an_b_winner": null,
+        "trigger": true
+      }
+    },
+    "variable_composition": {
+      "engines": [
+        "DIRECTED_STRUCTURAL_SEARCH",
+        "RANDOM_STRUCTURAL_SAMPLER"
+      ],
+      "family_pass": true,
+      "median_minimum_coalition_cardinality": 4.0,
+      "organism_winners": [
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+          "synergy": {
+            "best_member_recovery": 0.4375570355393689,
+            "minimum_sufficient": {
+              "cardinality": 3,
+              "counterfactual_success": 0.946236559139785,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.747105810782668,
+              "median_recovery": 0.9366270013181699,
+              "nodes": [
+                1,
+                2,
+                6
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "NON_SYNERGISTIC_OR_MODERATE_COALITION",
+            "strong_synergy": false,
+            "synergy_gain": 0.499069965778801
+          },
+          "winner": {
+            "cardinality": 3,
+            "counterfactual_success": 0.946236559139785,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.747105810782668,
+            "median_recovery": 0.9366270013181699,
+            "nodes": [
+              1,
+              2,
+              6
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+          "synergy": {
+            "best_member_recovery": 0.32125540966161925,
+            "minimum_sufficient": {
+              "cardinality": 6,
+              "counterfactual_success": 0.9382022471910112,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.9533317502584362,
+              "median_recovery": 0.90506563733323,
+              "nodes": [
+                0,
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "NON_SYNERGISTIC_OR_MODERATE_COALITION",
+            "strong_synergy": false,
+            "synergy_gain": 0.5838102276716107
+          },
+          "winner": {
+            "cardinality": 6,
+            "counterfactual_success": 0.9382022471910112,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.9533317502584362,
+            "median_recovery": 0.90506563733323,
+            "nodes": [
+              0,
+              3,
+              5,
+              6,
+              7,
+              8
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+          "synergy": {
+            "best_member_recovery": 0.2549690446361581,
+            "minimum_sufficient": {
+              "cardinality": 4,
+              "counterfactual_success": 0.8409090909090909,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.9478945495070583,
+              "median_recovery": 0.8202882935855842,
+              "nodes": [
+                6,
+                7,
+                8,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "COMPACT_SYNERGISTIC_CAUSAL_COALITION",
+            "strong_synergy": true,
+            "synergy_gain": 0.5653192489494261
+          },
+          "winner": {
+            "cardinality": 4,
+            "counterfactual_success": 0.8409090909090909,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.9478945495070583,
+            "median_recovery": 0.8202882935855842,
+            "nodes": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "DIRECTED_STRUCTURAL_SEARCH",
+          "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+          "synergy": {
+            "best_member_recovery": 0.34396769474787325,
+            "minimum_sufficient": {
+              "cardinality": 5,
+              "counterfactual_success": 0.7637362637362637,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.8197077476163905,
+              "median_recovery": 0.778084255536653,
+              "nodes": [
+                1,
+                2,
+                3,
+                5,
+                8
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "NON_SYNERGISTIC_OR_MODERATE_COALITION",
+            "strong_synergy": false,
+            "synergy_gain": 0.4341165607887797
+          },
+          "winner": {
+            "cardinality": 5,
+            "counterfactual_success": 0.7637362637362637,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.8197077476163905,
+            "median_recovery": 0.778084255536653,
+            "nodes": [
+              1,
+              2,
+              3,
+              5,
+              8
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+          "synergy": {
+            "best_member_recovery": 0.30398154024572277,
+            "minimum_sufficient": {
+              "cardinality": 5,
+              "counterfactual_success": 0.9772727272727273,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.989016507239509,
+              "median_recovery": 0.939771464435706,
+              "nodes": [
+                1,
+                2,
+                4,
+                6,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "NON_SYNERGISTIC_OR_MODERATE_COALITION",
+            "strong_synergy": false,
+            "synergy_gain": 0.6357899241899833
+          },
+          "winner": {
+            "cardinality": 5,
+            "counterfactual_success": 0.9772727272727273,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.989016507239509,
+            "median_recovery": 0.939771464435706,
+            "nodes": [
+              1,
+              2,
+              4,
+              6,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+          "synergy": {
+            "best_member_recovery": 0.2050383677040407,
+            "minimum_sufficient": {
+              "cardinality": 4,
+              "counterfactual_success": 0.8068181818181818,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.9803658409180924,
+              "median_recovery": 0.8197895794251007,
+              "nodes": [
+                3,
+                6,
+                7,
+                8
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "COMPACT_SYNERGISTIC_CAUSAL_COALITION",
+            "strong_synergy": true,
+            "synergy_gain": 0.61475121172106
+          },
+          "winner": {
+            "cardinality": 4,
+            "counterfactual_success": 0.8068181818181818,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.9803658409180924,
+            "median_recovery": 0.8197895794251007,
+            "nodes": [
+              3,
+              6,
+              7,
+              8
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0",
+          "synergy": {
+            "best_member_recovery": 0.2887543996752076,
+            "minimum_sufficient": {
+              "cardinality": 4,
+              "counterfactual_success": 0.7,
+              "direction_agreement": 0.9777777777777777,
+              "median_ood_ratio": 1.9527939888100248,
+              "median_recovery": 0.7407463954673537,
+              "nodes": [
+                0,
+                6,
+                7,
+                9
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "COMPACT_SYNERGISTIC_CAUSAL_COALITION",
+            "strong_synergy": true,
+            "synergy_gain": 0.45199199579214605
+          },
+          "winner": {
+            "cardinality": 4,
+            "counterfactual_success": 0.7,
+            "direction_agreement": 0.9777777777777777,
+            "median_ood_ratio": 1.9527939888100248,
+            "median_recovery": 0.7407463954673537,
+            "nodes": [
+              0,
+              6,
+              7,
+              9
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        },
+        {
+          "engine": "RANDOM_STRUCTURAL_SAMPLER",
+          "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+          "synergy": {
+            "best_member_recovery": 0.3673671072344377,
+            "minimum_sufficient": {
+              "cardinality": 4,
+              "counterfactual_success": 0.8488372093023255,
+              "direction_agreement": 1.0,
+              "median_ood_ratio": 1.9969131523460486,
+              "median_recovery": 0.8127593243084774,
+              "nodes": [
+                0,
+                2,
+                5,
+                7
+              ],
+              "paired_p": 6.1031431187061336e-05,
+              "pass": true
+            },
+            "qualifier": "NON_SYNERGISTIC_OR_MODERATE_COALITION",
+            "strong_synergy": false,
+            "synergy_gain": 0.4453922170740397
+          },
+          "winner": {
+            "cardinality": 4,
+            "counterfactual_success": 0.8488372093023255,
+            "direction_agreement": 1.0,
+            "median_ood_ratio": 1.9969131523460486,
+            "median_recovery": 0.8127593243084774,
+            "nodes": [
+              0,
+              2,
+              5,
+              7
+            ],
+            "paired_p": 6.1031431187061336e-05,
+            "pass": true
+          }
+        }
+      ],
+      "organisms_passing": 8,
+      "pass_fraction": 1.0,
+      "powered_organisms": 8,
+      "required_passes": 5,
+      "strong_synergy_family": false,
+      "trigger": {
+        "an_a_compact": true,
+        "an_a_winner": "STATE40-K1",
+        "an_b_broad_or_absent": true,
+        "an_b_winner": null,
+        "trigger": true
+      }
+    }
+  },
+  "version": "V837an"
+}

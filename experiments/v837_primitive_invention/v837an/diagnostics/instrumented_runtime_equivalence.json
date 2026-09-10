@@ -1,0 +1,23 @@
+{
+  "cross_organism_state_invertibility_required": false,
+  "episode_runs": 200,
+  "intervention_hooks": [
+    "patch_state",
+    "patch_output",
+    "patch_message",
+    "patch_global_term",
+    "patch_gate"
+  ],
+  "max_abs": {
+    "gate": 0.0,
+    "global": 0.0,
+    "message": 0.0,
+    "output": 0.0,
+    "prediction": 0.0,
+    "state": 0.0
+  },
+  "organisms": 50,
+  "pass": true,
+  "state_patch_semantics": "post-update state replacement -> patched output -> later same-step recipients -> recurrent next state",
+  "version": "V837an"
+}

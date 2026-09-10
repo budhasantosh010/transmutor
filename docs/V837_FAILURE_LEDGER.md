@@ -2862,3 +2862,1613 @@ Append-only research memory. Older failure entries and measurements must never b
 - **Source commit:** `7d3b70ee6907b5502e0f229116d74eff4745c71e`
 - **Artifacts:** experiments/v837_primitive_invention/v837am/raw/am_c_selection.json
 
+## REF-AN-001 — V837an / HISTORICAL_INTERPRETATION_REFINEMENT
+
+- **Hypothesis:** V837am AM-A provided valid evidence for all 126 tested context-conditioned interface configurations.
+- **Result:** interpretation refinement; historical diagnosis preserved / INTERPRETATION_REFINEMENT
+- **Failed gate:** 105/126 configurations invalid before scientific effect gate
+- **Meaning:** V837am remains valid within its declared interface gate, but most AM-A configurations cannot be cited as direct evidence against noninvertible causal macrovariables.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837am/raw/am_a_selection.json, experiments/v837_primitive_invention/v837an/diagnostics/historical_interpretation_refinement.json
+
+## REF-AN-002 — V837an / HISTORICAL_INTERPRETATION_REFINEMENT
+
+- **Hypothesis:** V837am AM-C temporal/history candidates obtained valid intervention pairs and then failed the temporal effect gate.
+- **Result:** interpretation refinement; historical diagnosis preserved / INTERPRETATION_REFINEMENT
+- **Failed gate:** 0 valid evaluated pairs for all 7 AM-C configurations
+- **Meaning:** The tested temporal-interface formulation could not satisfy its prerequisite state-map validity gate; temporal causal operators were not directly disproven.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837am/raw/am_c_selection.json, experiments/v837_primitive_invention/v837an/diagnostics/historical_interpretation_refinement.json
+
+## REF-AN-003 — V837an / HISTORICAL_INTERPRETATION_REFINEMENT
+
+- **Hypothesis:** V837am's diagnosis can be restated as definitive disproof of temporal causal operators or all shared internal causal abstractions.
+- **Result:** append-only interpretation refinement / INTERPRETATION_REFINEMENT
+- **Failed gate:** N/A
+- **Meaning:** V837am remains the authority for failure of its tested operator/interface formulation; V837an asks a different question that removes full-state invertibility as an assumption.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837am/diagnostics/decision_state.json, docs/V837_FAILURE_LEDGER.md
+
+## V837an-AN-A-conditional_routing-OUTPUT40-K1 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 1D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-OUTPUT40-K2 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 2D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-OUTPUT40-K4 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 4D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-OUTPUT40-K8 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 8D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-MESSAGE40-K1 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 1D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-MESSAGE40-K2 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 2D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-MESSAGE40-K4 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 4D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-MESSAGE40-K8 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 8D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-GLOBAL40-K1 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 1D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-GLOBAL40-K2 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 2D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-GLOBAL40-K4 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 4D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-GLOBAL40-K8 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 8D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-conditional_routing-GATE1-K1 — V837an / AN-A
+
+- **Hypothesis:** conditional_routing uses a 1D causal macrovariable in GATE1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-OUTPUT40-K1 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 1D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-OUTPUT40-K2 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 2D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-OUTPUT40-K4 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 4D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-OUTPUT40-K8 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 8D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-MESSAGE40-K1 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 1D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-MESSAGE40-K2 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 2D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-MESSAGE40-K4 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 4D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-MESSAGE40-K8 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 8D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-GLOBAL40-K1 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 1D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-GLOBAL40-K2 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 2D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-GLOBAL40-K4 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 4D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-GLOBAL40-K8 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 8D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-delayed_recall-GATE1-K1 — V837an / AN-A
+
+- **Hypothesis:** delayed_recall uses a 1D causal macrovariable in GATE1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-OUTPUT40-K1 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 1D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-OUTPUT40-K2 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 2D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-OUTPUT40-K4 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 4D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-OUTPUT40-K8 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 8D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-MESSAGE40-K1 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 1D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-MESSAGE40-K2 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 2D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-MESSAGE40-K4 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 4D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-MESSAGE40-K8 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 8D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-GLOBAL40-K1 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 1D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-GLOBAL40-K2 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 2D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-GLOBAL40-K4 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 4D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-GLOBAL40-K8 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 8D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-iterative_state-GATE1-K1 — V837an / AN-A
+
+- **Hypothesis:** iterative_state uses a 1D causal macrovariable in GATE1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-STATE40-K1 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 1D causal macrovariable in STATE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-STATE40-K2 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 2D causal macrovariable in STATE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-STATE40-K4 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 4D causal macrovariable in STATE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-STATE40-K8 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 8D causal macrovariable in STATE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-OUTPUT40-K1 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 1D causal macrovariable in OUTPUT40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-OUTPUT40-K4 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 4D causal macrovariable in OUTPUT40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-OUTPUT40-K8 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 8D causal macrovariable in OUTPUT40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-MESSAGE40-K1 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 1D causal macrovariable in MESSAGE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-MESSAGE40-K2 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 2D causal macrovariable in MESSAGE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-MESSAGE40-K4 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 4D causal macrovariable in MESSAGE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-MESSAGE40-K8 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 8D causal macrovariable in MESSAGE40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-GLOBAL40-K1 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 1D causal macrovariable in GLOBAL40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-GLOBAL40-K2 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 2D causal macrovariable in GLOBAL40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-GLOBAL40-K4 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 4D causal macrovariable in GLOBAL40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-GLOBAL40-K8 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 8D causal macrovariable in GLOBAL40.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-partial_observation-GATE1-K1 — V837an / AN-A
+
+- **Hypothesis:** partial_observation uses a 1D causal macrovariable in GATE1.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** FAMILY_CAUSAL_EVIDENCE_UNDERPOWERED
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-OUTPUT40-K1 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 1D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-OUTPUT40-K2 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 2D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-OUTPUT40-K4 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 4D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-OUTPUT40-K8 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 8D causal macrovariable in OUTPUT40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-MESSAGE40-K1 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 1D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-MESSAGE40-K2 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 2D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-MESSAGE40-K4 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 4D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-MESSAGE40-K8 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 8D causal macrovariable in MESSAGE40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-GLOBAL40-K1 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 1D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-GLOBAL40-K2 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 2D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-GLOBAL40-K4 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 4D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-GLOBAL40-K8 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 8D causal macrovariable in GLOBAL40.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-AN-A-variable_composition-GATE1-K1 — V837an / AN-A
+
+- **Hypothesis:** variable_composition uses a 1D causal macrovariable in GATE1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** <60% powered competent organisms pass source-swap gate, both discovery engines not represented among passes
+- **Meaning:** This exact low-dimensional carrier configuration did not establish the frozen family-level causal abstraction gate.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/an_a_selection.json
+
+## V837an-ENG-001-TEST-IMPORT-API-MISMATCH — V837an / ENGINEERING
+
+- **Hypothesis:** The initial V837an focused test harness imports matched the implemented decomposition API.
+- **Result:** implementation failure repaired before scientific interpretation / ENGINEERING_FAILURE
+- **Failed gate:** initial focused test import failed
+- **Meaning:** A test/API naming mismatch was repaired; it provides no scientific evidence.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** tests/test_v837an_causal_routing_distributed_primitives.py
+
+## V837an-ENG-002-HARNESS-PERMISSION-ROUTING — V837an / ENGINEERING
+
+- **Hypothesis:** The canonical resumable auto-workspace task could launch arbitrary long-running science commands directly.
+- **Result:** infrastructure permission failure bypassed without altering science / ENGINEERING_FAILURE
+- **Failed gate:** new auto_workspace task could not launch arbitrary process
+- **Meaning:** Execution routing changed, not the scientific program.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/run_pipeline.py
+
+## V837an-AN-B-conditional_routing-COMBINED_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-COMBINED_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-COMBINED_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-COMBINED_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-COMBINED_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-COMBINED_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-GLOBAL_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-GLOBAL_PREFIX_10 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_10.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-GLOBAL_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-GLOBAL_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-GLOBAL_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-MESSAGE_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-MESSAGE_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-MESSAGE_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-MESSAGE_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-MESSAGE_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-conditional_routing-MESSAGE_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** conditional_routing causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-COMBINED_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-COMBINED_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-COMBINED_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-COMBINED_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-COMBINED_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-COMBINED_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-GLOBAL_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-GLOBAL_PREFIX_10 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_10.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-GLOBAL_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-GLOBAL_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-GLOBAL_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-MESSAGE_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-MESSAGE_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-MESSAGE_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-MESSAGE_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-MESSAGE_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-delayed_recall-MESSAGE_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** delayed_recall causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-COMBINED_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-COMBINED_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-COMBINED_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-COMBINED_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-COMBINED_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-COMBINED_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-GLOBAL_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-GLOBAL_PREFIX_10 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_10.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-GLOBAL_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-GLOBAL_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-GLOBAL_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-MESSAGE_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-MESSAGE_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-MESSAGE_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-MESSAGE_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-MESSAGE_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-iterative_state-MESSAGE_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** iterative_state causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-COMBINED_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_1.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-COMBINED_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_16.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-COMBINED_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_2.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-COMBINED_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_32.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-COMBINED_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_4.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-COMBINED_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_8.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-GLOBAL_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_1.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-GLOBAL_PREFIX_10 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_10.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-GLOBAL_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_2.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-GLOBAL_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_4.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-GLOBAL_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_8.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-MESSAGE_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_1.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-MESSAGE_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_16.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-MESSAGE_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_2.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-MESSAGE_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_32.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-MESSAGE_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_4.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-partial_observation-MESSAGE_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** partial_observation causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_8.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-COMBINED_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-COMBINED_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-COMBINED_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-COMBINED_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-COMBINED_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-COMBINED_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration COMBINED_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-GLOBAL_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-GLOBAL_PREFIX_10 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_10.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-GLOBAL_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-GLOBAL_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-GLOBAL_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration GLOBAL_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-MESSAGE_PREFIX_1 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_1.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-MESSAGE_PREFIX_16 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_16.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-MESSAGE_PREFIX_2 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_2.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-MESSAGE_PREFIX_32 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_32.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-MESSAGE_PREFIX_4 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_4.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-B-variable_composition-MESSAGE_PREFIX_8 — V837an / AN-B
+
+- **Hypothesis:** variable_composition causal effect is mediated by frozen FIT-ranked routing configuration MESSAGE_PREFIX_8.
+- **Result:** definitive within tested development scope / SCIENTIFIC_FAILURE
+- **Failed gate:** family routing support gate not met
+- **Meaning:** This routing configuration did not establish a shared family-level causal routing mechanism.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/routing_selection.json
+
+## V837an-AN-C-partial_observation-COALITION — V837an / AN-C
+
+- **Hypothesis:** partial_observation is implemented by a sufficient distributed cell coalition under within-organism natural counterfactual state patching.
+- **Result:** underpowered / UNDERPOWERED
+- **Failed gate:** family coalition support gate not met
+- **Meaning:** No sufficiently supported coalition abstraction was established for this family under the frozen V837an cell-subset intervention scope.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/raw/coalition_scan.json
+
+## V837an-ENG-ANB-PADDING-DECOMPOSITION — V837an / AN-B_ENGINEERING_PREFLIGHT
+
+- **Hypothesis:** Contribution decomposition reconstructs the historical runtime trace on active and padded timesteps without explicit length masking.
+- **Result:** engineering failure fixed before scientific routing measurements; no invalid science retained / ENGINEERING_FAILURE
+- **Failed gate:** MESSAGE_CONTRIBUTION_DECOMPOSITION_INVALID:3.2156500816345215
+- **Meaning:** The original decomposition omitted historical-runtime padding semantics; the routing hypothesis itself was not tested by this failed preflight.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/diagnostics/message_decomposition.json, experiments/v837_primitive_invention/v837an/diagnostics/global_decomposition.json
+
+## V837an-ENG-ANB-GLOBAL-FP-CLOSURE — V837an / AN-B_ENGINEERING_PREFLIGHT
+
+- **Hypothesis:** Summing ten float32 split global-source GEMMs reconstructs the monolithic historical global term within the frozen 1e-6 gate.
+- **Result:** engineering numerical-closure failure fixed before scientific routing measurements; no invalid science retained / ENGINEERING_FAILURE
+- **Failed gate:** counterfactual global decomposition exceeded 1e-6 by float32 accumulation residual
+- **Meaning:** Split-GEMM float32 accumulation order caused a preflight numerical closure miss; explicit deterministic residual closure restored exact frozen-gate equivalence without changing causal channels.
+- **Do not repeat unchanged:** True
+- **Source commit:** `f556c92a895b141f73f214e5eda3ac29b1927ea9`
+- **Artifacts:** experiments/v837_primitive_invention/v837an/diagnostics/message_decomposition.json, experiments/v837_primitive_invention/v837an/diagnostics/global_decomposition.json
+

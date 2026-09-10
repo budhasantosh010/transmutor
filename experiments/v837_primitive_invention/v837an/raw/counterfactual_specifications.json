@@ -1,0 +1,39 @@
+{
+  "families": [
+    {
+      "family": "conditional_routing",
+      "intervention": "CONTROL_FLIP",
+      "meaningful_target_displacement": 372,
+      "seeds": 512
+    },
+    {
+      "family": "delayed_recall",
+      "intervention": "MEMORY_VALUE_FLIP",
+      "meaningful_target_displacement": 512,
+      "seeds": 512
+    },
+    {
+      "family": "iterative_state",
+      "intervention": "MID_INPUT_FLIP",
+      "meaningful_target_displacement": 315,
+      "seeds": 512
+    },
+    {
+      "family": "partial_observation",
+      "intervention": "INITIAL_LATENT_SIGN_FLIP",
+      "meaningful_target_displacement": 162,
+      "seeds": 512
+    },
+    {
+      "family": "variable_composition",
+      "intervention": "INITIAL_VALUE_SIGN_FLIP",
+      "meaningful_target_displacement": 368,
+      "seeds": 512
+    }
+  ],
+  "fresh_audit_consumed": false,
+  "new_random_task_seeds": 0,
+  "pass": true,
+  "task_seed_source": "historical seeds only",
+  "version": "V837an"
+}

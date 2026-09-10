@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 .venv/
+experiments/v837_primitive_invention/v837an/cache/
 .env
 .DS_Store

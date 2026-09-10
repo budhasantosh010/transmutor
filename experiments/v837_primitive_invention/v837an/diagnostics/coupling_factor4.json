@@ -1,0 +1,894 @@
+{
+  "diagnostic_only": true,
+  "rows": [
+    {
+      "decoder_r2": -0.015562179808616072,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775"
+    },
+    {
+      "decoder_r2": -0.010942304022215188,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775"
+    },
+    {
+      "decoder_r2": -0.03815227326190018,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775"
+    },
+    {
+      "decoder_r2": -0.005232378808530891,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61"
+    },
+    {
+      "decoder_r2": 0.01576482271808699,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61"
+    },
+    {
+      "decoder_r2": 0.013205827958146288,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61"
+    },
+    {
+      "decoder_r2": -0.005540541091446416,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a"
+    },
+    {
+      "decoder_r2": -0.008975285884072592,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a"
+    },
+    {
+      "decoder_r2": -0.06035655987756616,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a"
+    },
+    {
+      "decoder_r2": 0.00010220079480305344,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0"
+    },
+    {
+      "decoder_r2": 0.014065739267102195,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0"
+    },
+    {
+      "decoder_r2": 0.013467902917569607,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0"
+    },
+    {
+      "decoder_r2": 0.0011396268175035695,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626"
+    },
+    {
+      "decoder_r2": -0.0011516653779162223,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626"
+    },
+    {
+      "decoder_r2": -0.02691490916278072,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626"
+    },
+    {
+      "decoder_r2": 0.9078016139454463,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280"
+    },
+    {
+      "decoder_r2": 0.9090410754937814,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280"
+    },
+    {
+      "decoder_r2": 0.9044785116743631,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280"
+    },
+    {
+      "decoder_r2": 0.9789892541432499,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a"
+    },
+    {
+      "decoder_r2": 0.9790104513757938,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a"
+    },
+    {
+      "decoder_r2": 0.9792557924367284,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a"
+    },
+    {
+      "decoder_r2": 0.8450699229790641,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8"
+    },
+    {
+      "decoder_r2": 0.8709074736027611,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8"
+    },
+    {
+      "decoder_r2": 0.8954693628366216,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8"
+    },
+    {
+      "decoder_r2": 0.9051710393561564,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9"
+    },
+    {
+      "decoder_r2": 0.9158293566617035,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9"
+    },
+    {
+      "decoder_r2": 0.917222470279573,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9"
+    },
+    {
+      "decoder_r2": 0.8960668361550966,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf"
+    },
+    {
+      "decoder_r2": 0.900669423243852,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf"
+    },
+    {
+      "decoder_r2": 0.9018860269850197,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf"
+    },
+    {
+      "decoder_r2": 0.08027515252270456,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b"
+    },
+    {
+      "decoder_r2": 0.1911242258981557,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b"
+    },
+    {
+      "decoder_r2": 0.20562443626446059,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b"
+    },
+    {
+      "decoder_r2": 0.17965283051646685,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3"
+    },
+    {
+      "decoder_r2": 0.2649458667088542,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3"
+    },
+    {
+      "decoder_r2": 0.4388543894308692,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3"
+    },
+    {
+      "decoder_r2": 0.18350868707006263,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38"
+    },
+    {
+      "decoder_r2": 0.37469318054798006,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38"
+    },
+    {
+      "decoder_r2": 0.3776708281049739,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38"
+    },
+    {
+      "decoder_r2": 0.1813944450741024,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf"
+    },
+    {
+      "decoder_r2": 0.18272082132347234,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf"
+    },
+    {
+      "decoder_r2": 0.39959329556943846,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf"
+    },
+    {
+      "decoder_r2": 0.3342099822773771,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2"
+    },
+    {
+      "decoder_r2": 0.43722635949926003,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2"
+    },
+    {
+      "decoder_r2": 0.46991462208109513,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2"
+    },
+    {
+      "decoder_r2": -0.13937329509988938,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f"
+    },
+    {
+      "decoder_r2": -0.13837135659600897,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f"
+    },
+    {
+      "decoder_r2": -0.11198132589949084,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f"
+    },
+    {
+      "decoder_r2": -0.14335082113750586,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37"
+    },
+    {
+      "decoder_r2": -0.10998692932274423,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37"
+    },
+    {
+      "decoder_r2": -0.0016442563002381227,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37"
+    },
+    {
+      "decoder_r2": -0.1534579337901243,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc"
+    },
+    {
+      "decoder_r2": -0.15526995493196938,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc"
+    },
+    {
+      "decoder_r2": -0.21954943693058282,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc"
+    },
+    {
+      "decoder_r2": -0.071078326472372,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0"
+    },
+    {
+      "decoder_r2": -0.03866733678853418,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0"
+    },
+    {
+      "decoder_r2": -0.07594506404562562,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0"
+    },
+    {
+      "decoder_r2": 0.004884672584476335,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726"
+    },
+    {
+      "decoder_r2": 0.0014772106021636588,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726"
+    },
+    {
+      "decoder_r2": -0.0010000652190198522,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726"
+    },
+    {
+      "decoder_r2": -0.012070981984313889,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1"
+    },
+    {
+      "decoder_r2": -0.029890811792624428,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1"
+    },
+    {
+      "decoder_r2": -0.041929617834199906,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1"
+    },
+    {
+      "decoder_r2": -0.004328706217305411,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e"
+    },
+    {
+      "decoder_r2": -0.020204731661062514,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e"
+    },
+    {
+      "decoder_r2": -0.02878550611255859,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e"
+    },
+    {
+      "decoder_r2": 0.047608521832896544,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6"
+    },
+    {
+      "decoder_r2": 0.04768445315050496,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 2,
+      "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6"
+    },
+    {
+      "decoder_r2": 0.018284272869980467,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "conditional_routing",
+      "k": 4,
+      "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6"
+    },
+    {
+      "decoder_r2": 0.9234309605255462,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53"
+    },
+    {
+      "decoder_r2": 0.9242103935029762,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53"
+    },
+    {
+      "decoder_r2": 0.9314507985519542,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53"
+    },
+    {
+      "decoder_r2": 0.9220620143136256,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656"
+    },
+    {
+      "decoder_r2": 0.9220861275210092,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656"
+    },
+    {
+      "decoder_r2": 0.9357047312474424,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656"
+    },
+    {
+      "decoder_r2": 0.8565202010357746,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1"
+    },
+    {
+      "decoder_r2": 0.9066959548442427,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1"
+    },
+    {
+      "decoder_r2": 0.9068941245860898,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1"
+    },
+    {
+      "decoder_r2": 0.9020905866014219,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45"
+    },
+    {
+      "decoder_r2": 0.9047948682883544,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45"
+    },
+    {
+      "decoder_r2": 0.9175554086445181,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45"
+    },
+    {
+      "decoder_r2": 0.8888098448488249,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b"
+    },
+    {
+      "decoder_r2": 0.9158191365142233,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 2,
+      "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b"
+    },
+    {
+      "decoder_r2": 0.9617342502863178,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "delayed_recall",
+      "k": 4,
+      "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b"
+    },
+    {
+      "decoder_r2": 0.3725824999379177,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac"
+    },
+    {
+      "decoder_r2": 0.3705426179651212,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac"
+    },
+    {
+      "decoder_r2": 0.37191010127621094,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac"
+    },
+    {
+      "decoder_r2": 0.033552674434040086,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62"
+    },
+    {
+      "decoder_r2": 0.43478662465379236,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62"
+    },
+    {
+      "decoder_r2": 0.43436978524764847,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62"
+    },
+    {
+      "decoder_r2": -0.032220500393782325,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af"
+    },
+    {
+      "decoder_r2": 0.2942173792171988,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af"
+    },
+    {
+      "decoder_r2": 0.29030869487950606,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af"
+    },
+    {
+      "decoder_r2": 0.18811733021775545,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7"
+    },
+    {
+      "decoder_r2": 0.18450308183755015,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7"
+    },
+    {
+      "decoder_r2": 0.27619412580893876,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7"
+    },
+    {
+      "decoder_r2": 0.2923746619293236,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c"
+    },
+    {
+      "decoder_r2": 0.29107696509384595,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 2,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c"
+    },
+    {
+      "decoder_r2": 0.3842547987760857,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "iterative_state",
+      "k": 4,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c"
+    },
+    {
+      "decoder_r2": -0.09394788700739531,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771"
+    },
+    {
+      "decoder_r2": -0.09146500883208786,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771"
+    },
+    {
+      "decoder_r2": -0.10796639207658432,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771"
+    },
+    {
+      "decoder_r2": -0.08806748759893801,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8"
+    },
+    {
+      "decoder_r2": -0.07552216434693748,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8"
+    },
+    {
+      "decoder_r2": 0.002099471539667608,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8"
+    },
+    {
+      "decoder_r2": -0.09944780561675759,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0"
+    },
+    {
+      "decoder_r2": -0.08817548450735546,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0"
+    },
+    {
+      "decoder_r2": -0.0971771347684629,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0"
+    },
+    {
+      "decoder_r2": -0.06904394082017418,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3"
+    },
+    {
+      "decoder_r2": -0.06465562284641724,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 2,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3"
+    },
+    {
+      "decoder_r2": -0.07638805126015047,
+      "diagnostic_only": true,
+      "exact_intervention_implemented": false,
+      "family": "variable_composition",
+      "k": 4,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3"
+    }
+  ],
+  "version": "V837an"
+}

@@ -1,0 +1,11 @@
+{
+  "canonicalization_allowed_next": true,
+  "diagnosis": "GENERAL_CAUSAL_LATENT_PRIMITIVE_PATTERN",
+  "fresh_audit_episodes_consumed": 0,
+  "next_program": "V837ao_LATENT_PRIMITIVE_CANONICALIZATION",
+  "primitive_archive_allowed_next": false,
+  "primitives_promoted": 0,
+  "qualifier": null,
+  "v838_started": false,
+  "version": "V837an"
+}

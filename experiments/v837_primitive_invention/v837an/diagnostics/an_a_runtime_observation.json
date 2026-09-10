@@ -1,0 +1,10 @@
+{
+  "version": "V837an",
+  "stage": "AN-A",
+  "wall_seconds_exact_from_artifact": 730.8427867999999,
+  "an_a_cpu_seconds_exact": null,
+  "an_a_cpu_seconds_lower_bound": 901.90625,
+  "lower_bound_source": "live OS process counter observed while the AN-A process was still running",
+  "reason_exact_cpu_unavailable": "the original AN-A process exited before a final OS CPU counter snapshot was captured",
+  "scientific_results_recomputed_for_accounting": false
+}

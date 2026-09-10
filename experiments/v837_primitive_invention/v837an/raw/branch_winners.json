@@ -1,0 +1,71 @@
+{
+  "families": {
+    "conditional_routing": {
+      "AN-A": {
+        "branch": "AN-A",
+        "carrier": "STATE40",
+        "config_id": "STATE40-K1",
+        "k": 1,
+        "semantic_compiler": true
+      },
+      "AN-B": null,
+      "AN-C": {
+        "branch": "AN-C",
+        "config_id": "COALITION",
+        "strong_synergy_family": false
+      }
+    },
+    "delayed_recall": {
+      "AN-A": {
+        "branch": "AN-A",
+        "carrier": "STATE40",
+        "config_id": "STATE40-K1",
+        "k": 1,
+        "semantic_compiler": true
+      },
+      "AN-B": null,
+      "AN-C": {
+        "branch": "AN-C",
+        "config_id": "COALITION",
+        "strong_synergy_family": false
+      }
+    },
+    "iterative_state": {
+      "AN-A": {
+        "branch": "AN-A",
+        "carrier": "STATE40",
+        "config_id": "STATE40-K1",
+        "k": 1,
+        "semantic_compiler": true
+      },
+      "AN-B": null,
+      "AN-C": {
+        "branch": "AN-C",
+        "config_id": "COALITION",
+        "strong_synergy_family": false
+      }
+    },
+    "partial_observation": {
+      "AN-A": null,
+      "AN-B": null,
+      "AN-C": null
+    },
+    "variable_composition": {
+      "AN-A": {
+        "branch": "AN-A",
+        "carrier": "STATE40",
+        "config_id": "STATE40-K1",
+        "k": 1,
+        "semantic_compiler": true
+      },
+      "AN-B": null,
+      "AN-C": {
+        "branch": "AN-C",
+        "config_id": "COALITION",
+        "strong_synergy_family": false
+      }
+    }
+  },
+  "frozen_before_meta": true,
+  "version": "V837an"
+}

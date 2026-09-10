@@ -1,0 +1,36 @@
+{
+  "episodes_verified": 2560,
+  "exact_observation_arrays": 2560,
+  "families": [
+    {
+      "family": "conditional_routing",
+      "primary_probe": "ROUTING_CONTROL_STATE",
+      "seeds": 512
+    },
+    {
+      "family": "delayed_recall",
+      "primary_probe": "RECALL_MAINTAIN",
+      "seeds": 512
+    },
+    {
+      "family": "iterative_state",
+      "primary_probe": "ITERATIVE_RUNNING_STATE",
+      "seeds": 512
+    },
+    {
+      "family": "partial_observation",
+      "primary_probe": "PARTIAL_LATENT_Z",
+      "seeds": 512
+    },
+    {
+      "family": "variable_composition",
+      "primary_probe": "COMPOSITION_RUNNING_STATE",
+      "seeds": 512
+    }
+  ],
+  "fresh_audit_consumed": false,
+  "max_observation_abs_error": 0.0,
+  "max_target_abs_error": 0.0,
+  "pass": true,
+  "version": "V837an"
+}

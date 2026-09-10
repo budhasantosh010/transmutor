@@ -1,0 +1,540 @@
+{
+  "communication_channel_synergy": [
+    {
+      "family": "conditional_routing",
+      "organism_id": "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+      "qualifiers": [
+        "COMMUNICATION_CHANNEL_SYNERGY_MESSAGE_GLOBAL"
+      ],
+      "values": {
+        "BUS_ALL": 0.9633460275360123,
+        "BUS_GATE_ONLY": 0.09087566764817923,
+        "BUS_GLOBAL_GATE": 0.5239574147070065,
+        "BUS_GLOBAL_ONLY": 0.3037929358482671,
+        "BUS_MESSAGE_GATE": 0.38034321730440707,
+        "BUS_MESSAGE_GLOBAL": 0.7178867015786652,
+        "BUS_MESSAGE_ONLY": 0.3484197988291392
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.935411439211902,
+        "BUS_GATE_ONLY": -0.006865489282060877,
+        "BUS_GLOBAL_GATE": 0.8128263363883947,
+        "BUS_GLOBAL_ONLY": 0.8092773158495512,
+        "BUS_MESSAGE_GATE": -0.035474104100251425,
+        "BUS_MESSAGE_GLOBAL": 0.8417203386020804,
+        "BUS_MESSAGE_ONLY": 0.040174174681564756
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "qualifiers": [
+        "COMMUNICATION_CHANNEL_SYNERGY_MESSAGE_GLOBAL"
+      ],
+      "values": {
+        "BUS_ALL": 0.9406102382650785,
+        "BUS_GATE_ONLY": 0.10550646468640484,
+        "BUS_GLOBAL_GATE": 0.5752462881663446,
+        "BUS_GLOBAL_ONLY": 0.37404746920364984,
+        "BUS_MESSAGE_GATE": 0.46880840078064817,
+        "BUS_MESSAGE_GLOBAL": 0.7096395346441611,
+        "BUS_MESSAGE_ONLY": 0.3249474103034692
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.8477446446499457,
+        "BUS_GATE_ONLY": 0.06516647104206857,
+        "BUS_GLOBAL_GATE": 0.83691420324176,
+        "BUS_GLOBAL_ONLY": 0.762524846803341,
+        "BUS_MESSAGE_GATE": 0.2071987646167982,
+        "BUS_MESSAGE_GLOBAL": 0.7282847369429225,
+        "BUS_MESSAGE_ONLY": 0.06076934218059393
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626",
+      "qualifiers": [
+        "COMMUNICATION_CHANNEL_SYNERGY_MESSAGE_GLOBAL"
+      ],
+      "values": {
+        "BUS_ALL": 0.8997502830108969,
+        "BUS_GATE_ONLY": 0.05513598006665299,
+        "BUS_GLOBAL_GATE": 0.51849525006549,
+        "BUS_GLOBAL_ONLY": 0.3878358851703668,
+        "BUS_MESSAGE_GATE": 0.4568210391334628,
+        "BUS_MESSAGE_GLOBAL": 0.8294015249449451,
+        "BUS_MESSAGE_ONLY": 0.37864963505753413
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.0671471651522732,
+        "BUS_GATE_ONLY": 5.789494709196319e-06,
+        "BUS_GLOBAL_GATE": 0.3154563943976869,
+        "BUS_GLOBAL_ONLY": 0.3069887666179097,
+        "BUS_MESSAGE_GATE": 8.463718995488367e-06,
+        "BUS_MESSAGE_GLOBAL": 0.03270583314976183,
+        "BUS_MESSAGE_ONLY": 1.2812388498706362e-05
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.04990593641191027,
+        "BUS_GATE_ONLY": -1.0064449884605864e-08,
+        "BUS_GLOBAL_GATE": 0.8988806271453987,
+        "BUS_GLOBAL_ONLY": 0.9162117463293098,
+        "BUS_MESSAGE_GATE": 1.6415463879926318e-05,
+        "BUS_MESSAGE_GLOBAL": 0.08524543719084238,
+        "BUS_MESSAGE_ONLY": 1.5805802072554886e-05
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.012187887256360164,
+        "BUS_GATE_ONLY": 3.541172006676918e-05,
+        "BUS_GLOBAL_GATE": 0.0082703319843348,
+        "BUS_GLOBAL_ONLY": 0.006547907782801787,
+        "BUS_MESSAGE_GATE": 0.00018584385452785623,
+        "BUS_MESSAGE_GLOBAL": 0.007426293543196072,
+        "BUS_MESSAGE_ONLY": 8.475238995581114e-05
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+      "qualifiers": [
+        "COMMUNICATION_CHANNEL_SYNERGY_GLOBAL_GATE"
+      ],
+      "values": {
+        "BUS_ALL": 0.3531660611615309,
+        "BUS_GATE_ONLY": -7.29112479420646e-05,
+        "BUS_GLOBAL_GATE": 0.7398928743064652,
+        "BUS_GLOBAL_ONLY": 0.505251148267017,
+        "BUS_MESSAGE_GATE": -0.00015474010690275097,
+        "BUS_MESSAGE_GLOBAL": 0.2650436381168431,
+        "BUS_MESSAGE_ONLY": -5.020238325714743e-05
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.011599675007046506,
+        "BUS_GATE_ONLY": -6.366420593473254e-05,
+        "BUS_GLOBAL_GATE": 0.006851531724339888,
+        "BUS_GLOBAL_ONLY": 0.019155264210257206,
+        "BUS_MESSAGE_GATE": -1.0015437452270959e-05,
+        "BUS_MESSAGE_GLOBAL": 0.025275255422232024,
+        "BUS_MESSAGE_ONLY": 2.861503202333804e-05
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.08957040383779269,
+        "BUS_GATE_ONLY": -0.005846053165116882,
+        "BUS_GLOBAL_GATE": 0.003886951943697481,
+        "BUS_GLOBAL_ONLY": 0.004876586288365459,
+        "BUS_MESSAGE_GATE": -0.10061854881386312,
+        "BUS_MESSAGE_GLOBAL": -0.0907827642194372,
+        "BUS_MESSAGE_ONLY": -0.09590813346015525
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.02195020048716545,
+        "BUS_GATE_ONLY": 0.001482355322452944,
+        "BUS_GLOBAL_GATE": -0.02549788345070536,
+        "BUS_GLOBAL_ONLY": -0.03022779690872801,
+        "BUS_MESSAGE_GATE": 0.00868691977508812,
+        "BUS_MESSAGE_GLOBAL": -0.01958770334886295,
+        "BUS_MESSAGE_ONLY": 0.002485679546923414
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.08407912122560768,
+        "BUS_GATE_ONLY": 0.007496155477388355,
+        "BUS_GLOBAL_GATE": -0.0448075160020005,
+        "BUS_GLOBAL_ONLY": -0.05099377077691758,
+        "BUS_MESSAGE_GATE": -0.034114020265261,
+        "BUS_MESSAGE_GLOBAL": -0.08141463962049578,
+        "BUS_MESSAGE_ONLY": -0.026134218445304502
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.06259406018134783,
+        "BUS_GATE_ONLY": -0.0004506153289338677,
+        "BUS_GLOBAL_GATE": -0.04461609174813019,
+        "BUS_GLOBAL_ONLY": -0.04312940550716815,
+        "BUS_MESSAGE_GATE": -0.013623689451053522,
+        "BUS_MESSAGE_GLOBAL": -0.06180034783563437,
+        "BUS_MESSAGE_ONLY": -0.014883521896576157
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.023260655820439013,
+        "BUS_GATE_ONLY": 0.0077154410836404175,
+        "BUS_GLOBAL_GATE": 0.04491933278752641,
+        "BUS_GLOBAL_ONLY": 0.04300861517200161,
+        "BUS_MESSAGE_GATE": -0.07284940429930342,
+        "BUS_MESSAGE_GLOBAL": -0.02517814836875487,
+        "BUS_MESSAGE_ONLY": -0.07602899061641455
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.36486834269387153,
+        "BUS_GATE_ONLY": 0.008504114486689973,
+        "BUS_GLOBAL_GATE": 0.02263255891070759,
+        "BUS_GLOBAL_ONLY": 4.0586445038126584e-08,
+        "BUS_MESSAGE_GATE": 0.3473519629865108,
+        "BUS_MESSAGE_GLOBAL": 0.3436419857970099,
+        "BUS_MESSAGE_ONLY": 0.3524769745045047
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.2373462062064114,
+        "BUS_GATE_ONLY": -0.027366263824033843,
+        "BUS_GLOBAL_GATE": 0.14156601364813665,
+        "BUS_GLOBAL_ONLY": 0.13231397186704524,
+        "BUS_MESSAGE_GATE": 0.06741914176613639,
+        "BUS_MESSAGE_GLOBAL": 0.25805637896854766,
+        "BUS_MESSAGE_ONLY": 0.14697432407411742
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.18105555250605987,
+        "BUS_GATE_ONLY": -0.01128244296267622,
+        "BUS_GLOBAL_GATE": 0.018492905078034416,
+        "BUS_GLOBAL_ONLY": 5.275537989790635e-08,
+        "BUS_MESSAGE_GATE": 0.1164128849779898,
+        "BUS_MESSAGE_GLOBAL": 0.1717267065807,
+        "BUS_MESSAGE_ONLY": 0.13462463533026453
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.14989364295430113,
+        "BUS_GATE_ONLY": -0.01485875525005076,
+        "BUS_GLOBAL_GATE": 0.09475927760334785,
+        "BUS_GLOBAL_ONLY": 0.07900886038653587,
+        "BUS_MESSAGE_GATE": 0.02733096328760576,
+        "BUS_MESSAGE_GLOBAL": 0.11435677412996464,
+        "BUS_MESSAGE_ONLY": 0.06510674214684481
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "qualifiers": [
+        "COMMUNICATION_CHANNEL_SYNERGY_MESSAGE_GLOBAL",
+        "COMMUNICATION_CHANNEL_SYNERGY_GLOBAL_GATE"
+      ],
+      "values": {
+        "BUS_ALL": 0.9573868257461449,
+        "BUS_GATE_ONLY": 0.10301074677147098,
+        "BUS_GLOBAL_GATE": 0.7774097561220443,
+        "BUS_GLOBAL_ONLY": 0.5996856652810088,
+        "BUS_MESSAGE_GATE": 0.3379573475087777,
+        "BUS_MESSAGE_GLOBAL": 0.6892968589779038,
+        "BUS_MESSAGE_ONLY": 0.15557521055667722
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "qualifiers": [
+        "COMMUNICATION_CHANNEL_SYNERGY_GLOBAL_GATE"
+      ],
+      "values": {
+        "BUS_ALL": 0.9076861356441767,
+        "BUS_GATE_ONLY": 0.30574071258449076,
+        "BUS_GLOBAL_GATE": 0.8821354506025325,
+        "BUS_GLOBAL_ONLY": 0.3920700594510097,
+        "BUS_MESSAGE_GATE": 0.3320214862384666,
+        "BUS_MESSAGE_GLOBAL": 0.4349384155129836,
+        "BUS_MESSAGE_ONLY": 0.04697889476179734
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.9264238089896073,
+        "BUS_GATE_ONLY": 0.10170153498612888,
+        "BUS_GLOBAL_GATE": 0.7821223342334824,
+        "BUS_GLOBAL_ONLY": 0.8574747015863599,
+        "BUS_MESSAGE_GATE": -0.02887161077789646,
+        "BUS_MESSAGE_GLOBAL": 0.8179877128155277,
+        "BUS_MESSAGE_ONLY": -0.09606715772733831
+      }
+    },
+    {
+      "family": "conditional_routing",
+      "organism_id": "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+      "qualifiers": [
+        "COMMUNICATION_CHANNEL_SYNERGY_MESSAGE_GLOBAL",
+        "COMMUNICATION_CHANNEL_SYNERGY_GLOBAL_GATE"
+      ],
+      "values": {
+        "BUS_ALL": 0.9158968796300784,
+        "BUS_GATE_ONLY": 0.12451614283025264,
+        "BUS_GLOBAL_GATE": 0.6955459667116196,
+        "BUS_GLOBAL_ONLY": 0.341696110876178,
+        "BUS_MESSAGE_GATE": 0.42851941541261623,
+        "BUS_MESSAGE_GLOBAL": 0.6972003767820126,
+        "BUS_MESSAGE_ONLY": 0.15222332349609646
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.057409204252921564,
+        "BUS_GATE_ONLY": -4.439954417068126e-05,
+        "BUS_GLOBAL_GATE": 0.059492299523317416,
+        "BUS_GLOBAL_ONLY": 0.24546672394796965,
+        "BUS_MESSAGE_GATE": -1.519259208626611e-05,
+        "BUS_MESSAGE_GLOBAL": 0.17352405953052702,
+        "BUS_MESSAGE_ONLY": 9.754718063414991e-06
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.05156125719408616,
+        "BUS_GATE_ONLY": -0.0004013118766597046,
+        "BUS_GLOBAL_GATE": 0.03041945430526366,
+        "BUS_GLOBAL_ONLY": 0.005351500858855107,
+        "BUS_MESSAGE_GATE": 0.0007725599601713373,
+        "BUS_MESSAGE_GLOBAL": 0.007243363409131787,
+        "BUS_MESSAGE_ONLY": 0.00026137832094524915
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.0035073417557193176,
+        "BUS_GATE_ONLY": 9.167279156230279e-06,
+        "BUS_GLOBAL_GATE": 0.0076052530012744035,
+        "BUS_GLOBAL_ONLY": 0.015036815586882857,
+        "BUS_MESSAGE_GATE": 5.059351367042719e-05,
+        "BUS_MESSAGE_GLOBAL": 0.0059359627554542715,
+        "BUS_MESSAGE_ONLY": 3.3397393718326285e-05
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.04398770871684754,
+        "BUS_GATE_ONLY": -8.195654592757506e-07,
+        "BUS_GLOBAL_GATE": 0.04900636027032046,
+        "BUS_GLOBAL_ONLY": 0.04465058229786428,
+        "BUS_MESSAGE_GATE": 3.344824506057442e-05,
+        "BUS_MESSAGE_GLOBAL": 0.05016184133557133,
+        "BUS_MESSAGE_ONLY": 3.3768350409912884e-05
+      }
+    },
+    {
+      "family": "delayed_recall",
+      "organism_id": "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.037580554361357654,
+        "BUS_GATE_ONLY": -6.1329071072702135e-06,
+        "BUS_GLOBAL_GATE": 0.0676804368146055,
+        "BUS_GLOBAL_ONLY": 0.004311303411565159,
+        "BUS_MESSAGE_GATE": -8.271797903414146e-06,
+        "BUS_MESSAGE_GLOBAL": 0.004627597837149222,
+        "BUS_MESSAGE_ONLY": 5.506780911490594e-06
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.05189390050262066,
+        "BUS_GATE_ONLY": -0.0005361794421333554,
+        "BUS_GLOBAL_GATE": -0.020310922169837098,
+        "BUS_GLOBAL_ONLY": -0.024122762540471743,
+        "BUS_MESSAGE_GATE": -0.031437903267501066,
+        "BUS_MESSAGE_GLOBAL": -0.04515031890723431,
+        "BUS_MESSAGE_ONLY": -0.028919741522000386
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.047380522396805236,
+        "BUS_GATE_ONLY": 6.16845035057989e-05,
+        "BUS_GLOBAL_GATE": -0.040193564064032405,
+        "BUS_GLOBAL_ONLY": -0.042325568369977695,
+        "BUS_MESSAGE_GATE": -0.002915683725445928,
+        "BUS_MESSAGE_GLOBAL": -0.054436654151434616,
+        "BUS_MESSAGE_ONLY": -0.003427699581489141
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.09235285014004158,
+        "BUS_GATE_ONLY": 0.010819945111092744,
+        "BUS_GLOBAL_GATE": -0.06203651712487157,
+        "BUS_GLOBAL_ONLY": -0.052445302246180714,
+        "BUS_MESSAGE_GATE": -0.019955064821700508,
+        "BUS_MESSAGE_GLOBAL": -0.09009222879487155,
+        "BUS_MESSAGE_ONLY": -0.03286475175605297
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.05597718378080696,
+        "BUS_GATE_ONLY": 0.0005806540898583568,
+        "BUS_GLOBAL_GATE": -0.11304260226251361,
+        "BUS_GLOBAL_ONLY": -0.11645665425059937,
+        "BUS_MESSAGE_GATE": 0.05241818795751568,
+        "BUS_MESSAGE_GLOBAL": -0.05909884715047409,
+        "BUS_MESSAGE_ONLY": 0.05322292403018669
+      }
+    },
+    {
+      "family": "iterative_state",
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": -0.062334765496449784,
+        "BUS_GATE_ONLY": 0.0049407744580849955,
+        "BUS_GLOBAL_GATE": -0.036900963560343336,
+        "BUS_GLOBAL_ONLY": -0.03866341466272072,
+        "BUS_MESSAGE_GATE": -0.022577134111387842,
+        "BUS_MESSAGE_GLOBAL": -0.06713809442429675,
+        "BUS_MESSAGE_ONLY": -0.02819390174980918
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.17129115462234779,
+        "BUS_GATE_ONLY": 0.007113531825347574,
+        "BUS_GLOBAL_GATE": -0.008985720271693198,
+        "BUS_GLOBAL_ONLY": 1.4666718284317426e-08,
+        "BUS_MESSAGE_GATE": 0.21580716225569602,
+        "BUS_MESSAGE_GLOBAL": 0.15666809031624707,
+        "BUS_MESSAGE_ONLY": 0.2676223424482016
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.15380262551739093,
+        "BUS_GATE_ONLY": -0.009021374602300902,
+        "BUS_GLOBAL_GATE": -0.009021374602300902,
+        "BUS_GLOBAL_ONLY": 1.700553159400542e-08,
+        "BUS_MESSAGE_GATE": 0.18667322904117012,
+        "BUS_MESSAGE_GLOBAL": 0.1631251800526154,
+        "BUS_MESSAGE_ONLY": 0.1901985357229809
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.20463962481749348,
+        "BUS_GATE_ONLY": -0.00573766818479049,
+        "BUS_GLOBAL_GATE": 0.01977875373343274,
+        "BUS_GLOBAL_ONLY": 2.3873766630266857e-08,
+        "BUS_MESSAGE_GATE": 0.18352607118470704,
+        "BUS_MESSAGE_GLOBAL": 0.17675703273824178,
+        "BUS_MESSAGE_ONLY": 0.17911359138629857
+      }
+    },
+    {
+      "family": "variable_composition",
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "qualifiers": [],
+      "values": {
+        "BUS_ALL": 0.13142730047663875,
+        "BUS_GATE_ONLY": -0.005264428796254217,
+        "BUS_GLOBAL_GATE": -0.006375483958454664,
+        "BUS_GLOBAL_ONLY": 2.49707881039285e-08,
+        "BUS_MESSAGE_GATE": 0.09910627343156803,
+        "BUS_MESSAGE_GLOBAL": 0.12281448690507507,
+        "BUS_MESSAGE_ONLY": 0.0986257892403144
+      }
+    }
+  ],
+  "synergistic_families": [],
+  "version": "V837an"
+}

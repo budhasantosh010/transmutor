@@ -1,0 +1,40 @@
+{
+  "development_blocks_disjoint": true,
+  "fresh_audit_consumed": false,
+  "partitions": {
+    "AN_FINAL_DEV": [
+      10448,
+      10511
+    ],
+    "AN_FINAL_VALIDATION": [
+      20000,
+      20127
+    ],
+    "AN_FIT": [
+      10000,
+      10127
+    ],
+    "AN_META_CONFIRM": [
+      10384,
+      10447
+    ],
+    "AN_ROUTING_FIT": [
+      10256,
+      10319
+    ],
+    "AN_ROUTING_SELECT": [
+      10320,
+      10383
+    ],
+    "AN_SELECT": [
+      10128,
+      10255
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ]
+  },
+  "validation_locked_until_family_freeze": true,
+  "version": "V837an"
+}

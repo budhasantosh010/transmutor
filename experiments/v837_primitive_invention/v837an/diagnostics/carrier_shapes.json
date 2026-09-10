@@ -1,0 +1,55 @@
+{
+  "COUPLING_FACTOR4": 4,
+  "GATE1": 1,
+  "GLOBAL40": 40,
+  "MESSAGE40": 40,
+  "OUTPUT40": 40,
+  "STATE40": 40,
+  "coupling_factor4_diagnostic_only": true,
+  "cross_organism_state_invertibility_required": false,
+  "diagnostic_carriers": [
+    "COUPLING_FACTOR4"
+  ],
+  "latent_dimensions": {
+    "COUPLING_FACTOR4": [
+      1,
+      2,
+      4
+    ],
+    "GATE1": [
+      1
+    ],
+    "GLOBAL40": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "MESSAGE40": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "OUTPUT40": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "STATE40": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "primary_carriers": [
+    "STATE40",
+    "OUTPUT40",
+    "MESSAGE40",
+    "GLOBAL40",
+    "GATE1"
+  ],
+  "version": "V837an"
+}

@@ -1,0 +1,10 @@
+{
+  "family_winners": {
+    "conditional_routing": null,
+    "delayed_recall": null,
+    "iterative_state": null,
+    "partial_observation": null,
+    "variable_composition": null
+  },
+  "version": "V837an"
+}

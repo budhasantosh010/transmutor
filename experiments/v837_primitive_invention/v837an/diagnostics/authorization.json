@@ -1,0 +1,17 @@
+{
+  "adapter_gradient_steps": 0,
+  "authorized": true,
+  "competent_organisms": 40,
+  "cross_organism_state_invertibility_required": false,
+  "fresh_audit_consumed": false,
+  "historical_am_a_invalid_state_configs": 105,
+  "historical_am_c_zero_valid_configs": 7,
+  "incompetent_organisms": 10,
+  "new_model_fits": 0,
+  "optimizer_steps": 0,
+  "primitives_promoted": 0,
+  "source_organisms": 50,
+  "start_sha": "f556c92a895b141f73f214e5eda3ac29b1927ea9",
+  "v838_started": false,
+  "version": "V837an"
+}

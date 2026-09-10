@@ -1,0 +1,53 @@
+{
+  "adapter_gradient_steps": 0,
+  "canonicalization_allowed_next": true,
+  "causal_routing_families": 0,
+  "causal_routing_family_names": [],
+  "causal_subspace_families": 4,
+  "causal_subspace_family_names": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state",
+    "variable_composition"
+  ],
+  "competent_organisms": 40,
+  "development_causal_routing_families": 0,
+  "development_causal_subspace_families": 4,
+  "development_semantic_compiler_families": 4,
+  "development_synergistic_families": 0,
+  "diagnosis": "GENERAL_CAUSAL_LATENT_PRIMITIVE_PATTERN",
+  "failure_entries": 162,
+  "final_validation_run": true,
+  "fresh_audit_consumed": false,
+  "historical_refinement_recorded": true,
+  "large_persistent_storage_tested": false,
+  "new_model_fits": 0,
+  "next_program": "V837ao_LATENT_PRIMITIVE_CANONICALIZATION",
+  "optimizer_steps": 0,
+  "oracle_instrumentation_valid": true,
+  "phase_conditional_representation": true,
+  "powered_families": 4,
+  "primitive_archive_allowed_next": false,
+  "primitives_promoted": 0,
+  "qualifier": null,
+  "rank4_global_bus_supported": false,
+  "rank4_support_families": [],
+  "semantic_compiler_families": 4,
+  "semantic_compiler_family_names": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state",
+    "variable_composition"
+  ],
+  "source_integrity": true,
+  "source_organisms": 50,
+  "synergistic_families": 0,
+  "synergistic_family_names": [],
+  "unresolved_families": [
+    "partial_observation"
+  ],
+  "v838_started": false,
+  "validated_coalition_families": 0,
+  "validated_family_abstractions": 4,
+  "version": "V837an"
+}

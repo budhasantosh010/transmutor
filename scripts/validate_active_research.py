@@ -856,6 +856,9 @@ def main() -> int:
     validate_v837_representation_recovery()
     validate_v837_learned_reference_calibration()
     validate_v837_gru_mechanism_localization()
+    causal_redefinition_validator = ROOT / "scripts" / "validate_v837_causal_routing_distributed_primitives.py"
+    if causal_redefinition_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837an" / "results.json").exists():
+        _run_validator(causal_redefinition_validator, run_name="__main__")
     context_interface_validator = ROOT / "scripts" / "validate_v837_context_interface_or_primitive_redefinition.py"
     if context_interface_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837am" / "results.json").exists():
         _run_validator(context_interface_validator, run_name="__main__")

@@ -1,0 +1,37 @@
+{
+  "version": "V837an",
+  "start_sha": "f556c92a895b141f73f214e5eda3ac29b1927ea9",
+  "ridge_lambda": 1e-6,
+  "random_subspace_controls": 32,
+  "routing_random_controls": 64,
+  "permutation_samples": 16384,
+  "ood_ratio_max": 2.0,
+  "source_swap": {
+    "recovery_min": 0.60,
+    "direction_min": 0.75,
+    "counterfactual_success_min": 0.70,
+    "random_margin_min": 0.20,
+    "p_max": 0.01
+  },
+  "family_support": {
+    "minimum_competent_organisms": 5,
+    "minimum_pass_fraction": 0.60
+  },
+  "routing": {
+    "recovery_min": 0.60,
+    "direction_min": 0.75,
+    "counterfactual_success_min": 0.70,
+    "random_margin_min": 0.20,
+    "p_max": 0.01
+  },
+  "synergy": {
+    "recovery_min": 0.60,
+    "counterfactual_success_min": 0.70,
+    "direction_min": 0.75,
+    "p_max": 0.01,
+    "ood_ratio_max": 2.0,
+    "strong_best_member_max": 0.30,
+    "strong_gain_min": 0.30,
+    "strong_cardinality_max": 4
+  }
+}

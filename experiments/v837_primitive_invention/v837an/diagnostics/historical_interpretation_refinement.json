@@ -1,0 +1,9 @@
+{
+  "am_a_invalid_config_count": 105,
+  "am_c_invalid_pairs_per_config": 38,
+  "am_c_zero_row_config_count": 7,
+  "historical_diagnosis_preserved": true,
+  "historical_files_rewritten": false,
+  "type": "INTERPRETATION_REFINEMENT",
+  "version": "V837an"
+}

@@ -1,0 +1,218 @@
+{
+  "intervention_based": true,
+  "rows": [
+    {
+      "conditions": {
+        "BUS_ALL": {
+          "median_recovery": 0.9264238089896073,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GATE_ONLY": {
+          "median_recovery": 0.10170153498612888,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GLOBAL_GATE": {
+          "median_recovery": 0.7774097561220443,
+          "passes": 3,
+          "required": 6
+        },
+        "BUS_GLOBAL_ONLY": {
+          "median_recovery": 0.3920700594510097,
+          "passes": 1,
+          "required": 6
+        },
+        "BUS_MESSAGE_GATE": {
+          "median_recovery": 0.3379573475087777,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_GLOBAL": {
+          "median_recovery": 0.7178867015786652,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_ONLY": {
+          "median_recovery": 0.15222332349609646,
+          "passes": 0,
+          "required": 6
+        }
+      },
+      "family": "conditional_routing",
+      "global_dominant": false,
+      "powered_organisms": 9
+    },
+    {
+      "conditions": {
+        "BUS_ALL": {
+          "median_recovery": 0.046946822564378904,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GATE_ONLY": {
+          "median_recovery": -3.476236283272982e-06,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GLOBAL_GATE": {
+          "median_recovery": 0.05424932989681894,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GLOBAL_ONLY": {
+          "median_recovery": 0.031902923254060744,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_GATE": {
+          "median_recovery": 1.2439591437707342e-05,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_GLOBAL": {
+          "median_recovery": 0.028990544285996928,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_ONLY": {
+          "median_recovery": 2.2210417047946462e-05,
+          "passes": 0,
+          "required": 6
+        }
+      },
+      "family": "delayed_recall",
+      "global_dominant": false,
+      "powered_organisms": 10
+    },
+    {
+      "conditions": {
+        "BUS_ALL": {
+          "median_recovery": -0.05915597463862837,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GATE_ONLY": {
+          "median_recovery": 0.0010315047061556504,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GLOBAL_GATE": {
+          "median_recovery": -0.03854726381218787,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_GLOBAL_ONLY": {
+          "median_recovery": -0.04049449151634921,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_GATE": {
+          "median_recovery": -0.021266099466544175,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_GLOBAL": {
+          "median_recovery": -0.06044959749305423,
+          "passes": 0,
+          "required": 6
+        },
+        "BUS_MESSAGE_ONLY": {
+          "median_recovery": -0.02716406009755684,
+          "passes": 0,
+          "required": 6
+        }
+      },
+      "family": "iterative_state",
+      "global_dominant": false,
+      "powered_organisms": 10
+    },
+    {
+      "conditions": {
+        "BUS_ALL": {
+          "median_recovery": null,
+          "passes": 0,
+          "required": 1
+        },
+        "BUS_GATE_ONLY": {
+          "median_recovery": null,
+          "passes": 0,
+          "required": 1
+        },
+        "BUS_GLOBAL_GATE": {
+          "median_recovery": null,
+          "passes": 0,
+          "required": 1
+        },
+        "BUS_GLOBAL_ONLY": {
+          "median_recovery": null,
+          "passes": 0,
+          "required": 1
+        },
+        "BUS_MESSAGE_GATE": {
+          "median_recovery": null,
+          "passes": 0,
+          "required": 1
+        },
+        "BUS_MESSAGE_GLOBAL": {
+          "median_recovery": null,
+          "passes": 0,
+          "required": 1
+        },
+        "BUS_MESSAGE_ONLY": {
+          "median_recovery": null,
+          "passes": 0,
+          "required": 1
+        }
+      },
+      "family": "partial_observation",
+      "global_dominant": false,
+      "powered_organisms": 0
+    },
+    {
+      "conditions": {
+        "BUS_ALL": {
+          "median_recovery": 0.17617335356420383,
+          "passes": 0,
+          "required": 5
+        },
+        "BUS_GATE_ONLY": {
+          "median_recovery": -0.007379521393545696,
+          "passes": 0,
+          "required": 5
+        },
+        "BUS_GLOBAL_GATE": {
+          "median_recovery": 0.01913582940573358,
+          "passes": 0,
+          "required": 5
+        },
+        "BUS_GLOBAL_ONLY": {
+          "median_recovery": 3.277861657102754e-08,
+          "passes": 0,
+          "required": 5
+        },
+        "BUS_MESSAGE_GATE": {
+          "median_recovery": 0.14996947808134842,
+          "passes": 0,
+          "required": 5
+        },
+        "BUS_MESSAGE_GLOBAL": {
+          "median_recovery": 0.1674259433166577,
+          "passes": 0,
+          "required": 5
+        },
+        "BUS_MESSAGE_ONLY": {
+          "median_recovery": 0.163043957730208,
+          "passes": 0,
+          "required": 5
+        }
+      },
+      "family": "variable_composition",
+      "global_dominant": false,
+      "powered_organisms": 8
+    }
+  ],
+  "support_families": [],
+  "supported": false,
+  "version": "V837an"
+}
