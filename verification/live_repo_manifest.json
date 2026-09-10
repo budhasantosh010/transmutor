@@ -2209,7 +2209,7 @@
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
   "main_sha": "b0fefe0017fe120eb2dc48677b02f7782e6dbde9",
-  "main_sha_semantics": "V837ao scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
+  "main_sha_semantics": "V837ap scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -2248,7 +2248,7 @@
   "repository": "budhasantosh010/transmutor",
   "research_lineage": "V837 candidate-transformation interaction through V837am context/interface falsification, V837an causal-subspace primitive redefinition, V837ao latent primitive canonicalization, and V837ap global/nonlinear causal-state localization. V837an establishes causal STATE40 subspaces; V837ao rejects a stable linear-K1 canonical coordinate; V837ap finds low-dimensional semantic decoding without a causally closed absolute SET geometry. Next program recorded only: V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION.",
   "research_sha": "b0fefe0017fe120eb2dc48677b02f7782e6dbde9",
-  "research_sha_semantics": "V837ao scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
+  "research_sha_semantics": "V837ap scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_learned_reference_outcome.py",
