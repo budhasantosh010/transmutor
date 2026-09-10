@@ -1,0 +1,11 @@
+{
+  "frozen_spec_sha256": "7e4241906cfbf84a08c5a6515ef690d19ddee4e4da4bbca96bac58bf12c54d7f",
+  "heldout_read_after_freeze": true,
+  "k_search": false,
+  "pass": true,
+  "phase_search": false,
+  "v837an_q_loaded": false,
+  "v837an_semantic_compiler_loaded": false,
+  "variant_search": false,
+  "version": "V837ao"
+}

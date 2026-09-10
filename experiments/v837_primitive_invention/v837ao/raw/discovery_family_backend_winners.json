@@ -1,0 +1,33 @@
+{
+  "discovery_family_candidates": 0,
+  "evaluated_variants": {
+    "conditional_routing": [
+      "B0_GLOBAL_K1",
+      "B1_PHASE_GAUGE_K1",
+      "B2_PHASE_K1"
+    ],
+    "delayed_recall": [
+      "B0_GLOBAL_K1",
+      "B1_PHASE_GAUGE_K1",
+      "B2_PHASE_K1"
+    ],
+    "iterative_state": [
+      "B0_GLOBAL_K1",
+      "B1_PHASE_GAUGE_K1",
+      "B2_PHASE_K1"
+    ],
+    "variable_composition": [
+      "B0_GLOBAL_K1",
+      "B1_PHASE_GAUGE_K1",
+      "B2_PHASE_K1"
+    ]
+  },
+  "family_winners": {
+    "conditional_routing": null,
+    "delayed_recall": null,
+    "iterative_state": null,
+    "variable_composition": null
+  },
+  "stage": "AO3-AO7_DISCOVERY",
+  "version": "V837ao"
+}

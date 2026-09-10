@@ -1,0 +1,262 @@
+{
+  "claim": "one semantic computation, many physical implementations NOT established under frozen V837ao B0/B1/B2 linear K1 backends",
+  "decision_state": {
+    "absolute_coordinate_families": 0,
+    "backend_gradient_steps": 0,
+    "canonical_families": [],
+    "cheap_backend_families": 0,
+    "cross_organism_agreement_families": 0,
+    "diagnosis": "CAUSAL_DIRECTION_NOT_GLOBAL_COORDINATE",
+    "discovery_family_candidates": 0,
+    "dynamically_commutative_families": 0,
+    "failure_entries": 285,
+    "fresh_audit_consumed": false,
+    "global_backend_families": 0,
+    "heldout_canonical_families": 0,
+    "large_persistent_storage_tested": false,
+    "law_recovery_families": 0,
+    "meta_confirmed_families": 0,
+    "minimum_calibration_pairs": {},
+    "model_optimizer_steps": 0,
+    "new_model_fits": 0,
+    "next_program": "V837ap_GLOBAL_COORDINATE_OR_NONLINEAR_CAUSAL_STATE",
+    "phase_conditional_backend_families": 0,
+    "powered_families": 4,
+    "primitive_archive_allowed_next": false,
+    "primitives_promoted": 0,
+    "qualifiers": [
+      "ALL_FOUR_POWERED_FAMILIES_REJECT_FROZEN_LINEAR_K1_CANONICAL_BACKENDS",
+      "V837AN_PAIRED_CAUSAL_STEERING_REMAINS_VALID",
+      "HELDOUT_BACKENDS_NOT_FIT_WITHOUT_FROZEN_CANDIDATE"
+    ],
+    "quotient_sufficient_families": 0,
+    "source_integrity": true,
+    "v838_started": false,
+    "version": "V837ao"
+  },
+  "diagnosis": "CAUSAL_DIRECTION_NOT_GLOBAL_COORDINATE",
+  "frozen_canonical_specs_sha256": "7e4241906cfbf84a08c5a6515ef690d19ddee4e4da4bbca96bac58bf12c54d7f",
+  "plots": [
+    "absolute_setpoint_recovery.png",
+    "backend_complexity_by_family.png",
+    "backend_storage_vs_calibration_cost.png",
+    "calibration_examples_vs_pass_rate.png",
+    "canonical_ir_evidence_ladder.png",
+    "cross_organism_canonical_agreement.png",
+    "failure_map_v837an_to_v837ao.png",
+    "heldout_calibration_frontier.png",
+    "interventional_commutativity.png",
+    "law_recovery.png",
+    "natural_commutativity.png",
+    "phase_realization.png",
+    "quotient_sufficiency.png",
+    "random_vs_canonical_setter.png",
+    "reader_accuracy_by_family.png",
+    "reader_vs_writer_consistency.png",
+    "residual_distance_vs_semantic_error.png",
+    "rollout_horizon_vs_error.png",
+    "setpoint_magnitude_vs_recovery.png"
+  ],
+  "qualifiers": [
+    "ALL_FOUR_POWERED_FAMILIES_REJECT_FROZEN_LINEAR_K1_CANONICAL_BACKENDS",
+    "V837AN_PAIRED_CAUSAL_STEERING_REMAINS_VALID",
+    "HELDOUT_BACKENDS_NOT_FIT_WITHOUT_FROZEN_CANDIDATE"
+  ],
+  "question": "Do V837an STATE40-K1 abstractions define canonical semantic state variables stable across organisms?",
+  "reader_summary": {
+    "conditional_routing": {
+      "B0_GLOBAL_K1": {
+        "algebra_passes": 5,
+        "organisms": 5,
+        "phase_pass_fraction": 0.0,
+        "reader_passes": 0
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "algebra_passes": 5,
+        "organisms": 5,
+        "phase_pass_fraction": 0.0,
+        "reader_passes": 0
+      },
+      "B2_PHASE_K1": {
+        "algebra_passes": 5,
+        "organisms": 5,
+        "phase_pass_fraction": 0.0,
+        "reader_passes": 0
+      }
+    },
+    "delayed_recall": {
+      "B0_GLOBAL_K1": {
+        "algebra_passes": 6,
+        "organisms": 6,
+        "phase_pass_fraction": 0.2777777777777778,
+        "reader_passes": 0
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "algebra_passes": 6,
+        "organisms": 6,
+        "phase_pass_fraction": 0.2777777777777778,
+        "reader_passes": 0
+      },
+      "B2_PHASE_K1": {
+        "algebra_passes": 6,
+        "organisms": 6,
+        "phase_pass_fraction": 0.2222222222222222,
+        "reader_passes": 0
+      }
+    },
+    "iterative_state": {
+      "B0_GLOBAL_K1": {
+        "algebra_passes": 6,
+        "organisms": 6,
+        "phase_pass_fraction": 0.6666666666666666,
+        "reader_passes": 0
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "algebra_passes": 6,
+        "organisms": 6,
+        "phase_pass_fraction": 0.6666666666666666,
+        "reader_passes": 0
+      },
+      "B2_PHASE_K1": {
+        "algebra_passes": 0,
+        "organisms": 6,
+        "phase_pass_fraction": 0.0,
+        "reader_passes": 0
+      }
+    },
+    "variable_composition": {
+      "B0_GLOBAL_K1": {
+        "algebra_passes": 4,
+        "organisms": 4,
+        "phase_pass_fraction": 0.0,
+        "reader_passes": 0
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "algebra_passes": 4,
+        "organisms": 4,
+        "phase_pass_fraction": 0.0,
+        "reader_passes": 0
+      },
+      "B2_PHASE_K1": {
+        "algebra_passes": 4,
+        "organisms": 4,
+        "phase_pass_fraction": 0.0,
+        "reader_passes": 0
+      }
+    }
+  },
+  "resource_accounting": {
+    "backend_gradient_steps": 0,
+    "backend_storage_bytes": 0,
+    "cache_hits": null,
+    "cache_misses": null,
+    "cpu_seconds": null,
+    "cpu_seconds_exact": false,
+    "dynamics_rollout_calls_derived": 0,
+    "gpu_seconds": 0.0,
+    "heldout_calibration_pairs_consumed": 0,
+    "historical_robustness_calls": 0,
+    "large_persistent_storage_tested": false,
+    "law_recovery_fits": 0,
+    "model_optimizer_steps": 0,
+    "model_training_examples": 0,
+    "natural_forward_calls_derived": 4032,
+    "new_model_fits": 0,
+    "notes": [
+      "No model training occurred.",
+      "Forward-call counters are structural derived counts where exact hook-level counters were not persisted.",
+      "No GPU execution was required."
+    ],
+    "phase_specific_fits": 126,
+    "quotient_calls_derived": 0,
+    "random_control_calls_derived": 567456,
+    "ridge_solve_count": 294,
+    "set_intervention_forward_calls_derived": 17733,
+    "svd_count": 87,
+    "version": "V837ao",
+    "wall_seconds": null
+  },
+  "setpoint_summary": {
+    "conditional_routing": {
+      "B0_GLOBAL_K1": {
+        "mean_organism_median_recovery": 0.07161298497743465,
+        "median_organism_median_recovery": 0.0665423876607783,
+        "organisms": 5,
+        "passes": 0
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "mean_organism_median_recovery": 0.05640990619372547,
+        "median_organism_median_recovery": 0.05371951900969707,
+        "organisms": 5,
+        "passes": 0
+      },
+      "B2_PHASE_K1": {
+        "mean_organism_median_recovery": 0.2920902267703749,
+        "median_organism_median_recovery": 0.28782003051085536,
+        "organisms": 5,
+        "passes": 0
+      }
+    },
+    "delayed_recall": {
+      "B0_GLOBAL_K1": {
+        "mean_organism_median_recovery": 0.9960386841196472,
+        "median_organism_median_recovery": 0.9966003667161238,
+        "organisms": 6,
+        "passes": 0
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "mean_organism_median_recovery": 0.9859199409292844,
+        "median_organism_median_recovery": 0.9966391335159311,
+        "organisms": 6,
+        "passes": 0
+      },
+      "B2_PHASE_K1": {
+        "mean_organism_median_recovery": 0.996949458128848,
+        "median_organism_median_recovery": 0.9971162013053483,
+        "organisms": 6,
+        "passes": 3
+      }
+    },
+    "iterative_state": {
+      "B0_GLOBAL_K1": {
+        "mean_organism_median_recovery": 0.8280113605515718,
+        "median_organism_median_recovery": 0.8310355084162877,
+        "organisms": 6,
+        "passes": 5
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "mean_organism_median_recovery": 0.8777208796997322,
+        "median_organism_median_recovery": 0.875757420292999,
+        "organisms": 6,
+        "passes": 6
+      },
+      "B2_PHASE_K1": {
+        "mean_organism_median_recovery": null,
+        "median_organism_median_recovery": null,
+        "organisms": 6,
+        "passes": 0
+      }
+    },
+    "variable_composition": {
+      "B0_GLOBAL_K1": {
+        "mean_organism_median_recovery": 0.5250006520958294,
+        "median_organism_median_recovery": 0.5342272110842734,
+        "organisms": 4,
+        "passes": 0
+      },
+      "B1_PHASE_GAUGE_K1": {
+        "mean_organism_median_recovery": 0.49844439420573894,
+        "median_organism_median_recovery": 0.49821188333731836,
+        "organisms": 4,
+        "passes": 0
+      },
+      "B2_PHASE_K1": {
+        "mean_organism_median_recovery": 0.4660863290097318,
+        "median_organism_median_recovery": 0.4645887398839437,
+        "organisms": 4,
+        "passes": 0
+      }
+    }
+  },
+  "version": "V837ao"
+}

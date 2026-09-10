@@ -1,0 +1,40 @@
+{
+  "descriptive_post_freeze_only": true,
+  "families": {
+    "conditional_routing": {
+      "can_select_backend": false,
+      "can_upgrade_failed_family": false,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE",
+      "run": false
+    },
+    "delayed_recall": {
+      "can_select_backend": false,
+      "can_upgrade_failed_family": false,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE",
+      "run": false
+    },
+    "iterative_state": {
+      "can_select_backend": false,
+      "can_upgrade_failed_family": false,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE",
+      "run": false
+    },
+    "variable_composition": {
+      "can_select_backend": false,
+      "can_upgrade_failed_family": false,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE",
+      "run": false
+    }
+  },
+  "fresh_audit_consumed": false,
+  "label": "REUSED_HISTORICAL_VALIDATION",
+  "may_change_backend": false,
+  "may_change_calibration_n": false,
+  "may_upgrade_failed_family": false,
+  "partition": [
+    20000,
+    20127
+  ],
+  "stage": "AO12_HISTORICAL_VALIDATION_ROBUSTNESS",
+  "version": "V837ao"
+}

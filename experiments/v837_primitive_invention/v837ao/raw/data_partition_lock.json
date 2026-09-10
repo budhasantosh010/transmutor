@@ -1,0 +1,48 @@
+{
+  "development_disjoint": true,
+  "fresh_audit_unused": true,
+  "historical_validation_reused": true,
+  "partitions": {
+    "AO_BACKEND_FIT": [
+      10000,
+      10063
+    ],
+    "AO_BACKEND_SELECT": [
+      10064,
+      10127
+    ],
+    "AO_DYNAMICS_FIT": [
+      10256,
+      10319
+    ],
+    "AO_DYNAMICS_SELECT": [
+      10320,
+      10383
+    ],
+    "AO_HELDOUT_ORGANISM_EVAL": [
+      10448,
+      10511
+    ],
+    "AO_META_CONFIRM": [
+      10384,
+      10447
+    ],
+    "AO_QUOTIENT_FIT": [
+      10128,
+      10191
+    ],
+    "AO_QUOTIENT_SELECT": [
+      10192,
+      10255
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ],
+    "HISTORICAL_VALIDATION_ROBUSTNESS": [
+      20000,
+      20127
+    ]
+  },
+  "version": "V837ao"
+}

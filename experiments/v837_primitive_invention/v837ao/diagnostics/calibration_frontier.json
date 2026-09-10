@@ -1,0 +1,58 @@
+{
+  "calibration_ladder": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "families": {
+    "conditional_routing": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE"
+    },
+    "delayed_recall": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE"
+    },
+    "iterative_state": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE"
+    },
+    "variable_composition": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_CANONICAL_CANDIDATE"
+    }
+  },
+  "heldout_backend_artifacts_read_only_after_freeze": true,
+  "historical_v837an_per_organism_backend_loaded": false,
+  "k_search_on_holdout": false,
+  "phase_search_on_holdout": false,
+  "rows": [],
+  "stage": "AO10_HELDOUT_BACKEND",
+  "variant_search_on_holdout": false,
+  "version": "V837ao",
+  "wall_seconds": 0.2598073999979533
+}

@@ -1,0 +1,88 @@
+{
+  "authorization": {
+    "authorized": true,
+    "backend_gradient_steps": 0,
+    "causal_subspace_families": 4,
+    "fresh_audit_consumed": false,
+    "model_optimizer_steps": 0,
+    "new_model_fits": 0,
+    "no_cross_organism_q_alignment": true,
+    "no_cross_organism_state_alignment": true,
+    "partial_observation_status": "UNRESOLVED_UNDERPOWERED",
+    "phase_conditional_representation": true,
+    "powered_families": 4,
+    "primitive_archive_allowed_at_start": false,
+    "primitives_promoted": 0,
+    "semantic_compiler_families": 4,
+    "start_sha": "fe210ae3ee6fad90b394865ce6dd06d525e11902",
+    "v837an_diagnosis": "GENERAL_CAUSAL_LATENT_PRIMITIVE_PATTERN",
+    "v838_started": false,
+    "validated_abstractions": 4,
+    "version": "V837ao"
+  },
+  "competent_organisms": 40,
+  "families": {
+    "conditional_routing": {
+      "competent": 9,
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": 5,
+        "RANDOM_STRUCTURAL_SAMPLER": 4
+      },
+      "powered_in_v837ao": true
+    },
+    "delayed_recall": {
+      "competent": 10,
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": 5,
+        "RANDOM_STRUCTURAL_SAMPLER": 5
+      },
+      "powered_in_v837ao": true
+    },
+    "iterative_state": {
+      "competent": 10,
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": 5,
+        "RANDOM_STRUCTURAL_SAMPLER": 5
+      },
+      "powered_in_v837ao": true
+    },
+    "partial_observation": {
+      "competent": 3,
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": 1,
+        "RANDOM_STRUCTURAL_SAMPLER": 2
+      },
+      "powered_in_v837ao": false
+    },
+    "variable_composition": {
+      "competent": 8,
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": 4,
+        "RANDOM_STRUCTURAL_SAMPLER": 4
+      },
+      "powered_in_v837ao": true
+    }
+  },
+  "fresh_audit_consumed": false,
+  "historical_validation_label": "REUSED_HISTORICAL_VALIDATION",
+  "historical_validation_reused": true,
+  "partial_observation_unresolved": true,
+  "pass": true,
+  "powered_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state",
+    "variable_composition"
+  ],
+  "source_organisms": 50,
+  "v837an_frozen_file_sha256": "11d82132ffdd27a2f663d948b1897c736d57a86f9277f7e0846a484654b07c37",
+  "v837an_source_hashes": {
+    "decision": "fe2127532170ccbbcfbb0025b81265ddaac421133a88acf1dd7613200f429cc9",
+    "frozen_abstractions": "d7ed81bbcd53c6b8927df4efac3bbf2a234a2f6e4c577e7dfa814236e44a990d",
+    "results": "56b53f5f8a0483ec91f59f877e662d1ea20b862c4b1ac86e08883d7e935897ea",
+    "semantic_compiler_impl": "5d8e5504683cfc80eedd54f82d4d79b376f8fcef12b00da5902889db6f4de614",
+    "source_population": "6b60de89063fa5e30cb8d95e60b7ab9ab68c675e6611274b1f901d4ea3942f18"
+  },
+  "v838_started": false,
+  "version": "V837ao"
+}

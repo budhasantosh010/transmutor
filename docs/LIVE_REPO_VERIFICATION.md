@@ -881,7 +881,7 @@ python scripts/reproduce_v837_recovery.py --variant v837ak
 python scripts/reproduce_v837_recovery.py --variant v837al --stage analyze
 ```
 
-The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj -> V837ak -> V837al -> V837am frontier. V837al exposes the preserved hard-gated baseline, fit, select, test, canonical, transplant, data-frontier, and analysis stages; because AL5 selected no configuration, later stages short-circuit rather than using ALIGN_TEST to rescue selection. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V838 has not started.
+The reproduction dispatcher remains dry-run by default and machine-enforces the V837x -> V837y -> V837z -> V837aa -> V837ab -> V837ac -> V837ad -> V837af -> V837ai -> V837aj -> V837ak -> V837al -> V837am -> V837an -> V837ao frontier. V837ao exposes frozen source, fold, backend, setpoint, phase, quotient, dynamics, META, freeze, held-out, agreement, robustness, law-audit, and analysis stages; null discovery winners short-circuit later scientific computation rather than using held-out evidence to rescue selection. V837ae has no dispatcher entry because it was not authorized or run. V837ag/V837ah remain absent. V837ap is recorded only as the next program and has not started. V838 has not started.
 
 ## Historical SHA anchors
 

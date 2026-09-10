@@ -1,0 +1,1580 @@
+{
+  "rows": [
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.7425317429333445e-16,
+          "overwrite_median_nrmse": 1.6653345369377348e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 2.7755575615628914e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 4.907082387649379e-17,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 1.515454428613341e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 9.830037054440871e-17,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 2.6256774532384974e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 2.4284950564614175e-16,
+          "overwrite_median_nrmse": 2.220446049250313e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.6520285760810015e-16,
+          "overwrite_median_nrmse": 1.6653345369377348e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 9.259405549403524e-17,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 1.6653345369377348e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 1.114615462840183e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 2.270406085358447e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 3.8957699426864126e-17,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 2.5091040356528437e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 1.5983011104028153e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 2.29783628753795e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.3877787807814457e-16,
+          "read_after_write_p99_nrmse": 5.045963646921338e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 1.0093454912990889e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.4305891460917375e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 7.916706981740483e-17,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 2.6677101426739573e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.270406085358447e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 3.806843616177447e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.885780586188048e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.2815083156046964e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 1.0221044665907975e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.326672684688674e-17,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 1.1702481759991983e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.9920510513647893e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 2.29783628753795e-16,
+          "overwrite_median_nrmse": 3.3306690738754696e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.3877787807814457e-16,
+          "read_after_write_p99_nrmse": 5.045963646921338e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 1.1266326713311025e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 1.7541054372083584e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.320366121466581e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 2.6677101426739573e-16,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.270406085358447e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 1.1433460014384118e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.4305891460917375e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 1.10284869419901e-16,
+          "overwrite_median_nrmse": 1.6653345369377348e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "POST_CONTROL": {
+          "idempotence_relative_update_median": 3.806843616177447e-16,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.885780586188048e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_A": {
+          "idempotence_relative_update_median": 1.0894810167354028e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.3425705819590797e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_PAYLOAD_B": {
+          "idempotence_relative_update_median": 2.0507745102938577e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.3425705819590797e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "conditional_routing",
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.3381823722112672e-16,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 1.6653345369377348e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.2932210745726799e-16,
+          "overwrite_median_nrmse": 1.6653345369377348e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.885780586188048e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.0468790264495105e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 2.7755575615628914e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.534554917853823e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 1.6653345369377348e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.7755575615628914e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 1.8365513418737402e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 1.1102230246251565e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 1.1230277926729974e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 1.7601277211705385e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 1.6488624420029806e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 2.7755575615628914e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 2.6621074244263976e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.6653345369377348e-16,
+          "read_after_write_p99_nrmse": 1.6653345369377348e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 1.665924588927936e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.885780586188048e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 2.5042012083497428e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 1.9206858326015252e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 1.189991499351865e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 1.968529465630733e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.647881913730996e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 2.6430543897418114e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.6653345369377348e-16,
+          "read_after_write_p99_nrmse": 1.6653345369377348e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 1.1423443870064174e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 7.039526511164177e-17,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 1.6653345369377348e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 1.933814801297188e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 4.368767288821407e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.7755575615628914e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.7755575615628914e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 3.360759242647273e-16,
+          "overwrite_median_nrmse": 2.220446049250313e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 4.440892098500626e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 2.556643006021065e-16,
+          "overwrite_median_nrmse": 2.7755575615628914e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 3.0531133177191805e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 1.6488624420029806e-16,
+          "overwrite_median_nrmse": 1.6653345369377348e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 2.7755575615628914e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.515454428613341e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 2.1594863273826335e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 1.665924588927936e-16,
+          "overwrite_median_nrmse": 2.220446049250313e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.885780586188048e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 8.707429507617611e-17,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 1.1717792878773081e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 1.968529465630733e-16,
+          "overwrite_median_nrmse": 1.6653345369377348e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.647881913730996e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.551115123125783e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 1.4094359265534024e-16,
+          "overwrite_median_nrmse": 2.220446049250313e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "MID_DELAY": {
+          "idempotence_relative_update_median": 7.039526511164177e-17,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 5.551115123125783e-17,
+          "read_after_write_p99_nrmse": 1.6653345369377348e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "POST_WRITE": {
+          "idempotence_relative_update_median": 2.2069529483127296e-16,
+          "overwrite_median_nrmse": 2.220446049250313e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 3.3306690738754696e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "PRE_READ": {
+          "idempotence_relative_update_median": 1.1992775150338022e-16,
+          "overwrite_median_nrmse": 1.1102230246251565e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.1102230246251565e-16,
+          "read_after_write_p99_nrmse": 2.220446049250313e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "delayed_recall",
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.5371068963532248e-16,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 2.684232263659395e-16,
+          "overwrite_median_nrmse": 1.7042663718701436e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.7042663718701436e-16,
+          "read_after_write_p99_nrmse": 3.408532743740287e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.469335965052467e-16,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 8.521331859350718e-17,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.752394813749811e-16,
+          "overwrite_median_nrmse": 1.7042663718701436e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 2.3263235976027495e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.3713689881147725e-16,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 1.7090364217376952e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 8.521331859350718e-17,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 7.299278193686557e-17,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 3.3362540724147534e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.7042663718701436e-16,
+          "read_after_write_p99_nrmse": 3.408532743740287e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 3.7822489428279347e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 3.408532743740287e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 1.0423051939538392e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.8649285952384383e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 1.3258516392136969e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 1.7673392650396142e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.507680974142082e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 1.9304364377341015e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 9.799531638253374e-17,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 1.344066932413566e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 2.6842195356954814e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.6493900099509563e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.8320863497604094e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.815043686041699e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.9454090207551048e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 3.408532743740287e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 1.5502558185823671e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 8.521331859350718e-17,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 1.2718458203290643e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": null,
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.815043686041699e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.7042663718701436e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": null,
+        "LATE": {
+          "idempotence_relative_update_median": 1.0360224135894536e-16,
+          "overwrite_median_nrmse": 1.7042663718701436e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 9.629105001066273e-17,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.1450707294687718e-16,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.815043686041699e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": null,
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.8320863497604094e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.408366720478378e-16,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": null,
+        "LATE": {
+          "idempotence_relative_update_median": 3.6726180747940414e-17,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 4.260665929675359e-17,
+          "read_after_write_p99_nrmse": 1.7042663718701436e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.8320863497604094e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": null,
+        "LATE": {
+          "idempotence_relative_update_median": 1.5400597311611185e-16,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.815043686041699e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 9.713162682378818e-17,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 8.521331859350718e-17,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": null,
+        "LATE": {
+          "idempotence_relative_update_median": 8.95420032242651e-17,
+          "overwrite_median_nrmse": 1.7042663718701436e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.8320863497604094e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.7156785476382208e-16,
+          "overwrite_median_nrmse": 8.521331859350718e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 8.521331859350718e-17,
+          "read_after_write_p99_nrmse": 1.8320863497604094e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "iterative_state",
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 2.0805872059769166e-16,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 1.5111632343968384e-16,
+          "overwrite_median_nrmse": 1.146892499606841e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "GLOBAL": {
+          "idempotence_relative_update_median": 2.1812642562983698e-16,
+          "overwrite_median_nrmse": 1.7203387494102614e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 3.1310165239266803e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 2.082466222198612e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 3.440677498820523e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 3.067904259938871e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 3.440677498820523e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 1.5554976938934842e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 1.4534787229446606e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 2.228835103301824e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 1.5253670244770965e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 1.6476270083853404e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 1.6355661506693816e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.9497172493316167e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 1.601122538477637e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 2.9475137239895817e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 2.840025881544541e-16,
+          "overwrite_median_nrmse": 0.0,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 3.440677498820523e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "variant": "B1_PHASE_GAUGE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.146892499606841e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 1.9623237845770273e-16,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 2.795457832914559e-16,
+          "overwrite_median_nrmse": 2.293784999213682e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 4.587569998427364e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 3.167290756308169e-16,
+          "overwrite_median_nrmse": 2.293784999213682e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 3.819152023690778e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 1.456322227080416e-16,
+          "overwrite_median_nrmse": 1.146892499606841e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 1.146892499606841e-16,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.293784999213682e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "variant": "B2_PHASE_K1"
+    },
+    {
+      "components": {
+        "EARLY": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 8.601693747051307e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 2.45434994915864e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "LATE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 5.734462498034205e-17,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        },
+        "MIDDLE": {
+          "idempotence_relative_update_median": 0.0,
+          "overwrite_median_nrmse": 1.146892499606841e-16,
+          "pass": true,
+          "read_after_write_median_nrmse": 0.0,
+          "read_after_write_p99_nrmse": 1.146892499606841e-16,
+          "zero_change_max_abs": 0.0
+        }
+      },
+      "family": "variable_composition",
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "variant": "B2_PHASE_K1"
+    }
+  ],
+  "version": "V837ao"
+}

@@ -1,0 +1,21 @@
+{
+  "authorized": true,
+  "backend_gradient_steps": 0,
+  "causal_subspace_families": 4,
+  "fresh_audit_consumed": false,
+  "model_optimizer_steps": 0,
+  "new_model_fits": 0,
+  "no_cross_organism_q_alignment": true,
+  "no_cross_organism_state_alignment": true,
+  "partial_observation_status": "UNRESOLVED_UNDERPOWERED",
+  "phase_conditional_representation": true,
+  "powered_families": 4,
+  "primitive_archive_allowed_at_start": false,
+  "primitives_promoted": 0,
+  "semantic_compiler_families": 4,
+  "start_sha": "fe210ae3ee6fad90b394865ce6dd06d525e11902",
+  "v837an_diagnosis": "GENERAL_CAUSAL_LATENT_PRIMITIVE_PATTERN",
+  "v838_started": false,
+  "validated_abstractions": 4,
+  "version": "V837ao"
+}

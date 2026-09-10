@@ -1,0 +1,31 @@
+{
+  "backend_gradient_steps": 0,
+  "backend_storage_bytes": 0,
+  "cache_hits": null,
+  "cache_misses": null,
+  "cpu_seconds": null,
+  "cpu_seconds_exact": false,
+  "dynamics_rollout_calls_derived": 0,
+  "gpu_seconds": 0.0,
+  "heldout_calibration_pairs_consumed": 0,
+  "historical_robustness_calls": 0,
+  "large_persistent_storage_tested": false,
+  "law_recovery_fits": 0,
+  "model_optimizer_steps": 0,
+  "model_training_examples": 0,
+  "natural_forward_calls_derived": 4032,
+  "new_model_fits": 0,
+  "notes": [
+    "No model training occurred.",
+    "Forward-call counters are structural derived counts where exact hook-level counters were not persisted.",
+    "No GPU execution was required."
+  ],
+  "phase_specific_fits": 126,
+  "quotient_calls_derived": 0,
+  "random_control_calls_derived": 567456,
+  "ridge_solve_count": 294,
+  "set_intervention_forward_calls_derived": 17733,
+  "svd_count": 87,
+  "version": "V837ao",
+  "wall_seconds": null
+}

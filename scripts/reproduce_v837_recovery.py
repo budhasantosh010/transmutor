@@ -160,6 +160,9 @@ VARIANT_COMMANDS = {
     "v837an": [
         *[[sys.executable, "-m", "experiments.v837_primitive_invention.v837an.run_pipeline", "--stage", stage] for stage in ("source","oracle","counterfactuals","traces","macrovariables","routing","synergy","meta","dev-confirm","final","analyze")],
     ],
+    "v837ao": [
+        *[[sys.executable, "-m", "experiments.v837_primitive_invention.v837ao.run_pipeline", "--stage", stage] for stage in ("source","folds","backends","setpoints","phases","quotient","dynamics","meta","freeze","heldout","agreement","robustness","law-audit","analyze")],
+    ],
 }
 
 
@@ -362,6 +365,14 @@ def enforce_variant_guard(variant: str) -> None:
         if authorization.get("fresh_audit_consumed") is not False or authorization.get("primitives_promoted") != 0 or authorization.get("v838_started") is not False:
             raise SystemExit("V837an blocked: fresh-audit/archive/V838 lock changed")
         return
+    if variant == "v837ao":
+        from experiments.v837_primitive_invention.v837ao.authorization import assert_authorized
+        authorization = assert_authorized()
+        if authorization.get("authorized") is not True or authorization.get("v837an_diagnosis") != "GENERAL_CAUSAL_LATENT_PRIMITIVE_PATTERN":
+            raise SystemExit("V837ao blocked: V837an did not authorize latent primitive canonicalization")
+        if authorization.get("fresh_audit_consumed") is not False or authorization.get("primitives_promoted") != 0 or authorization.get("v838_started") is not False:
+            raise SystemExit("V837ao blocked: fresh-audit/archive/V838 lock changed")
+        return
 
 
 def main() -> int:
@@ -384,8 +395,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--stage",
-        choices=("anchor", "fidelity", "search", "finalize", "baseline", "fit", "select", "test", "canonical", "transplant", "data-frontier", "source", "context", "boundary", "temporal", "oracle", "counterfactuals", "traces", "macrovariables", "routing", "synergy", "meta", "dev-confirm", "final", "closed-loop", "analyze"),
-        help="For V837aj/V837al/V837am/V837an, select one preserved hard-gated stage.",
+        choices=("anchor", "fidelity", "search", "finalize", "baseline", "fit", "select", "test", "canonical", "transplant", "data-frontier", "source", "context", "boundary", "temporal", "oracle", "counterfactuals", "traces", "macrovariables", "routing", "synergy", "meta", "dev-confirm", "final", "closed-loop", "folds", "backends", "setpoints", "phases", "quotient", "dynamics", "freeze", "heldout", "agreement", "robustness", "law-audit", "analyze"),
+        help="For V837aj/V837al/V837am/V837an/V837ao, select one preserved hard-gated stage.",
     )
     parser.add_argument(
         "--execute",
@@ -445,8 +456,13 @@ def main() -> int:
             raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
         if args.stage:
             commands = [[sys.executable, "-m", "experiments.v837_primitive_invention.v837an.run_pipeline", "--stage", args.stage]]
+    elif args.variant == "v837ao":
+        if args.regime or args.analyze:
+            raise SystemExit("--regime/--analyze are only valid with --variant v837ai")
+        if args.stage:
+            commands = [[sys.executable, "-m", "experiments.v837_primitive_invention.v837ao.run_pipeline", "--stage", args.stage]]
     elif args.regime or args.analyze or args.stage:
-        raise SystemExit("--regime/--analyze are only valid with --variant v837ai; --stage is valid only with --variant v837aj, v837al, v837am, or v837an")
+        raise SystemExit("--regime/--analyze are only valid with --variant v837ai; --stage is valid only with --variant v837aj, v837al, v837am, v837an, or v837ao")
     config = ROOT / "experiments" / "v837_primitive_invention" / args.variant / "config.json"
     if not config.is_file():
         raise SystemExit(f"missing preserved config: {config.relative_to(ROOT)}")

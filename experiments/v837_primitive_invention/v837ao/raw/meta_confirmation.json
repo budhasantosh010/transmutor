@@ -1,0 +1,48 @@
+{
+  "confirmed_families": {
+    "conditional_routing": null,
+    "delayed_recall": null,
+    "iterative_state": null,
+    "variable_composition": null
+  },
+  "meta_confirmed_families": 0,
+  "no_refit": true,
+  "no_variant_fallback": true,
+  "partition": "AO_META_CONFIRM",
+  "results": [
+    {
+      "candidate": null,
+      "family": "conditional_routing",
+      "no_refit": true,
+      "partition": "AO_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_DISCOVERY_FAMILY_CANDIDATE"
+    },
+    {
+      "candidate": null,
+      "family": "delayed_recall",
+      "no_refit": true,
+      "partition": "AO_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_DISCOVERY_FAMILY_CANDIDATE"
+    },
+    {
+      "candidate": null,
+      "family": "iterative_state",
+      "no_refit": true,
+      "partition": "AO_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_DISCOVERY_FAMILY_CANDIDATE"
+    },
+    {
+      "candidate": null,
+      "family": "variable_composition",
+      "no_refit": true,
+      "partition": "AO_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_DISCOVERY_FAMILY_CANDIDATE"
+    }
+  ],
+  "stage": "AO8_META_CONFIRM",
+  "version": "V837ao"
+}

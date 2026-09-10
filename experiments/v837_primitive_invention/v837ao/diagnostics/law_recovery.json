@@ -1,0 +1,34 @@
+{
+  "claim": "No law-recovery claim without a frozen canonical trajectory candidate.",
+  "diagnostic_only": true,
+  "families": {
+    "conditional_routing": {
+      "diagnostic_only": true,
+      "pass": false,
+      "reason": "NO_CANONICAL_TRAJECTORY_CANDIDATE",
+      "run": false
+    },
+    "delayed_recall": {
+      "diagnostic_only": true,
+      "pass": false,
+      "reason": "NO_CANONICAL_TRAJECTORY_CANDIDATE",
+      "run": false
+    },
+    "iterative_state": {
+      "diagnostic_only": true,
+      "pass": false,
+      "reason": "NO_CANONICAL_TRAJECTORY_CANDIDATE",
+      "run": false
+    },
+    "variable_composition": {
+      "diagnostic_only": true,
+      "pass": false,
+      "reason": "NO_CANONICAL_TRAJECTORY_CANDIDATE",
+      "run": false
+    }
+  },
+  "gating": false,
+  "law_recovery_families": 0,
+  "stage": "AO13_TRANSITION_LAW_EXTRACTION",
+  "version": "V837ao"
+}

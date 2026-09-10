@@ -1,0 +1,15 @@
+{
+  "canonical_families": [],
+  "diagnosis": "CAUSAL_DIRECTION_NOT_GLOBAL_COORDINATE",
+  "fresh_audit_consumed": false,
+  "next_program": "V837ap_GLOBAL_COORDINATE_OR_NONLINEAR_CAUSAL_STATE",
+  "primitive_archive_allowed_next": false,
+  "primitives_promoted": 0,
+  "qualifiers": [
+    "ALL_FOUR_POWERED_FAMILIES_REJECT_FROZEN_LINEAR_K1_CANONICAL_BACKENDS",
+    "V837AN_PAIRED_CAUSAL_STEERING_REMAINS_VALID",
+    "HELDOUT_BACKENDS_NOT_FIT_WITHOUT_FROZEN_CANDIDATE"
+  ],
+  "v838_started": false,
+  "version": "V837ao"
+}

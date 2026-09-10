@@ -1,0 +1,173 @@
+{
+  "algorithm": "for each powered family and V837aj engine: sort competent organism IDs lexicographically; last 2 -> BACKEND_HOLDOUT; remainder -> BACKEND_DISCOVERY",
+  "all_accounted": true,
+  "families": {
+    "conditional_routing": {
+      "discovery": [
+        "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+        "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+        "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+        "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+        "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61"
+      ],
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": {
+          "discovery": [
+            "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+            "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61"
+          ],
+          "holdout": [
+            "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+            "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626"
+          ],
+          "source_count": 5
+        },
+        "RANDOM_STRUCTURAL_SAMPLER": {
+          "discovery": [
+            "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726"
+          ],
+          "holdout": [
+            "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+            "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6"
+          ],
+          "source_count": 4
+        }
+      },
+      "holdout": [
+        "40ff979c2385562e15c9e6e28ef47a55345bf822a2baeec9c9b20a013dba985e",
+        "ab9286542df1cd13f3d0bca01ed76ba498e21904ee859e2a03cfc7f35a54d6f6",
+        "ce678909c3f1a265db1cde4e70408c9f78183bbb68047d6bd21630f881c5b775",
+        "e046ee8d8a0bcca613224f56281beac67c55f837cdc96c252b84766d5b243626"
+      ]
+    },
+    "delayed_recall": {
+      "discovery": [
+        "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+        "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+        "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+        "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+        "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+        "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53"
+      ],
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": {
+          "discovery": [
+            "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+            "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+            "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf"
+          ],
+          "holdout": [
+            "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+            "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a"
+          ],
+          "source_count": 5
+        },
+        "RANDOM_STRUCTURAL_SAMPLER": {
+          "discovery": [
+            "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+            "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53"
+          ],
+          "holdout": [
+            "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1",
+            "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b"
+          ],
+          "source_count": 5
+        }
+      },
+      "holdout": [
+        "6d5647d73eeb1145bf1f4c17a3d52a6da761cc28458d8c9fa1dc34e814f1c0b9",
+        "9a0bfa295133ce700a7115c9546e54c2e04317c50d7cf2ffcd87534463edef0a",
+        "b9d1a9f7f9de4c160aa7ce7726e6423583deb467184b146ee36bc24c9d519df1",
+        "c4380c4d6672f53edebb8d7abbe6867ed7f153113002c5f6729d4ed0c2b2ec4b"
+      ]
+    },
+    "iterative_state": {
+      "discovery": [
+        "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+        "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+        "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+        "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+        "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+        "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7"
+      ],
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": {
+          "discovery": [
+            "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+            "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+            "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2"
+          ],
+          "holdout": [
+            "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+            "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38"
+          ],
+          "source_count": 5
+        },
+        "RANDOM_STRUCTURAL_SAMPLER": {
+          "discovery": [
+            "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+            "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+            "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7"
+          ],
+          "holdout": [
+            "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+            "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62"
+          ],
+          "source_count": 5
+        }
+      },
+      "holdout": [
+        "425feaf4d976883aca2c838776efbebbd433a7e05592d62ff1a9243e04fc45cf",
+        "93b60dff71ba4775b1f47e41a2b99861121dff90f22170c4846d134ebaca44af",
+        "960dd3da5863f2dd3c4c269fa274bf5071cddd54dfe4f80ee4d7ea63f5802e38",
+        "e3c59d76902268ec21d48d72d85ada01f7e546967a0a76788a6e20654fc7af62"
+      ]
+    },
+    "variable_composition": {
+      "discovery": [
+        "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+        "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+        "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+        "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f"
+      ],
+      "engines": {
+        "DIRECTED_STRUCTURAL_SEARCH": {
+          "discovery": [
+            "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+            "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f"
+          ],
+          "holdout": [
+            "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+            "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37"
+          ],
+          "source_count": 4
+        },
+        "RANDOM_STRUCTURAL_SAMPLER": {
+          "discovery": [
+            "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+            "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3"
+          ],
+          "holdout": [
+            "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+            "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0"
+          ],
+          "source_count": 4
+        }
+      },
+      "holdout": [
+        "8f3f6a91cae8999c550ae7cc73cf4058cb467c8f9b7ecd6ec9f7432aa7c96771",
+        "d59e8932b58e93b1c252b2c13e0aa0d45abfc9b1cdcc6ebd0fa8e0eb1bc52dcc",
+        "d6356355f44e5e309ed74e7634e9875811b72ffa86deaf86ac12a00ffa8efc37",
+        "ff8372d368b2a987a3c19d1b64ee70a10003e7974ef88b12b5a759067acea5c0"
+      ]
+    }
+  },
+  "fold_sha256": "b96eed0f053ec48b5cb183929296a371857e549ed05bbe9650df2ef32dee1c95",
+  "holdout_per_engine_when_available": 2,
+  "performance_sorting": false,
+  "source_competent_powered": 37,
+  "version": "V837ao"
+}

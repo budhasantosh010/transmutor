@@ -1,0 +1,55 @@
+{
+  "families": {
+    "conditional_routing": {
+      "p05": -1.0,
+      "p95": 1.0,
+      "semantic_range": 2.0,
+      "target_definition": "EXACT_BINARY",
+      "targets": [
+        -1.0,
+        1.0
+      ]
+    },
+    "delayed_recall": {
+      "p05": -1.0,
+      "p95": 1.0,
+      "semantic_range": 2.0,
+      "target_definition": "EXACT_BINARY",
+      "targets": [
+        -1.0,
+        1.0
+      ]
+    },
+    "iterative_state": {
+      "p05": -0.7253749999999999,
+      "p95": 0.5774999999999999,
+      "pooled_values": 1152,
+      "semantic_range": 1.3028749999999998,
+      "target_definition": "DISCOVERY_POOLED_Q10_Q30_Q50_Q70_Q90",
+      "targets": [
+        -0.6288311093749999,
+        -0.35,
+        -0.1225,
+        0.15256885628906253,
+        0.547610765625
+      ]
+    },
+    "variable_composition": {
+      "p05": -0.5712603430860624,
+      "p95": 0.3967667605925693,
+      "pooled_values": 472,
+      "semantic_range": 0.9680271036786318,
+      "target_definition": "DISCOVERY_POOLED_Q10_Q30_Q50_Q70_Q90",
+      "targets": [
+        -0.5351665537174357,
+        -0.29795667594468245,
+        -0.1271051248043303,
+        0.05026257180644202,
+        0.29528662654228705
+      ]
+    }
+  },
+  "fit_partition": "AO_BACKEND_FIT",
+  "grid_sha256": "f9e09ab6eee179f7b127ed3459f9217798efd13e703627b0b0c2f17dc3de403b",
+  "version": "V837ao"
+}

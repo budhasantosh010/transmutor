@@ -1,0 +1,21 @@
+{
+  "version": "V837ao",
+  "start_sha": "fe210ae3ee6fad90b394865ce6dd06d525e11902",
+  "ridge_lambda": 1e-6,
+  "random_direction_controls": 32,
+  "reader": {"normalized_rmse_max": 0.10, "pearson_abs_min": 0.95, "spearman_min": 0.95, "binary_sign_accuracy_min": 0.95},
+  "setter_algebra": {"read_after_write_median_nrmse_max": 1e-6, "read_after_write_p99_nrmse_max": 1e-5, "zero_change_max_abs": 1e-10, "idempotence_relative_update_max": 1e-8},
+  "setpoint": {"median_recovery_min": 0.70, "direction_min": 0.80, "task_success_min": 0.75, "median_ood_ratio_max": 2.0, "target_fraction_recovery_060_min": 0.80, "control_margin_min": 0.20},
+  "quotient": {"median_residual_sensitivity_max": 0.20, "p90_residual_sensitivity_max": 0.40, "trajectory_disagreement_median_max": 0.10, "task_success_disagreement_max": 0.10, "median_ood_ratio_max": 2.0, "epsilon": 1e-8},
+  "dynamics": {"natural_nrmse_max": 0.10, "natural_median_abs_normalized_max": 0.075, "natural_direction_min": 0.90, "interventional_one_step_nrmse_max": 0.10, "rollout_nrmse_max": 0.15, "final_recovery_min": 0.80, "task_success_min": 0.75, "control_margin_min": 0.20, "median_ood_ratio_max": 2.0},
+  "family_pass_fraction": 0.60,
+  "heldout_pass_fraction": 0.75,
+  "calibration_ladder": [1, 2, 4, 8, 16, 32, 64],
+  "cross_organism": {"median_disagreement_max": 0.10, "p90_disagreement_max": 0.25},
+  "new_model_fits": 0,
+  "model_optimizer_steps": 0,
+  "backend_gradient_steps": 0,
+  "fresh_audit_consumed": false,
+  "primitives_promoted": 0,
+  "v838_started": false
+}
