@@ -1,0 +1,1946 @@
+{
+  "drift_count": 0,
+  "drifts": [],
+  "max_abs_metric_diff": 0.0,
+  "metric_tolerance": 1e-09,
+  "pass": true,
+  "rows": [
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 88,
+            "normalized_rmse": 0.13269185608901216,
+            "pass": false,
+            "pearson": 0.9645130721342476,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660813250968519
+          },
+          "k1": {
+            "n": 88,
+            "normalized_rmse": 0.11256039363904291,
+            "pass": false,
+            "pearson": 0.979940950506127,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660813250968519
+          },
+          "n": 88,
+          "pass": false,
+          "phase": "POST_CONTROL"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 88,
+            "normalized_rmse": 0.22303570825934077,
+            "pass": false,
+            "pearson": 0.8983131279592471,
+            "sign_accuracy": 0.9772727272727273,
+            "spearman": 0.8562394918571149
+          },
+          "k1": {
+            "n": 88,
+            "normalized_rmse": 0.5271881882060308,
+            "pass": false,
+            "pearson": 0.017318561746306187,
+            "sign_accuracy": 0.5568181818181818,
+            "spearman": 0.019683666479473907
+          },
+          "n": 88,
+          "pass": false,
+          "phase": "POST_PAYLOAD_A"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 88,
+            "normalized_rmse": 0.20536551303122244,
+            "pass": false,
+            "pearson": 0.9121862878135846,
+            "sign_accuracy": 0.9772727272727273,
+            "spearman": 0.8625024766460384
+          },
+          "k1": {
+            "n": 88,
+            "normalized_rmse": 0.47034745952568396,
+            "pass": false,
+            "pearson": 0.39198197217463304,
+            "sign_accuracy": 0.5795454545454546,
+            "spearman": 0.34893772395431016
+          },
+          "n": 88,
+          "pass": false,
+          "phase": "POST_PAYLOAD_B"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.13436578072895128,
+        "counterfactual_task_success": 0.6218487394957983,
+        "direction_agreement": 0.6302521008403361,
+        "median_counterfactual_recovery": 0.0665423876607783,
+        "median_intervention_norm": 1.3809452758453955,
+        "median_ood_ratio": 1.9733598113718676,
+        "median_semantic_read_after_set_error": 1.1102230246251565e-16,
+        "median_trajectory_nrmse": 0.28587883251747953,
+        "p99_semantic_read_after_set_error": 3.885780586188048e-16,
+        "random_median_recovery": -0.06782339306817298,
+        "shuffled_median_recovery": -2.2048251801796317,
+        "target_fraction_recovery_060": 0.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 82,
+            "normalized_rmse": 0.17065404070716272,
+            "pass": false,
+            "pearson": 0.9407165768910588,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660898090501197
+          },
+          "k1": {
+            "n": 82,
+            "normalized_rmse": 0.151441914903514,
+            "pass": false,
+            "pearson": 0.9691782736057739,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660898090501197
+          },
+          "n": 82,
+          "pass": false,
+          "phase": "POST_CONTROL"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 82,
+            "normalized_rmse": 0.2398787783601807,
+            "pass": false,
+            "pearson": 0.8787741777100139,
+            "sign_accuracy": 0.9634146341463414,
+            "spearman": 0.8557853496919982
+          },
+          "k1": {
+            "n": 82,
+            "normalized_rmse": 0.46071838851511826,
+            "pass": false,
+            "pearson": 0.39287002747824595,
+            "sign_accuracy": 0.5853658536585366,
+            "spearman": 0.3725062057960955
+          },
+          "n": 82,
+          "pass": false,
+          "phase": "POST_PAYLOAD_A"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 82,
+            "normalized_rmse": 0.24185059477813886,
+            "pass": false,
+            "pearson": 0.8797417241621539,
+            "sign_accuracy": 0.9878048780487805,
+            "spearman": 0.8660898090501197
+          },
+          "k1": {
+            "n": 82,
+            "normalized_rmse": 0.4436230336639936,
+            "pass": false,
+            "pearson": 0.5917084977373392,
+            "sign_accuracy": 0.6341463414634146,
+            "spearman": 0.5878694063808368
+          },
+          "n": 82,
+          "pass": false,
+          "phase": "POST_PAYLOAD_B"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.17476374143936113,
+        "counterfactual_task_success": 0.6244343891402715,
+        "direction_agreement": 0.6425339366515838,
+        "median_counterfactual_recovery": 0.1243077684451912,
+        "median_intervention_norm": 1.3370670703413639,
+        "median_ood_ratio": 2.2337127079326162,
+        "median_semantic_read_after_set_error": 5.551115123125783e-17,
+        "median_trajectory_nrmse": 0.20294335528176222,
+        "p99_semantic_read_after_set_error": 2.220446049250313e-16,
+        "random_median_recovery": -0.05045597299416993,
+        "shuffled_median_recovery": -1.9102032495338235,
+        "target_fraction_recovery_060": 0.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 86,
+            "normalized_rmse": 0.14184611103175684,
+            "pass": false,
+            "pearson": 0.963988257086199,
+            "sign_accuracy": 1.0,
+            "spearman": 0.866083956599068
+          },
+          "k1": {
+            "n": 86,
+            "normalized_rmse": 0.1894802037058007,
+            "pass": false,
+            "pearson": 0.9421335143753559,
+            "sign_accuracy": 1.0,
+            "spearman": 0.866083956599068
+          },
+          "n": 86,
+          "pass": false,
+          "phase": "POST_CONTROL"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 86,
+            "normalized_rmse": 0.2135487403646369,
+            "pass": false,
+            "pearson": 0.9048530229422803,
+            "sign_accuracy": 0.9767441860465116,
+            "spearman": 0.8576526363076762
+          },
+          "k1": {
+            "n": 86,
+            "normalized_rmse": 0.338322425307683,
+            "pass": false,
+            "pearson": 0.7570832433938197,
+            "sign_accuracy": 0.8604651162790697,
+            "spearman": 0.7742762467594696
+          },
+          "n": 86,
+          "pass": false,
+          "phase": "POST_PAYLOAD_A"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 86,
+            "normalized_rmse": 0.21256941197893656,
+            "pass": false,
+            "pearson": 0.9061504256376965,
+            "sign_accuracy": 0.9651162790697675,
+            "spearman": 0.8632735165019374
+          },
+          "k1": {
+            "n": 86,
+            "normalized_rmse": 0.3771296820556964,
+            "pass": false,
+            "pearson": 0.7062594519688595,
+            "sign_accuracy": 0.8372093023255814,
+            "spearman": 0.6871526037484222
+          },
+          "n": 86,
+          "pass": false,
+          "phase": "POST_PAYLOAD_B"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.14582706264146272,
+        "counterfactual_task_success": 0.6410256410256411,
+        "direction_agreement": 0.6666666666666666,
+        "median_counterfactual_recovery": 0.052261607621355455,
+        "median_intervention_norm": 1.2380378604410214,
+        "median_ood_ratio": 2.493443017469204,
+        "median_semantic_read_after_set_error": 5.551115123125783e-17,
+        "median_trajectory_nrmse": 0.22015434673471435,
+        "p99_semantic_read_after_set_error": 2.7755575615628914e-16,
+        "random_median_recovery": -0.09356545502010727,
+        "shuffled_median_recovery": -1.610998900307731,
+        "target_fraction_recovery_060": 0.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 90,
+            "normalized_rmse": 0.14974434722381863,
+            "pass": false,
+            "pearson": 0.9542784692863652,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660788670930541
+          },
+          "k1": {
+            "n": 90,
+            "normalized_rmse": 0.15611004556177305,
+            "pass": false,
+            "pearson": 0.9771468201884639,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660788670930541
+          },
+          "n": 90,
+          "pass": false,
+          "phase": "POST_CONTROL"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 90,
+            "normalized_rmse": 0.22552888502648197,
+            "pass": false,
+            "pearson": 0.9015636116854597,
+            "sign_accuracy": 0.9666666666666667,
+            "spearman": 0.8575250017390488
+          },
+          "k1": {
+            "n": 90,
+            "normalized_rmse": 0.42371971047489787,
+            "pass": false,
+            "pearson": 0.5556514231741115,
+            "sign_accuracy": 0.7222222222222222,
+            "spearman": 0.5615612604904593
+          },
+          "n": 90,
+          "pass": false,
+          "phase": "POST_PAYLOAD_A"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 90,
+            "normalized_rmse": 0.21394772701989803,
+            "pass": false,
+            "pearson": 0.9137630345079641,
+            "sign_accuracy": 0.9555555555555556,
+            "spearman": 0.8583803882744493
+          },
+          "k1": {
+            "n": 90,
+            "normalized_rmse": 0.3680992313194654,
+            "pass": false,
+            "pearson": 0.766389944910487,
+            "sign_accuracy": 0.8444444444444444,
+            "spearman": 0.7728417347343945
+          },
+          "n": 90,
+          "pass": false,
+          "phase": "POST_PAYLOAD_B"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.16155982127079693,
+        "counterfactual_task_success": 0.6122448979591837,
+        "direction_agreement": 0.6530612244897959,
+        "median_counterfactual_recovery": 0.043510694058799926,
+        "median_intervention_norm": 1.464310133854074,
+        "median_ood_ratio": 2.2843302195434805,
+        "median_semantic_read_after_set_error": 1.1102230246251565e-16,
+        "median_trajectory_nrmse": 0.22781101359798783,
+        "p99_semantic_read_after_set_error": 3.95239396766556e-16,
+        "random_median_recovery": -0.11804912721199701,
+        "shuffled_median_recovery": -0.8907992409659131,
+        "target_fraction_recovery_060": 0.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 86,
+            "normalized_rmse": 0.17175011431896553,
+            "pass": false,
+            "pearson": 0.9463437807736206,
+            "sign_accuracy": 1.0,
+            "spearman": 0.866083956599068
+          },
+          "k1": {
+            "n": 86,
+            "normalized_rmse": 0.15727785362820296,
+            "pass": false,
+            "pearson": 0.9760826849985493,
+            "sign_accuracy": 1.0,
+            "spearman": 0.866083956599068
+          },
+          "n": 86,
+          "pass": false,
+          "phase": "POST_CONTROL"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 86,
+            "normalized_rmse": 0.17706642978164397,
+            "pass": false,
+            "pearson": 0.93667963009659,
+            "sign_accuracy": 1.0,
+            "spearman": 0.866083956599068
+          },
+          "k1": {
+            "n": 86,
+            "normalized_rmse": 0.40719817915965945,
+            "pass": false,
+            "pearson": 0.638999479457701,
+            "sign_accuracy": 0.7906976744186046,
+            "spearman": 0.6384383087314925
+          },
+          "n": 86,
+          "pass": false,
+          "phase": "POST_PAYLOAD_A"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 86,
+            "normalized_rmse": 0.1928150835627217,
+            "pass": false,
+            "pearson": 0.9228846152222501,
+            "sign_accuracy": 0.9767441860465116,
+            "spearman": 0.866083956599068
+          },
+          "k1": {
+            "n": 86,
+            "normalized_rmse": 0.46465801200032997,
+            "pass": false,
+            "pearson": 0.4857037395973215,
+            "sign_accuracy": 0.5697674418604651,
+            "spearman": 0.4744959697322098
+          },
+          "n": 86,
+          "pass": false,
+          "phase": "POST_PAYLOAD_B"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.35077714943755617,
+        "counterfactual_task_success": 0.6422413793103449,
+        "direction_agreement": 0.6336206896551724,
+        "median_counterfactual_recovery": 0.07144246710104835,
+        "median_intervention_norm": 1.788667499114497,
+        "median_ood_ratio": 2.19032784472751,
+        "median_semantic_read_after_set_error": 5.551115123125783e-17,
+        "median_trajectory_nrmse": 0.22783897680427434,
+        "p99_semantic_read_after_set_error": 2.7755575615628914e-16,
+        "random_median_recovery": -0.2793346823365078,
+        "shuffled_median_recovery": -1.5656260121566095,
+        "target_fraction_recovery_060": 0.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.07220269421799133,
+            "pass": true,
+            "pearson": 0.9898333665654542,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.49151779927716965,
+            "pass": false,
+            "pearson": 0.24293320558353815,
+            "sign_accuracy": 0.5634920634920635,
+            "spearman": 0.24722541853155314
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "POST_WRITE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.10347772149967785,
+            "pass": false,
+            "pearson": 0.9783818011061117,
+            "sign_accuracy": 0.9920634920634921,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.1530936353826007,
+            "pass": false,
+            "pearson": 0.9561630349893958,
+            "sign_accuracy": 0.9761904761904762,
+            "spearman": 0.8651798627339878
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "MID_DELAY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.06019348375643473,
+            "pass": true,
+            "pearson": 0.9935877582573182,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.08365058820348871,
+            "pass": true,
+            "pearson": 0.9885213539318783,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "n": 126,
+          "pass": true,
+          "phase": "PRE_READ"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": -0.00178667196703719,
+        "counterfactual_task_success": 1.0,
+        "direction_agreement": 0.9044117647058824,
+        "median_counterfactual_recovery": 0.9978271795112843,
+        "median_intervention_norm": 5.065101545363717,
+        "median_ood_ratio": 3.4192708265410845,
+        "median_semantic_read_after_set_error": 5.551115123125783e-17,
+        "median_trajectory_nrmse": 0.05941577207389717,
+        "p99_semantic_read_after_set_error": 2.542410726391631e-16,
+        "random_median_recovery": 0.0006353547372179302,
+        "shuffled_median_recovery": 0.9996138514783215,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.07587422802230152,
+            "pass": true,
+            "pearson": 0.9888427082551705,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.4711634778619194,
+            "pass": false,
+            "pearson": 0.34893264261199647,
+            "sign_accuracy": 0.6031746031746031,
+            "spearman": 0.353709093944967
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "POST_WRITE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.08572094332139109,
+            "pass": true,
+            "pearson": 0.9867187927695764,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.11752970013265603,
+            "pass": false,
+            "pearson": 0.9740966083784314,
+            "sign_accuracy": 0.9920634920634921,
+            "spearman": 0.8660526797455731
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "MID_DELAY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.0519164952267259,
+            "pass": true,
+            "pearson": 0.9948790848502737,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.04560034643104915,
+            "pass": true,
+            "pearson": 0.996390274349194,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "n": 126,
+          "pass": true,
+          "phase": "PRE_READ"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.9907914580384973,
+        "counterfactual_task_success": 0.9115384615384615,
+        "direction_agreement": 0.9076923076923077,
+        "median_counterfactual_recovery": 0.9917805607021537,
+        "median_intervention_norm": 5.948440346115593,
+        "median_ood_ratio": 2.672336390092264,
+        "median_semantic_read_after_set_error": 5.551115123125783e-17,
+        "median_trajectory_nrmse": 0.03828461741348468,
+        "p99_semantic_read_after_set_error": 3.3306690738754696e-16,
+        "random_median_recovery": 0.000989102663656316,
+        "shuffled_median_recovery": -0.0035297074763994685,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.05997171384160368,
+            "pass": true,
+            "pearson": 0.9928296138883499,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.4932779373928859,
+            "pass": false,
+            "pearson": 0.18509576536014108,
+            "sign_accuracy": 0.5317460317460317,
+            "spearman": 0.19965689140015103
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "POST_WRITE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.09962102679228443,
+            "pass": true,
+            "pearson": 0.9800734671392385,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.14872148505347216,
+            "pass": false,
+            "pearson": 0.9594193229444143,
+            "sign_accuracy": 0.9841269841269841,
+            "spearman": 0.8647434542281951
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "MID_DELAY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.04576456820701439,
+            "pass": true,
+            "pearson": 0.9958117640961458,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.0706863443119738,
+            "pass": true,
+            "pearson": 0.9926998396352872,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "n": 126,
+          "pass": true,
+          "phase": "PRE_READ"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.9948020891758613,
+        "counterfactual_task_success": 0.996268656716418,
+        "direction_agreement": 0.8805970149253731,
+        "median_counterfactual_recovery": 0.9953735539209634,
+        "median_intervention_norm": 4.853389493000321,
+        "median_ood_ratio": 3.6662193954917766,
+        "median_semantic_read_after_set_error": 1.1102230246251565e-16,
+        "median_trajectory_nrmse": 0.03666937359228084,
+        "p99_semantic_read_after_set_error": 3.3306690738754696e-16,
+        "random_median_recovery": 0.0005714647451020571,
+        "shuffled_median_recovery": -0.003757906780648579,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.1041680891337446,
+            "pass": false,
+            "pearson": 0.978107864959034,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.5172735358261277,
+            "pass": false,
+            "pearson": -0.3749788597147682,
+            "sign_accuracy": 0.3968253968253968,
+            "spearman": -0.37465670222301567
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "POST_WRITE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.16009042969868237,
+            "pass": false,
+            "pearson": 0.9496657218573333,
+            "sign_accuracy": 0.9682539682539683,
+            "spearman": 0.8603793691702684
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.21679768323971915,
+            "pass": false,
+            "pearson": 0.9052063287738482,
+            "sign_accuracy": 0.9285714285714286,
+            "spearman": 0.8464142969849026
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "MID_DELAY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.06464937327968912,
+            "pass": true,
+            "pearson": 0.9920416480570569,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.09790865329363789,
+            "pass": true,
+            "pearson": 0.9824354888619032,
+            "sign_accuracy": 0.9920634920634921,
+            "spearman": 0.8660526797455731
+          },
+          "n": 126,
+          "pass": true,
+          "phase": "PRE_READ"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.9929140188808503,
+        "counterfactual_task_success": 0.9372693726937269,
+        "direction_agreement": 0.8302583025830258,
+        "median_counterfactual_recovery": 0.9945127526015654,
+        "median_intervention_norm": 4.445296876472613,
+        "median_ood_ratio": 2.6734506913579144,
+        "median_semantic_read_after_set_error": 1.6653345369377348e-16,
+        "median_trajectory_nrmse": 0.03207829057119893,
+        "p99_semantic_read_after_set_error": 4.607425552194406e-16,
+        "random_median_recovery": 0.0015987337207151175,
+        "shuffled_median_recovery": -0.003416993451455186,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 128,
+            "normalized_rmse": 0.06950463679708116,
+            "pass": true,
+            "pearson": 0.9903291069200725,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660518339922417
+          },
+          "k1": {
+            "n": 128,
+            "normalized_rmse": 0.4807736626588297,
+            "pass": false,
+            "pearson": 0.29266998016694556,
+            "sign_accuracy": 0.53125,
+            "spearman": 0.29474517983036747
+          },
+          "n": 128,
+          "pass": false,
+          "phase": "POST_WRITE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 128,
+            "normalized_rmse": 0.13159994328640925,
+            "pass": false,
+            "pearson": 0.9677958372095777,
+            "sign_accuracy": 0.9921875,
+            "spearman": 0.8660518339922417
+          },
+          "k1": {
+            "n": 128,
+            "normalized_rmse": 0.1649840229238746,
+            "pass": false,
+            "pearson": 0.9526898178641197,
+            "sign_accuracy": 0.984375,
+            "spearman": 0.8660518339922417
+          },
+          "n": 128,
+          "pass": false,
+          "phase": "MID_DELAY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 128,
+            "normalized_rmse": 0.08731805602297055,
+            "pass": true,
+            "pearson": 0.9859353871858647,
+            "sign_accuracy": 0.9921875,
+            "spearman": 0.8660518339922417
+          },
+          "k1": {
+            "n": 128,
+            "normalized_rmse": 0.1193442566103768,
+            "pass": false,
+            "pearson": 0.9742665934034667,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660518339922417
+          },
+          "n": 128,
+          "pass": false,
+          "phase": "PRE_READ"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": -0.0016430592711954572,
+        "counterfactual_task_success": 0.9968051118210862,
+        "direction_agreement": 0.8977635782747604,
+        "median_counterfactual_recovery": 0.9983064851763941,
+        "median_intervention_norm": 5.0627212106696815,
+        "median_ood_ratio": 2.3297088194052105,
+        "median_semantic_read_after_set_error": 1.1102230246251565e-16,
+        "median_trajectory_nrmse": 0.06163549147415339,
+        "p99_semantic_read_after_set_error": 4.374278717023114e-16,
+        "random_median_recovery": 0.00013565672519239014,
+        "shuffled_median_recovery": 0.9999495444475895,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 404,
+      "metric_tolerance": 1e-09,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.0843251702137088,
+            "pass": true,
+            "pearson": 0.9857283093556202,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.47631555590818203,
+            "pass": false,
+            "pearson": 0.32878355175023577,
+            "sign_accuracy": 0.6111111111111112,
+            "spearman": 0.3192328219873453
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "POST_WRITE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.12267271324759321,
+            "pass": false,
+            "pearson": 0.9695065586242382,
+            "sign_accuracy": 0.9920634920634921,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.13909156567262498,
+            "pass": false,
+            "pearson": 0.9655699735784282,
+            "sign_accuracy": 0.9920634920634921,
+            "spearman": 0.8656162712397805
+          },
+          "n": 126,
+          "pass": false,
+          "phase": "MID_DELAY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 126,
+            "normalized_rmse": 0.05510419290493649,
+            "pass": true,
+            "pearson": 0.9941162290413612,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "k1": {
+            "n": 126,
+            "normalized_rmse": 0.07312761136051475,
+            "pass": true,
+            "pearson": 0.9920321759647214,
+            "sign_accuracy": 1.0,
+            "spearman": 0.8660526797455731
+          },
+          "n": 126,
+          "pass": true,
+          "phase": "PRE_READ"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": -0.001568427194477584,
+        "counterfactual_task_success": 1.0,
+        "direction_agreement": 0.8872727272727273,
+        "median_counterfactual_recovery": 0.9984315728055224,
+        "median_intervention_norm": 5.4059839038281,
+        "median_ood_ratio": 3.0882797115355385,
+        "median_semantic_read_after_set_error": 5.551115123125783e-17,
+        "median_trajectory_nrmse": 0.054049793694369665,
+        "p99_semantic_read_after_set_error": 3.885780586188048e-16,
+        "random_median_recovery": 0.00042974330239342606,
+        "shuffled_median_recovery": 1.0,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.050641721745168025,
+            "pass": true,
+            "pearson": 0.9851350671945291,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9792917250963546
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.09532369733658044,
+            "pass": false,
+            "pearson": 0.9457347488813503,
+            "sign_accuracy": 0.95,
+            "spearman": 0.9373493770653986
+          },
+          "n": 80,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.04160405457239983,
+            "pass": true,
+            "pearson": 0.9924274705628867,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9876476289261251
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.06294399049567866,
+            "pass": true,
+            "pearson": 0.9921699075486092,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9907814532683272
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.031945419339735735,
+            "pass": true,
+            "pearson": 0.9953786204138354,
+            "sign_accuracy": 0.9375,
+            "spearman": 0.9935283130949234
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.06343925670198383,
+            "pass": true,
+            "pearson": 0.997366904313395,
+            "sign_accuracy": 0.95,
+            "spearman": 0.9958379715603797
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.8243100187935828,
+        "counterfactual_task_success": 0.9958677685950413,
+        "direction_agreement": 0.9917355371900827,
+        "median_counterfactual_recovery": 0.8214543173025382,
+        "median_intervention_norm": 0.9463902679067242,
+        "median_ood_ratio": 1.7927649405152533,
+        "median_semantic_read_after_set_error": 4.260665929675359e-17,
+        "median_trajectory_nrmse": 0.043297660821045525,
+        "p99_semantic_read_after_set_error": 2.5563995578052157e-16,
+        "random_median_recovery": -0.0028557014910446377,
+        "shuffled_median_recovery": -2.383581326949611,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.06548670646248529,
+            "pass": true,
+            "pearson": 0.9753606114568578,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9732726637616161
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.10601301059340083,
+            "pass": false,
+            "pearson": 0.9332651513977644,
+            "sign_accuracy": 0.95,
+            "spearman": 0.9231138193054613
+          },
+          "n": 80,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.05047659315268897,
+            "pass": true,
+            "pearson": 0.9897494273907288,
+            "sign_accuracy": 0.95,
+            "spearman": 0.9881171157189645
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.06846491520424298,
+            "pass": true,
+            "pearson": 0.9862146340936634,
+            "sign_accuracy": 0.975,
+            "spearman": 0.9836687283568126
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.04438609948126492,
+            "pass": true,
+            "pearson": 0.990876706517912,
+            "sign_accuracy": 0.95,
+            "spearman": 0.9885689956792483
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.06821701985734362,
+            "pass": true,
+            "pearson": 0.9954179927822596,
+            "sign_accuracy": 0.9375,
+            "spearman": 0.9933407266205717
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.8306087484952731,
+        "counterfactual_task_success": 0.9959016393442623,
+        "direction_agreement": 0.9938524590163934,
+        "median_counterfactual_recovery": 0.832794815647647,
+        "median_intervention_norm": 0.944952733718661,
+        "median_ood_ratio": 1.7824807799479787,
+        "median_semantic_read_after_set_error": 8.521331859350718e-17,
+        "median_trajectory_nrmse": 0.03823938328789185,
+        "p99_semantic_read_after_set_error": 3.408532743740287e-16,
+        "random_median_recovery": 0.0021860671523738495,
+        "shuffled_median_recovery": -1.8699285086320916,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.06809808042120534,
+            "pass": true,
+            "pearson": 0.972791234065279,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9724127978566532
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.10241009343846465,
+            "pass": false,
+            "pearson": 0.9367804063506007,
+            "sign_accuracy": 0.975,
+            "spearman": 0.9287507180157719
+          },
+          "n": 80,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.050857187906259656,
+            "pass": true,
+            "pearson": 0.9894302967360796,
+            "sign_accuracy": 0.9625,
+            "spearman": 0.98710771911436
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.062046563856428,
+            "pass": true,
+            "pearson": 0.9879804692084874,
+            "sign_accuracy": 0.975,
+            "spearman": 0.9856992587358423
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.05573101311252795,
+            "pass": true,
+            "pearson": 0.9855754854177462,
+            "sign_accuracy": 0.9375,
+            "spearman": 0.9812648473341756
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.05734777208751209,
+            "pass": true,
+            "pearson": 0.9957960096516898,
+            "sign_accuracy": 0.9625,
+            "spearman": 0.9912421029387611
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.8346073728576608,
+        "counterfactual_task_success": 1.0,
+        "direction_agreement": 0.9897750511247444,
+        "median_counterfactual_recovery": 0.8299703020046237,
+        "median_intervention_norm": 0.8738761974034233,
+        "median_ood_ratio": 1.8102912022363222,
+        "median_semantic_read_after_set_error": 4.260665929675359e-17,
+        "median_trajectory_nrmse": 0.02976224465127433,
+        "p99_semantic_read_after_set_error": 2.5563995578052157e-16,
+        "random_median_recovery": -0.004637070853037106,
+        "shuffled_median_recovery": -0.9941561689661451,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.057658616555748235,
+            "pass": true,
+            "pearson": 0.980459314987604,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9784318591913918
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.09716433717523312,
+            "pass": false,
+            "pearson": 0.9461875175660632,
+            "sign_accuracy": 0.95,
+            "spearman": 0.940788840685249
+          },
+          "n": 80,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.03413075702963131,
+            "pass": true,
+            "pearson": 0.9949172307829603,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9937274828933937
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.0649513423127912,
+            "pass": true,
+            "pearson": 0.9899610144525938,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9886335511910878
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.04592004482597231,
+            "pass": true,
+            "pearson": 0.9908446137853563,
+            "sign_accuracy": 0.9375,
+            "spearman": 0.985274508223445
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.06986934708868142,
+            "pass": true,
+            "pearson": 0.9951719582022233,
+            "sign_accuracy": 0.9375,
+            "spearman": 0.9931648643008668
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.8161132093905655,
+        "counterfactual_task_success": 0.983640081799591,
+        "direction_agreement": 0.9897750511247444,
+        "median_counterfactual_recovery": 0.8171670788175407,
+        "median_intervention_norm": 0.947796466807186,
+        "median_ood_ratio": 1.7505170845109785,
+        "median_semantic_read_after_set_error": 4.260665929675359e-17,
+        "median_trajectory_nrmse": 0.042218761660624306,
+        "p99_semantic_read_after_set_error": 2.3689302568995006e-16,
+        "random_median_recovery": 0.0010538694269751625,
+        "shuffled_median_recovery": -1.5136988911186404,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.05460816797293458,
+            "pass": true,
+            "pearson": 0.9830935119564087,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9775719932864293
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.10371701303713612,
+            "pass": false,
+            "pearson": 0.9351585648944482,
+            "sign_accuracy": 0.975,
+            "spearman": 0.9248335511153866
+          },
+          "n": 80,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.051005811810269086,
+            "pass": true,
+            "pearson": 0.9895093093561066,
+            "sign_accuracy": 0.975,
+            "spearman": 0.9867321296800887
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.06801010437516443,
+            "pass": true,
+            "pearson": 0.9875695661709991,
+            "sign_accuracy": 0.9875,
+            "spearman": 0.9849363426974787
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.037918601807284597,
+            "pass": true,
+            "pearson": 0.9936868926274626,
+            "sign_accuracy": 0.925,
+            "spearman": 0.9907262401342938
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.0656451778161816,
+            "pass": true,
+            "pearson": 0.9972480955410105,
+            "sign_accuracy": 0.9625,
+            "spearman": 0.9954276261477353
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.8401586131666873,
+        "counterfactual_task_success": 1.0,
+        "direction_agreement": 0.9938398357289527,
+        "median_counterfactual_recovery": 0.8345809347091293,
+        "median_intervention_norm": 0.9360169085571874,
+        "median_ood_ratio": 2.008236420557795,
+        "median_semantic_read_after_set_error": 5.325832412094199e-17,
+        "median_trajectory_nrmse": 0.03701700515612022,
+        "p99_semantic_read_after_set_error": 2.5563995578052157e-16,
+        "random_median_recovery": -0.005577678457557966,
+        "shuffled_median_recovery": -2.5127553160774307,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.06385849487112943,
+            "pass": true,
+            "pearson": 0.9773443523281745,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9715529319516906
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.09756287480293489,
+            "pass": false,
+            "pearson": 0.9428174717795546,
+            "sign_accuracy": 0.95,
+            "spearman": 0.9248335511153866
+          },
+          "n": 80,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.03665772880150995,
+            "pass": true,
+            "pearson": 0.9944335774553982,
+            "sign_accuracy": 0.975,
+            "spearman": 0.9938800661010664
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.07106280924439175,
+            "pass": true,
+            "pearson": 0.9855679602578534,
+            "sign_accuracy": 0.9625,
+            "spearman": 0.9827062804314922
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 80,
+            "normalized_rmse": 0.03958271142686207,
+            "pass": true,
+            "pearson": 0.9944043966297996,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9940441758993909
+          },
+          "k1": {
+            "n": 80,
+            "normalized_rmse": 0.06954060173885608,
+            "pass": true,
+            "pearson": 0.996394252392331,
+            "sign_accuracy": 0.9625,
+            "spearman": 0.9950641773536788
+          },
+          "n": 80,
+          "pass": true,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.8440452676355592,
+        "counterfactual_task_success": 1.0,
+        "direction_agreement": 0.9898373983739838,
+        "median_counterfactual_recovery": 0.8321007148279516,
+        "median_intervention_norm": 1.0133807181541585,
+        "median_ood_ratio": 1.8798431446553876,
+        "median_semantic_read_after_set_error": 4.260665929675359e-17,
+        "median_trajectory_nrmse": 0.03451119894769959,
+        "p99_semantic_read_after_set_error": 2.1686789582047472e-16,
+        "random_median_recovery": -0.011944552807607645,
+        "shuffled_median_recovery": -3.6940679039855424,
+        "target_fraction_recovery_060": 1.0
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 52,
+            "normalized_rmse": 0.09563917259573158,
+            "pass": true,
+            "pearson": 0.9730880480883055,
+            "sign_accuracy": 0.9423076923076923,
+            "spearman": 0.9802783232305984
+          },
+          "k1": {
+            "n": 52,
+            "normalized_rmse": 0.2692990371908013,
+            "pass": false,
+            "pearson": 0.8069606355828551,
+            "sign_accuracy": 0.9230769230769231,
+            "spearman": 0.8003927260309058
+          },
+          "n": 52,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 42,
+            "normalized_rmse": 0.08963187519461985,
+            "pass": true,
+            "pearson": 0.9712264696098868,
+            "sign_accuracy": 0.9047619047619048,
+            "spearman": 0.9666153472165951
+          },
+          "k1": {
+            "n": 42,
+            "normalized_rmse": 0.26471044678824995,
+            "pass": false,
+            "pearson": 0.7140566862018319,
+            "sign_accuracy": 0.7857142857142857,
+            "spearman": 0.7230370310347622
+          },
+          "n": 42,
+          "pass": false,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 52,
+            "normalized_rmse": 0.07985639524850632,
+            "pass": true,
+            "pearson": 0.9666386687275463,
+            "sign_accuracy": 0.9423076923076923,
+            "spearman": 0.9727653035089217
+          },
+          "k1": {
+            "n": 52,
+            "normalized_rmse": 0.3192376331470437,
+            "pass": false,
+            "pearson": 0.3392872183032909,
+            "sign_accuracy": 0.6538461538461539,
+            "spearman": 0.33509775463160585
+          },
+          "n": 52,
+          "pass": false,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.46985694046606746,
+        "counterfactual_task_success": 0.4212328767123288,
+        "direction_agreement": 0.821917808219178,
+        "median_counterfactual_recovery": 0.43107795206058236,
+        "median_intervention_norm": 1.015457291079362,
+        "median_ood_ratio": 4.455749226068086,
+        "median_semantic_read_after_set_error": 3.584039061271378e-17,
+        "median_trajectory_nrmse": 0.0,
+        "p99_semantic_read_after_set_error": 2.293784999213682e-16,
+        "random_median_recovery": -0.038778988405485104,
+        "shuffled_median_recovery": -2.317697187573108,
+        "target_fraction_recovery_060": 0.2
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 56,
+            "normalized_rmse": 0.07939933937286038,
+            "pass": true,
+            "pearson": 0.9822626016560219,
+            "sign_accuracy": 0.9821428571428571,
+            "spearman": 0.9781954887218046
+          },
+          "k1": {
+            "n": 56,
+            "normalized_rmse": 0.2607851501276354,
+            "pass": false,
+            "pearson": 0.8181606205583553,
+            "sign_accuracy": 0.8928571428571429,
+            "spearman": 0.8347915242652085
+          },
+          "n": 56,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 44,
+            "normalized_rmse": 0.08374743165066718,
+            "pass": true,
+            "pearson": 0.9760912663757895,
+            "sign_accuracy": 0.9545454545454546,
+            "spearman": 0.9656095842142355
+          },
+          "k1": {
+            "n": 44,
+            "normalized_rmse": 0.2670697718056433,
+            "pass": false,
+            "pearson": 0.7161730739976762,
+            "sign_accuracy": 0.75,
+            "spearman": 0.7454545454545454
+          },
+          "n": 44,
+          "pass": false,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 56,
+            "normalized_rmse": 0.07900734797064156,
+            "pass": true,
+            "pearson": 0.970260407329123,
+            "sign_accuracy": 0.9285714285714286,
+            "spearman": 0.9716336295283664
+          },
+          "k1": {
+            "n": 56,
+            "normalized_rmse": 0.32402727435151585,
+            "pass": false,
+            "pearson": 0.30498208126903703,
+            "sign_accuracy": 0.5892857142857143,
+            "spearman": 0.3392344497607656
+          },
+          "n": 56,
+          "pass": false,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.529724304380498,
+        "counterfactual_task_success": 0.49201277955271566,
+        "direction_agreement": 0.8370607028753994,
+        "median_counterfactual_recovery": 0.491843465291009,
+        "median_intervention_norm": 0.9513642321737155,
+        "median_ood_ratio": 3.809836748753556,
+        "median_semantic_read_after_set_error": 5.734462498034205e-17,
+        "median_trajectory_nrmse": 0.0008316769630260503,
+        "p99_semantic_read_after_set_error": 2.293784999213682e-16,
+        "random_median_recovery": -0.03788083908948903,
+        "shuffled_median_recovery": -2.072371119615221,
+        "target_fraction_recovery_060": 0.2
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 56,
+            "normalized_rmse": 0.06584268558488783,
+            "pass": true,
+            "pearson": 0.9876855898028716,
+            "sign_accuracy": 1.0,
+            "spearman": 0.9889268626110733
+          },
+          "k1": {
+            "n": 56,
+            "normalized_rmse": 0.22730975174251794,
+            "pass": false,
+            "pearson": 0.8750782079631731,
+            "sign_accuracy": 0.9642857142857143,
+            "spearman": 0.8735475051264525
+          },
+          "n": 56,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 48,
+            "normalized_rmse": 0.08269243773581167,
+            "pass": true,
+            "pearson": 0.9776587747679483,
+            "sign_accuracy": 0.9375,
+            "spearman": 0.9724272687798523
+          },
+          "k1": {
+            "n": 48,
+            "normalized_rmse": 0.2493212464920028,
+            "pass": false,
+            "pearson": 0.7911292450294822,
+            "sign_accuracy": 0.7916666666666666,
+            "spearman": 0.818280503690838
+          },
+          "n": 48,
+          "pass": false,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 56,
+            "normalized_rmse": 0.0931171371654181,
+            "pass": false,
+            "pearson": 0.9557537352945181,
+            "sign_accuracy": 0.8928571428571429,
+            "spearman": 0.9478468899521532
+          },
+          "k1": {
+            "n": 56,
+            "normalized_rmse": 0.3273233998609066,
+            "pass": false,
+            "pearson": 0.3028599748469991,
+            "sign_accuracy": 0.5892857142857143,
+            "spearman": 0.33499658236500346
+          },
+          "n": 56,
+          "pass": false,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.5937044480209984,
+        "counterfactual_task_success": 0.5403726708074534,
+        "direction_agreement": 0.84472049689441,
+        "median_counterfactual_recovery": 0.5766109568775377,
+        "median_intervention_norm": 0.8792958830212565,
+        "median_ood_ratio": 4.223356086786531,
+        "median_semantic_read_after_set_error": 5.734462498034205e-17,
+        "median_trajectory_nrmse": 0.0,
+        "p99_semantic_read_after_set_error": 2.293784999213682e-16,
+        "random_median_recovery": -0.017093491143460704,
+        "shuffled_median_recovery": -0.8277127522397629,
+        "target_fraction_recovery_060": 0.2
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    },
+    {
+      "algebra_pass": true,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "max_abs_metric_diff": 0.0,
+      "metric_count": 416,
+      "metric_tolerance": 1e-09,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "pass": true,
+      "reader_phases": [
+        {
+          "full40_diagnostic": {
+            "n": 54,
+            "normalized_rmse": 0.08813909966694577,
+            "pass": true,
+            "pearson": 0.9774456572234654,
+            "sign_accuracy": 0.9629629629629629,
+            "spearman": 0.9801029159519724
+          },
+          "k1": {
+            "n": 54,
+            "normalized_rmse": 0.25994146825744163,
+            "pass": false,
+            "pearson": 0.8297638089046954,
+            "sign_accuracy": 0.7962962962962963,
+            "spearman": 0.8510386887745377
+          },
+          "n": 54,
+          "pass": false,
+          "phase": "EARLY"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 48,
+            "normalized_rmse": 0.09902874664411769,
+            "pass": true,
+            "pearson": 0.969149114278418,
+            "sign_accuracy": 0.9375,
+            "spearman": 0.9686278766825879
+          },
+          "k1": {
+            "n": 48,
+            "normalized_rmse": 0.2304001373998411,
+            "pass": false,
+            "pearson": 0.8442783820350591,
+            "sign_accuracy": 0.8958333333333334,
+            "spearman": 0.8532349109856707
+          },
+          "n": 48,
+          "pass": false,
+          "phase": "MIDDLE"
+        },
+        {
+          "full40_diagnostic": {
+            "n": 54,
+            "normalized_rmse": 0.09726087519463993,
+            "pass": true,
+            "pearson": 0.9545200190032669,
+            "sign_accuracy": 0.8703703703703703,
+            "spearman": 0.9577663426720029
+          },
+          "k1": {
+            "n": 54,
+            "normalized_rmse": 0.23881383677947554,
+            "pass": false,
+            "pearson": 0.696607626251342,
+            "sign_accuracy": 0.8148148148148148,
+            "spearman": 0.7011625690870972
+          },
+          "n": 54,
+          "pass": false,
+          "phase": "LATE"
+        }
+      ],
+      "reader_reproduced": true,
+      "setpoint_metrics": {
+        "control_margin": 0.6076204659031816,
+        "counterfactual_task_success": 0.5220125786163522,
+        "direction_agreement": 0.8742138364779874,
+        "median_counterfactual_recovery": 0.6004702341541882,
+        "median_intervention_norm": 0.7306963087555651,
+        "median_ood_ratio": 3.863417593159408,
+        "median_semantic_read_after_set_error": 5.734462498034205e-17,
+        "median_trajectory_nrmse": 0.0,
+        "p99_semantic_read_after_set_error": 2.293784999213682e-16,
+        "random_median_recovery": -0.00715023174899343,
+        "shuffled_median_recovery": -2.186729821191097,
+        "target_fraction_recovery_060": 0.2
+      },
+      "setpoint_reproduced": true,
+      "variant": "B0_GLOBAL_K1"
+    }
+  ],
+  "source_version": "V837ao",
+  "stage": "AP1_V837AO_NEGATIVE_ANCHOR",
+  "v837an_k1_causal_steering_remains_valid": true,
+  "v837ao_diagnosis": "CAUSAL_DIRECTION_NOT_GLOBAL_COORDINATE",
+  "version": "V837ap"
+}

@@ -1,0 +1,48 @@
+{
+  "development_roles_disjoint": true,
+  "fresh_audit_unused": true,
+  "pass": true,
+  "roles": {
+    "AP_CHART_FIT": [
+      10000,
+      10063
+    ],
+    "AP_CHART_SELECT": [
+      10064,
+      10127
+    ],
+    "AP_DISCOVERY_FINAL": [
+      10448,
+      10511
+    ],
+    "AP_DYNAMICS": [
+      10320,
+      10383
+    ],
+    "AP_META_CONFIRM": [
+      10384,
+      10447
+    ],
+    "AP_QUOTIENT": [
+      10256,
+      10319
+    ],
+    "AP_WRITER_FIT": [
+      10128,
+      10191
+    ],
+    "AP_WRITER_SELECT": [
+      10192,
+      10255
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ],
+    "REUSED_HISTORICAL_VALIDATION": [
+      20000,
+      20127
+    ]
+  },
+  "version": "V837ap"
+}

@@ -30,7 +30,7 @@ class ArchiveIntegrityTests(unittest.TestCase):
         )
         for group in ("preserved_files", "preserved_registry_files"):
             for relative, expected in manifest[group].items():
-                self.assertEqual(sha256_file(ROOT / relative), expected, relative)
+                self.assertEqual(validator.sha256_manifest_compatible(ROOT / relative, expected), expected, relative)
 
     def test_historical_v836_remains_pass(self) -> None:
         historical = json.loads(

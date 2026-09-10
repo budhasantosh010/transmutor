@@ -1,0 +1,38 @@
+{
+  "coefficient_comparison_as_criterion": false,
+  "families": {
+    "conditional_routing": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    },
+    "delayed_recall": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    },
+    "iterative_state": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    },
+    "variable_composition": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    }
+  },
+  "microstate_comparison_used": false,
+  "passing_families": 0,
+  "physical_state_alignment": false,
+  "q_alignment": false,
+  "q_alignment_used": false,
+  "rows": [],
+  "stage": "AP15_CROSS_ORGANISM_AGREEMENT",
+  "state_alignment_used": false,
+  "version": "V837ap"
+}

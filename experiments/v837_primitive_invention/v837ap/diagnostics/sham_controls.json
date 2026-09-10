@@ -1,0 +1,1945 @@
+{
+  "rows": [
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 184
+      },
+      "invalid_setpoints": 184,
+      "k": 4,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.5,
+        "d90": 8.283617736371955,
+        "direction_agreement": 0.6,
+        "median_counterfactual_recovery": 0.04869909833974889,
+        "median_intervention_norm": 8.385775422038037,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 9.417612987588928,
+        "median_read_after_set_nrmse": 3.251676553017724e-07,
+        "norm_random_margin": 0.048025784532855775,
+        "norm_random_median_recovery": 0.0006733138068931166,
+        "paired_one_sided_permutation_p": 0.0078125,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.048788560870219544,
+        "shuffled_semantic_median_recovery": -8.9462530470652e-05,
+        "targets_passing_060": 0,
+        "targets_required": 2,
+        "trajectory_nrmse": 1.6023943688356232e-10
+      },
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 10,
+      "skipped_small_delta": 190,
+      "target_results": [
+        {
+          "median_intervention_norm": 8.33034648107473,
+          "median_read_after_set_nrmse": 0.0020420418163369924,
+          "median_recovery": 0.3389670534390441,
+          "n": 4,
+          "pass_recovery_060": false,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 8.385775422038039,
+          "median_read_after_set_nrmse": 3.251676553017724e-07,
+          "median_recovery": 0.04869909833974889,
+          "n": 6,
+          "pass_recovery_060": false,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 172
+      },
+      "invalid_setpoints": 172,
+      "k": 4,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 1.0,
+        "d90": 8.55451515516028,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.9950458876551675,
+        "median_intervention_norm": 17.10903031032056,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 173.5483594707956,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.3038973141607134,
+        "norm_random_median_recovery": 0.6911485734944541,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 20,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 17.10903031032056,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9950576213320761,
+          "n": 19,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 17.10903031032056,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9915793332754941,
+          "n": 1,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "READER_GATE_FAIL",
+      "family": "delayed_recall",
+      "k": 4,
+      "metrics": {},
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": false,
+      "phase_atlas": false,
+      "sample_count": 0,
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 172
+      },
+      "invalid_setpoints": 172,
+      "k": 4,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.8235294117647058,
+        "d90": 9.223461890022195,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.9641016842468683,
+        "median_intervention_norm": 18.44692378004439,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 33.9426156968054,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9304659212904494,
+        "norm_random_median_recovery": 0.03363576295641896,
+        "paired_one_sided_permutation_p": 7.62939453125e-06,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 17,
+      "skipped_small_delta": 189,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.446923780044386,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9526529295221104,
+          "n": 11,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.446923780044393,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9979112652817406,
+          "n": 6,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "READER_GATE_FAIL",
+      "family": "delayed_recall",
+      "k": 4,
+      "metrics": {},
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "pass": false,
+      "phase_atlas": false,
+      "sample_count": 0,
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 178
+      },
+      "invalid_setpoints": 178,
+      "k": 4,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.8571428571428571,
+        "d90": 9.093106777296043,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.999334575607461,
+        "median_intervention_norm": 18.186213554592094,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 125.03172504557182,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9686311783944455,
+        "norm_random_median_recovery": 0.030703397213015515,
+        "paired_one_sided_permutation_p": 6.103515625e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 14,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.186213554592094,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9996296682957907,
+          "n": 8,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.186213554592094,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.999334575607461,
+          "n": 6,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 153
+      },
+      "invalid_setpoints": 153,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.358974358974359,
+        "d90": 8.34100782151543,
+        "direction_agreement": 0.9487179487179487,
+        "median_counterfactual_recovery": 0.6828957211204879,
+        "median_intervention_norm": 16.682015643030866,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 70.72170532363974,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.6763260674663367,
+        "norm_random_median_recovery": 0.006569653654151131,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.6829728873790067,
+        "shuffled_semantic_median_recovery": -7.716625851883485e-05,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 39,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 16.682015643030866,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.7315723853332806,
+          "n": 19,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 16.682015643030866,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.6276438235982345,
+          "n": 20,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 169
+      },
+      "invalid_setpoints": 169,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.4782608695652174,
+        "d90": 8.599425116889119,
+        "direction_agreement": 0.9130434782608695,
+        "median_counterfactual_recovery": 0.46839919575588973,
+        "median_intervention_norm": 17.198850233778238,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 54.86656028741198,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.4504489846780159,
+        "norm_random_median_recovery": 0.017950211077873812,
+        "paired_one_sided_permutation_p": 0.4715288373512359,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.4685789303425285,
+        "shuffled_semantic_median_recovery": -0.00017973458663878006,
+        "targets_passing_060": 0,
+        "targets_required": 2,
+        "trajectory_nrmse": 1.2819751242557092e-16
+      },
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 23,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 17.198850233778238,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.46839919575588973,
+          "n": 23,
+          "pass_recovery_060": false,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "READER_GATE_FAIL",
+      "family": "delayed_recall",
+      "k": 8,
+      "metrics": {},
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": false,
+      "phase_atlas": false,
+      "sample_count": 0,
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 176
+      },
+      "invalid_setpoints": 176,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.6923076923076923,
+        "d90": 9.269284387420385,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.9397072013166237,
+        "median_intervention_norm": 18.538568774840762,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 23.052299408173823,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9309137861479033,
+        "norm_random_median_recovery": 0.008793415168720398,
+        "paired_one_sided_permutation_p": 0.0003662109375,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.9397700280693129,
+        "shuffled_semantic_median_recovery": -6.282675268920457e-05,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 13,
+      "skipped_small_delta": 189,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.538568774840762,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9223037452776901,
+          "n": 7,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.53856877484077,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9823077622089378,
+          "n": 6,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 174
+      },
+      "invalid_setpoints": 174,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.3684210526315789,
+        "d90": 9.357803336466203,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.045220024606474674,
+        "median_intervention_norm": 18.715606672932395,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 59.64018572513446,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.04017877962739963,
+        "norm_random_median_recovery": 0.0050412449790750435,
+        "paired_one_sided_permutation_p": 0.000183094293561184,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.045062535802762205,
+        "shuffled_semantic_median_recovery": 0.00015748880371246887,
+        "targets_passing_060": 0,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 19,
+      "skipped_small_delta": 191,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.715606672932395,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.07547328665598907,
+          "n": 16,
+          "pass_recovery_060": false,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.71560667293239,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.006516979666831069,
+          "n": 3,
+          "pass_recovery_060": false,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "READER_GATE_FAIL",
+      "family": "delayed_recall",
+      "k": 8,
+      "metrics": {},
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "pass": false,
+      "phase_atlas": false,
+      "sample_count": 0,
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 155
+      },
+      "invalid_setpoints": 155,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.6486486486486487,
+        "d90": 8.34100782151543,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.9958539715135127,
+        "median_intervention_norm": 16.682015643030866,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 49.323807791548425,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9746061025348866,
+        "norm_random_median_recovery": 0.021247868978626183,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 37,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 16.68201564303087,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9909187100199677,
+          "n": 8,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 16.682015643030866,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9967394892724076,
+          "n": 29,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 160
+      },
+      "invalid_setpoints": 160,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.71875,
+        "d90": 8.599425116889119,
+        "direction_agreement": 0.90625,
+        "median_counterfactual_recovery": 0.9849007275896922,
+        "median_intervention_norm": 17.198850233778238,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 137.24405321607492,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9227344655975036,
+        "norm_random_median_recovery": 0.06216626199218861,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 32,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 17.198850233778238,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9883025575622117,
+          "n": 12,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 17.198850233778238,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9810939094685316,
+          "n": 20,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 134
+      },
+      "invalid_setpoints": 134,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.6379310344827587,
+        "d90": 7.9608593628426885,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.9640328839560948,
+        "median_intervention_norm": 15.921718725685373,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 72.56620436157748,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9545726222464932,
+        "norm_random_median_recovery": 0.009460261709601514,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 58,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 15.921718725685372,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9661180363116961,
+          "n": 33,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 15.921718725685373,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9611105508788231,
+          "n": 25,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 158
+      },
+      "invalid_setpoints": 158,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.4838709677419355,
+        "d90": 9.269284387420385,
+        "direction_agreement": 0.9354838709677419,
+        "median_counterfactual_recovery": 0.6491944341857026,
+        "median_intervention_norm": 18.538568774840762,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 49.7006111758927,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.6056026368597203,
+        "norm_random_median_recovery": 0.04359179732598223,
+        "paired_one_sided_permutation_p": 1.0,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 1,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 31,
+      "skipped_small_delta": 189,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.538568774840762,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.1272467536013775,
+          "n": 19,
+          "pass_recovery_060": false,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.538568774840762,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9652090348849509,
+          "n": 12,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 161
+      },
+      "invalid_setpoints": 161,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.41935483870967744,
+        "d90": 9.357803336466203,
+        "direction_agreement": 0.8387096774193549,
+        "median_counterfactual_recovery": 0.2446911883381786,
+        "median_intervention_norm": 18.715606672932395,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 28.610358466573306,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.24289793671302312,
+        "norm_random_median_recovery": 0.0017932516251554786,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 1,
+        "targets_required": 2,
+        "trajectory_nrmse": 9.921728264914511e-12
+      },
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 31,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.715606672932395,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9871087979518747,
+          "n": 17,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.715606672932395,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.0037152984869354144,
+          "n": 14,
+          "pass_recovery_060": false,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 159
+      },
+      "invalid_setpoints": 159,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.7058823529411765,
+        "d90": 9.137996578010046,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.9920400100482698,
+        "median_intervention_norm": 18.275993156020093,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 31.850980126328004,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9602071298146093,
+        "norm_random_median_recovery": 0.03183288023366043,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 34,
+      "skipped_small_delta": 191,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.275993156020093,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9977745938756337,
+          "n": 22,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.275993156020093,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.841883231512226,
+          "n": 12,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 128
+      },
+      "invalid_setpoints": 128,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.6060606060606061,
+        "d90": 8.34100782151543,
+        "direction_agreement": 0.9090909090909091,
+        "median_counterfactual_recovery": 0.8895119214483718,
+        "median_intervention_norm": 16.682015643030862,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 28.10931634916083,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.8826774563742082,
+        "norm_random_median_recovery": 0.0068344650741635204,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 1,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": true,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 66,
+      "skipped_small_delta": 190,
+      "target_results": [
+        {
+          "median_intervention_norm": 16.682015643030862,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.8950199639753067,
+          "n": 37,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 16.682015643030866,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.3769552646650227,
+          "n": 29,
+          "pass_recovery_060": false,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 129
+      },
+      "invalid_setpoints": 129,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.3968253968253968,
+        "d90": 8.599425116889119,
+        "direction_agreement": 0.8412698412698413,
+        "median_counterfactual_recovery": 0.18585134320826768,
+        "median_intervention_norm": 17.198850233778234,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 59.862035248314,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.1416245436407116,
+        "norm_random_median_recovery": 0.0442267995675561,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 1,
+        "targets_required": 2,
+        "trajectory_nrmse": 4.3902784851242374e-10
+      },
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": true,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 63,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 17.198850233778234,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9296848261132346,
+          "n": 32,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 17.198850233778234,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.05130875241551858,
+          "n": 31,
+          "pass_recovery_060": false,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 134
+      },
+      "invalid_setpoints": 134,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.6379310344827587,
+        "d90": 7.9608593628426885,
+        "direction_agreement": 1.0,
+        "median_counterfactual_recovery": 0.9845684130471943,
+        "median_intervention_norm": 15.92171872568537,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 82.12397430743074,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9539682670078351,
+        "norm_random_median_recovery": 0.030600146039359177,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 1.2212453270876722e-15
+      },
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": true,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 58,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 15.921718725685368,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9896435930834623,
+          "n": 29,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 15.92171872568537,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.892885293532618,
+          "n": 29,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "READER_GATE_FAIL",
+      "family": "delayed_recall",
+      "k": 8,
+      "metrics": {},
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "pass": false,
+      "phase_atlas": true,
+      "sample_count": 0,
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 134
+      },
+      "invalid_setpoints": 134,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.3275862068965517,
+        "d90": 9.357803336466203,
+        "direction_agreement": 0.7758620689655172,
+        "median_counterfactual_recovery": 0.006417792538360723,
+        "median_intervention_norm": 18.715606672932395,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 85.40020423623378,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.0024155149760135552,
+        "norm_random_median_recovery": 0.004002277562347167,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 0,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0
+      },
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": true,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 58,
+      "skipped_small_delta": 192,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.715606672932395,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.014733947104642375,
+          "n": 33,
+          "pass_recovery_060": false,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.7156066729324,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.0010543988193049136,
+          "n": 25,
+          "pass_recovery_060": false,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "CUBIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 0,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "delayed_recall",
+      "invalid_failure_counts": {
+        "NONLINEAR_READER_GRADIENT_DEGENERATE": 124
+      },
+      "invalid_setpoints": 124,
+      "k": 8,
+      "metrics": {
+        "controls_valid": false,
+        "counterfactual_task_success": 0.5714285714285714,
+        "d90": 9.137996578010046,
+        "direction_agreement": 0.9142857142857143,
+        "median_counterfactual_recovery": 0.9525623550952361,
+        "median_intervention_norm": 18.275993156020096,
+        "median_newton_iterations": 1.0,
+        "median_ood_ratio": 30.259500636383812,
+        "median_read_after_set_nrmse": 0.0,
+        "norm_random_margin": 0.9438562256336596,
+        "norm_random_median_recovery": 0.008706129461576562,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": false,
+        "random_subspace_margin": Infinity,
+        "random_subspace_median_recovery": -Infinity,
+        "shuffled_control_valid": false,
+        "shuffled_margin": Infinity,
+        "shuffled_semantic_median_recovery": -Infinity,
+        "targets_passing_060": 2,
+        "targets_required": 2,
+        "trajectory_nrmse": 0.0010687763732526766
+      },
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": true,
+      "random_feature_mixing_diagnostic": {
+        "error": "RuntimeError:feature rotation setter invalid",
+        "orthogonal_mixing": true,
+        "same_feature_count": true,
+        "valid": false
+      },
+      "sample_count": 70,
+      "skipped_small_delta": 190,
+      "target_results": [
+        {
+          "median_intervention_norm": 18.275993156020093,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.9719914913146829,
+          "n": 34,
+          "pass_recovery_060": true,
+          "target": -1.0
+        },
+        {
+          "median_intervention_norm": 18.275993156020096,
+          "median_read_after_set_nrmse": 0.0,
+          "median_recovery": 0.6096597152151623,
+          "n": 36,
+          "pass_recovery_060": true,
+          "target": 1.0
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 32,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "iterative_state",
+      "invalid_failure_counts": {},
+      "invalid_setpoints": 0,
+      "k": 8,
+      "metrics": {
+        "controls_valid": true,
+        "counterfactual_task_success": 0.5047361299052774,
+        "d90": 1.1435433807749873,
+        "direction_agreement": 0.986468200270636,
+        "median_counterfactual_recovery": 0.23925899147885887,
+        "median_intervention_norm": 0.29337721988330157,
+        "median_newton_iterations": 3.0,
+        "median_ood_ratio": 7.892256024171627,
+        "median_read_after_set_nrmse": 3.1336706981791186e-06,
+        "norm_random_margin": 0.23913583256101895,
+        "norm_random_median_recovery": 0.00012315891783992727,
+        "paired_one_sided_permutation_p": 0.002563320109856576,
+        "random_subspace_controls_valid": true,
+        "random_subspace_margin": 0.18987412964119743,
+        "random_subspace_median_recovery": 0.04938486183766144,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.23744081667274242,
+        "shuffled_semantic_median_recovery": 0.001818174806116457,
+        "targets_passing_060": 0,
+        "targets_required": 6,
+        "trajectory_nrmse": 0.031014320189877445
+      },
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "median_recovery": 0.23928068691675541,
+        "orthogonal_mixing": true,
+        "same_feature_count": true
+      },
+      "sample_count": 739,
+      "skipped_small_delta": 164,
+      "target_results": [
+        {
+          "median_intervention_norm": 0.4091779599581488,
+          "median_read_after_set_nrmse": 3.03173121338535e-06,
+          "median_recovery": 0.26034963572726544,
+          "n": 109,
+          "pass_recovery_060": false,
+          "target": -0.6288311093749999
+        },
+        {
+          "median_intervention_norm": 0.31362792107631027,
+          "median_read_after_set_nrmse": 3.09613347208801e-06,
+          "median_recovery": 0.26592807772899674,
+          "n": 101,
+          "pass_recovery_060": false,
+          "target": -0.40423031249999997
+        },
+        {
+          "median_intervention_norm": 0.26516103003682323,
+          "median_read_after_set_nrmse": 2.006124593787549e-06,
+          "median_recovery": 0.24557799816172343,
+          "n": 97,
+          "pass_recovery_060": false,
+          "target": -0.17425624999999997
+        },
+        {
+          "median_intervention_norm": 0.2685348540927072,
+          "median_read_after_set_nrmse": 1.8715267056314546e-06,
+          "median_recovery": 0.23855472504854025,
+          "n": 99,
+          "pass_recovery_060": false,
+          "target": -0.1225
+        },
+        {
+          "median_intervention_norm": 0.2164301944328714,
+          "median_read_after_set_nrmse": 2.7136487195446726e-06,
+          "median_recovery": 0.23008711553546018,
+          "n": 110,
+          "pass_recovery_060": false,
+          "target": 0.04477227890625002
+        },
+        {
+          "median_intervention_norm": 0.26847641396437044,
+          "median_read_after_set_nrmse": 3.8907717031558935e-06,
+          "median_recovery": 0.22685824258992948,
+          "n": 107,
+          "pass_recovery_060": false,
+          "target": 0.23680252285156247
+        },
+        {
+          "median_intervention_norm": 0.34479113901172986,
+          "median_read_after_set_nrmse": 6.045569837444902e-06,
+          "median_recovery": 0.22102870098896843,
+          "n": 116,
+          "pass_recovery_060": false,
+          "target": 0.547610765625
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 32,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "iterative_state",
+      "invalid_failure_counts": {},
+      "invalid_setpoints": 0,
+      "k": 8,
+      "metrics": {
+        "controls_valid": true,
+        "counterfactual_task_success": 0.6008174386920981,
+        "d90": 1.2154562151301502,
+        "direction_agreement": 0.989100817438692,
+        "median_counterfactual_recovery": 0.3579850679542435,
+        "median_intervention_norm": 0.39872188866630565,
+        "median_newton_iterations": 3.0,
+        "median_ood_ratio": 9.27007605047533,
+        "median_read_after_set_nrmse": 4.61569925037124e-06,
+        "norm_random_margin": 0.35814921595126464,
+        "norm_random_median_recovery": -0.0001641479970211357,
+        "paired_one_sided_permutation_p": 0.0018919743667989014,
+        "random_subspace_controls_valid": true,
+        "random_subspace_margin": 0.3097357353485041,
+        "random_subspace_median_recovery": 0.04824933260573938,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.3573439710962129,
+        "shuffled_semantic_median_recovery": 0.0006410968580305987,
+        "targets_passing_060": 0,
+        "targets_required": 6,
+        "trajectory_nrmse": 0.029547479339821603
+      },
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "median_recovery": 0.357989566444156,
+        "orthogonal_mixing": true,
+        "same_feature_count": true
+      },
+      "sample_count": 734,
+      "skipped_small_delta": 169,
+      "target_results": [
+        {
+          "median_intervention_norm": 0.45767527271489694,
+          "median_read_after_set_nrmse": 5.820477958316988e-06,
+          "median_recovery": 0.3374770082568562,
+          "n": 104,
+          "pass_recovery_060": false,
+          "target": -0.6288311093749999
+        },
+        {
+          "median_intervention_norm": 0.30792536263999887,
+          "median_read_after_set_nrmse": 5.880328226736225e-06,
+          "median_recovery": 0.32728851683003046,
+          "n": 105,
+          "pass_recovery_060": false,
+          "target": -0.40423031249999997
+        },
+        {
+          "median_intervention_norm": 0.3363091811851675,
+          "median_read_after_set_nrmse": 3.415543457282495e-06,
+          "median_recovery": 0.304995286673718,
+          "n": 96,
+          "pass_recovery_060": false,
+          "target": -0.17425624999999997
+        },
+        {
+          "median_intervention_norm": 0.33109212880397254,
+          "median_read_after_set_nrmse": 2.6110945694716614e-06,
+          "median_recovery": 0.30417974698804223,
+          "n": 100,
+          "pass_recovery_060": false,
+          "target": -0.1225
+        },
+        {
+          "median_intervention_norm": 0.33083585143783734,
+          "median_read_after_set_nrmse": 6.070531397340837e-06,
+          "median_recovery": 0.3626934274019743,
+          "n": 109,
+          "pass_recovery_060": false,
+          "target": 0.04477227890625002
+        },
+        {
+          "median_intervention_norm": 0.4581033782197518,
+          "median_read_after_set_nrmse": 4.03587185177381e-06,
+          "median_recovery": 0.41455727985744395,
+          "n": 106,
+          "pass_recovery_060": false,
+          "target": 0.23680252285156247
+        },
+        {
+          "median_intervention_norm": 0.7159913228199641,
+          "median_read_after_set_nrmse": 5.387457074677075e-06,
+          "median_recovery": 0.44042201423163724,
+          "n": 114,
+          "pass_recovery_060": false,
+          "target": 0.547610765625
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "READER_GATE_FAIL",
+      "family": "iterative_state",
+      "k": 8,
+      "metrics": {},
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "pass": false,
+      "phase_atlas": false,
+      "sample_count": 0,
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 32,
+        "shuffled_semantic": 1
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "iterative_state",
+      "invalid_failure_counts": {},
+      "invalid_setpoints": 0,
+      "k": 8,
+      "metrics": {
+        "controls_valid": true,
+        "counterfactual_task_success": 0.5067567567567568,
+        "d90": 1.1931255246032293,
+        "direction_agreement": 0.9216216216216216,
+        "median_counterfactual_recovery": 0.21349038670280568,
+        "median_intervention_norm": 0.34277374146149625,
+        "median_newton_iterations": 3.0,
+        "median_ood_ratio": 7.6105871536493535,
+        "median_read_after_set_nrmse": 3.5757976925164616e-06,
+        "norm_random_margin": 0.21429070111982734,
+        "norm_random_median_recovery": -0.0008003144170216636,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": true,
+        "random_subspace_margin": 0.16218671468343332,
+        "random_subspace_median_recovery": 0.05130367201937236,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.21043532241672464,
+        "shuffled_semantic_median_recovery": 0.003055064286081044,
+        "targets_passing_060": 0,
+        "targets_required": 6,
+        "trajectory_nrmse": 0.05437851033351006
+      },
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "median_recovery": 0.2134928589454172,
+        "orthogonal_mixing": true,
+        "same_feature_count": true
+      },
+      "sample_count": 740,
+      "skipped_small_delta": 163,
+      "target_results": [
+        {
+          "median_intervention_norm": 0.41482801632636174,
+          "median_read_after_set_nrmse": 2.0629234487882553e-06,
+          "median_recovery": 0.2157494601842891,
+          "n": 104,
+          "pass_recovery_060": false,
+          "target": -0.6288311093749999
+        },
+        {
+          "median_intervention_norm": 0.2869592184005639,
+          "median_read_after_set_nrmse": 5.762453957370839e-06,
+          "median_recovery": 0.23097110133523768,
+          "n": 111,
+          "pass_recovery_060": false,
+          "target": -0.40423031249999997
+        },
+        {
+          "median_intervention_norm": 0.3106448096776315,
+          "median_read_after_set_nrmse": 6.70594984771731e-06,
+          "median_recovery": 0.2098565046007691,
+          "n": 99,
+          "pass_recovery_060": false,
+          "target": -0.17425624999999997
+        },
+        {
+          "median_intervention_norm": 0.31490776853740404,
+          "median_read_after_set_nrmse": 6.507995993176749e-06,
+          "median_recovery": 0.210938142041448,
+          "n": 97,
+          "pass_recovery_060": false,
+          "target": -0.1225
+        },
+        {
+          "median_intervention_norm": 0.27114193141757437,
+          "median_read_after_set_nrmse": 1.2108417514165086e-06,
+          "median_recovery": 0.2095805561057743,
+          "n": 106,
+          "pass_recovery_060": false,
+          "target": 0.04477227890625002
+        },
+        {
+          "median_intervention_norm": 0.3402316956482834,
+          "median_read_after_set_nrmse": 2.535249751645813e-06,
+          "median_recovery": 0.19417011945132312,
+          "n": 109,
+          "pass_recovery_060": false,
+          "target": 0.23680252285156247
+        },
+        {
+          "median_intervention_norm": 0.4197813333922482,
+          "median_read_after_set_nrmse": 2.807540633397867e-06,
+          "median_recovery": 0.21060142863010523,
+          "n": 114,
+          "pass_recovery_060": false,
+          "target": 0.547610765625
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 32,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "iterative_state",
+      "invalid_failure_counts": {},
+      "invalid_setpoints": 0,
+      "k": 8,
+      "metrics": {
+        "controls_valid": true,
+        "counterfactual_task_success": 0.574496644295302,
+        "d90": 1.1520149385630554,
+        "direction_agreement": 0.974496644295302,
+        "median_counterfactual_recovery": 0.30710361484765736,
+        "median_intervention_norm": 0.34456486104081535,
+        "median_newton_iterations": 3.0,
+        "median_ood_ratio": 7.210527305473994,
+        "median_read_after_set_nrmse": 3.290999632968596e-06,
+        "norm_random_margin": 0.30727462592201904,
+        "norm_random_median_recovery": -0.00017101107436168217,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": true,
+        "random_subspace_margin": 0.2501525875436422,
+        "random_subspace_median_recovery": 0.056951027304015134,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.29804646109720156,
+        "shuffled_semantic_median_recovery": 0.009057153750455793,
+        "targets_passing_060": 0,
+        "targets_required": 6,
+        "trajectory_nrmse": 0.03524059941492614
+      },
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "median_recovery": 0.30710361484765736,
+        "orthogonal_mixing": true,
+        "same_feature_count": true
+      },
+      "sample_count": 745,
+      "skipped_small_delta": 158,
+      "target_results": [
+        {
+          "median_intervention_norm": 0.47027484791890795,
+          "median_read_after_set_nrmse": 1.2138035978992947e-05,
+          "median_recovery": 0.3136485432906344,
+          "n": 108,
+          "pass_recovery_060": false,
+          "target": -0.6288311093749999
+        },
+        {
+          "median_intervention_norm": 0.2875660188866083,
+          "median_read_after_set_nrmse": 4.047022073671116e-06,
+          "median_recovery": 0.3188864478184945,
+          "n": 113,
+          "pass_recovery_060": false,
+          "target": -0.40423031249999997
+        },
+        {
+          "median_intervention_norm": 0.30045506636328895,
+          "median_read_after_set_nrmse": 2.4704801242558474e-06,
+          "median_recovery": 0.2931501775816896,
+          "n": 94,
+          "pass_recovery_060": false,
+          "target": -0.17425624999999997
+        },
+        {
+          "median_intervention_norm": 0.2978106899890503,
+          "median_read_after_set_nrmse": 3.5848894340275046e-06,
+          "median_recovery": 0.2918008032583901,
+          "n": 98,
+          "pass_recovery_060": false,
+          "target": -0.1225
+        },
+        {
+          "median_intervention_norm": 0.2845774706431773,
+          "median_read_after_set_nrmse": 2.0288565303781797e-06,
+          "median_recovery": 0.29182901552963325,
+          "n": 113,
+          "pass_recovery_060": false,
+          "target": 0.04477227890625002
+        },
+        {
+          "median_intervention_norm": 0.40615205345890476,
+          "median_read_after_set_nrmse": 8.015705286514052e-07,
+          "median_recovery": 0.30697617962496826,
+          "n": 103,
+          "pass_recovery_060": false,
+          "target": 0.23680252285156247
+        },
+        {
+          "median_intervention_norm": 0.5347882030127291,
+          "median_read_after_set_nrmse": 3.2508556149324992e-06,
+          "median_recovery": 0.3353248089463922,
+          "n": 116,
+          "pass_recovery_060": false,
+          "target": 0.547610765625
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "control_count": {
+        "norm_random_setters": 32,
+        "random_subspaces": 32,
+        "shuffled_semantic": 1
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "failure_code": "ABSOLUTE_SETPOINT_FAIL",
+      "family": "iterative_state",
+      "invalid_failure_counts": {},
+      "invalid_setpoints": 0,
+      "k": 8,
+      "metrics": {
+        "controls_valid": true,
+        "counterfactual_task_success": 0.4786666666666667,
+        "d90": 1.3050983170120267,
+        "direction_agreement": 0.9826666666666667,
+        "median_counterfactual_recovery": 0.17672882700233994,
+        "median_intervention_norm": 0.23791011566242815,
+        "median_newton_iterations": 3.0,
+        "median_ood_ratio": 5.424902575011641,
+        "median_read_after_set_nrmse": 3.8089084149650313e-06,
+        "norm_random_margin": 0.17778730776877694,
+        "norm_random_median_recovery": -0.0010584807664369977,
+        "paired_one_sided_permutation_p": 6.1031431187061336e-05,
+        "random_subspace_controls_valid": true,
+        "random_subspace_margin": 0.11513226829628237,
+        "random_subspace_median_recovery": 0.06159655870605757,
+        "shuffled_control_valid": true,
+        "shuffled_margin": 0.1742251008259969,
+        "shuffled_semantic_median_recovery": 0.002503726176343035,
+        "targets_passing_060": 0,
+        "targets_required": 6,
+        "trajectory_nrmse": 0.04743387822880338
+      },
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "partition": "AP_WRITER_SELECT",
+      "pass": false,
+      "phase_atlas": false,
+      "random_feature_mixing_diagnostic": {
+        "median_recovery": 0.17673587838539628,
+        "orthogonal_mixing": true,
+        "same_feature_count": true
+      },
+      "sample_count": 750,
+      "skipped_small_delta": 153,
+      "target_results": [
+        {
+          "median_intervention_norm": 0.34800348775418577,
+          "median_read_after_set_nrmse": 3.914828281859879e-06,
+          "median_recovery": 0.19922603800416616,
+          "n": 103,
+          "pass_recovery_060": false,
+          "target": -0.6288311093749999
+        },
+        {
+          "median_intervention_norm": 0.24275396103440391,
+          "median_read_after_set_nrmse": 6.0904575967363404e-06,
+          "median_recovery": 0.19961225914884895,
+          "n": 104,
+          "pass_recovery_060": false,
+          "target": -0.40423031249999997
+        },
+        {
+          "median_intervention_norm": 0.1853746122116893,
+          "median_read_after_set_nrmse": 6.1190710739469904e-06,
+          "median_recovery": 0.16265263663263496,
+          "n": 105,
+          "pass_recovery_060": false,
+          "target": -0.17425624999999997
+        },
+        {
+          "median_intervention_norm": 0.18790273239635524,
+          "median_read_after_set_nrmse": 4.045395494982305e-06,
+          "median_recovery": 0.16473233439389778,
+          "n": 103,
+          "pass_recovery_060": false,
+          "target": -0.1225
+        },
+        {
+          "median_intervention_norm": 0.20286293102258776,
+          "median_read_after_set_nrmse": 2.9308658114095353e-06,
+          "median_recovery": 0.17025727585728545,
+          "n": 108,
+          "pass_recovery_060": false,
+          "target": 0.04477227890625002
+        },
+        {
+          "median_intervention_norm": 0.2296474328805279,
+          "median_read_after_set_nrmse": 1.2014433389659034e-06,
+          "median_recovery": 0.16689207868066114,
+          "n": 109,
+          "pass_recovery_060": false,
+          "target": 0.23680252285156247
+        },
+        {
+          "median_intervention_norm": 0.3100532782425084,
+          "median_read_after_set_nrmse": 3.340171662151141e-06,
+          "median_recovery": 0.17064166319968394,
+          "n": 118,
+          "pass_recovery_060": false,
+          "target": 0.547610765625
+        }
+      ],
+      "writer_family": "GRADIENT_NEWTON"
+    }
+  ],
+  "version": "V837ap",
+  "wrong_family_diagnostic": {
+    "diagnostic_only": true,
+    "gating": false,
+    "interpretation": "Wrong-family semantics are retained as a non-gating specificity diagnostic; primary inference uses shuffled semantics, Haar random subspaces, and norm-matched setters."
+  }
+}

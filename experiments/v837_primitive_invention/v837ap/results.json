@@ -1,0 +1,185 @@
+{
+  "cross_organism_agreement": {
+    "conditional_routing": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    },
+    "delayed_recall": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    },
+    "iterative_state": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    },
+    "variable_composition": {
+      "median": null,
+      "p90": null,
+      "pass": false,
+      "reason": "NO_HELDOUT_FAMILY_PASS"
+    }
+  },
+  "decision_state": {
+    "cross_organism_validated_families": [],
+    "diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED",
+    "discovery_final_families": 0,
+    "discovery_geometry_families": 0,
+    "fresh_audit_consumed": false,
+    "frozen_family_geometries": 0,
+    "heldout_family_passes": 0,
+    "meta_confirmed_families": 0,
+    "new_source_model_fits": 0,
+    "next_program": "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION",
+    "partial_observation_status": "UNRESOLVED_UNDERPOWERED_PREDECESSOR_FAMILY",
+    "powered_families": 4,
+    "primitive_archive_allowed_next": false,
+    "primitive_canonicalization_allowed_next": false,
+    "primitives_promoted": 0,
+    "source_optimizer_steps": 0,
+    "v838_started": false,
+    "validated_family_count": 0,
+    "version": "V837ap"
+  },
+  "diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED",
+  "failure_entries": 306,
+  "family_geometries": {
+    "conditional_routing": null,
+    "delayed_recall": null,
+    "iterative_state": null,
+    "variable_composition": null
+  },
+  "fresh_audit_consumed": false,
+  "heldout": {
+    "conditional_routing": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "delayed_recall": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "iterative_state": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "variable_composition": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    }
+  },
+  "historical_robustness": {
+    "conditional_routing": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "delayed_recall": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "iterative_state": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "variable_composition": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    }
+  },
+  "law_audit": {
+    "conditional_routing": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    },
+    "delayed_recall": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    },
+    "iterative_state": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    },
+    "variable_composition": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    }
+  },
+  "plot_count": 22,
+  "primitives_promoted": 0,
+  "required_plots": [
+    "binary_class_manifold_geometry.png",
+    "calibration_frontier.png",
+    "canonicalization_ladder.png",
+    "chart_complexity_vs_validation.png",
+    "cross_organism_semantic_agreement.png",
+    "failure_map_v837ao_to_v837ap.png",
+    "global_reader_failure_map.png",
+    "gradient_newton_convergence.png",
+    "historical_robustness.png",
+    "interventional_commutativity.png",
+    "k2_k4_k8_reader_curve.png",
+    "law_audit_comparison.png",
+    "natural_commutativity.png",
+    "nonlinear_k1_chart_family_comparison.png",
+    "phase_atlas_transitions.png",
+    "projected_dimension_vs_set_recovery.png",
+    "quotient_residual_sensitivity.png",
+    "random_subspace_control_distribution.png",
+    "set_magnitude_generalization.png",
+    "shuffled_semantic_control.png",
+    "v837ao_vs_v837ap_setpoint_recovery.png",
+    "writer_field_conditioning.png"
+  ],
+  "resource_accounting": {
+    "backend_gradient_steps": 0,
+    "commutativity_evaluation_rows": 0,
+    "cpu_seconds": null,
+    "cpu_seconds_exact": false,
+    "failure_entries": 306,
+    "fresh_audit_episodes": 0,
+    "gpu_seconds": 0,
+    "heldout_evaluation_rows": 0,
+    "heldout_wall_seconds": 0.0028393999964464456,
+    "new_source_model_fits": 0,
+    "note": "Exact per-process CPU/wall accounting is unavailable for stages executed through resumable pytest drivers; measured stage wall time is retained where emitted. No GPU execution or source-model training occurred.",
+    "primitives_promoted": 0,
+    "projected_subspace_rows": 84,
+    "quotient_evaluation_rows": 0,
+    "reader_candidate_rows": 293,
+    "setpoint_evaluation_rows": 30,
+    "source_architecture_changes": 0,
+    "source_optimizer_steps": 0,
+    "source_training_examples": 0,
+    "v838_started": false,
+    "version": "V837ap",
+    "wall_seconds_total": null,
+    "wall_seconds_total_exact": false
+  },
+  "v838_started": false,
+  "version": "V837ap"
+}

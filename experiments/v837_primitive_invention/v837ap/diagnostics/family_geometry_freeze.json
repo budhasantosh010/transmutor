@@ -1,0 +1,9 @@
+{
+  "candidate_count": 0,
+  "frozen_before_any_heldout_backend_read": true,
+  "frozen_before_heldout_open": true,
+  "frozen_sha256": "8032262110a4201078073dbbcc69f235f4bb088174150b84448fe43a28c99da1",
+  "historical_validation_read_before_freeze": false,
+  "pass": true,
+  "version": "V837ap"
+}

@@ -1,0 +1,29 @@
+{
+  "cannot_upgrade_or_rescue_family": true,
+  "descriptive_post_freeze_only": true,
+  "families": {
+    "conditional_routing": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "delayed_recall": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "iterative_state": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "variable_composition": {
+      "pass": false,
+      "reason": "NO_FROZEN_GEOMETRY"
+    }
+  },
+  "fresh_audit_consumed": false,
+  "label": "REUSED_HISTORICAL_VALIDATION_DESCRIPTIVE_POST_FREEZE",
+  "not_fresh_audit": true,
+  "passing_families": 0,
+  "rows": [],
+  "stage": "AP16_REUSED_HISTORICAL_VALIDATION",
+  "version": "V837ap"
+}

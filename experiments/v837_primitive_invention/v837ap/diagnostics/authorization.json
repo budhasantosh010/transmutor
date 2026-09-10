@@ -1,0 +1,18 @@
+{
+  "authorized": true,
+  "fresh_audit_consumed": false,
+  "new_source_model_fits": 0,
+  "partial_observation_status": "UNRESOLVED_UNDERPOWERED_PREDECESSOR_FAMILY",
+  "powered_families": 4,
+  "primitive_archive_allowed": false,
+  "primitives_promoted": 0,
+  "source_architecture_changes": 0,
+  "source_optimizer_steps": 0,
+  "source_training_examples": 0,
+  "start_sha": "c47649227baa0800d311ff41128d8f169ddf4f0d",
+  "v837an_causal_steering_preserved": true,
+  "v837ao_diagnosis": "CAUSAL_DIRECTION_NOT_GLOBAL_COORDINATE",
+  "v837ao_next_program": "V837ap_GLOBAL_COORDINATE_OR_NONLINEAR_CAUSAL_STATE",
+  "v838_started": false,
+  "version": "V837ap"
+}

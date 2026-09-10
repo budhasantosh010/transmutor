@@ -1,0 +1,238 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 4.547300567388693e-16,
+        "K2_in_K4": 1.0016165721527779e-15,
+        "K4_in_K8": 1.5292782440564026e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 1.4466566751134537e-15,
+        "K2_in_K4": 1.1178715534008978e-15,
+        "K4_in_K8": 1.9410172023039356e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 2.516963609355281e-16,
+        "K2_in_K4": 1.4776276357957407e-15,
+        "K4_in_K8": 2.0223202680553143e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 2.2537496526979003e-16,
+        "K2_in_K4": 1.35111877067443e-15,
+        "K4_in_K8": 1.3632150502671404e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 1.2189642160475286e-15,
+        "K2_in_K4": 3.1341590502809128e-15,
+        "K4_in_K8": 3.130563498423117e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 3.602811201067924e-16,
+        "K2_in_K4": 6.108379318503295e-16,
+        "K4_in_K8": 1.4149708091600103e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 6.678388276345859e-16,
+        "K2_in_K4": 9.172309397794236e-16,
+        "K4_in_K8": 9.334518822420114e-16
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 9.001034568119034e-16,
+        "K2_in_K4": 1.1670436357427209e-15,
+        "K4_in_K8": 1.710389135552821e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 2.4484934001787987e-16,
+        "K2_in_K4": 9.92206559846024e-16,
+        "K4_in_K8": 1.0170142934274714e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 8.283191067987946e-17,
+        "K2_in_K4": 7.594043592258679e-16,
+        "K4_in_K8": 2.412140516692501e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 4.522881880678403e-16,
+        "K2_in_K4": 8.981088237669038e-16,
+        "K4_in_K8": 1.743391702627052e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 4.47038105127967e-16,
+        "K2_in_K4": 6.72676415904165e-16,
+        "K4_in_K8": 2.1108711364249373e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 9.897114337177948e-16,
+        "K2_in_K4": 8.019448788320385e-16,
+        "K4_in_K8": 1.1761603571619503e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 1.3330983804453568e-15,
+        "K2_in_K4": 1.0898471158346411e-15,
+        "K4_in_K8": 1.1383738448407719e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 1.3089625408480199e-16,
+        "K2_in_K4": 3.2731338288668203e-16,
+        "K4_in_K8": 1.235821474082703e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 1.6406268218177103e-16,
+        "K2_in_K4": 5.84016603962566e-16,
+        "K4_in_K8": 2.6279533423180163e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 5.100684401909172e-17,
+        "K2_in_K4": 1.370774194752237e-15,
+        "K4_in_K8": 1.461154712081401e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 8.83508547101814e-16,
+        "K2_in_K4": 8.97542576305754e-16,
+        "K4_in_K8": 1.0955312431809817e-15
+      }
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 1.0963809188398275e-15,
+        "K2_in_K4": 1.1560232344265516e-15,
+        "K4_in_K8": 2.794156126862127e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 1.5667667208335248e-15,
+        "K2_in_K4": 1.537873081730438e-15,
+        "K4_in_K8": 1.61960924162751e-15
+      }
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "pass": true,
+      "residuals": {
+        "K1_in_K2": 3.9747508192403134e-18,
+        "K2_in_K4": 3.988849972386604e-16,
+        "K4_in_K8": 1.3430016146749057e-15
+      }
+    }
+  ],
+  "threshold": 1e-08,
+  "version": "V837ap"
+}

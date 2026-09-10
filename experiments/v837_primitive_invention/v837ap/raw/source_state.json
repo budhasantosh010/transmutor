@@ -1,0 +1,86 @@
+{
+  "authorization": {
+    "authorized": true,
+    "fresh_audit_consumed": false,
+    "new_source_model_fits": 0,
+    "partial_observation_status": "UNRESOLVED_UNDERPOWERED_PREDECESSOR_FAMILY",
+    "powered_families": 4,
+    "primitive_archive_allowed": false,
+    "primitives_promoted": 0,
+    "source_architecture_changes": 0,
+    "source_optimizer_steps": 0,
+    "source_training_examples": 0,
+    "start_sha": "c47649227baa0800d311ff41128d8f169ddf4f0d",
+    "v837an_causal_steering_preserved": true,
+    "v837ao_diagnosis": "CAUSAL_DIRECTION_NOT_GLOBAL_COORDINATE",
+    "v837ao_next_program": "V837ap_GLOBAL_COORDINATE_OR_NONLINEAR_CAUSAL_STATE",
+    "v838_started": false,
+    "version": "V837ap"
+  },
+  "data_roles": {
+    "AP_CHART_FIT": [
+      10000,
+      10063
+    ],
+    "AP_CHART_SELECT": [
+      10064,
+      10127
+    ],
+    "AP_DISCOVERY_FINAL": [
+      10448,
+      10511
+    ],
+    "AP_DYNAMICS": [
+      10320,
+      10383
+    ],
+    "AP_META_CONFIRM": [
+      10384,
+      10447
+    ],
+    "AP_QUOTIENT": [
+      10256,
+      10319
+    ],
+    "AP_WRITER_FIT": [
+      10128,
+      10191
+    ],
+    "AP_WRITER_SELECT": [
+      10192,
+      10255
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ],
+    "REUSED_HISTORICAL_VALIDATION": [
+      20000,
+      20127
+    ]
+  },
+  "fresh_audit_consumed": false,
+  "partial_observation_status": "UNRESOLVED_UNDERPOWERED_PREDECESSOR_FAMILY",
+  "pass": true,
+  "powered_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state",
+    "variable_composition"
+  ],
+  "powered_family_count": 4,
+  "primitives_promoted": 0,
+  "protected_hashes": {
+    "v837an_frozen": "d7ed81bbcd53c6b8927df4efac3bbf2a234a2f6e4c577e7dfa814236e44a990d",
+    "v837ao_decision": "ba5e66a24402ee6f59e40edbd06501c2edcd06b97c10f2e98e2878fd2249053b",
+    "v837ao_report": "4ba069c051953041c2796b24390b1bfc3ae6ff25857ac90ff93730d68403c3cf"
+  },
+  "source_integrity": true,
+  "v837an_causal_steering_preserved": true,
+  "v837an_diagnosis": "GENERAL_CAUSAL_LATENT_PRIMITIVE_PATTERN",
+  "v837ao_diagnosis": "CAUSAL_DIRECTION_NOT_GLOBAL_COORDINATE",
+  "v837ao_fold_sha256": "b96eed0f053ec48b5cb183929296a371857e549ed05bbe9650df2ef32dee1c95",
+  "v837ao_next_program": "V837ap_GLOBAL_COORDINATE_OR_NONLINEAR_CAUSAL_STATE",
+  "v838_started": false,
+  "version": "V837ap"
+}

@@ -1,0 +1,48 @@
+{
+  "no_fallback": true,
+  "no_refit": true,
+  "partition": "AP_DISCOVERY_FINAL",
+  "results": [
+    {
+      "candidate": null,
+      "family": "conditional_routing",
+      "no_refit": true,
+      "partition": "AP_DISCOVERY_FINAL",
+      "pass": false,
+      "reason": "NO_META_CONFIRMED_CANDIDATE"
+    },
+    {
+      "candidate": null,
+      "family": "delayed_recall",
+      "no_refit": true,
+      "partition": "AP_DISCOVERY_FINAL",
+      "pass": false,
+      "reason": "NO_META_CONFIRMED_CANDIDATE"
+    },
+    {
+      "candidate": null,
+      "family": "iterative_state",
+      "no_refit": true,
+      "partition": "AP_DISCOVERY_FINAL",
+      "pass": false,
+      "reason": "NO_META_CONFIRMED_CANDIDATE"
+    },
+    {
+      "candidate": null,
+      "family": "variable_composition",
+      "no_refit": true,
+      "partition": "AP_DISCOVERY_FINAL",
+      "pass": false,
+      "reason": "NO_META_CONFIRMED_CANDIDATE"
+    }
+  ],
+  "stage": "AP12_DISCOVERY_FINAL",
+  "surviving_families": {
+    "conditional_routing": null,
+    "delayed_recall": null,
+    "iterative_state": null,
+    "variable_composition": null
+  },
+  "survivor_count": 0,
+  "version": "V837ap"
+}

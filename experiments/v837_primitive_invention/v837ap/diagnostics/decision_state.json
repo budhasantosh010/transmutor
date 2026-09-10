@@ -1,0 +1,21 @@
+{
+  "cross_organism_validated_families": [],
+  "diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED",
+  "discovery_final_families": 0,
+  "discovery_geometry_families": 0,
+  "fresh_audit_consumed": false,
+  "frozen_family_geometries": 0,
+  "heldout_family_passes": 0,
+  "meta_confirmed_families": 0,
+  "new_source_model_fits": 0,
+  "next_program": "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION",
+  "partial_observation_status": "UNRESOLVED_UNDERPOWERED_PREDECESSOR_FAMILY",
+  "powered_families": 4,
+  "primitive_archive_allowed_next": false,
+  "primitive_canonicalization_allowed_next": false,
+  "primitives_promoted": 0,
+  "source_optimizer_steps": 0,
+  "v838_started": false,
+  "validated_family_count": 0,
+  "version": "V837ap"
+}

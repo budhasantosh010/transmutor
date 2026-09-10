@@ -1,0 +1,12 @@
+{
+  "diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED",
+  "fresh_audit_consumed": false,
+  "next_program": "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION",
+  "primitive_archive_allowed": false,
+  "primitives_promoted": 0,
+  "start_sha": "c47649227baa0800d311ff41128d8f169ddf4f0d",
+  "status": "COMPLETE",
+  "v838_started": false,
+  "validated_families": [],
+  "version": "V837ap"
+}

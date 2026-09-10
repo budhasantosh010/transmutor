@@ -1,0 +1,13 @@
+{
+  "degree_search": false,
+  "fresh_audit_consumed": false,
+  "frozen_geometry_sha256": "8032262110a4201078073dbbcc69f235f4bb088174150b84448fe43a28c99da1",
+  "geometry_search": false,
+  "heldout_read_after_freeze": true,
+  "k_search": false,
+  "pass": true,
+  "v837an_backend_loaded": false,
+  "v837an_q_loaded": false,
+  "v837ao_backend_loaded": false,
+  "version": "V837ap"
+}

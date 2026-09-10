@@ -1,0 +1,26 @@
+{
+  "families": {
+    "conditional_routing": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    "delayed_recall": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    "iterative_state": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    "variable_composition": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    }
+  },
+  "rows": [],
+  "version": "V837ap"
+}

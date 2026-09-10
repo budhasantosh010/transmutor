@@ -1,0 +1,1001 @@
+{
+  "evaluated": {
+    "conditional_routing": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "LOGISTIC_MONOTONE",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_4",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_8",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.2,
+          "passing": 1,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH"
+          ],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_D_PHASE_ATLAS",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": true,
+        "reader_family_gate": {
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.2,
+          "passing": 1,
+          "passing_engines": [
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ],
+    "delayed_recall": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "LOGISTIC_MONOTONE",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_4",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_8",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.16666666666666666,
+          "passing": 1,
+          "passing_engines": [
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 0.6666666666666666,
+          "passing": 4,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "setpoint_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.3333333333333333,
+          "passing": 2,
+          "passing_engines": [
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.5,
+          "passing": 3,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 0.6666666666666666,
+          "passing": 4,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "setpoint_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "setpoint_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_D_PHASE_ATLAS",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": true,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 0.8333333333333334,
+          "passing": 5,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "setpoint_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ],
+    "iterative_state": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_2",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_3",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_4",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_8",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PCHIP_6",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.16666666666666666,
+          "passing": 1,
+          "passing_engines": [
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.16666666666666666,
+          "passing": 1,
+          "passing_engines": [
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.3333333333333333,
+          "passing": 2,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.3333333333333333,
+          "passing": 2,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.16666666666666666,
+          "passing": 1,
+          "passing_engines": [
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 0.8333333333333334,
+          "passing": 5,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "setpoint_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_D_PHASE_ATLAS",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": true,
+        "reader_family_gate": {
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ],
+    "variable_composition": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_2",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_3",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_4",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_8",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PCHIP_6",
+        "k": 1,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_D_PHASE_ATLAS",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": true,
+        "reader_family_gate": {
+          "organisms": 4,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ]
+  },
+  "family_winners": {
+    "conditional_routing": null,
+    "delayed_recall": null,
+    "iterative_state": null,
+    "variable_composition": null
+  },
+  "heldout_opened": false,
+  "selection_rule": "first candidate in frozen complexity order passing AP7 discovery family gate; quotient/dynamics tested after selection with no geometry fallback",
+  "stage": "AP10_DISCOVERY_SELECTION_INPUT",
+  "version": "V837ap",
+  "winner_count": 0
+}

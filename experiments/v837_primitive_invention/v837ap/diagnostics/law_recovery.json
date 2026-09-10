@@ -1,0 +1,27 @@
+{
+  "cannot_rescue_family": true,
+  "cannot_upgrade_failed_family": true,
+  "claim_restriction": "canonical trajectories make the known primitive law readily recoverable; no autonomous symbolic primitive invention claim",
+  "families": {
+    "conditional_routing": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    },
+    "delayed_recall": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    },
+    "iterative_state": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    },
+    "variable_composition": {
+      "reason": "NO_VALID_CANONICAL_TRAJECTORY",
+      "run": false
+    }
+  },
+  "non_gating": true,
+  "rows": [],
+  "stage": "AP17_TRANSITION_LAW_AUDIT",
+  "version": "V837ap"
+}

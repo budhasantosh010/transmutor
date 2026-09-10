@@ -1,0 +1,16 @@
+{
+  "version": "V837ap",
+  "program": "GLOBAL_COORDINATE_OR_NONLINEAR_CAUSAL_STATE",
+  "start_sha": "c47649227baa0800d311ff41128d8f169ddf4f0d",
+  "powered_families": ["conditional_routing", "delayed_recall", "iterative_state", "variable_composition"],
+  "projected_dimensions": [1, 2, 4, 8],
+  "semantic_dimension": 1,
+  "max_polynomial_degree": 3,
+  "ridge_lambda": 1e-6,
+  "newton_max_iterations": 4,
+  "gradient_epsilon": 1e-8,
+  "fresh_audit_consumed": false,
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "v838_started": false
+}

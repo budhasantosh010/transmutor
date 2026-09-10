@@ -1,0 +1,28 @@
+{
+  "closure_passing_families": 0,
+  "families": {
+    "conditional_routing": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    "delayed_recall": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    "iterative_state": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    "variable_composition": {
+      "candidate": null,
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    }
+  },
+  "geometry_fallback_after_selection": false,
+  "stage": "AP8_AP10_CAUSAL_CLOSURE_AND_ADJUDICATION",
+  "version": "V837ap"
+}

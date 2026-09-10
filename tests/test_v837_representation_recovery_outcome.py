@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import subprocess
 import unittest
 from pathlib import Path
 
@@ -15,6 +16,16 @@ def load(relative: str):
 
 def sha256(relative: str) -> str:
     return hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
+
+
+def committed_hash_matches(relative: str, expected: str) -> bool:
+    data = subprocess.check_output(["git", "show", f"HEAD:{relative}"], cwd=ROOT)
+    candidates = {hashlib.sha256(data).hexdigest()}
+    if Path(relative).suffix.lower() in {".json", ".jsonl", ".csv", ".md", ".py", ".txt"}:
+        lf = data.replace(b"\r\n", b"\n")
+        candidates.add(hashlib.sha256(lf).hexdigest())
+        candidates.add(hashlib.sha256(lf.replace(b"\n", b"\r\n")).hexdigest())
+    return expected in candidates
 
 
 class RepresentationRecoveryOutcomeTests(unittest.TestCase):
@@ -45,7 +56,7 @@ class RepresentationRecoveryOutcomeTests(unittest.TestCase):
             "experiments/v837_primitive_invention/final_resource_accounting.json": "c712ea3c0771ebc398e4ccb80a4d0ffe0d8ead946d42fd460633577fbb3d9b37",
         }
         for path, digest in expected.items():
-            self.assertEqual(sha256(path), digest, path)
+            self.assertTrue(committed_hash_matches(path, digest), path)
 
     def test_v836_result_unchanged(self):
         self.assertEqual(

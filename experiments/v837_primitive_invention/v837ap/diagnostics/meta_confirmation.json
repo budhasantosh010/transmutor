@@ -1,0 +1,48 @@
+{
+  "confirmed_families": {
+    "conditional_routing": null,
+    "delayed_recall": null,
+    "iterative_state": null,
+    "variable_composition": null
+  },
+  "meta_confirmed_families": 0,
+  "no_geometry_fallback": true,
+  "no_refit": true,
+  "partition": "AP_META_CONFIRM",
+  "results": [
+    {
+      "candidate": null,
+      "family": "conditional_routing",
+      "no_refit": true,
+      "partition": "AP_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    {
+      "candidate": null,
+      "family": "delayed_recall",
+      "no_refit": true,
+      "partition": "AP_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    {
+      "candidate": null,
+      "family": "iterative_state",
+      "no_refit": true,
+      "partition": "AP_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    },
+    {
+      "candidate": null,
+      "family": "variable_composition",
+      "no_refit": true,
+      "partition": "AP_META_CONFIRM",
+      "pass": false,
+      "reason": "NO_AP7_DISCOVERY_WINNER"
+    }
+  ],
+  "stage": "AP11_META_CONFIRM",
+  "version": "V837ap"
+}

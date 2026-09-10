@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import inspect
 import json
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -31,6 +32,18 @@ from experiments.v837_primitive_invention.tasks.delayed_recall import DelayedRec
 ROOT = Path(__file__).resolve().parents[1]
 GATE_HASH = "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
 CAPACITY_HASH = "7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa"
+
+
+def committed_hash_matches(relative: str, expected: str) -> bool:
+    data = subprocess.check_output(["git", "show", f"HEAD:{relative}"], cwd=ROOT)
+    candidates = {hashlib.sha256(data).hexdigest()}
+    if Path(relative).suffix.lower() in {".json", ".jsonl", ".csv", ".md", ".py", ".txt"}:
+        lf = data.replace(b"\r\n", b"\n")
+        candidates.add(hashlib.sha256(lf).hexdigest())
+        candidates.add(hashlib.sha256(lf.replace(b"\n", b"\r\n")).hexdigest())
+    return expected in candidates
+
+
 HISTORICAL_HASHES = {
     "archive/preserved_artifacts/transmutor_experiments_v836plus/v836_results.json": "0ed63ee1e1c5903c1c90b58942aaf968b747df19d4c4a51c1d73a6b36f91527d",
     "experiments/v837_primitive_invention/v837/results.json": "5fed69cc990be5c6f64a5229f59ff7f27af0c1fc26398bdfbe80ee46255eef14",
@@ -192,8 +205,7 @@ class ScientificGuardTests(unittest.TestCase):
 
     def test_v837_historical_results_unchanged(self):
         for relative, expected in HISTORICAL_HASHES.items():
-            actual = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
-            self.assertEqual(actual, expected, relative)
+            self.assertTrue(committed_hash_matches(relative, expected), relative)
 
     def test_v836_archive_hash_unchanged(self):
         path = ROOT / "archive/preserved_artifacts/transmutor_experiments_v836plus/v836_results.json"

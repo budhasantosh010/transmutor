@@ -1,0 +1,66 @@
+{
+  "branch_search_on_holdout": false,
+  "calibration_ladder": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "chart_search_on_holdout": false,
+  "degree_search_on_holdout": false,
+  "evaluation_label": "HELDOUT_ORGANISM / REUSED_HISTORICAL_EPISODE_VALIDATION",
+  "families": {
+    "conditional_routing": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "delayed_recall": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "iterative_state": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    },
+    "variable_composition": {
+      "candidate": null,
+      "frontier": [],
+      "holdout_count": 4,
+      "minimum_successful_n": null,
+      "pass": false,
+      "qualifier": null,
+      "reason": "NO_FROZEN_GEOMETRY"
+    }
+  },
+  "fresh_audit_consumed": false,
+  "frozen_geometry_sha256": "8032262110a4201078073dbbcc69f235f4bb088174150b84448fe43a28c99da1",
+  "geometry_search_on_holdout": false,
+  "heldout_backend_opened_only_after_freeze": true,
+  "historical_v837an_backend_loaded": false,
+  "historical_v837an_q_loaded": false,
+  "historical_v837ao_backend_loaded": false,
+  "k_search_on_holdout": false,
+  "phase_atlas_search_on_holdout": false,
+  "rows": [],
+  "stage": "AP14_AP15_HELDOUT",
+  "version": "V837ap",
+  "wall_seconds": 0.0028393999964464456,
+  "writer_search_on_holdout": false
+}

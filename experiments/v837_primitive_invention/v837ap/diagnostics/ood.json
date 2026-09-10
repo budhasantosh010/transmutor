@@ -1,0 +1,245 @@
+{
+  "rows": [
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 4,
+      "median_ood_ratio": 9.417612987588928,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 4,
+      "median_ood_ratio": 173.5483594707956,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 4,
+      "median_ood_ratio": null,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 4,
+      "median_ood_ratio": 33.9426156968054,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 4,
+      "median_ood_ratio": null,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 4,
+      "median_ood_ratio": 125.03172504557182,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 70.72170532363974,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 54.86656028741198,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": null,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 23.052299408173823,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 59.64018572513446,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": null,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 49.323807791548425,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 137.24405321607492,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 72.56620436157748,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 49.7006111758927,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 28.610358466573306,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 31.850980126328004,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 28.10931634916083,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 59.862035248314,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 82.12397430743074,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": null,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 85.40020423623378,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "pass": false
+    },
+    {
+      "chart_family": "CUBIC",
+      "family": "delayed_recall",
+      "k": 8,
+      "median_ood_ratio": 30.259500636383812,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "iterative_state",
+      "k": 8,
+      "median_ood_ratio": 7.892256024171627,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "iterative_state",
+      "k": 8,
+      "median_ood_ratio": 9.27007605047533,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "iterative_state",
+      "k": 8,
+      "median_ood_ratio": null,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "iterative_state",
+      "k": 8,
+      "median_ood_ratio": 7.6105871536493535,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "iterative_state",
+      "k": 8,
+      "median_ood_ratio": 7.210527305473994,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "pass": false
+    },
+    {
+      "chart_family": "QUADRATIC",
+      "family": "iterative_state",
+      "k": 8,
+      "median_ood_ratio": 5.424902575011641,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "pass": false
+    }
+  ],
+  "version": "V837ap"
+}

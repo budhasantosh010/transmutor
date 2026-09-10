@@ -1,0 +1,59 @@
+{
+  "families": {
+    "conditional_routing": {
+      "q05": -1.0,
+      "q95": 1.0,
+      "semantic_range": 2.0,
+      "target_definition": "EXACT_BINARY",
+      "targets": [
+        -1.0,
+        1.0
+      ]
+    },
+    "delayed_recall": {
+      "q05": -1.0,
+      "q95": 1.0,
+      "semantic_range": 2.0,
+      "target_definition": "EXACT_BINARY",
+      "targets": [
+        -1.0,
+        1.0
+      ]
+    },
+    "iterative_state": {
+      "pooled_values": 1152,
+      "q05": -0.7253749999999999,
+      "q95": 0.5774999999999999,
+      "semantic_range": 1.3028749999999998,
+      "target_definition": "DISCOVERY_POOLED_Q10_Q25_Q40_Q50_Q60_Q75_Q90",
+      "targets": [
+        -0.6288311093749999,
+        -0.40423031249999997,
+        -0.17425624999999997,
+        -0.1225,
+        0.04477227890625002,
+        0.23680252285156247,
+        0.547610765625
+      ]
+    },
+    "variable_composition": {
+      "pooled_values": 472,
+      "q05": -0.5712603430860624,
+      "q95": 0.3967667605925693,
+      "semantic_range": 0.9680271036786318,
+      "target_definition": "DISCOVERY_POOLED_Q10_Q25_Q40_Q50_Q60_Q75_Q90",
+      "targets": [
+        -0.5351665537174357,
+        -0.3817586496948717,
+        -0.22221977843056712,
+        -0.1271051248043303,
+        -0.04135849566247401,
+        0.07659749166896045,
+        0.29528662654228705
+      ]
+    }
+  },
+  "fit_partition": "AP_CHART_FIT",
+  "grid_sha256": "d72f636ec86e4b6f624e970b9a529272e6868a60ed262b3631500b5748568ab3",
+  "version": "V837ap"
+}

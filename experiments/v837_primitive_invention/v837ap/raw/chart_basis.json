@@ -1,0 +1,405 @@
+{
+  "families": {
+    "conditional_routing": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "LOGISTIC_MONOTONE",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_4",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_8",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ],
+    "delayed_recall": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "LOGISTIC_MONOTONE",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_4",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "ISOTONIC_8",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ],
+    "iterative_state": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_2",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_3",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_4",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_8",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PCHIP_6",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ],
+    "variable_composition": [
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "AFFINE",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_2",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "POLYNOMIAL_3",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_4",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PWL_8",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_A_K1",
+        "chart_family": "MONOTONE_PCHIP_6",
+        "k": 1,
+        "phase_atlas": false,
+        "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 2,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 4,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "LINEAR",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "QUADRATIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      },
+      {
+        "branch": "AP_B_PROJECTED",
+        "chart_family": "CUBIC",
+        "k": 8,
+        "phase_atlas": false,
+        "writer_family": "GRADIENT_NEWTON"
+      }
+    ]
+  },
+  "version": "V837ap"
+}

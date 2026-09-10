@@ -124,6 +124,27 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
+def sha256_manifest_compatible(path: Path, expected: str) -> str:
+    """Compare frozen text artifacts portably across LF/CRLF checkouts.
+
+    Exact bytes are preferred. For text-only artifact types, accept an LF or
+    CRLF canonical form only when that form exactly matches the frozen SHA.
+    Binary artifacts remain exact-byte only.
+    """
+    actual = sha256_file(path)
+    if actual == expected:
+        return actual
+    if path.suffix.lower() not in {".json", ".jsonl", ".csv", ".md", ".py", ".txt"}:
+        return actual
+    text = path.read_bytes().decode("utf-8")
+    canonical_lf = text.replace("\r\n", "\n").replace("\r", "\n")
+    lf_hash = hashlib.sha256(canonical_lf.encode("utf-8")).hexdigest()
+    if lf_hash == expected:
+        return lf_hash
+    crlf_hash = hashlib.sha256(canonical_lf.replace("\n", "\r\n").encode("utf-8")).hexdigest()
+    return crlf_hash
+
+
 def canonical_fingerprint(value: Any) -> str:
     encoded = json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
     return hashlib.sha256(encoded).hexdigest()
@@ -180,7 +201,7 @@ def validate_integrity_manifest() -> None:
             path = ROOT / relative
             if not path.exists():
                 raise ValueError(f"integrity path missing: {relative}")
-            actual = sha256_file(path)
+            actual = sha256_manifest_compatible(path, expected)
             if actual != expected:
                 raise ValueError(f"integrity mismatch: {relative}: {actual} != {expected}")
 
@@ -258,7 +279,7 @@ def validate_active_result_files() -> None:
 def validate_v837_lineage() -> None:
     base = ROOT / "experiments" / "v837_primitive_invention"
     gate_path = base / "frozen_gates.json"
-    if sha256_file(gate_path) != V837_GATE_SHA256:
+    if sha256_manifest_compatible(gate_path, V837_GATE_SHA256) != V837_GATE_SHA256:
         raise ValueError("V837 frozen gate hash changed")
     gates = json.loads(gate_path.read_text(encoding="utf-8"))
     assert_seed_ranges_disjoint(gates["seed_ranges"])
@@ -334,7 +355,7 @@ def validate_v837_representation_recovery() -> None:
         return
 
     for relative, expected in V837_IMMUTABLE_HASHES.items():
-        actual = sha256_file(ROOT / relative)
+        actual = sha256_manifest_compatible(ROOT / relative, expected)
         if actual != expected:
             raise ValueError(f"historical V837 artifact changed during representation recovery: {relative}")
 
@@ -856,6 +877,9 @@ def main() -> int:
     validate_v837_representation_recovery()
     validate_v837_learned_reference_calibration()
     validate_v837_gru_mechanism_localization()
+    nonlinear_state_validator = ROOT / "scripts" / "validate_v837_global_coordinate_or_nonlinear_state.py"
+    if nonlinear_state_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837ap" / "results.json").exists():
+        _run_validator(nonlinear_state_validator, run_name="__main__")
     latent_canonicalization_validator = ROOT / "scripts" / "validate_v837_latent_primitive_canonicalization.py"
     if latent_canonicalization_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837ao" / "results.json").exists():
         _run_validator(latent_canonicalization_validator, run_name="__main__")

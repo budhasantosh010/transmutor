@@ -1,0 +1,215 @@
+{
+  "binary_k1_chart_families": [
+    "AFFINE",
+    "LOGISTIC_MONOTONE",
+    "ISOTONIC_4",
+    "ISOTONIC_8"
+  ],
+  "binary_targets": {
+    "conditional_routing": [
+      -1.0,
+      1.0
+    ],
+    "delayed_recall": [
+      -1.0,
+      1.0
+    ]
+  },
+  "complexity_ceiling_k": 8,
+  "complexity_order": [
+    "K1_AFFINE_ANCHOR",
+    "K1_SIMPLE_NONLINEAR",
+    "K1_NONLINEAR_PLUS_TANGENT",
+    "K2_PROJECTED",
+    "K4_PROJECTED",
+    "K8_PROJECTED",
+    "PHASE_ATLAS"
+  ],
+  "continuous_k1_chart_families": [
+    "AFFINE",
+    "POLYNOMIAL_2",
+    "POLYNOMIAL_3",
+    "MONOTONE_PWL_4",
+    "MONOTONE_PWL_8",
+    "MONOTONE_PCHIP_6"
+  ],
+  "continuous_targets": "AP_CHART_FIT pooled Q10,Q25,Q40,Q50,Q60,Q75,Q90; Rz=Q95-Q05",
+  "control_thresholds": {
+    "norm_random_margin_min": 0.2,
+    "paired_one_sided_permutation_p_max": 0.01,
+    "random_subspace_margin_min": 0.2,
+    "shuffled_margin_min": 0.2
+  },
+  "discovery_final_rule": "10448-10511 no refit, identical gates",
+  "dynamics_thresholds": {
+    "control_margin_min": 0.2,
+    "final_recovery_min": 0.8,
+    "median_ood_max": 2.0,
+    "multi_step_nrmse_max": 0.15,
+    "one_step_nrmse_max": 0.1,
+    "task_success_min": 0.75
+  },
+  "episode_roles": {
+    "AP_CHART_FIT": [
+      10000,
+      10063
+    ],
+    "AP_CHART_SELECT": [
+      10064,
+      10127
+    ],
+    "AP_DISCOVERY_FINAL": [
+      10448,
+      10511
+    ],
+    "AP_DYNAMICS": [
+      10320,
+      10383
+    ],
+    "AP_META_CONFIRM": [
+      10384,
+      10447
+    ],
+    "AP_QUOTIENT": [
+      10256,
+      10319
+    ],
+    "AP_WRITER_FIT": [
+      10128,
+      10191
+    ],
+    "AP_WRITER_SELECT": [
+      10192,
+      10255
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ],
+    "REUSED_HISTORICAL_VALIDATION": [
+      20000,
+      20127
+    ]
+  },
+  "failure_ledger_required": true,
+  "family_pass": ">=60% discovery organisms and both V837aj engines; first passing candidate wins, never score-maximize",
+  "fresh_audit_consumed": false,
+  "gate_sha256": "07bb6fb80ab77618188c4e42e3c8ba7fb14e9d22c9fd72db92df76834467fcf5",
+  "gradient_epsilon": 1e-08,
+  "heldout_calibration_ladder": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "heldout_family_pass": ">=ceil(.75*N_holdout) and >=1 directed + >=1 random; same reader/SET/control/quotient/dynamics/OOD gates",
+  "heldout_min_samples_rule": "effective independent fit samples >=2*deployed continuous coefficients unless exact lower-dimensional closed form needs fewer",
+  "heldout_organism_protocol": "reuse V837ao engine-stratified folds; freeze geometry family before reading heldout chart metrics",
+  "historical_validation_label": "HELDOUT_ORGANISM / REUSED_HISTORICAL_EPISODE_VALIDATION",
+  "large_persistent_storage_tested": false,
+  "max_polynomial_degree": 3,
+  "meta_rule": "no refit; failure -> family null; no next-best fallback",
+  "new_source_model_fits": 0,
+  "newton_max_iterations": 4,
+  "no_cross_organism_q_alignment": true,
+  "no_cross_organism_state_alignment": true,
+  "norm_random_setters": 32,
+  "partial_observation_status": "UNRESOLVED_UNDERPOWERED_PREDECESSOR_FAMILY",
+  "phase_definitions": {
+    "conditional_routing": [
+      "POST_CONTROL",
+      "POST_PAYLOAD_A",
+      "POST_PAYLOAD_B"
+    ],
+    "delayed_recall": [
+      "POST_WRITE",
+      "MID_DELAY",
+      "PRE_READ"
+    ],
+    "iterative_state": [
+      "EARLY",
+      "MIDDLE",
+      "LATE"
+    ],
+    "variable_composition": [
+      "EARLY",
+      "MIDDLE",
+      "LATE"
+    ]
+  },
+  "powered_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state",
+    "variable_composition"
+  ],
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "projected_chart_families": [
+    "LINEAR",
+    "QUADRATIC",
+    "CUBIC"
+  ],
+  "projected_dimensions": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "quotient_rule": "same organism/family/phase; |E(sa)-E(sb)|<=0.10Rz; choose max projected residual distance without outcome effects; align semantics before common future",
+  "quotient_thresholds": {
+    "epsilon": 1e-08,
+    "final_prediction_disagreement_normalized_max": 0.1,
+    "median_RS_max": 0.2,
+    "median_ood_max": 2.0,
+    "p90_RS_max": 0.4,
+    "task_success_disagreement_max": 0.1,
+    "trajectory_disagreement_nrmse_max": 0.1
+  },
+  "random_subspaces": 32,
+  "reader_thresholds": {
+    "binary_accuracy_min": 0.95,
+    "binary_balanced_accuracy_min": 0.95,
+    "binary_nrmse_max": 0.15,
+    "continuous_abs_pearson_min": 0.95,
+    "continuous_nrmse_max": 0.1,
+    "continuous_spearman_min": 0.95
+  },
+  "ridge_lambda": 1e-06,
+  "rollout_horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "semantic_dimension": 1,
+  "set_thresholds": {
+    "binary_read_after_set_nrmse_max": 0.1,
+    "continuous_read_after_set_nrmse_max": 0.05,
+    "direction_min": 0.8,
+    "median_ood_max": 2.0,
+    "median_recovery_min": 0.7,
+    "task_success_min": 0.75,
+    "trajectory_nrmse_max": 0.15
+  },
+  "source_architecture_changes": 0,
+  "source_optimizer_steps": 0,
+  "source_training_examples": 0,
+  "start_sha": "c47649227baa0800d311ff41128d8f169ddf4f0d",
+  "tangent_field_families": [
+    "CONSTANT",
+    "AFFINE_STATE_FIELD",
+    "QUADRATIC_STATE_FIELD"
+  ],
+  "trust_radius_rule": "each projected Newton/tangent step clipped to 2*D90, D90=FIT-only P90 norm natural paired delta-h",
+  "v837an_frozen_abstraction_hash": "d7ed81bbcd53c6b8927df4efac3bbf2a234a2f6e4c577e7dfa814236e44a990d",
+  "v837ao_decision_hash": "ba5e66a24402ee6f59e40edbd06501c2edcd06b97c10f2e98e2878fd2249053b",
+  "v837ao_frozen_geometry_hash": "b4784f43cbcc27c77c252bec0888e1cf743dd1d7ed2a7eded15f7d4232132e24",
+  "v837ao_organism_fold_hash": "b96eed0f053ec48b5cb183929296a371857e549ed05bbe9650df2ef32dee1c95",
+  "v837ao_report_hash": "4ba069c051953041c2796b24390b1bfc3ae6ff25857ac90ff93730d68403c3cf",
+  "v837ao_results_hash": "9739818f58cb6cb2ce7203b7a785dccfb7748f8cb9c2414c3baaa77c308a209f",
+  "v838_started": false,
+  "version": "V837ap"
+}

@@ -7607,3 +7607,3062 @@ Append-only research memory. Older failure entries and measurements must never b
 - **Do not repeat unchanged:** True
 - **Artifacts:** experiments/v837_primitive_invention/v837ao/diagnostics/source_integrity.json
 
+## V837ap-BACKFILL-V837ao-CAUSAL-DIRECTION-NOT-GLOBAL-COORDINATE — V837ap / AP0_PREDECESSOR_BACKFILL
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** None / None
+- **Geometry:** k=1 semantic_dim=1 AFFINE_K1 V837ao gauge-fixed semantic compiler
+- **Failed conditions:** ['linear/global K1 coordinate not established']
+- **Interpretation:** V837ao showed that V837an K1 is a genuine causal steering direction but not a stable affine global semantic coordinate under its frozen family. Null family specifications were deliberately frozen before any heldout backend fitting; this was not a missing run.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ao/diagnostics/decision_state.json, docs/V837_LATENT_PRIMITIVE_CANONICALIZATION_REPORT.md
+
+## V837ap-AP3-READER-4d5745078d9a43c2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fcd21458088d8be0 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4a21a01dccacb9e8 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4f16f5e144ea4b16 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-bd5754dc83c797c8 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-326a91e9ed533e64 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f2029a6b4b51b35c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-cf7da3ea5d5aa601 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5d10a8c3f44f5386 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4578dcf06aeebb4b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1b041a7ab9032010 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-be733ce61cc08cf1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-52344b0b61f8ea1c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-7c11eef7627f8dea — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-13d7a6a9cc761a48 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-40f885fac29fbe44 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8e0d91170928b725 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a30377d05623d541 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-7bfc3558c72182b6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0355307338acaec1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d0407709354bec15 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-20172a745d3257b3 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b2bcefe4c3b81d95 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-07b5a22e67a4e24b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a2bcca8f475a9919 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-3da4a383695152f2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-2157612aa7e385e6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-614ecc2db6747e4f — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0a9f2fc9f655728a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-28c0f182cd8f4a76 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d59f10fd6a1b54c3 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0e106e5505aa065c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ddfab4ab763a6532 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-790438fd50d14ebf — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-24739e20644a21ad — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0943f62ff07b563c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c97ce6e72af94860 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-7b5d3b1918bde4be — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c8632a1dba12dddc — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-050cf5be09311b1f — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5fb84d0d41121385 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-95bb00c7360742eb — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8720d981d1b01b0e — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d47b731fe4f42515 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5d40f6d0d5f75170 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ce6c5d50eb39f62f — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-aacb7d2a247df454 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e9a25f00c4770385 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-dadd6620257fc4cc — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-251a82fef87d5b5b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-148475b0e43c8653 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f39285bfdcce5160 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e6aba64ada3815a6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-9a0491b67ce2e05e — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1cf206626c9d4c10 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-33b004a09a321ce0 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fbd6117847dc56ec — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1b398364ceedf631 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-42f102eae428265e — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-69730e65927df87f — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0906165224a83d6d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5be2da05ebe18810 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f7b8b15eb929b138 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c13bac6824ec251c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b30e6d6abb22d150 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c26c6741e5fae574 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-7eb476c37b9c1200 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-2ce797d42d7aca28 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b8496ece1b92e317 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c8bc0dfb6b0512af — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a2023f378acc15f5 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-6ddc57f502354ea6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b1266ec72efcf0dd — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-57f600a6c2182360 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ff766eab6e77198d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f9f8815812832db5 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c0ad68e8caab0216 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-18484a34ac2abdf3 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d9d5f06dc2c70a4d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-028b5cd2cb0cfcd1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5cb4e3a86422fd71 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-7fd1e2547acd4b40 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ae271ba39ce5d340 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b1dba6dfb0548845 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d1c2891a4864387b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d3cf0fad2af68ca7 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-33f14ebbad02f701 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f2f33cc2895bc987 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fde2309ab52db264 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0a571b7c2fcd04e9 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f77c57c115ab0b91 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-927cd25dea549d47 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5fc3a08abf048c7a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-6997348cea505b46 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4e53804454e20c5a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e7478af898abcc6a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-100c3ccd2acab9c2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-faac5ea1c20295c0 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-07928ce2619d574b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fd5109134c9facd7 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-eea668ac549496f9 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5c1dbbb71c221000 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-45f42203769370ef — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fdb3acaa70c4e85a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f5489479cdf1d568 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a1aee8a11d4eb50c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ca6b095fd566a7e6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8ac89f111ec48521 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a53bc812ceaeba27 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-58d025c4fcb76c89 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ec6067f1ffac85fe — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-7d3a8bf95949b10d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b3a65090dd0f353e — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-218439b0b2d6b7a9 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0a182ec84115def0 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e4e04efcab16ffeb — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-70f9013a9d6ac361 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-26bc357222c88254 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a63f38906f9c1342 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-60c114639c156b87 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a8029f3be289877d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-20f808cc85ae896d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-9bfe0ad551a30b12 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a4917bdabc89d170 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=2 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-360383c26de7e944 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b25ce755e62aada2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d5cda0ca3a035e51 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-891e6c1dd2bbe7ec — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=2 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b971a2aee26305fe — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-53679cce13e12f79 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a74401ec14f5bd8b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-350c624821c2299d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=2 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8554dcfaed5af981 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-949c0e149b9a4f8b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-bc82fa4abc92c774 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c978e9af1e2a8099 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=4 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-17755d45092e3b3b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-804fa1b191149ac6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-25e1e5255fa5ab9b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-dcd4abe2926762f5 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ee88ba0e7a17f767 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c707ee7ae4c56d72 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e635fba278bd4e58 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c4c3a2ca6f6a4d37 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=4 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-da10f79f41a49ce4 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-64f31f14f99baf6d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-7aac5b37eee32a46 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-cd58368bd34baaea — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=8 semantic_dim=1 LINEAR GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-02f943eae219f03b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-9df9b66726d9df43 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ae021a2b535ab171 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-56b075f49b6a1ea1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-355694694d679664 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-dae769871d2945c1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fe29826f57f31670 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-de11074bddf0b4f0 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b90b63b3e98952f2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c40517c27d815f2f — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-049e6235bc17a65d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-344b9e8b67393f20 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f3cfcdf16dcbcef3 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-bfd04b5f24a3e3d7 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-02b63adae48b73b4 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1b4c446c95e4ba69 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f84fa2d50344be62 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c190aecde00f0b7a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-043e807927deb47e — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-bf1a0b019bf789d1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-bd108773ee204006 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4917ac39a064ed46 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-045f2a7afbc6a36d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b247078f06e02737 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-33d24faf3802624c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a90bbd7472450287 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-107525945f878053 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d704549b754c8778 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-670f4ca5bdfeb073 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-bdc744713ef4079b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-3e00ae2be5ada08c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-81fcc5ba8f593df1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b68f043b188f32e9 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-6fa19154b0365342 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a9cf67e602a5ea22 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-2addb042c8a24b64 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0f45f173f0858db1 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-cc8dee6a3e687f11 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-9035f00a3f8bc472 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-9fbef107535488c5 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=1 semantic_dim=1 LOGISTIC_MONOTONE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-f92477e044d95f6a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-762e57765ffe7102 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-584665644696bace — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5cfbe6733200e596 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b2c16aa50b471f87 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8fc337499ee7b754 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-34bccb4d1b9a1591 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1cd84f6e139feb9b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-414ca4faa213b828 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4b148bd23177a723 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-6cefb0d011687300 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e00730543b90e09a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=1 semantic_dim=1 ISOTONIC_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-35804b3327984742 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-536c7321b86acdcf — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8a51f4f3753169d3 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-89e1e1dae44821a6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d806f5153ec8aa94 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-11e54119a113dd56 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-685e95d9b9ffc61d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-642f0497991fdb4e — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-c97f13c37b4b4298 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-cc2b782d3240cd25 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8ed7d73840b117d2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e68dd3abb3fa8431 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b57e5e27912b3dc5 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1b0441887428b517 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d254d3b9ccdb3992 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-39ebd5eb19862407 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e1d0a4c1bb7faae8 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4cfd3c5ff1f63678 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e5d368a47e4a7420 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-db5b3bf2f1a61fe2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d552e1556d283350 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4792d90bbc74b9b5 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-687e97f1f6d71cd6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-064532db6fcff2db — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-68fec9ddb9e0318b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-3101fb7f5e2e4402 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ceaf27670e45ab97 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d8096beff8918f40 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b7742816fc9fef41 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e56a11782f950a26 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ff2c1d38c30a7e1c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-610e7149d8fe1826 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-4eddd9f44d2510e4 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-cf1d49e0d7327e3b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d59a031668bac956 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-9bb66facc7e7da25 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-b54cd69dfec5b491 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-6ce5efc407926a30 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8b743b29da078464 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fe2d29b745bf0035 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=1 semantic_dim=1 AFFINE DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d80806eac8659097 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1bd1ed478c376fc7 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-2eda04331c92c425 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-244bcdabeee442d6 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_2 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-0c6de532f0e6eb6b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-11db093e05829b1b — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-ccdd66db1a271be7 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-bf93ea66a5fa77ca — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=1 semantic_dim=1 POLYNOMIAL_3 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-cbc6b4a2a55c73b2 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-d61c3d34be59ff0a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-5dace99d86801f0f — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-45daf801eeea2d8d — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_4 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fecae05e71d434b9 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-8e6e30939c15b39c — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-1b93c3a92d42a9dc — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-e5e58bc29cf42f13 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PWL_8 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-34a99204586161f8 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-fbcb361025d32676 — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-296ffb567de8966a — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP3-READER-a456a5346bed583e — V837ap / AP3_AP4_READER
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Geometry:** k=1 semantic_dim=1 MONOTONE_PCHIP_6 DIRECT_INVERSE_OR_CLASS_PROTOTYPE
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** This frozen compact chart did not establish the required semantic reader on AP_CHART_SELECT.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/chart_conditioning.json
+
+## V837ap-AP7-SET-3551fc5535f1a59a — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-6a00bf20a4372a18 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-d80925ef8870cbc3 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-4d9b2e8d98eb3dfb — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-bad4ffda47696e60 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-0d0deddf42b670e4 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-ENG-WORKTREE-REBIND — V837ap / AP0_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['WORKTREE_REBIND']
+- **Interpretation:** Initial harness task execution landed V837ap scaffolding in the canonical checkout instead of the isolated research worktree.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-K1-ARRAY-ORIENTATION — V837ap / AP3_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['K1_ARRAY_ORIENTATION']
+- **Interpretation:** The first K1 affine/logistic chart sweep treated a length-N scalar vector as one row with N features, causing invalid fits.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-DYNAMICS-SEED-THREADING — V837ap / AP9_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['DYNAMICS_SEED_THREADING']
+- **Interpretation:** Held-out chart/writer calibration seed overrides were referenced by interventional dynamics before being threaded through its function signature.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-QUOTIENT-TASK-TARGET — V837ap / AP8_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['QUOTIENT_TASK_TARGET_NORMALIZATION']
+- **Interpretation:** Early quotient code compared task success against the semantic setpoint rather than the abstract final task target for routing/recall.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-COMPLEXITY-ORDER — V837ap / AP10_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['COMPLEXITY_ORDERING']
+- **Interpretation:** One unused discovery runner version placed projected K2/K4/K8 evaluation before the AP-C tangent branch.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-ZERO-DELTA-IDENTITY — V837ap / AP7_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['ZERO_DELTA_IDENTITY']
+- **Interpretation:** The direct 1D inverse setter reported one operation even when the requested semantic target already equaled the current readout.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-AP7-SET-75732ec43e47870c — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-bd0074b7e161effa — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-ee75fb2191305b01 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-0a1412289295f61a — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-14eed22c95aefc0e — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-6cabadb78ba8122e — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-c658e5cbc139e63f — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-cfb0180efb2caf88 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-08178f427e2641e5 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-37d407dd034851f1 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-478059a1d6de1d7d — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-c1f5d58d09f13fd2 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-82a2e658d4375d4a — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-ab0ff9efd12ef460 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-d51df42ad1d9de3a — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-73491c790a0cb044 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-bfc8bab2b58c3bb9 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-d4653145784cdfc8 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=4 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-0c2a35a78944e21d — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-ab5fc9a3f32092ea — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-2edaa4e75248e186 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-067ab7d705b50d94 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-e2139912fb25c272 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-85cdea2c19db769c — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-1b109fbc34eb603d — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-04e37c15c2bd1594 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['READER_GATE_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-a1178262802b19dd — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-c26988510fac3831 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Geometry:** k=8 semantic_dim=1 CUBIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-ccaef5adebf8ee77 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-AP7-SET-dabe63067dffd741 — V837ap / AP7_SETPOINT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Geometry:** k=8 semantic_dim=1 QUADRATIC GRADIENT_NEWTON
+- **Failed conditions:** ['ABSOLUTE_SETPOINT_FAIL']
+- **Interpretation:** Reader evidence did not upgrade to the frozen absolute semantic SET/control/OOD contract for this organism.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/setpoint_results.json
+
+## V837ap-ENG-CONTROL-VALIDITY-GATE — V837ap / AP7_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['CONTROL_VALIDITY_GATE']
+- **Interpretation:** An intermediate SET evaluator encoded failed shuffled/random-subspace control fits as -inf recovery, which could create an artificial infinite candidate margin.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-HELDOUT-SUBSPACE-RANK-GUARD — V837ap / AP14_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['HELDOUT_SUBSPACE_RANK_GUARD']
+- **Interpretation:** Held-out compilation initially checked chart coefficient sample count without an explicit minimum sample guard for reconstructing the frozen k-dimensional projected subspace.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-HELDOUT-TIME-IMPORT — V837ap / AP14_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['HELDOUT_TIME_IMPORT']
+- **Interpretation:** The null held-out closure path referenced time.perf_counter for resource accounting before importing time and initializing the stage timer.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json

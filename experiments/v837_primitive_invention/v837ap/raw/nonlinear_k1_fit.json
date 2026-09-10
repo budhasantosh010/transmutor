@@ -1,0 +1,5301 @@
+{
+  "rows": [
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 276 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 264 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 276 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 276 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 270 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 276 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 264 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 276 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 276 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 270 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "conditional_routing",
+      "k": 1,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          2.065910460093118
+        ],
+        "fit_h_min": [
+          -1.3331626401436627
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -1.3331626401436627,
+          -0.09550637748721752,
+          0.4236839777344684,
+          2.065910460093118
+        ],
+        "knots_p": [
+          0.0,
+          0.45714285714285713,
+          0.594059405940594,
+          1.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": -0.15938833079985415,
+        "prototype_plus": 0.4820045444125671,
+        "prototype_separation": 0.6413928752124213
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "fit_examples": 276,
+      "k": 1,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 88,
+          "normalized_rmse": 0.16869388136243066,
+          "pass": false,
+          "pearson": 0.9790894099060273,
+          "phase": "POST_CONTROL",
+          "spearman": 0.8660851383081024
+        },
+        {
+          "balanced_accuracy": 0.47727272727272724,
+          "classification_accuracy": 0.4772727272727273,
+          "n": 88,
+          "normalized_rmse": 0.5180944174200861,
+          "pass": false,
+          "pearson": 0.00890042100026264,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.019683666479473907
+        },
+        {
+          "balanced_accuracy": 0.625,
+          "classification_accuracy": 0.625,
+          "n": 88,
+          "normalized_rmse": 0.4612915265415192,
+          "pass": false,
+          "pearson": 0.40666984491859076,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.34893772395431016
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.7007575757575757,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.7007575757575758,
+        "coverage_pass": true,
+        "n": 264,
+        "normalized_rmse": 0.41217687280664084,
+        "pass": false,
+        "pearson": 0.5740821434392102,
+        "spearman": 0.5500176442431248
+      },
+      "reader_pass": false,
+      "select_examples": 264,
+      "semantic_dimension": 1,
+      "stored_bytes": 444,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          2.327096824534057
+        ],
+        "fit_h_min": [
+          -1.4776086189939504
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -1.4776086189939504,
+          -0.3306916164682172,
+          0.3048048283979418,
+          2.327096824534057
+        ],
+        "knots_p": [
+          0.0,
+          0.3333333333333333,
+          0.8235294117647058,
+          1.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": -0.5859071479528113,
+        "prototype_plus": 0.4469792158751905,
+        "prototype_separation": 1.032886363828002
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 82,
+          "normalized_rmse": 0.13491644641872505,
+          "pass": true,
+          "pearson": 0.9848080692363828,
+          "phase": "POST_CONTROL",
+          "spearman": 0.8660898090501197
+        },
+        {
+          "balanced_accuracy": 0.6219512195121951,
+          "classification_accuracy": 0.6219512195121951,
+          "n": 82,
+          "normalized_rmse": 0.4947558945053908,
+          "pass": false,
+          "pearson": 0.3291127949134807,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.3725062057960955
+        },
+        {
+          "balanced_accuracy": 0.6585365853658537,
+          "classification_accuracy": 0.6585365853658537,
+          "n": 82,
+          "normalized_rmse": 0.4298992971229718,
+          "pass": false,
+          "pearson": 0.5337531374197974,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.5878694063808368
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.7601626016260162,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.7601626016260162,
+        "coverage_pass": true,
+        "n": 246,
+        "normalized_rmse": 0.3863501211461401,
+        "pass": false,
+        "pearson": 0.6383478970244378,
+        "spearman": 0.6632771011719512
+      },
+      "reader_pass": false,
+      "select_examples": 246,
+      "semantic_dimension": 1,
+      "stored_bytes": 441,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.6777405712770235
+        ],
+        "fit_h_min": [
+          -2.1894038918204215
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -2.1894038918204215,
+          -0.567484414342754,
+          0.27097396838202936,
+          1.6777405712770235
+        ],
+        "knots_p": [
+          1.0,
+          0.9333333333333333,
+          0.07142857142857142,
+          0.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": 0.5507402150754667,
+        "prototype_plus": -0.7132190629635773,
+        "prototype_separation": 1.263959278039044
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "fit_examples": 276,
+      "k": 1,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 86,
+          "normalized_rmse": 0.05409419838849869,
+          "pass": true,
+          "pearson": 0.996403566382389,
+          "phase": "POST_CONTROL",
+          "spearman": 0.866083956599068
+        },
+        {
+          "balanced_accuracy": 0.8604651162790697,
+          "classification_accuracy": 0.8604651162790697,
+          "n": 86,
+          "normalized_rmse": 0.3033162262770852,
+          "pass": false,
+          "pearson": 0.7987534224630759,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.7742762467594696
+        },
+        {
+          "balanced_accuracy": 0.8488372093023255,
+          "classification_accuracy": 0.8488372093023255,
+          "n": 86,
+          "normalized_rmse": 0.34203331527099007,
+          "pass": false,
+          "pearson": 0.7309282559846614,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.6871526037484222
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.9031007751937985,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.9031007751937985,
+        "coverage_pass": true,
+        "n": 258,
+        "normalized_rmse": 0.2657779174282736,
+        "pass": false,
+        "pearson": 0.848566224242006,
+        "spearman": 0.8113877467851968
+      },
+      "reader_pass": false,
+      "select_examples": 258,
+      "semantic_dimension": 1,
+      "stored_bytes": 445,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.8442706416300094
+        ],
+        "fit_h_min": [
+          -2.1110501081417574
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -2.1110501081417574,
+          -1.049034989757901,
+          -0.2587454305146394,
+          1.8442706416300094
+        ],
+        "knots_p": [
+          0.0,
+          0.2857142857142857,
+          0.9629629629629629,
+          1.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": -1.2805972018263745,
+        "prototype_plus": 0.0634762734661437,
+        "prototype_separation": 1.344073475292518
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "fit_examples": 276,
+      "k": 1,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 90,
+          "normalized_rmse": 0.09638623585377085,
+          "pass": true,
+          "pearson": 0.9928466737385925,
+          "phase": "POST_CONTROL",
+          "spearman": 0.8660824316656927
+        },
+        {
+          "balanced_accuracy": 0.6333333333333333,
+          "classification_accuracy": 0.6333333333333333,
+          "n": 90,
+          "normalized_rmse": 0.48006921151674486,
+          "pass": false,
+          "pearson": 0.4892482436305888,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.5615612604904593
+        },
+        {
+          "balanced_accuracy": 0.8666666666666667,
+          "classification_accuracy": 0.8666666666666667,
+          "n": 90,
+          "normalized_rmse": 0.31445676248187354,
+          "pass": false,
+          "pearson": 0.7856276032560531,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.7728417347343945
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8333333333333333,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8333333333333334,
+        "coverage_pass": true,
+        "n": 270,
+        "normalized_rmse": 0.3359760952701592,
+        "pass": false,
+        "pearson": 0.7627981721282532,
+        "spearman": 0.7654815386247651
+      },
+      "reader_pass": false,
+      "select_examples": 270,
+      "semantic_dimension": 1,
+      "stored_bytes": 443,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          2.4904187332327816
+        ],
+        "fit_h_min": [
+          -2.1352821070277375
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -2.1352821070277375,
+          0.20177702121764837,
+          0.9641604256379528,
+          2.4904187332327816
+        ],
+        "knots_p": [
+          0.0,
+          0.25,
+          0.8,
+          1.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": -0.00821195122972529,
+        "prototype_plus": 1.048574261359223,
+        "prototype_separation": 1.0567862125889484
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "fit_examples": 270,
+      "k": 1,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 86,
+          "normalized_rmse": 0.10427345434034994,
+          "pass": true,
+          "pearson": 0.9902882597639153,
+          "phase": "POST_CONTROL",
+          "spearman": 0.866083956599068
+        },
+        {
+          "balanced_accuracy": 0.7906976744186046,
+          "classification_accuracy": 0.7906976744186046,
+          "n": 86,
+          "normalized_rmse": 0.38500472257214413,
+          "pass": false,
+          "pearson": 0.6555908104722836,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.6384383087314925
+        },
+        {
+          "balanced_accuracy": 0.6395348837209303,
+          "classification_accuracy": 0.6395348837209303,
+          "n": 86,
+          "normalized_rmse": 0.4627989471946426,
+          "pass": false,
+          "pearson": 0.4501192534989173,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.4744959697322098
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.810077519379845,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.810077519379845,
+        "coverage_pass": true,
+        "n": 258,
+        "normalized_rmse": 0.352743747975492,
+        "pass": false,
+        "pearson": 0.7133454779754094,
+        "spearman": 0.7176079558989852
+      },
+      "reader_pass": false,
+      "select_examples": 258,
+      "semantic_dimension": 1,
+      "stored_bytes": 415,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          2.065910460093118
+        ],
+        "fit_h_min": [
+          -1.3331626401436627
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -1.3331626401436627,
+          -0.6904443588933963,
+          -0.15241664991855383,
+          0.07465152882403943,
+          0.3148066534189311,
+          0.5156936498043415,
+          1.159706017265267,
+          2.065910460093118
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.4,
+          0.45714285714285713,
+          0.594059405940594,
+          0.594059405940594,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": -0.15938833079985415,
+        "prototype_plus": 0.4820045444125671,
+        "prototype_separation": 0.6413928752124213
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "fit_examples": 276,
+      "k": 1,
+      "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 88,
+          "normalized_rmse": 0.03896511255194909,
+          "pass": true,
+          "pearson": 0.9971777447958069,
+          "phase": "POST_CONTROL",
+          "spearman": 0.9393260583090212
+        },
+        {
+          "balanced_accuracy": 0.5340909090909091,
+          "classification_accuracy": 0.5340909090909091,
+          "n": 88,
+          "normalized_rmse": 0.5407433536989578,
+          "pass": false,
+          "pearson": 0.02642785820794853,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.028734334180032236
+        },
+        {
+          "balanced_accuracy": 0.5909090909090908,
+          "classification_accuracy": 0.5909090909090909,
+          "n": 88,
+          "normalized_rmse": 0.46886450407462604,
+          "pass": false,
+          "pearson": 0.3927817863921149,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.3445177300003885
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.7083333333333333,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.7083333333333334,
+        "coverage_pass": true,
+        "n": 264,
+        "normalized_rmse": 0.4138258803518404,
+        "pass": false,
+        "pearson": 0.5713929691496721,
+        "spearman": 0.5512413265200768
+      },
+      "reader_pass": false,
+      "select_examples": 264,
+      "semantic_dimension": 1,
+      "stored_bytes": 552,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          2.327096824534057
+        ],
+        "fit_h_min": [
+          -1.4776086189939504
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -1.4776086189939504,
+          -0.9089117204561578,
+          -0.4276488358800317,
+          -0.11273332021523864,
+          0.12493442250527863,
+          0.3875960117280758,
+          1.1113867436727496,
+          2.327096824534057
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.0,
+          0.4642857142857143,
+          0.6896551724137931,
+          0.8333333333333334,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": -0.5859071479528113,
+        "prototype_plus": 0.4469792158751905,
+        "prototype_separation": 1.032886363828002
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 82,
+          "normalized_rmse": 0.05240306773116295,
+          "pass": true,
+          "pearson": 0.9945338158592533,
+          "phase": "POST_CONTROL",
+          "spearman": 0.9679215639076976
+        },
+        {
+          "balanced_accuracy": 0.6219512195121951,
+          "classification_accuracy": 0.6219512195121951,
+          "n": 82,
+          "normalized_rmse": 0.49961405873889614,
+          "pass": false,
+          "pearson": 0.3426717594826168,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.37068947867972274
+        },
+        {
+          "balanced_accuracy": 0.6463414634146342,
+          "classification_accuracy": 0.6463414634146342,
+          "n": 82,
+          "normalized_rmse": 0.4911870599424947,
+          "pass": false,
+          "pearson": 0.46712460681326406,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.5148012179771326
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.7560975609756098,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.7560975609756098,
+        "coverage_pass": true,
+        "n": 246,
+        "normalized_rmse": 0.4056373655751082,
+        "pass": false,
+        "pearson": 0.6192036010619079,
+        "spearman": 0.6472690583713568
+      },
+      "reader_pass": false,
+      "select_examples": 246,
+      "semantic_dimension": 1,
+      "stored_bytes": 553,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.6777405712770235
+        ],
+        "fit_h_min": [
+          -2.1894038918204215
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -2.1894038918204215,
+          -1.0206950357716265,
+          -0.6553301484406987,
+          -0.36721796762191594,
+          -0.038227970695217973,
+          0.4821821314406853,
+          0.9476662606634441,
+          1.6777405712770235
+        ],
+        "knots_p": [
+          1.0,
+          1.0,
+          1.0,
+          0.7058823529411765,
+          0.2857142857142857,
+          0.07142857142857142,
+          0.0,
+          0.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": 0.5507402150754667,
+        "prototype_plus": -0.7132190629635773,
+        "prototype_separation": 1.263959278039044
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "fit_examples": 276,
+      "k": 1,
+      "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 86,
+          "normalized_rmse": 0.0450709452265319,
+          "pass": true,
+          "pearson": 0.9961789394021062,
+          "phase": "POST_CONTROL",
+          "spearman": 0.9397951059387425
+        },
+        {
+          "balanced_accuracy": 0.8604651162790697,
+          "classification_accuracy": 0.8604651162790697,
+          "n": 86,
+          "normalized_rmse": 0.3072316070370567,
+          "pass": false,
+          "pearson": 0.7920693512330405,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.7782846442545822
+        },
+        {
+          "balanced_accuracy": 0.8372093023255813,
+          "classification_accuracy": 0.8372093023255814,
+          "n": 86,
+          "normalized_rmse": 0.3508557937865296,
+          "pass": false,
+          "pearson": 0.7127238056659645,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.6834691211900984
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8992248062015504,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8992248062015504,
+        "coverage_pass": true,
+        "n": 258,
+        "normalized_rmse": 0.2705072016907999,
+        "pass": false,
+        "pearson": 0.8412711503800706,
+        "spearman": 0.8172395915887858
+      },
+      "reader_pass": false,
+      "select_examples": 258,
+      "semantic_dimension": 1,
+      "stored_bytes": 559,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.8442706416300094
+        ],
+        "fit_h_min": [
+          -2.1110501081417574
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -2.1110501081417574,
+          -1.6236568945011527,
+          -1.1947110696279373,
+          -0.8653325723922618,
+          -0.6084196124503767,
+          -0.08272097609726801,
+          0.5840799684460574,
+          1.8442706416300094
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.25,
+          0.38095238095238093,
+          0.5,
+          0.9629629629629629,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": -1.2805972018263745,
+        "prototype_plus": 0.0634762734661437,
+        "prototype_separation": 1.344073475292518
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "fit_examples": 276,
+      "k": 1,
+      "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 90,
+          "normalized_rmse": 0.06562755620442162,
+          "pass": true,
+          "pearson": 0.9927641926211425,
+          "phase": "POST_CONTROL",
+          "spearman": 0.9294223771067871
+        },
+        {
+          "balanced_accuracy": 0.7,
+          "classification_accuracy": 0.7,
+          "n": 90,
+          "normalized_rmse": 0.42698854619862336,
+          "pass": false,
+          "pearson": 0.5811992108722287,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.5615843742876946
+        },
+        {
+          "balanced_accuracy": 0.8444444444444444,
+          "classification_accuracy": 0.8444444444444444,
+          "n": 90,
+          "normalized_rmse": 0.3224822548938575,
+          "pass": false,
+          "pearson": 0.7757899122408071,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.7737530561725171
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8481481481481481,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8481481481481481,
+        "coverage_pass": true,
+        "n": 270,
+        "normalized_rmse": 0.3112453477240558,
+        "pass": false,
+        "pearson": 0.7856816785183347,
+        "spearman": 0.7687332870176276
+      },
+      "reader_pass": false,
+      "select_examples": 270,
+      "semantic_dimension": 1,
+      "stored_bytes": 543,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          2.4904187332327816
+        ],
+        "fit_h_min": [
+          -2.1352821070277375
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -2.1352821070277375,
+          -1.354479301667076,
+          0.06847689051337157,
+          0.4659200687433483,
+          0.7504943898672974,
+          1.0243491800328988,
+          1.392444781134178,
+          2.4904187332327816
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.13793103448275862,
+          0.46153846153846156,
+          0.574468085106383,
+          0.8214285714285714,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": -0.00821195122972529,
+        "prototype_plus": 1.048574261359223,
+        "prototype_separation": 1.0567862125889484
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "conditional_routing",
+      "fit_examples": 270,
+      "k": 1,
+      "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 86,
+          "normalized_rmse": 0.07986907612161967,
+          "pass": true,
+          "pearson": 0.9888925835122517,
+          "phase": "POST_CONTROL",
+          "spearman": 0.9201493525217356
+        },
+        {
+          "balanced_accuracy": 0.7906976744186046,
+          "classification_accuracy": 0.7906976744186046,
+          "n": 86,
+          "normalized_rmse": 0.38121728096519786,
+          "pass": false,
+          "pearson": 0.6572359074886667,
+          "phase": "POST_PAYLOAD_A",
+          "spearman": 0.6389358108244884
+        },
+        {
+          "balanced_accuracy": 0.6511627906976745,
+          "classification_accuracy": 0.6511627906976745,
+          "n": 86,
+          "normalized_rmse": 0.45482324797904516,
+          "pass": false,
+          "pearson": 0.4846361416225091,
+          "phase": "POST_PAYLOAD_B",
+          "spearman": 0.47454074195062723
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.813953488372093,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.813953488372093,
+        "coverage_pass": true,
+        "n": 258,
+        "normalized_rmse": 0.34572140591774553,
+        "pass": false,
+        "pearson": 0.7232772377487529,
+        "spearman": 0.7203412790900448
+      },
+      "reader_pass": false,
+      "select_examples": 258,
+      "semantic_dimension": 1,
+      "stored_bytes": 567,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 378 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 372 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 378 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 372 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "LOGISTIC_MONOTONE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 384 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "delayed_recall",
+      "k": 1,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          4.61139418912407
+        ],
+        "fit_h_min": [
+          -4.055333576057123
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -4.055333576057123,
+          -1.8233764726804935,
+          1.4599177210602183,
+          4.61139418912407
+        ],
+        "knots_p": [
+          0.0,
+          0.3,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": -2.8995702898572766,
+        "prototype_plus": 3.2131063638097066,
+        "prototype_separation": 6.112676653666983
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.6111111111111112,
+          "classification_accuracy": 0.6111111111111112,
+          "n": 126,
+          "normalized_rmse": 0.5102927169729516,
+          "pass": false,
+          "pearson": 0.24333780809700645,
+          "phase": "POST_WRITE",
+          "spearman": 0.24722541853155314
+        },
+        {
+          "balanced_accuracy": 0.9761904761904762,
+          "classification_accuracy": 0.9761904761904762,
+          "n": 126,
+          "normalized_rmse": 0.1381458774796395,
+          "pass": true,
+          "pearson": 0.9712107208447479,
+          "phase": "MID_DELAY",
+          "spearman": 0.9107231178116613
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.0635351134647331,
+          "pass": true,
+          "pearson": 0.9954646131891363,
+          "phase": "PRE_READ",
+          "spearman": 0.9227530071086988
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8624338624338623,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8624338624338624,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.30741917696810056,
+        "pass": false,
+        "pearson": 0.7999217092364561,
+        "spearman": 0.8017038248697006
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 407,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          5.1791454298533
+        ],
+        "fit_h_min": [
+          -3.9657279817701516
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -3.9657279817701516,
+          -1.508572004888373,
+          2.7360678295305862,
+          5.1791454298533
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.9166666666666666,
+          1.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": -2.962840107502887,
+        "prototype_plus": 4.260992734589799,
+        "prototype_separation": 7.223832842092685
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "fit_examples": 378,
+      "k": 1,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.6031746031746031,
+          "classification_accuracy": 0.6031746031746031,
+          "n": 126,
+          "normalized_rmse": 0.48456235768198275,
+          "pass": false,
+          "pearson": 0.34877781624957255,
+          "phase": "POST_WRITE",
+          "spearman": 0.3537143990376045
+        },
+        {
+          "balanced_accuracy": 0.9920634920634921,
+          "classification_accuracy": 0.9920634920634921,
+          "n": 126,
+          "normalized_rmse": 0.09915066031783845,
+          "pass": true,
+          "pearson": 0.9826416960876367,
+          "phase": "MID_DELAY",
+          "spearman": 0.9258367618517539
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.012421309302206801,
+          "pass": true,
+          "pearson": 0.9998906093752888,
+          "phase": "PRE_READ",
+          "spearman": 0.9258367618517539
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8650793650793651,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8650793650793651,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.28564886419551677,
+        "pass": false,
+        "pearson": 0.8260889779141795,
+        "spearman": 0.8225629923606006
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 419,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          4.305140250821447
+        ],
+        "fit_h_min": [
+          -3.834890039822966
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -3.834890039822966,
+          -1.4407969294705059,
+          1.6087212059585523,
+          4.305140250821447
+        ],
+        "knots_p": [
+          1.0,
+          0.8888888888888888,
+          0.14285714285714285,
+          0.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": 3.2735933468349363,
+        "prototype_plus": -2.839621459228553,
+        "prototype_separation": 6.113214806063489
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.5317460317460317,
+          "classification_accuracy": 0.5317460317460317,
+          "n": 126,
+          "normalized_rmse": 0.5112202685440269,
+          "pass": false,
+          "pearson": 0.1821708932880905,
+          "phase": "POST_WRITE",
+          "spearman": 0.19965689140015103
+        },
+        {
+          "balanced_accuracy": 0.9841269841269842,
+          "classification_accuracy": 0.9841269841269841,
+          "n": 126,
+          "normalized_rmse": 0.1196730040591316,
+          "pass": true,
+          "pearson": 0.9750807195873322,
+          "phase": "MID_DELAY",
+          "spearman": 0.8647434542281951
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.029566637772926473,
+          "pass": true,
+          "pearson": 0.9989651088006194,
+          "phase": "PRE_READ",
+          "spearman": 0.8660981454085042
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8386243386243386,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8386243386243386,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.30361267921479573,
+        "pass": false,
+        "pearson": 0.7945888374067777,
+        "spearman": 0.7840359448177153
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 440,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          4.653062482853301
+        ],
+        "fit_h_min": [
+          -4.600961412519782
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -4.600961412519782,
+          -0.5978698002933713,
+          1.2953694333552361,
+          4.653062482853301
+        ],
+        "knots_p": [
+          1.0,
+          0.5037593984962406,
+          0.2727272727272727,
+          0.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": 3.3417030834500725,
+        "prototype_plus": -3.591286639652038,
+        "prototype_separation": 6.932989723102111
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.48412698412698413,
+          "classification_accuracy": 0.48412698412698413,
+          "n": 126,
+          "normalized_rmse": 0.5228640407361741,
+          "pass": false,
+          "pearson": -0.3749858555017292,
+          "phase": "POST_WRITE",
+          "spearman": -0.37465670222301567
+        },
+        {
+          "balanced_accuracy": 0.9285714285714286,
+          "classification_accuracy": 0.9285714285714286,
+          "n": 126,
+          "normalized_rmse": 0.23502152701518336,
+          "pass": false,
+          "pearson": 0.899072338776185,
+          "phase": "MID_DELAY",
+          "spearman": 0.8464142969849026
+        },
+        {
+          "balanced_accuracy": 0.9841269841269842,
+          "classification_accuracy": 0.9841269841269841,
+          "n": 126,
+          "normalized_rmse": 0.13271192166790552,
+          "pass": true,
+          "pearson": 0.9793398502104337,
+          "phase": "PRE_READ",
+          "spearman": 0.8660526797455731
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.7989417989417988,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.798941798941799,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.33972262087782557,
+        "pass": false,
+        "pearson": 0.7493775001878231,
+        "spearman": 0.6941367851684507
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 439,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          5.406548375152342
+        ],
+        "fit_h_min": [
+          -5.114126749538543
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -5.114126749538543,
+          -1.275792543784514,
+          1.9168450517024387,
+          5.406548375152342
+        ],
+        "knots_p": [
+          1.0,
+          0.8666666666666667,
+          0.2,
+          0.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": 3.127467756171912,
+        "prototype_plus": -2.9618259185730995,
+        "prototype_separation": 6.0892936747450115
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "fit_examples": 372,
+      "k": 1,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.578125,
+          "classification_accuracy": 0.578125,
+          "n": 128,
+          "normalized_rmse": 0.4858025547491499,
+          "pass": false,
+          "pearson": 0.2788009181704271,
+          "phase": "POST_WRITE",
+          "spearman": 0.29474517983036747
+        },
+        {
+          "balanced_accuracy": 0.984375,
+          "classification_accuracy": 0.984375,
+          "n": 128,
+          "normalized_rmse": 0.12299109379840471,
+          "pass": true,
+          "pearson": 0.9800026391537602,
+          "phase": "MID_DELAY",
+          "spearman": 0.8660518339922417
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 128,
+          "normalized_rmse": 0.07826322379260715,
+          "pass": true,
+          "pearson": 0.99371597757419,
+          "phase": "PRE_READ",
+          "spearman": 0.8660518339922417
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8541666666666667,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8541666666666666,
+        "coverage_pass": true,
+        "n": 384,
+        "normalized_rmse": 0.2928344603770422,
+        "pass": false,
+        "pearson": 0.8131494021727582,
+        "spearman": 0.7967253997067401
+      },
+      "reader_pass": false,
+      "select_examples": 384,
+      "semantic_dimension": 1,
+      "stored_bytes": 424,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          4.504766812634182
+        ],
+        "fit_h_min": [
+          -4.848382183112485
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_4",
+        "knots_h": [
+          -4.848382183112485,
+          -2.580554985731644,
+          1.2349488161915156,
+          4.504766812634182
+        ],
+        "knots_p": [
+          0.0,
+          0.09090909090909091,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 8,
+        "prototype_minus": -3.9625893036801063,
+        "prototype_plus": 3.0591383958726928,
+        "prototype_separation": 7.021727699552799
+      },
+      "chart_family": "ISOTONIC_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.6428571428571428,
+          "classification_accuracy": 0.6428571428571429,
+          "n": 126,
+          "normalized_rmse": 0.4831715978930433,
+          "pass": false,
+          "pearson": 0.3274520135110623,
+          "phase": "POST_WRITE",
+          "spearman": 0.3192328219873453
+        },
+        {
+          "balanced_accuracy": 0.9841269841269841,
+          "classification_accuracy": 0.9841269841269841,
+          "n": 126,
+          "normalized_rmse": 0.09378663420454661,
+          "pass": true,
+          "pearson": 0.9828615190124063,
+          "phase": "MID_DELAY",
+          "spearman": 0.9137845119712537
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.016768968925459767,
+          "pass": true,
+          "pearson": 0.9996645734483416,
+          "phase": "PRE_READ",
+          "spearman": 0.9258367618517539
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8756613756613756,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8756613756613757,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.28433074876790776,
+        "pass": false,
+        "pearson": 0.823207303058185,
+        "spearman": 0.814035627342522
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 424,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          4.61139418912407
+        ],
+        "fit_h_min": [
+          -4.055333576057123
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -4.055333576057123,
+          -3.535512214752248,
+          -2.4599338772670314,
+          -0.39317540653082433,
+          0.8430801168887566,
+          2.970785312878483,
+          4.079971006462133,
+          4.61139418912407
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.625,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": -2.8995702898572766,
+        "prototype_plus": 3.2131063638097066,
+        "prototype_separation": 6.112676653666983
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.5952380952380952,
+          "classification_accuracy": 0.5952380952380952,
+          "n": 126,
+          "normalized_rmse": 0.5111158189784103,
+          "pass": false,
+          "pearson": 0.2357190549397238,
+          "phase": "POST_WRITE",
+          "spearman": 0.24679641310381661
+        },
+        {
+          "balanced_accuracy": 0.9761904761904762,
+          "classification_accuracy": 0.9761904761904762,
+          "n": 126,
+          "normalized_rmse": 0.12800852569241086,
+          "pass": true,
+          "pearson": 0.9680634370976787,
+          "phase": "MID_DELAY",
+          "spearman": 0.9206997575853967
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.03957424870309511,
+          "pass": true,
+          "pearson": 0.9969481347727123,
+          "phase": "PRE_READ",
+          "spearman": 0.9716045043255119
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8571428571428572,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8571428571428571,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.3050637552055472,
+        "pass": false,
+        "pearson": 0.7996818187940875,
+        "spearman": 0.8061961445366698
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 517,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          5.1791454298533
+        ],
+        "fit_h_min": [
+          -3.9657279817701516
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -3.9657279817701516,
+          -3.359656606065145,
+          -2.7503166715786387,
+          -0.06561238511966197,
+          1.4959878033707645,
+          3.9414261564941957,
+          4.850197227201847,
+          5.1791454298533
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.0,
+          0.41025641025641024,
+          0.5882352941176471,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": -2.962840107502887,
+        "prototype_plus": 4.260992734589799,
+        "prototype_separation": 7.223832842092685
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "fit_examples": 378,
+      "k": 1,
+      "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.6031746031746031,
+          "classification_accuracy": 0.6031746031746031,
+          "n": 126,
+          "normalized_rmse": 0.46997434290415435,
+          "pass": false,
+          "pearson": 0.35526302403822135,
+          "phase": "POST_WRITE",
+          "spearman": 0.353709093944967
+        },
+        {
+          "balanced_accuracy": 0.9920634920634921,
+          "classification_accuracy": 0.9920634920634921,
+          "n": 126,
+          "normalized_rmse": 0.10473347988748646,
+          "pass": true,
+          "pearson": 0.9796954630610926,
+          "phase": "MID_DELAY",
+          "spearman": 0.9238768246345257
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.014297562006917525,
+          "pass": true,
+          "pearson": 0.9996003821439301,
+          "phase": "PRE_READ",
+          "spearman": 0.9719292982571217
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8650793650793651,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8650793650793651,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.27811832318689816,
+        "pass": false,
+        "pearson": 0.8326039320460223,
+        "spearman": 0.8251803867153968
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 530,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          4.305140250821447
+        ],
+        "fit_h_min": [
+          -3.834890039822966
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -3.834890039822966,
+          -3.3611466052339742,
+          -2.5565131029756363,
+          -0.7368448341896633,
+          0.5563171979195386,
+          2.892218315714807,
+          3.9544089407983365,
+          4.305140250821447
+        ],
+        "knots_p": [
+          1.0,
+          1.0,
+          1.0,
+          0.55,
+          0.43902439024390244,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": 3.2735933468349363,
+        "prototype_plus": -2.839621459228553,
+        "prototype_separation": 6.113214806063489
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.5476190476190476,
+          "classification_accuracy": 0.5476190476190477,
+          "n": 126,
+          "normalized_rmse": 0.4889660017403489,
+          "pass": false,
+          "pearson": 0.22124066219774208,
+          "phase": "POST_WRITE",
+          "spearman": 0.19965689140015103
+        },
+        {
+          "balanced_accuracy": 0.9841269841269842,
+          "classification_accuracy": 0.9841269841269841,
+          "n": 126,
+          "normalized_rmse": 0.13464963870229224,
+          "pass": true,
+          "pearson": 0.9649029425838079,
+          "phase": "MID_DELAY",
+          "spearman": 0.9114717906617381
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.035611246846209865,
+          "pass": true,
+          "pearson": 0.9975442498119503,
+          "phase": "PRE_READ",
+          "spearman": 0.9754197247662312
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.843915343915344,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.843915343915344,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.2935338918322394,
+        "pass": false,
+        "pearson": 0.810399713365277,
+        "spearman": 0.8017936599476566
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 520,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          4.653062482853301
+        ],
+        "fit_h_min": [
+          -4.600961412519782
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -4.600961412519782,
+          -3.905952297152151,
+          -3.013003292646789,
+          -0.13703115264688434,
+          0.2870008616603213,
+          2.849949176259649,
+          3.9770874962085685,
+          4.653062482853301
+        ],
+        "knots_p": [
+          1.0,
+          1.0,
+          1.0,
+          0.5037593984962406,
+          0.5037593984962406,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": 3.3417030834500725,
+        "prototype_plus": -3.591286639652038,
+        "prototype_separation": 6.932989723102111
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.3968253968253968,
+          "classification_accuracy": 0.3968253968253968,
+          "n": 126,
+          "normalized_rmse": 0.5145154189959482,
+          "pass": false,
+          "pearson": -0.4000954237445023,
+          "phase": "POST_WRITE",
+          "spearman": -0.4198156168990632
+        },
+        {
+          "balanced_accuracy": 0.9285714285714286,
+          "classification_accuracy": 0.9285714285714286,
+          "n": 126,
+          "normalized_rmse": 0.22176728885422722,
+          "pass": false,
+          "pearson": 0.9011849084078557,
+          "phase": "MID_DELAY",
+          "spearman": 0.8964711194807156
+        },
+        {
+          "balanced_accuracy": 0.9920634920634921,
+          "classification_accuracy": 0.9920634920634921,
+          "n": 126,
+          "normalized_rmse": 0.08553062401419509,
+          "pass": true,
+          "pearson": 0.9856713106315748,
+          "phase": "PRE_READ",
+          "spearman": 0.9754197247662312
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.7724867724867726,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.7724867724867724,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.3272218077668357,
+        "pass": false,
+        "pearson": 0.7576751339860373,
+        "spearman": 0.7069632026330933
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 532,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          5.406548375152342
+        ],
+        "fit_h_min": [
+          -5.114126749538543
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -5.114126749538543,
+          -3.7870473635870043,
+          -2.721769096786691,
+          -0.5902854742582588,
+          0.8291057850968984,
+          2.569145875815622,
+          4.729322543469413,
+          5.406548375152342
+        ],
+        "knots_p": [
+          1.0,
+          1.0,
+          1.0,
+          0.5625,
+          0.37142857142857144,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": 3.127467756171912,
+        "prototype_plus": -2.9618259185730995,
+        "prototype_separation": 6.0892936747450115
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "delayed_recall",
+      "fit_examples": 372,
+      "k": 1,
+      "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.5859375,
+          "classification_accuracy": 0.5859375,
+          "n": 128,
+          "normalized_rmse": 0.4908329341465391,
+          "pass": false,
+          "pearson": 0.31253914778666925,
+          "phase": "POST_WRITE",
+          "spearman": 0.29474517983036747
+        },
+        {
+          "balanced_accuracy": 0.9765625,
+          "classification_accuracy": 0.9765625,
+          "n": 128,
+          "normalized_rmse": 0.1296097042714136,
+          "pass": true,
+          "pearson": 0.9695903616130692,
+          "phase": "MID_DELAY",
+          "spearman": 0.9242901236985666
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 128,
+          "normalized_rmse": 0.03202343021934293,
+          "pass": true,
+          "pearson": 0.9980079729244158,
+          "phase": "PRE_READ",
+          "spearman": 0.9519508146274582
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8541666666666667,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8541666666666666,
+        "coverage_pass": true,
+        "n": 384,
+        "normalized_rmse": 0.29367847768562433,
+        "pass": false,
+        "pearson": 0.8161920368133962,
+        "spearman": 0.8137070256356402
+      },
+      "reader_pass": false,
+      "select_examples": 384,
+      "semantic_dimension": 1,
+      "stored_bytes": 521,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          4.504766812634182
+        ],
+        "fit_h_min": [
+          -4.848382183112485
+        ],
+        "fit_z_max": 1.0,
+        "fit_z_min": -1.0,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "ISOTONIC_8",
+        "knots_h": [
+          -4.848382183112485,
+          -4.535618944717513,
+          -3.394050510535955,
+          -0.8818136415842835,
+          0.373436277703475,
+          2.771971153405142,
+          3.692819784419816,
+          4.504766812634182
+        ],
+        "knots_p": [
+          0.0,
+          0.0,
+          0.0,
+          0.3333333333333333,
+          0.6842105263157895,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parameter_count": 16,
+        "prototype_minus": -3.9625893036801063,
+        "prototype_plus": 3.0591383958726928,
+        "prototype_separation": 7.021727699552799
+      },
+      "chart_family": "ISOTONIC_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "delayed_recall",
+      "fit_examples": 384,
+      "k": 1,
+      "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "balanced_accuracy": 0.6111111111111112,
+          "classification_accuracy": 0.6111111111111112,
+          "n": 126,
+          "normalized_rmse": 0.48960971738230114,
+          "pass": false,
+          "pearson": 0.31413034762816044,
+          "phase": "POST_WRITE",
+          "spearman": 0.319234737162117
+        },
+        {
+          "balanced_accuracy": 0.9920634920634921,
+          "classification_accuracy": 0.9920634920634921,
+          "n": 126,
+          "normalized_rmse": 0.1066619904826472,
+          "pass": true,
+          "pearson": 0.9780364061514782,
+          "phase": "MID_DELAY",
+          "spearman": 0.9055268112140527
+        },
+        {
+          "balanced_accuracy": 1.0,
+          "classification_accuracy": 1.0,
+          "n": 126,
+          "normalized_rmse": 0.02136455385312868,
+          "pass": true,
+          "pearson": 0.9991088417438727,
+          "phase": "PRE_READ",
+          "spearman": 0.9716045043255119
+        }
+      ],
+      "reader_metrics": {
+        "balanced_accuracy": 0.8677248677248677,
+        "chart_coverage": 1.0,
+        "classification_accuracy": 0.8677248677248677,
+        "coverage_pass": true,
+        "n": 378,
+        "normalized_rmse": 0.28956916256756365,
+        "pass": false,
+        "pearson": 0.8191638994135461,
+        "spearman": 0.8174024534308627
+      },
+      "reader_pass": false,
+      "select_examples": 378,
+      "semantic_dimension": 1,
+      "stored_bytes": 529,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 264 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 264 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 258 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 258 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 264 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 258 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "MemoryError:Unable to allocate 9.26 GiB for an array with shape (35245, 35245) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "MemoryError:Unable to allocate 9.26 GiB for an array with shape (35245, 35245) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 258 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 258 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 264 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 258 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "MemoryError:Unable to allocate 71.6 TiB for an array with shape (3136805, 3136805) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "MemoryError:Unable to allocate 71.6 TiB for an array with shape (3136805, 3136805) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "MemoryError:Unable to allocate 62.4 TiB for an array with shape (2929290, 2929290) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "MemoryError:Unable to allocate 62.4 TiB for an array with shape (2929290, 2929290) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "MemoryError:Unable to allocate 71.6 TiB for an array with shape (3136805, 3136805) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "MemoryError:Unable to allocate 62.4 TiB for an array with shape (2929290, 2929290) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "iterative_state",
+      "k": 1,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.5179740814616667
+        ],
+        "fit_h_min": [
+          -1.5212212456022272
+        ],
+        "fit_z_max": 0.5371850873487901,
+        "fit_z_min": -0.7312585765624999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.5212212456022272,
+          -0.5003251832929504,
+          0.11417616465639542,
+          1.5179740814616667
+        ],
+        "knots_z": [
+          -0.7312585765624999,
+          -0.19006111979166665,
+          0.04818124584517045,
+          0.5371850873487901
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.12110806108693305,
+          "pass": false,
+          "pearson": 0.9312591648043284,
+          "phase": "EARLY",
+          "spearman": 0.9373493770653986
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.11599607949233454,
+          "pass": false,
+          "pearson": 0.9864266221223689,
+          "phase": "MIDDLE",
+          "spearman": 0.9907814532683272
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.11560093024126944,
+          "pass": false,
+          "pearson": 0.9901249753478684,
+          "phase": "LATE",
+          "spearman": 0.9958379715603797
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8708333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.11759510759448448,
+        "pass": false,
+        "pearson": 0.9687542772439109,
+        "spearman": 0.9769631187615424
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 397,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.6294800910177176
+        ],
+        "fit_h_min": [
+          -1.347603670018262
+        ],
+        "fit_z_max": 0.6514374999999999,
+        "fit_z_min": -0.730723705965909,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.347603670018262,
+          -0.2642823127706214,
+          0.37567182420123774,
+          1.6294800910177176
+        ],
+        "knots_z": [
+          -0.730723705965909,
+          -0.18180968749999996,
+          0.037903426968750015,
+          0.6514374999999999
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.11891102049122068,
+          "pass": false,
+          "pearson": 0.9234050440670204,
+          "phase": "EARLY",
+          "spearman": 0.9231138193054613
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09359820498077502,
+          "pass": true,
+          "pearson": 0.9831771277267933,
+          "phase": "MIDDLE",
+          "spearman": 0.9836687283568126
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09046255222719851,
+          "pass": true,
+          "pearson": 0.9930824142899378,
+          "phase": "LATE",
+          "spearman": 0.9933407266205717
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9375,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.1017905171178293,
+        "pass": false,
+        "pearson": 0.9659768398026527,
+        "spearman": 0.9691830206993917
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 394,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.386205065558431
+        ],
+        "fit_h_min": [
+          -1.5005184353357657
+        ],
+        "fit_z_max": 0.5774999999999999,
+        "fit_z_min": -0.8324272578124999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.5005184353357657,
+          -0.4260496274094477,
+          0.22016540367300808,
+          1.386205065558431
+        ],
+        "knots_z": [
+          -0.8324272578124999,
+          -0.20291795078125,
+          0.10728316518554684,
+          0.5774999999999999
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.11528713947366843,
+          "pass": false,
+          "pearson": 0.9244824051200863,
+          "phase": "EARLY",
+          "spearman": 0.9287507180157719
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09005269544540073,
+          "pass": true,
+          "pearson": 0.9826247473844291,
+          "phase": "MIDDLE",
+          "spearman": 0.9856992587358423
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09040308419406973,
+          "pass": true,
+          "pearson": 0.9897700440682498,
+          "phase": "LATE",
+          "spearman": 0.9912421029387611
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9333333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.09928633695328415,
+        "pass": true,
+        "pearson": 0.9675067411411945,
+        "spearman": 0.9727256314016568
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 392,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.496297383950275
+        ],
+        "fit_h_min": [
+          -1.5048391045578526
+        ],
+        "fit_z_max": 0.57865042890625,
+        "fit_z_min": -0.70596640625,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.5048391045578526,
+          -0.46028043472134017,
+          0.2079467210061596,
+          1.496297383950275
+        ],
+        "knots_z": [
+          -0.70596640625,
+          -0.21046010608552632,
+          0.08413366609375002,
+          0.57865042890625
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.10814277608233468,
+          "pass": false,
+          "pearson": 0.941855832676084,
+          "phase": "EARLY",
+          "spearman": 0.940788840685249
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09617815239894033,
+          "pass": true,
+          "pearson": 0.9887743684429451,
+          "phase": "MIDDLE",
+          "spearman": 0.9886335511910878
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.10040254525792798,
+          "pass": false,
+          "pearson": 0.993143495191616,
+          "phase": "LATE",
+          "spearman": 0.9931648643008668
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8875,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.10169524425448494,
+        "pass": false,
+        "pearson": 0.9712973342698833,
+        "spearman": 0.9731549860844142
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 381,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.6107503569437442
+        ],
+        "fit_h_min": [
+          -1.3829743768435523
+        ],
+        "fit_z_max": 0.5509583333333333,
+        "fit_z_min": -0.7474515052083333,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.3829743768435523,
+          -0.34190303275355616,
+          0.27012418353167367,
+          1.6107503569437442
+        ],
+        "knots_z": [
+          -0.7474515052083333,
+          -0.18923444852941176,
+          0.06851903135190217,
+          0.5509583333333333
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.12272253655040312,
+          "pass": false,
+          "pearson": 0.9189184976552711,
+          "phase": "EARLY",
+          "spearman": 0.9248335511153866
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.10835535867662488,
+          "pass": false,
+          "pearson": 0.9826071946807394,
+          "phase": "MIDDLE",
+          "spearman": 0.9849363426974787
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.10834216233321686,
+          "pass": false,
+          "pearson": 0.9906735783578634,
+          "phase": "LATE",
+          "spearman": 0.9954276261477353
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8708333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.11334273814459424,
+        "pass": false,
+        "pearson": 0.9627300624699594,
+        "spearman": 0.9717497991571112
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 398,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.6459630167660462
+        ],
+        "fit_h_min": [
+          -1.6593453466700958
+        ],
+        "fit_z_max": 0.5774999999999999,
+        "fit_z_min": -0.8324272578124999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.6593453466700958,
+          -0.16702857670533205,
+          0.5375307671454048,
+          1.6459630167660462
+        ],
+        "knots_z": [
+          0.5774999999999999,
+          0.11348507515624998,
+          -0.1757942753761574,
+          -0.8324272578124999
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.11751279579047434,
+          "pass": false,
+          "pearson": 0.9162503512748126,
+          "phase": "EARLY",
+          "spearman": 0.9248335511153866
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09497201042956271,
+          "pass": true,
+          "pearson": 0.9750790683701283,
+          "phase": "MIDDLE",
+          "spearman": 0.9827062804314922
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09732232610232353,
+          "pass": true,
+          "pearson": 0.9815938490348614,
+          "phase": "LATE",
+          "spearman": 0.9950641773536788
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9333333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.10376347317737217,
+        "pass": false,
+        "pearson": 0.9573741565789656,
+        "spearman": 0.9721900181733296
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 397,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.5179740814616667
+        ],
+        "fit_h_min": [
+          -1.5212212456022272
+        ],
+        "fit_z_max": 0.5371850873487901,
+        "fit_z_min": -0.7312585765624999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.5212212456022272,
+          -1.028498146320551,
+          -0.6004475279039522,
+          -0.32870809273349,
+          -0.09524568104605076,
+          0.20465236530041797,
+          0.6006778495372979,
+          1.5179740814616667
+        ],
+        "knots_z": [
+          -0.7312585765624999,
+          -0.48557601822916663,
+          -0.32801760937499996,
+          -0.10579138524305554,
+          0.0067235765625,
+          0.1866953421875,
+          0.4214771822916667,
+          0.5371850873487901
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.09742444697912504,
+          "pass": false,
+          "pearson": 0.9445019150320884,
+          "phase": "EARLY",
+          "spearman": 0.9373493770653986
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07159154295030112,
+          "pass": true,
+          "pearson": 0.9853387283606673,
+          "phase": "MIDDLE",
+          "spearman": 0.9907814532683272
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07618083699571247,
+          "pass": true,
+          "pearson": 0.9874180758246417,
+          "phase": "LATE",
+          "spearman": 0.9958379715603797
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8708333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08250331673446118,
+        "pass": true,
+        "pearson": 0.9715860184563402,
+        "spearman": 0.9769631187615424
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 548,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.6294800910177176
+        ],
+        "fit_h_min": [
+          -1.347603670018262
+        ],
+        "fit_z_max": 0.6514374999999999,
+        "fit_z_min": -0.730723705965909,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.347603670018262,
+          -0.8716619543062758,
+          -0.38901924337920635,
+          -0.08677801491399767,
+          0.1547391901863624,
+          0.4787207027960443,
+          0.8881481042332922,
+          1.6294800910177176
+        ],
+        "knots_z": [
+          -0.730723705965909,
+          -0.46858128384375,
+          -0.24944725130208334,
+          -0.10298216796874998,
+          0.023581249999999998,
+          0.22330092216796876,
+          0.41597926562500004,
+          0.6514374999999999
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.10421819314139455,
+          "pass": false,
+          "pearson": 0.934360258797816,
+          "phase": "EARLY",
+          "spearman": 0.9231138193054613
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07501097426098687,
+          "pass": true,
+          "pearson": 0.9842719819078188,
+          "phase": "MIDDLE",
+          "spearman": 0.9836687283568126
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07917981537942655,
+          "pass": true,
+          "pearson": 0.9927577028045376,
+          "phase": "LATE",
+          "spearman": 0.9933407266205717
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9375,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08709673014290784,
+        "pass": true,
+        "pearson": 0.9691070714087916,
+        "spearman": 0.9691830206993917
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 553,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.386205065558431
+        ],
+        "fit_h_min": [
+          -1.5005184353357657
+        ],
+        "fit_z_max": 0.5774999999999999,
+        "fit_z_min": -0.8324272578124999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.5005184353357657,
+          -0.9024738080671495,
+          -0.5023676036834048,
+          -0.2677139596512191,
+          -0.017781266787794753,
+          0.28763136610006557,
+          0.6700732799182724,
+          1.386205065558431
+        ],
+        "knots_z": [
+          -0.8324272578124999,
+          -0.5105138888888887,
+          -0.259,
+          -0.11353316406249998,
+          0.010875986008522721,
+          0.10728316518554684,
+          0.385095734375,
+          0.5774999999999999
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.11035111125553353,
+          "pass": false,
+          "pearson": 0.927120487396688,
+          "phase": "EARLY",
+          "spearman": 0.9287507180157719
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.08035579489605607,
+          "pass": true,
+          "pearson": 0.9815389766966018,
+          "phase": "MIDDLE",
+          "spearman": 0.9856992587358423
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07506671246921764,
+          "pass": true,
+          "pearson": 0.9906156901824322,
+          "phase": "LATE",
+          "spearman": 0.9912421029387611
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9333333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08994337635357846,
+        "pass": true,
+        "pearson": 0.96774323138276,
+        "spearman": 0.9727256314016568
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 540,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.496297383950275
+        ],
+        "fit_h_min": [
+          -1.5048391045578526
+        ],
+        "fit_z_max": 0.57865042890625,
+        "fit_z_min": -0.70596640625,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.5048391045578526,
+          -1.017616937592287,
+          -0.565087706266407,
+          -0.2556045307087475,
+          -0.002751707451158704,
+          0.31330979525458225,
+          0.750625049557068,
+          1.496297383950275
+        ],
+        "knots_z": [
+          -0.70596640625,
+          -0.4687404505095108,
+          -0.21046010608552632,
+          -0.12727904411764704,
+          -0.005168167613636368,
+          0.14733687499999998,
+          0.4185032596354166,
+          0.57865042890625
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.09739161795624417,
+          "pass": false,
+          "pearson": 0.945234396192488,
+          "phase": "EARLY",
+          "spearman": 0.940788840685249
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.08451998016234903,
+          "pass": true,
+          "pearson": 0.9855247753551499,
+          "phase": "MIDDLE",
+          "spearman": 0.9886335511910878
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.09336378646829456,
+          "pass": true,
+          "pearson": 0.990782080803268,
+          "phase": "LATE",
+          "spearman": 0.9931648643008668
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8875,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.0919158145958866,
+        "pass": true,
+        "pearson": 0.9705782326947594,
+        "spearman": 0.9731549860844142
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 542,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.6107503569437442
+        ],
+        "fit_h_min": [
+          -1.3829743768435523
+        ],
+        "fit_z_max": 0.5509583333333333,
+        "fit_z_min": -0.7474515052083333,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.3829743768435523,
+          -0.9414264804992067,
+          -0.46019057335882046,
+          -0.18203642784342597,
+          0.06197535084285224,
+          0.3593204435883071,
+          0.7280192412773357,
+          1.6107503569437442
+        ],
+        "knots_z": [
+          -0.7474515052083333,
+          -0.4447164080078125,
+          -0.270375,
+          -0.12848206191406247,
+          0.03730080408653847,
+          0.185187909375,
+          0.4212836947265625,
+          0.5509583333333333
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.10571420678295776,
+          "pass": false,
+          "pearson": 0.9324577451340885,
+          "phase": "EARLY",
+          "spearman": 0.9248335511153866
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.08071020495312778,
+          "pass": true,
+          "pearson": 0.981651464763831,
+          "phase": "MIDDLE",
+          "spearman": 0.9849363426974787
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.0815604790316897,
+          "pass": true,
+          "pearson": 0.9896467790325876,
+          "phase": "LATE",
+          "spearman": 0.9954276261477353
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8708333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.09007726764506965,
+        "pass": true,
+        "pearson": 0.9664320360170631,
+        "spearman": 0.9717497991571112
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 542,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.6459630167660462
+        ],
+        "fit_h_min": [
+          -1.6593453466700958
+        ],
+        "fit_z_max": 0.5774999999999999,
+        "fit_z_min": -0.8324272578124999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.6593453466700958,
+          -0.7286363748665164,
+          -0.24795205554773792,
+          0.05796699356664653,
+          0.3263183351632371,
+          0.6366752351341619,
+          1.0936673440092828,
+          1.6459630167660462
+        ],
+        "knots_z": [
+          0.5774999999999999,
+          0.4480687499999999,
+          0.13089426533203122,
+          0.04920416518554687,
+          -0.12657619642269735,
+          -0.26364479166666666,
+          -0.45929517421874994,
+          -0.8324272578124999
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.10188286855301489,
+          "pass": false,
+          "pearson": 0.938857606193448,
+          "phase": "EARLY",
+          "spearman": 0.9248335511153866
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07773957573218471,
+          "pass": true,
+          "pearson": 0.9789336141836611,
+          "phase": "MIDDLE",
+          "spearman": 0.9827062804314922
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07015966178414111,
+          "pass": true,
+          "pearson": 0.9896663780690276,
+          "phase": "LATE",
+          "spearman": 0.9950641773536788
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9333333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08435231409842107,
+        "pass": true,
+        "pearson": 0.9679789392798569,
+        "spearman": 0.9721900181733296
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 558,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": 1,
+        "fit_h_max": [
+          1.5179740814616667
+        ],
+        "fit_h_min": [
+          -1.5212212456022272
+        ],
+        "fit_z_max": 0.5371850873487901,
+        "fit_z_min": -0.7312585765624999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.5212212456022272,
+          -0.9111609086147493,
+          -0.3743769649293674,
+          -0.03968466822417069,
+          0.4501921280872894,
+          1.5179740814616667
+        ],
+        "knots_z": [
+          -0.7312585765624999,
+          -0.4428010416666666,
+          -0.10579138524305554,
+          0.04818124584517045,
+          0.39112400195312497,
+          0.5371850873487901
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.09902793098931355,
+          "pass": false,
+          "pearson": 0.941843192541935,
+          "phase": "EARLY",
+          "spearman": 0.9373493770653986
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07161760445503723,
+          "pass": true,
+          "pearson": 0.9811440953418827,
+          "phase": "MIDDLE",
+          "spearman": 0.9907814532683272
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07755676724700389,
+          "pass": true,
+          "pearson": 0.9859501199769263,
+          "phase": "LATE",
+          "spearman": 0.9958379715603797
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8708333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08356766625457551,
+        "pass": true,
+        "pearson": 0.968166009684322,
+        "spearman": 0.9769631187615424
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 514,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": 1,
+        "fit_h_max": [
+          1.6294800910177176
+        ],
+        "fit_h_min": [
+          -1.347603670018262
+        ],
+        "fit_z_max": 0.6514374999999999,
+        "fit_z_min": -0.730723705965909,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.347603670018262,
+          -0.6417408988138279,
+          -0.12213895081228761,
+          0.24467353688753402,
+          0.7318769256615263,
+          1.6294800910177176
+        ],
+        "knots_z": [
+          -0.730723705965909,
+          -0.46858128384375,
+          -0.10298216796874998,
+          0.037903426968750015,
+          0.37770060234374997,
+          0.6514374999999999
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.11049470905720297,
+          "pass": false,
+          "pearson": 0.9336769164825119,
+          "phase": "EARLY",
+          "spearman": 0.9231138193054613
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06433219195743256,
+          "pass": true,
+          "pearson": 0.9814624768128637,
+          "phase": "MIDDLE",
+          "spearman": 0.9836687283568126
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06024905499203627,
+          "pass": true,
+          "pearson": 0.9907052280871561,
+          "phase": "LATE",
+          "spearman": 0.9933407266205717
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9375,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08160404458750252,
+        "pass": true,
+        "pearson": 0.9668615100902161,
+        "spearman": 0.9691830206993917
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 509,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": 1,
+        "fit_h_max": [
+          1.386205065558431
+        ],
+        "fit_h_min": [
+          -1.5005184353357657
+        ],
+        "fit_z_max": 0.5774999999999999,
+        "fit_z_min": -0.8324272578124999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.5005184353357657,
+          -0.7526917824457119,
+          -0.2925105023493951,
+          0.05580168831346594,
+          0.5092885910030175,
+          1.386205065558431
+        ],
+        "knots_z": [
+          -0.8324272578124999,
+          -0.41410111842105257,
+          -0.13617866627604167,
+          0.03879211875000003,
+          0.37335362859375004,
+          0.5774999999999999
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.1036665408315569,
+          "pass": false,
+          "pearson": 0.9359836799459115,
+          "phase": "EARLY",
+          "spearman": 0.9287507180157719
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06680822219319836,
+          "pass": true,
+          "pearson": 0.9814311398294681,
+          "phase": "MIDDLE",
+          "spearman": 0.9856992587358423
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06036555701474784,
+          "pass": true,
+          "pearson": 0.990142642615534,
+          "phase": "LATE",
+          "spearman": 0.9912421029387611
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9333333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.07927608028129163,
+        "pass": true,
+        "pearson": 0.969927293280536,
+        "spearman": 0.9727256314016568
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 512,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": 1,
+        "fit_h_max": [
+          1.496297383950275
+        ],
+        "fit_h_min": [
+          -1.5048391045578526
+        ],
+        "fit_z_max": 0.57865042890625,
+        "fit_z_min": -0.70596640625,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.5048391045578526,
+          -0.8482674668817296,
+          -0.2886260064167582,
+          0.07157293273504504,
+          0.5633925181069257,
+          1.496297383950275
+        ],
+        "knots_z": [
+          -0.70596640625,
+          -0.4687404505095108,
+          -0.12727904411764704,
+          -0.005168167613636368,
+          0.37779765625000006,
+          0.57865042890625
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.09734439995035851,
+          "pass": false,
+          "pearson": 0.9485480270318841,
+          "phase": "EARLY",
+          "spearman": 0.940788840685249
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06898780855898436,
+          "pass": true,
+          "pearson": 0.9824236781492431,
+          "phase": "MIDDLE",
+          "spearman": 0.9886335511910878
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07367615696374114,
+          "pass": true,
+          "pearson": 0.9875871613208708,
+          "phase": "LATE",
+          "spearman": 0.9931648643008668
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8875,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08095971433664247,
+        "pass": true,
+        "pearson": 0.9694083882846398,
+        "spearman": 0.9731549860844142
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 499,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": 1,
+        "fit_h_max": [
+          1.6107503569437442
+        ],
+        "fit_h_min": [
+          -1.3829743768435523
+        ],
+        "fit_z_max": 0.5509583333333333,
+        "fit_z_min": -0.7474515052083333,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.3829743768435523,
+          -0.7165553633493186,
+          -0.21328671096196197,
+          0.135512740035076,
+          0.6207311479733432,
+          1.6107503569437442
+        ],
+        "knots_z": [
+          -0.7474515052083333,
+          -0.4447164080078125,
+          -0.13186322916666662,
+          0.03730080408653847,
+          0.382442921875,
+          0.5509583333333333
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 264,
+      "k": 1,
+      "organism_id": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.10815908379557491,
+          "pass": false,
+          "pearson": 0.934362114849151,
+          "phase": "EARLY",
+          "spearman": 0.9248335511153866
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.07054551018870311,
+          "pass": true,
+          "pearson": 0.9797386953232478,
+          "phase": "MIDDLE",
+          "spearman": 0.9849363426974787
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06615123780126461,
+          "pass": true,
+          "pearson": 0.9904257954204686,
+          "phase": "LATE",
+          "spearman": 0.9954276261477353
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8708333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08376762039101997,
+        "pass": true,
+        "pearson": 0.9663234842118538,
+        "spearman": 0.9717497991571112
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 507,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": -1,
+        "fit_h_max": [
+          1.6459630167660462
+        ],
+        "fit_h_min": [
+          -1.6593453466700958
+        ],
+        "fit_z_max": 0.5774999999999999,
+        "fit_z_min": -0.8324272578124999,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.6593453466700958,
+          -0.5685692856512056,
+          -0.02082436075283993,
+          0.38003955994382393,
+          0.916761482040253,
+          1.6459630167660462
+        ],
+        "knots_z": [
+          0.5774999999999999,
+          0.3624525413085937,
+          0.04920416518554687,
+          -0.1757942753761574,
+          -0.45929517421874994,
+          -0.8324272578124999
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "iterative_state",
+      "fit_examples": 258,
+      "k": 1,
+      "organism_id": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 80,
+          "normalized_rmse": 0.10478775116411414,
+          "pass": false,
+          "pearson": 0.9397033389278047,
+          "phase": "EARLY",
+          "spearman": 0.9248335511153866
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06991629561837955,
+          "pass": true,
+          "pearson": 0.9792462404609931,
+          "phase": "MIDDLE",
+          "spearman": 0.9827062804314922
+        },
+        {
+          "n": 80,
+          "normalized_rmse": 0.06259453553311771,
+          "pass": true,
+          "pearson": 0.9910881970759455,
+          "phase": "LATE",
+          "spearman": 0.9950641773536788
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9333333333333333,
+        "coverage_pass": false,
+        "n": 240,
+        "normalized_rmse": 0.08121337546988114,
+        "pass": true,
+        "pearson": 0.9688095686431095,
+        "spearman": 0.9721900181733296
+      },
+      "reader_pass": false,
+      "select_examples": 240,
+      "semantic_dimension": 1,
+      "stored_bytes": 513,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 156 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 156 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 154 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "AFFINE",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 156 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 156 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 156 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 154 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_2",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "ValueError:matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 156 is different from 1)",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "MemoryError:Unable to allocate 3.14 TiB for an array with shape (657359, 657359) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "error": "MemoryError:Unable to allocate 3.14 TiB for an array with shape (657359, 657359) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "MemoryError:Unable to allocate 2.91 TiB for an array with shape (632710, 632710) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart_family": "POLYNOMIAL_3",
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "error": "MemoryError:Unable to allocate 3.14 TiB for an array with shape (657359, 657359) and data type float64",
+      "failure_code": "CHART_FIT_INVALID",
+      "family": "variable_composition",
+      "k": 1,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "phase_atlas": false,
+      "valid": false,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.7663784525606083
+        ],
+        "fit_h_min": [
+          -1.2585761822287027
+        ],
+        "fit_z_max": 0.4316538331123174,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.2585761822287027,
+          -0.11917492694546716,
+          0.7237901736672231,
+          1.7663784525606083
+        ],
+        "knots_z": [
+          0.4316538331123174,
+          0.03406458671197589,
+          -0.23906726049911758,
+          -0.5714472046602291
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 52,
+          "normalized_rmse": 0.26850184195883137,
+          "pass": false,
+          "pearson": 0.8039135546594496,
+          "phase": "EARLY",
+          "spearman": 0.8003927260309058
+        },
+        {
+          "n": 42,
+          "normalized_rmse": 0.2705287196818093,
+          "pass": false,
+          "pearson": 0.7154444698238046,
+          "phase": "MIDDLE",
+          "spearman": 0.7230370310347622
+        },
+        {
+          "n": 52,
+          "normalized_rmse": 0.33792709479217,
+          "pass": false,
+          "pearson": 0.3390119924232432,
+          "phase": "LATE",
+          "spearman": 0.33509775463160585
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8356164383561644,
+        "coverage_pass": false,
+        "n": 146,
+        "normalized_rmse": 0.29563927773521237,
+        "pass": false,
+        "pearson": 0.6304119098955137,
+        "spearman": 0.6190758967734472
+      },
+      "reader_pass": false,
+      "select_examples": 146,
+      "semantic_dimension": 1,
+      "stored_bytes": 398,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.86054263267297
+        ],
+        "fit_h_min": [
+          -1.5240280339559287
+        ],
+        "fit_z_max": 0.436882160714631,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.5240280339559287,
+          -0.1167379577094124,
+          0.6221464516340773,
+          1.86054263267297
+        ],
+        "knots_z": [
+          0.436882160714631,
+          0.07441983395928932,
+          -0.18597610326928848,
+          -0.5714472046602291
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 56,
+          "normalized_rmse": 0.2619739573887253,
+          "pass": false,
+          "pearson": 0.8325987329342642,
+          "phase": "EARLY",
+          "spearman": 0.8347915242652085
+        },
+        {
+          "n": 44,
+          "normalized_rmse": 0.2724811731448712,
+          "pass": false,
+          "pearson": 0.7099633917092835,
+          "phase": "MIDDLE",
+          "spearman": 0.7454545454545454
+        },
+        {
+          "n": 56,
+          "normalized_rmse": 0.32303566900419245,
+          "pass": false,
+          "pearson": 0.2939614867993101,
+          "phase": "LATE",
+          "spearman": 0.3392344497607656
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8397435897435898,
+        "coverage_pass": false,
+        "n": 156,
+        "normalized_rmse": 0.28816214524282807,
+        "pass": false,
+        "pearson": 0.643852314010573,
+        "spearman": 0.6526275860978963
+      },
+      "reader_pass": false,
+      "select_examples": 156,
+      "semantic_dimension": 1,
+      "stored_bytes": 391,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.3229743870729835
+        ],
+        "fit_h_min": [
+          -1.4978238701016156
+        ],
+        "fit_z_max": 0.436882160714631,
+        "fit_z_min": -0.5243132943036648,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.4978238701016156,
+          -0.6916532159909083,
+          0.16549805593678973,
+          1.3229743870729835
+        ],
+        "knots_z": [
+          -0.5243132943036648,
+          -0.21000271914409405,
+          0.10269664942294764,
+          0.436882160714631
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "fit_examples": 154,
+      "k": 1,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 56,
+          "normalized_rmse": 0.22990934299914462,
+          "pass": false,
+          "pearson": 0.8827424928771154,
+          "phase": "EARLY",
+          "spearman": 0.8735475051264525
+        },
+        {
+          "n": 48,
+          "normalized_rmse": 0.2535144492646661,
+          "pass": false,
+          "pearson": 0.7905810298201187,
+          "phase": "MIDDLE",
+          "spearman": 0.818280503690838
+        },
+        {
+          "n": 56,
+          "normalized_rmse": 0.3220641893230652,
+          "pass": false,
+          "pearson": 0.3044846654446431,
+          "phase": "LATE",
+          "spearman": 0.33499658236500346
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8125,
+        "coverage_pass": false,
+        "n": 160,
+        "normalized_rmse": 0.27218587327542854,
+        "pass": false,
+        "pearson": 0.7038599152148697,
+        "spearman": 0.7114496660025782
+      },
+      "reader_pass": false,
+      "select_examples": 160,
+      "semantic_dimension": 1,
+      "stored_bytes": 395,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.5551457186451412
+        ],
+        "fit_h_min": [
+          -1.3103539127801682
+        ],
+        "fit_z_max": 0.6751239573913744,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_4",
+        "knots_h": [
+          -1.3103539127801682,
+          -0.34666975688368856,
+          0.21345440048162753,
+          1.5551457186451412
+        ],
+        "knots_z": [
+          0.6751239573913744,
+          0.1353711275883288,
+          -0.21822842049614072,
+          -0.5714472046602291
+        ],
+        "parameter_count": 8
+      },
+      "chart_family": "MONOTONE_PWL_4",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "parameter_count": 8,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 54,
+          "normalized_rmse": 0.26199877035647534,
+          "pass": false,
+          "pearson": 0.8057564655168179,
+          "phase": "EARLY",
+          "spearman": 0.8510386887745377
+        },
+        {
+          "n": 48,
+          "normalized_rmse": 0.21868333004664953,
+          "pass": false,
+          "pearson": 0.8415102439889577,
+          "phase": "MIDDLE",
+          "spearman": 0.8532349109856707
+        },
+        {
+          "n": 54,
+          "normalized_rmse": 0.24002418368754,
+          "pass": false,
+          "pearson": 0.7054734114454991,
+          "phase": "LATE",
+          "spearman": 0.7011625690870972
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9358974358974359,
+        "coverage_pass": false,
+        "n": 156,
+        "normalized_rmse": 0.24169862595730746,
+        "pass": false,
+        "pearson": 0.762767739354777,
+        "spearman": 0.7751418501367134
+      },
+      "reader_pass": false,
+      "select_examples": 156,
+      "semantic_dimension": 1,
+      "stored_bytes": 398,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.7663784525606083
+        ],
+        "fit_h_min": [
+          -1.2585761822287027
+        ],
+        "fit_z_max": 0.4316538331123174,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.2585761822287027,
+          -0.5596196641024127,
+          -0.22616557015175393,
+          0.13516894911839766,
+          0.5427655027475169,
+          0.8061301197964414,
+          1.1165420518729776,
+          1.7663784525606083
+        ],
+        "knots_z": [
+          0.4316538331123174,
+          0.2357336443200056,
+          0.121822468732705,
+          -0.10534664471478847,
+          -0.1201969584596152,
+          -0.23906726049911758,
+          -0.31706499496923085,
+          -0.5714472046602291
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 52,
+          "normalized_rmse": 0.26896916222640294,
+          "pass": false,
+          "pearson": 0.7937092565152688,
+          "phase": "EARLY",
+          "spearman": 0.8003927260309058
+        },
+        {
+          "n": 42,
+          "normalized_rmse": 0.263273824589967,
+          "pass": false,
+          "pearson": 0.7190558520219482,
+          "phase": "MIDDLE",
+          "spearman": 0.7230370310347622
+        },
+        {
+          "n": 52,
+          "normalized_rmse": 0.32636633580826513,
+          "pass": false,
+          "pearson": 0.3512510490674389,
+          "phase": "LATE",
+          "spearman": 0.33509775463160585
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8356164383561644,
+        "coverage_pass": false,
+        "n": 146,
+        "normalized_rmse": 0.2892105343204139,
+        "pass": false,
+        "pearson": 0.6312988854821194,
+        "spearman": 0.6190758967734472
+      },
+      "reader_pass": false,
+      "select_examples": 146,
+      "semantic_dimension": 1,
+      "stored_bytes": 556,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.86054263267297
+        ],
+        "fit_h_min": [
+          -1.5240280339559287
+        ],
+        "fit_z_max": 0.436882160714631,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.5240280339559287,
+          -0.6279841403625884,
+          -0.23207218688706743,
+          0.06619714503706799,
+          0.4562702536058935,
+          0.7462656760408216,
+          1.0474578120604177,
+          1.86054263267297
+        ],
+        "knots_z": [
+          0.436882160714631,
+          0.2751951752051525,
+          0.07441983395928932,
+          0.07441983395928932,
+          -0.018921728370038058,
+          -0.18597610326928848,
+          -0.4056325623191673,
+          -0.5714472046602291
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 56,
+          "normalized_rmse": 0.2586843323329408,
+          "pass": false,
+          "pearson": 0.8021803732521839,
+          "phase": "EARLY",
+          "spearman": 0.835102512463034
+        },
+        {
+          "n": 44,
+          "normalized_rmse": 0.26010738919518206,
+          "pass": false,
+          "pearson": 0.7274059408807677,
+          "phase": "MIDDLE",
+          "spearman": 0.7389668713408353
+        },
+        {
+          "n": 56,
+          "normalized_rmse": 0.31403643331054354,
+          "pass": false,
+          "pearson": 0.3592975000568089,
+          "phase": "LATE",
+          "spearman": 0.3374465952549411
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8397435897435898,
+        "coverage_pass": false,
+        "n": 156,
+        "normalized_rmse": 0.28018880568546894,
+        "pass": false,
+        "pearson": 0.6585982163667539,
+        "spearman": 0.6497303899002099
+      },
+      "reader_pass": false,
+      "select_examples": 156,
+      "semantic_dimension": 1,
+      "stored_bytes": 552,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": 1,
+        "fit_h_max": [
+          1.3229743870729835
+        ],
+        "fit_h_min": [
+          -1.4978238701016156
+        ],
+        "fit_z_max": 0.436882160714631,
+        "fit_z_min": -0.5243132943036648,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.4978238701016156,
+          -0.9908133710361356,
+          -0.7868830823090984,
+          -0.440332880834194,
+          -0.031162181145001994,
+          0.26289082633189953,
+          0.5922008134645075,
+          1.3229743870729835
+        ],
+        "knots_z": [
+          -0.5243132943036648,
+          -0.3349428302806433,
+          -0.21000271914409405,
+          -0.05054332350119714,
+          0.028570293435163114,
+          0.14781436728493194,
+          0.2856787430720078,
+          0.436882160714631
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "fit_examples": 154,
+      "k": 1,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 56,
+          "normalized_rmse": 0.22911358269619864,
+          "pass": false,
+          "pearson": 0.8712716645718341,
+          "phase": "EARLY",
+          "spearman": 0.8735475051264525
+        },
+        {
+          "n": 48,
+          "normalized_rmse": 0.24037731604288706,
+          "pass": false,
+          "pearson": 0.8011140773065704,
+          "phase": "MIDDLE",
+          "spearman": 0.818280503690838
+        },
+        {
+          "n": 56,
+          "normalized_rmse": 0.31199003510474566,
+          "pass": false,
+          "pearson": 0.35317081958880936,
+          "phase": "LATE",
+          "spearman": 0.33499658236500346
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8125,
+        "coverage_pass": false,
+        "n": 160,
+        "normalized_rmse": 0.26414988499635295,
+        "pass": false,
+        "pearson": 0.7150639570743733,
+        "spearman": 0.7114496660025782
+      },
+      "reader_pass": false,
+      "select_examples": 160,
+      "semantic_dimension": 1,
+      "stored_bytes": 557,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "direction": -1,
+        "fit_h_max": [
+          1.5551457186451412
+        ],
+        "fit_h_min": [
+          -1.3103539127801682
+        ],
+        "fit_z_max": 0.6751239573913744,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PWL_8",
+        "knots_h": [
+          -1.3103539127801682,
+          -0.7038080205070415,
+          -0.400456660504482,
+          -0.18483568206024184,
+          0.056147243229482224,
+          0.3126627838236361,
+          0.7322679958692733,
+          1.5551457186451412
+        ],
+        "knots_z": [
+          0.6751239573913744,
+          0.27960005515230363,
+          0.1585137210032855,
+          0.005751751979837155,
+          -0.038914177456070044,
+          -0.21822842049614072,
+          -0.45766762265910294,
+          -0.5714472046602291
+        ],
+        "parameter_count": 16
+      },
+      "chart_family": "MONOTONE_PWL_8",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "parameter_count": 16,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 54,
+          "normalized_rmse": 0.2542558599432356,
+          "pass": false,
+          "pearson": 0.8340222155845213,
+          "phase": "EARLY",
+          "spearman": 0.8510386887745377
+        },
+        {
+          "n": 48,
+          "normalized_rmse": 0.2313862596461457,
+          "pass": false,
+          "pearson": 0.8256456999891422,
+          "phase": "MIDDLE",
+          "spearman": 0.8532349109856707
+        },
+        {
+          "n": 54,
+          "normalized_rmse": 0.24094852770752082,
+          "pass": false,
+          "pearson": 0.6928646969818469,
+          "phase": "LATE",
+          "spearman": 0.7011625690870972
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9358974358974359,
+        "coverage_pass": false,
+        "n": 156,
+        "normalized_rmse": 0.24279121507863294,
+        "pass": false,
+        "pearson": 0.7636824544481674,
+        "spearman": 0.7751418501367134
+      },
+      "reader_pass": false,
+      "select_examples": 156,
+      "semantic_dimension": 1,
+      "stored_bytes": 561,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": -1,
+        "fit_h_max": [
+          1.7663784525606083
+        ],
+        "fit_h_min": [
+          -1.2585761822287027
+        ],
+        "fit_z_max": 0.4316538331123174,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.2585761822287027,
+          -0.3924393225212082,
+          -0.0032068132714484707,
+          0.6285478977215313,
+          1.0286889415412925,
+          1.7663784525606083
+        ],
+        "knots_z": [
+          0.4316538331123174,
+          0.21398776412228399,
+          0.03406458671197589,
+          -0.1201969584596152,
+          -0.23906726049911758,
+          -0.5714472046602291
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 52,
+          "normalized_rmse": 0.27377634991918176,
+          "pass": false,
+          "pearson": 0.7929248223258799,
+          "phase": "EARLY",
+          "spearman": 0.8003927260309058
+        },
+        {
+          "n": 42,
+          "normalized_rmse": 0.26109842476979106,
+          "pass": false,
+          "pearson": 0.7172063297649669,
+          "phase": "MIDDLE",
+          "spearman": 0.7230370310347622
+        },
+        {
+          "n": 52,
+          "normalized_rmse": 0.31885926180964835,
+          "pass": false,
+          "pearson": 0.3410359070457988,
+          "phase": "LATE",
+          "spearman": 0.33509775463160585
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8356164383561644,
+        "coverage_pass": false,
+        "n": 146,
+        "normalized_rmse": 0.28726062863608387,
+        "pass": false,
+        "pearson": 0.624348121045019,
+        "spearman": 0.6190758967734472
+      },
+      "reader_pass": false,
+      "select_examples": 146,
+      "semantic_dimension": 1,
+      "stored_bytes": 516,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": -1,
+        "fit_h_max": [
+          1.86054263267297
+        ],
+        "fit_h_min": [
+          -1.5240280339559287
+        ],
+        "fit_z_max": 0.436882160714631,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.5240280339559287,
+          -0.5141771973036181,
+          0.03353190631277974,
+          0.5087955208272716,
+          0.9899811190843393,
+          1.86054263267297
+        ],
+        "knots_z": [
+          0.436882160714631,
+          0.20188528581645604,
+          0.07441983395928932,
+          -0.14745605805237028,
+          -0.39514939606346877,
+          -0.5714472046602291
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 56,
+          "normalized_rmse": 0.24115733583915153,
+          "pass": false,
+          "pearson": 0.8424462876266623,
+          "phase": "EARLY",
+          "spearman": 0.8347915242652085
+        },
+        {
+          "n": 44,
+          "normalized_rmse": 0.2783337937837607,
+          "pass": false,
+          "pearson": 0.7007052146849974,
+          "phase": "MIDDLE",
+          "spearman": 0.7454545454545454
+        },
+        {
+          "n": 56,
+          "normalized_rmse": 0.3399255325343263,
+          "pass": false,
+          "pearson": 0.30102420876283514,
+          "phase": "LATE",
+          "spearman": 0.3392344497607656
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8397435897435898,
+        "coverage_pass": false,
+        "n": 156,
+        "normalized_rmse": 0.2901835804678113,
+        "pass": false,
+        "pearson": 0.6464660080628662,
+        "spearman": 0.6526275860978963
+      },
+      "reader_pass": false,
+      "select_examples": 156,
+      "semantic_dimension": 1,
+      "stored_bytes": 508,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": 1,
+        "fit_h_max": [
+          1.3229743870729835
+        ],
+        "fit_h_min": [
+          -1.4978238701016156
+        ],
+        "fit_z_max": 0.436882160714631,
+        "fit_z_min": -0.5243132943036648,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.4978238701016156,
+          -0.9193368318823437,
+          -0.5088533159246362,
+          0.060909778415375246,
+          0.5032506356079504,
+          1.3229743870729835
+        ],
+        "knots_z": [
+          -0.5243132943036648,
+          -0.3349428302806433,
+          -0.05054332350119714,
+          0.046181691513856836,
+          0.20974150091671648,
+          0.436882160714631
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "fit_examples": 154,
+      "k": 1,
+      "organism_id": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 56,
+          "normalized_rmse": 0.23706265030806498,
+          "pass": false,
+          "pearson": 0.854611207874122,
+          "phase": "EARLY",
+          "spearman": 0.8735475051264525
+        },
+        {
+          "n": 48,
+          "normalized_rmse": 0.2402582734467467,
+          "pass": false,
+          "pearson": 0.8105697002425806,
+          "phase": "MIDDLE",
+          "spearman": 0.818280503690838
+        },
+        {
+          "n": 56,
+          "normalized_rmse": 0.30453348779100586,
+          "pass": false,
+          "pearson": 0.39124997082943097,
+          "phase": "LATE",
+          "spearman": 0.33499658236500346
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.8125,
+        "coverage_pass": false,
+        "n": 160,
+        "normalized_rmse": 0.26352605613661245,
+        "pass": false,
+        "pearson": 0.7222118903017549,
+        "spearman": 0.7114496660025782
+      },
+      "reader_pass": false,
+      "select_examples": 160,
+      "semantic_dimension": 1,
+      "stored_bytes": 513,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    },
+    {
+      "branch": "AP_A_K1",
+      "chart": {
+        "derivative_sign_consistent": true,
+        "direction": -1,
+        "fit_h_max": [
+          1.5551457186451412
+        ],
+        "fit_h_min": [
+          -1.3103539127801682
+        ],
+        "fit_z_max": 0.6751239573913744,
+        "fit_z_min": -0.5714472046602291,
+        "gradient_steps": 0,
+        "k": 1,
+        "kind": "MONOTONE_PCHIP_6",
+        "knots_h": [
+          -1.3103539127801682,
+          -0.5965004549876448,
+          -0.22903731161950253,
+          0.08339629684684138,
+          0.6207157557100201,
+          1.5551457186451412
+        ],
+        "knots_z": [
+          0.6751239573913744,
+          0.188285446184606,
+          0.1353711275883288,
+          -0.09139494408487411,
+          -0.45766762265910294,
+          -0.5714472046602291
+        ],
+        "parameter_count": 12
+      },
+      "chart_family": "MONOTONE_PCHIP_6",
+      "cross_organism_alignment": false,
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "fit_examples": 156,
+      "k": 1,
+      "organism_id": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "parameter_count": 12,
+      "phase_atlas": false,
+      "phase_reader_metrics": [
+        {
+          "n": 54,
+          "normalized_rmse": 0.25035706629042326,
+          "pass": false,
+          "pearson": 0.8635050766443132,
+          "phase": "EARLY",
+          "spearman": 0.8510386887745377
+        },
+        {
+          "n": 48,
+          "normalized_rmse": 0.22696594193446148,
+          "pass": false,
+          "pearson": 0.8521754597973303,
+          "phase": "MIDDLE",
+          "spearman": 0.8532349109856707
+        },
+        {
+          "n": 54,
+          "normalized_rmse": 0.24534185518785062,
+          "pass": false,
+          "pearson": 0.6673407075139408,
+          "phase": "LATE",
+          "spearman": 0.7011625690870972
+        }
+      ],
+      "reader_metrics": {
+        "chart_coverage": 0.9358974358974359,
+        "coverage_pass": false,
+        "n": 156,
+        "normalized_rmse": 0.2416250981393928,
+        "pass": false,
+        "pearson": 0.7747732766968467,
+        "spearman": 0.7751418501367134
+      },
+      "reader_pass": false,
+      "select_examples": 156,
+      "semantic_dimension": 1,
+      "stored_bytes": 513,
+      "valid": true,
+      "writer_family": "DIRECT_INVERSE_OR_CLASS_PROTOTYPE"
+    }
+  ],
+  "version": "V837ap"
+}
