@@ -20,6 +20,7 @@ Machine-readable candidate, invalid-configuration, calibration, and engineering 
 - `AP7_SETPOINT`: 36
 - `AP8_ENGINEERING`: 1
 - `AP9_ENGINEERING`: 1
+- `CLOSEOUT_ENGINEERING`: 2
 
 Final diagnosis: `DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED`.
 

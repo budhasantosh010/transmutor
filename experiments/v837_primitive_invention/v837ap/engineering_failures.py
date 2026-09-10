@@ -72,7 +72,14 @@ FIXED = (
         "CLOSEOUT_ENGINEERING",
         "ACTIVE_VALIDATOR_CSV_NEWLINE_PORTABILITY",
         "The V836 integrity manifest froze registry/experiments.csv using CRLF bytes while Git stores the same committed CSV content with LF bytes, causing the active validator to fail on this worktree.",
-        "Made only the CSV manifest comparison newline-portable by hashing the CRLF-normalized form against the unchanged frozen SHA; all non-CSV preserved artifacts remain exact-byte checks.",
+        "Made frozen text-artifact SHA validation line-ending portable by accepting only an exact LF or CRLF canonical form that matches the unchanged expected SHA; binary artifacts remain exact-byte only.",
+    ),
+    (
+        "V837ap-ENG-ACTIVE-VALIDATOR-GATE-NEWLINES",
+        "CLOSEOUT_ENGINEERING",
+        "ACTIVE_VALIDATOR_GATE_NEWLINE_PORTABILITY",
+        "After the CSV portability repair, the active validator reached the historical V837 frozen gate and failed for the same CRLF-versus-LF byte-normalization reason even though the parsed gate content was unchanged.",
+        "Applied the same frozen-text line-ending-compatible SHA check to the historical V837 gate and immutable text-artifact comparisons; no gate, threshold, seed range, or scientific result was changed.",
     ),
 )
 

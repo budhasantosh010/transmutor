@@ -30,7 +30,7 @@ The historical validation source was reused only post-freeze. The untouched fres
 - Primitives promoted: 0
 - V838 started: false
 - Required plots generated: 22
-- Failure-memory entries: 306
+- Failure-memory entries: 308
 
 ## Next program
 

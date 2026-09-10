@@ -23345,6 +23345,112 @@
       "timestamp_utc": "2026-09-10T16:08:45.451443+00:00",
       "version": "V837ap",
       "writer_family": null
+    },
+    {
+      "acceptance_gate": "Implementation correctness; no affected result may be interpreted scientifically until repaired.",
+      "artifact_hashes": {
+        "metrics_sha256": "9081856ef72f6807a444b25a645609bad578e389f9468a41cd90f6352b41ddca"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json"
+      ],
+      "branch": "ENGINEERING_REPAIR",
+      "carrier_dimension": null,
+      "chart_degree_rank": null,
+      "chart_family": null,
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "scientific threshold tuning",
+        "fresh-audit use",
+        "source retraining"
+      ],
+      "distance_from_threshold": {
+        "not_applicable": true
+      },
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "ACTIVE_VALIDATOR_CSV_NEWLINE_PORTABILITY"
+      ],
+      "failure_id": "V837ap-ENG-ACTIVE-VALIDATOR-CSV-NEWLINES",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "fit_partition": null,
+      "mac_estimate": 0,
+      "matched_control_metrics": {},
+      "metrics": {
+        "engineering_code": "ACTIVE_VALIDATOR_CSV_NEWLINE_PORTABILITY",
+        "science_contaminated": false
+      },
+      "next_justified_experiment": "Made frozen text-artifact SHA validation line-ending portable by accepting only an exact LF or CRLF canonical form that matches the unchanged expected SHA; binary artifacts remain exact-byte only.",
+      "ood_metrics": {},
+      "organism": null,
+      "parameter_count": 0,
+      "phase": null,
+      "reproduction_command": "python -m pytest tests/test_v837ap_global_or_nonlinear_causal_state.py -q",
+      "result_status": "FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION",
+      "scientific_interpretation": "The V836 integrity manifest froze registry/experiments.csv using CRLF bytes while Git stores the same committed CSV content with LF bytes, causing the active validator to fail on this worktree.",
+      "selection_partition": null,
+      "semantic_dimension": 1,
+      "source_sha": "c47649227baa0800d311ff41128d8f169ddf4f0d",
+      "stage": "CLOSEOUT_ENGINEERING",
+      "stored_bytes": 0,
+      "timestamp_local": "2026-09-10T20:56:29.507997+04:00",
+      "timestamp_utc": "2026-09-10T16:56:29.507997+00:00",
+      "version": "V837ap",
+      "writer_family": null
+    },
+    {
+      "acceptance_gate": "Implementation correctness; no affected result may be interpreted scientifically until repaired.",
+      "artifact_hashes": {
+        "metrics_sha256": "5b05ecf1e456ea11cf77c4a0e5e6fd73188d4ae53b689f4ff6b69f230878be89"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json"
+      ],
+      "branch": "ENGINEERING_REPAIR",
+      "carrier_dimension": null,
+      "chart_degree_rank": null,
+      "chart_family": null,
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "scientific threshold tuning",
+        "fresh-audit use",
+        "source retraining"
+      ],
+      "distance_from_threshold": {
+        "not_applicable": true
+      },
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "ACTIVE_VALIDATOR_GATE_NEWLINE_PORTABILITY"
+      ],
+      "failure_id": "V837ap-ENG-ACTIVE-VALIDATOR-GATE-NEWLINES",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "fit_partition": null,
+      "mac_estimate": 0,
+      "matched_control_metrics": {},
+      "metrics": {
+        "engineering_code": "ACTIVE_VALIDATOR_GATE_NEWLINE_PORTABILITY",
+        "science_contaminated": false
+      },
+      "next_justified_experiment": "Applied the same frozen-text line-ending-compatible SHA check to the historical V837 gate and immutable text-artifact comparisons; no gate, threshold, seed range, or scientific result was changed.",
+      "ood_metrics": {},
+      "organism": null,
+      "parameter_count": 0,
+      "phase": null,
+      "reproduction_command": "python -m pytest tests/test_v837ap_global_or_nonlinear_causal_state.py -q",
+      "result_status": "FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION",
+      "scientific_interpretation": "After the CSV portability repair, the active validator reached the historical V837 frozen gate and failed for the same CRLF-versus-LF byte-normalization reason even though the parsed gate content was unchanged.",
+      "selection_partition": null,
+      "semantic_dimension": 1,
+      "source_sha": "c47649227baa0800d311ff41128d8f169ddf4f0d",
+      "stage": "CLOSEOUT_ENGINEERING",
+      "stored_bytes": 0,
+      "timestamp_local": "2026-09-10T20:56:29.568095+04:00",
+      "timestamp_utc": "2026-09-10T16:56:29.568095+00:00",
+      "version": "V837ap",
+      "writer_family": null
     }
   ],
   "version": "V837ap"

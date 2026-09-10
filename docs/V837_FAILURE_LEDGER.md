@@ -10666,3 +10666,23 @@ Append-only research memory. Older failure entries and measurements must never b
 - **Interpretation:** The null held-out closure path referenced time.perf_counter for resource accounting before importing time and initializing the stage timer.
 - **Do not repeat unchanged:** True
 - **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-ACTIVE-VALIDATOR-CSV-NEWLINES — V837ap / CLOSEOUT_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['ACTIVE_VALIDATOR_CSV_NEWLINE_PORTABILITY']
+- **Interpretation:** The V836 integrity manifest froze registry/experiments.csv using CRLF bytes while Git stores the same committed CSV content with LF bytes, causing the active validator to fail on this worktree.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837ap-ENG-ACTIVE-VALIDATOR-GATE-NEWLINES — V837ap / CLOSEOUT_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_RELEVANT_SCIENTIFIC_DECISION
+- **Family / organism:** None / None
+- **Geometry:** k=None semantic_dim=1 None None
+- **Failed conditions:** ['ACTIVE_VALIDATOR_GATE_NEWLINE_PORTABILITY']
+- **Interpretation:** After the CSV portability repair, the active validator reached the historical V837 frozen gate and failed for the same CRLF-versus-LF byte-normalization reason even though the parsed gate content was unchanged.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json

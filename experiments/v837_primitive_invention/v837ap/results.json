@@ -47,7 +47,7 @@
     "version": "V837ap"
   },
   "diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED",
-  "failure_entries": 306,
+  "failure_entries": 308,
   "family_geometries": {
     "conditional_routing": null,
     "delayed_recall": null,
@@ -160,7 +160,7 @@
     "commutativity_evaluation_rows": 0,
     "cpu_seconds": null,
     "cpu_seconds_exact": false,
-    "failure_entries": 306,
+    "failure_entries": 308,
     "fresh_audit_episodes": 0,
     "gpu_seconds": 0,
     "heldout_evaluation_rows": 0,
