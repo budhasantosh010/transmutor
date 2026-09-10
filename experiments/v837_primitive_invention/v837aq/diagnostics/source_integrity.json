@@ -1,0 +1,85 @@
+{
+  "authorization": {
+    "authorized": true,
+    "competent_organisms": 40,
+    "fresh_audit_consumed": false,
+    "hidden_state_set_primary_evidence": false,
+    "incompetent_organisms": 10,
+    "new_source_model_fits": 0,
+    "primitive_archive_population": false,
+    "primitives_promoted": 0,
+    "source_optimizer_steps": 0,
+    "source_organisms": 50,
+    "start_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+    "v837ap_diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED",
+    "v837ap_next_program": "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION",
+    "v838_started": false,
+    "version": "V837aq"
+  },
+  "data_roles": {
+    "AQ_COMPOSITION": [
+      11320,
+      11383
+    ],
+    "AQ_HELDOUT_EVAL": [
+      11448,
+      11511
+    ],
+    "AQ_INTERACTION": [
+      11192,
+      11255
+    ],
+    "AQ_LOCALIZATION": [
+      11256,
+      11319
+    ],
+    "AQ_META_CONFIRM": [
+      11384,
+      11447
+    ],
+    "AQ_OPERATOR_FIT": [
+      11064,
+      11127
+    ],
+    "AQ_OPERATOR_SELECT": [
+      11128,
+      11191
+    ],
+    "AQ_REALITY_GATE": [
+      11000,
+      11063
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ],
+    "REUSED_HISTORICAL_VALIDATION": [
+      20000,
+      20127
+    ]
+  },
+  "fold_sha256": "b96eed0f053ec48b5cb183929296a371857e549ed05bbe9650df2ef32dee1c95",
+  "fresh_audit_consumed": false,
+  "gate_sha256": "a65124362fe2991d822d326b7bce0640492de0643cd56ae09e16a70292b51154",
+  "pass": true,
+  "powered_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state",
+    "variable_composition"
+  ],
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "source_population": {
+    "competent": 40,
+    "incompetent": 10,
+    "total": 50
+  },
+  "v837ap_commutativity_rows": 0,
+  "v837ap_engineering_failures_preserved": 11,
+  "v837ap_heldout_rows": 0,
+  "v837ap_quotient_rows": 0,
+  "v837ap_scientific_failures_preserved": 297,
+  "v838_started": false,
+  "version": "V837aq"
+}

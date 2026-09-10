@@ -1,0 +1,130 @@
+{
+  "all_historical_incompetents_registered_in": "raw/incompetent_control_registry.json",
+  "rows": [
+    {
+      "controls": {
+        "errors": {
+          "endpoint_only_nrmse": 0.15575554525692156,
+          "magnitude_shuffled_nrmse": 0.22654585859896964,
+          "matched_low_order_generic_regression_nrmse": 0.1528581634994885,
+          "time_shuffled_nrmse": 0.2670559484769069,
+          "true_oracle_nrmse": 0.0712737519547808,
+          "wrong_family_template_nrmse": 0.20543730911520075
+        },
+        "failed_conditions": [],
+        "margins": {
+          "endpoint_only": 0.08448179330214076,
+          "generic_regression": 0.08158441154470769,
+          "magnitude_shuffle": 0.15527210664418883,
+          "time_shuffle": 0.19578219652212608,
+          "wrong_family": 0.13416355716041994
+        },
+        "pass": true,
+        "seed": 8346001252435234989,
+        "wrong_phase_zero_effect_in_primary_gate": true
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "final_validation_success": 0.796875,
+      "metrics": {
+        "direction_agreement": 0.953125,
+        "gain_ratio": 0.8033654655975376,
+        "n": 384,
+        "oracle_response_rms": 0.34772035109510496,
+        "pearson": 0.9124515514329806,
+        "perturbed_task_success": 0.7578125,
+        "predicted_response_rms": 0.3060707263836533,
+        "response_mae_normalized": 0.04614737386823331,
+        "response_nrmse": 0.0712737519547808,
+        "zero_effect_median_abs": 0.012786462903022766
+      },
+      "organism_id": "11d148637b3c066e28eb64bfd8527b9339d50ddfbf5ccd4b348481f3c0866bf1",
+      "pass": false
+    },
+    {
+      "controls": {
+        "errors": {
+          "endpoint_only_nrmse": 0.040362555960532356,
+          "magnitude_shuffled_nrmse": 0.0778124932209202,
+          "matched_low_order_generic_regression_nrmse": 0.032452580043602644,
+          "time_shuffled_nrmse": 0.06994219770987763,
+          "true_oracle_nrmse": 0.016124024808595268,
+          "wrong_family_template_nrmse": 0.033761084903280114
+        },
+        "failed_conditions": [
+          "wrong_family"
+        ],
+        "margins": {
+          "endpoint_only": 0.02423853115193709,
+          "generic_regression": 0.016328555235007376,
+          "magnitude_shuffle": 0.06168846841232493,
+          "time_shuffle": 0.05381817290128236,
+          "wrong_family": 0.017637060094684846
+        },
+        "pass": false,
+        "seed": 8597535361583747981,
+        "wrong_phase_zero_effect_in_primary_gate": true
+      },
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "final_validation_success": 0.8125,
+      "metrics": {
+        "direction_agreement": 0.837171052631579,
+        "gain_ratio": 0.8919174190802533,
+        "n": 1280,
+        "oracle_response_rms": 0.08353675536835016,
+        "pearson": 0.9234749964445079,
+        "perturbed_task_success": 0.8734375,
+        "predicted_response_rms": 0.08068358882998318,
+        "response_mae_normalized": 0.012328021014087986,
+        "response_nrmse": 0.016124024808595268,
+        "zero_effect_median_abs": 0.0032900450751185417
+      },
+      "organism_id": "36530f4d4b90f5a9afff5086c9ea1b260d705a855c29b87c614fe9206d4c9f69",
+      "pass": false
+    },
+    {
+      "controls": {
+        "errors": {
+          "endpoint_only_nrmse": 0.04043212290834621,
+          "magnitude_shuffled_nrmse": 0.07799126335223609,
+          "matched_low_order_generic_regression_nrmse": 0.03270238083837985,
+          "time_shuffled_nrmse": 0.0699253338914414,
+          "true_oracle_nrmse": 0.015639184194972167,
+          "wrong_family_template_nrmse": 0.034042262295704534
+        },
+        "failed_conditions": [
+          "wrong_family"
+        ],
+        "margins": {
+          "endpoint_only": 0.024792938713374044,
+          "generic_regression": 0.01706319664340768,
+          "magnitude_shuffle": 0.06235207915726393,
+          "time_shuffle": 0.054286149696469235,
+          "wrong_family": 0.018403078100732367
+        },
+        "pass": false,
+        "seed": 6809645084580926365,
+        "wrong_phase_zero_effect_in_primary_gate": true
+      },
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "final_validation_success": 0.828125,
+      "metrics": {
+        "direction_agreement": 0.8330592105263158,
+        "gain_ratio": 0.8979818050800974,
+        "n": 1280,
+        "oracle_response_rms": 0.08353675536835016,
+        "pearson": 0.9281157467645605,
+        "perturbed_task_success": 0.9015625,
+        "predicted_response_rms": 0.08082623600446784,
+        "response_mae_normalized": 0.01183921581166486,
+        "response_nrmse": 0.015639184194972167,
+        "zero_effect_median_abs": 0.003982082009315491
+      },
+      "organism_id": "1058a1835c015b36b022857f18754fe8813ff67ba9ba3dc292adb9835887b25f",
+      "pass": false
+    }
+  ],
+  "version": "V837aq"
+}

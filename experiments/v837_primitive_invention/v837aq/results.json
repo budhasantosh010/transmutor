@@ -1,0 +1,97 @@
+{
+  "broad_program_composition_established": false,
+  "compact_spatiotemporal_discovery_families": [
+    "delayed_recall"
+  ],
+  "compact_spatiotemporal_meta_families": [],
+  "coordinate_free_operator_pattern_established": true,
+  "cross_organism_q_alignment": false,
+  "cross_organism_state_alignment": false,
+  "diagnosis": "CAUSAL_OPERATOR_FOUND_NOT_COMPOSITIONALLY_CLOSED",
+  "discovery_operator_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state"
+  ],
+  "discovery_operator_family_count": 3,
+  "failure_memory_entries": 39,
+  "fresh_audit_consumed": false,
+  "globally_compositionally_closed_families": [
+    "iterative_state"
+  ],
+  "globally_compositionally_closed_family_count": 1,
+  "heldout_confirmed_operator_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state"
+  ],
+  "heldout_confirmed_operator_family_count": 3,
+  "hidden_state_set_primary_evidence": false,
+  "meta_confirmed_operator_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state"
+  ],
+  "new_source_model_fits": 0,
+  "next_program": "V837ar_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR",
+  "predictive_response_rank_99": {
+    "conditional_routing": 4,
+    "delayed_recall": 1,
+    "iterative_state": 3
+  },
+  "primitive_archive_allowed_next": false,
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "program": "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION",
+  "reality_gate_pass": true,
+  "required_plots": [
+    "aq2_reality_nrmse.png",
+    "compact_localization_pass_fraction.png",
+    "composition_pass_fraction.png",
+    "control_margin_by_family.png",
+    "cross_organism_disagreement.png",
+    "evidence_ladder.png",
+    "heldout_operator_pass.png",
+    "historical_robustness.png",
+    "localization_support_size.png",
+    "meta_operator_vs_program.png",
+    "operator_order.png",
+    "operator_pass_fraction.png",
+    "operator_response_nrmse.png",
+    "predictive_hankel_rank.png"
+  ],
+  "resource_accounting": {
+    "all_accounted": true,
+    "composition_organism_rows": 17,
+    "coordinate_free_response_tensor_rows": 15638,
+    "cross_organism_q_alignment": false,
+    "cross_organism_state_alignment": false,
+    "fresh_audit_episodes": 0,
+    "gpu_seconds": 0.0,
+    "heldout_organism_rows": 12,
+    "hidden_state_set_primary_evidence": false,
+    "incompetent_control_rows": 3,
+    "localization_prefix_masks": 63,
+    "localization_random_control_masks": 1008,
+    "localization_singleton_masks": 2108,
+    "meta_organism_rows": 17,
+    "new_source_model_fits": 0,
+    "note": "Counts are exact artifact/evaluation-row counts; low-level framework forward-call batching is intentionally not reconstructed from wall-clock logs.",
+    "operator_discovery_organism_rows": 21,
+    "primitive_archive_population": false,
+    "primitives_promoted": 0,
+    "reality_response_rows": 5712,
+    "source_architecture_changes": 0,
+    "source_optimizer_steps": 0,
+    "source_training_examples": 0,
+    "v838_started": false,
+    "version": "V837aq"
+  },
+  "second_order_required_families": [
+    "conditional_routing"
+  ],
+  "source_optimizer_steps": 0,
+  "strongest_scientific_claim": "Three powered families exhibit oracle-relative, coordinate-free causal response operators that reproduce across independent organisms and held-out organisms; only iterative state satisfies the frozen discovery+META+heldout composition closure, so broad program-level compositional closure is not established.",
+  "v838_started": false,
+  "version": "V837aq"
+}

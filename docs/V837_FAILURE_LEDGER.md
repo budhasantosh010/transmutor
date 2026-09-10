@@ -10686,3 +10686,393 @@ Append-only research memory. Older failure entries and measurements must never b
 - **Interpretation:** After the CSV portability repair, the active validator reached the historical V837 frozen gate and failed for the same CRLF-versus-LF byte-normalization reason even though the parsed gate content was unchanged.
 - **Do not repeat unchanged:** True
 - **Artifacts:** experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837aq-BACKFILL-V837ap-NO-CAUSAL-SET-CLOSED-GEOMETRY - V837aq / AQ0_PREDECESSOR_FORENSICS
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['no powered family satisfied the complete valid causal SET/control gate']
+- **Interpretation:** V837ap established that some low-dimensional projected representations decode semantics but no powered family survived its complete valid causal SET/control gate. Quotient, dynamical commutativity, and heldout failures must not be claimed because those stages received zero candidates. Engineering-invalid configurations remain non-scientific rows.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837ap/diagnostics/decision_state.json, experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json
+
+## V837aq-AQ3-variable_composition-3c973361eb5f30 - V837aq / AQ3_AQ5_OPERATOR_EQUIVALENCE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['direction_agreement', 'control:wrong_family']
+- **Interpretation:** This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json
+
+## V837aq-AQ3-variable_composition-509adf634e9239 - V837aq / AQ3_AQ5_OPERATOR_EQUIVALENCE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / 509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['direction_agreement', 'control:wrong_family']
+- **Interpretation:** This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json
+
+## V837aq-AQ3-variable_composition-c47f49ec1075be - V837aq / AQ3_AQ5_OPERATOR_EQUIVALENCE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['direction_agreement', 'control:wrong_family']
+- **Interpretation:** This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json
+
+## V837aq-AQ3-variable_composition-c7d65070af63bd - V837aq / AQ3_AQ5_OPERATOR_EQUIVALENCE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['direction_agreement', 'control:wrong_family']
+- **Interpretation:** This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json
+
+## V837aq-ENG-AQ4-ALL-FAMILIES-AND-INCOMPETENT-DEDUP - V837aq / AQ4_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_DOWNSTREAM_LOCALIZATION
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['AQ4_COVERAGE', 'INCOMPETENT_DEDUP']
+- **Interpretation:** The first AQ3-AQ5 runner skipped the AQ4 oracle interaction audit for first-order-failing variable composition and duplicated one incompetent summary row. No threshold or source result changed. The run is discarded for final AQ4/negative-control classification and rerun after repair.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-conditional_routing-08132afbb63d79 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a
+- **Operator:** order=2 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-conditional_routing-16edca7d57b2bc - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1
+- **Operator:** order=2 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-conditional_routing-31ef9793f36b01 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726
+- **Operator:** order=2 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-conditional_routing-55d8f75d1c5e03 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0
+- **Operator:** order=2 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-conditional_routing-8fac17f9eba911 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / 8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61
+- **Operator:** order=2 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-delayed_recall-0be47e156b3732 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['localization controls']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-delayed_recall-3edfaa94e8425d - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['localization controls']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-delayed_recall-495486448fb576 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['localization controls']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-delayed_recall-54bfdc6b05dc7c - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['localization controls']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-delayed_recall-659a9f4309ec4b - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-delayed_recall-8f8da93ac7053b - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / 8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['localization controls']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-iterative_state-036aed3c87774e - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-iterative_state-35f4b5e3c0f42a - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-iterative_state-377d60546a105c - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-iterative_state-3d0358b5b0a40b - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-iterative_state-681b5942c20395 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ6-iterative_state-8850121fdbda18 - V837aq / AQ6_AQ7_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / 8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7
+- **Operator:** order=1 intervention=PRIMARY_OPERATOR_COUNTERFACTUAL phase=None horizon=None
+- **Failed conditions:** ['no compact controlled support']
+- **Interpretation:** The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component×phase support under the frozen localization search.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ8-conditional_routing - V837aq / AQ8_OPERATOR_COMPOSITION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / None
+- **Operator:** order=2 intervention=None phase=None horizon=None
+- **Failed conditions:** ['composition family gate']
+- **Interpretation:** The external causal operator did not compose reliably under the frozen compound intervention word.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-AQ8-delayed_recall - V837aq / AQ8_OPERATOR_COMPOSITION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / None
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['composition family gate']
+- **Interpretation:** The external causal operator did not compose reliably under the frozen compound intervention word.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-ENG-AQ6-DRAFT-POLICY-MISMATCH - V837aq / AQ6_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / DISCARDED_BEFORE_HELDOUT_AND_FINAL_DECISION
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['LOCALIZATION_POLICY_MISMATCH']
+- **Interpretation:** A parallel draft localization runner used 32 random-mask controls instead of the already-frozen 16-mask policy. Its output is discarded and cannot support any scientific conclusion.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-ENG-AQ9-AGGREGATE-METRIC-RANK - V837aq / AQ9_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / DISCARDED_BEFORE_FREEZE_REPAIR_AND_HELDOUT
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['PREDICTIVE_MATRIX_WRONG_OBJECT']
+- **Interpretation:** The first non-gating AQ9 draft computed rank from aggregate operator metrics rather than the predictive response/Hankel matrix specified by V837aq. Those rank values are discarded.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-ENG-AQ3-RESPONSE-TENSOR-PERSISTENCE - V837aq / AQ3_ENGINEERING
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_FINAL_AQ9_AND_HELDOUT
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['RESPONSE_TENSOR_ARTIFACT_MISSING']
+- **Interpretation:** The AQ3 summary metrics were valid, but the first runner omitted the detailed per-family response tensor files needed by the predictive-state diagnostic. The tensors are deterministically re-exported from the same frozen AQ_OPERATOR_SELECT cases without changing gates.
+- **Do not repeat unchanged:** True
+- **Artifacts:**
+
+## V837aq-ENG-PREDICTIVE-TEST-CANONICALIZATION - V837aq / AQ9_PREDICTIVE_CAUSAL_STATE
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_SCIENTIFIC_INTERPRETATION
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['MEANINGFUL_FUTURE_TEST_COLUMNS_DROPPED']
+- **Interpretation:** The first Hankel diagnostic keyed tests too literally, leaving only zero-effect columns. It was engineering-invalid and was replaced before scientific interpretation with semantic test canonicalization.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/predictive_state_diagnostic.json
+
+## V837aq-AQ3-variable-composition-family - V837aq / AQ3_AQ5_OPERATOR_EQUIVALENCE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** variable_composition / None
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['FAMILY_OPERATOR_GATE_FAIL']
+- **Interpretation:** Variable composition did not satisfy the frozen first-order oracle-relative operator plus specificity-control gate in any discovery organism; second-order terms cannot rescue a failed single-intervention contract.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json, experiments/v837_primitive_invention/v837aq/raw/localization_results.json, experiments/v837_primitive_invention/v837aq/raw/composition_results.json, experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json
+
+## V837aq-AQ6-routing-compact-support - V837aq / AQ6_AQ7_SPATIOTEMPORAL_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / None
+- **Operator:** order=2 intervention=None phase=None horizon=None
+- **Failed conditions:** ['COMPACT_SUPPORT_0_OF_5']
+- **Interpretation:** Routing has a robust coordinate-free operator but no <=8-unit paired-natural spatiotemporal support mask passed the frozen preservation/control gate.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json, experiments/v837_primitive_invention/v837aq/raw/localization_results.json, experiments/v837_primitive_invention/v837aq/raw/composition_results.json, experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json
+
+## V837aq-AQ6-iterative-compact-support - V837aq / AQ6_AQ7_SPATIOTEMPORAL_LOCALIZATION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** iterative_state / None
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['COMPACT_SUPPORT_0_OF_6']
+- **Interpretation:** Iterative state has a robust coordinate-free operator but no <=8-unit paired-natural spatiotemporal support mask passed the frozen preservation/control gate.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json, experiments/v837_primitive_invention/v837aq/raw/localization_results.json, experiments/v837_primitive_invention/v837aq/raw/composition_results.json, experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json
+
+## V837aq-AQ8-routing-composition - V837aq / AQ8_OPERATOR_COMPOSITION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** conditional_routing / None
+- **Operator:** order=2 intervention=None phase=None horizon=None
+- **Failed conditions:** ['COMPOSITION_FAMILY_GATE_2_OF_5']
+- **Interpretation:** Routing operator identity is established, but the frozen compound program-word test passed only 2/5 discovery organisms; operator identity must not be conflated with compositional closure.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json, experiments/v837_primitive_invention/v837aq/raw/localization_results.json, experiments/v837_primitive_invention/v837aq/raw/composition_results.json, experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json
+
+## V837aq-AQ8-recall-composition - V837aq / AQ8_OPERATOR_COMPOSITION
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / None
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['COMPOSITION_FAMILY_GATE_1_OF_6']
+- **Interpretation:** Recall operator identity is established, but the frozen compound program-word test passed only 1/6 discovery organisms; heldout success later cannot rescue this discovery failure.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json, experiments/v837_primitive_invention/v837aq/raw/localization_results.json, experiments/v837_primitive_invention/v837aq/raw/composition_results.json, experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json
+
+## V837aq-AQ6-recall-localization-meta - V837aq / AQ_META_CONFIRM
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / organism:** delayed_recall / None
+- **Operator:** order=1 intervention=None phase=None horizon=None
+- **Failed conditions:** ['COMPACT_LOCALIZATION_META_3_OF_6_BELOW_4_REQUIRED']
+- **Interpretation:** Recall compact spatiotemporal support passed discovery 4/6 but only 3/6 on META, so compact localization remains suggestive rather than a robust final family-level qualifier.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json, experiments/v837_primitive_invention/v837aq/raw/localization_results.json, experiments/v837_primitive_invention/v837aq/raw/composition_results.json, experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json
+
+## V837aq-ENG-AQ11-REALITY-ARTIFACT-PATH - V837aq / AQ11_ANALYZE
+
+- **Type:** ENGINEERING_FAILURE / FIXED_BEFORE_FINAL_DIAGNOSIS
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['ANALYZER_READ_WRONG_REALITY_ARTIFACT']
+- **Interpretation:** AQ11 initially emitted PROGRAM_OPERATOR_MEASUREMENT_INVALID because the analyzer referenced a nonexistent reality artifact path. AQ2 itself remained 6/6 PASS and was not rerun or changed.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/operator_reality_gate.json
+
+## V837aq-ENG-TEST-OPERATOR-IR-API - V837aq / VALIDATION
+
+- **Type:** ENGINEERING_FAILURE / FIXED_DURING_VALIDATION
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['FOCUSED_TEST_COLLECTION_IMPORT_ERROR']
+- **Interpretation:** Focused tests initially imported a nonexistent helper name. The test was corrected to the existing frozen operator_ir API; science artifacts were unchanged.
+- **Do not repeat unchanged:** True
+- **Artifacts:** tests/test_v837aq_program_level_causal_operator_localization.py
+
+## V837aq-ENG-VALIDATOR-NATURAL-INTERVENTION-MANIFEST - V837aq / VALIDATION
+
+- **Type:** ENGINEERING_FAILURE / FIXED_DURING_VALIDATION
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['DEDICATED_VALIDATOR_MISSING_AUDIT_SNAPSHOT']
+- **Interpretation:** The semantic intervention library existed in executable code and had already powered V837aq, but its explicit machine-readable audit snapshot was omitted. The deterministic manifest was materialized without changing science, thresholds, source models, or held-out evidence.
+- **Do not repeat unchanged:** True
+- **Artifacts:** experiments/v837_primitive_invention/v837aq/raw/natural_intervention_library.json, scripts/validate_v837_program_level_causal_operator_localization.py
+
+## V837aq-ENG-PREEXISTING-LEGACY-VALIDATION-BASELINE - V837aq / REPOSITORY_CLOSEOUT_VALIDATION
+
+- **Type:** ENGINEERING_FAILURE / PRE_EXISTING_BASELINE_FAILURE_NOT_V837AQ
+- **Family / organism:** None / None
+- **Operator:** order=None intervention=None phase=None horizon=None
+- **Failed conditions:** ['legacy tests hardcode stale V837 gate SHA', 'legacy registry/experiments.csv byte hash predates evolving registry', 'V837ai config contains mutually inconsistent historical gate hashes', 'active validator V837af guard inherits stale historical gate SHA']
+- **Interpretation:** Repository-wide validation is blocked by confirmed pre-existing historical-hash inconsistencies in current START-SHA/HEAD predecessor files. V837aq focused tests, dedicated validator, source locks, and protected-history checks pass; no predecessor science is altered to mask the stale assertions.
+- **Do not repeat unchanged:** True
+- **Artifacts:** tests/test_v837_research.py, tests/test_v837d_representation.py, tests/test_v837q_state_organization.py, tests/test_v837ai_af1d_sample_efficiency.py, experiments/v837_primitive_invention/v837ai/config.json, verification/active_research_sha256.txt

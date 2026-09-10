@@ -1,0 +1,406 @@
+{
+  "families": {
+    "conditional_routing": {
+      "composition_pass": false,
+      "family": "conditional_routing",
+      "frozen_control_baseline": {
+        "endpoint_profile": {
+          "CONTROL_FLIP": -0.09077030200751324,
+          "PAYLOAD_A_PERTURB": -0.00902331375364156,
+          "PAYLOAD_B_PERTURB": 0.0019592524393374335,
+          "WRONG_PHASE_NUISANCE": -0.0017222925900568953
+        },
+        "family": "conditional_routing",
+        "feature_schema": [
+          "intercept",
+          "actual_delta",
+          "time_index/10",
+          "1/horizon",
+          "actual_delta/horizon"
+        ],
+        "fit_source": "pooled discovery organisms / AQ_OPERATOR_FIT",
+        "generic_beta": [
+          -0.01025841727258874,
+          0.03882268461687756,
+          0.0,
+          -0.010258417272588728,
+          0.03882268461687765
+        ],
+        "heldout_rows_used": 0
+      },
+      "heldout_operator_refit": false,
+      "hidden_state_set_primary_evidence": false,
+      "localization": {
+        "compact_spatiotemporal_support": false,
+        "gate": {
+          "both_engines": false,
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "median_selected_units": null
+      },
+      "meta_gate": {
+        "cross_organism": {
+          "median_prediction_std_normalized": 0.015830906813628177,
+          "organisms": 5,
+          "p90_pairwise_disagreement_normalized": 0.0759532332420349,
+          "pass": true,
+          "q_alignment_used": false,
+          "state_alignment_used": false
+        },
+        "gate": {
+          "both_engines": true,
+          "organisms": 5,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 5,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 3
+        },
+        "operator_order": 2,
+        "pass": true
+      },
+      "no_cross_organism_state_alignment": true,
+      "operator_gate": {
+        "competent_minus_incompetent_pass_rate": 1.0,
+        "cross_organism": {
+          "median_prediction_std_normalized": 0.013586251093054062,
+          "organisms": 5,
+          "p90_pairwise_disagreement_normalized": 0.07063128873705864,
+          "pass": true,
+          "q_alignment_used": false,
+          "state_alignment_used": false
+        },
+        "first_order_gate": {
+          "both_engines": true,
+          "organisms": 5,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 5,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 3
+        },
+        "historical_incompetent_available": 1,
+        "historical_incompetent_pass_rate": 0.0,
+        "incompetent_specificity_pass": true,
+        "interaction": {
+          "gate": {
+            "both_engines": true,
+            "organisms": 5,
+            "pass": true,
+            "pass_fraction": 1.0,
+            "passing": 5,
+            "passing_engines": [
+              "DIRECTED_STRUCTURAL_SEARCH",
+              "RANDOM_STRUCTURAL_SAMPLER"
+            ],
+            "required": 3
+          },
+          "pass": true,
+          "second_order_required": true
+        },
+        "operator_order": 2,
+        "pass": true,
+        "pass_before_interaction": true
+      },
+      "operator_order": 2,
+      "predictive_state": null,
+      "program_ir": {
+        "causal_response_law": "control selects which payload has unit downstream influence; the unselected payload has near-zero influence",
+        "composition_rule": "SELECT(LOAD(A,B), CONTROL)",
+        "inputs": [
+          "control",
+          "payload_a",
+          "payload_b"
+        ],
+        "name": "SELECT",
+        "temporal_contract": [
+          "CONTROL",
+          "PAYLOAD_A",
+          "PAYLOAD_B",
+          "SELECT"
+        ]
+      },
+      "semantic_intervention_only": true
+    },
+    "delayed_recall": {
+      "composition_pass": false,
+      "family": "delayed_recall",
+      "frozen_control_baseline": {
+        "endpoint_profile": {
+          "DELAY_EXTEND": 0.0005307799049963554,
+          "DELAY_SHORTEN": -0.0018547331293423972,
+          "DISTRACTOR_FLIP": 0.00563385237991396,
+          "QUERY_NUISANCE": 3.9550165335337323e-07,
+          "WRITE_FLIP": 0.19143675694552562
+        },
+        "family": "delayed_recall",
+        "feature_schema": [
+          "intercept",
+          "actual_delta",
+          "time_index/10",
+          "1/horizon",
+          "actual_delta/horizon"
+        ],
+        "fit_source": "pooled discovery organisms / AQ_OPERATOR_FIT",
+        "generic_beta": [
+          -0.0009115898895481458,
+          0.2607088985121581,
+          0.0,
+          -0.0009115898895482588,
+          0.26070889851215884
+        ],
+        "heldout_rows_used": 0
+      },
+      "heldout_operator_refit": false,
+      "hidden_state_set_primary_evidence": false,
+      "localization": {
+        "compact_spatiotemporal_support": false,
+        "gate": {
+          "both_engines": false,
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "median_selected_units": 4.0
+      },
+      "meta_gate": {
+        "cross_organism": {
+          "median_prediction_std_normalized": 0.00020435801004381905,
+          "organisms": 6,
+          "p90_pairwise_disagreement_normalized": 0.003995656967163087,
+          "pass": true,
+          "q_alignment_used": false,
+          "state_alignment_used": false
+        },
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "operator_order": 1,
+        "pass": true
+      },
+      "no_cross_organism_state_alignment": true,
+      "operator_gate": {
+        "competent_minus_incompetent_pass_rate": null,
+        "cross_organism": {
+          "median_prediction_std_normalized": 0.00023867162325606588,
+          "organisms": 6,
+          "p90_pairwise_disagreement_normalized": 0.004423296451568604,
+          "pass": true,
+          "q_alignment_used": false,
+          "state_alignment_used": false
+        },
+        "first_order_gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "historical_incompetent_available": 0,
+        "historical_incompetent_pass_rate": null,
+        "incompetent_specificity_pass": true,
+        "interaction": {
+          "gate": {
+            "both_engines": true,
+            "organisms": 6,
+            "pass": true,
+            "pass_fraction": 1.0,
+            "passing": 6,
+            "passing_engines": [
+              "DIRECTED_STRUCTURAL_SEARCH",
+              "RANDOM_STRUCTURAL_SAMPLER"
+            ],
+            "required": 4
+          },
+          "pass": true,
+          "second_order_required": false
+        },
+        "operator_order": 1,
+        "pass": true,
+        "pass_before_interaction": true
+      },
+      "operator_order": 1,
+      "predictive_state": null,
+      "program_ir": {
+        "causal_response_law": "write value persists through delay; distractors and query nuisance do not alter the remembered semantic value",
+        "composition_rule": "READ(HOLD^n(WRITE(v))) = v",
+        "inputs": [
+          "write_value",
+          "distractors",
+          "delay",
+          "query"
+        ],
+        "name": "WRITE_HOLD_READ",
+        "temporal_contract": [
+          "WRITE",
+          "HOLD^n",
+          "READ"
+        ]
+      },
+      "semantic_intervention_only": true
+    },
+    "iterative_state": {
+      "composition_pass": true,
+      "family": "iterative_state",
+      "frozen_control_baseline": {
+        "endpoint_profile": {
+          "INPUT_PERTURB": 0.014533074340839227,
+          "WRONG_PHASE_NUISANCE": -0.00021378385038891187
+        },
+        "family": "iterative_state",
+        "feature_schema": [
+          "intercept",
+          "actual_delta",
+          "time_index/10",
+          "1/horizon",
+          "actual_delta/horizon"
+        ],
+        "fit_source": "pooled discovery organisms / AQ_OPERATOR_FIT",
+        "generic_beta": [
+          -0.004569926123561862,
+          -0.0006622905161225087,
+          -0.010448318830573304,
+          0.002226497397282999,
+          0.37914519485907355
+        ],
+        "heldout_rows_used": 0
+      },
+      "heldout_operator_refit": false,
+      "hidden_state_set_primary_evidence": false,
+      "localization": {
+        "compact_spatiotemporal_support": false,
+        "gate": {
+          "both_engines": false,
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "median_selected_units": null
+      },
+      "meta_gate": {
+        "cross_organism": {
+          "median_prediction_std_normalized": 0.0027786536788413415,
+          "organisms": 6,
+          "p90_pairwise_disagreement_normalized": 0.00971995741128922,
+          "pass": true,
+          "q_alignment_used": false,
+          "state_alignment_used": false
+        },
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "operator_order": 1,
+        "pass": true
+      },
+      "no_cross_organism_state_alignment": true,
+      "operator_gate": {
+        "competent_minus_incompetent_pass_rate": null,
+        "cross_organism": {
+          "median_prediction_std_normalized": 0.002830232142043442,
+          "organisms": 6,
+          "p90_pairwise_disagreement_normalized": 0.010308516025543214,
+          "pass": true,
+          "q_alignment_used": false,
+          "state_alignment_used": false
+        },
+        "first_order_gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "historical_incompetent_available": 0,
+        "historical_incompetent_pass_rate": null,
+        "incompetent_specificity_pass": true,
+        "interaction": {
+          "gate": {
+            "both_engines": true,
+            "organisms": 6,
+            "pass": true,
+            "pass_fraction": 1.0,
+            "passing": 6,
+            "passing_engines": [
+              "DIRECTED_STRUCTURAL_SEARCH",
+              "RANDOM_STRUCTURAL_SAMPLER"
+            ],
+            "required": 4
+          },
+          "pass": true,
+          "second_order_required": false
+        },
+        "operator_order": 1,
+        "pass": true,
+        "pass_before_interaction": true
+      },
+      "operator_order": 1,
+      "predictive_state": null,
+      "program_ir": {
+        "causal_response_law": "delta z_{t+h}=0.35*(0.65**(h-1))*delta x_t",
+        "composition_rule": "U(x2) o U(x1)",
+        "inputs": [
+          "x_t"
+        ],
+        "name": "ACCUMULATE",
+        "temporal_contract": [
+          "ITERATE"
+        ]
+      },
+      "semantic_intervention_only": true
+    }
+  },
+  "fresh_audit_consumed": false,
+  "frozen_before_any_heldout_operator_result": true,
+  "frozen_sha256": "26764d2e61109899fde8524d16c56098d4263316a348bb31d224fbc1be1a06b3",
+  "geometry_or_neural_alignment": false,
+  "heldout_rows_read_before_freeze": 0,
+  "primitives_promoted": 0,
+  "stage": "AQ10_PRE_HELDOUT_FREEZE",
+  "v838_started": false,
+  "version": "V837aq"
+}

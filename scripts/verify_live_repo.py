@@ -934,6 +934,57 @@ def main() -> int:
     if ap_decision.get("next_program") != "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION":
         raise RuntimeError("V837ap next-program decision changed")
 
+    # V837aq program-level causal operator localization. The primary invariant
+    # is a coordinate-free semantic intervention-response operator; later
+    # held-out success may not rescue a frozen discovery composition failure.
+    aq_record = manifest["current_variants"].get("V837aq")
+    if not isinstance(aq_record, dict):
+        raise RuntimeError("verification manifest missing V837aq")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw", "models"):
+        for relative in aq_record.get(key, []):
+            require_path(relative)
+    require_path(aq_record["config"])
+    require_path(aq_record["frozen_gate"])
+    require_path(aq_record["results"])
+    aq = load_json(aq_record["results"])
+    aq_reality = load_json("experiments/v837_primitive_invention/v837aq/raw/operator_reality_gate.json")
+    aq_discovery = load_json("experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json")
+    aq_meta = load_json("experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json")
+    aq_freeze = load_json("experiments/v837_primitive_invention/v837aq/raw/frozen_program_operator_contracts.json")
+    aq_heldout = load_json("experiments/v837_primitive_invention/v837aq/raw/heldout_confirmation.json")
+    aq_history = load_json("experiments/v837_primitive_invention/v837aq/raw/historical_validation_robustness.json")
+    aq_ledger = load_json("experiments/v837_primitive_invention/v837aq/raw/failure_ledger.json")
+    aq_status = load_json("experiments/v837_primitive_invention/program_level_causal_operator_localization_program_status.json")
+    if aq.get("version") != "V837aq" or aq.get("diagnosis") != "CAUSAL_OPERATOR_FOUND_NOT_COMPOSITIONALLY_CLOSED":
+        raise RuntimeError("V837aq final diagnosis changed")
+    if aq_reality.get("pass") is not True or aq_reality.get("family_gate", {}).get("passing") != 6 or aq_reality.get("family_gate", {}).get("both_engines") is not True:
+        raise RuntimeError("V837aq operator reality gate changed")
+    expected_operator_families = ["conditional_routing", "delayed_recall", "iterative_state"]
+    if aq_discovery.get("accepted_families") != expected_operator_families or aq_discovery.get("operator_family_count") != 3:
+        raise RuntimeError("V837aq discovery operator-family outcome changed")
+    if aq_meta.get("confirmed_families") != expected_operator_families or aq_meta.get("confirmed_family_count") != 3:
+        raise RuntimeError("V837aq META operator confirmation changed")
+    if aq_freeze.get("heldout_results_read") is not False or aq_freeze.get("family_contracts", {}).get("variable_composition") is not None:
+        raise RuntimeError("V837aq pre-heldout freeze/isolation changed")
+    if aq_heldout.get("heldout_confirmed_families") != expected_operator_families or aq_heldout.get("heldout_confirmed_family_count") != 3:
+        raise RuntimeError("V837aq heldout operator confirmation changed")
+    if aq_heldout.get("operator_refit") is not False or aq_heldout.get("hyperparameter_search") is not False:
+        raise RuntimeError("V837aq heldout no-refit contract changed")
+    if aq.get("globally_compositionally_closed_families") != ["iterative_state"] or aq.get("broad_program_composition_established") is not False:
+        raise RuntimeError("V837aq composition boundary changed")
+    if aq_history.get("descriptive_only") is not True or aq_history.get("can_rescue_failed_discovery_or_meta") is not False:
+        raise RuntimeError("V837aq historical robustness rescue boundary changed")
+    if len(aq_record.get("plots", [])) != 14:
+        raise RuntimeError("V837aq required plot count changed")
+    if aq.get("failure_memory_entries") != len(aq_ledger.get("entries", [])):
+        raise RuntimeError("V837aq failure-memory accounting disagrees with machine ledger")
+    if aq.get("fresh_audit_consumed") is not False or aq.get("primitive_archive_allowed_next") is not False or aq.get("primitive_archive_population") is not False or aq.get("primitives_promoted") != 0 or aq.get("v838_started") is not False:
+        raise RuntimeError("V837aq violated audit/archive/promotion/V838 locks")
+    if aq.get("next_program") != "V837ar_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR":
+        raise RuntimeError("V837aq next-program decision changed")
+    if aq_status.get("diagnosis") != aq.get("diagnosis") or aq_status.get("heldout_confirmed_operator_family_count") != 3 or aq_status.get("globally_compositionally_closed_families") != ["iterative_state"]:
+        raise RuntimeError("V837aq program status disagrees with results")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

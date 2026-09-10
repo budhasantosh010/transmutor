@@ -1,0 +1,82 @@
+{
+  "version": "V837aq",
+  "program": "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION",
+  "start_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+  "required_branch": "research/v837-program-level-causal-operator-localization",
+  "powered_families": ["conditional_routing", "delayed_recall", "iterative_state", "variable_composition"],
+  "partial_observation_status": "UNRESOLVED_UNDERPOWERED_PREDECESSOR_FAMILY",
+  "operator_orders": [1, 2],
+  "fresh_audit_consumed": false,
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "v838_started": false,
+  "reality_gate": {
+    "family": "iterative_state",
+    "response_nrmse_max": 0.08,
+    "pearson_min": 0.90,
+    "direction_agreement_min": 0.90,
+    "perturbed_task_success_min": 0.85,
+    "gain_ratio_min": 0.75,
+    "gain_ratio_max": 1.25,
+    "family_pass_fraction_min": 0.60,
+    "both_engines_required": true,
+    "kill_on_failure": true
+  },
+  "operator_gate": {
+    "response_nrmse_max": 0.10,
+    "pearson_min": 0.85,
+    "direction_agreement_min": 0.85,
+    "perturbed_task_success_min": 0.80,
+    "zero_effect_median_abs_max": 0.10,
+    "family_pass_fraction_min": 0.60,
+    "both_engines_required": true
+  },
+  "control_gate": {
+    "time_shuffle_error_margin_min": 0.03,
+    "magnitude_shuffle_error_margin_min": 0.03,
+    "wrong_family_error_margin_min": 0.03,
+    "generic_regression_error_margin_min": 0.0,
+    "incompetent_pass_rate_advantage_min_when_available": 0.25
+  },
+  "interaction_gate": {
+    "second_order_required_oracle_median_abs_min": 0.05,
+    "second_order_required_oracle_p90_abs_min": 0.10,
+    "interaction_nrmse_max": 0.10,
+    "interaction_direction_min": 0.80
+  },
+  "cross_organism_gate": {
+    "median_prediction_std_normalized_max": 0.10,
+    "p90_pairwise_disagreement_normalized_max": 0.20
+  },
+  "localization_gate": {
+    "response_preservation_median_min": 0.80,
+    "response_preservation_p25_min": 0.60,
+    "random_mask_margin_min": 0.20,
+    "time_shuffle_margin_min": 0.20,
+    "max_compact_units": 8,
+    "prefix_sizes": [1, 2, 4, 8]
+  },
+  "composition_gate": {
+    "response_nrmse_max": 0.10,
+    "direction_agreement_min": 0.85,
+    "perturbed_task_success_min": 0.80
+  },
+  "predictive_state": {
+    "energy_fraction": 0.99,
+    "compact_rank_max": 4,
+    "run_only_if_operator_passes_and_composition_or_context_closure_fails": true
+  },
+  "heldout_gate": {
+    "organisms_required": 3,
+    "directed_required": 1,
+    "random_required": 1,
+    "no_operator_refit": true
+  },
+  "resource_locks": {
+    "new_source_model_fits": 0,
+    "source_optimizer_steps": 0,
+    "source_training_examples": 0,
+    "source_architecture_changes": 0,
+    "gpu_expected": 0
+  }
+}

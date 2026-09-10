@@ -877,6 +877,9 @@ def main() -> int:
     validate_v837_representation_recovery()
     validate_v837_learned_reference_calibration()
     validate_v837_gru_mechanism_localization()
+    program_operator_validator = ROOT / "scripts" / "validate_v837_program_level_causal_operator_localization.py"
+    if program_operator_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837aq" / "results.json").exists():
+        _run_validator(program_operator_validator, run_name="__main__")
     nonlinear_state_validator = ROOT / "scripts" / "validate_v837_global_coordinate_or_nonlinear_state.py"
     if nonlinear_state_validator.exists() and (ROOT / "experiments" / "v837_primitive_invention" / "v837ap" / "results.json").exists():
         _run_validator(nonlinear_state_validator, run_name="__main__")

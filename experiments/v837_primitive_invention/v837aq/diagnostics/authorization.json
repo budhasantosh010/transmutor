@@ -1,0 +1,17 @@
+{
+  "authorized": true,
+  "competent_organisms": 40,
+  "fresh_audit_consumed": false,
+  "hidden_state_set_primary_evidence": false,
+  "incompetent_organisms": 10,
+  "new_source_model_fits": 0,
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "source_optimizer_steps": 0,
+  "source_organisms": 50,
+  "start_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+  "v837ap_diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED",
+  "v837ap_next_program": "V837aq_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION",
+  "v838_started": false,
+  "version": "V837aq"
+}

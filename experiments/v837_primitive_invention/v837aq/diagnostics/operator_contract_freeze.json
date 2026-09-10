@@ -1,0 +1,203 @@
+{
+  "confirmed_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state"
+  ],
+  "contract_sha256": "461faadf9cb9cc1262c9a288236c08875ae5212685bb8dd06e6a4ed92768d9af",
+  "family_contracts": {
+    "conditional_routing": {
+      "compact_spatiotemporal_support": false,
+      "composition_gate": {
+        "gate": {
+          "both_engines": true,
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.4,
+          "passing": 2,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 3
+        },
+        "operator_word": "SELECT o LOAD o CONTROL",
+        "pass": false
+      },
+      "compositionally_closed_in_discovery": false,
+      "coordinate_free": true,
+      "family": "conditional_routing",
+      "heldout_results_read_before_freeze": false,
+      "hidden_state_alignment": false,
+      "interaction_gate": {
+        "gate": {
+          "both_engines": true,
+          "organisms": 5,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 5,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 3
+        },
+        "pass": true,
+        "second_order_required": true
+      },
+      "localization_summary": {
+        "compact_support_gate": {
+          "both_engines": false,
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 3
+        },
+        "median_winner_units": null,
+        "pass": false
+      },
+      "meta_confirmed_operator": true,
+      "operator_order": 2,
+      "oracle_relative": true,
+      "program_closed_in_meta": false,
+      "q_alignment": false,
+      "response_object": "finite-horizon semantic intervention-response tensor",
+      "second_order_required": true,
+      "semantic_contract": "SELECT(control,payload_A,payload_B)"
+    },
+    "delayed_recall": {
+      "compact_spatiotemporal_support": true,
+      "composition_gate": {
+        "gate": {
+          "both_engines": false,
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.16666666666666666,
+          "passing": 1,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH"
+          ],
+          "required": 4
+        },
+        "operator_word": "READ o HOLD^n o WRITE",
+        "pass": false
+      },
+      "compositionally_closed_in_discovery": false,
+      "coordinate_free": true,
+      "family": "delayed_recall",
+      "heldout_results_read_before_freeze": false,
+      "hidden_state_alignment": false,
+      "interaction_gate": {
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "pass": true,
+        "second_order_required": false
+      },
+      "localization_summary": {
+        "compact_support_gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 0.6666666666666666,
+          "passing": 4,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "median_winner_units": 4.0,
+        "pass": true
+      },
+      "meta_confirmed_operator": true,
+      "operator_order": 1,
+      "oracle_relative": true,
+      "program_closed_in_meta": false,
+      "q_alignment": false,
+      "response_object": "finite-horizon semantic intervention-response tensor",
+      "second_order_required": false,
+      "semantic_contract": "READ(HOLD^n(WRITE(value)))"
+    },
+    "iterative_state": {
+      "compact_spatiotemporal_support": false,
+      "composition_gate": {
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "operator_word": "U(x2) o U(x1)",
+        "pass": true
+      },
+      "compositionally_closed_in_discovery": true,
+      "coordinate_free": true,
+      "family": "iterative_state",
+      "heldout_results_read_before_freeze": false,
+      "hidden_state_alignment": false,
+      "interaction_gate": {
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "pass": true,
+        "second_order_required": false
+      },
+      "localization_summary": {
+        "compact_support_gate": {
+          "both_engines": false,
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.0,
+          "passing": 0,
+          "passing_engines": [],
+          "required": 4
+        },
+        "median_winner_units": null,
+        "pass": false
+      },
+      "meta_confirmed_operator": true,
+      "operator_order": 1,
+      "oracle_relative": true,
+      "program_closed_in_meta": true,
+      "q_alignment": false,
+      "response_object": "finite-horizon semantic intervention-response tensor",
+      "second_order_required": false,
+      "semantic_contract": "z_next=0.65*z+0.35*x"
+    },
+    "variable_composition": null
+  },
+  "fresh_audit_consumed": false,
+  "heldout_results_read": false,
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "stage": "AQ_PRE_HELDOUT_FREEZE",
+  "v838_started": false,
+  "version": "V837aq"
+}

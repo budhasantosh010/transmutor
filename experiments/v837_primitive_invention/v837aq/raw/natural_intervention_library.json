@@ -1,0 +1,57 @@
+{
+  "coordinate_free": true,
+  "families": {
+    "conditional_routing": {
+      "first_order": [
+        "CONTROL_FLIP",
+        "PAYLOAD_A_PERTURB",
+        "PAYLOAD_B_PERTURB",
+        "WRONG_PHASE_NUISANCE"
+      ],
+      "program_word": "SELECT o LOAD o CONTROL",
+      "second_order": [
+        "CONTROL_X_PAYLOAD_A"
+      ]
+    },
+    "delayed_recall": {
+      "first_order": [
+        "WRITE_FLIP",
+        "DISTRACTOR_FLIP",
+        "QUERY_NUISANCE",
+        "DELAY_SHORTEN",
+        "DELAY_EXTEND"
+      ],
+      "program_word": "READ o HOLD^n o WRITE",
+      "second_order": [
+        "WRITE_X_DISTRACTOR"
+      ]
+    },
+    "iterative_state": {
+      "first_order": [
+        "INPUT_PERTURB",
+        "WRONG_PHASE_NUISANCE"
+      ],
+      "oracle_kernel": "0.35*(0.65**(h-1))*delta",
+      "program_word": "U(x2) o U(x1)",
+      "second_order": [
+        "TWO_INPUT_IMPULSES"
+      ]
+    },
+    "variable_composition": {
+      "first_order": [
+        "INITIAL_VALUE_PERTURB",
+        "GAIN_PERTURB",
+        "DRIVE_PERTURB",
+        "WRONG_PHASE_NUISANCE"
+      ],
+      "program_word": "A(g2,d2) o A(g1,d1)",
+      "second_order": [
+        "GAIN_X_DRIVE"
+      ]
+    }
+  },
+  "fresh_audit_consumed": false,
+  "hidden_state_set_used": false,
+  "third_order_forbidden": true,
+  "version": "V837aq"
+}

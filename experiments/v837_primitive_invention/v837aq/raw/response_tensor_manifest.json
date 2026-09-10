@@ -1,0 +1,34 @@
+{
+  "axes": [
+    "intervention",
+    "phase",
+    "magnitude",
+    "context/history",
+    "horizon"
+  ],
+  "coordinate_free": true,
+  "families": {
+    "conditional_routing": {
+      "artifact": "raw/response_tensor_conditional_routing.json",
+      "organisms": 5,
+      "rows": 1920
+    },
+    "delayed_recall": {
+      "artifact": "raw/response_tensor_delayed_recall.json",
+      "organisms": 6,
+      "rows": 3006
+    },
+    "iterative_state": {
+      "artifact": "raw/response_tensor_iterative_state.json",
+      "organisms": 6,
+      "rows": 5592
+    },
+    "variable_composition": {
+      "artifact": "raw/response_tensor_variable_composition.json",
+      "organisms": 4,
+      "rows": 5120
+    }
+  },
+  "stage": "AQ3_CAUSAL_RESPONSE_TENSORS",
+  "version": "V837aq"
+}

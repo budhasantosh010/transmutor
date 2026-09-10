@@ -1,0 +1,47 @@
+{
+  "fresh_audit_unused": true,
+  "pass": true,
+  "roles": {
+    "AQ_COMPOSITION": [
+      11320,
+      11383
+    ],
+    "AQ_HELDOUT_EVAL": [
+      11448,
+      11511
+    ],
+    "AQ_INTERACTION": [
+      11192,
+      11255
+    ],
+    "AQ_LOCALIZATION": [
+      11256,
+      11319
+    ],
+    "AQ_META_CONFIRM": [
+      11384,
+      11447
+    ],
+    "AQ_OPERATOR_FIT": [
+      11064,
+      11127
+    ],
+    "AQ_OPERATOR_SELECT": [
+      11128,
+      11191
+    ],
+    "AQ_REALITY_GATE": [
+      11000,
+      11063
+    ],
+    "FRESH_AUDIT": [
+      90000,
+      90499
+    ],
+    "REUSED_HISTORICAL_VALIDATION": [
+      20000,
+      20127
+    ]
+  },
+  "version": "V837aq"
+}

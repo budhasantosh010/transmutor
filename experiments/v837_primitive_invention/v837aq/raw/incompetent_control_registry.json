@@ -1,0 +1,79 @@
+{
+  "historically_incompetent_total": 10,
+  "interpretation": "All ten historical incompetents are preserved as negative-control evidence; only family-compatible organisms can receive a powered-family oracle operator test without inventing a partial-observation operator contract.",
+  "partial_observation_excluded_primary": 7,
+  "powered_family_compatible": 3,
+  "rows": [
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "final_validation_success": 0.8203125,
+      "organism_id": "3575a2c010e68580baa543ec0dbca76e60c49fe3afde0c4b63cbb4eb2d3f570d",
+      "primary_operator_control_eligible": false
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "final_validation_success": 0.828125,
+      "organism_id": "40165202ccebb2c9bdd4376ea2bb27145c183b75ea7d2e42bc454bc80419835d",
+      "primary_operator_control_eligible": false
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "final_validation_success": 0.8125,
+      "organism_id": "7b3d2c075203dae5698744538a2d7bd75747929dc1e9819ab3f4e013d0bb042a",
+      "primary_operator_control_eligible": false
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "partial_observation",
+      "final_validation_success": 0.7734375,
+      "organism_id": "171409df05f2956769b5b3852009d7855114a8c39066b989e3486bfb99a793e9",
+      "primary_operator_control_eligible": false
+    },
+    {
+      "engine": "DIRECTED_STRUCTURAL_SEARCH",
+      "family": "variable_composition",
+      "final_validation_success": 0.8125,
+      "organism_id": "36530f4d4b90f5a9afff5086c9ea1b260d705a855c29b87c614fe9206d4c9f69",
+      "primary_operator_control_eligible": true
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "conditional_routing",
+      "final_validation_success": 0.796875,
+      "organism_id": "11d148637b3c066e28eb64bfd8527b9339d50ddfbf5ccd4b348481f3c0866bf1",
+      "primary_operator_control_eligible": true
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "partial_observation",
+      "final_validation_success": 0.796875,
+      "organism_id": "aee15c61436a5dd5fd4d1fb2fc8e30fcd1799a361f5186de3ac015920551069a",
+      "primary_operator_control_eligible": false
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "partial_observation",
+      "final_validation_success": 0.828125,
+      "organism_id": "c0b90f723577855136f7ffba42ceddfa51d1f523c05ef2edb86068183372ff4e",
+      "primary_operator_control_eligible": false
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "partial_observation",
+      "final_validation_success": 0.765625,
+      "organism_id": "680a6c2991554cba18110d3760bdefc96d9b1d1fe810d4641730c862e442f6f3",
+      "primary_operator_control_eligible": false
+    },
+    {
+      "engine": "RANDOM_STRUCTURAL_SAMPLER",
+      "family": "variable_composition",
+      "final_validation_success": 0.828125,
+      "organism_id": "1058a1835c015b36b022857f18754fe8813ff67ba9ba3dc292adb9835887b25f",
+      "primary_operator_control_eligible": true
+    }
+  ],
+  "version": "V837aq"
+}

@@ -1,0 +1,70 @@
+{
+  "candidate_unit": "channel x destination-cell(if applicable) x phase",
+  "channels": [
+    "cell_output",
+    "aggregate_message",
+    "global_term",
+    "global_gate"
+  ],
+  "evolutionary_search": false,
+  "gate": {
+    "max_compact_units": 8,
+    "prefix_sizes": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "random_mask_margin_min": 0.2,
+    "response_preservation_median_min": 0.8,
+    "response_preservation_p25_min": 0.6,
+    "time_shuffle_margin_min": 0.2
+  },
+  "hidden_state_set": false,
+  "oracle_effect_eligibility_min": 0.05,
+  "patch_values": "paired-natural counterfactual contributions only; no fabricated hidden state",
+  "phase_groups": {
+    "conditional_routing": [
+      "CONTROL",
+      "PAYLOAD_A",
+      "PAYLOAD_B",
+      "POST_PAYLOAD"
+    ],
+    "delayed_recall": [
+      "WRITE",
+      "HOLD_EARLY",
+      "HOLD_MIDDLE",
+      "HOLD_LATE",
+      "READ"
+    ],
+    "iterative_state": [
+      "EARLY",
+      "MIDDLE",
+      "LATE"
+    ]
+  },
+  "prefix_sizes": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "primary_counterfactuals": {
+    "conditional_routing": "CONTROL_FLIP",
+    "delayed_recall": "WRITE_FLIP",
+    "iterative_state": "MIDDLE_INPUT_PERTURB_MAX_HORIZON"
+  },
+  "random_masks": 16,
+  "ranking": "descending median response preservation on ranking half only; deterministic lexical tie break",
+  "ranking_seeds": [
+    11256,
+    11287
+  ],
+  "selection_partition": "AQ_LOCALIZATION",
+  "stage": "AQ6_AQ7",
+  "verification_seeds": [
+    11288,
+    11319
+  ],
+  "version": "V837aq"
+}

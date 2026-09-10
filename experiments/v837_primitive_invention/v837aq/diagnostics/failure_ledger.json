@@ -1,0 +1,4582 @@
+{
+  "append_only": true,
+  "entries": [
+    {
+      "acceptance_gate": "historical interpretation only",
+      "artifact_hashes": {
+        "metrics_sha256": "ccc0aedd453ca92612ae275c80bf605a22ba30d441f7a44425598178043c4c03"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837ap/diagnostics/decision_state.json",
+        "experiments/v837_primitive_invention/v837ap/raw/failure_ledger.json"
+      ],
+      "branch": "V837ap",
+      "confounds_remaining": [
+        "coordinate-free trajectory operator",
+        "spatiotemporal causal process",
+        "predictive causal state"
+      ],
+      "confounds_ruled_out": [
+        "claiming quotient failure without rows",
+        "claiming commutativity failure without rows",
+        "converting engineering-invalid rows into scientific negatives"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no powered family satisfied the complete valid causal SET/control gate"
+      ],
+      "failure_id": "V837aq-BACKFILL-V837ap-NO-CAUSAL-SET-CLOSED-GEOMETRY",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "commutativity_rows": 0,
+        "engineering_failure_entries": 11,
+        "heldout_rows": 0,
+        "quotient_rows": 0,
+        "reader_candidate_rows": 293,
+        "scientific_failure_entries": 297,
+        "setpoint_rows": 30,
+        "v837ap_diagnosis": "DECODABLE_LOW_DIMENSIONAL_STATE_NOT_CAUSALLY_CLOSED"
+      },
+      "next_justified_experiment": "Run V837aq natural semantic intervention operator reality gate.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "V837ap established that some low-dimensional projected representations decode semantics but no powered family survived its complete valid causal SET/control gate. Quotient, dynamical commutativity, and heldout failures must not be claimed because those stages received zero candidates. Engineering-invalid configurations remain non-scientific rows.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ0_PREDECESSOR_FORENSICS",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-10T23:56:23.210010+04:00",
+      "timestamp_utc": "2026-09-10T19:56:23.210010+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "control_margins": 0.03,
+        "direction_min": 0.85,
+        "pearson_min": 0.85,
+        "response_nrmse_max": 0.1,
+        "task_success_min": 0.8
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "e576426131a40beeff01992ac02ec3e183cefe18a2de6c5be026799fb2e2157e"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json"
+      ],
+      "branch": "FIRST_ORDER_OPERATOR",
+      "confounds_remaining": [
+        "second-order interaction if oracle requires it",
+        "family-specific temporal context"
+      ],
+      "confounds_ruled_out": [
+        "ordinary benchmark competence alone",
+        "hidden-state coordinate alignment",
+        "search-engine negative labeling"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "direction_agreement",
+        "control:wrong_family"
+      ],
+      "failure_id": "V837aq-AQ3-variable_composition-3c973361eb5f30",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "variable_composition",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {
+        "errors": {
+          "endpoint_only_nrmse": 0.04014103147025616,
+          "magnitude_shuffled_nrmse": 0.07763501018872829,
+          "matched_low_order_generic_regression_nrmse": 0.031710507477426715,
+          "time_shuffled_nrmse": 0.06979716598500499,
+          "true_oracle_nrmse": 0.015563546635379443,
+          "wrong_family_template_nrmse": 0.03291136794087076
+        },
+        "failed_conditions": [
+          "wrong_family"
+        ],
+        "margins": {
+          "endpoint_only": 0.02457748483487672,
+          "generic_regression": 0.016146960842047274,
+          "magnitude_shuffle": 0.062071463553348846,
+          "time_shuffle": 0.05423361934962555,
+          "wrong_family": 0.01734782130549132
+        },
+        "pass": false,
+        "seed": 5924550818484286394,
+        "wrong_phase_zero_effect_in_primary_gate": true
+      },
+      "metrics": {
+        "direction_agreement": 0.834703947368421,
+        "gain_ratio": 0.8920743251597654,
+        "n": 1280,
+        "oracle_response_rms": 0.08353675536835016,
+        "pearson": 0.9285880441704488,
+        "perturbed_task_success": 0.90546875,
+        "predicted_response_rms": 0.08025578260371174,
+        "response_mae_normalized": 0.011648662473533558,
+        "response_nrmse": 0.015563546635379443,
+        "zero_effect_median_abs": 0.005211944691836834
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": "3c973361eb5f3023b1efc94c613f195b1a4ec0dc27f5b6844bb291bc0c3d58a8",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ3_AQ5_OPERATOR_EQUIVALENCE",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-10T23:59:07.026000+04:00",
+      "timestamp_utc": "2026-09-10T19:59:07.026000+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "control_margins": 0.03,
+        "direction_min": 0.85,
+        "pearson_min": 0.85,
+        "response_nrmse_max": 0.1,
+        "task_success_min": 0.8
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "0e6c6f8210f4efd20b59100bb2958cd412824c53a1a50419fb3cbd06ac847fd4"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json"
+      ],
+      "branch": "FIRST_ORDER_OPERATOR",
+      "confounds_remaining": [
+        "second-order interaction if oracle requires it",
+        "family-specific temporal context"
+      ],
+      "confounds_ruled_out": [
+        "ordinary benchmark competence alone",
+        "hidden-state coordinate alignment",
+        "search-engine negative labeling"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "direction_agreement",
+        "control:wrong_family"
+      ],
+      "failure_id": "V837aq-AQ3-variable_composition-509adf634e9239",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "variable_composition",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {
+        "errors": {
+          "endpoint_only_nrmse": 0.039278474285416164,
+          "magnitude_shuffled_nrmse": 0.07668813877132022,
+          "matched_low_order_generic_regression_nrmse": 0.03178573140490123,
+          "time_shuffled_nrmse": 0.06881539498163348,
+          "true_oracle_nrmse": 0.015244092181435971,
+          "wrong_family_template_nrmse": 0.033343280675406727
+        },
+        "failed_conditions": [
+          "wrong_family"
+        ],
+        "margins": {
+          "endpoint_only": 0.024034382103980192,
+          "generic_regression": 0.016541639223465257,
+          "magnitude_shuffle": 0.06144404658988425,
+          "time_shuffle": 0.053571302800197514,
+          "wrong_family": 0.018099188493970755
+        },
+        "pass": false,
+        "seed": 7681166569007436425,
+        "wrong_phase_zero_effect_in_primary_gate": true
+      },
+      "metrics": {
+        "direction_agreement": 0.8379934210526315,
+        "gain_ratio": 0.8751952648734989,
+        "n": 1280,
+        "oracle_response_rms": 0.08353675536835016,
+        "pearson": 0.9310977472247671,
+        "perturbed_task_success": 0.9671875,
+        "predicted_response_rms": 0.07852417957250123,
+        "response_mae_normalized": 0.01095691855792281,
+        "response_nrmse": 0.015244092181435971,
+        "zero_effect_median_abs": 0.0031219972297549248
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": "509adf634e9239a12e035856fda2345153cc460d8ede9a3c5e63994c5c711cd3",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ3_AQ5_OPERATOR_EQUIVALENCE",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-10T23:59:07.444944+04:00",
+      "timestamp_utc": "2026-09-10T19:59:07.444944+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "control_margins": 0.03,
+        "direction_min": 0.85,
+        "pearson_min": 0.85,
+        "response_nrmse_max": 0.1,
+        "task_success_min": 0.8
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "9501f3d665e9edac7a4d8881278baf15f09bb20f7956194535a09f921f4fd5ab"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json"
+      ],
+      "branch": "FIRST_ORDER_OPERATOR",
+      "confounds_remaining": [
+        "second-order interaction if oracle requires it",
+        "family-specific temporal context"
+      ],
+      "confounds_ruled_out": [
+        "ordinary benchmark competence alone",
+        "hidden-state coordinate alignment",
+        "search-engine negative labeling"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "direction_agreement",
+        "control:wrong_family"
+      ],
+      "failure_id": "V837aq-AQ3-variable_composition-c47f49ec1075be",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "variable_composition",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {
+        "errors": {
+          "endpoint_only_nrmse": 0.039592571062994436,
+          "magnitude_shuffled_nrmse": 0.07702364801528434,
+          "matched_low_order_generic_regression_nrmse": 0.03176418221003891,
+          "time_shuffled_nrmse": 0.06906205863915979,
+          "true_oracle_nrmse": 0.015044951773565018,
+          "wrong_family_template_nrmse": 0.03319858993602283
+        },
+        "failed_conditions": [
+          "wrong_family"
+        ],
+        "margins": {
+          "endpoint_only": 0.024547619289429418,
+          "generic_regression": 0.016719230436473893,
+          "magnitude_shuffle": 0.061978696241719325,
+          "time_shuffle": 0.05401710686559477,
+          "wrong_family": 0.01815363816245781
+        },
+        "pass": false,
+        "seed": 6348930468037204620,
+        "wrong_phase_zero_effect_in_primary_gate": true
+      },
+      "metrics": {
+        "direction_agreement": 0.8396381578947368,
+        "gain_ratio": 0.8840244860024015,
+        "n": 1280,
+        "oracle_response_rms": 0.08353675536835016,
+        "pearson": 0.9330194445670116,
+        "perturbed_task_success": 0.9546875,
+        "predicted_response_rms": 0.07915268267885256,
+        "response_mae_normalized": 0.010934381915181132,
+        "response_nrmse": 0.015044951773565018,
+        "zero_effect_median_abs": 0.002950550988316536
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": "c47f49ec1075be044067763938109483c34cefe750a1b820e0d0db650d56b9e0",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ3_AQ5_OPERATOR_EQUIVALENCE",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-10T23:59:07.889188+04:00",
+      "timestamp_utc": "2026-09-10T19:59:07.889188+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "control_margins": 0.03,
+        "direction_min": 0.85,
+        "pearson_min": 0.85,
+        "response_nrmse_max": 0.1,
+        "task_success_min": 0.8
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "272df64678f9c51535fdf267ecec3eba42d722e888f41e43b2cca4eda2f32921"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json"
+      ],
+      "branch": "FIRST_ORDER_OPERATOR",
+      "confounds_remaining": [
+        "second-order interaction if oracle requires it",
+        "family-specific temporal context"
+      ],
+      "confounds_ruled_out": [
+        "ordinary benchmark competence alone",
+        "hidden-state coordinate alignment",
+        "search-engine negative labeling"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "direction_agreement",
+        "control:wrong_family"
+      ],
+      "failure_id": "V837aq-AQ3-variable_composition-c7d65070af63bd",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "variable_composition",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {
+        "errors": {
+          "endpoint_only_nrmse": 0.039815330197411195,
+          "magnitude_shuffled_nrmse": 0.07741298315356278,
+          "matched_low_order_generic_regression_nrmse": 0.03172228205397903,
+          "time_shuffled_nrmse": 0.06952227911649915,
+          "true_oracle_nrmse": 0.014934916223963327,
+          "wrong_family_template_nrmse": 0.03303451070971916
+        },
+        "failed_conditions": [
+          "wrong_family"
+        ],
+        "margins": {
+          "endpoint_only": 0.024880413973447868,
+          "generic_regression": 0.0167873658300157,
+          "magnitude_shuffle": 0.06247806692959945,
+          "time_shuffle": 0.05458736289253582,
+          "wrong_family": 0.018099594485755835
+        },
+        "pass": false,
+        "seed": 5110712213242780634,
+        "wrong_phase_zero_effect_in_primary_gate": true
+      },
+      "metrics": {
+        "direction_agreement": 0.8240131578947368,
+        "gain_ratio": 0.8901111796866388,
+        "n": 1280,
+        "oracle_response_rms": 0.08353675536835016,
+        "pearson": 0.9341332070764806,
+        "perturbed_task_success": 0.9578125,
+        "predicted_response_rms": 0.07960466323533802,
+        "response_mae_normalized": 0.010781811758044851,
+        "response_nrmse": 0.014934916223963327,
+        "zero_effect_median_abs": 0.0020433589816093445
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": "c7d65070af63bd29d12e29f85120efc5906e2868049fb77230c352c00a49b88f",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "This competent organism did not satisfy the complete oracle-relative first-order operator plus specificity-control gate.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ3_AQ5_OPERATOR_EQUIVALENCE",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-10T23:59:08.333879+04:00",
+      "timestamp_utc": "2026-09-10T19:59:08.333879+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": "All powered families receive AQ4 oracle-order audit; each historical incompetent appears once.",
+      "artifact_hashes": {
+        "metrics_sha256": "1fb14d3a1583ded57b0d58cff5966f5af5579a03922fbf141734d15478c993cf"
+      },
+      "artifact_paths": [],
+      "branch": "OPERATOR_DISCOVERY_RUNNER",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "threshold tuning",
+        "source retraining",
+        "fresh audit"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "AQ4_COVERAGE",
+        "INCOMPETENT_DEDUP"
+      ],
+      "failure_id": "V837aq-ENG-AQ4-ALL-FAMILIES-AND-INCOMPETENT-DEDUP",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "issues": [
+          "AQ4 initially evaluated only AQ3-pass families",
+          "incompetent summary extended cumulative list inside loop"
+        ],
+        "science_contaminated": false
+      },
+      "next_justified_experiment": "Rerun frozen AQ3-AQ5 runner after code repair.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "FIXED_BEFORE_DOWNSTREAM_LOCALIZATION",
+      "scientific_interpretation": "The first AQ3-AQ5 runner skipped the AQ4 oracle interaction audit for first-order-failing variable composition and duplicated one incompetent summary row. No threshold or source result changed. The run is discarded for final AQ4/negative-control classification and rerun after repair.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ4_ENGINEERING",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:02:53.368021+04:00",
+      "timestamp_utc": "2026-09-10T20:02:53.368021+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "553c07dfb8fa6ed08ba8dfe27d9a00987441674416c8833f30a53bdc832bcc24"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-conditional_routing-08132afbb63d79",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.03544647591251954,
+            "n": 1,
+            "p25_case_preservation": -0.03429544437157428,
+            "pass": false,
+            "preservation": 0.08526115923036082,
+            "units": [
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_gate:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.15667751318973594,
+            "n": 2,
+            "p25_case_preservation": -0.027712220008256183,
+            "pass": false,
+            "preservation": 0.17417177539141715,
+            "units": [
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_gate:PAYLOAD_A"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.2353466934852545,
+            "n": 4,
+            "p25_case_preservation": 0.010359993752913327,
+            "pass": false,
+            "preservation": 0.26758957878572676,
+            "units": [
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_gate:PAYLOAD_A"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c6:PAYLOAD_A"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c1:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.2592328575588699,
+            "n": 8,
+            "p25_case_preservation": -0.2644188643892795,
+            "pass": false,
+            "preservation": 0.40216634850080324,
+            "units": [
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_gate:PAYLOAD_A"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c6:PAYLOAD_A"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c1:PAYLOAD_A"
+              },
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c3:PAYLOAD_A"
+              },
+              {
+                "cell": 3,
+                "channel": "cell_output",
+                "phase": "CONTROL",
+                "unit_id": "cell_output:c3:CONTROL"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c9:PAYLOAD_B"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c0:PAYLOAD_A"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 2,
+      "organism": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:28.025993+04:00",
+      "timestamp_utc": "2026-09-10T20:06:28.025993+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "a0afd4b2abb636f702e0cdfa6d986ad6f6762e488fededecc2696961e2cf3334"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-conditional_routing-16edca7d57b2bc",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.35039191472333286,
+            "n": 1,
+            "p25_case_preservation": 0.12772953245471405,
+            "pass": false,
+            "preservation": 0.2903186405239364,
+            "units": [
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.4775067169821631,
+            "n": 2,
+            "p25_case_preservation": 0.07119342332796502,
+            "pass": false,
+            "preservation": 0.3497056023321987,
+            "units": [
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              },
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_gate:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.3732298896261491,
+            "n": 4,
+            "p25_case_preservation": -0.017948432288419247,
+            "pass": false,
+            "preservation": 0.36778316789579113,
+            "units": [
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              },
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_gate:PAYLOAD_A"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c9:PAYLOAD_B"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c5:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 28,
+            "median_case_preservation": 0.44697400498625095,
+            "n": 8,
+            "p25_case_preservation": 0.020828884376568407,
+            "pass": false,
+            "preservation": 0.42570436259112987,
+            "units": [
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              },
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_gate:PAYLOAD_A"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c9:PAYLOAD_B"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c5:PAYLOAD_A"
+              },
+              {
+                "cell": 3,
+                "channel": "aggregate_message",
+                "phase": "PAYLOAD_A",
+                "unit_id": "aggregate_message:c3:PAYLOAD_A"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c6:PAYLOAD_A"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c0:PAYLOAD_B"
+              },
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c7:PAYLOAD_B"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 2,
+      "organism": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:28.760484+04:00",
+      "timestamp_utc": "2026-09-10T20:06:28.760484+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "5bd3ea206b6ff37d70eb2b0b7fcc02662feb19a4e2303c8b66cb7a44794d3461"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-conditional_routing-31ef9793f36b01",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 27,
+            "median_case_preservation": 0.05906117302759217,
+            "n": 1,
+            "p25_case_preservation": -0.2475517574060454,
+            "pass": false,
+            "preservation": 0.11627388324565047,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c7:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 27,
+            "median_case_preservation": -0.1836621152632032,
+            "n": 2,
+            "p25_case_preservation": -0.5342186117387726,
+            "pass": false,
+            "preservation": 0.1493595685966964,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c7:PAYLOAD_A"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 27,
+            "median_case_preservation": 0.07299579744041518,
+            "n": 4,
+            "p25_case_preservation": -0.6096734045371555,
+            "pass": false,
+            "preservation": 0.19920791952980743,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c7:PAYLOAD_A"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c1:PAYLOAD_B"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c4:PAYLOAD_B"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 27,
+            "median_case_preservation": 0.1970370928038936,
+            "n": 8,
+            "p25_case_preservation": -0.2721391592617409,
+            "pass": false,
+            "preservation": 0.3007965383767044,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c7:PAYLOAD_A"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c8:PAYLOAD_A"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c1:PAYLOAD_B"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c4:PAYLOAD_B"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c9:PAYLOAD_A"
+              },
+              {
+                "cell": 7,
+                "channel": "aggregate_message",
+                "phase": "PAYLOAD_B",
+                "unit_id": "aggregate_message:c7:PAYLOAD_B"
+              },
+              {
+                "cell": 1,
+                "channel": "cell_output",
+                "phase": "PAYLOAD_A",
+                "unit_id": "cell_output:c1:PAYLOAD_A"
+              },
+              {
+                "cell": 1,
+                "channel": "cell_output",
+                "phase": "PAYLOAD_B",
+                "unit_id": "cell_output:c1:PAYLOAD_B"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 2,
+      "organism": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:29.493927+04:00",
+      "timestamp_utc": "2026-09-10T20:06:29.493927+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "52b6d60f189549f302517008f1956a171d2f5a76ce5223d47fa0058140b23d98"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-conditional_routing-55d8f75d1c5e03",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 29,
+            "median_case_preservation": 0.1973132793999971,
+            "n": 1,
+            "p25_case_preservation": -0.39145376742347504,
+            "pass": false,
+            "preservation": 0.24849128054129976,
+            "units": [
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c1:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 29,
+            "median_case_preservation": 0.35086170024323904,
+            "n": 2,
+            "p25_case_preservation": -0.26380945467417805,
+            "pass": false,
+            "preservation": 0.26407004344390217,
+            "units": [
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c1:PAYLOAD_A"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c9:PAYLOAD_B"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 29,
+            "median_case_preservation": 0.3515089195739004,
+            "n": 4,
+            "p25_case_preservation": -0.11988466207882942,
+            "pass": false,
+            "preservation": 0.3734051723920041,
+            "units": [
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c1:PAYLOAD_A"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c9:PAYLOAD_B"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c8:PAYLOAD_B"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c4:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 29,
+            "median_case_preservation": -0.19754828994890072,
+            "n": 8,
+            "p25_case_preservation": -1.0694684194142212,
+            "pass": false,
+            "preservation": 0.1624844483722785,
+            "units": [
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c1:PAYLOAD_A"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c9:PAYLOAD_B"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c8:PAYLOAD_B"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c4:PAYLOAD_A"
+              },
+              {
+                "cell": 1,
+                "channel": "aggregate_message",
+                "phase": "PAYLOAD_B",
+                "unit_id": "aggregate_message:c1:PAYLOAD_B"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c1:PAYLOAD_B"
+              },
+              {
+                "cell": 1,
+                "channel": "cell_output",
+                "phase": "PAYLOAD_A",
+                "unit_id": "cell_output:c1:PAYLOAD_A"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c6:PAYLOAD_A"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 2,
+      "organism": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:30.257197+04:00",
+      "timestamp_utc": "2026-09-10T20:06:30.257197+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "3381258b016d5df12816ede09681581b670eefd107d70f9ca3d67310f1ac6f0a"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-conditional_routing-8fac17f9eba911",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 30,
+            "median_case_preservation": 0.1356563026795835,
+            "n": 1,
+            "p25_case_preservation": -0.21083188795860658,
+            "pass": false,
+            "preservation": 0.13336418856165766,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c3:PAYLOAD_A"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 30,
+            "median_case_preservation": 0.056363951673355506,
+            "n": 2,
+            "p25_case_preservation": -0.4174835823417034,
+            "pass": false,
+            "preservation": 0.0951076158443861,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c3:PAYLOAD_A"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c6:PAYLOAD_B"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 30,
+            "median_case_preservation": -0.00869873877016436,
+            "n": 4,
+            "p25_case_preservation": -0.3327039778930991,
+            "pass": false,
+            "preservation": 0.10333127546896503,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c3:PAYLOAD_A"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c6:PAYLOAD_B"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c2:PAYLOAD_B"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c1:PAYLOAD_B"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 30,
+            "median_case_preservation": 0.39320422806834976,
+            "n": 8,
+            "p25_case_preservation": -0.010997345708721823,
+            "pass": false,
+            "preservation": 0.3457635498064845,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c3:PAYLOAD_A"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c6:PAYLOAD_B"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c2:PAYLOAD_B"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c1:PAYLOAD_B"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_A",
+                "unit_id": "global_term:c9:PAYLOAD_A"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c9:PAYLOAD_B"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "PAYLOAD_B",
+                "unit_id": "global_term:c4:PAYLOAD_B"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "POST",
+                "unit_id": "global_term:c1:POST"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 2,
+      "organism": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:30.995279+04:00",
+      "timestamp_utc": "2026-09-10T20:06:30.995279+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "022856d16969390093f6f62e91a908314a908af1a1cc7585fdc8a96f4317dacd"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "localization controls"
+      ],
+      "failure_id": "V837aq-AQ6-delayed_recall-0be47e156b3732",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": 0.9089487610257707,
+          "random_mask_count": 32,
+          "random_mask_median_preservation": 0.0017628263866611982,
+          "time_shuffle_margin": 0.10189307289992056,
+          "time_shuffled_preservation": 0.8088185145125114
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.6336872474535655,
+            "n": 1,
+            "p25_case_preservation": 0.0034499826176919157,
+            "pass": false,
+            "preservation": 0.32850944178748565,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9867728538015108,
+            "n": 2,
+            "p25_case_preservation": 0.04720681803092633,
+            "pass": false,
+            "preservation": 0.41850075321773317,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c9:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9995003699602325,
+            "n": 4,
+            "p25_case_preservation": 0.998922503328038,
+            "pass": true,
+            "preservation": 0.910711587412432,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c9:EARLY_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9998656570066727,
+            "n": 8,
+            "p25_case_preservation": 0.9996177689613222,
+            "pass": true,
+            "preservation": 0.9801810287948429,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c9:EARLY_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c2:MID_DELAY"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c8:EARLY_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c5:MID_DELAY"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "LATE_DELAY",
+                "unit_id": "global_term:c2:LATE_DELAY"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:34.388432+04:00",
+      "timestamp_utc": "2026-09-10T20:06:34.388432+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "31ab854a6ec0422ef895601557ff41064e5bad41c990ce2ec15067c479b802ad"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "localization controls"
+      ],
+      "failure_id": "V837aq-AQ6-delayed_recall-3edfaa94e8425d",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": 0.8951650228984196,
+          "random_mask_count": 32,
+          "random_mask_median_preservation": 0.04672400417268202,
+          "time_shuffle_margin": 0.04824448201790532,
+          "time_shuffled_preservation": 0.8936445450531963
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.0026206273320059648,
+            "n": 1,
+            "p25_case_preservation": 3.380978861594608e-05,
+            "pass": false,
+            "preservation": 0.10221866610741526,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c7:MID_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.025376791917496255,
+            "n": 2,
+            "p25_case_preservation": 0.0013482947111636834,
+            "pass": false,
+            "preservation": 0.2164394057515615,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c7:MID_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9522873343146019,
+            "n": 4,
+            "p25_case_preservation": 0.5987172766622283,
+            "pass": false,
+            "preservation": 0.5642368938646398,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c7:MID_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c1:EARLY_DELAY"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c0:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9810625618056172,
+            "n": 8,
+            "p25_case_preservation": 0.9385180712134505,
+            "pass": true,
+            "preservation": 0.9418890270711017,
+            "units": [
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c7:MID_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c1:EARLY_DELAY"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c0:EARLY_DELAY"
+              },
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c7:EARLY_DELAY"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c8:EARLY_DELAY"
+              },
+              {
+                "cell": null,
+                "channel": "global_gate",
+                "phase": "MID_DELAY",
+                "unit_id": "global_gate:MID_DELAY"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c2:MID_DELAY"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:38.279812+04:00",
+      "timestamp_utc": "2026-09-10T20:06:38.279812+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "5827a9c8ed5bc1a4f93b4ff616b4f1f59499499b5cfa8a465161c69263f7922e"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "localization controls"
+      ],
+      "failure_id": "V837aq-AQ6-delayed_recall-495486448fb576",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": 0.9850238654409822,
+          "random_mask_count": 32,
+          "random_mask_median_preservation": 0.00554727279246392,
+          "time_shuffle_margin": 0.1552390865158999,
+          "time_shuffled_preservation": 0.8353320517175462
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.016784305601625582,
+            "n": 1,
+            "p25_case_preservation": 0.004044621911794832,
+            "pass": false,
+            "preservation": 0.23354386835936258,
+            "units": [
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9994435777454864,
+            "n": 2,
+            "p25_case_preservation": 0.9940984102354037,
+            "pass": false,
+            "preservation": 0.7395811517531523,
+            "units": [
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9995996624767614,
+            "n": 4,
+            "p25_case_preservation": 0.9987054824799804,
+            "pass": true,
+            "preservation": 0.9905711382334461,
+            "units": [
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c0:EARLY_DELAY"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c6:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9998380862839087,
+            "n": 8,
+            "p25_case_preservation": 0.9996350198606735,
+            "pass": true,
+            "preservation": 0.9985928129510833,
+            "units": [
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c5:EARLY_DELAY"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c0:EARLY_DELAY"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c6:EARLY_DELAY"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c8:EARLY_DELAY"
+              },
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c3:EARLY_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c5:MID_DELAY"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "LATE_DELAY",
+                "unit_id": "global_term:c5:LATE_DELAY"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:41.718849+04:00",
+      "timestamp_utc": "2026-09-10T20:06:41.718849+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "0d3e9d1ac1a9c5c40a1f8c8468bf08eb181dbf43b0f057b8a8b6b08da5841065"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "localization controls"
+      ],
+      "failure_id": "V837aq-AQ6-delayed_recall-54bfdc6b05dc7c",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": 0.8309584561209639,
+          "random_mask_count": 32,
+          "random_mask_median_preservation": 0.0013003691103911086,
+          "time_shuffle_margin": -0.012208743327813187,
+          "time_shuffled_preservation": 0.8444675685591682
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.6958614041639983,
+            "n": 1,
+            "p25_case_preservation": 0.04422576182355012,
+            "pass": false,
+            "preservation": 0.3508609575464706,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9984077175248818,
+            "n": 2,
+            "p25_case_preservation": 0.9962160814738958,
+            "pass": true,
+            "preservation": 0.832258825231355,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "aggregate_message",
+                "phase": "EARLY_DELAY",
+                "unit_id": "aggregate_message:c4:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9994747045488719,
+            "n": 4,
+            "p25_case_preservation": 0.9991653101218325,
+            "pass": true,
+            "preservation": 0.9931092923297111,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "aggregate_message",
+                "phase": "EARLY_DELAY",
+                "unit_id": "aggregate_message:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c4:MID_DELAY"
+              },
+              {
+                "cell": 3,
+                "channel": "cell_output",
+                "phase": "WRITE",
+                "unit_id": "cell_output:c3:WRITE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9994382313384376,
+            "n": 8,
+            "p25_case_preservation": 0.9989760357082103,
+            "pass": true,
+            "preservation": 0.9904838707711932,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "aggregate_message",
+                "phase": "EARLY_DELAY",
+                "unit_id": "aggregate_message:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c4:MID_DELAY"
+              },
+              {
+                "cell": 3,
+                "channel": "cell_output",
+                "phase": "WRITE",
+                "unit_id": "cell_output:c3:WRITE"
+              },
+              {
+                "cell": 4,
+                "channel": "cell_output",
+                "phase": "EARLY_DELAY",
+                "unit_id": "cell_output:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "aggregate_message",
+                "phase": "WRITE",
+                "unit_id": "aggregate_message:c4:WRITE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c8:MID_DELAY"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:45.176186+04:00",
+      "timestamp_utc": "2026-09-10T20:06:45.176186+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "f65376807e8248b8fb00e52f3f478316f85e26157bff4d7dada8c74bdf5e9e1c"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-delayed_recall-659a9f4309ec4b",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.0008049629237354972,
+            "n": 1,
+            "p25_case_preservation": 0.00012772863562879322,
+            "pass": false,
+            "preservation": 0.09447445866503379,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c3:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.0032249399617933494,
+            "n": 2,
+            "p25_case_preservation": 0.00045060018722262174,
+            "pass": false,
+            "preservation": 0.14193517504426967,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c3:EARLY_DELAY"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c6:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.7626185924941358,
+            "n": 4,
+            "p25_case_preservation": 0.08684667969392987,
+            "pass": false,
+            "preservation": 0.402627921054839,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c3:EARLY_DELAY"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c6:EARLY_DELAY"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c0:EARLY_DELAY"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c6:MID_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9991394154264976,
+            "n": 8,
+            "p25_case_preservation": 0.9857965258749399,
+            "pass": false,
+            "preservation": 0.755090124720335,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c3:EARLY_DELAY"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c6:EARLY_DELAY"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c0:EARLY_DELAY"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c6:MID_DELAY"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c1:EARLY_DELAY"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c9:EARLY_DELAY"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c0:MID_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c4:MID_DELAY"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:47.828734+04:00",
+      "timestamp_utc": "2026-09-10T20:06:47.828734+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "a02035ad37055ed3d904b35f717ef2edc3092bf3bf0162d6b1fee63c0b646128"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "localization controls"
+      ],
+      "failure_id": "V837aq-AQ6-delayed_recall-8f8da93ac7053b",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": 0.9867758483008826,
+          "random_mask_count": 32,
+          "random_mask_median_preservation": 0.009805190021130783,
+          "time_shuffle_margin": -7.650620101651295e-05,
+          "time_shuffled_preservation": 0.9966575445230299
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.0023806629563843384,
+            "n": 1,
+            "p25_case_preservation": 0.0005538960551751126,
+            "pass": false,
+            "preservation": 0.13584202520965405,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9923710032156502,
+            "n": 2,
+            "p25_case_preservation": 0.035570465312507904,
+            "pass": false,
+            "preservation": 0.43126802977298173,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9997718360960439,
+            "n": 4,
+            "p25_case_preservation": 0.9976945207941416,
+            "pass": false,
+            "preservation": 0.7341366977935897,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c9:EARLY_DELAY"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c1:EARLY_DELAY"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.9999024161736134,
+            "n": 8,
+            "p25_case_preservation": 0.9990967660926484,
+            "pass": true,
+            "preservation": 0.9965810383220134,
+            "units": [
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c2:EARLY_DELAY"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c4:EARLY_DELAY"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c9:EARLY_DELAY"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c1:EARLY_DELAY"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c1:MID_DELAY"
+              },
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "EARLY_DELAY",
+                "unit_id": "global_term:c3:EARLY_DELAY"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c2:MID_DELAY"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "MID_DELAY",
+                "unit_id": "global_term:c9:MID_DELAY"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:52.715189+04:00",
+      "timestamp_utc": "2026-09-10T20:06:52.715189+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "0ac9a877f2ef79b26d7f2cc226dd8e0bc81a4c81ad8c3ca53d79501da0afd99c"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-iterative_state-036aed3c87774e",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "iterative_state",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.034796236554327065,
+            "n": 1,
+            "p25_case_preservation": 0.0283600525971327,
+            "pass": false,
+            "preservation": 0.02972209512028401,
+            "units": [
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.06647555765015067,
+            "n": 2,
+            "p25_case_preservation": 0.051277243718895166,
+            "pass": false,
+            "preservation": 0.05621738068463633,
+            "units": [
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.08019527789949704,
+            "n": 4,
+            "p25_case_preservation": 0.06190714998128968,
+            "pass": false,
+            "preservation": 0.07068879443664944,
+            "units": [
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c2:LATE"
+              },
+              {
+                "cell": 1,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c1:MIDDLE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.09251942489233023,
+            "n": 8,
+            "p25_case_preservation": 0.0869963027267815,
+            "pass": false,
+            "preservation": 0.09401288745826852,
+            "units": [
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c2:LATE"
+              },
+              {
+                "cell": 1,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c1:MIDDLE"
+              },
+              {
+                "cell": 9,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c9:MIDDLE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c9:MIDDLE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c0:MIDDLE"
+              },
+              {
+                "cell": 1,
+                "channel": "cell_output",
+                "phase": "LATE",
+                "unit_id": "cell_output:c1:LATE"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "036aed3c87774ee935a6ee2e13509d6ff3e2c525ada41b7101343b7d609f0d2c",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:53.921851+04:00",
+      "timestamp_utc": "2026-09-10T20:06:53.921851+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "40179ee3763c30655dad16b61603a32aba8d817a9e52c7cb43c91a8d9bb2202f"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-iterative_state-35f4b5e3c0f42a",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "iterative_state",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.02879867209415099,
+            "n": 1,
+            "p25_case_preservation": 0.021110460065038944,
+            "pass": false,
+            "preservation": 0.025871513946933877,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.0515669235819049,
+            "n": 2,
+            "p25_case_preservation": 0.040625935577668665,
+            "pass": false,
+            "preservation": 0.04493085286713994,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.07274797840078545,
+            "n": 4,
+            "p25_case_preservation": 0.056546269866543236,
+            "pass": false,
+            "preservation": 0.0615900429930637,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c5:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c7:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.08347383735805075,
+            "n": 8,
+            "p25_case_preservation": 0.07169740648132467,
+            "pass": false,
+            "preservation": 0.08083336610281477,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 5,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c5:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c7:LATE"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c6:MIDDLE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c2:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c9:MIDDLE"
+              },
+              {
+                "cell": 7,
+                "channel": "cell_output",
+                "phase": "LATE",
+                "unit_id": "cell_output:c7:LATE"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "35f4b5e3c0f42a06bc4d80cadf087097ca6b8895da8e440e342ec74088cd4f3b",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:55.172518+04:00",
+      "timestamp_utc": "2026-09-10T20:06:55.172518+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "1d05935802fe4beb4990cf5c3da2e5c4c2bd58a5a67725858f9aaf04e68c786f"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-iterative_state-377d60546a105c",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "iterative_state",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.06111396086103915,
+            "n": 1,
+            "p25_case_preservation": 0.04717885149544668,
+            "pass": false,
+            "preservation": 0.052904300412339955,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c4:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.09332505101700223,
+            "n": 2,
+            "p25_case_preservation": 0.07678110279681466,
+            "pass": false,
+            "preservation": 0.08097962405305037,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c4:LATE"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c8:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.14145286567596532,
+            "n": 4,
+            "p25_case_preservation": 0.11713291945551285,
+            "pass": false,
+            "preservation": 0.12382803866237302,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c4:LATE"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c8:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.1705452616809527,
+            "n": 8,
+            "p25_case_preservation": 0.1420250790081211,
+            "pass": false,
+            "preservation": 0.1618056922003489,
+            "units": [
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c4:LATE"
+              },
+              {
+                "cell": 8,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c8:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              },
+              {
+                "cell": 8,
+                "channel": "aggregate_message",
+                "phase": "LATE",
+                "unit_id": "aggregate_message:c8:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "cell_output",
+                "phase": "LATE",
+                "unit_id": "cell_output:c7:LATE"
+              },
+              {
+                "cell": 4,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c4:MIDDLE"
+              },
+              {
+                "cell": 3,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c3:LATE"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "377d60546a105ca962cc7d432a78b31d1784315c4214a35c70c1886240f7a4e3",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:56.278092+04:00",
+      "timestamp_utc": "2026-09-10T20:06:56.278092+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "f0b35ae63928b690eb3855ad5af1af6486a2fc9264ee5d6647f74a803c72efaf"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-iterative_state-3d0358b5b0a40b",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "iterative_state",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.045909009704396764,
+            "n": 1,
+            "p25_case_preservation": 0.03934473459281415,
+            "pass": false,
+            "preservation": 0.04077738956559329,
+            "units": [
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.09190048793911482,
+            "n": 2,
+            "p25_case_preservation": 0.06328398425855306,
+            "pass": false,
+            "preservation": 0.07700502219568484,
+            "units": [
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c2:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.13380475897923155,
+            "n": 4,
+            "p25_case_preservation": 0.1159932513971074,
+            "pass": false,
+            "preservation": 0.11296375761948829,
+            "units": [
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c2:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c1:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.14216762339847328,
+            "n": 8,
+            "p25_case_preservation": 0.12782399521806587,
+            "pass": false,
+            "preservation": 0.14437276412471933,
+            "units": [
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c2:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c1:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c0:MIDDLE"
+              },
+              {
+                "cell": 2,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c2:MIDDLE"
+              },
+              {
+                "cell": 3,
+                "channel": "aggregate_message",
+                "phase": "LATE",
+                "unit_id": "aggregate_message:c3:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c9:MIDDLE"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "3d0358b5b0a40bb32041470b77b01d1d1e261fd36701c3c92f1cbae6b5b42bb2",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:57.473913+04:00",
+      "timestamp_utc": "2026-09-10T20:06:57.473913+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "a6c748bfc4af128f7236002ef3bf092b262a38605096d4e16e064c66ce596e4a"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-iterative_state-681b5942c20395",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "iterative_state",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.04416387542256589,
+            "n": 1,
+            "p25_case_preservation": 0.027512530971454785,
+            "pass": false,
+            "preservation": 0.043235712703653784,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.0714117021301835,
+            "n": 2,
+            "p25_case_preservation": 0.04478097931160974,
+            "pass": false,
+            "preservation": 0.06360439527479866,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c7:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.0954638159939949,
+            "n": 4,
+            "p25_case_preservation": 0.07425926883163642,
+            "pass": false,
+            "preservation": 0.09286635676893651,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c7:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c6:MIDDLE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.1086687762314526,
+            "n": 8,
+            "p25_case_preservation": 0.08206517210506853,
+            "pass": false,
+            "preservation": 0.1039082150677767,
+            "units": [
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c6:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c7:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c9:LATE"
+              },
+              {
+                "cell": 6,
+                "channel": "global_term",
+                "phase": "MIDDLE",
+                "unit_id": "global_term:c6:MIDDLE"
+              },
+              {
+                "cell": 1,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c1:LATE"
+              },
+              {
+                "cell": 4,
+                "channel": "aggregate_message",
+                "phase": "LATE",
+                "unit_id": "aggregate_message:c4:LATE"
+              },
+              {
+                "cell": 1,
+                "channel": "cell_output",
+                "phase": "LATE",
+                "unit_id": "cell_output:c1:LATE"
+              },
+              {
+                "cell": 9,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c9:MIDDLE"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "681b5942c20395a2ce1d70211f3d854f90b97b3d0d35f13fd90df70ff6d836ac",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:58.698415+04:00",
+      "timestamp_utc": "2026-09-10T20:06:58.698415+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "max_units": 8,
+        "p25_min": 0.6,
+        "preservation_min": 0.8,
+        "random_margin_min": 0.2,
+        "time_shuffle_margin_min": 0.2
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "6d7a90dfc4db2c49d1ace87c097ceeb32045d34e6e70a901bc378f92a62345c9"
+      },
+      "artifact_paths": [],
+      "branch": "PAIRED_NATURAL_COMPONENT_PHASE",
+      "confounds_remaining": [
+        "broader organism-scale distributed realization"
+      ],
+      "confounds_ruled_out": [
+        "arbitrary hidden-state SET",
+        "evolutionary structure search",
+        "outcome-based ranking"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "no compact controlled support"
+      ],
+      "failure_id": "V837aq-AQ6-iterative_state-8850121fdbda18",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "iterative_state",
+      "horizon": null,
+      "intervention": "PRIMARY_OPERATOR_COUNTERFACTUAL",
+      "matched_control_metrics": {},
+      "metrics": {
+        "controls": {
+          "pass": false,
+          "random_margin": null,
+          "random_mask_count": 0,
+          "random_mask_median_preservation": null,
+          "time_shuffle_margin": null,
+          "time_shuffled_preservation": null
+        },
+        "prefixes": [
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.027922505915507823,
+            "n": 1,
+            "p25_case_preservation": 0.019439152225098066,
+            "pass": false,
+            "preservation": 0.027184564816816637,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "aggregate_message",
+                "phase": "LATE",
+                "unit_id": "aggregate_message:c3:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.030114990849328893,
+            "n": 2,
+            "p25_case_preservation": 0.02645653543518095,
+            "pass": false,
+            "preservation": 0.03304266411178092,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "aggregate_message",
+                "phase": "LATE",
+                "unit_id": "aggregate_message:c3:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c7:MIDDLE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.03656739832873118,
+            "n": 4,
+            "p25_case_preservation": 0.031287212126555414,
+            "pass": false,
+            "preservation": 0.040210069746172694,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "aggregate_message",
+                "phase": "LATE",
+                "unit_id": "aggregate_message:c3:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c7:MIDDLE"
+              },
+              {
+                "cell": 7,
+                "channel": "cell_output",
+                "phase": "LATE",
+                "unit_id": "cell_output:c7:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              }
+            ]
+          },
+          {
+            "all_cases": 32,
+            "effect_cases": 32,
+            "median_case_preservation": 0.05729432482025287,
+            "n": 8,
+            "p25_case_preservation": 0.04377484794112174,
+            "pass": false,
+            "preservation": 0.05861230729901601,
+            "units": [
+              {
+                "cell": 3,
+                "channel": "aggregate_message",
+                "phase": "LATE",
+                "unit_id": "aggregate_message:c3:LATE"
+              },
+              {
+                "cell": 7,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c7:MIDDLE"
+              },
+              {
+                "cell": 7,
+                "channel": "cell_output",
+                "phase": "LATE",
+                "unit_id": "cell_output:c7:LATE"
+              },
+              {
+                "cell": 0,
+                "channel": "global_term",
+                "phase": "LATE",
+                "unit_id": "global_term:c0:LATE"
+              },
+              {
+                "cell": 2,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c2:MIDDLE"
+              },
+              {
+                "cell": 0,
+                "channel": "cell_output",
+                "phase": "LATE",
+                "unit_id": "cell_output:c0:LATE"
+              },
+              {
+                "cell": 3,
+                "channel": "aggregate_message",
+                "phase": "MIDDLE",
+                "unit_id": "aggregate_message:c3:MIDDLE"
+              },
+              {
+                "cell": 0,
+                "channel": "cell_output",
+                "phase": "MIDDLE",
+                "unit_id": "cell_output:c0:MIDDLE"
+              }
+            ]
+          }
+        ]
+      },
+      "next_justified_experiment": "Retain the external operator result; do not promote this localization as compact.",
+      "operator_order": 1,
+      "organism": "8850121fdbda1861df20eae89880fea969937a4f8ccb8f79d06e95745f74a9d7",
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The accepted external operator was not reproduced by a compact, specificity-controlled paired-natural component\u00d7phase support under the frozen localization search.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:06:59.803718+04:00",
+      "timestamp_utc": "2026-09-10T20:06:59.803718+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "composition_nrmse_max": 0.1,
+        "direction_min": 0.85,
+        "family_pass": 0.6,
+        "oracle_nrmse_max": 0.1,
+        "task_success_min": 0.8
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "7c9fb17e83bed19321b5d81471db353926ac949b3312a5b749da41befb485fd1"
+      },
+      "artifact_paths": [],
+      "branch": "PROGRAM_COMPOSITION",
+      "confounds_remaining": [
+        "predictive causal state",
+        "history-conditioned operator"
+      ],
+      "confounds_ruled_out": [
+        "hidden-state alignment",
+        "single-endpoint-only evidence"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "composition family gate"
+      ],
+      "failure_id": "V837aq-AQ8-conditional_routing",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "gate": {
+          "both_engines": true,
+          "organisms": 5,
+          "pass": false,
+          "pass_fraction": 0.4,
+          "passing": 2,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 3
+        },
+        "rows": [
+          {
+            "cases": 64,
+            "composition_nrmse": 0.05890507584135798,
+            "compound_oracle_nrmse": 0.1005484654503135,
+            "compound_task_success": 0.890625,
+            "direction_agreement": 0.875,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "operator_order": 2,
+            "organism_id": "08132afbb63d79235645f5fc5534e63b4e2f042cf6c151aecc3609d78697b96a",
+            "pass": false
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.0554210568541602,
+            "compound_oracle_nrmse": 0.1081204995992749,
+            "compound_task_success": 0.953125,
+            "direction_agreement": 0.828125,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "operator_order": 2,
+            "organism_id": "16edca7d57b2bc850af62643de48efe5cfec4769bcc615ba18b3522fff933eb1",
+            "pass": false
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.04832908956424652,
+            "compound_oracle_nrmse": 0.05819219593248126,
+            "compound_task_success": 1.0,
+            "direction_agreement": 0.875,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "conditional_routing",
+            "operator_order": 2,
+            "organism_id": "31ef9793f36b0107ae15e41b43d5bae66780298369c57a7b3a11f030fd3f9726",
+            "pass": true
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.06103827313753216,
+            "compound_oracle_nrmse": 0.09336786691358477,
+            "compound_task_success": 0.9375,
+            "direction_agreement": 0.859375,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "operator_order": 2,
+            "organism_id": "55d8f75d1c5e039cc473ce18f839773f739533dc92cbb682d80cfb9fb8e665a0",
+            "pass": true
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.06424003309622613,
+            "compound_oracle_nrmse": 0.11630099581425689,
+            "compound_task_success": 0.90625,
+            "direction_agreement": 0.90625,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "conditional_routing",
+            "operator_order": 2,
+            "organism_id": "8fac17f9eba911e3579bde47037f4accdc7e34d7b0aa9e1f50505ac612b5be61",
+            "pass": false
+          }
+        ]
+      },
+      "next_justified_experiment": "Run the frozen predictive-state fallback diagnostic only.",
+      "operator_order": 2,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The external causal operator did not compose reliably under the frozen compound intervention word.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ8_OPERATOR_COMPOSITION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:07:38.613418+04:00",
+      "timestamp_utc": "2026-09-10T20:07:38.613418+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "composition_nrmse_max": 0.1,
+        "direction_min": 0.85,
+        "family_pass": 0.6,
+        "oracle_nrmse_max": 0.1,
+        "task_success_min": 0.8
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "f111dc17de75860b1211b18c33ed455e1963c92ca36230a0e5f323ccb9f92bd8"
+      },
+      "artifact_paths": [],
+      "branch": "PROGRAM_COMPOSITION",
+      "confounds_remaining": [
+        "predictive causal state",
+        "history-conditioned operator"
+      ],
+      "confounds_ruled_out": [
+        "hidden-state alignment",
+        "single-endpoint-only evidence"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "composition family gate"
+      ],
+      "failure_id": "V837aq-AQ8-delayed_recall",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "gate": {
+          "both_engines": false,
+          "organisms": 6,
+          "pass": false,
+          "pass_fraction": 0.16666666666666666,
+          "passing": 1,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH"
+          ],
+          "required": 4
+        },
+        "rows": [
+          {
+            "cases": 64,
+            "composition_nrmse": 0.01683956398269699,
+            "compound_oracle_nrmse": 0.1247680151567011,
+            "compound_task_success": 0.984375,
+            "direction_agreement": 1.0,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "operator_order": 1,
+            "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+            "pass": false
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.007873944174391528,
+            "compound_oracle_nrmse": 0.10872700683260356,
+            "compound_task_success": 0.984375,
+            "direction_agreement": 1.0,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "operator_order": 1,
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "pass": false
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.00988270878147686,
+            "compound_oracle_nrmse": 0.12579155834548478,
+            "compound_task_success": 1.0,
+            "direction_agreement": 0.984375,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "operator_order": 1,
+            "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+            "pass": false
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.018185946197807782,
+            "compound_oracle_nrmse": 0.0541899443886346,
+            "compound_task_success": 0.984375,
+            "direction_agreement": 1.0,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "operator_order": 1,
+            "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+            "pass": true
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.014764331168214493,
+            "compound_oracle_nrmse": 0.134890336647136,
+            "compound_task_success": 0.96875,
+            "direction_agreement": 1.0,
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "family": "delayed_recall",
+            "operator_order": 1,
+            "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+            "pass": false
+          },
+          {
+            "cases": 64,
+            "composition_nrmse": 0.0016970767928463526,
+            "compound_oracle_nrmse": 0.12515130763655893,
+            "compound_task_success": 0.984375,
+            "direction_agreement": 1.0,
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "family": "delayed_recall",
+            "operator_order": 1,
+            "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+            "pass": false
+          }
+        ]
+      },
+      "next_justified_experiment": "Run the frozen predictive-state fallback diagnostic only.",
+      "operator_order": 1,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "The external causal operator did not compose reliably under the frozen compound intervention word.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ8_OPERATOR_COMPOSITION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:07:39.448354+04:00",
+      "timestamp_utc": "2026-09-10T20:07:39.448354+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": "Use frozen_localization_policy.json exactly before localization science.",
+      "artifact_hashes": {
+        "metrics_sha256": "aa9bf5987f86f3fc3b3f10f71b7a9cd9b0337129224a9d2073906b959c675efc"
+      },
+      "artifact_paths": [],
+      "branch": "DRAFT_LOCALIZATION_RUNNER",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "threshold tuning",
+        "heldout leakage",
+        "fresh audit"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "LOCALIZATION_POLICY_MISMATCH"
+      ],
+      "failure_id": "V837aq-ENG-AQ6-DRAFT-POLICY-MISMATCH",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "draft_random_masks": 32,
+        "frozen_policy_random_masks": 16,
+        "heldout_opened": false,
+        "science_contaminated": false
+      },
+      "next_justified_experiment": "Run localization.py against the frozen localization policy without modification.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DISCARDED_BEFORE_HELDOUT_AND_FINAL_DECISION",
+      "scientific_interpretation": "A parallel draft localization runner used 32 random-mask controls instead of the already-frozen 16-mask policy. Its output is discarded and cannot support any scientific conclusion.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_ENGINEERING",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:11:06.781408+04:00",
+      "timestamp_utc": "2026-09-10T20:11:06.781408+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": "Predictive-state rank must come from history x future-test causal response matrix.",
+      "artifact_hashes": {
+        "metrics_sha256": "b2e5e45352cf774b5e016467e44d917c31d1285fbdc3cf36012a4d790ed2a645"
+      },
+      "artifact_paths": [],
+      "branch": "PREDICTIVE_STATE_DIAGNOSTIC",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "final diagnosis use",
+        "heldout leakage",
+        "neural-state alignment"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "PREDICTIVE_MATRIX_WRONG_OBJECT"
+      ],
+      "failure_id": "V837aq-ENG-AQ9-AGGREGATE-METRIC-RANK",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "heldout_opened": false,
+        "invalid_object": "organism x five aggregate metrics",
+        "required_object": "history x future semantic intervention tests",
+        "science_contaminated": false
+      },
+      "next_justified_experiment": "Recompute AQ9 from detailed operator response tensors.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DISCARDED_BEFORE_FREEZE_REPAIR_AND_HELDOUT",
+      "scientific_interpretation": "The first non-gating AQ9 draft computed rank from aggregate operator metrics rather than the predictive response/Hankel matrix specified by V837aq. Those rank values are discarded.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ9_ENGINEERING",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:12:01.541805+04:00",
+      "timestamp_utc": "2026-09-10T20:12:01.541805+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": "Persist detailed AQ_OPERATOR_SELECT response tensor before AQ9.",
+      "artifact_hashes": {
+        "metrics_sha256": "c640e1d2e13438d7e47d5512e827630631a907d5d5fc6c28cb8aa6e81ec24693"
+      },
+      "artifact_paths": [],
+      "branch": "OPERATOR_RESPONSE_EXPORT",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "threshold change",
+        "new seed use",
+        "heldout leakage"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "RESPONSE_TENSOR_ARTIFACT_MISSING"
+      ],
+      "failure_id": "V837aq-ENG-AQ3-RESPONSE-TENSOR-PERSISTENCE",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "detailed_tensor_missing": true,
+        "heldout_opened": false,
+        "operator_summary_preserved": true,
+        "science_contaminated": false
+      },
+      "next_justified_experiment": "Export the frozen AQ_OPERATOR_SELECT response tensors and rerun AQ9.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "FIXED_BEFORE_FINAL_AQ9_AND_HELDOUT",
+      "scientific_interpretation": "The AQ3 summary metrics were valid, but the first runner omitted the detailed per-family response tensor files needed by the predictive-state diagnostic. The tensors are deterministically re-exported from the same frozen AQ_OPERATOR_SELECT cases without changing gates.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ3_ENGINEERING",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:12:52.718510+04:00",
+      "timestamp_utc": "2026-09-10T20:12:52.718510+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {},
+      "artifact_hashes": {
+        "metrics_sha256": "8c5e14ea1f0690c57228256d9ce411ff92d4e01b27ef1c229038948f3f2a7a63"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/predictive_state_diagnostic.json"
+      ],
+      "branch": "ENGINEERING_REPAIR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "no model weights changed",
+        "no thresholds changed",
+        "fresh audit unused"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "MEANINGFUL_FUTURE_TEST_COLUMNS_DROPPED"
+      ],
+      "failure_id": "V837aq-ENG-PREDICTIVE-TEST-CANONICALIZATION",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "cause": "history-dependent sign/clipping encoded into test key",
+        "invalid_initial_oracle_rank": 0
+      },
+      "next_justified_experiment": "Use the corrected semantic test canonicalization only.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "FIXED_BEFORE_SCIENTIFIC_INTERPRETATION",
+      "scientific_interpretation": "The first Hankel diagnostic keyed tests too literally, leaving only zero-effect columns. It was engineering-invalid and was replaced before scientific interpretation with semantic test canonicalization.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ9_PREDICTIVE_CAUSAL_STATE",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:15:27.998969+04:00",
+      "timestamp_utc": "2026-09-10T20:15:27.998969+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "frozen": true
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "7c368c229e15f8a8d477ce53575a7287b9a6ea0d0ebb1d30e5a85dbbab8d2b59"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json",
+        "experiments/v837_primitive_invention/v837aq/raw/localization_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/composition_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json"
+      ],
+      "branch": "PROGRAM_OPERATOR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "natural semantic interventions",
+        "no hidden-state SET",
+        "both search engines where applicable"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "FAMILY_OPERATOR_GATE_FAIL"
+      ],
+      "failure_id": "V837aq-AQ3-variable-composition-family",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "variable_composition",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "diagnostic": "FAMILY_OPERATOR_GATE_FAIL"
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "Variable composition did not satisfy the frozen first-order oracle-relative operator plus specificity-control gate in any discovery organism; second-order terms cannot rescue a failed single-intervention contract.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ3_AQ5_OPERATOR_EQUIVALENCE",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:19:04.350136+04:00",
+      "timestamp_utc": "2026-09-10T20:19:04.350136+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "frozen": true
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "5c36f868075c81780655dcbff69812f20e7e19131a7eb2739269e46273156fb6"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json",
+        "experiments/v837_primitive_invention/v837aq/raw/localization_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/composition_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json"
+      ],
+      "branch": "PROGRAM_OPERATOR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "natural semantic interventions",
+        "no hidden-state SET",
+        "both search engines where applicable"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "COMPACT_SUPPORT_0_OF_5"
+      ],
+      "failure_id": "V837aq-AQ6-routing-compact-support",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "diagnostic": "COMPACT_SUPPORT_0_OF_5"
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 2,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "Routing has a robust coordinate-free operator but no <=8-unit paired-natural spatiotemporal support mask passed the frozen preservation/control gate.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_SPATIOTEMPORAL_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:19:04.403547+04:00",
+      "timestamp_utc": "2026-09-10T20:19:04.403547+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "frozen": true
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "dc6ca103624dd3b24232ffa7897987f9f9bad722eb0913ea6c18ac468cdfdb8f"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json",
+        "experiments/v837_primitive_invention/v837aq/raw/localization_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/composition_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json"
+      ],
+      "branch": "PROGRAM_OPERATOR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "natural semantic interventions",
+        "no hidden-state SET",
+        "both search engines where applicable"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "COMPACT_SUPPORT_0_OF_6"
+      ],
+      "failure_id": "V837aq-AQ6-iterative-compact-support",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "iterative_state",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "diagnostic": "COMPACT_SUPPORT_0_OF_6"
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "Iterative state has a robust coordinate-free operator but no <=8-unit paired-natural spatiotemporal support mask passed the frozen preservation/control gate.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ6_AQ7_SPATIOTEMPORAL_LOCALIZATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:19:04.422084+04:00",
+      "timestamp_utc": "2026-09-10T20:19:04.422084+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "frozen": true
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "603e6813c09c09b21588356f7ce65c42178f485eebe8c93eecc679a72badc2bb"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json",
+        "experiments/v837_primitive_invention/v837aq/raw/localization_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/composition_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json"
+      ],
+      "branch": "PROGRAM_OPERATOR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "natural semantic interventions",
+        "no hidden-state SET",
+        "both search engines where applicable"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "COMPOSITION_FAMILY_GATE_2_OF_5"
+      ],
+      "failure_id": "V837aq-AQ8-routing-composition",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "conditional_routing",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "diagnostic": "COMPOSITION_FAMILY_GATE_2_OF_5"
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 2,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "Routing operator identity is established, but the frozen compound program-word test passed only 2/5 discovery organisms; operator identity must not be conflated with compositional closure.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ8_OPERATOR_COMPOSITION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:19:04.442165+04:00",
+      "timestamp_utc": "2026-09-10T20:19:04.442165+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "frozen": true
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "af44c781b5f95a95d31fe6418afb4eb5bb0985310affc7602c2463e899d7803c"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json",
+        "experiments/v837_primitive_invention/v837aq/raw/localization_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/composition_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json"
+      ],
+      "branch": "PROGRAM_OPERATOR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "natural semantic interventions",
+        "no hidden-state SET",
+        "both search engines where applicable"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "COMPOSITION_FAMILY_GATE_1_OF_6"
+      ],
+      "failure_id": "V837aq-AQ8-recall-composition",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "diagnostic": "COMPOSITION_FAMILY_GATE_1_OF_6"
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "Recall operator identity is established, but the frozen compound program-word test passed only 1/6 discovery organisms; heldout success later cannot rescue this discovery failure.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ8_OPERATOR_COMPOSITION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:19:04.461006+04:00",
+      "timestamp_utc": "2026-09-10T20:19:04.461006+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {
+        "frozen": true
+      },
+      "artifact_hashes": {
+        "metrics_sha256": "0f4dec7437fb325e8192d6fa1342b61454bddcdc0284c6c17399a49d566224e1"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_discovery.json",
+        "experiments/v837_primitive_invention/v837aq/raw/localization_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/composition_results.json",
+        "experiments/v837_primitive_invention/v837aq/raw/meta_confirmation.json"
+      ],
+      "branch": "PROGRAM_OPERATOR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "natural semantic interventions",
+        "no hidden-state SET",
+        "both search engines where applicable"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "COMPACT_LOCALIZATION_META_3_OF_6_BELOW_4_REQUIRED"
+      ],
+      "failure_id": "V837aq-AQ6-recall-localization-meta",
+      "failure_type": "SCIENTIFIC_FAILURE",
+      "family": "delayed_recall",
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "diagnostic": "COMPACT_LOCALIZATION_META_3_OF_6_BELOW_4_REQUIRED"
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": 1,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "DEFINITIVE_WITHIN_FROZEN_SCOPE",
+      "scientific_interpretation": "Recall compact spatiotemporal support passed discovery 4/6 but only 3/6 on META, so compact localization remains suggestive rather than a robust final family-level qualifier.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ_META_CONFIRM",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:19:04.479462+04:00",
+      "timestamp_utc": "2026-09-10T20:19:04.479462+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {},
+      "artifact_hashes": {
+        "metrics_sha256": "f05b3fecedb60b49a08086a9299846fc35749af723ed511b4bd2c96c671df2bd"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/operator_reality_gate.json"
+      ],
+      "branch": "ENGINEERING_REPAIR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "science artifacts unchanged",
+        "thresholds unchanged",
+        "fresh audit unused"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "ANALYZER_READ_WRONG_REALITY_ARTIFACT"
+      ],
+      "failure_id": "V837aq-ENG-AQ11-REALITY-ARTIFACT-PATH",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "bad_path": "raw/reality_gate.json",
+        "correct_path": "raw/operator_reality_gate.json",
+        "underlying_AQ2_pass": true
+      },
+      "next_justified_experiment": "Rerun AQ11 against the correct immutable AQ2 artifact.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "FIXED_BEFORE_FINAL_DIAGNOSIS",
+      "scientific_interpretation": "AQ11 initially emitted PROGRAM_OPERATOR_MEASUREMENT_INVALID because the analyzer referenced a nonexistent reality artifact path. AQ2 itself remained 6/6 PASS and was not rerun or changed.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "AQ11_ANALYZE",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:21:25.288905+04:00",
+      "timestamp_utc": "2026-09-10T20:21:25.288905+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {},
+      "artifact_hashes": {
+        "metrics_sha256": "8c0da39f9dde8e2fda9646627f74630dfebf22cedbe5a2d50796b1b57d592458"
+      },
+      "artifact_paths": [
+        "tests/test_v837aq_program_level_causal_operator_localization.py"
+      ],
+      "branch": "ENGINEERING_REPAIR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "no scientific code change",
+        "no threshold change"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "FOCUSED_TEST_COLLECTION_IMPORT_ERROR"
+      ],
+      "failure_id": "V837aq-ENG-TEST-OPERATOR-IR-API",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "actual_api": "program_ir",
+        "incorrect_test_import": "operator_specs"
+      },
+      "next_justified_experiment": "Follow the frozen V837aq operator ladder.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "FIXED_DURING_VALIDATION",
+      "scientific_interpretation": "Focused tests initially imported a nonexistent helper name. The test was corrected to the existing frozen operator_ir API; science artifacts were unchanged.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "VALIDATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:23:47.987720+04:00",
+      "timestamp_utc": "2026-09-10T20:23:47.987720+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {},
+      "artifact_hashes": {
+        "metrics_sha256": "5f7f8fb644e466507ad5ed1bf20fb7bc25ecf43699d779dbec19c51c6599ec9f"
+      },
+      "artifact_paths": [
+        "experiments/v837_primitive_invention/v837aq/raw/natural_intervention_library.json",
+        "scripts/validate_v837_program_level_causal_operator_localization.py"
+      ],
+      "branch": "ENGINEERING_REPAIR",
+      "confounds_remaining": [],
+      "confounds_ruled_out": [
+        "science artifacts unchanged",
+        "no threshold change",
+        "no fresh audit",
+        "no refit"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "DEDICATED_VALIDATOR_MISSING_AUDIT_SNAPSHOT"
+      ],
+      "failure_id": "V837aq-ENG-VALIDATOR-NATURAL-INTERVENTION-MANIFEST",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "missing_artifact": "raw/natural_intervention_library.json",
+        "science_recomputed": false
+      },
+      "next_justified_experiment": "Continue repository closeout validation.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "FIXED_DURING_VALIDATION",
+      "scientific_interpretation": "The semantic intervention library existed in executable code and had already powered V837aq, but its explicit machine-readable audit snapshot was omitted. The deterministic manifest was materialized without changing science, thresholds, source models, or held-out evidence.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "VALIDATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:33:58.660401+04:00",
+      "timestamp_utc": "2026-09-10T20:33:58.660401+00:00",
+      "version": "V837aq"
+    },
+    {
+      "acceptance_gate": {},
+      "artifact_hashes": {
+        "metrics_sha256": "40662227fff8a69d68beccf168b0be5787cb7caa197f6674beccab0fbd8fb858"
+      },
+      "artifact_paths": [
+        "tests/test_v837_research.py",
+        "tests/test_v837d_representation.py",
+        "tests/test_v837q_state_organization.py",
+        "tests/test_v837ai_af1d_sample_efficiency.py",
+        "experiments/v837_primitive_invention/v837ai/config.json",
+        "verification/active_research_sha256.txt"
+      ],
+      "branch": "PRE_EXISTING_BASELINE_EXCEPTION",
+      "confounds_remaining": [
+        "legacy validation baseline requires a separately authorized maintenance repair"
+      ],
+      "confounds_ruled_out": [
+        "reproduced all five failures after restoring the pre-full-suite checkpoint",
+        "current active SHA manifest records frozen_gates.json as 29c4eb79...",
+        "V837ai config simultaneously records 29c4eb79... in architecture_hashes and a1f587... in historical_gate_hash",
+        "V837aq protected predecessor directories are zero-diff versus START SHA"
+      ],
+      "distance_from_threshold": {},
+      "do_not_repeat_unchanged": true,
+      "failed_conditions": [
+        "legacy tests hardcode stale V837 gate SHA",
+        "legacy registry/experiments.csv byte hash predates evolving registry",
+        "V837ai config contains mutually inconsistent historical gate hashes",
+        "active validator V837af guard inherits stale historical gate SHA"
+      ],
+      "failure_id": "V837aq-ENG-PREEXISTING-LEGACY-VALIDATION-BASELINE",
+      "failure_type": "ENGINEERING_FAILURE",
+      "family": null,
+      "horizon": null,
+      "intervention": null,
+      "matched_control_metrics": {},
+      "metrics": {
+        "active_validator_blocked_at": "V837af candidate input sibling historical gate check",
+        "active_validator_reached_v837ad": true,
+        "current_gate_sha256": "29c4eb79e8b50ce08891122b7498ee531a57082ca4f6de0c0f1ae18624de3180",
+        "dedicated_v837aq_validator_pass": true,
+        "focused_v837aq_passed": 102,
+        "full_repo_failed": 5,
+        "full_repo_passed": 1137,
+        "stale_expected_gate_sha256": "a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867"
+      },
+      "next_justified_experiment": "Do not change V837aq science. Repair stale legacy hash assertions only in a separately scoped repository-maintenance task if desired.",
+      "operator_order": null,
+      "organism": null,
+      "reproduction_command": "python scripts/reproduce_v837_recovery.py --variant v837aq --stage analyze --execute",
+      "result_status": "PRE_EXISTING_BASELINE_FAILURE_NOT_V837AQ",
+      "scientific_interpretation": "Repository-wide validation is blocked by confirmed pre-existing historical-hash inconsistencies in current START-SHA/HEAD predecessor files. V837aq focused tests, dedicated validator, source locks, and protected-history checks pass; no predecessor science is altered to mask the stale assertions.",
+      "source_sha": "213f4f06ecaf4d5c767e06389ba5b6e6484a3122",
+      "stage": "REPOSITORY_CLOSEOUT_VALIDATION",
+      "time_or_phase": null,
+      "timestamp_local": "2026-09-11T00:54:27.118711+04:00",
+      "timestamp_utc": "2026-09-10T20:54:27.118711+00:00",
+      "version": "V837aq"
+    }
+  ],
+  "version": "V837aq"
+}

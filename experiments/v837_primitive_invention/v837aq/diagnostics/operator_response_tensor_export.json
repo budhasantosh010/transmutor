@@ -1,0 +1,22 @@
+{
+  "families": {
+    "conditional_routing": {
+      "organisms": 5,
+      "rows": 1920
+    },
+    "delayed_recall": {
+      "organisms": 6,
+      "rows": 3006
+    },
+    "iterative_state": {
+      "organisms": 6,
+      "rows": 5592
+    },
+    "variable_composition": {
+      "organisms": 4,
+      "rows": 5120
+    }
+  },
+  "partition": "AQ_OPERATOR_SELECT",
+  "version": "V837aq"
+}

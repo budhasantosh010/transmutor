@@ -1,0 +1,307 @@
+{
+  "families": {
+    "conditional_routing": {
+      "can_rescue_composition_failure": false,
+      "compact_predictive_rank": true,
+      "hankel": {
+        "centered_oracle_energy_fractions": [
+          0.7744808851017254,
+          0.20444842870829963,
+          0.00918538221704196,
+          0.008557485914975578,
+          0.003327818057957595,
+          0.0
+        ],
+        "centered_oracle_rank_99": 4,
+        "centered_oracle_singular_values": [
+          5.670559797230556,
+          2.9134828860789246,
+          0.6175458380370418,
+          0.5960650793491226,
+          0.37170668333123635,
+          0.0
+        ],
+        "future_tests": 6,
+        "histories": 64,
+        "oracle_energy_fractions": [
+          0.6469751484859009,
+          0.17216270575174972,
+          0.16855566552455295,
+          0.007508511044668303,
+          0.004797969193128127,
+          0.0
+        ],
+        "oracle_rank_99": 4,
+        "oracle_singular_values": [
+          5.677320902099052,
+          2.9286615338578246,
+          2.8978194339106187,
+          0.6116127850662653,
+          0.48890938149985347,
+          0.0
+        ],
+        "test_columns": [
+          [
+            "CONTROL_FLIP",
+            "CONTROL",
+            1,
+            null
+          ],
+          [
+            "PAYLOAD_A_PERTURB",
+            "PAYLOAD_A",
+            1,
+            -0.4
+          ],
+          [
+            "PAYLOAD_A_PERTURB",
+            "PAYLOAD_A",
+            1,
+            0.4
+          ],
+          [
+            "PAYLOAD_B_PERTURB",
+            "PAYLOAD_B",
+            1,
+            -0.4
+          ],
+          [
+            "PAYLOAD_B_PERTURB",
+            "PAYLOAD_B",
+            1,
+            0.4
+          ],
+          [
+            "WRONG_PHASE_NUISANCE",
+            "PRELUDE",
+            1,
+            0.5
+          ]
+        ]
+      },
+      "history_state_is_neural_coordinate": false,
+      "reason": "operator identity exists but frozen composition gate failed",
+      "required": true
+    },
+    "delayed_recall": {
+      "can_rescue_composition_failure": false,
+      "compact_predictive_rank": true,
+      "hankel": {
+        "centered_oracle_energy_fractions": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "centered_oracle_rank_99": 1,
+        "centered_oracle_singular_values": [
+          15.874507866387544,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "future_tests": 7,
+        "histories": 64,
+        "oracle_energy_fractions": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "oracle_rank_99": 1,
+        "oracle_singular_values": [
+          15.999999999999998,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "test_columns": [
+          [
+            "DELAY_EXTEND",
+            "HOLD",
+            1,
+            null
+          ],
+          [
+            "DISTRACTOR_FLIP",
+            "EARLY_DELAY",
+            1,
+            null
+          ],
+          [
+            "DISTRACTOR_FLIP",
+            "LATE_DELAY",
+            1,
+            null
+          ],
+          [
+            "DISTRACTOR_FLIP",
+            "MIDDLE_DELAY",
+            1,
+            null
+          ],
+          [
+            "QUERY_NUISANCE",
+            "READ",
+            1,
+            -0.3
+          ],
+          [
+            "QUERY_NUISANCE",
+            "READ",
+            1,
+            0.3
+          ],
+          [
+            "WRITE_FLIP",
+            "WRITE",
+            1,
+            null
+          ]
+        ]
+      },
+      "history_state_is_neural_coordinate": false,
+      "reason": "operator identity exists but frozen composition gate failed",
+      "required": true
+    },
+    "iterative_state": {
+      "can_rescue_composition_failure": false,
+      "compact_predictive_rank": true,
+      "hankel": {
+        "centered_oracle_energy_fractions": [
+          0.37990779074804776,
+          0.37104619862664545,
+          0.24904601062530674,
+          6.620839552475755e-33,
+          4.857595374737588e-33,
+          2.1587553119036876e-33,
+          1.2217745036705366e-33,
+          3.897083097174303e-34,
+          5.293378062146811e-35,
+          4.794320074561508e-38
+        ],
+        "centered_oracle_rank_99": 3,
+        "centered_oracle_singular_values": [
+          3.7621393568808013,
+          3.7180033099252254,
+          3.0460397988484296,
+          4.966521392735063e-16,
+          4.254087779366753e-16,
+          2.8359429393923857e-16,
+          2.133493419762348e-16,
+          1.2049405276310897e-16,
+          4.44081044027316e-17,
+          1.3364702357218902e-18
+        ],
+        "future_tests": 10,
+        "histories": 64,
+        "oracle_energy_fractions": [
+          0.3822652048476133,
+          0.36996098829648905,
+          0.24777380685589762,
+          2.004923784210928e-32,
+          3.901817432105409e-33,
+          3.0481365278846545e-33,
+          5.798201127933021e-34,
+          1.5811872748468498e-34,
+          7.594262415761698e-36,
+          5.581238987380149e-39
+        ],
+        "oracle_rank_99": 3,
+        "oracle_singular_values": [
+          3.7952780114061353,
+          3.733697898866484,
+          3.055546565859711,
+          8.691808391402329e-16,
+          3.8343758639335793e-16,
+          3.38905344465415e-16,
+          1.478113719243699e-16,
+          7.718854688585874e-17,
+          1.6916246690336377e-17,
+          4.58592047776094e-19
+        ],
+        "test_columns": [
+          [
+            "INPUT_PERTURB",
+            "EARLY",
+            1,
+            0.5
+          ],
+          [
+            "INPUT_PERTURB",
+            "EARLY",
+            1,
+            1.0
+          ],
+          [
+            "INPUT_PERTURB",
+            "EARLY",
+            2,
+            0.5
+          ],
+          [
+            "INPUT_PERTURB",
+            "EARLY",
+            2,
+            1.0
+          ],
+          [
+            "INPUT_PERTURB",
+            "LATE",
+            1,
+            0.5
+          ],
+          [
+            "INPUT_PERTURB",
+            "LATE",
+            1,
+            1.0
+          ],
+          [
+            "INPUT_PERTURB",
+            "MIDDLE",
+            1,
+            0.5
+          ],
+          [
+            "INPUT_PERTURB",
+            "MIDDLE",
+            1,
+            1.0
+          ],
+          [
+            "INPUT_PERTURB",
+            "MIDDLE",
+            2,
+            0.5
+          ],
+          [
+            "INPUT_PERTURB",
+            "MIDDLE",
+            2,
+            1.0
+          ]
+        ]
+      },
+      "history_state_is_neural_coordinate": false,
+      "reason": "composition closes; predictive-state fallback not required",
+      "required": false
+    }
+  },
+  "non_gating": true,
+  "stage": "AQ9_PREDICTIVE_CAUSAL_STATE",
+  "state_definition": "history x future semantic intervention-response tests; no neural coordinates",
+  "version": "V837aq"
+}
