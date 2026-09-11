@@ -2372,8 +2372,8 @@
     "v837c_result_sha256": "994195fdd0e32e12ec44521ea782c1fc3561b8f596fd4a70e9d59f335fe7d009"
   },
   "historical_integrity_semantics": "Existing historical scientific SHA anchors preserved exactly as previously recorded; canonical GitHub-stored blob hashes are separately listed in historical_git_blob_sha256.",
-  "main_sha": "b0fefe0017fe120eb2dc48677b02f7782e6dbde9",
-  "main_sha_semantics": "V837ap scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
+  "main_sha": "964740c34795a6e41778a4ba4b9e46a286378f95",
+  "main_sha_semantics": "V837ar scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
   "model_snapshots": {
     "count": 900,
     "hash_semantics": "canonical committed Git blob bytes",
@@ -2413,8 +2413,8 @@
   ],
   "repository": "budhasantosh010/transmutor",
   "research_lineage": "V837 candidate-transformation interaction through V837am context/interface falsification, V837an causal-subspace primitive redefinition, V837ao latent primitive canonicalization, V837ap global/nonlinear causal-state localization, V837aq program-level causal operator localization, and V837ar causal-operator canonicalization / Program IR. V837aq established coordinate-free operator existence in conditional_routing, delayed_recall, and iterative_state. V837ar strengthens only delayed_recall to an evidence-complete canonical 5-parameter predictive-rank-1 Program IR under frozen META, unseen-word, reused-heldout, cross-organism, compression, and C1/C2/C3 composition gates. Conditional routing and iterative-state operator existence remain valid at their V837aq evidence tier. Next authorized program: V837as_PROGRAM_IR_OPERATOR_ARCHIVE for delayed_recall only.",
-  "research_sha": "b0fefe0017fe120eb2dc48677b02f7782e6dbde9",
-  "research_sha_semantics": "V837ap scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
+  "research_sha": "964740c34795a6e41778a4ba4b9e46a286378f95",
+  "research_sha_semantics": "V837ar scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
   "tests": [
     "tests/test_active_research.py",
     "tests/test_v837_learned_reference_outcome.py",

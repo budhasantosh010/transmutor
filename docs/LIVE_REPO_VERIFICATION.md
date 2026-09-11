@@ -895,4 +895,4 @@ The historical reproduction dispatcher remains dry-run by default through the ea
 - Frozen V837 gate: `a1f587b268fec51c236c710ca5028933c1ba864064bb1275652f12bd13906867`
 - Frozen capacity criterion: `7178eed701ad50a298f172e867c73db47c03ecb28767de2add61feb34a61a3aa`
 
-Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the current V837ap scientific closure commit separately from later verification-integration/hash commits.
+Use `git rev-parse HEAD` for the final live repository SHA. The verification manifest records the current V837ar scientific closure commit separately from later verification-integration/hash commits.
