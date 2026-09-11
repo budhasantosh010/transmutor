@@ -1,0 +1,59 @@
+{
+  "aq_operator_families": 3,
+  "archive_authorized_families": [
+    "delayed_recall"
+  ],
+  "canonical_ir_families": 1,
+  "compact_ir_families": 1,
+  "composition_C1_families": 1,
+  "composition_C2_families": 1,
+  "composition_C3_families": 1,
+  "compositionally_closed_at_minimum_granularity_families": 1,
+  "compression_ratios": {
+    "delayed_recall": 2042.1779475982532
+  },
+  "cross_organism_canonical_agreement_families": 1,
+  "diagnosis": "FAMILY_SPECIFIC_CANONICAL_PROGRAM_IR",
+  "evidence_complete_canonical_ir_families": 1,
+  "failure_entries": 24,
+  "fresh_audit_consumed": false,
+  "gpu_training_seconds": 0.0,
+  "ir_parameter_counts": {
+    "delayed_recall": 5
+  },
+  "ir_serialized_bytes": {
+    "delayed_recall": 916
+  },
+  "iterative_reality_gate": true,
+  "large_persistent_storage_tested": false,
+  "minimum_closed_granularity": {
+    "conditional_routing": "",
+    "delayed_recall": "PREDICTIVE_RANK1_MEMORY",
+    "iterative_state": ""
+  },
+  "new_source_model_fits": 0,
+  "next_program": "V837as_PROGRAM_IR_OPERATOR_ARCHIVE",
+  "predictive_realization_families": [
+    "delayed_recall"
+  ],
+  "predictive_realization_required_families": [],
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "program_ir_archive_authorized_next": true,
+  "qualifiers": [
+    "ROUTING_TWO_STAGE_PRIMITIVE_SUFFICIENT",
+    "PREDICTIVE_RANK1_MEMORY_PROGRAM_IR",
+    "BEHAVIORAL_MEMORY_COMPOSITION_ESTABLISHED",
+    "AFFINE_ITERATIVE_PROGRAM_IR_ESTABLISHED"
+  ],
+  "recall_predictive_rank": 1,
+  "reused_heldout_generalized_families": 1,
+  "routing_selected_granularity": "TWO_STAGE",
+  "source_architecture_changes": 0,
+  "source_integrity": true,
+  "source_optimizer_steps": 0,
+  "source_training_examples": 0,
+  "unseen_word_generalized_families": 1,
+  "v838_started": false,
+  "version": "V837ar"
+}

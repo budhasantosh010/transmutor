@@ -1,0 +1,23 @@
+{
+  "families": {
+    "conditional_routing": {
+      "rank90": 2,
+      "rank95": 2,
+      "rank99": 3,
+      "rank999": 3
+    },
+    "delayed_recall": {
+      "rank90": 1,
+      "rank95": 1,
+      "rank99": 1,
+      "rank999": 1
+    },
+    "iterative_state": {
+      "rank90": 3,
+      "rank95": 3,
+      "rank99": 3,
+      "rank999": 5
+    }
+  },
+  "version": "V837ar"
+}

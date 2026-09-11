@@ -1,0 +1,25 @@
+{
+  "archive_authorized_families": [
+    "delayed_recall"
+  ],
+  "canonical_ir_families": [
+    "delayed_recall"
+  ],
+  "diagnosis": "FAMILY_SPECIFIC_CANONICAL_PROGRAM_IR",
+  "evidence_complete_family_names": [
+    "delayed_recall"
+  ],
+  "fresh_audit_consumed": false,
+  "new_source_model_fits": 0,
+  "next_program": "V837as_PROGRAM_IR_OPERATOR_ARCHIVE",
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "program": "V837ar_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR",
+  "program_ir_archive_authorized_next": true,
+  "resource_accounting": "experiments/v837_primitive_invention/v837ar/diagnostics/resource_accounting.json",
+  "source_optimizer_steps": 0,
+  "start_sha": "287d37743751554c68742bc275b558d7f9bb1f95",
+  "status": "COMPLETE",
+  "v838_started": false,
+  "version": "V837ar"
+}

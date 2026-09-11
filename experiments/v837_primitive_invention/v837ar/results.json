@@ -1,0 +1,187 @@
+{
+  "aq_operator_families": 3,
+  "archive_authorized_families": [
+    "delayed_recall"
+  ],
+  "canonical_ir_families": 1,
+  "canonical_ir_family_names": [
+    "delayed_recall"
+  ],
+  "compact_ir_families": 1,
+  "compact_ir_family_names": [
+    "delayed_recall"
+  ],
+  "composition_C1_families": 1,
+  "composition_C2_families": 1,
+  "composition_C3_families": 1,
+  "compositionally_closed_at_minimum_granularity_families": 1,
+  "compositionally_closed_family_names": [
+    "delayed_recall"
+  ],
+  "compression_ratios": {
+    "delayed_recall": 2042.1779475982532
+  },
+  "cross_organism_agreement_family_names": [
+    "delayed_recall"
+  ],
+  "cross_organism_canonical_agreement_families": 1,
+  "diagnosis": "FAMILY_SPECIFIC_CANONICAL_PROGRAM_IR",
+  "evidence_complete_canonical_ir_families": 1,
+  "evidence_complete_family_names": [
+    "delayed_recall"
+  ],
+  "failure_entries": 24,
+  "fresh_audit_consumed": false,
+  "frozen_program_ir_sha": "02f88c6d7bd0ce389f7b5a70351708b3104106d20029a39427a37f6f5f48da4e",
+  "gpu_training_seconds": 0.0,
+  "hankel_ranks": {
+    "conditional_routing": {
+      "rank90": 2,
+      "rank95": 2,
+      "rank99": 3,
+      "rank999": 3
+    },
+    "delayed_recall": {
+      "rank90": 1,
+      "rank95": 1,
+      "rank99": 1,
+      "rank999": 1
+    },
+    "iterative_state": {
+      "rank90": 3,
+      "rank95": 3,
+      "rank99": 3,
+      "rank999": 5
+    }
+  },
+  "ir_parameter_counts": {
+    "delayed_recall": 5
+  },
+  "ir_serialized_bytes": {
+    "delayed_recall": 916
+  },
+  "iterative_reality_gate": true,
+  "large_persistent_storage_tested": false,
+  "minimum_closed_granularity": {
+    "conditional_routing": "",
+    "delayed_recall": "PREDICTIVE_RANK1_MEMORY",
+    "iterative_state": ""
+  },
+  "new_source_model_fits": 0,
+  "next_program": "V837as_PROGRAM_IR_OPERATOR_ARCHIVE",
+  "predictive_realization_fallback": {
+    "can_rescue_failed_family": false,
+    "diagnostic_only": true,
+    "families": {
+      "conditional_routing": {
+        "compact_predictive_realization": false,
+        "frozen_ir_present": false,
+        "hankel_rank99": 3,
+        "reason": "NO_FROZEN_PROGRAM_IR"
+      },
+      "delayed_recall": {
+        "compact_predictive_realization": true,
+        "frozen_ir_present": true,
+        "granularity": "PREDICTIVE_RANK1_MEMORY",
+        "hankel_rank99": 1,
+        "ir_predictive_state_dimension": 1,
+        "operator_class": "LINEAR_PHASE_MACHINE_R1",
+        "rank1_memory_realization": true
+      },
+      "iterative_state": {
+        "compact_predictive_realization": false,
+        "frozen_ir_present": false,
+        "hankel_rank99": 3,
+        "reason": "NO_FROZEN_PROGRAM_IR"
+      }
+    },
+    "no_fallback_search": true,
+    "no_refit": true,
+    "version": "V837ar"
+  },
+  "predictive_realization_families": [
+    "delayed_recall"
+  ],
+  "predictive_realization_required_families": [],
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "program_ir_archive_authorized_next": true,
+  "qualifiers": [
+    "ROUTING_TWO_STAGE_PRIMITIVE_SUFFICIENT",
+    "PREDICTIVE_RANK1_MEMORY_PROGRAM_IR",
+    "BEHAVIORAL_MEMORY_COMPOSITION_ESTABLISHED",
+    "AFFINE_ITERATIVE_PROGRAM_IR_ESTABLISHED"
+  ],
+  "recall_predictive_rank": 1,
+  "resource_accounting": {
+    "accounted_stage_wall_seconds": 21.459634999991977,
+    "accounting_semantics": "Counts are exact artifact/evaluated-episode counts where reconstructible; low-level batched torch forward calls are not inferred from artifact rows.",
+    "brent_refinement_iterations": 16,
+    "composition_evaluated_predictions": 384,
+    "composition_ir_word_evaluations": 64,
+    "final_unseen_evaluated_predictions": 1152,
+    "fresh_audit_episodes": 0,
+    "gpu_training_seconds": 0.0,
+    "memory_lambda_grid_points_per_rank1_candidate": 2049,
+    "meta_evaluated_predictions": 1088,
+    "new_source_model_fits": 0,
+    "organism_forward_calls": "batched and not reconstructed from artifact rows",
+    "primitive_archive_population": false,
+    "primitives_promoted": 0,
+    "program_ir_candidate_fits": 13,
+    "rank1_memory_grid_candidates": 2,
+    "response_tensor_rows_read": 10518,
+    "reused_heldout_evaluated_predictions": 768,
+    "ridge_lambda": 1e-06,
+    "scalar_lambda_grid_evaluations": 4098,
+    "source_architecture_changes": 0,
+    "source_model_inference_only": true,
+    "source_optimizer_steps": 0,
+    "source_training_examples": 0,
+    "source_training_performed": false,
+    "stage_wall_seconds": {
+      "agreement": 0.024941899999248562,
+      "basis": 0.38012309999976424,
+      "composition": 0.49313379999875906,
+      "freeze": 0.01566359999924316,
+      "heldout": 0.5473614000002271,
+      "iterative-reality": 3.873588700000255,
+      "memory": 9.692111799999111,
+      "meta": 3.5302169999995385,
+      "minimality": 0.011531699998158729,
+      "predictive": 0.24094110000078217,
+      "predictive-realization": 0.0029394999983196612,
+      "routing": 1.0702578999989782,
+      "select": 0.03509289999783505,
+      "source": 0.8057298999992781,
+      "unseen": 0.7324977000025683,
+      "words": 0.0035029999999096617
+    },
+    "svd_decompositions": 3,
+    "total_postfit_evaluated_predictions": 3392,
+    "v838_started": false,
+    "version": "V837ar"
+  },
+  "reused_heldout_family_names": [
+    "delayed_recall"
+  ],
+  "reused_heldout_generalized_families": 1,
+  "routing_selected_granularity": "TWO_STAGE",
+  "source_architecture_changes": 0,
+  "source_integrity": true,
+  "source_optimizer_steps": 0,
+  "source_training_examples": 0,
+  "strongest_scientific_claim": "Within the tested AF1D population, frozen shared semantic Program IRs are canonical only for: delayed_recall. V837aq operator existence for other families remains intact, but their stronger Program IR claim is not established.",
+  "unseen_word_family_names": [
+    "delayed_recall"
+  ],
+  "unseen_word_generalized_families": 1,
+  "v838_started": false,
+  "variable_composition_negative_control": {
+    "generic_ir_falsely_universal": false,
+    "new_variable_composition_primitive_fit": false,
+    "routing_shape_compatible_probe": [],
+    "version": "V837ar"
+  },
+  "version": "V837ar"
+}

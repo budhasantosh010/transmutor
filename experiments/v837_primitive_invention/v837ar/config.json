@@ -1,0 +1,13 @@
+{
+  "version": "V837ar",
+  "program": "V837ar_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR",
+  "start_sha": "287d37743751554c68742bc275b558d7f9bb1f95",
+  "ridge_lambda": 1e-6,
+  "memory_lambda_bounds": [-1.25, 1.25],
+  "memory_lambda_grid_points": 2049,
+  "program_ir_parameter_ceiling": 256,
+  "fresh_audit_consumed": false,
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "v838_started": false
+}

@@ -1,0 +1,255 @@
+{
+  "composition_seed_range": [
+    11320,
+    11383
+  ],
+  "families": {
+    "conditional_routing": {
+      "C1_repeated_operator": false,
+      "C2_family_program_words": false,
+      "C3_suboperator_factorization": false,
+      "minimum_closed_granularity": "",
+      "reason": "NULL_AT_PROGRAM_IR_FREEZE"
+    },
+    "delayed_recall": {
+      "C1_repeated_operator": true,
+      "C2_family_program_words": true,
+      "C2_metrics": {
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 0.8333333333333334,
+          "passing": 5,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "oracle_relative": {
+          "direction_agreement": 1.0,
+          "gain_ratio": 0.9920427344140001,
+          "n": 384,
+          "oracle_response_rms": 1.0,
+          "pearson": 0.9991202027753383,
+          "perturbed_task_success": 1.0,
+          "predicted_response_rms": 0.9929147930258257,
+          "response_mae_normalized": 0.013429019978492246,
+          "response_nrmse": 0.02117969181499772,
+          "zero_effect_median_abs": 0.0
+        },
+        "organism_relative": {
+          "direction_agreement": 0.9973958333333334,
+          "gain_ratio": 0.9936649872668303,
+          "n": 384,
+          "oracle_response_rms": 0.9926951786209736,
+          "pearson": 0.9933830136212854,
+          "perturbed_task_success": 1.0,
+          "predicted_response_rms": 0.9929147930258257,
+          "response_mae_normalized": 0.01633712799440146,
+          "response_nrmse": 0.056836752085576245,
+          "zero_effect_median_abs": 0.0
+        },
+        "pass": true,
+        "per_organism": [
+          {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "oracle_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9920427344139873,
+              "n": 64,
+              "oracle_response_rms": 1.0,
+              "pearson": 0.9991202027753382,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.013429019978492246,
+              "response_nrmse": 0.021179691814997723,
+              "zero_effect_median_abs": 0.0
+            },
+            "organism_id": "0be47e156b37323e010a65e3ec288c8610fdc49e5c6a097d092ff6056d898280",
+            "organism_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9976523272689077,
+              "n": 64,
+              "oracle_response_rms": 0.994417431040505,
+              "pearson": 0.999165064112442,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.013155861463772962,
+              "response_nrmse": 0.020352067865519862,
+              "zero_effect_median_abs": 0.0
+            },
+            "pass": true
+          },
+          {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "oracle_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9920427344139873,
+              "n": 64,
+              "oracle_response_rms": 1.0,
+              "pearson": 0.9991202027753382,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.013429019978492246,
+              "response_nrmse": 0.021179691814997723,
+              "zero_effect_median_abs": 0.0
+            },
+            "organism_id": "3edfaa94e8425d5f8bd03e35bc36933a2df2bb4069adc3f2a005e01528edb656",
+            "organism_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 1.0046662641959623,
+              "n": 64,
+              "oracle_response_rms": 0.9872021799339334,
+              "pearson": 0.9988776780381353,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.015668864648196536,
+              "response_nrmse": 0.02353963290289799,
+              "zero_effect_median_abs": 0.0
+            },
+            "pass": true
+          },
+          {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "oracle_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9920427344139873,
+              "n": 64,
+              "oracle_response_rms": 1.0,
+              "pearson": 0.9991202027753382,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.013429019978492246,
+              "response_nrmse": 0.021179691814997723,
+              "zero_effect_median_abs": 0.0
+            },
+            "organism_id": "495486448fb57696fad60ce0396d83adc234902a069c75608a667e5cef5a6d45",
+            "organism_relative": {
+              "direction_agreement": 0.984375,
+              "gain_ratio": 0.9681992679987466,
+              "n": 64,
+              "oracle_response_rms": 0.9896966057948172,
+              "pearson": 0.9649604730399058,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.029810295043922835,
+              "response_nrmse": 0.13103244703700967,
+              "zero_effect_median_abs": 0.0
+            },
+            "pass": false
+          },
+          {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "oracle_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9920427344139873,
+              "n": 64,
+              "oracle_response_rms": 1.0,
+              "pearson": 0.9991202027753382,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.013429019978492246,
+              "response_nrmse": 0.021179691814997723,
+              "zero_effect_median_abs": 0.0
+            },
+            "organism_id": "54bfdc6b05dc7c3b0877d16fb3c6df646172b1b1605e7782f551cbee092632f8",
+            "organism_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 1.0001961227728422,
+              "n": 64,
+              "oracle_response_rms": 0.9917676938146858,
+              "pearson": 0.9990397198094435,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.014178810153493752,
+              "response_nrmse": 0.021741744165006096,
+              "zero_effect_median_abs": 0.0
+            },
+            "pass": true
+          },
+          {
+            "engine": "DIRECTED_STRUCTURAL_SEARCH",
+            "oracle_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9920427344139873,
+              "n": 64,
+              "oracle_response_rms": 1.0,
+              "pearson": 0.9991202027753382,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.013429019978492246,
+              "response_nrmse": 0.021179691814997723,
+              "zero_effect_median_abs": 0.0
+            },
+            "organism_id": "659a9f4309ec4b9d669fed38344db99d60816be900ad76a6737106e01e2523bf",
+            "organism_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9958155024618307,
+              "n": 64,
+              "oracle_response_rms": 0.9963160068596917,
+              "pearson": 0.9992218056598271,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.012701078054070801,
+              "response_nrmse": 0.019631904533518575,
+              "zero_effect_median_abs": 0.0
+            },
+            "pass": true
+          },
+          {
+            "engine": "RANDOM_STRUCTURAL_SAMPLER",
+            "oracle_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9920427344139873,
+              "n": 64,
+              "oracle_response_rms": 1.0,
+              "pearson": 0.9991202027753382,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.013429019978492246,
+              "response_nrmse": 0.021179691814997723,
+              "zero_effect_median_abs": 0.0
+            },
+            "organism_id": "8f8da93ac7053b65798cd4c3b78b56cd573d1397f711cdc5f955ca7436484b53",
+            "organism_relative": {
+              "direction_agreement": 1.0,
+              "gain_ratio": 0.9953967503138906,
+              "n": 64,
+              "oracle_response_rms": 0.9967346784271777,
+              "pearson": 0.9992204595678073,
+              "perturbed_task_success": 1.0,
+              "predicted_response_rms": 0.9929147930258259,
+              "response_mae_normalized": 0.012507858602951893,
+              "response_nrmse": 0.01966113045481106,
+              "zero_effect_median_abs": 0.0
+            },
+            "pass": true
+          }
+        ],
+        "source_prediction_rows": 384,
+        "word_count": 64
+      },
+      "C3_suboperator_factorization": true,
+      "metrics": {
+        "C1_exact_residual_max_abs": 6.661338147750939e-16,
+        "C1_pass": true,
+        "C3_factorization_residual_max_abs": 0.0,
+        "C3_pass": true,
+        "tested_words": 64
+      },
+      "minimum_closed_granularity": "PREDICTIVE_RANK1_MEMORY"
+    },
+    "iterative_state": {
+      "C1_repeated_operator": false,
+      "C2_family_program_words": false,
+      "C3_suboperator_factorization": false,
+      "minimum_closed_granularity": "",
+      "reason": "NULL_AT_PROGRAM_IR_FREEZE"
+    }
+  },
+  "fit_or_selection_rows_used": false,
+  "measured_not_inferred": true,
+  "version": "V837ar"
+}

@@ -1,0 +1,70 @@
+{
+  "families": {
+    "conditional_routing": null,
+    "delayed_recall": {
+      "complexity": {
+        "continuous_parameters": 5
+      },
+      "composition_contract": {
+        "C1_C2_C3_evidence_deferred_to_AR14": true,
+        "hold_power": "lambda^n",
+        "repeat_hold_executable": true
+      },
+      "evidence": {
+        "archiveable": true
+      },
+      "family": "delayed_recall",
+      "fit_provenance": {
+        "equal_organism_weighting": true,
+        "fold": "AQ_DISCOVERY",
+        "word_partition": "FIT_WORDS"
+      },
+      "granularity": "PREDICTIVE_RANK1_MEMORY",
+      "ir_schema_version": 1,
+      "operator_class": "LINEAR_PHASE_MACHINE_R1",
+      "operator_name": "MEMORY",
+      "parameters": {
+        "bh": 0.01033936506501593,
+        "br": -0.04639543963945152,
+        "bw": -0.04624799628541853,
+        "lambda": 1.0142603857277603,
+        "w": 0.8783002745025588
+      },
+      "phase_contract": [
+        "WRITE",
+        "HOLD",
+        "READ"
+      ],
+      "predictive_state": {
+        "dimension": 1,
+        "gauge": "READ_GAIN_1",
+        "name": "p"
+      },
+      "response_basis_hash": "f2e27c55056295956988c8b38e049335b62fe073465a4edd6fda4c954bac311c",
+      "semantic_inputs": [
+        "value"
+      ],
+      "semantic_outputs": [
+        "y"
+      ],
+      "validity_domain": {
+        "delay": [
+          4,
+          12
+        ],
+        "value": [
+          -1,
+          1
+        ]
+      },
+      "version": "V837ar"
+    },
+    "iterative_state": null
+  },
+  "final_unseen_words_opened": false,
+  "freeze_sha256": "02f88c6d7bd0ce389f7b5a70351708b3104106d20029a39427a37f6f5f48da4e",
+  "meta_no_refit": true,
+  "reused_aq_heldout_opened": false,
+  "stage": "AR9_PROGRAM_IR_FREEZE",
+  "version": "V837ar"
+}

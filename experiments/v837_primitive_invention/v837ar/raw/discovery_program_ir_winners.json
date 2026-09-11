@@ -1,0 +1,188 @@
+{
+  "fallback_after_meta": false,
+  "families": {
+    "conditional_routing": {
+      "grammar": "R1_TWO_STAGE",
+      "ir": {
+        "complexity": {
+          "continuous_parameters": 4
+        },
+        "composition_contract": {
+          "C3_fine_anchor": false,
+          "minimum_closed_granularity": "TWO_STAGE"
+        },
+        "evidence": {
+          "archiveable": true
+        },
+        "family": "conditional_routing",
+        "fit_provenance": {
+          "equal_organism_weighting": true,
+          "fold": "AQ_DISCOVERY",
+          "granularity_ladder": [
+            "R0_FINE",
+            "R1_TWO_STAGE",
+            "R2_ATOMIC"
+          ],
+          "word_partition": "FIT_WORDS"
+        },
+        "granularity": "TWO_STAGE",
+        "ir_schema_version": 1,
+        "operator_class": "BILINEAR_STATIC_MAP",
+        "operator_name": "ROUTE",
+        "parameters": {
+          "b0": 0.003835171257063719,
+          "bA": 0.5038506209891566,
+          "bB": 0.5038506209891566,
+          "bc": 0.0026925264912477927,
+          "bcA": 0.4466173941285149,
+          "bcB": -0.4466173941285149
+        },
+        "phase_contract": [
+          "ROUTE"
+        ],
+        "predictive_state": {
+          "dimension": 0
+        },
+        "response_basis_hash": "f2e27c55056295956988c8b38e049335b62fe073465a4edd6fda4c954bac311c",
+        "semantic_inputs": [
+          "control",
+          "A",
+          "B"
+        ],
+        "semantic_outputs": [
+          "y"
+        ],
+        "validity_domain": {
+          "control": [
+            -1,
+            1
+          ],
+          "payload": [
+            -0.85,
+            0.85
+          ]
+        },
+        "version": "V837ar"
+      }
+    },
+    "delayed_recall": {
+      "grammar": "M2_RANK1_MEMORY",
+      "ir": {
+        "complexity": {
+          "continuous_parameters": 5
+        },
+        "composition_contract": {
+          "C1_C2_C3_evidence_deferred_to_AR14": true,
+          "hold_power": "lambda^n",
+          "repeat_hold_executable": true
+        },
+        "evidence": {
+          "archiveable": true
+        },
+        "family": "delayed_recall",
+        "fit_provenance": {
+          "equal_organism_weighting": true,
+          "fold": "AQ_DISCOVERY",
+          "word_partition": "FIT_WORDS"
+        },
+        "granularity": "PREDICTIVE_RANK1_MEMORY",
+        "ir_schema_version": 1,
+        "operator_class": "LINEAR_PHASE_MACHINE_R1",
+        "operator_name": "MEMORY",
+        "parameters": {
+          "bh": 0.01033936506501593,
+          "br": -0.04639543963945152,
+          "bw": -0.04624799628541853,
+          "lambda": 1.0142603857277603,
+          "w": 0.8783002745025588
+        },
+        "phase_contract": [
+          "WRITE",
+          "HOLD",
+          "READ"
+        ],
+        "predictive_state": {
+          "dimension": 1,
+          "gauge": "READ_GAIN_1",
+          "name": "p"
+        },
+        "response_basis_hash": "f2e27c55056295956988c8b38e049335b62fe073465a4edd6fda4c954bac311c",
+        "semantic_inputs": [
+          "value"
+        ],
+        "semantic_outputs": [
+          "y"
+        ],
+        "validity_domain": {
+          "delay": [
+            4,
+            12
+          ],
+          "value": [
+            -1,
+            1
+          ]
+        },
+        "version": "V837ar"
+      }
+    },
+    "iterative_state": {
+      "grammar": "I2_AFFINE_UPDATE",
+      "ir": {
+        "complexity": {
+          "continuous_parameters": 3
+        },
+        "composition_contract": {
+          "C1_C2_C3_evidence_deferred_to_AR14": true,
+          "analytic_semigroup_executable": true
+        },
+        "evidence": {
+          "archiveable": true
+        },
+        "family": "iterative_state",
+        "fit_provenance": {
+          "equal_organism_weighting": true,
+          "fold": "AQ_DISCOVERY",
+          "oracle_coefficients_used": false,
+          "word_partition": "FIT_WORDS"
+        },
+        "granularity": "STATE_UPDATE",
+        "ir_schema_version": 1,
+        "operator_class": "LINEAR_STATE_UPDATE_1D",
+        "operator_name": "UPDATE",
+        "parameters": {
+          "a": 0.6144277411259843,
+          "b": 0.37089636590751696,
+          "c": -0.0017115126857833584,
+          "initial_state": 0.0
+        },
+        "phase_contract": [
+          "UPDATE"
+        ],
+        "predictive_state": {
+          "dimension": 1,
+          "name": "z"
+        },
+        "response_basis_hash": "f2e27c55056295956988c8b38e049335b62fe073465a4edd6fda4c954bac311c",
+        "semantic_inputs": [
+          "z",
+          "x"
+        ],
+        "semantic_outputs": [
+          "z_next"
+        ],
+        "validity_domain": {
+          "x": [
+            -1,
+            1
+          ]
+        },
+        "version": "V837ar"
+      }
+    }
+  },
+  "one_candidate_per_family": true,
+  "program_ir_method_invalid": false,
+  "selection_refit": false,
+  "version": "V837ar"
+}

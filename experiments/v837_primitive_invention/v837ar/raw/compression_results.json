@@ -1,0 +1,65 @@
+{
+  "families": {
+    "conditional_routing": {
+      "archiveable": false,
+      "byte_compression_ratio": null,
+      "compactness_class": "NO_IR",
+      "execution_cost": {
+        "nonlinear_functions": 0,
+        "scalar_additions": 0,
+        "scalar_multiplies": 0,
+        "state_scalars": 0,
+        "temporary_scalars": 0
+      },
+      "ir_bytes": 0,
+      "ir_parameters": 0,
+      "raw_bytes": 1208757,
+      "raw_numeric_scalars": 19200,
+      "raw_rows": 1920,
+      "reference_response_table_archiveable": false,
+      "scalar_compression_ratio": null
+    },
+    "delayed_recall": {
+      "archiveable": true,
+      "byte_compression_ratio": 2042.1779475982532,
+      "compactness_class": "TINY_IR",
+      "execution_cost": {
+        "nonlinear_functions": 0,
+        "scalar_additions": 1,
+        "scalar_multiplies": 2,
+        "state_scalars": 1,
+        "temporary_scalars": 1
+      },
+      "ir_bytes": 916,
+      "ir_parameters": 5,
+      "raw_bytes": 1870635,
+      "raw_numeric_scalars": 30060,
+      "raw_rows": 3006,
+      "reference_response_table_archiveable": false,
+      "scalar_compression_ratio": 6012.0
+    },
+    "iterative_state": {
+      "archiveable": false,
+      "byte_compression_ratio": null,
+      "compactness_class": "NO_IR",
+      "execution_cost": {
+        "nonlinear_functions": 0,
+        "scalar_additions": 0,
+        "scalar_multiplies": 0,
+        "state_scalars": 0,
+        "temporary_scalars": 0
+      },
+      "ir_bytes": 0,
+      "ir_parameters": 0,
+      "raw_bytes": 3491427,
+      "raw_numeric_scalars": 61512,
+      "raw_rows": 5592,
+      "reference_response_table_archiveable": false,
+      "scalar_compression_ratio": null
+    }
+  },
+  "parameter_ceiling": 256,
+  "pre_meta": false,
+  "stage": "AR15_FINAL_COMPRESSION",
+  "version": "V837ar"
+}

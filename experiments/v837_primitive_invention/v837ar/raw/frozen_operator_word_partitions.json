@@ -1,0 +1,70 @@
+{
+  "opened_final_before_ir_freeze": false,
+  "partition_sha256": "b1e3fc6a69e5cb19e61bb7f8514f64b3a1d78cffcff7a8cdff7b961e02ebeb9e",
+  "partitions": {
+    "conditional_routing": {
+      "FINAL_UNSEEN_WORDS": [
+        "control_A_B_triple",
+        "unseen_known_magnitude_combo",
+        "midpoint_payload_magnitude",
+        "swapped_order"
+      ],
+      "FIT_WORDS": [
+        "control_only",
+        "payload_A_only",
+        "payload_B_only",
+        "control_x_A",
+        "control_x_B"
+      ],
+      "META_WORDS": [
+        "control_plus_payload_held_sign"
+      ],
+      "SELECT_WORDS": [
+        "A_x_B",
+        "opposite_sign_pairs"
+      ]
+    },
+    "delayed_recall": {
+      "FINAL_UNSEEN_WORDS": [
+        "delay_10",
+        "delay_11",
+        "delay_12"
+      ],
+      "FIT_WORDS": [
+        "delay_4",
+        "delay_6",
+        "delay_8"
+      ],
+      "META_WORDS": [
+        "delay_9"
+      ],
+      "SELECT_WORDS": [
+        "delay_5",
+        "delay_7"
+      ]
+    },
+    "iterative_state": {
+      "FINAL_UNSEEN_WORDS": [
+        "three_novel_order",
+        "four_step",
+        "four_alternating_sign",
+        "novel_time_locations",
+        "midpoint_magnitude"
+      ],
+      "FIT_WORDS": [
+        "single_early",
+        "single_middle",
+        "single_late",
+        "two_adjacent"
+      ],
+      "META_WORDS": [
+        "three_seen_magnitudes"
+      ],
+      "SELECT_WORDS": [
+        "two_separated",
+        "two_opposite_sign"
+      ]
+    }
+  },
+  "version": "V837ar"
+}

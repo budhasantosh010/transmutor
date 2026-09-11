@@ -23,6 +23,7 @@
     "docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md",
     "docs/V837_PRIMITIVE_INTERFACE_ALIGNMENT_REPORT.md",
     "docs/V837_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION_REPORT.md",
+    "docs/V837_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR_REPORT.md",
     "docs/V837_SCALAR_CONTROL_TRANSFER_BLOCKER_ANALYSIS.md",
     "docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md",
     "docs/V837_SHARED_STATE_PATH_LOCALIZATION_REPORT.md",
@@ -62,6 +63,7 @@
     "experiments/v837_primitive_invention/lineage_status.json",
     "experiments/v837_primitive_invention/primitive_interface_alignment_program_status.json",
     "experiments/v837_primitive_invention/program_level_causal_operator_localization_program_status.json",
+    "experiments/v837_primitive_invention/causal_operator_canonicalization_program_status.json",
     "experiments/v837_primitive_invention/representation_recovery_resource_accounting.json",
     "experiments/v837_primitive_invention/representation_recovery_status.json",
     "experiments/v837_primitive_invention/shared_state_organization_resource_accounting.json",
@@ -386,6 +388,9 @@
     "experiments/v837_primitive_invention/v837aq/frozen_program_level_causal_operator_gate.json",
     "experiments/v837_primitive_invention/v837aq/raw/frozen_program_operator_contracts.json",
     "experiments/v837_primitive_invention/v837aq/results.json",
+    "experiments/v837_primitive_invention/v837ar/frozen_causal_operator_canonicalization_gate.json",
+    "experiments/v837_primitive_invention/v837ar/raw/frozen_canonical_program_irs.json",
+    "experiments/v837_primitive_invention/v837ar/results.json",
     "experiments/v837_primitive_invention/v837j/results.json",
     "experiments/v837_primitive_invention/v837k/results.json",
     "experiments/v837_primitive_invention/v837l/results.json",
@@ -494,7 +499,7 @@
     "verification/live_repo_manifest.json",
     "verification/model_snapshot_manifest.json"
   ],
-  "current_scientific_frontier": "V837aq completed the program-level causal operator localization program from the exact V837ap closure. The iterative-state reality gate passed 6/6 across both structural-search engines. Coordinate-free, oracle-relative causal operators were established in discovery, META, and held-out organisms for conditional_routing, delayed_recall, and iterative_state; variable_composition failed the frozen operator gate. Conditional routing requires second-order interaction structure. Only iterative_state satisfies composition closure across discovery+META+heldout, so the final diagnosis is CAUSAL_OPERATOR_FOUND_NOT_COMPOSITIONALLY_CLOSED. Fresh audit remains unused, PrimitiveArchive remains blocked, primitives promoted=0, V838 has not started, and V837ar_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR is recorded only as the next program.",
+  "current_scientific_frontier": "V837ar completed causal-operator canonicalization / Program IR from the exact V837aq closure. Under the frozen no-refit gates, delayed_recall is the only evidence-complete canonical Program IR family: a 5-parameter predictive-rank-1 memory program that passes META, unseen operator words, reused AQ-heldout organisms, cross-organism agreement, and measured C1/C2/C3 closure at PREDICTIVE_RANK1_MEMORY granularity. Conditional routing and iterative state retain their earlier V837aq operator-existence evidence but do not establish the stronger frozen canonical Program IR claim. Final diagnosis: FAMILY_SPECIFIC_CANONICAL_PROGRAM_IR. Fresh audit remains unused, PrimitiveArchive remains unpopulated, primitives promoted=0, and V838 has not started. The next authorized program is V837as_PROGRAM_IR_OPERATOR_ARCHIVE for the delayed_recall family only.",
   "current_variants": {
     "V837aa": {
       "config": "experiments/v837_primitive_invention/v837aa/config.json",
@@ -2302,6 +2307,48 @@
         "experiments/v837_primitive_invention/v837aq/utils.py"
       ],
       "status": "INFORMATIVE_CAUSAL_OPERATOR_FOUND_NOT_COMPOSITIONALLY_CLOSED"
+    },
+    "V837ar": {
+      "config": "experiments/v837_primitive_invention/v837ar/config.json",
+      "diagnosis": "FAMILY_SPECIFIC_CANONICAL_PROGRAM_IR",
+      "diagnostics": [
+        "experiments/v837_primitive_invention/v837ar/diagnostics/source_integrity.json",
+        "experiments/v837_primitive_invention/v837ar/diagnostics/decision_state.json",
+        "experiments/v837_primitive_invention/v837ar/diagnostics/meta_confirmation.json",
+        "experiments/v837_primitive_invention/v837ar/diagnostics/program_ir_freeze.json",
+        "experiments/v837_primitive_invention/v837ar/diagnostics/composition_hierarchy.json",
+        "experiments/v837_primitive_invention/v837ar/diagnostics/resource_accounting.json"
+      ],
+      "documentation": [
+        "experiments/v837_primitive_invention/v837ar/PASS.md",
+        "experiments/v837_primitive_invention/v837ar/README.md",
+        "experiments/v837_primitive_invention/v837ar/RESEARCH_SPEC.md",
+        "docs/V837_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR_REPORT.md"
+      ],
+      "frozen_gate": "experiments/v837_primitive_invention/v837ar/frozen_causal_operator_canonicalization_gate.json",
+      "plots": [
+        "experiments/v837_primitive_invention/v837ar/plots/composition_level_C1_C2_C3.png",
+        "experiments/v837_primitive_invention/v837ar/plots/control_margin_by_family.png",
+        "experiments/v837_primitive_invention/v837ar/plots/predictive_hankel_spectrum.png",
+        "experiments/v837_primitive_invention/v837ar/plots/program_ir_evidence_ladder.png"
+      ],
+      "raw": [
+        "experiments/v837_primitive_invention/v837ar/raw/source_state.json",
+        "experiments/v837_primitive_invention/v837ar/raw/meta_confirmation.json",
+        "experiments/v837_primitive_invention/v837ar/raw/frozen_canonical_program_irs.json",
+        "experiments/v837_primitive_invention/v837ar/raw/final_unseen_word_results.json",
+        "experiments/v837_primitive_invention/v837ar/raw/reused_aq_heldout_results.json",
+        "experiments/v837_primitive_invention/v837ar/raw/composition_results.json"
+      ],
+      "results": "experiments/v837_primitive_invention/v837ar/results.json",
+      "source": [
+        "experiments/v837_primitive_invention/v837ar/analyze_results.py",
+        "experiments/v837_primitive_invention/v837ar/composition.py",
+        "experiments/v837_primitive_invention/v837ar/controls.py",
+        "experiments/v837_primitive_invention/v837ar/failure_ledger.py",
+        "experiments/v837_primitive_invention/v837ar/run_pipeline.py"
+      ],
+      "status": "COMPLETE_FAMILY_SPECIFIC_CANONICAL_PROGRAM_IR"
     }
   },
   "fresh_audit_consumed": false,
@@ -2357,6 +2404,7 @@
     "docs/V837_POST_INPUT_AXIS_BLOCKER_ANALYSIS.md",
     "docs/V837_PRIMITIVE_INVENTION_REPORT.md",
     "docs/V837_PROGRAM_LEVEL_CAUSAL_OPERATOR_LOCALIZATION_REPORT.md",
+    "docs/V837_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR_REPORT.md",
     "docs/V837_REPRESENTATION_RECOVERY_REPORT.md",
     "docs/V837_SCALAR_CONTROL_TRANSFER_BLOCKER_ANALYSIS.md",
     "docs/V837_SHARED_STATE_ORGANIZATION_REPORT.md",
@@ -2364,7 +2412,7 @@
     "docs/V837_STRUCTURAL_SEARCH_RECOVERY_REPORT.md"
   ],
   "repository": "budhasantosh010/transmutor",
-  "research_lineage": "V837 candidate-transformation interaction through V837am context/interface falsification, V837an causal-subspace primitive redefinition, V837ao latent primitive canonicalization, V837ap global/nonlinear causal-state localization, and V837aq program-level causal operator localization. V837aq establishes a coordinate-free operator commonality in three powered families while rejecting broad composition closure; only iterative_state closes composition across all frozen stages. Next program recorded only: V837ar_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR.",
+  "research_lineage": "V837 candidate-transformation interaction through V837am context/interface falsification, V837an causal-subspace primitive redefinition, V837ao latent primitive canonicalization, V837ap global/nonlinear causal-state localization, V837aq program-level causal operator localization, and V837ar causal-operator canonicalization / Program IR. V837aq established coordinate-free operator existence in conditional_routing, delayed_recall, and iterative_state. V837ar strengthens only delayed_recall to an evidence-complete canonical 5-parameter predictive-rank-1 Program IR under frozen META, unseen-word, reused-heldout, cross-organism, compression, and C1/C2/C3 composition gates. Conditional routing and iterative-state operator existence remain valid at their V837aq evidence tier. Next authorized program: V837as_PROGRAM_IR_OPERATOR_ARCHIVE for delayed_recall only.",
   "research_sha": "b0fefe0017fe120eb2dc48677b02f7782e6dbde9",
   "research_sha_semantics": "V837ap scientific closure commit indexed by this verification package. Verification/hash integration may have a later SHA; use git rev-parse HEAD for the final repository commit.",
   "tests": [
@@ -2393,6 +2441,7 @@
     "tests/test_v837ap_global_or_nonlinear_causal_state.py",
     "tests/test_v837aq_final_contract.py",
     "tests/test_v837aq_program_level_causal_operator_localization.py",
+    "tests/test_v837ar_causal_operator_canonicalization_program_ir.py",
     "tests/test_v837d_representation.py",
     "tests/test_v837g_representation.py",
     "tests/test_v837h_representation.py",
@@ -2439,6 +2488,7 @@
     "scripts/validate_v837_neutral_dynamic_followup.py",
     "scripts/validate_v837_primitive_interface_alignment.py",
     "scripts/validate_v837_program_level_causal_operator_localization.py",
+    "scripts/validate_v837_causal_operator_canonicalization_program_ir.py",
     "scripts/validate_v837_shared_state_organization.py",
     "scripts/validate_v837_shared_state_path.py",
     "scripts/validate_v837_structural_search_recovery.py",

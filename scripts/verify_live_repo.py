@@ -985,6 +985,49 @@ def main() -> int:
     if aq_status.get("diagnosis") != aq.get("diagnosis") or aq_status.get("heldout_confirmed_operator_family_count") != 3 or aq_status.get("globally_compositionally_closed_families") != ["iterative_state"]:
         raise RuntimeError("V837aq program status disagrees with results")
 
+    # V837ar causal-operator canonicalization / Program IR. V837ar must not
+    # change the V837aq source organisms, use fresh-audit data, or promote an
+    # archive entry inside this program. The final diagnosis is intentionally
+    # read from the frozen result rather than hardcoded here.
+    ar_record = manifest["current_variants"].get("V837ar")
+    if not isinstance(ar_record, dict):
+        raise RuntimeError("verification manifest missing V837ar")
+    for key in ("source", "documentation", "plots", "diagnostics", "raw"):
+        for relative in ar_record.get(key, []):
+            require_path(relative)
+    require_path(ar_record["config"])
+    require_path(ar_record["frozen_gate"])
+    require_path(ar_record["results"])
+    ar = load_json(ar_record["results"])
+    ar_status = load_json("experiments/v837_primitive_invention/causal_operator_canonicalization_program_status.json")
+    ar_source = load_json("experiments/v837_primitive_invention/v837ar/raw/source_state.json")
+    ar_freeze = load_json("experiments/v837_primitive_invention/v837ar/raw/frozen_canonical_program_irs.json")
+    ar_final = load_json("experiments/v837_primitive_invention/v837ar/raw/final_unseen_word_results.json")
+    ar_heldout = load_json("experiments/v837_primitive_invention/v837ar/raw/reused_aq_heldout_results.json")
+    ar_composition = load_json("experiments/v837_primitive_invention/v837ar/raw/composition_results.json")
+    ar_resource = load_json("experiments/v837_primitive_invention/v837ar/diagnostics/resource_accounting.json")
+    if ar.get("version") != "V837ar" or ar_status.get("version") != "V837ar" or ar_status.get("status") != "COMPLETE":
+        raise RuntimeError("V837ar closure record changed")
+    if ar_record.get("diagnosis") != ar.get("diagnosis") or ar_status.get("diagnosis") != ar.get("diagnosis"):
+        raise RuntimeError("V837ar diagnosis disagrees across verification/status/results")
+    if ar_source.get("pass") is not True or ar_source.get("new_source_model_fits") != 0 or ar_source.get("source_optimizer_steps") != 0:
+        raise RuntimeError("V837ar source-integrity/training lock changed")
+    if ar_freeze.get("final_unseen_words_opened") is not False or ar_freeze.get("reused_aq_heldout_opened") is not False:
+        raise RuntimeError("V837ar pre-generalization freeze ordering changed")
+    if ar_final.get("opened_after_freeze") is not True or ar_final.get("no_refit") is not True or ar_final.get("freeze_sha256") != ar_freeze.get("freeze_sha256"):
+        raise RuntimeError("V837ar final-unseen isolation changed")
+    if ar_heldout.get("no_refit") is not True or ar_heldout.get("no_gain_calibration") is not True or ar_heldout.get("no_bias_calibration") is not True or ar_heldout.get("freeze_sha256") != ar_freeze.get("freeze_sha256"):
+        raise RuntimeError("V837ar reused-heldout isolation changed")
+    if ar_composition.get("composition_seed_range") != [11320, 11383] or ar_composition.get("fit_or_selection_rows_used") is not False or ar_composition.get("measured_not_inferred") is not True:
+        raise RuntimeError("V837ar composition partition/measurement contract changed")
+    if not ar_resource.get("stage_wall_seconds") or float(ar_resource.get("accounted_stage_wall_seconds", 0.0)) <= 0.0:
+        raise RuntimeError("V837ar resource accounting lost stage wall times")
+    for record in (ar, ar_status):
+        if record.get("fresh_audit_consumed") is not False or record.get("primitive_archive_population") is not False or record.get("primitives_promoted") != 0 or record.get("v838_started") is not False:
+            raise RuntimeError("V837ar violated audit/archive/promotion/V838 locks")
+    if ar_status.get("evidence_complete_family_names") != ar.get("evidence_complete_family_names"):
+        raise RuntimeError("V837ar evidence-complete family list disagrees")
+
     calibration = load_json("experiments/v837_primitive_invention/learned_reference_calibration_status.json")
     if calibration.get("benchmark_learnability") != "ESTABLISHED_UNDER_4X_UNIQUE_DEVELOPMENT_DATA":
         raise RuntimeError("learned-reference calibration status changed")

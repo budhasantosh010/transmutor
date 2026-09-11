@@ -1,0 +1,30 @@
+{
+  "can_rescue_failed_family": false,
+  "diagnostic_only": true,
+  "families": {
+    "conditional_routing": {
+      "compact_predictive_realization": false,
+      "frozen_ir_present": false,
+      "hankel_rank99": 3,
+      "reason": "NO_FROZEN_PROGRAM_IR"
+    },
+    "delayed_recall": {
+      "compact_predictive_realization": true,
+      "frozen_ir_present": true,
+      "granularity": "PREDICTIVE_RANK1_MEMORY",
+      "hankel_rank99": 1,
+      "ir_predictive_state_dimension": 1,
+      "operator_class": "LINEAR_PHASE_MACHINE_R1",
+      "rank1_memory_realization": true
+    },
+    "iterative_state": {
+      "compact_predictive_realization": false,
+      "frozen_ir_present": false,
+      "hankel_rank99": 3,
+      "reason": "NO_FROZEN_PROGRAM_IR"
+    }
+  },
+  "no_fallback_search": true,
+  "no_refit": true,
+  "version": "V837ar"
+}

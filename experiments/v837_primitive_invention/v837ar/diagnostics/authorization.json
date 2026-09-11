@@ -1,0 +1,18 @@
+{
+  "authorized": true,
+  "branch": "research-v837-causal-operator-canonicalization-program-ir",
+  "confirmed_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state"
+  ],
+  "fresh_audit_consumed": false,
+  "new_source_model_fits": 0,
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "source_integrity": true,
+  "source_optimizer_steps": 0,
+  "start_sha": "287d37743751554c68742bc275b558d7f9bb1f95",
+  "v838_started": false,
+  "version": "V837ar"
+}

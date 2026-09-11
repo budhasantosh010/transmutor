@@ -11076,3 +11076,267 @@ Append-only research memory. Older failure entries and measurements must never b
 - **Interpretation:** Repository-wide validation is blocked by confirmed pre-existing historical-hash inconsistencies in current START-SHA/HEAD predecessor files. V837aq focused tests, dedicated validator, source locks, and protected-history checks pass; no predecessor science is altered to mask the stale assertions.
 - **Do not repeat unchanged:** True
 - **Artifacts:** tests/test_v837_research.py, tests/test_v837d_representation.py, tests/test_v837q_state_organization.py, tests/test_v837ai_af1d_sample_efficiency.py, experiments/v837_primitive_invention/v837ai/config.json, verification/active_research_sha256.txt
+
+## V837ar-AR3_ITERATIVE_REALITY-iterative_state-candidate-000 - V837ar / AR3_ITERATIVE_REALITY
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** I0_CONSTANT_RESPONSE / I0_CONSTANT_RESPONSE
+- **Failed gate:** FROZEN_CANDIDATE_GATE
+- **Rules out:** I0_CONSTANT_RESPONSE at this exact frozen complexity/granularity and data partition
+- **Remains alive:** Only later pre-META candidates in the frozen ladder, if any; earlier V837aq operator existence is unchanged.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR3_ITERATIVE_REALITY-iterative_state-candidate-001 - V837ar / AR3_ITERATIVE_REALITY
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** I1_IDENTITY_STATE / I1_IDENTITY_STATE
+- **Failed gate:** FROZEN_CANDIDATE_GATE
+- **Rules out:** I1_IDENTITY_STATE at this exact frozen complexity/granularity and data partition
+- **Remains alive:** Only later pre-META candidates in the frozen ladder, if any; earlier V837aq operator existence is unchanged.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR4_AR5_ROUTING_GRANULARITY-conditional_routing-candidate-000 - V837ar / AR4_AR5_ROUTING_GRANULARITY
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY
+- **Candidate / granularity:** R0_FINE / FINE_CONTROL_LOAD_SELECT
+- **Failed gate:** FROZEN_CANDIDATE_GATE
+- **Rules out:** R0_FINE at this exact frozen complexity/granularity and data partition
+- **Remains alive:** Only later pre-META candidates in the frozen ladder, if any; earlier V837aq operator existence is unchanged.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR4_MEMORY_GRAMMAR-delayed_recall-candidate-000 - V837ar / AR4_MEMORY_GRAMMAR
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** delayed_recall / AQ_DISCOVERY
+- **Candidate / granularity:** M0_CONSTANT / M0_CONSTANT
+- **Failed gate:** FROZEN_CANDIDATE_GATE
+- **Rules out:** M0_CONSTANT at this exact frozen complexity/granularity and data partition
+- **Remains alive:** Only later pre-META candidates in the frozen ladder, if any; earlier V837aq operator existence is unchanged.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR4_MEMORY_GRAMMAR-delayed_recall-candidate-001 - V837ar / AR4_MEMORY_GRAMMAR
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** delayed_recall / AQ_DISCOVERY
+- **Candidate / granularity:** M1_DELAY_TABLE / M1_DELAY_TABLE
+- **Failed gate:** FROZEN_CANDIDATE_GATE
+- **Rules out:** M1_DELAY_TABLE at this exact frozen complexity/granularity and data partition
+- **Remains alive:** Only later pre-META candidates in the frozen ladder, if any; earlier V837aq operator existence is unchanged.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR4_MEMORY_GRAMMAR-delayed_recall-candidate-002 - V837ar / AR4_MEMORY_GRAMMAR
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** delayed_recall / AQ_DISCOVERY
+- **Candidate / granularity:** M2A_RANK1_SIMPLE / M2A_RANK1_SIMPLE
+- **Failed gate:** FROZEN_CANDIDATE_GATE
+- **Rules out:** M2A_RANK1_SIMPLE at this exact frozen complexity/granularity and data partition
+- **Remains alive:** Only later pre-META candidates in the frozen ladder, if any; earlier V837aq operator existence is unchanged.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR8-META-conditional_routing - V837ar / AR8_META
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY
+- **Candidate / granularity:** R1_TWO_STAGE / None
+- **Failed gate:** META_OPERATOR_WORD_CONFIRMATION
+- **Rules out:** META-confirmed Program IR for the frozen discovery winner.
+- **Remains alive:** V837aq operator existence and the failed discovery-level candidate remain historical facts; no fallback candidate is allowed after META.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR8-CONTROL-MARGIN-conditional_routing-historically_incompetent_organisms - V837ar / AR8_META_CONTROL_MARGIN
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY
+- **Candidate / granularity:** historically_incompetent_organisms / None
+- **Failed gate:** CONTROL_ERROR_MARGIN_MIN_0.05
+- **Rules out:** Adequate separation from this matched negative control.
+- **Remains alive:** Other controls and earlier operator evidence remain valid; the META Program IR claim fails if any required margin fails.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR8-INVALID-CONTROL-conditional_routing-wrong_family_operator_template - V837ar / AR8_META_CONTROL_INTEGRITY
+
+- **Type:** INVALID_EVIDENCE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY
+- **Candidate / granularity:** wrong_family_operator_template / None
+- **Failed gate:** SEMANTIC_INTERFACE_COMPATIBILITY
+- **Rules out:** Coercing a semantically incompatible family template into this family's coordinate-free control set.
+- **Remains alive:** Only semantically valid matched controls are admissible.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR8-INVALID-CONTROL-delayed_recall-wrong_family_operator_template - V837ar / AR8_META_CONTROL_INTEGRITY
+
+- **Type:** INVALID_EVIDENCE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** delayed_recall / AQ_DISCOVERY
+- **Candidate / granularity:** wrong_family_operator_template / None
+- **Failed gate:** SEMANTIC_INTERFACE_COMPATIBILITY
+- **Rules out:** Coercing a semantically incompatible family template into this family's coordinate-free control set.
+- **Remains alive:** Only semantically valid matched controls are admissible.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR8-META-iterative_state - V837ar / AR8_META
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** I2_AFFINE_UPDATE / None
+- **Failed gate:** META_OPERATOR_WORD_CONFIRMATION
+- **Rules out:** META-confirmed Program IR for the frozen discovery winner.
+- **Remains alive:** V837aq operator existence and the failed discovery-level candidate remain historical facts; no fallback candidate is allowed after META.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR8-CONTROL-MARGIN-iterative_state-magnitude_shuffle - V837ar / AR8_META_CONTROL_MARGIN
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** magnitude_shuffle / None
+- **Failed gate:** CONTROL_ERROR_MARGIN_MIN_0.05
+- **Rules out:** Adequate separation from this matched negative control.
+- **Remains alive:** Other controls and earlier operator evidence remain valid; the META Program IR claim fails if any required margin fails.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR8-INVALID-CONTROL-iterative_state-wrong_family_operator_template - V837ar / AR8_META_CONTROL_INTEGRITY
+
+- **Type:** INVALID_EVIDENCE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** wrong_family_operator_template / None
+- **Failed gate:** SEMANTIC_INTERFACE_COMPATIBILITY
+- **Rules out:** Coercing a semantically incompatible family template into this family's coordinate-free control set.
+- **Remains alive:** Only semantically valid matched controls are admissible.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR10_FINAL_UNSEEN-conditional_routing-family - V837ar / AR10_FINAL_UNSEEN
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY_FINAL_UNSEEN_WORDS
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** AR10_FINAL_UNSEEN
+- **Rules out:** Family-level AR10_FINAL_UNSEEN generalization under the frozen Program IR.
+- **Remains alive:** Earlier operator existence and any earlier Program IR evidence remain valid at their original evidence tier.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR10_FINAL_UNSEEN-iterative_state-family - V837ar / AR10_FINAL_UNSEEN
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY_FINAL_UNSEEN_WORDS
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** AR10_FINAL_UNSEEN
+- **Rules out:** Family-level AR10_FINAL_UNSEEN generalization under the frozen Program IR.
+- **Remains alive:** Earlier operator existence and any earlier Program IR evidence remain valid at their original evidence tier.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR11_REUSED_AQ_HELDOUT-conditional_routing-family - V837ar / AR11_REUSED_AQ_HELDOUT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / REUSED_AQ_HELDOUT
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** AR11_REUSED_AQ_HELDOUT
+- **Rules out:** Family-level AR11_REUSED_AQ_HELDOUT generalization under the frozen Program IR.
+- **Remains alive:** Earlier operator existence and any earlier Program IR evidence remain valid at their original evidence tier.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR11_REUSED_AQ_HELDOUT-delayed_recall-c4380c4d6672f53e - V837ar / AR11_REUSED_AQ_HELDOUT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** delayed_recall / REUSED_AQ_HELDOUT
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** AR11_REUSED_AQ_HELDOUT_ORGANISM_GATE
+- **Rules out:** Generalization to this specific frozen organism under the frozen IR.
+- **Remains alive:** Family-level success may remain possible if the predeclared aggregate gate still passes.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR11_REUSED_AQ_HELDOUT-iterative_state-family - V837ar / AR11_REUSED_AQ_HELDOUT
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / REUSED_AQ_HELDOUT
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** AR11_REUSED_AQ_HELDOUT
+- **Rules out:** Family-level AR11_REUSED_AQ_HELDOUT generalization under the frozen Program IR.
+- **Remains alive:** Earlier operator existence and any earlier Program IR evidence remain valid at their original evidence tier.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR14-conditional_routing-C1 - V837ar / AR14_PROGRAM_ALGEBRA_COMPOSITION_CLOSURE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** C1_repeated_operator
+- **Rules out:** C1 composition closure for this family under the frozen Program IR.
+- **Remains alive:** Lower evidence tiers and any coarser granularity that separately passes remain valid.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR14-conditional_routing-C2 - V837ar / AR14_PROGRAM_ALGEBRA_COMPOSITION_CLOSURE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** C2_family_program_words
+- **Rules out:** C2 composition closure for this family under the frozen Program IR.
+- **Remains alive:** Lower evidence tiers and any coarser granularity that separately passes remain valid.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR14-conditional_routing-C3 - V837ar / AR14_PROGRAM_ALGEBRA_COMPOSITION_CLOSURE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** conditional_routing / AQ_DISCOVERY
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** C3_suboperator_factorization
+- **Rules out:** C3 composition closure for this family under the frozen Program IR.
+- **Remains alive:** Lower evidence tiers and any coarser granularity that separately passes remain valid.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR14-iterative_state-C1 - V837ar / AR14_PROGRAM_ALGEBRA_COMPOSITION_CLOSURE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** C1_repeated_operator
+- **Rules out:** C1 composition closure for this family under the frozen Program IR.
+- **Remains alive:** Lower evidence tiers and any coarser granularity that separately passes remain valid.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR14-iterative_state-C2 - V837ar / AR14_PROGRAM_ALGEBRA_COMPOSITION_CLOSURE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** C2_family_program_words
+- **Rules out:** C2 composition closure for this family under the frozen Program IR.
+- **Remains alive:** Lower evidence tiers and any coarser granularity that separately passes remain valid.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`
+
+## V837ar-AR14-iterative_state-C3 - V837ar / AR14_PROGRAM_ALGEBRA_COMPOSITION_CLOSURE
+
+- **Type:** SCIENTIFIC_FAILURE / DEFINITIVE_WITHIN_FROZEN_SCOPE
+- **Family / fold:** iterative_state / AQ_DISCOVERY
+- **Candidate / granularity:** FROZEN_PROGRAM_IR / None
+- **Failed gate:** C3_suboperator_factorization
+- **Rules out:** C3 composition closure for this family under the frozen Program IR.
+- **Remains alive:** Lower evidence tiers and any coarser granularity that separately passes remain valid.
+- **Do not retry unchanged:** True
+- **Reproduce:** `python scripts/reproduce_v837ar.py --execute`

@@ -1,0 +1,9 @@
+{
+  "family_nulls": {
+    "conditional_routing": true,
+    "delayed_recall": false,
+    "iterative_state": true
+  },
+  "freeze_sha256": "02f88c6d7bd0ce389f7b5a70351708b3104106d20029a39427a37f6f5f48da4e",
+  "version": "V837ar"
+}

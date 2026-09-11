@@ -1,0 +1,1901 @@
+{
+  "archiveable": false,
+  "families": {
+    "conditional_routing": {
+      "archiveable": false,
+      "discovery_organisms": 5,
+      "equal_organism_weighting": true,
+      "generalizing": false,
+      "pooled_table": [
+        {
+          "basis_key": [
+            "conditional_routing",
+            "CONTROL",
+            "CONTROL_FLIP",
+            -2.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.104144077362012,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "CONTROL",
+            "CONTROL_FLIP",
+            2.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.16394151022488418,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.00819962,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.0012414693832397462,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.00826251,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0026224255561828613,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.00883671,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0029557466506958006,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.02994331,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.01015864610671997,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.03996179,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.0026662521064281463,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.13170606,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0323883056640625,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.19318455,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.08101153373718262,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.21503577,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.10597753524780273,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.23765784,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.10969879627227783,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.25247224,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.09979517459869384,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.27090943,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.0023041605949401856,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.30114982,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.1383523941040039,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.34371681,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.009864790737628937,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.37928618,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.19674263000488282,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            -0.4,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.15756387753505258,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.03538797,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.00018954575061798097,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.07178867,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.032555019855499266,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.11536093,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.0007575124502182007,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.17695366,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.0015726804733276368,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.23054093,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.10439064502716064,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.2382466,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.10239366292953492,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.27920602,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.02406495064496994,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.31508846,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.019615959376096725,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.31855795,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.010221719741821289,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.3190656,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0019131064414978026,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.3302523,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.03734237030148506,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.33958382,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.1758253902196884,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.37195715,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.24269483387470245,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.37932975,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.005000811815261841,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_A",
+            "PAYLOAD_A_PERTURB",
+            0.4,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.18966177250863986,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.00875404,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0032153248786926268,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.01283042,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.005113554000854492,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.01863013,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0026718206703662873,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.02335006,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0018878579139709473,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.02434378,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.011815190315246582,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.03752019,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.00224117636680603,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.0431374,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.013457347825169563,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.05357593,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.006945514678955078,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.07626872,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.03298110961914062,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.09768866,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.04979710578918457,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.11622366,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.04852359294891358,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.16868132,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.02045503258705139,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.16946327,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.07162072658538818,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.19712676,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.14139168262481688,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.19766652,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.10408989191055298,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.28405791,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.15848953723907472,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.28622877,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.05578129887580872,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.30042459,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.15831623673439027,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.3315677,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.029028338193893433,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.38421901,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.24550787806510926,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            -0.4,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.18791139286794617,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.00063202,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 3.6096572875976564e-05,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.00124047,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.00046977996826171877,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.06298835,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.025400102138519287,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.08170967,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.007685542106628418,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.18920783,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.013488388061523438,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.19083793,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0040357112884521484,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.20799309,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.11748120486736298,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.21261344,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.09933881759643555,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.25919992,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.12188134193420411,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.27776116,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.13611032962799072,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.29231805,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.007524248654954135,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.30778606,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.00782010555267334,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PAYLOAD_B",
+            "PAYLOAD_B_PERTURB",
+            0.4,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.19677853564498946,
+          "organism_count": 5
+        },
+        {
+          "basis_key": [
+            "conditional_routing",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0008296353227706277,
+          "organism_count": 5
+        }
+      ],
+      "pooled_table_sha256": "3c9ac834d807635967a6b49bf769a923a0683af84d4d722c6bb7eee7bee8dc49",
+      "raw_numeric_scalar_count": 19200,
+      "raw_row_count": 1920,
+      "raw_serialized_bytes": 1208757,
+      "required_second_order_summary": {
+        "equal_organism_weighting": true,
+        "gate": {
+          "both_engines": true,
+          "organisms": 5,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 5,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 3
+        },
+        "means": {
+          "interaction_direction": 1.0,
+          "interaction_nrmse": 0.06402058330671488,
+          "oracle_interaction_median_abs_normalized": 0.2,
+          "oracle_interaction_p90_abs_normalized": 0.2,
+          "predicted_interaction_median_abs_normalized": 0.15649723747046665
+        },
+        "organism_rows": 5,
+        "second_order_required": true
+      }
+    },
+    "delayed_recall": {
+      "archiveable": false,
+      "discovery_organisms": 6,
+      "equal_organism_weighting": true,
+      "generalizing": false,
+      "pooled_table": [
+        {
+          "basis_key": [
+            "delayed_recall",
+            "EARLY_DELAY",
+            "DISTRACTOR_FLIP",
+            -0.69999999,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.01836155719227261,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "EARLY_DELAY",
+            "DISTRACTOR_FLIP",
+            0.69999999,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.002696177830883101,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "HOLD",
+            "DELAY_EXTEND",
+            1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.0011441425109903018,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "HOLD",
+            "DELAY_SHORTEN",
+            -1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0020378970031468377,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "LATE_DELAY",
+            "DISTRACTOR_FLIP",
+            -0.69999999,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.000331878662109375,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "LATE_DELAY",
+            "DISTRACTOR_FLIP",
+            0.69999999,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.0005010501654059799,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "MIDDLE_DELAY",
+            "DISTRACTOR_FLIP",
+            -0.69999999,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0009501728049495763,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "MIDDLE_DELAY",
+            "DISTRACTOR_FLIP",
+            0.69999999,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.003491399761958,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "READ",
+            "QUERY_NUISANCE",
+            -0.3,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.00014777791996796927,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "READ",
+            "QUERY_NUISANCE",
+            0.3,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.00014430362110336623,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "WRITE",
+            "WRITE_FLIP",
+            -2.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -1.984145399596956,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "delayed_recall",
+            "WRITE",
+            "WRITE_FLIP",
+            2.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 1.952311723840003,
+          "organism_count": 6
+        }
+      ],
+      "pooled_table_sha256": "7bbfef52aabf132ff05df5977869d147f9fb81145d88046c356c4923e99f1558",
+      "raw_numeric_scalar_count": 30060,
+      "raw_row_count": 3006,
+      "raw_serialized_bytes": 1870635,
+      "required_second_order_summary": {
+        "equal_organism_weighting": true,
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "means": {
+          "interaction_direction": 1.0,
+          "interaction_nrmse": 0.03293505502920493,
+          "oracle_interaction_median_abs_normalized": 0.0,
+          "oracle_interaction_p90_abs_normalized": 0.0,
+          "predicted_interaction_median_abs_normalized": 0.0002081717054049174
+        },
+        "organism_rows": 6,
+        "second_order_required": false
+      }
+    },
+    "iterative_state": {
+      "archiveable": false,
+      "discovery_organisms": 6,
+      "equal_organism_weighting": true,
+      "generalizing": false,
+      "pooled_table": [
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.2014326878220244,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.11217257457707698,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.03658776041547147,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            8,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.005794623950755016,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.4170212816964421,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.22889021807479568,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.07546582087990827,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            8,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.011810659812504632,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.18922832801264103,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.10497599197825526,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.034015804448115104,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            8,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.004448741501956074,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.4021989564644173,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.21859505692697767,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.07032859607716091,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "EARLY",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            8,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.00992091270422356,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "LATE",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.16636086818660892,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "LATE",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.3474241407652237,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "LATE",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.15711255022513915,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "LATE",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.3317565197833507,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.1751038600153859,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.10608885918433468,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            -0.5,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.04382846101264779,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.3645050556295448,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.21949027872954807,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            -1.0,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.09041545520691822,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.16452454649911755,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.10535142752204968,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            0.5,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.044966983462412215,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            1,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.35227427199852707,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            2,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.21712970178729543,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "MIDDLE",
+            "INPUT_PERTURB",
+            1.0,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.09272432042829071,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            10,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -7.481624682744346e-05,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            3,
+            "semantic_output",
+            1
+          ],
+          "mean_response": 0.001252789276115822,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            4,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -3.954685827786169e-05,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            5,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.00097976749142011,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            6,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.00030447170138359075,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            7,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.000481352706750234,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            8,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.00039855390787124634,
+          "organism_count": 6
+        },
+        {
+          "basis_key": [
+            "iterative_state",
+            "PRELUDE",
+            "WRONG_PHASE_NUISANCE",
+            0.5,
+            null,
+            null,
+            9,
+            "semantic_output",
+            1
+          ],
+          "mean_response": -0.0003873898337284724,
+          "organism_count": 6
+        }
+      ],
+      "pooled_table_sha256": "21fc67324c66ef3181179393caa5b7104bdad2c4b2c02527a7da74288bf8f9d3",
+      "raw_numeric_scalar_count": 61512,
+      "raw_row_count": 5592,
+      "raw_serialized_bytes": 3491427,
+      "required_second_order_summary": {
+        "equal_organism_weighting": true,
+        "gate": {
+          "both_engines": true,
+          "organisms": 6,
+          "pass": true,
+          "pass_fraction": 1.0,
+          "passing": 6,
+          "passing_engines": [
+            "DIRECTED_STRUCTURAL_SEARCH",
+            "RANDOM_STRUCTURAL_SAMPLER"
+          ],
+          "required": 4
+        },
+        "means": {
+          "interaction_direction": 1.0,
+          "interaction_nrmse": 0.024963088554191215,
+          "oracle_interaction_median_abs_normalized": 2.7755575615628914e-17,
+          "oracle_interaction_p90_abs_normalized": 5.551115123125783e-17,
+          "predicted_interaction_median_abs_normalized": 0.0042113447561860085
+        },
+        "organism_rows": 6,
+        "second_order_required": false
+      }
+    }
+  },
+  "generalizing": false,
+  "reference_kind": "IR0_EMPIRICAL_RESPONSE_TABLE",
+  "version": "V837ar"
+}

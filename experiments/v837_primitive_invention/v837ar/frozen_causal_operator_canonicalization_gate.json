@@ -1,0 +1,196 @@
+{
+  "IR0_reference_table": "complete equal-organism pooled empirical response object; upper-bound/non-generalizing; never archiveable",
+  "allowed_operator_classes": [
+    "LINEAR_STATE_UPDATE_1D",
+    "BILINEAR_STATIC_MAP",
+    "SECOND_ORDER_STATIC_MAP",
+    "LINEAR_PHASE_MACHINE_R1",
+    "EMPIRICAL_RESPONSE_TABLE"
+  ],
+  "aq_source_fold_hash": "b96eed0f053ec48b5cb183929296a371857e549ed05bbe9650df2ef32dee1c95",
+  "aq_threshold_import": {
+    "composition": {
+      "direction_agreement_min": 0.85,
+      "response_nrmse_max": 0.1,
+      "task_success_min": 0.8
+    },
+    "control_error_margin_min_aq": 0.03,
+    "control_error_margin_min_ar": 0.05,
+    "operator_gate": {
+      "direction_min": 0.85,
+      "family_pass": ">=60% and both engines",
+      "pearson_min": 0.85,
+      "response_nrmse_max": 0.1,
+      "task_success_min": 0.8,
+      "zero_effect_median_abs_max": 0.1
+    },
+    "reality_gate": {
+      "direction_agreement_min": 0.9,
+      "family": "iterative_state",
+      "family_pass": ">=60% discovery organisms and both structural-search engines",
+      "gain_ratio": [
+        0.75,
+        1.25
+      ],
+      "horizons": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kill_on_failure": true,
+      "oracle_kernel": "0.35*(0.65**(h-1))*delta",
+      "pearson_min": 0.9,
+      "perturbed_task_success_min": 0.85,
+      "requested_additive_magnitudes": [
+        -1.0,
+        -0.5,
+        0.5,
+        1.0
+      ],
+      "response_nrmse_max": 0.08,
+      "timings": [
+        "EARLY",
+        "MIDDLE",
+        "LATE"
+      ]
+    }
+  },
+  "canonical_response_ordering": [
+    "family",
+    "phase",
+    "intervention channel",
+    "magnitude",
+    "secondary intervention channel",
+    "secondary magnitude",
+    "response horizon",
+    "response semantic variable",
+    "interaction order"
+  ],
+  "confirmed_families": [
+    "conditional_routing",
+    "delayed_recall",
+    "iterative_state"
+  ],
+  "cross_organism_q_alignment": false,
+  "cross_organism_state_alignment": false,
+  "failure_memory": "all failed grammar/granularity/order/rank/family/organism/word/compression/control candidates logged; DO NOT RETRY UNCHANGED",
+  "final_unseen_rule": "open only after Program IR freeze; no grammar/coefficient changes; compare independently to organism and oracle",
+  "fresh_audit_consumed": false,
+  "gate_sha256": "2b779ca1032016f9309ba33879d9c9771f3542f3bb66c23142035e6d0c97089d",
+  "iterative_grammar": [
+    "I0_CONSTANT_RESPONSE",
+    "I1_IDENTITY_STATE",
+    "I2_AFFINE_UPDATE",
+    "I3_QUADRATIC_UPDATE"
+  ],
+  "local_branch_alias": "research-v837-causal-operator-canonicalization-program-ir",
+  "memory_gauge_rule": "READ gain r=1; absorb scale into WRITE gain",
+  "memory_grammar": [
+    "M0_CONSTANT",
+    "M1_DELAY_TABLE",
+    "M2A_RANK1_SIMPLE",
+    "M2_RANK1_MEMORY"
+  ],
+  "memory_lambda_bounds": [
+    -1.25,
+    1.25
+  ],
+  "memory_lambda_fit": "deterministic grid then bounded Brent refinement",
+  "memory_lambda_grid_points": 2049,
+  "meta_rule": "one preselected candidate per family; no refit; no fallback after META",
+  "neural_program_ir_forbidden": true,
+  "new_source_model_fits": 0,
+  "operator_word_partitions": {
+    "conditional_routing": {
+      "FINAL_UNSEEN_WORDS": [
+        "control_A_B_triple",
+        "unseen_known_magnitude_combo",
+        "midpoint_payload_magnitude",
+        "swapped_order"
+      ],
+      "FIT_WORDS": [
+        "control_only",
+        "payload_A_only",
+        "payload_B_only",
+        "control_x_A",
+        "control_x_B"
+      ],
+      "META_WORDS": [
+        "control_plus_payload_held_sign"
+      ],
+      "SELECT_WORDS": [
+        "A_x_B",
+        "opposite_sign_pairs"
+      ]
+    },
+    "delayed_recall": {
+      "FINAL_UNSEEN_WORDS": [
+        "delay_10",
+        "delay_11",
+        "delay_12"
+      ],
+      "FIT_WORDS": [
+        "delay_4",
+        "delay_6",
+        "delay_8"
+      ],
+      "META_WORDS": [
+        "delay_9"
+      ],
+      "SELECT_WORDS": [
+        "delay_5",
+        "delay_7"
+      ]
+    },
+    "iterative_state": {
+      "FINAL_UNSEEN_WORDS": [
+        "three_novel_order",
+        "four_step",
+        "four_alternating_sign",
+        "novel_time_locations",
+        "midpoint_magnitude"
+      ],
+      "FIT_WORDS": [
+        "single_early",
+        "single_middle",
+        "single_late",
+        "two_adjacent"
+      ],
+      "META_WORDS": [
+        "three_seen_magnitudes"
+      ],
+      "SELECT_WORDS": [
+        "two_separated",
+        "two_opposite_sign"
+      ]
+    }
+  },
+  "primitive_archive_population": false,
+  "primitives_promoted": 0,
+  "program": "V837ar_CAUSAL_OPERATOR_CANONICALIZATION_AND_PROGRAM_IR",
+  "program_ir_parameter_ceiling": 256,
+  "required_branch": "research/v837-causal-operator-canonicalization-program-ir",
+  "reused_aq_heldout_rule": ">=3/4 and both engines when N=4; exact frozen IR; no gain/bias/per-organism calibration",
+  "ridge_lambda": 1e-06,
+  "routing_granularity": [
+    "R0_FINE",
+    "R1_TWO_STAGE",
+    "R2_ATOMIC"
+  ],
+  "routing_order_ceiling": 2,
+  "semantic_normalization_rules": "benchmark semantic units only; never AF1D activation magnitude",
+  "shared_ir_equal_organism_weighting": true,
+  "source_architecture_changes": 0,
+  "source_optimizer_steps": 0,
+  "source_training_examples": 0,
+  "start_sha": "287d37743751554c68742bc275b558d7f9bb1f95",
+  "v837aq_contract_hash": "a6e9b46e91d3857c100da744f7ed8c24233d78edb5a80be47b857d0c7c0422ca",
+  "v837aq_program_contract_blob_hash": "6fdd717a56f726dbf8afdfcb42ee9d598f783788bd4fae10ac86c76d6e6025d8",
+  "v837aq_program_contract_hash": "461faadf9cb9cc1262c9a288236c08875ae5212685bb8dd06e6a4ed92768d9af",
+  "v837aq_results_hash": "6fdc2682ee191eaf377ebcd839bc5f494441226cd1c2210a094407fc9ea4663f",
+  "v837ar_specific_nrmse_control_margin": 0.05,
+  "v838_started": false,
+  "variable_composition_status": "NEGATIVE_CONTROL_ONLY_DO_NOT_RESCUE",
+  "version": "V837ar"
+}

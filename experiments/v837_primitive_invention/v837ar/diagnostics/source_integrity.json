@@ -1,0 +1,119 @@
+{
+  "aq_import": {
+    "aq_diagnosis": "CAUSAL_OPERATOR_FOUND_NOT_COMPOSITIONALLY_CLOSED",
+    "aq_discovery_composition": {
+      "conditional_routing": false,
+      "delayed_recall": false,
+      "iterative_state": true
+    },
+    "aq_fold_sha256": "b96eed0f053ec48b5cb183929296a371857e549ed05bbe9650df2ef32dee1c95",
+    "aq_folds_git_blob_sha256": "30f8647245e2e9d4bb3d5e13737e3094a6421b598be914454a5fc852306bdc66",
+    "aq_gate_git_blob_sha256": "a6e9b46e91d3857c100da744f7ed8c24233d78edb5a80be47b857d0c7c0422ca",
+    "aq_operator_contract_git_blob_sha256": "7cdbee0c8e17ce383b02f8e2b8e6161ff40d24a031c456e706281bb0f950d19a",
+    "aq_program_contract_git_blob_sha256": "6fdd717a56f726dbf8afdfcb42ee9d598f783788bd4fae10ac86c76d6e6025d8",
+    "aq_program_contract_hash": "461faadf9cb9cc1262c9a288236c08875ae5212685bb8dd06e6a4ed92768d9af",
+    "aq_results_git_blob_sha256": "6fdc2682ee191eaf377ebcd839bc5f494441226cd1c2210a094407fc9ea4663f",
+    "confirmed_families": [
+      "conditional_routing",
+      "delayed_recall",
+      "iterative_state"
+    ],
+    "fresh_audit_consumed": false,
+    "negative_family": "variable_composition",
+    "operator_orders": {
+      "conditional_routing": 2,
+      "delayed_recall": 1,
+      "iterative_state": 1
+    },
+    "predictive_rank99": {
+      "conditional_routing": 4,
+      "delayed_recall": 1,
+      "iterative_state": 3
+    },
+    "primitive_archive_population": false,
+    "primitives_promoted": 0,
+    "snapshot_sha256": "5f0e96bed3e4c4c3314e8fd72cf8c4957e7e26e66f4e1a5f63a49ce511c1fd3f",
+    "thresholds": {
+      "composition": {
+        "direction_agreement_min": 0.85,
+        "response_nrmse_max": 0.1,
+        "task_success_min": 0.8
+      },
+      "control_error_margin_min_aq": 0.03,
+      "control_error_margin_min_ar": 0.05,
+      "operator_gate": {
+        "direction_min": 0.85,
+        "family_pass": ">=60% and both engines",
+        "pearson_min": 0.85,
+        "response_nrmse_max": 0.1,
+        "task_success_min": 0.8,
+        "zero_effect_median_abs_max": 0.1
+      },
+      "reality_gate": {
+        "direction_agreement_min": 0.9,
+        "family": "iterative_state",
+        "family_pass": ">=60% discovery organisms and both structural-search engines",
+        "gain_ratio": [
+          0.75,
+          1.25
+        ],
+        "horizons": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "kill_on_failure": true,
+        "oracle_kernel": "0.35*(0.65**(h-1))*delta",
+        "pearson_min": 0.9,
+        "perturbed_task_success_min": 0.85,
+        "requested_additive_magnitudes": [
+          -1.0,
+          -0.5,
+          0.5,
+          1.0
+        ],
+        "response_nrmse_max": 0.08,
+        "timings": [
+          "EARLY",
+          "MIDDLE",
+          "LATE"
+        ]
+      }
+    },
+    "v838_started": false,
+    "version": "V837ar"
+  },
+  "fold_sha256": "b96eed0f053ec48b5cb183929296a371857e549ed05bbe9650df2ef32dee1c95",
+  "fresh_audit_consumed": false,
+  "new_source_model_fits": 0,
+  "pass": true,
+  "protected": {
+    "experiments/v837_primitive_invention/v837aq/frozen_program_level_causal_operator_gate.json": {
+      "head_blob_sha256": "a6e9b46e91d3857c100da744f7ed8c24233d78edb5a80be47b857d0c7c0422ca",
+      "start_blob_sha256": "a6e9b46e91d3857c100da744f7ed8c24233d78edb5a80be47b857d0c7c0422ca"
+    },
+    "experiments/v837_primitive_invention/v837aq/raw/frozen_operator_contracts.json": {
+      "head_blob_sha256": "7cdbee0c8e17ce383b02f8e2b8e6161ff40d24a031c456e706281bb0f950d19a",
+      "start_blob_sha256": "7cdbee0c8e17ce383b02f8e2b8e6161ff40d24a031c456e706281bb0f950d19a"
+    },
+    "experiments/v837_primitive_invention/v837aq/raw/frozen_program_operator_contracts.json": {
+      "head_blob_sha256": "6fdd717a56f726dbf8afdfcb42ee9d598f783788bd4fae10ac86c76d6e6025d8",
+      "start_blob_sha256": "6fdd717a56f726dbf8afdfcb42ee9d598f783788bd4fae10ac86c76d6e6025d8"
+    },
+    "experiments/v837_primitive_invention/v837aq/raw/frozen_source_folds.json": {
+      "head_blob_sha256": "30f8647245e2e9d4bb3d5e13737e3094a6421b598be914454a5fc852306bdc66",
+      "start_blob_sha256": "30f8647245e2e9d4bb3d5e13737e3094a6421b598be914454a5fc852306bdc66"
+    },
+    "experiments/v837_primitive_invention/v837aq/results.json": {
+      "head_blob_sha256": "6fdc2682ee191eaf377ebcd839bc5f494441226cd1c2210a094407fc9ea4663f",
+      "start_blob_sha256": "6fdc2682ee191eaf377ebcd839bc5f494441226cd1c2210a094407fc9ea4663f"
+    }
+  },
+  "source_architecture_frozen": true,
+  "source_optimizer_steps": 0,
+  "source_organisms_frozen": true,
+  "start_sha": "287d37743751554c68742bc275b558d7f9bb1f95",
+  "v838_started": false,
+  "version": "V837ar"
+}

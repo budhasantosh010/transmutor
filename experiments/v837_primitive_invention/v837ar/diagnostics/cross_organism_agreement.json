@@ -1,0 +1,58 @@
+{
+  "cross_organism_q_alignment": false,
+  "cross_organism_state_alignment": false,
+  "diagnostic_only": true,
+  "families": {
+    "conditional_routing": {
+      "available": false,
+      "canonical_agreement_pass": false,
+      "reason": "NO_FROZEN_PROGRAM_IR"
+    },
+    "delayed_recall": {
+      "available": true,
+      "canonical_agreement_pass": true,
+      "discovery_unseen_gate": {
+        "both_engines": true,
+        "organisms": 6,
+        "pass": true,
+        "pass_fraction": 1.0,
+        "passing": 6,
+        "passing_engines": [
+          "DIRECTED_STRUCTURAL_SEARCH",
+          "RANDOM_STRUCTURAL_SAMPLER"
+        ],
+        "required": 4
+      },
+      "grammar": "M2_RANK1_MEMORY",
+      "granularity": "PREDICTIVE_RANK1_MEMORY",
+      "individual_coefficients_used_for_prediction": false,
+      "median_normalized_coefficient_deviation": 0.04938207663088902,
+      "organisms": 6,
+      "p90_deviation": 0.06691247912361795,
+      "reused_heldout_gate": {
+        "both_engines": true,
+        "organisms": 4,
+        "pass": true,
+        "pass_fraction": 0.75,
+        "passing": 3,
+        "passing_engines": [
+          "DIRECTED_STRUCTURAL_SEARCH",
+          "RANDOM_STRUCTURAL_SAMPLER"
+        ],
+        "required": 3
+      },
+      "shared_fit_primary": true,
+      "shared_ir_sha256": "ab42c3fa4b2c4dead03304184050882cec53725770c7576d308f1d818521478f",
+      "sign_agreement": 1.0
+    },
+    "iterative_state": {
+      "available": false,
+      "canonical_agreement_pass": false,
+      "reason": "NO_FROZEN_PROGRAM_IR"
+    }
+  },
+  "individual_fit_diagnostic_only": true,
+  "shared_ir_is_deployed": true,
+  "stage": "AR12_CROSS_ORGANISM_CANONICAL_AGREEMENT",
+  "version": "V837ar"
+}
